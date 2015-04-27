@@ -1,0 +1,5976 @@
+format-version: 1.2
+ontology: TEMP
+
+[Term]
+id: CO_334:ROOT
+name: Cassava
+
+[Term]
+id: CO_334:Quality%20traits
+name: Quality traits
+relationship: is_a CO_334:ROOT
+
+[Term]
+id: CO_334:Physiological%20traits
+name: Physiological traits
+relationship: is_a CO_334:ROOT
+
+[Term]
+id: CO_334:Morphological%20traits
+name: Morphological traits
+relationship: is_a CO_334:ROOT
+
+[Term]
+id: CO_334:Biotic%20stress%20traits
+name: Biotic stress traits
+relationship: is_a CO_334:ROOT
+
+[Term]
+id: CO_334:Agronomical%20traits
+name: Agronomical traits
+relationship: is_a CO_334:ROOT
+
+[Term]
+id: CO_334:0100630
+name: Continuous
+relationship: scale_of CO_334:0010424
+
+[Term]
+id: CO_334:0100629
+name: Continuous
+relationship: scale_of CO_334:0010423
+
+[Term]
+id: CO_334:0100628
+name: Continuous
+relationship: scale_of CO_334:0010422
+
+[Term]
+id: CO_334:0100627
+name: Discrete
+relationship: scale_of CO_334:0010421
+
+[Term]
+id: CO_334:0100626
+name: Discrete
+relationship: scale_of CO_334:0010420
+
+[Term]
+id: CO_334:0100625
+name: Continuous
+relationship: scale_of CO_334:0010419
+
+[Term]
+id: CO_334:0100624
+name: Continuous
+relationship: scale_of CO_334:0010418
+
+[Term]
+id: CO_334:0100623
+name: Continuous
+relationship: scale_of CO_334:0010417
+
+[Term]
+id: CO_334:0100622
+name: Continuous
+relationship: scale_of CO_334:0010416
+
+[Term]
+id: CO_334:0100621
+name: Continuous
+relationship: scale_of CO_334:0010415
+
+[Term]
+id: CO_334:0100620
+name: Continuous
+relationship: scale_of CO_334:0010414
+
+[Term]
+id: CO_334:0100619
+name: Discrete
+relationship: scale_of CO_334:0010413
+
+[Term]
+id: CO_334:0100618
+name: Discrete
+relationship: scale_of CO_334:0010412
+
+[Term]
+id: CO_334:0100617
+name: Continuous
+relationship: scale_of CO_334:0010411
+
+[Term]
+id: CO_334:0100616
+name: Categorical
+relationship: scale_of CO_334:0010410
+
+[Term]
+id: CO_334:0100616/1
+name:  present
+synonym: 1 EXACT []
+relationship: is_a CO_334:0100616
+
+
+[Term]
+id: CO_334:0100616/2
+name:  absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100616
+
+
+[Term]
+id: CO_334:0100615
+name: Categorical
+relationship: scale_of CO_334:0010409
+
+[Term]
+id: CO_334:0100615/4
+name:  chlorosis on 30-50% of leaves
+synonym: 4 EXACT []
+relationship: is_a CO_334:0100615
+
+
+[Term]
+id: CO_334:0100615/1
+name:  none
+synonym: 1 EXACT []
+relationship: is_a CO_334:0100615
+
+
+[Term]
+id: CO_334:0100615/5
+name:  chlorosis on >50% of leaves
+synonym: 5 EXACT []
+relationship: is_a CO_334:0100615
+
+
+[Term]
+id: CO_334:0100615/3
+name:  damaged moderate chlorotic blotches on 10-30% of leaves
+synonym: 3 EXACT []
+relationship: is_a CO_334:0100615
+
+
+[Term]
+id: CO_334:0100615/2
+name: mild chlorotic blotches on <10% of leaves
+synonym: 2 EXACT []
+relationship: is_a CO_334:0100615
+
+
+[Term]
+id: CO_334:0100614
+name: Discrete
+relationship: scale_of CO_334:0010408
+
+[Term]
+id: CO_334:0100613
+name: Discrete
+relationship: scale_of CO_334:0010407
+
+[Term]
+id: CO_334:0100612
+name: Discrete
+relationship: scale_of CO_334:0010406
+
+[Term]
+id: CO_334:0100611
+name: Discrete
+relationship: scale_of CO_334:0010405
+
+[Term]
+id: CO_334:0100610
+name: Discrete
+relationship: scale_of CO_334:0010404
+
+[Term]
+id: CO_334:0100609
+name: Discrete
+relationship: scale_of CO_334:0010403
+
+[Term]
+id: CO_334:0100608
+name: Discrete
+relationship: scale_of CO_334:0010402
+
+[Term]
+id: CO_334:0100607
+name: Discrete
+relationship: scale_of CO_334:0010401
+
+[Term]
+id: CO_334:0100606
+name: Discrete
+relationship: scale_of CO_334:0010400
+
+[Term]
+id: CO_334:0100605
+name: Discrete
+relationship: scale_of CO_334:0010399
+
+[Term]
+id: CO_334:0100604
+name: Discrete
+relationship: scale_of CO_334:0010398
+
+[Term]
+id: CO_334:0100603
+name: Categorical
+relationship: scale_of CO_334:0010397
+
+[Term]
+id: CO_334:0100603/4
+name:  tetrachotomous
+synonym: 4 EXACT []
+relationship: is_a CO_334:0100603
+
+
+[Term]
+id: CO_334:0100603/1
+name:  erect
+synonym: 1 EXACT []
+relationship: is_a CO_334:0100603
+
+
+[Term]
+id: CO_334:0100603/3
+name: trichotomous
+synonym: 3 EXACT []
+relationship: is_a CO_334:0100603
+
+
+[Term]
+id: CO_334:0100603/2
+name: dichotomous
+synonym: 2 EXACT []
+relationship: is_a CO_334:0100603
+
+
+[Term]
+id: CO_334:0100602
+name: Continuous
+relationship: scale_of CO_334:0010396
+
+[Term]
+id: CO_334:0100601
+name: Discrete
+relationship: scale_of CO_334:0010395
+
+[Term]
+id: CO_334:0100600
+name: Continuous
+relationship: scale_of CO_334:0010394
+
+[Term]
+id: CO_334:0100599
+name: Continuous
+relationship: scale_of CO_334:0010393
+
+[Term]
+id: CO_334:0100598
+name: Discrete
+relationship: scale_of CO_334:0010392
+
+[Term]
+id: CO_334:0100597
+name: Continuous
+relationship: scale_of CO_334:0010391
+
+[Term]
+id: CO_334:0100596
+name: Continuous
+relationship: scale_of CO_334:0010390
+
+[Term]
+id: CO_334:0100595
+name: Continuous
+relationship: scale_of CO_334:0010389
+
+[Term]
+id: CO_334:0100594
+name: Discrete
+relationship: scale_of CO_334:0010388
+
+[Term]
+id: CO_334:0100593
+name: Continuous
+relationship: scale_of CO_334:0010387
+
+[Term]
+id: CO_334:0100592
+name: Continuous
+relationship: scale_of CO_334:0010386
+
+[Term]
+id: CO_334:0100591
+name: Continuous
+relationship: scale_of CO_334:0010385
+
+[Term]
+id: CO_334:0100590
+name: Continuous
+relationship: scale_of CO_334:0010384
+
+[Term]
+id: CO_334:0100589
+name: Continuous
+relationship: scale_of CO_334:0010383
+
+[Term]
+id: CO_334:0100588
+name: Continuous
+relationship: scale_of CO_334:0010382
+
+[Term]
+id: CO_334:0100587
+name: Continuous
+relationship: scale_of CO_334:0010381
+
+[Term]
+id: CO_334:0100586
+name: Continuous
+relationship: scale_of CO_334:0010380
+
+[Term]
+id: CO_334:0100585
+name: Continuous
+relationship: scale_of CO_334:0010379
+
+[Term]
+id: CO_334:0100584
+name: Continuous
+relationship: scale_of CO_334:0010378
+
+[Term]
+id: CO_334:0100583
+name: Continuous
+relationship: scale_of CO_334:0010377
+
+[Term]
+id: CO_334:0100582
+name: Continuous
+relationship: scale_of CO_334:0010376
+
+[Term]
+id: CO_334:0100581
+name: Continuous
+relationship: scale_of CO_334:0010375
+
+[Term]
+id: CO_334:0100580
+name: Continuous
+relationship: scale_of CO_334:0010374
+
+[Term]
+id: CO_334:0100579
+name: Continuous
+relationship: scale_of CO_334:0010373
+
+[Term]
+id: CO_334:0100578
+name: Continuous
+relationship: scale_of CO_334:0010372
+
+[Term]
+id: CO_334:0100577
+name: Continuous
+relationship: scale_of CO_334:0010371
+
+[Term]
+id: CO_334:0100576
+name: Continuous
+relationship: scale_of CO_334:0010370
+
+[Term]
+id: CO_334:0100575
+name: Continuous
+relationship: scale_of CO_334:0010369
+
+[Term]
+id: CO_334:0100574
+name: Continuous
+relationship: scale_of CO_334:0010368
+
+[Term]
+id: CO_334:0100573
+name: Discrete
+relationship: scale_of CO_334:0010367
+
+[Term]
+id: CO_334:0100572
+name: Continuous
+relationship: scale_of CO_334:0010366
+
+[Term]
+id: CO_334:0100571
+name: Categorical
+relationship: scale_of CO_334:0010365
+
+[Term]
+id: CO_334:0100571/1
+name:  Short
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100571
+
+
+[Term]
+id: CO_334:0100571/3
+name:  Long
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100571
+
+
+[Term]
+id: CO_334:0100571/2
+name:  Medium
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100571
+
+
+[Term]
+id: CO_334:0100570
+name: Categorical
+relationship: scale_of CO_334:0010364
+
+[Term]
+id: CO_334:0100570/1
+name:  Tending toward vertical
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100570
+
+
+[Term]
+id: CO_334:0100570/3
+name:  irregular
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100570
+
+
+[Term]
+id: CO_334:0100570/2
+name:  Tending toward horizontal
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100570
+
+
+[Term]
+id: CO_334:0100569
+name: Categorical
+relationship: scale_of CO_334:0010363
+
+[Term]
+id: CO_334:0100569/1
+name:  White or cream
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100569
+
+
+[Term]
+id: CO_334:0100569/3
+name:  Purple
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100569
+
+
+[Term]
+id: CO_334:0100569/2
+name:  Pink or red
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100569
+
+
+[Term]
+id: CO_334:0100568
+name: Categorical
+relationship: scale_of CO_334:0010362
+
+[Term]
+id: CO_334:0100568/4
+name:  Dark brown
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100568
+
+
+[Term]
+id: CO_334:0100568/1
+name:  Brown
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100568
+
+
+[Term]
+id: CO_334:0100568/3
+name:  Black
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100568
+
+
+[Term]
+id: CO_334:0100568/2
+name:  Grey
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100568
+
+
+[Term]
+id: CO_334:0100567
+name: Categorical
+relationship: scale_of CO_334:0010361
+
+[Term]
+id: CO_334:0100567/4
+name:  4
+synonym: 4 EXACT []
+relationship: is_a CO_334:0100567
+
+
+[Term]
+id: CO_334:0100567/1
+name:  1
+synonym: 1 EXACT []
+relationship: is_a CO_334:0100567
+
+
+[Term]
+id: CO_334:0100567/3
+name:  3
+synonym: 3 EXACT []
+relationship: is_a CO_334:0100567
+
+
+[Term]
+id: CO_334:0100567/2
+name:  2
+synonym: 2 EXACT []
+relationship: is_a CO_334:0100567
+
+
+[Term]
+id: CO_334:0100566
+name: Categorical
+relationship: scale_of CO_334:0010360
+
+[Term]
+id: CO_334:0100566/1
+name:  Smooth
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100566
+
+
+[Term]
+id: CO_334:0100566/2
+name:  Rough
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100566
+
+
+[Term]
+id: CO_334:0100565
+name: Categorical
+relationship: scale_of CO_334:0010359
+
+[Term]
+id: CO_334:0100565/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100565
+
+
+[Term]
+id: CO_334:0100565/2
+name:  Present
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100565
+
+
+[Term]
+id: CO_334:0100564
+name: Categorical
+relationship: scale_of CO_334:0010358
+
+[Term]
+id: CO_334:0100564/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100564
+
+
+[Term]
+id: CO_334:0100564/2
+name:  Present
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100564
+
+
+[Term]
+id: CO_334:0100563
+name: categorical
+relationship: scale_of CO_334:0010357
+
+[Term]
+id: CO_334:0100562
+name: Categorical
+relationship: scale_of CO_334:0010356
+
+[Term]
+id: CO_334:0100562/4
+name:  Red
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100562
+
+
+[Term]
+id: CO_334:0100562/1
+name:  White
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100562
+
+
+[Term]
+id: CO_334:0100562/5
+name:  Purple
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100562
+
+
+[Term]
+id: CO_334:0100562/3
+name:  Green
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100562
+
+
+[Term]
+id: CO_334:0100562/2
+name:  Orange
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100562
+
+
+[Term]
+id: CO_334:0100561
+name: Categorical
+relationship: scale_of CO_334:0010355
+
+[Term]
+id: CO_334:0100561/4
+name:  Red
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100561
+
+
+[Term]
+id: CO_334:0100561/1
+name:  White
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100561
+
+
+[Term]
+id: CO_334:0100561/5
+name:  Purple
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100561
+
+
+[Term]
+id: CO_334:0100561/3
+name:  Green
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100561
+
+
+[Term]
+id: CO_334:0100561/2
+name:  Orange
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100561
+
+
+[Term]
+id: CO_334:0100560
+name: Categorical
+relationship: scale_of CO_334:0010354
+
+[Term]
+id: CO_334:0100560/4
+name:  Red
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100560
+
+
+[Term]
+id: CO_334:0100560/1
+name:  White
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100560
+
+
+[Term]
+id: CO_334:0100560/5
+name:  Purple
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100560
+
+
+[Term]
+id: CO_334:0100560/3
+name:  Green
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100560
+
+
+[Term]
+id: CO_334:0100560/2
+name:  Orange
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100560
+
+
+[Term]
+id: CO_334:0100559
+name: Categorical
+relationship: scale_of CO_334:0010353
+
+[Term]
+id: CO_334:0100559/4
+name:  Red
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100559
+
+
+[Term]
+id: CO_334:0100559/1
+name:  White or cream
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100559
+
+
+[Term]
+id: CO_334:0100559/5
+name:  Purple
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100559
+
+
+[Term]
+id: CO_334:0100559/3
+name:  Green
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100559
+
+
+[Term]
+id: CO_334:0100559/2
+name:  Orange
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100559
+
+
+[Term]
+id: CO_334:0100558
+name: Continuous
+relationship: scale_of CO_334:0010352
+
+[Term]
+id: CO_334:0100557
+name: Discrete
+relationship: scale_of CO_334:0010351
+
+[Term]
+id: CO_334:0100556
+name: Discrete
+relationship: scale_of CO_334:0010350
+
+[Term]
+id: CO_334:0100555
+name: Categorical
+relationship: scale_of CO_334:0010349
+
+[Term]
+id: CO_334:0100555/1
+name:  Little prominence
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100555
+
+
+[Term]
+id: CO_334:0100555/3
+name:  Prominent
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100555
+
+
+[Term]
+id: CO_334:0100555/2
+name:  Moderate
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100555
+
+
+[Term]
+id: CO_334:0100554
+name: Categorical
+relationship: scale_of CO_334:0010348
+
+[Term]
+id: CO_334:0100554/4
+name:  High pubescence
+synonym: 7   EXACT []
+relationship: is_a CO_334:0100554
+
+
+[Term]
+id: CO_334:0100554/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100554
+
+
+[Term]
+id: CO_334:0100554/3
+name:  Moderate pubescence
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100554
+
+
+[Term]
+id: CO_334:0100554/2
+name:  Little pubescence
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100554
+
+
+[Term]
+id: CO_334:0100553
+name: Categorical
+relationship: scale_of CO_334:0010347
+
+[Term]
+id: CO_334:0100553/1
+name:  Straight
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100553
+
+
+[Term]
+id: CO_334:0100553/2
+name:   Zig-zag
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100553
+
+
+[Term]
+id: CO_334:0100552
+name: Categorical
+relationship: scale_of CO_334:0010346
+
+[Term]
+id: CO_334:0100552/4
+name:  Totally pigmented
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100552
+
+
+[Term]
+id: CO_334:0100552/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100552
+
+
+[Term]
+id: CO_334:0100552/3
+name:   Central part
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100552
+
+
+[Term]
+id: CO_334:0100552/2
+name:  Top part
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100552
+
+
+[Term]
+id: CO_334:0100551
+name: Categorical
+relationship: scale_of CO_334:0010345
+
+[Term]
+id: CO_334:0100551/4
+name:  Red
+synonym: 8  EXACT []
+relationship: is_a CO_334:0100551
+
+
+[Term]
+id: CO_334:0100551/1
+name:  Light green
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100551
+
+
+[Term]
+id: CO_334:0100551/5
+name:  Purple
+synonym: 9  EXACT []
+relationship: is_a CO_334:0100551
+
+
+[Term]
+id: CO_334:0100551/3
+name:  Green purple
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100551
+
+
+[Term]
+id: CO_334:0100551/2
+name:   Dark green
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100551
+
+
+[Term]
+id: CO_334:0100550
+name: Categorical
+relationship: scale_of CO_334:0010344
+
+[Term]
+id: CO_334:0100550/4
+name:  Long
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100550
+
+
+[Term]
+id: CO_334:0100550/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100550
+
+
+[Term]
+id: CO_334:0100550/3
+name:  Medium
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100550
+
+
+[Term]
+id: CO_334:0100550/2
+name:  Short
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100550
+
+
+[Term]
+id: CO_334:0100549
+name: Categorical
+relationship: scale_of CO_334:0010343
+
+[Term]
+id: CO_334:0100549/4
+name:  75-90
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100549
+
+
+[Term]
+id: CO_334:0100549/1
+name:  no petiole
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100549
+
+
+[Term]
+id: CO_334:0100549/3
+name:  45-60
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100549
+
+
+[Term]
+id: CO_334:0100549/2
+name:  15-30
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100549
+
+
+[Term]
+id: CO_334:0100548
+name: Categorical
+relationship: scale_of CO_334:0010342
+
+[Term]
+id: CO_334:0100548/4
+name:  Oblong-lanceolate
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100548
+
+
+[Term]
+id: CO_334:0100548/1
+name:  Ovoid
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100548
+
+
+[Term]
+id: CO_334:0100548/5
+name:  Lanceolate
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100548
+
+
+[Term]
+id: CO_334:0100548/3
+name:  Obovate-lanceolate
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100548
+
+
+[Term]
+id: CO_334:0100548/6
+name:  Straight or Linear
+synonym: 6  EXACT []
+relationship: is_a CO_334:0100548
+
+
+[Term]
+id: CO_334:0100548/2
+name:  Elliptic-lanceolate
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100548
+
+
+[Term]
+id: CO_334:0100547
+name: Categorical
+relationship: scale_of CO_334:0010341
+
+[Term]
+id: CO_334:0100547/4
+name:  Retorse
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100547
+
+
+[Term]
+id: CO_334:0100547/1
+name:  Erect
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100547
+
+
+[Term]
+id: CO_334:0100547/3
+name:  Deflexed
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100547
+
+
+[Term]
+id: CO_334:0100547/2
+name:  Horizontal
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100547
+
+
+[Term]
+id: CO_334:0100546
+name: Discrete
+relationship: scale_of CO_334:0010340
+
+[Term]
+id: CO_334:0100545
+name: Categorical
+relationship: scale_of CO_334:0010339
+
+[Term]
+id: CO_334:0100545/1
+name:   Short
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100545
+
+
+[Term]
+id: CO_334:0100545/3
+name:  Long
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100545
+
+
+[Term]
+id: CO_334:0100545/2
+name:  Medium
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100545
+
+
+[Term]
+id: CO_334:0100544
+name: Categorical
+relationship: scale_of CO_334:0010338
+
+[Term]
+id: CO_334:0100544/4
+name:  High pubescence
+synonym: 7   EXACT []
+relationship: is_a CO_334:0100544
+
+
+[Term]
+id: CO_334:0100544/1
+name:  Absence
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100544
+
+
+[Term]
+id: CO_334:0100544/3
+name:  Moderate pubescence
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100544
+
+
+[Term]
+id: CO_334:0100544/2
+name:  Little pubescence
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100544
+
+
+[Term]
+id: CO_334:0100543
+name: Categorical
+relationship: scale_of CO_334:0010337
+
+[Term]
+id: CO_334:0100543/4
+name:  Purple
+synonym: 9  EXACT []
+relationship: is_a CO_334:0100543
+
+
+[Term]
+id: CO_334:0100543/1
+name:  Light green
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100543
+
+
+[Term]
+id: CO_334:0100543/3
+name:  Green purple
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100543
+
+
+[Term]
+id: CO_334:0100543/2
+name:   Dark green
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100543
+
+
+[Term]
+id: CO_334:0100542
+name: Categorical
+relationship: scale_of CO_334:0010336
+
+[Term]
+id: CO_334:0100542/4
+name:  Purple
+synonym: 9  EXACT []
+relationship: is_a CO_334:0100542
+
+
+[Term]
+id: CO_334:0100542/1
+name:  Light green
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100542
+
+
+[Term]
+id: CO_334:0100542/3
+name:  Green purple
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100542
+
+
+[Term]
+id: CO_334:0100542/2
+name:   Dark green
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100542
+
+
+[Term]
+id: CO_334:0100541
+name: Categorical
+relationship: scale_of CO_334:0010335
+
+[Term]
+id: CO_334:0100541/4
+name:  Purple
+synonym: 9  EXACT []
+relationship: is_a CO_334:0100541
+
+
+[Term]
+id: CO_334:0100541/1
+name:  Light green
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100541
+
+
+[Term]
+id: CO_334:0100541/3
+name:  Green purple
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100541
+
+
+[Term]
+id: CO_334:0100541/2
+name:   Dark green
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100541
+
+
+[Term]
+id: CO_334:0100540
+name: Categorical
+relationship: scale_of CO_334:0010334
+
+[Term]
+id: CO_334:0100540/1
+name:  Low
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100540
+
+
+[Term]
+id: CO_334:0100540/3
+name:  High
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100540
+
+
+[Term]
+id: CO_334:0100540/2
+name:  Medium
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100540
+
+
+[Term]
+id: CO_334:0100539
+name: Categorical
+relationship: scale_of CO_334:0010333
+
+[Term]
+id: CO_334:0100539/1
+name:  unsuitable
+synonym: 0 EXACT []
+relationship: is_a CO_334:0100539
+
+
+[Term]
+id: CO_334:0100539/2
+name: suitable
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100539
+
+
+[Term]
+id: CO_334:0100538
+name: Continuous
+relationship: scale_of CO_334:0010332
+
+[Term]
+id: CO_334:0100537
+name: Continuous
+relationship: scale_of CO_334:0010331
+
+[Term]
+id: CO_334:0100536
+name: Continuous
+relationship: scale_of CO_334:0010330
+
+[Term]
+id: CO_334:0100535
+name: Continuous
+relationship: scale_of CO_334:0010329
+
+[Term]
+id: CO_334:0100534
+name: Discrete
+relationship: scale_of CO_334:0010328
+
+[Term]
+id: CO_334:0100533
+name: Discrete
+relationship: scale_of CO_334:0010327
+
+[Term]
+id: CO_334:0100532
+name: Continuous
+relationship: scale_of CO_334:0010326
+
+[Term]
+id: CO_334:0100531
+name: Categorical
+relationship: scale_of CO_334:0010325
+
+[Term]
+id: CO_334:0100531/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100531
+
+
+[Term]
+id: CO_334:0100531/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100531
+
+
+[Term]
+id: CO_334:0100531/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100531
+
+
+[Term]
+id: CO_334:0100531/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100531
+
+
+[Term]
+id: CO_334:0100531/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100531
+
+
+[Term]
+id: CO_334:0100530
+name: Continuous
+relationship: scale_of CO_334:0010324
+
+[Term]
+id: CO_334:0100529
+name: Categorical
+relationship: scale_of CO_334:0010323
+
+[Term]
+id: CO_334:0100529/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100529
+
+
+[Term]
+id: CO_334:0100529/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100529
+
+
+[Term]
+id: CO_334:0100529/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100529
+
+
+[Term]
+id: CO_334:0100529/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100529
+
+
+[Term]
+id: CO_334:0100529/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100529
+
+
+[Term]
+id: CO_334:0100528
+name: Categorical
+relationship: scale_of CO_334:0010322
+
+[Term]
+id: CO_334:0100528/4
+name: high branching
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100528
+
+
+[Term]
+id: CO_334:0100528/1
+name: no branching
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100528
+
+
+[Term]
+id: CO_334:0100528/3
+name: medium branching(>0.5m<
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100528
+
+
+[Term]
+id: CO_334:0100528/2
+name: low branching(<0.5m)
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100528
+
+
+[Term]
+id: CO_334:0100527
+name: Discrete
+relationship: scale_of CO_334:0010321
+
+[Term]
+id: CO_334:0100526
+name: Discrete
+relationship: scale_of CO_334:0010320
+
+[Term]
+id: CO_334:0100525
+name: Categorical
+relationship: scale_of CO_334:0010319
+
+[Term]
+id: CO_334:0100525/4
+name: light yellow
+synonym: 4 EXACT []
+relationship: is_a CO_334:0100525
+
+
+[Term]
+id: CO_334:0100525/8
+name: pink
+synonym: 8 EXACT []
+relationship: is_a CO_334:0100525
+
+
+[Term]
+id: CO_334:0100525/1
+name: white
+synonym: 1 EXACT []
+relationship: is_a CO_334:0100525
+
+
+[Term]
+id: CO_334:0100525/3
+name:  cream
+synonym: 3 EXACT []
+relationship: is_a CO_334:0100525
+
+
+[Term]
+id: CO_334:0100525/5
+name:  yellow
+synonym: 5 EXACT []
+relationship: is_a CO_334:0100525
+
+
+[Term]
+id: CO_334:0100525/7
+name:  orange
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100525
+
+
+[Term]
+id: CO_334:0100525/6
+name: deep yellow
+synonym: 6 EXACT []
+relationship: is_a CO_334:0100525
+
+
+[Term]
+id: CO_334:0100525/2
+name:  light cream
+synonym: 2 EXACT []
+relationship: is_a CO_334:0100525
+
+
+[Term]
+id: CO_334:0100524
+name: Continuous
+relationship: scale_of CO_334:0010318
+
+[Term]
+id: CO_334:0100523
+name: Continuous
+relationship: scale_of CO_334:0010317
+
+[Term]
+id: CO_334:0100522
+name: Continuous
+relationship: scale_of CO_334:0010316
+
+[Term]
+id: CO_334:0100521
+name: Continuous
+relationship: scale_of CO_334:0010315
+
+[Term]
+id: CO_334:0100520
+name: Continuous
+relationship: scale_of CO_334:0010314
+
+[Term]
+id: CO_334:0100519
+name: Continuous
+relationship: scale_of CO_334:0010313
+
+[Term]
+id: CO_334:0100518
+name: Categorical
+relationship: scale_of CO_334:0010312
+
+[Term]
+id: CO_334:0100518/1
+name:  Smooth
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100518
+
+
+[Term]
+id: CO_334:0100518/3
+name:  Rough
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100518
+
+
+[Term]
+id: CO_334:0100518/2
+name:  Intermediate
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100518
+
+
+[Term]
+id: CO_334:0100517
+name: Categorical
+relationship: scale_of CO_334:0010311
+
+[Term]
+id: CO_334:0100517/1
+name:  White or cream
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100517
+
+
+[Term]
+id: CO_334:0100517/3
+name:  Dark brown
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100517
+
+
+[Term]
+id: CO_334:0100517/2
+name:  Light brown
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100517
+
+
+[Term]
+id: CO_334:0100516
+name: Categorical
+relationship: scale_of CO_334:0010310
+
+[Term]
+id: CO_334:0100516/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100516
+
+
+[Term]
+id: CO_334:0100516/3
+name:  Mixte"}
+synonym: {"french":"5  EXACT []
+relationship: is_a CO_334:0100516
+
+
+[Term]
+id: CO_334:0100516/2
+name:  Present
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100516
+
+
+[Term]
+id: CO_334:0100515
+name: Categorical
+relationship: scale_of CO_334:0010309
+
+[Term]
+id: CO_334:0100515/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100515
+
+
+[Term]
+id: CO_334:0100515/3
+name:  Mixed
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100515
+
+
+[Term]
+id: CO_334:0100515/2
+name:  Pedunclate
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100515
+
+
+[Term]
+id: CO_334:0100514
+name: Categorical
+relationship: scale_of CO_334:0010308
+
+[Term]
+id: CO_334:0100514/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100514
+
+
+[Term]
+id: CO_334:0100514/2
+name:  Present
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100514
+
+
+[Term]
+id: CO_334:0100513
+name: Categorical
+relationship: scale_of CO_334:0010307
+
+[Term]
+id: CO_334:0100513/1
+name:  Absent
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100513
+
+
+[Term]
+id: CO_334:0100513/2
+name:  Present
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100513
+
+
+[Term]
+id: CO_334:0100512
+name: Categorical
+relationship: scale_of CO_334:0010306
+
+[Term]
+id: CO_334:0100512/4
+name:  Bad
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100512
+
+
+[Term]
+id: CO_334:0100512/1
+name:  Excellent
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100512
+
+
+[Term]
+id: CO_334:0100512/5
+name:  Very bad
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100512
+
+
+[Term]
+id: CO_334:0100512/3
+name:  Fair
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100512
+
+
+[Term]
+id: CO_334:0100512/2
+name:  Good
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100512
+
+
+[Term]
+id: CO_334:0100511
+name: Categorical
+relationship: scale_of CO_334:0010305
+
+[Term]
+id: CO_334:0100511/4
+name:  high susceptibility
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100511
+
+
+[Term]
+id: CO_334:0100511/1
+name:  no stress
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100511
+
+
+[Term]
+id: CO_334:0100511/3
+name:  medium suceptibility
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100511
+
+
+[Term]
+id: CO_334:0100511/2
+name:  low susceptibility
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100511
+
+
+[Term]
+id: CO_334:0100510
+name: Continuous
+relationship: scale_of CO_334:0010304
+
+[Term]
+id: CO_334:0100509
+name: Continuous
+relationship: scale_of CO_334:0010303
+
+[Term]
+id: CO_334:0100508
+name: Categorical
+relationship: scale_of CO_334:0010302
+
+[Term]
+id: CO_334:0100508/4
+name:  75-90
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100508
+
+
+[Term]
+id: CO_334:0100508/1
+name:  no branching
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100508
+
+
+[Term]
+id: CO_334:0100508/3
+name:  45-60
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100508
+
+
+[Term]
+id: CO_334:0100508/2
+name:  15-30
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100508
+
+
+[Term]
+id: CO_334:0100507
+name: Categorical
+relationship: scale_of CO_334:0010301
+
+[Term]
+id: CO_334:0100507/4
+name:  dark green
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100507
+
+
+[Term]
+id: CO_334:0100507/1
+name:  Silver
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100507
+
+
+[Term]
+id: CO_334:0100507/3
+name:  dark brown
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100507
+
+
+[Term]
+id: CO_334:0100507/2
+name:  light brown or orange
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100507
+
+
+[Term]
+id: CO_334:0100506
+name: Continuous
+relationship: scale_of CO_334:0010300
+
+[Term]
+id: CO_334:0100505
+name: Categorical
+relationship: scale_of CO_334:0010299
+
+[Term]
+id: CO_334:0100505/1
+name:  not detectable
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100505
+
+
+[Term]
+id: CO_334:0100505/2
+name:  very high
+synonym: 9  EXACT []
+relationship: is_a CO_334:0100505
+
+
+[Term]
+id: CO_334:0100504
+name: Categorical
+relationship: scale_of CO_334:0010298
+
+[Term]
+id: CO_334:0100504/1
+name:  White
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100504
+
+
+[Term]
+id: CO_334:0100504/3
+name:  Yellow
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100504
+
+
+[Term]
+id: CO_334:0100504/2
+name:  Cream
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100504
+
+
+[Term]
+id: CO_334:0100503
+name: Categorical
+relationship: scale_of CO_334:0010297
+
+[Term]
+id: CO_334:0100503/1
+name:  Bland
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100503
+
+
+[Term]
+id: CO_334:0100503/3
+name:  Bitter
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100503
+
+
+[Term]
+id: CO_334:0100503/2
+name:  Sweet
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100503
+
+
+[Term]
+id: CO_334:0100502
+name: Categorical
+relationship: scale_of CO_334:0010296
+
+[Term]
+id: CO_334:0100502/4
+name:  Very poundable
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100502
+
+
+[Term]
+id: CO_334:0100502/1
+name:  Non-poundable
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100502
+
+
+[Term]
+id: CO_334:0100502/3
+name:  Poundable
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100502
+
+
+[Term]
+id: CO_334:0100502/2
+name:  Slightly poundable
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100502
+
+
+[Term]
+id: CO_334:0100501
+name: Discrete
+relationship: scale_of CO_334:0010295
+
+[Term]
+id: CO_334:0100500
+name: Categorical
+relationship: scale_of CO_334:0010294
+
+[Term]
+id: CO_334:0100500/1
+name:  easy
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100500
+
+
+[Term]
+id: CO_334:0100500/2
+name:  difficult
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100500
+
+
+[Term]
+id: CO_334:0100499
+name: Categorical
+relationship: scale_of CO_334:0010293
+
+[Term]
+id: CO_334:0100499/4
+name:  Long
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100499
+
+
+[Term]
+id: CO_334:0100499/1
+name:  absent or sessile
+synonym: 0  EXACT []
+relationship: is_a CO_334:0100499
+
+
+[Term]
+id: CO_334:0100499/3
+name:  Medium
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100499
+
+
+[Term]
+id: CO_334:0100499/2
+name:  Short
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100499
+
+
+[Term]
+id: CO_334:0100498
+name: Categorical
+relationship: scale_of CO_334:0010292
+
+[Term]
+id: CO_334:0100498/1
+name:  White or cream
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100498
+
+
+[Term]
+id: CO_334:0100498/3
+name:  pink
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100498
+
+
+[Term]
+id: CO_334:0100498/2
+name:  yellow
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100498
+
+
+[Term]
+id: CO_334:0100497
+name: Categorical
+relationship: scale_of CO_334:0010291
+
+[Term]
+id: CO_334:0100497/4
+name:  purple
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100497
+
+
+[Term]
+id: CO_334:0100497/1
+name:  White or cream
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100497
+
+
+[Term]
+id: CO_334:0100497/3
+name:  pink
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100497
+
+
+[Term]
+id: CO_334:0100497/2
+name:  yellow
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100497
+
+
+[Term]
+id: CO_334:0100496
+name: Categorical
+relationship: scale_of CO_334:0010290
+
+[Term]
+id: CO_334:0100496/4
+name:  purple
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100496
+
+
+[Term]
+id: CO_334:0100496/1
+name:  White or cream
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100496
+
+
+[Term]
+id: CO_334:0100496/3
+name:  pink
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100496
+
+
+[Term]
+id: CO_334:0100496/2
+name:  yellow
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100496
+
+
+[Term]
+id: CO_334:0100495
+name: Categorical
+relationship: scale_of CO_334:0010289
+
+[Term]
+id: CO_334:0100495/4
+name:  Fusiform
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100495
+
+
+[Term]
+id: CO_334:0100495/1
+name:  Conical
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100495
+
+
+[Term]
+id: CO_334:0100495/5
+name:  Irregular
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100495
+
+
+[Term]
+id: CO_334:0100495/3
+name:  Cylindrical
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100495
+
+
+[Term]
+id: CO_334:0100495/6
+name:  Combination of above
+synonym: 6  EXACT []
+relationship: is_a CO_334:0100495
+
+
+[Term]
+id: CO_334:0100495/2
+name:  conical-cylindrical
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100495
+
+
+[Term]
+id: CO_334:0100494
+name: Categorical
+relationship: scale_of CO_334:0010288
+
+[Term]
+id: CO_334:0100494/1
+name:  Short
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100494
+
+
+[Term]
+id: CO_334:0100494/3
+name:  Long
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100494
+
+
+[Term]
+id: CO_334:0100494/2
+name:  Medium
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100494
+
+
+[Term]
+id: CO_334:0100493
+name: Continuous
+relationship: scale_of CO_334:0010287
+
+[Term]
+id: CO_334:0100492
+name: Continuous
+relationship: scale_of CO_334:0010286
+
+[Term]
+id: CO_334:0100491
+name: Discrete
+relationship: scale_of CO_334:0010285
+
+[Term]
+id: CO_334:0100490
+name: Discrete
+relationship: scale_of CO_334:0010284
+
+[Term]
+id: CO_334:0100489
+name: Categorical
+relationship: scale_of CO_334:0010283
+
+[Term]
+id: CO_334:0100489/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100489
+
+
+[Term]
+id: CO_334:0100489/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100489
+
+
+[Term]
+id: CO_334:0100489/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100489
+
+
+[Term]
+id: CO_334:0100489/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100489
+
+
+[Term]
+id: CO_334:0100489/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100489
+
+
+[Term]
+id: CO_334:0100488
+name: Continuous
+relationship: scale_of CO_334:0010282
+
+[Term]
+id: CO_334:0100487
+name: Continuous
+relationship: scale_of CO_334:0010281
+
+[Term]
+id: CO_334:0100486
+name: Categorical
+relationship: scale_of CO_334:0010280
+
+[Term]
+id: CO_334:0100486/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100486
+
+
+[Term]
+id: CO_334:0100486/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100486
+
+
+[Term]
+id: CO_334:0100486/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100486
+
+
+[Term]
+id: CO_334:0100486/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100486
+
+
+[Term]
+id: CO_334:0100486/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100486
+
+
+[Term]
+id: CO_334:0100485
+name: Categorical
+relationship: scale_of CO_334:0010279
+
+[Term]
+id: CO_334:0100485/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100485
+
+
+[Term]
+id: CO_334:0100485/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100485
+
+
+[Term]
+id: CO_334:0100485/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100485
+
+
+[Term]
+id: CO_334:0100485/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100485
+
+
+[Term]
+id: CO_334:0100485/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100485
+
+
+[Term]
+id: CO_334:0100484
+name: Continuous
+relationship: scale_of CO_334:0010278
+
+[Term]
+id: CO_334:0100483
+name: Continuous
+relationship: scale_of CO_334:0010277
+
+[Term]
+id: CO_334:0100482
+name: Continuous
+relationship: scale_of CO_334:0010276
+
+[Term]
+id: CO_334:0100481
+name: Continuous
+relationship: scale_of CO_334:0010275
+
+[Term]
+id: CO_334:0100480
+name: Continuous
+relationship: scale_of CO_334:0010274
+
+[Term]
+id: CO_334:0100479
+name: Categorical
+relationship: scale_of CO_334:0010273
+
+[Term]
+id: CO_334:0100479/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100479
+
+
+[Term]
+id: CO_334:0100479/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100479
+
+
+[Term]
+id: CO_334:0100479/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100479
+
+
+[Term]
+id: CO_334:0100479/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100479
+
+
+[Term]
+id: CO_334:0100479/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100479
+
+
+[Term]
+id: CO_334:0100478
+name: Categorical
+relationship: scale_of CO_334:0010272
+
+[Term]
+id: CO_334:0100478/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100478
+
+
+[Term]
+id: CO_334:0100478/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100478
+
+
+[Term]
+id: CO_334:0100478/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100478
+
+
+[Term]
+id: CO_334:0100478/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100478
+
+
+[Term]
+id: CO_334:0100478/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100478
+
+
+[Term]
+id: CO_334:0100477
+name: Categorical
+relationship: scale_of CO_334:0010271
+
+[Term]
+id: CO_334:0100477/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100477
+
+
+[Term]
+id: CO_334:0100477/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100477
+
+
+[Term]
+id: CO_334:0100477/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100477
+
+
+[Term]
+id: CO_334:0100477/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100477
+
+
+[Term]
+id: CO_334:0100477/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100477
+
+
+[Term]
+id: CO_334:0100476
+name: Categorical
+relationship: scale_of CO_334:0010270
+
+[Term]
+id: CO_334:0100476/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100476
+
+
+[Term]
+id: CO_334:0100476/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100476
+
+
+[Term]
+id: CO_334:0100476/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100476
+
+
+[Term]
+id: CO_334:0100476/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100476
+
+
+[Term]
+id: CO_334:0100476/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100476
+
+
+[Term]
+id: CO_334:0100475
+name: Categorical
+relationship: scale_of CO_334:0010269
+
+[Term]
+id: CO_334:0100475/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100475
+
+
+[Term]
+id: CO_334:0100475/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100475
+
+
+[Term]
+id: CO_334:0100475/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100475
+
+
+[Term]
+id: CO_334:0100475/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100475
+
+
+[Term]
+id: CO_334:0100475/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100475
+
+
+[Term]
+id: CO_334:0100474
+name: Continuous
+relationship: scale_of CO_334:0010268
+
+[Term]
+id: CO_334:0100473
+name: Categorical
+relationship: scale_of CO_334:0010267
+
+[Term]
+id: CO_334:0100473/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100473
+
+
+[Term]
+id: CO_334:0100473/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100473
+
+
+[Term]
+id: CO_334:0100473/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100473
+
+
+[Term]
+id: CO_334:0100473/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100473
+
+
+[Term]
+id: CO_334:0100473/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100473
+
+
+[Term]
+id: CO_334:0100472
+name: Categorical
+relationship: scale_of CO_334:0010266
+
+[Term]
+id: CO_334:0100472/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100472
+
+
+[Term]
+id: CO_334:0100472/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100472
+
+
+[Term]
+id: CO_334:0100472/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100472
+
+
+[Term]
+id: CO_334:0100472/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100472
+
+
+[Term]
+id: CO_334:0100472/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100472
+
+
+[Term]
+id: CO_334:0100471
+name: Categorical
+relationship: scale_of CO_334:0010265
+
+[Term]
+id: CO_334:0100471/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100471
+
+
+[Term]
+id: CO_334:0100471/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100471
+
+
+[Term]
+id: CO_334:0100471/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100471
+
+
+[Term]
+id: CO_334:0100471/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100471
+
+
+[Term]
+id: CO_334:0100471/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100471
+
+
+[Term]
+id: CO_334:0100470
+name: Categorical
+relationship: scale_of CO_334:0010264
+
+[Term]
+id: CO_334:0100470/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100470
+
+
+[Term]
+id: CO_334:0100470/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100470
+
+
+[Term]
+id: CO_334:0100470/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100470
+
+
+[Term]
+id: CO_334:0100470/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100470
+
+
+[Term]
+id: CO_334:0100470/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100470
+
+
+[Term]
+id: CO_334:0100469
+name: Continuous
+relationship: scale_of CO_334:0010263
+
+[Term]
+id: CO_334:0100468
+name: Continuous
+relationship: scale_of CO_334:0010262
+
+[Term]
+id: CO_334:0100467
+name: Continuous
+relationship: scale_of CO_334:0010261
+
+[Term]
+id: CO_334:0100466
+name: Continuous
+relationship: scale_of CO_334:0010260
+
+[Term]
+id: CO_334:0100465
+name: Continuous
+relationship: scale_of CO_334:0010259
+
+[Term]
+id: CO_334:0100464
+name: Continuous
+relationship: scale_of CO_334:0010258
+
+[Term]
+id: CO_334:0100463
+name: Continuous
+relationship: scale_of CO_334:0010257
+
+[Term]
+id: CO_334:0100462
+name: Continuous
+relationship: scale_of CO_334:0010256
+
+[Term]
+id: CO_334:0100461
+name: Categorical
+relationship: scale_of CO_334:0010255
+
+[Term]
+id: CO_334:0100461/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100461
+
+
+[Term]
+id: CO_334:0100461/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100461
+
+
+[Term]
+id: CO_334:0100461/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100461
+
+
+[Term]
+id: CO_334:0100461/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100461
+
+
+[Term]
+id: CO_334:0100461/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100461
+
+
+[Term]
+id: CO_334:0100460
+name: Categorical
+relationship: scale_of CO_334:0010254
+
+[Term]
+id: CO_334:0100460/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100460
+
+
+[Term]
+id: CO_334:0100460/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100460
+
+
+[Term]
+id: CO_334:0100460/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100460
+
+
+[Term]
+id: CO_334:0100460/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100460
+
+
+[Term]
+id: CO_334:0100460/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100460
+
+
+[Term]
+id: CO_334:0100459
+name: Categorical
+relationship: scale_of CO_334:0010253
+
+[Term]
+id: CO_334:0100459/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100459
+
+
+[Term]
+id: CO_334:0100459/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100459
+
+
+[Term]
+id: CO_334:0100459/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100459
+
+
+[Term]
+id: CO_334:0100459/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100459
+
+
+[Term]
+id: CO_334:0100459/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100459
+
+
+[Term]
+id: CO_334:0100458
+name: Categorical
+relationship: scale_of CO_334:0010252
+
+[Term]
+id: CO_334:0100458/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100458
+
+
+[Term]
+id: CO_334:0100458/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100458
+
+
+[Term]
+id: CO_334:0100458/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100458
+
+
+[Term]
+id: CO_334:0100458/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100458
+
+
+[Term]
+id: CO_334:0100458/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100458
+
+
+[Term]
+id: CO_334:0100457
+name: Categorical
+relationship: scale_of CO_334:0010251
+
+[Term]
+id: CO_334:0100457/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100457
+
+
+[Term]
+id: CO_334:0100457/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100457
+
+
+[Term]
+id: CO_334:0100457/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100457
+
+
+[Term]
+id: CO_334:0100457/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100457
+
+
+[Term]
+id: CO_334:0100457/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100457
+
+
+[Term]
+id: CO_334:0100456
+name: Continuous
+relationship: scale_of CO_334:0010250
+
+[Term]
+id: CO_334:0100455
+name: Continuous
+relationship: scale_of CO_334:0010249
+
+[Term]
+id: CO_334:0100454
+name: Continuous
+relationship: scale_of CO_334:0010248
+
+[Term]
+id: CO_334:0100453
+name: Continuous
+relationship: scale_of CO_334:0010247
+
+[Term]
+id: CO_334:0100452
+name: Continuous
+relationship: scale_of CO_334:0010246
+
+[Term]
+id: CO_334:0100451
+name: Categorical
+relationship: scale_of CO_334:0010245
+
+[Term]
+id: CO_334:0100451/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100451
+
+
+[Term]
+id: CO_334:0100451/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100451
+
+
+[Term]
+id: CO_334:0100451/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100451
+
+
+[Term]
+id: CO_334:0100451/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100451
+
+
+[Term]
+id: CO_334:0100451/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100451
+
+
+[Term]
+id: CO_334:0100450
+name: Categorical
+relationship: scale_of CO_334:0010244
+
+[Term]
+id: CO_334:0100450/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100450
+
+
+[Term]
+id: CO_334:0100450/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100450
+
+
+[Term]
+id: CO_334:0100450/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100450
+
+
+[Term]
+id: CO_334:0100450/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100450
+
+
+[Term]
+id: CO_334:0100450/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100450
+
+
+[Term]
+id: CO_334:0100449
+name: Categorical
+relationship: scale_of CO_334:0010243
+
+[Term]
+id: CO_334:0100449/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100449
+
+
+[Term]
+id: CO_334:0100449/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100449
+
+
+[Term]
+id: CO_334:0100449/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100449
+
+
+[Term]
+id: CO_334:0100449/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100449
+
+
+[Term]
+id: CO_334:0100449/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100449
+
+
+[Term]
+id: CO_334:0100448
+name: Categorical
+relationship: scale_of CO_334:0010242
+
+[Term]
+id: CO_334:0100448/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100448
+
+
+[Term]
+id: CO_334:0100448/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100448
+
+
+[Term]
+id: CO_334:0100448/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100448
+
+
+[Term]
+id: CO_334:0100448/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100448
+
+
+[Term]
+id: CO_334:0100448/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100448
+
+
+[Term]
+id: CO_334:0100447
+name: Categorical
+relationship: scale_of CO_334:0010241
+
+[Term]
+id: CO_334:0100447/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100447
+
+
+[Term]
+id: CO_334:0100447/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100447
+
+
+[Term]
+id: CO_334:0100447/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100447
+
+
+[Term]
+id: CO_334:0100447/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100447
+
+
+[Term]
+id: CO_334:0100447/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100447
+
+
+[Term]
+id: CO_334:0100446
+name: Continuous
+relationship: scale_of CO_334:0010240
+
+[Term]
+id: CO_334:0100445
+name: Continuous
+relationship: scale_of CO_334:0010239
+
+[Term]
+id: CO_334:0100444
+name: Continuous
+relationship: scale_of CO_334:0010238
+
+[Term]
+id: CO_334:0100443
+name: Continuous
+relationship: scale_of CO_334:0010237
+
+[Term]
+id: CO_334:0100442
+name: Continuous
+relationship: scale_of CO_334:0010236
+
+[Term]
+id: CO_334:0100441
+name: Continuous
+relationship: scale_of CO_334:0010235
+
+[Term]
+id: CO_334:0100440
+name: Categorical
+relationship: scale_of CO_334:0010234
+
+[Term]
+id: CO_334:0100440/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100440
+
+
+[Term]
+id: CO_334:0100440/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100440
+
+
+[Term]
+id: CO_334:0100440/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100440
+
+
+[Term]
+id: CO_334:0100440/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100440
+
+
+[Term]
+id: CO_334:0100440/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100440
+
+
+[Term]
+id: CO_334:0100439
+name: Categorical
+relationship: scale_of CO_334:0010233
+
+[Term]
+id: CO_334:0100439/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100439
+
+
+[Term]
+id: CO_334:0100439/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100439
+
+
+[Term]
+id: CO_334:0100439/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100439
+
+
+[Term]
+id: CO_334:0100439/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100439
+
+
+[Term]
+id: CO_334:0100439/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100439
+
+
+[Term]
+id: CO_334:0100438
+name: Categorical
+relationship: scale_of CO_334:0010232
+
+[Term]
+id: CO_334:0100438/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100438
+
+
+[Term]
+id: CO_334:0100438/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100438
+
+
+[Term]
+id: CO_334:0100438/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100438
+
+
+[Term]
+id: CO_334:0100438/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100438
+
+
+[Term]
+id: CO_334:0100438/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100438
+
+
+[Term]
+id: CO_334:0100437
+name: Categorical
+relationship: scale_of CO_334:0010231
+
+[Term]
+id: CO_334:0100437/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100437
+
+
+[Term]
+id: CO_334:0100437/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100437
+
+
+[Term]
+id: CO_334:0100437/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100437
+
+
+[Term]
+id: CO_334:0100437/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100437
+
+
+[Term]
+id: CO_334:0100437/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100437
+
+
+[Term]
+id: CO_334:0100436
+name: Categorical
+relationship: scale_of CO_334:0010230
+
+[Term]
+id: CO_334:0100436/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100436
+
+
+[Term]
+id: CO_334:0100436/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100436
+
+
+[Term]
+id: CO_334:0100436/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100436
+
+
+[Term]
+id: CO_334:0100436/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100436
+
+
+[Term]
+id: CO_334:0100436/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100436
+
+
+[Term]
+id: CO_334:0100435
+name: Categorical
+relationship: scale_of CO_334:0010229
+
+[Term]
+id: CO_334:0100435/4
+name:  Very severe
+synonym: 4  EXACT []
+relationship: is_a CO_334:0100435
+
+
+[Term]
+id: CO_334:0100435/1
+name:  No symptom
+synonym: 1  EXACT []
+relationship: is_a CO_334:0100435
+
+
+[Term]
+id: CO_334:0100435/5
+name:  Extremely severe
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100435
+
+
+[Term]
+id: CO_334:0100435/3
+name:  Severe
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100435
+
+
+[Term]
+id: CO_334:0100435/2
+name:  Mild
+synonym: 2  EXACT []
+relationship: is_a CO_334:0100435
+
+
+[Term]
+id: CO_334:0100434
+name: Categorical
+relationship: scale_of CO_334:0010228
+
+[Term]
+id: CO_334:0100434/1
+name:  Low
+synonym: 3  EXACT []
+relationship: is_a CO_334:0100434
+
+
+[Term]
+id: CO_334:0100434/3
+name:  High
+synonym: 7  EXACT []
+relationship: is_a CO_334:0100434
+
+
+[Term]
+id: CO_334:0100434/2
+name:  Intermediate
+synonym: 5  EXACT []
+relationship: is_a CO_334:0100434
+
+
+[Term]
+id: CO_334:0100433
+name: Discrete
+relationship: scale_of CO_334:0010227
+
+[Term]
+id: CO_334:0100432
+name: Discrete
+relationship: scale_of CO_334:0010226
+
+[Term]
+id: CO_334:0100431
+name: Discrete
+relationship: scale_of CO_334:0010225
+
+[Term]
+id: CO_334:0100430
+name: Discrete
+relationship: scale_of CO_334:0010224
+
+[Term]
+id: CO_334:0100429
+name: Discrete
+relationship: scale_of CO_334:0010223
+
+[Term]
+id: CO_334:0100428
+name: Discrete
+relationship: scale_of CO_334:0010222
+
+[Term]
+id: CO_334:0100427
+name: Discrete
+relationship: scale_of CO_334:0010221
+
+[Term]
+id: CO_334:0100426
+name: Continuous
+relationship: scale_of CO_334:0010220
+
+[Term]
+id: CO_334:0010424
+name: Estimation :b crypto_method
+def: "estimation of  b-cryptoxanthin (carotenoid that has hydroxyl group with 50% activity" []
+relationship: method_of CO_334:0000174
+
+[Term]
+id: CO_334:0010423
+name: Estimation :cis 9_method
+def: "estimation of isomer activity with 50%  proVitamin A (%)" []
+relationship: method_of CO_334:0000173
+
+[Term]
+id: CO_334:0010422
+name: Estimation :trans 9_method
+def: "estimation of beta carotenoid components with 100% proVitamin A activity" []
+relationship: method_of CO_334:0000172
+
+[Term]
+id: CO_334:0010421
+name: Counting:number of seeds sown_method
+def: "count of the number of seeds sown per family in the pre-nursery or directly in the nursery bed" []
+relationship: method_of CO_334:0000167
+
+[Term]
+id: CO_334:0010420
+name: Counting:germination count_method
+def: "count of the number of emerging seedlings from each family in the pre-nursery done on a daily bases until its ready for transplanting" []
+relationship: method_of CO_334:0000166
+
+[Term]
+id: CO_334:0010419
+name: Measurement :leaf lobe width_method
+def: "measured width of the middle finger or lobe of matured leaf" []
+relationship: method_of CO_334:0000165
+
+[Term]
+id: CO_334:0010418
+name: Measurement :leaf lobe length_method
+def: "measured length of the middle finger or lobe of matured leaf" []
+relationship: method_of CO_334:0000164
+
+[Term]
+id: CO_334:0010417
+name: Measurement :specific gravity_method
+def: "estimated value obtained by weighing 4-5kg of cassava in air and in water" []
+relationship: method_of CO_334:0000163
+
+[Term]
+id: CO_334:0010416
+name: Measurement :root weight in water_method
+def: "measured weight obtained by suspending same root sample initially weighed in air,water to determine the sample dry matter by specific gravity" []
+relationship: method_of CO_334:0000158
+
+[Term]
+id: CO_334:0010415
+name: Measurement :root weight in air_method
+def: "measured weight of cassava root samples (kg) between 4 - 5kg of each of the harvested plot to determine the dry matter by specific gravity" []
+relationship: method_of CO_334:0000157
+
+[Term]
+id: CO_334:0010414
+name: Estimation :total carotenoid by icheck method_method
+def: "measurement of total carotenoid content in a giving cassava storage root sample using icheck kits or device" []
+relationship: method_of CO_334:0000162
+
+[Term]
+id: CO_334:0010413
+name: Counting:number of fruits _method
+def: "count of the number of fruits observed at all levels of branching per plot" []
+relationship: method_of CO_334:0000156
+
+[Term]
+id: CO_334:0010412
+name: Counting:number of terminal branches with inflorescence_method
+def: "the maximum number of terminal branches with inflorescence observed at all levels of branching in a plot" []
+relationship: method_of CO_334:0000155
+
+[Term]
+id: CO_334:0010411
+name: Counting:plant number with inflorescence_method
+def: "proportion of plant per plot with inflorescence at varying growth stages including pollinated and unpollinated flowers" []
+relationship: method_of CO_334:0000154
+
+[Term]
+id: CO_334:0010410
+name: Visual Observation:typhlodromalus aripo_method
+def: "visual observation of the presence of t.aripo with 1= present, 0 = absent" []
+relationship: method_of CO_334:0000153
+
+[Term]
+id: CO_334:0010409
+name: Visual Observation:bemesia tabaci nymphs severity_method
+def: "visual rating of chlorotic blotches infestation on leaves caused by white fly on a rating of 1= none,2=mild chlorotic blotches on <10% of leaves , 3= damaged moderate chlorotic blotches on 10-30% of leaves, 4= chlorosis on 30-50% of leaves, 5= chlorosis on >50% of leaves" []
+relationship: method_of CO_334:0000152
+
+[Term]
+id: CO_334:0010408
+name: Counting:bemesia tabaci nymphs black_method
+def: "count of the number of number of black bemesia tabaci nymphs on 14th leaf on the same tallest shoot" []
+relationship: method_of CO_334:0000151
+
+[Term]
+id: CO_334:0010407
+name: Counting:bemesia tabaci nymphs yellow_method
+def: "count of the number of number of yellow bemesia tabaci nymphs on 14th leaf on the same tallest shoot" []
+relationship: method_of CO_334:0000150
+
+[Term]
+id: CO_334:0010406
+name: Counting:number of fruitset_method
+def: "count of number of fruits formed from the seeds after pollination" []
+relationship: method_of CO_334:0000149
+
+[Term]
+id: CO_334:0010405
+name: Visual Observation :days to 50% anthesis_method
+def: "visual observation of  50% opening of female flower to expose pistil per plot, from the date of planting (dd/mm/yyyy)" []
+relationship: method_of CO_334:0000148
+
+[Term]
+id: CO_334:0010404
+name: Visual Observation :days to first anthesis_method
+def: "visual observation of the opening of female flower to expose pistil per plot, from the date of planting (dd/mm/yyyy)" []
+relationship: method_of CO_334:0000147
+
+[Term]
+id: CO_334:0010403
+name: Counting:number of forks_method
+def: "a count of the number of branches at every branching level" []
+relationship: method_of CO_334:0000146
+
+[Term]
+id: CO_334:0010402
+name: Counting:number of flowering stalks per branch level _method
+def: "count of the number of stalks carrying the buds at every point of branching where inflorescence starts" []
+relationship: method_of CO_334:0000145
+
+[Term]
+id: CO_334:0010401
+name: Counting:male flower number_method
+def: "count of the number of male flowers after the buds appear,mature, and grow in size to become distinctive at first,second and third branch levels" []
+relationship: method_of CO_334:0000144
+
+[Term]
+id: CO_334:0010400
+name: Counting:female flower number_method
+def: "count of the number of female flowers after the buds appear,mature, and grow in size to become distinctive at first,second and third branch levels" []
+relationship: method_of CO_334:0000143
+
+[Term]
+id: CO_334:0010399
+name: Visual Observation :days to first inflorescence_method
+def: "visual observation of the appearance of developing inflorescence on a plant or plot, from the date of planting (dd/mm/yyyy)" []
+relationship: method_of CO_334:0000142
+
+[Term]
+id: CO_334:0010398
+name: Visual Observation :days to 50% branching_method
+def: "visual observation of when 50% of the plant stand per plot branches, from the date of planting (dd/mm/yyyy)" []
+relationship: method_of CO_334:0000141
+
+[Term]
+id: CO_334:0010397
+name: Visual Rating :branching habit_method
+def: "branching on a scale of 1= erect, 2=dichotomous,3=trichotomous, 4= tetrachotomous" []
+relationship: method_of CO_334:0000140
+
+[Term]
+id: CO_334:0010396
+name: Measurement :leaf scar level_method
+def: "Measured height from ground level to the lowest retained leaf on the main stem" []
+relationship: method_of CO_334:0000137
+
+[Term]
+id: CO_334:0010395
+name: Counting:leaf scar number_method
+def: "Count of the leaf scars on the main stem" []
+relationship: method_of CO_334:0000136
+
+[Term]
+id: CO_334:0010394
+name: Measurement :stump weight_method
+def: "Measured fresh weight of plant parts at soil level from the neck of the root to the beginning of the plantable stem" []
+relationship: method_of CO_334:0000135
+
+[Term]
+id: CO_334:0010393
+name: Measurement :leaf weight_method
+def: "Measure weight of fresh foliage leaf with above ground biomass excuding the stem" []
+relationship: method_of CO_334:0000134
+
+[Term]
+id: CO_334:0010392
+name: Counting:Stem rot_method
+def: "Count of the rotted stems per plot at the time of harvest" []
+relationship: method_of CO_334:0000133
+
+[Term]
+id: CO_334:0010391
+name: Measurement :non marketable root weight_method
+def: "Measured weight of harvested cassava roots (small sized roots)" []
+relationship: method_of CO_334:0000132
+
+[Term]
+id: CO_334:0010390
+name: Measurement :marketable root weight_method
+def: "Measured weight of harvested cassava roots usually classified as large size and medium size excluding small sized roots" []
+relationship: method_of CO_334:0000131
+
+[Term]
+id: CO_334:0010389
+name: Measurement :tip shoot weight_method
+def: "Measured weight of tip shoot portion of the stem" []
+relationship: method_of CO_334:0000130
+
+[Term]
+id: CO_334:0010388
+name: Counting:stem number_method
+def: "Count of the number of stems per plot" []
+relationship: method_of CO_334:0000129
+
+[Term]
+id: CO_334:0010387
+name: Measurement :Average stem length_method
+def: "Measured total stem length per plot or per number of plant stands" []
+relationship: method_of CO_334:0000128
+
+[Term]
+id: CO_334:0010386
+name: Measurement :Stem weight_method
+def: "Measured stem weight excluding leaves and stump" []
+relationship: method_of CO_334:0000127
+
+[Term]
+id: CO_334:0010385
+name: Measurement :plantable stem_method
+def: "Measured stem portion above the stump comprising the hardwood,semi hardwood upper shoot portion but excluding the immature greenish shoot portion" []
+relationship: method_of CO_334:0000126
+
+[Term]
+id: CO_334:0010384
+name: Measurement :plant height without leaf_method
+def: "Measured stem portion without leaf in centimeter" []
+relationship: method_of CO_334:0000125
+
+[Term]
+id: CO_334:0010383
+name: Estimation :Total Carotenoid Retention_method
+def: "Measured percentage of total carotene content in a prepared food product compared to the nutrient content in the raw food." []
+relationship: method_of CO_334:0000118
+
+[Term]
+id: CO_334:0010382
+name: Estimation :Beta Carotenoid Retention_method
+def: "Measured percentage of beta carotene content in a prepared food product compared to the nutrient content in the raw food." []
+relationship: method_of CO_334:0000117
+
+[Term]
+id: CO_334:0010381
+name: Estimation :Lafun Content_method
+def: "Measured percentage Lafun processed from fresh storage roots." []
+relationship: method_of CO_334:0000098
+
+[Term]
+id: CO_334:0010380
+name: Estimation :Fufu Content_method
+def: "Measured percentage fufu processed from fresh storage roots." []
+relationship: method_of CO_334:0000097
+
+[Term]
+id: CO_334:0010379
+name: Estimation :Sugar Content_method
+def: "Sugar content in cassava storage root." []
+relationship: method_of CO_334:0000072
+
+[Term]
+id: CO_334:0010378
+name: Estimation :Ash Content_method
+def: "Residue left behind after all organic matter has been burnt off, a measure of total mineral salts in a food" []
+relationship: method_of CO_334:0000066
+
+[Term]
+id: CO_334:0010377
+name: Estimation :Ascorbic Acid_method
+def: "Antioxidant and water soluble vitamin of cassava storage root." []
+relationship: method_of CO_334:0000065
+
+[Term]
+id: CO_334:0010376
+name: Calculation :Amylose Amylopectin Ratio_method
+def: "The amylose content of a cassava root sample divided by the amylopectin content of the same sample" []
+relationship: method_of CO_334:0000124
+
+[Term]
+id: CO_334:0010375
+name: Estimation :Amylopectin Content_method
+def: "Measured amylopectin content of cassava roots." []
+relationship: method_of CO_334:0000121
+
+[Term]
+id: CO_334:0010374
+name: Estimation :Amylose Content_method
+def: "Measured amylose content of cassava roots." []
+relationship: method_of CO_334:0000075
+
+[Term]
+id: CO_334:0010373
+name: Estimation :Fibre Content_method
+def: "Measured part of tuber root that cannot be digested by humans." []
+relationship: method_of CO_334:0000067
+
+[Term]
+id: CO_334:0010372
+name: Estimation :Protein Content_method
+def: "Measured Percentage of protein content in cassava storage roots." []
+relationship: method_of CO_334:0000070
+
+[Term]
+id: CO_334:0010371
+name: Estimation :Zinc Content_method
+def: "Measured total zinc content in cassava storage roots." []
+relationship: method_of CO_334:0000078
+
+[Term]
+id: CO_334:0010370
+name: Estimation :Iron Content_method
+def: "Measured total iron content in cassava storage roots." []
+relationship: method_of CO_334:0000068
+
+[Term]
+id: CO_334:0010369
+name: Estimation :Beta carotene_method
+def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight." []
+relationship: method_of CO_334:0000095
+
+[Term]
+id: CO_334:0010368
+name: Estimation :Total Carotenoid Content_method
+def: "Total extracted carotenoids in cassava storage root as estimated by spectrophotometer and expressed in ug per gram fresh weight." []
+relationship: method_of CO_334:0000073
+
+[Term]
+id: CO_334:0010367
+name: Calculation :Leaf Life _method
+def: "Measures leaf life span estimated as days." []
+relationship: method_of CO_334:0000049
+
+[Term]
+id: CO_334:0010366
+name: Estimation :Abscisic Acid Content_method
+def: "Abscisic acid content of leaf sample." []
+relationship: method_of CO_334:0000047
+
+[Term]
+id: CO_334:0010365
+name: Visual Rating :Storage Root Diameter_method
+def: "Visual rating of root diameter, usually scored on a scale 3, 5, and 7" []
+relationship: method_of CO_334:0000055
+
+[Term]
+id: CO_334:0010364
+name: Visual Rating :Root Position_method
+def: "Visual rating of root position in the soil, usually scored 1 to 3" []
+relationship: method_of CO_334:0000052
+
+[Term]
+id: CO_334:0010363
+name: Visual Rating :Caruncle Color_method
+def: "Visual rating of the caruncle color , usually scored on a scale 1-3" []
+relationship: method_of CO_334:0000056
+
+[Term]
+id: CO_334:0010362
+name: Visual Rating :Seed Color_method
+def: "Trait monitored by observing the color of  the seed" []
+relationship: method_of CO_334:0000063
+
+[Term]
+id: CO_334:0010361
+name: Visual Rating :Ploidy_method
+def: "Visual rating of the ploidy level , usually scored on a scale 1-4" []
+relationship: method_of CO_334:0000113
+
+[Term]
+id: CO_334:0010360
+name: Visual Rating :Fruit Exocarp Texture_method
+def: "Visual rating of texture of the outer most layer of the cassava fruit, usually scored on a scale 3 and 7" []
+relationship: method_of CO_334:0000112
+
+[Term]
+id: CO_334:0010359
+name: Visual Rating :Male Sterile_method
+def: "Visual rating of presence of male pollen, usually scored on a scale 0-1" []
+relationship: method_of CO_334:0000107
+
+[Term]
+id: CO_334:0010358
+name: Visual Rating :Female Stamenoids_method
+def: "Visual rating of female flowers without stamen, usually scored on a scale 0-1" []
+relationship: method_of CO_334:0000108
+
+[Term]
+id: CO_334:0010357
+name: Visual Rating :Anther Color_method
+def: "Visual scoring of anthers color, usually scored on a scale 1-3" []
+relationship: method_of CO_334:0000061
+
+[Term]
+id: CO_334:0010356
+name: Visual Rating :Ovary Color_method
+def: "Visual scoring of ovary color, usually scored on a scale 1-5" []
+relationship: method_of CO_334:0000058
+
+[Term]
+id: CO_334:0010355
+name: Visual Rating :Stigma Color_method
+def: "Visual scoring of sigma color, usually scored on a scale 1-5" []
+relationship: method_of CO_334:0000057
+
+[Term]
+id: CO_334:0010354
+name: Visual Rating :Disc Color_method
+def: "Visual rating of floral disc color, usually scored on a scale 1-5" []
+relationship: method_of CO_334:0000059
+
+[Term]
+id: CO_334:0010353
+name: Visual Rating :Sepal Color_method
+def: "Visual rating of sepal color, usually scored on a scale 1-5" []
+relationship: method_of CO_334:0000060
+
+[Term]
+id: CO_334:0010352
+name: Measurement :First Apical Branch Height_method
+def: "Measured as height from ground level to point of first apical branch" []
+relationship: method_of CO_334:0000106
+
+[Term]
+id: CO_334:0010351
+name: Counting:Branching Levels_method
+def: "Count of the actual number of levels of branching at harvest." []
+relationship: method_of CO_334:0000079
+
+[Term]
+id: CO_334:0010350
+name: Visual Rating :Apical Branching_method
+def: "Number of weeks from planting to first apical branching associated with the formation of inflorescence." []
+relationship: method_of CO_334:0000086
+
+[Term]
+id: CO_334:0010349
+name: Visual Rating :Leaf Scar Prominence_method
+def: "Visual rating of prominence leaf scars, usually scored on a scale 3, 5, and 7" []
+relationship: method_of CO_334:0000105
+
+[Term]
+id: CO_334:0010348
+name: Visual Rating :Young Stem Pubescence_method
+def: "Visual rating of young stem pubescence, usually scored on a scale 0, 3, 5, and 7" []
+relationship: method_of CO_334:0000025
+
+[Term]
+id: CO_334:0010347
+name: Visual Rating :Young Stem Growth Habit_method
+def: "Visual rating of growth habit of young stem, usually scored on a scale 1-2" []
+relationship: method_of CO_334:0000104
+
+[Term]
+id: CO_334:0010346
+name: Visual Rating :Anthocyanin Pigmentation_method
+def: "Visual rating of distribution of anthocyanin pigmentation, usually scored on a scale 0-3" []
+relationship: method_of CO_334:0000103
+
+[Term]
+id: CO_334:0010345
+name: Visual Rating :Petiole Color_method
+def: "Visual rating of petiole color, usually scored on a scale 3, 5, 7, and 9" []
+relationship: method_of CO_334:0000023
+
+[Term]
+id: CO_334:0010344
+name: Visual Rating :Petiole Length_method
+def: "Visual  rating of the petiole length, usually scored on a scale 0, 3, 5, and 7" []
+relationship: method_of CO_334:0000024
+
+[Term]
+id: CO_334:0010343
+name: Visual Rating :Petiole Insertion Angle_method
+def: "Trait monitored by observing the angle between branch and petiole" []
+relationship: method_of CO_334:0000046
+
+[Term]
+id: CO_334:0010342
+name: Visual Rating :Central Leaf Shape_method
+def: "Trait monitored by observing the leaf shape from a middle-height position." []
+relationship: method_of CO_334:0000119
+
+[Term]
+id: CO_334:0010341
+name: Visual Rating:Leaf Lobe Position_method
+def: "Trait monitored by observing the position in which leaf lobes are held" []
+relationship: method_of CO_334:0000083
+
+[Term]
+id: CO_334:0010340
+name: Visual Rating:Leaf Lobes Number_method
+def: "Most common number of leaf lobes assessed on five leaves from the middle of the plant at six months after planting." []
+relationship: method_of CO_334:0000082
+
+[Term]
+id: CO_334:0010339
+name: Visual Rating:Stipules Length_method
+def: "A qualitative scoring of the length of the leaflike appendage at the base of the leaf" []
+relationship: method_of CO_334:0000100
+
+[Term]
+id: CO_334:0010338
+name: Visual Rating:Apical Pubescence_method
+def: "Visual rating of the young leaves pubescence, usually scored on a scale 0, 3, 5, and 7" []
+relationship: method_of CO_334:0000026
+
+[Term]
+id: CO_334:0010337
+name: Visual Rating:Leaf Vein Color_method
+def: "Trait monitored by observing the color of  leaf vein" []
+relationship: method_of CO_334:0000081
+
+[Term]
+id: CO_334:0010336
+name: Visual Rating:First Fully Expanded Leaf Color_method
+def: "Trait monitored by observing the color of first fully expanded leaves" []
+relationship: method_of CO_334:0000102
+
+[Term]
+id: CO_334:0010335
+name: Visual Rating:Unexpanded Apical Leaves Colors_method
+def: "Visual rating of unexpanded apical leaf color." []
+relationship: method_of CO_334:0000101
+
+[Term]
+id: CO_334:0010334
+name: Estimation :hydrogen cyanide potential enzymatic method_method
+def: "Visual qualitative rating of root cyanide content, usually scored on a scale 1-3" []
+relationship: method_of CO_334:0000076
+
+[Term]
+id: CO_334:0010333
+name: Visual Rating :Suitability for Intercropping_method
+def: "Qualitative rating of compatibility for use in intercroping. 0= unsuitable, and 1 = suitable" []
+relationship: method_of CO_334:0000120
+
+[Term]
+id: CO_334:0010332
+name: Calculation :Top Yield_method
+def: "Calculated as weight of foliage and stems expressed in tons per hectares per plot at harvest" []
+relationship: method_of CO_334:0000017
+
+[Term]
+id: CO_334:0010331
+name: Estimation :Harvest Index_method
+def: "Derived as a ratio of fresh yield to total biomass" []
+relationship: method_of CO_334:0000015
+
+[Term]
+id: CO_334:0010330
+name: Calculation :Dry Yield_method
+def: "Dry weight of harvested roots derived by multiplying fresh storage root yield by dry matter content expressed in tons per hectares." []
+relationship: method_of CO_334:0000014
+
+[Term]
+id: CO_334:0010329
+name: Calculation :Fresh Root Yield_method
+def: "Calculated as weight of fresh storage roots expressed in tons per hectares per plant at harvest" []
+relationship: method_of CO_334:0000013
+
+[Term]
+id: CO_334:0010328
+name: Counting:Bemesia tabaci nymphs_method
+def: "Number of Bemesia tabaci nymphs white flies on the 14th leaf." []
+relationship: method_of CO_334:0000088
+
+[Term]
+id: CO_334:0010327
+name: Counting:Bemesia tabaci adult_method
+def: "Number of Bemesia tabaci adult white flies on the top five leaves." []
+relationship: method_of CO_334:0000087
+
+[Term]
+id: CO_334:0010326
+name: Counting:Spiraling Whitefly Incidence_method
+def: "A ratio of infected plants with spiraling whitefly to total plant stands." []
+relationship: method_of CO_334:0000043
+
+[Term]
+id: CO_334:0010325
+name: Visual Observation:Spiraling Whitefly Severity_method
+def: "The trait is scored for severity of cassava spiraling whitefly symptoms caused by Aleurodicus dispersus and rated on a scale from 1 (=  no symptom) to 5 (= extremely severe)." []
+relationship: method_of CO_334:0000042
+
+[Term]
+id: CO_334:0010324
+name: Counting:Red Spider Mite Incidence_method
+def: "A ratio of infected plants with red spider mite to total plant stands." []
+relationship: method_of CO_334:0000045
+
+[Term]
+id: CO_334:0010323
+name: Visual Observation:Red Spider Mite Severity_method
+def: "The trait is scored for severity of red spider mite symptoms caused by Oligonychus gossypii and Tetranychus spp. and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000139
+
+[Term]
+id: CO_334:0010322
+name: Visual Rating:branching_method
+def: "branch height on scale 0=no branching ,1 = low branching(<0.5m), 2= medium branching (>0.5m<=1m), 3= high branching (>1m)" []
+relationship: method_of CO_334:0000169
+
+[Term]
+id: CO_334:0010321
+name: Counting:marketable root number_method
+def: "count of the number of big or more than 1kg root size" []
+relationship: method_of CO_334:0000168
+
+[Term]
+id: CO_334:0010320
+name: Counting:non marketable root number_method
+def: "count of the number of small or less than 1kg root size" []
+relationship: method_of CO_334:0000161
+
+[Term]
+id: CO_334:0010319
+name: Visual Rating:total carotenoid by chart_method
+def: "assessment of the level of yellowness in cassava storage root pulp using the tc chart on a scale of 1=white, 2= light cream, 3= cream,4=light yellow, 5= yellow,6=deep yellow,7 = orange, 8=pink" []
+relationship: method_of CO_334:0000160
+
+[Term]
+id: CO_334:0010318
+name: Estimation :dry matter content by specific gravity method_method
+def: "estimated dry  matter content from the specific gravity value weighted cassava (4-5kg)" []
+relationship: method_of CO_334:0000171
+
+[Term]
+id: CO_334:0010317
+name: Counting:stem yield_method
+def: "measurement of the fresh weight of harvested plant biomass excluding leaves" []
+relationship: method_of CO_334:0000170
+
+[Term]
+id: CO_334:0010316
+name: Measurement :stock weight_method
+def: "measurement of the fresh weight of the planted part anchoring the storage root(kg)" []
+relationship: method_of CO_334:0000096
+
+[Term]
+id: CO_334:0010315
+name: Measurement :Gari Content_method
+def: "Measured gari content of fresh root tubers" []
+relationship: method_of CO_334:0000069
+
+[Term]
+id: CO_334:0010314
+name: Estimation :Moisture Content_method
+def: "Measured percentage of water contained in cassava storage roots at harvest usually estimated as one minus the dry matter content" []
+relationship: method_of CO_334:0000071
+
+[Term]
+id: CO_334:0010313
+name: Estimation :Starch Content _method
+def: "Estimated percentage of complex carbohydrates or start after extraction from cassava storage root" []
+relationship: method_of CO_334:0000054
+
+[Term]
+id: CO_334:0010312
+name: Visual Rating:Root Surface Texture_method
+def: "Visual rating of root surface texture, usually scored on a scale 3, 5, and 7" []
+relationship: method_of CO_334:0000053
+
+[Term]
+id: CO_334:0010311
+name: Visual Rating:Root Surface Color_method
+def: "Visual rating of root surface color, usually scored on a scale 1, 2, and 3" []
+relationship: method_of CO_334:0000051
+
+[Term]
+id: CO_334:0010310
+name: Visual Rating:Storage Root Constrictions_method
+def: "Visual scoring of mature root constrictions , usually scored on a scale 0 and 1" []
+relationship: method_of CO_334:0000050
+
+[Term]
+id: CO_334:0010309
+name: Visual Rating:Storage Root Peduncle_method
+def: "Visual rating of root peduncle length of the plant; usually scored 0, 3, 5, and 7" []
+relationship: method_of CO_334:0000110
+
+[Term]
+id: CO_334:0010308
+name: Visual Rating:Fruit Set _method
+def: "Visual rating of presence of fruit set , usually scored on a scale 0-1" []
+relationship: method_of CO_334:0000110
+
+[Term]
+id: CO_334:0010307
+name: Visual Rating:Flowers (50%)_method
+def: "Visual rating of flowers (50%) in plant , usually scored on a scale 0-1" []
+relationship: method_of CO_334:0000111
+
+[Term]
+id: CO_334:0010306
+name: Visual Rating:Plant Architecture_method
+def: "Visual rating of the plant architecture, usually scored on a scale 1-5" []
+relationship: method_of CO_334:0000099
+
+[Term]
+id: CO_334:0010305
+name: Visual Rating:Leaf Retention_method
+def: "Visual rating of leaf retention or longevity, usually scored on a scale 1, 3, 5, and 7" []
+relationship: method_of CO_334:0000048
+
+[Term]
+id: CO_334:0010304
+name: Counting:Proportion of Lodged Plants_method
+def: "Proportion of plants lodged at greater than 45 degrees in a plot" []
+relationship: method_of CO_334:0000094
+
+[Term]
+id: CO_334:0010303
+name: Measurement :Plant Height_method
+def: "Measured as height from ground level to the top of canopy at harvest" []
+relationship: method_of CO_334:0000018
+
+[Term]
+id: CO_334:0010302
+name: Visual Scoring :Branching Angle_method
+def: "Visual rating of the angle between a vertical plane and first primary branch. 0 = no branching, 3 = 15-30 degree, 5 = 45-60 degree, 7 = 75-90 degree" []
+relationship: method_of CO_334:0000080
+
+[Term]
+id: CO_334:0010301
+name: Visual Scoring :Stem Color_method
+def: "Visual rating of stem color, usually scored on a  scale 1-4" []
+relationship: method_of CO_334:0000062
+
+[Term]
+id: CO_334:0010300
+name: Estimation :Root Dry Matter Content_method
+def: "estimated root dry matter estimated by multiplying 100 times the ratio of dry root weight after oven drying to constant weight divided by the weight of an approximately 100 gram sample of fresh roots" []
+relationship: method_of CO_334:0000092
+
+[Term]
+id: CO_334:0010299
+name: Estimation :Hydrogen cyanide potential picrate method_method
+def: "Visual qualitative rating of the color reaction following application of the sodium picrate test usually scored on a scale from (1 = not detectable to 9 = very high)" []
+relationship: method_of CO_334:0000091
+
+[Term]
+id: CO_334:0010298
+name: Visual Rating :Color Of Boiled Tuberous Roots_method
+def: "Visual  rating of boiled roots, usually scored on a scale 1-3" []
+relationship: method_of CO_334:0000114
+
+[Term]
+id: CO_334:0010297
+name: Gustation :Taste Of Boiled Roots_method
+def: "Taste of boiled root rated on a scale 1-3" []
+relationship: method_of CO_334:0000085
+
+[Term]
+id: CO_334:0010296
+name: Sensory Assesment :Poundability_method
+def: "Mealiness of boiled cassava storage roots determined qualitatively by applying pressure to boiled roots" []
+relationship: method_of CO_334:0000074
+
+[Term]
+id: CO_334:0010295
+name: Counting:Rotted Storage Roots _method
+def: "Count the number of rotted storage roots per plot at the time of harvest." []
+relationship: method_of CO_334:0000084
+
+[Term]
+id: CO_334:0010294
+name: Visual Scoring :Ease Of Peeling Root Cortex_method
+def: "Qualitative rating of the ease of  peeling root cortex, usually scored on a scale 3 (easy) and 7 (difficult)" []
+relationship: method_of CO_334:0000116
+
+[Term]
+id: CO_334:0010293
+name: Visual Rating:Root Neck Length_method
+def: "Visual  rating of the root neck length, usually scored on a scale 0, 3, 5, and 7" []
+relationship: method_of CO_334:0000022
+
+[Term]
+id: CO_334:0010292
+name: Visual Rating:Storage Root Pulp Color _method
+def: "Visual rating of root pulp colour immediately after roots are cut usually scored on a scale 1-3" []
+relationship: method_of CO_334:0000021
+
+[Term]
+id: CO_334:0010291
+name: Visual Rating:Storage Root Periderm Color_method
+def: "Visual rating of root periderm colour, usually scored on a scale 1-4" []
+relationship: method_of CO_334:0000064
+
+[Term]
+id: CO_334:0010290
+name: Visual Rating:Storage Root Cortex Color_method
+def: "Visual rating of root cortex colour, usually scored on a scale 1-4" []
+relationship: method_of CO_334:0000115
+
+[Term]
+id: CO_334:0010289
+name: Visual Rating:Storage Root Shape_method
+def: "Visual rating of root shape , usually scored on a scale 1-6" []
+relationship: method_of CO_334:0000020
+
+[Term]
+id: CO_334:0010288
+name: Visual Rating:Storage Root Size_method
+def: "Visual rating of root size, usually scored on a scale 3, 5, and 7" []
+relationship: method_of CO_334:0000019
+
+[Term]
+id: CO_334:0010287
+name: Measurement :Fresh Shoot Weight_method
+def: "Weigh foliage and stems per plot at harvest" []
+relationship: method_of CO_334:0000016
+
+[Term]
+id: CO_334:0010286
+name: Measurement :Fresh Weight of Storage Root_method
+def: "Weigh harvested storage roots per plot at harvest" []
+relationship: method_of CO_334:0000012
+
+[Term]
+id: CO_334:0010285
+name: Counting:Root Number_method
+def: "Count the number of storage root per plot harvest" []
+relationship: method_of CO_334:0000011
+
+[Term]
+id: CO_334:0010284
+name: Counting:Plant Stands Harvested_method
+def: "Count the number of plant stands that are harvested in a plot" []
+relationship: method_of CO_334:0000010
+
+[Term]
+id: CO_334:0010283
+name: Visual Observation:Frog Skin Disease_method
+def: "Severity of frog skin disease symptoms caused by unknown causal agent is rated on a scale from 1 (= no symptom) to 5 (= extremely severe)." []
+relationship: method_of CO_334:0000093
+
+[Term]
+id: CO_334:0010282
+name: Counting:cassava brown streak disease root incidence 12-month evaluation_method
+def: "A ratio of the number of plants showing root symptoms from cassava brown streak disease as a proportion of  total plant stands" []
+relationship: method_of CO_334:0000202
+
+[Term]
+id: CO_334:0010281
+name: Counting:cassava brown streak disease root incidence_method
+def: "A ratio of the number of plants showing root symptoms from cassava brown streak disease as a proportion of  total plant stands" []
+relationship: method_of CO_334:0000089
+
+[Term]
+id: CO_334:0010280
+name: Visual Observation:cassava brown streak disease root severity 12-month evaluation_method
+def: "visual rating of root symptoms caused by cassava brown streak virus at twelve months after planting, in the family of Potyviridae and genus Ipomovirus. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: method_of CO_334:0000201
+
+[Term]
+id: CO_334:0010279
+name: Visual Observation:cassava brown streak disease root severity_method
+def: "visual rating of root symptoms caused by cassava brown streak virus months after planting, in the family of Potyviridae and genus Ipomovirus. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: method_of CO_334:0000090
+
+[Term]
+id: CO_334:0010278
+name: Counting:cassava brown streak disease leaf incidence 9-month evaluation_method
+def: "A ratio of the number of plants showing leaf symptoms from cassava brown streak disease as a proportion of  total plant stands" []
+relationship: method_of CO_334:0000210
+
+[Term]
+id: CO_334:0010277
+name: Counting:cassava brown streak disease leaf incidence 6-month evaluation_method
+def: "A ratio of the number of plants showing leaf symptoms from cassava brown streak disease as a proportion of  total plant stands" []
+relationship: method_of CO_334:0000209
+
+[Term]
+id: CO_334:0010276
+name: Counting:cassava brown streak disease leaf incidence 3-month evaluation_method
+def: "A ratio of the number of plants showing leaf symptoms from cassava brown streak disease as a proportion of  total plant stands" []
+relationship: method_of CO_334:0000208
+
+[Term]
+id: CO_334:0010275
+name: Counting:cassava brown streak disease leaf incidence 1-month evaluation_method
+def: "A ratio of the number of plants showing leaf symptoms from cassava brown streak disease as a proportion of  total plant stands" []
+relationship: method_of CO_334:0000207
+
+[Term]
+id: CO_334:0010274
+name: Counting:cassava brown streak disease leaf incidence_method
+def: "A ratio of the number of plants showing leaf symptoms from cassava brown streak disease as a proportion of  total plant stands" []
+relationship: method_of CO_334:0000040
+
+[Term]
+id: CO_334:0010273
+name: Visual Observation:cassava brown streak disease leaf severity 9-month evaluation_method
+def: "Severity on leaf symptoms caused by cassava brown streak virus,  in the family Potyviridae and genus Ipomovirus and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000206
+
+[Term]
+id: CO_334:0010272
+name: Visual Observation:cassava brown streak disease leaf severity 6-month evaluation_method
+def: "Severity on leaf symptoms caused by cassava brown streak virus,  in the family Potyviridae and genus Ipomovirus and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000205
+
+[Term]
+id: CO_334:0010271
+name: Visual Observation:cassava brown streak disease leaf severity 3-month evaluation_method
+def: "Severity on leaf symptoms caused by cassava brown streak virus,  in the family Potyviridae and genus Ipomovirus and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000204
+
+[Term]
+id: CO_334:0010270
+name: Visual Observation:cassava brown streak disease leaf severity 1-month evaluation_method
+def: "Severity on leaf symptoms caused by cassava brown streak virus,  in the family Potyviridae and genus Ipomovirus and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000203
+
+[Term]
+id: CO_334:0010269
+name: Visual Observation:cassava brown streak disease leaf severity_method
+def: "Severity on leaf symptoms caused by cassava brown streak virus,  in the family Potyviridae and genus Ipomovirus and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000036
+
+[Term]
+id: CO_334:0010268
+name: Counting:Cassava Mealy Bug Incidence_method
+def: "A ratio of plants showing symptoms of cassava mealy bug damage divided by the total number of plant stands" []
+relationship: method_of CO_334:0000041
+
+[Term]
+id: CO_334:0010267
+name: Visual Observation:Cassava Mealy Bug Severity_method
+def: "Severity of cassava mealy bug symptoms caused by mealybug, Phenacoccus Manihoti and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000034
+
+[Term]
+id: CO_334:0010266
+name: Visual Observation:cassava green mite severity second evaluation_method
+def: "visual rating of damage caused by cassava green mite,Mononychellus tanajoa. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased), evaluated at the early period of the peak of dry season" []
+relationship: method_of CO_334:0000190
+
+[Term]
+id: CO_334:0010265
+name: Visual Observation:cassava green mite severity first evaluation_method
+def: "visual rating of damage caused by cassava green mite,Mononychellus tanajoa. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased), evaluated at the early period of the peak of dry season" []
+relationship: method_of CO_334:0000189
+
+[Term]
+id: CO_334:0010264
+name: Visual Observation:cassava green mite severity_method
+def: "visual rating of damage caused by cassava green mite,Mononychellus tanajoa. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased), evaluated at the early period of the peak of dry season" []
+relationship: method_of CO_334:0000033
+
+[Term]
+id: CO_334:0010263
+name: Counting:cassava green mite incidence second evaluation_method
+def: "A ratio of the number of plants showing cassava green might symtoms to total plant stands at the peak of the dry season" []
+relationship: method_of CO_334:0000188
+
+[Term]
+id: CO_334:0010262
+name: Counting:cassava green mite incidence first evaluation_method
+def: "A ratio of the number of plants showing cassava green might symtoms to total plant stands at the peak of the dry season" []
+relationship: method_of CO_334:0000187
+
+[Term]
+id: CO_334:0010261
+name: Counting:cassava green mite incidence_method
+def: "A ratio of the number of plants showing cassava green might symtoms to total plant stands at the peak of the dry season" []
+relationship: method_of CO_334:0000122
+
+[Term]
+id: CO_334:0010260
+name: Counting:cassava anthractnose disease incidence in 12-months_method
+def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands at ten to twelve months after planting" []
+relationship: method_of CO_334:0000183
+
+[Term]
+id: CO_334:0010259
+name: Counting:cassava anthractnose disease incidence in 9-months_method
+def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands at seven to nine months after planting" []
+relationship: method_of CO_334:0000182
+
+[Term]
+id: CO_334:0010258
+name: Counting:cassava anthractnose disease incidence in 6-months_method
+def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands at four to six months after planting" []
+relationship: method_of CO_334:0000181
+
+[Term]
+id: CO_334:0010257
+name: Counting:cassava anthractnose disease incidence in 3-months_method
+def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands at four to six months after planting" []
+relationship: method_of CO_334:0000219
+
+[Term]
+id: CO_334:0010256
+name: Counting:cassava anthracnose disease incidence_method
+def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands months after planting" []
+relationship: method_of CO_334:0000038
+
+[Term]
+id: CO_334:0010255
+name: Visual Observation:cassava anthractnose disease severity in 12-months_method
+def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" []
+relationship: method_of CO_334:0000186
+
+[Term]
+id: CO_334:0010254
+name: Visual Observation:cassava anthractnose disease severity in 9-months_method
+def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" []
+relationship: method_of CO_334:0000185
+
+[Term]
+id: CO_334:0010253
+name: Visual Observation:cassava anthractnose disease severity in 6-months_method
+def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" []
+relationship: method_of CO_334:0000184
+
+[Term]
+id: CO_334:0010252
+name: Visual Observation:cassava anthractnose disease severity in 3-months_method
+def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" []
+relationship: method_of CO_334:0000218
+
+[Term]
+id: CO_334:0010251
+name: Visual Observation:cassava anthracnose disease severity_method
+def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" []
+relationship: method_of CO_334:0000032
+
+[Term]
+id: CO_334:0010250
+name: Counting:cassava bacterial blight incidence 12-month evaluation_method
+def: "A ratio of infected plants with cassava bacterial blight to total plant stands scored at ten to twelve months after planting" []
+relationship: method_of CO_334:0000211
+
+[Term]
+id: CO_334:0010249
+name: Counting:cassava bacterial blight incidence 9-month evalution_method
+def: "A ratio of infected plants with cassava bacterial blight to total plant stands scored at seven to nine months after planting" []
+relationship: method_of CO_334:0000180
+
+[Term]
+id: CO_334:0010248
+name: Counting:cassava bacterial blight incidence 6-month evalution_method
+def: "A ratio of infected plants with cassava bacterial blight to total plant stands scored at four to six months after planting" []
+relationship: method_of CO_334:0000179
+
+[Term]
+id: CO_334:0010247
+name: Counting:cassava bacterial blight incidence 3-month evalution_method
+def: "A ratio of infected plants with cassava bacterial blight to total plant stands scored at two to three months after planting" []
+relationship: method_of CO_334:0000178
+
+[Term]
+id: CO_334:0010246
+name: Counting:cassava bacterial blight incidence_method
+def: "A ratio of infected plants with cassava bacterial blight to total plant stands scored months after planting" []
+relationship: method_of CO_334:0000037
+
+[Term]
+id: CO_334:0010245
+name: Visual Observation:cassava bacterial blight severity 12-month evaluation_method
+def: "The trait is scored at ten to twelve months after planting as severity of cassava bacterial blight symptoms caused by Xanthomonas axonopodis pv. Manihotis and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000212
+
+[Term]
+id: CO_334:0010244
+name: Visual Observation:cassava bacterial blight severity 9-month evalution_method
+def: "The trait is scored at seven to nine months after planting as severity of cassava bacterial blight symptoms caused by Xanthomonas axonopodis pv. Manihotis and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000177
+
+[Term]
+id: CO_334:0010243
+name: Visual Observation:cassava bacterial blight severity 6-month evalution_method
+def: "The trait is scored at four to six months after planting as severity of cassava bacterial blight symptoms caused by Xanthomonas axonopodis pv. Manihotis and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000176
+
+[Term]
+id: CO_334:0010242
+name: Visual Observation:cassava bacterial blight severity 3-month evalution_method
+def: "The trait is scored at two to three months after planting as severity of cassava bacterial blight symptoms caused by Xanthomonas axonopodis pv. Manihotis and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000175
+
+[Term]
+id: CO_334:0010241
+name: Visual Observation:cassava bacterial blight severity_method
+def: "The trait is scored   months after planting as severity of cassava bacterial blight symptoms caused by Xanthomonas axonopodis pv. Manihotis and rated on a scale from 1 (= no symptom) to 5 (= extremely severe)" []
+relationship: method_of CO_334:0000031
+
+[Term]
+id: CO_334:0010240
+name: Counting:cassava mosaic disease incidence 12-month evaluation_method
+def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at ten to twelve months after planting" []
+relationship: method_of CO_334:0000200
+
+[Term]
+id: CO_334:0010239
+name: Counting:cassava mosaic disease incidence 9-month evaluation_method
+def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at seven to nine months after planting" []
+relationship: method_of CO_334:0000197
+
+[Term]
+id: CO_334:0010238
+name: Counting:cassava mosaic disease incidence 6-month evaluation_method
+def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at four to six months after planting" []
+relationship: method_of CO_334:0000198
+
+[Term]
+id: CO_334:0010237
+name: Counting:cassava mosaic disease incidence 3-month evaluation_method
+def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at two to three months after planting" []
+relationship: method_of CO_334:0000196
+
+[Term]
+id: CO_334:0010236
+name: Counting:cassava mosaic disease incidence 1-month evaluation_method
+def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at one to six weeks after planting" []
+relationship: method_of CO_334:0000195
+
+[Term]
+id: CO_334:0010235
+name: Counting:cassava mosaic disease incidence_method
+def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored weeks after planting" []
+relationship: method_of CO_334:0000039
+
+[Term]
+id: CO_334:0010234
+name: Visual Observation:cassava mosaic disease severity 12-month evaluation_method
+def: "Symptoms of infection by cassava mosaic virus is scored between ten and twelve months  after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: method_of CO_334:0000199
+
+[Term]
+id: CO_334:0010233
+name: Visual Observation:cassava mosaic disease severity 9-month evaluation_method
+def: "Symptoms of infection by cassava mosaic virus is scored between seven and nine months  after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: method_of CO_334:0000193
+
+[Term]
+id: CO_334:0010232
+name: Visual Observation:cassava mosaic disease severity 6-month evaluation_method
+def: "Symptoms of infection by cassava mosaic virus is scored between four and six months  after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: method_of CO_334:0000194
+
+[Term]
+id: CO_334:0010231
+name: Visual Observation:cassava mosaic disease severity 3-month evaluation_method
+def: "Symptoms of infection by cassava mosaic virus is scored between two and three months  after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: method_of CO_334:0000192
+
+[Term]
+id: CO_334:0010230
+name: Visual Observation:cassava mosaic disease severity 1-month evaluation_method
+def: "Symptoms of infection by cassava mosaic virus is scored between one to six weeks after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: method_of CO_334:0000191
+
+[Term]
+id: CO_334:0010229
+name: Visual Observation:cassava mosaic disease severity_method
+def: "Symptoms of infection by cassava mosaic virus is scored  weeks after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: method_of CO_334:0000035
+
+[Term]
+id: CO_334:0010228
+name: Visual Rating:Initial Vigor_method
+def: "Trait monitored by observing plant vigor one month after planting" []
+relationship: method_of CO_334:0000009
+
+[Term]
+id: CO_334:0010227
+name: Counting:sprout count at twelve-month_method
+def: "count of the number of stakes germinated, twelve months after planting" []
+relationship: method_of CO_334:0000217
+
+[Term]
+id: CO_334:0010226
+name: Counting:sprout count at nine-month_method
+def: "count of the number of stakes germinated, nine months after planting" []
+relationship: method_of CO_334:0000216
+
+[Term]
+id: CO_334:0010225
+name: Counting:sprout count at six-month_method
+def: "count of the number of stakes germinated, six months after planting" []
+relationship: method_of CO_334:0000215
+
+[Term]
+id: CO_334:0010224
+name: Counting:sprout count at three-month_method
+def: "count of the number of stakes germinated, three months after planting" []
+relationship: method_of CO_334:0000214
+
+[Term]
+id: CO_334:0010223
+name: Counting:sprout count at one-month_method
+def: "count of the number of stakes germinated, one month after planting" []
+relationship: method_of CO_334:0000213
+
+[Term]
+id: CO_334:0010222
+name: Counting:Sprout count _method
+def: "A count of the number of germinated stakes" []
+relationship: method_of CO_334:0000138
+
+[Term]
+id: CO_334:0010221
+name: Counting:number of planted stakes_method
+def: "count of the number of stakes planted per plot" []
+relationship: method_of CO_334:0000159
+
+[Term]
+id: CO_334:0010220
+name: Counting:Sprouting_method
+def: "The number of stakes germminated divided by the total number of stakes planted scored one month after planting" []
+relationship: method_of CO_334:0000008
+
+[Term]
+id: CO_334:0000219
+name: Cassava anthractnose disease incidence in 3-months
+def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease in four to six months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000218
+name: Cassava anthractnose disease severity in 3-months
+def: "Cassava anthracnose disease severity rated in four to six month caused by  Colletotrichum gloeosporioides f. sp. (scale of 1-5 in increasing severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000217
+name: Sprout count at twelve-month
+def: "number of stakes germinated" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000216
+name: Sprout count at nine-month
+def: "number of stakes germinated" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000215
+name: Sprout count at six-month
+def: "number of stakes germinated" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000214
+name: Sprout count at three-month
+def: "number of stakes germinated" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000213
+name: Sprout count at one-month
+def: "number of stakes germinated" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000212
+name: Cassava bacterial blight severity 12-month evaluation
+def: "visual rating of symptoms in response to the bacterial blight disease. Manihotis symptoms rated from 1=(clean,no infection), 5=(extremely severe,severly diseased) evaluated between ten and nine months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000211
+name: Cassava bacterial blight incidence 12-month evaluation
+def: "Proportion of plants within a plot showing symptoms of cassava bacterial blight in ten to twelve months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000210
+name: Cassava brown streak disease leaf incidence 9-month evaluation
+def: "Proportion of plants within a plot showing  symptoms of cassava brown streak disease, evaluated between seven and nine months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000209
+name: Cassava brown streak disease leaf incidence 6-month evaluation
+def: "Proportion of plants within a plot showing  symptoms of cassava brown streak disease, evaluated between four and six months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000208
+name: Cassava brown streak disease leaf incidence 3-month evaluation
+def: "Proportion of plants within a plot showing  symptoms of cassava brown streak disease, evaluated between two and three months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000207
+name: Cassava brown streak disease leaf incidence 1-month evaluation
+def: "Proportion of plants within a plot showing  symptoms of cassava brown streak disease, evaluated between one and six weeks after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000206
+name: Cassava brown streak disease leaf severity 9-month evaluation
+def: "visual rating of leaf symptoms caused by cassava brown streak virus evaluated between seven and nine months after planting, in the family of Potyviridae and genus Ipomovirus. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000205
+name: Cassava brown streak disease leaf severity 6-month evaluation
+def: "visual rating of leaf symptoms caused by cassava brown streak virus evaluated between four and six months after planting, in the family of Potyviridae and genus Ipomovirus. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000204
+name: Cassava brown streak disease leaf severity 3-month evaluation
+def: "visual rating of leaf symptoms caused by cassava brown streak virus evaluated between two and three months after planting, in the family of Potyviridae and genus Ipomovirus. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000203
+name: Cassava brown streak disease leaf severity 1-month evaluation
+def: "visual rating of leaf symptoms caused by cassava brown streak virus evaluated between one and six weeks after planting, in the family of Potyviridae and genus Ipomovirus. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000202
+name: Cassava brown streak disease root incidence 12-month evaluation
+def: "Proportion of plants within a plot showing root symptoms of cassava brown streak disease" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000201
+name: Cassava brown streak disease root severity 12-month evaluation
+def: "Cassava brown streak disease root symptoms severity (Scale of 1-5 in increasing severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000200
+name: Cassava mosaic disease incidence 12-month evaluation
+def: "proportion of plants within a plot showing  symptoms of cassava mosaic disease, evaluated between ten and twelve months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000199
+name: Cassava mosaic disease severity 12-month evaluation
+def: "visual rating of symptoms caused by cassava mosaic virus,in the family Geminiviridae and denus Begomovirus,evaluated between ten and twelve months  after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000198
+name: Cassava mosaic disease incidence 6-month evaluation
+def: "proportion of plants within a plot showing  symptoms of cassava mosaic disease, evaluated between four and six months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000197
+name: Cassava mosaic disease incidence 9-month evaluation
+def: "proportion of plants within a plot showing  symptoms of cassava mosaic disease, evaluated between seven and nine months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000196
+name: Cassava mosaic disease incidence 3-month evaluation
+def: "proportion of plants within a plot showing  symptoms of cassava mosaic disease, evaluated between two and three months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000195
+name: Cassava mosaic disease incidence 1-month evaluation
+def: "proportion of plants within a plot showing  symptoms of cassava mosaic disease, evaluated between one and six weeks after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000194
+name: Cassava mosaic disease severity 6-month evaluation
+def: "visual rating of symptoms caused by cassava mosaic virus,in the family Geminiviridae and denus Begomovirus,evaluated between four and six months  after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000193
+name: Cassava mosaic disease severity 9-month evaluation
+def: "visual rating of symptoms caused by cassava mosaic virus,in the family Geminiviridae and denus Begomovirus,evaluated between seven and nine months  after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000192
+name: Cassava mosaic disease severity 3-month evaluation
+def: "visual rating of symptoms caused by cassava mosaic virus,in the family Geminiviridae and denus Begomovirus,evaluated between two and three months  after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000191
+name: Cassava mosaic disease severity 1-month evaluation
+def: "visual rating of symptoms caused by cassava mosaic virus,in the family Geminiviridae and denus Begomovirus,evaluated between one to six weeks after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000190
+name: Cassava green mite severity second evaluation
+def: "visual rating of damage caused by cassava green mite (Scale of 1-5 in increasing  severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000189
+name: Cassava green mite severity first evaluation
+def: "visual rating of damage caused by cassava green mite (Scale of 1-5 in increasing  severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000188
+name: Cassava green mite incidence second evaluation
+def: "proportion of plants affected by cassava green mite" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000187
+name: Cassava green mite incidence first evaluation
+def: "proportion of plants affected by cassava green mite" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000186
+name: Cassava anthractnose disease severity in 12-months
+def: "Cassava anthracnose disease severity rated in ten to twelve month caused by  Colletotrichum gloeosporioides f. sp. (scale of 1-5 in increasing severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000185
+name: Cassava anthractnose disease severity in 9-months
+def: "Cassava anthracnose disease severity rated in seven to nine month caused by  Colletotrichum gloeosporioides f. sp. (scale of 1-5 in increasing severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000184
+name: Cassava anthractnose disease severity in 6-months
+def: "Cassava anthracnose disease severity rated in four to six month caused by  Colletotrichum gloeosporioides f. sp. (scale of 1-5 in increasing severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000183
+name: Cassava anthractnose disease incidence in 12-months
+def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease in ten to twelve months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000182
+name: Cassava anthractnose disease incidence in 9-months
+def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease in seven to nine months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000181
+name: Cassava anthractnose disease incidence in 6-months
+def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease in four to six months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000180
+name: Cassava bacterial blight incidence 9-month evalution
+def: "Proportion of plants within a plot showing symptoms of cassava bacterial blight in seven to nine months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000179
+name: Cassava bacterial blight incidence 6-month evalution
+def: "Proportion of plants within a plot showing symptoms of cassava bacterial blight in four to six months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000178
+name: Cassava bacterial blight incidence 3-month evalution
+def: "Proportion of plants within a plot showing symptoms of cassava bacterial blight in two to three months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000177
+name: Cassava bacterial blight severity 9-month evalution
+def: "visual rating of symptoms in response to the bacterial blight disease. Manihotis symptoms rated from 1=(clean,no infection), 5=(extremely severe,severly diseased) evaluated between seven and nine months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000176
+name: Cassava bacterial blight severity 6-month evalution
+def: "visual rating of symptoms in response to the bacterial blight disease. Manihotis symptoms rated from 1=(clean,no infection), 5=(extremely severe,severly diseased) evaluated between four and six months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000175
+name: Cassava bacterial blight severity 3-month evalution
+def: "visual rating of symptoms in response to the bacterial blight disease. Manihotis symptoms rated from 1=(clean,no infection), 5=(extremely severe,severly diseased) evaluated between two and three months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000174
+name: B crypto
+def: "estmation of b-cryptoxanthin (%)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000173
+name: Cis 9
+def: "estmation of isomer activity (%)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000172
+name: Trans 9
+def: "estimation of beta carotenoid components" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000171
+name: Stem yield
+def: "harvested plant biomass excluding leaves (kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000170
+name: Stock weight
+def: "fresh weight of the planted part anchoring the storage root(kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000169
+name: Marketable root number
+def: "number of big or more than 1kg root size" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000168
+name: Non marketable root number
+def: "number of small or less than 1kg root size" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000167
+name: Number of seeds sown
+def: "number of seeds sown per family" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000166
+name: Germination count
+def: "number of emerging seedlings from each family in the pre-nursery" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000165
+name: Leaf lobe width
+def: "width of middle finger or lobe of matured leaf(cm)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000164
+name: Leaf lobe length
+def: "length of middle finger or lobe of matured leaf(cm)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000163
+name: Specific gravity
+def: "weighing of cassava root in air and in water" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000162
+name: Total carotenoid by icheck method
+def: "total carotenoid content in a giving cassava storage root sample" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000161
+name: Total carotenoid by chart
+def: "level of yellowness in cassava storage root pulp" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000160
+name: Dry matter content by specific gravity method
+def: "estimated dry matter content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000159
+name: Number of planted stakes
+def: "total number of stakes planted" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000158
+name: Root weight in water
+def: "weight obtained by suspending same root sample(kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000157
+name: Root weight in air
+def: "weight of cassava root samples (kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000156
+name: Number of fruits
+def: "number of fruits" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000155
+name: Number of terminal branches with inflorescence
+def: "maximum number of terminal branches with inflorescence" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000154
+name: Plant number with inflorescence
+def: "proportion of plant per plot with inflorescence" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000153
+name: Typhlodromalus aripo
+def: "observation of the presence of t.aripo" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000152
+name: Bemesia tabaci nymphs severity
+def: "rating of chlorotic blotches infestation on leaf caused by white fly" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000151
+name: Bemesia tabaci nymphs black
+def: "number of black bemesia tabaci nymphs on 14th leaf" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000150
+name: Bemesia tabaci nymphs yellow
+def: "number of yellow bemesia tabaci nymphs on 14th leaf" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000149
+name: Number of fruitset
+def: "number of fruits formed" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000148
+name: Days to 50% anthesis
+def: "visual observation of when 50% of the female flower opened to expose the pistils per plot" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000147
+name: Days to first anthesis
+def: "visual observation of the exposure of the pistil per plot of any female flower" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000146
+name: Number of forks
+def: "number of branches" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000145
+name: Number of flowering stalks per branch level
+def: "number of stalks carrying buds" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000144
+name: Male flower number
+def: "number of male flowers after the buds appear" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000143
+name: Female flower number
+def: "number of female flowers after the buds appear" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000142
+name: Days to first inflorescence
+def: "number of days to first inflorescence (actual date in the format dd/mm/yyyy from the date of planting)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000141
+name: Days to 50% branching
+def: "visual observation of when fifty percent of the plant stand per plot branches" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000140
+name: Branching habit
+def: "observation of the lowest of first branching" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000139
+name: Branching
+def: "visual rating of branch height" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000138
+name: Sprout count
+def: "Number of stakes germinated" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000137
+name: Leaf scar level
+def: "leaf scar level(cm)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000136
+name: Leaf scar number
+def: "Number of leaf scars" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000135
+name: Stump weight
+def: "Weight of stump (kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000134
+name: Leaf weight
+def: "Weight of leaf (kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000133
+name: Stem rot
+def: "Number of rotted stem per plot" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000132
+name: Non marketable root weight
+def: "non marketable root weight(kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000131
+name: Marketable root weight
+def: "marketable root weight(kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000130
+name: Tip shoot weight
+def: "Tip shoot weight(kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000129
+name: Stem number
+def: "number of stem per plot" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000128
+name: Average stem length
+def: "Average stem length (cm)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000127
+name: Stem weight
+def: "stem weight (kg)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000126
+name: Plantable stem
+def: "plantable stem (cm)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000125
+name: Plant height without leaf
+def: "plant height without leaf (cm)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000124
+name: Amylose Amylopectin Ratio
+def: "Amylopectin:amylose ratio (percentage)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000122
+name: Cassava green mite incidence
+def: "proportion of plants affected by cassava green mite" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000121
+name: Amylopectin Content
+def: "Amylopectin content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000120
+name: Suitability for Intercropping
+def: "Compatibility for use in intercroping." []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000119
+name: Central Leaf Shape
+def: "Shape of central leaf taken from a mid-height position." []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000118
+name: Total Carotenoid Retention
+def: "Total carotene (percentage)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000117
+name: Beta Carotenoid Retention
+def: "Beta carotene (percentage)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000116
+name: Ease Of Peeling Root Cortex
+def: "Ease of root cortex removal" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000115
+name: Storage Root Cortex Color
+def: "Color of outer surface of storage root cortex (inner skin)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000114
+name: Color Of Boiled Tuberous Roots
+def: "Color of boiled tuberous roots" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000113
+name: Ploidy
+def: "Ploidy level (n = 1,2,3,4 ) (by morphological characteristics)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000112
+name: Fruit Exocarp Texture
+def: "Texture of the outer most layer of the cassava fruit" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000111
+name: Flowers (50%)
+def: "Flower 50% 0-absent; 1-present" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000110
+name: Fruit Set
+def: "Fruit set" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000108
+name: Female Stamenoids
+def: "Female cassava flowers without rudimentary stamen." []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000107
+name: Male Sterile
+def: "Cassava plants that do no produce viable pollen." []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000106
+name: First Apical Branch Height
+def: "Height of first apical branch (ground level to point of first Apical branch, 9 months after planting) in cm" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000105
+name: Leaf Scar Prominence
+def: "Prominence of leaf scars (measured on fresh scars)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000104
+name: Young Stem Growth Habit
+def: "Growth habit of young stem" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000103
+name: Anthocyanin Pigmentation
+def: "Distribution of anthocyanin pigmentation (0-3)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000102
+name: First Fully Expanded Leaf Color
+def: "Color of first fully expanded leaf" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000101
+name: Unexpanded Apical Leaves Colors
+def: "Color of unexpanded apical leaves" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000100
+name: Stipules Length
+def: "Length of stipules" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000099
+name: Plant Architecture
+def: "Plant architecture on a 1-5 scale" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000098
+name: Lafun Content
+def: "Lafu weight" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000097
+name: Fufu Content
+def: "Fufu weight" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000096
+name: Gari Content
+def: "Gari content (g/kg of fresh root)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000095
+name: Beta carotene
+def: "β-carotene (µg/g fresh wt)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000094
+name: Proportion of Lodged Plants
+def: "Proportion of lodged plants (>45o)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000093
+name: Frog Skin Disease
+def: "Frog skin disease (FSD)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000092
+name: Root Dry Matter Content
+def: "Percentage dry matter content of storage roots" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000091
+name: Hydrogen cyanide potential picrate method
+def: "Estimate of cyanide production potential of   storage roots using the sodium picrate test" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000090
+name: Cassava brown streak disease root severity
+def: "Cassava brown streak disease root symptoms severity (Scale of 1-5 in increasing severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000089
+name: Cassava brown streak disease root incidence
+def: "Proportion of plants within a plot showing root symptoms of cassava brown streak disease" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000088
+name: Bemesia tabaci nymphs
+def: "Number of Bemesia tabaci nymphs white flies on the14th leaf." []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000087
+name: Bemesia tabaci adult
+def: "Number of Bemesia tabaci adult white flies on the top five leaves." []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000086
+name: Apical Branching
+def: "Time to first apical branching (associated with formation of inflorescence, in weeks from planting)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000085
+name: Taste Of Boiled Roots
+def: "Taste of boiled roots" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000084
+name: Rotted Storage Roots
+def: "Number of rotted storage roots per plot at the time of harvest" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000083
+name: Leaf Lobe Position
+def: "Position in which leaf lobes are held" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000082
+name: Leaf Lobes Number
+def: "Number of leaf lobes" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000081
+name: Leaf Vein Color
+def: "Color of leaf vein" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000080
+name: Branching Angle
+def: "Angle of branching (Angle between vertical plane and first branches)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000079
+name: Branching Levels
+def: "Number of levels of branching (Actual number of levels (at harvest)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000078
+name: Zinc Content
+def: "Zinc content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000076
+name: Hydrogen cyanide potential enzymatic method
+def: "Estimate of storage root cyanide content by enzymatic assay. 1-low; 2-medium; 3-high" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000075
+name: Amylose Content
+def: "Amylose content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000074
+name: Poundability
+def: "Poundability (mealiness of boiled roots)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000073
+name: Total Carotenoid Content
+def: "Total carotene (µg/g fresh wt)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000072
+name: Sugar Content
+def: "Sugar content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000071
+name: Starch Content
+def: "Starch content (%)" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000070
+name: Protein Content
+def: "Protein content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000069
+name: Moisture Content
+def: "Moisture content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000068
+name: Iron Content
+def: "Iron content." []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000067
+name: Fibre Content
+def: "Fibre content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000066
+name: Ash Content
+def: "Ash content" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000065
+name: Ascorbic Acid
+def: "Ascorbic acid" []
+relationship: is_a CO_334:Quality%20traits
+
+[Term]
+id: CO_334:0000064
+name: Storage Root Periderm Color
+def: "Color of outer surface of storage root periderm (outer skin)" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000063
+name: Seed Color
+def: "Main color of seed" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000062
+name: Stem Color
+def: "Stem color nine months after planting" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000061
+name: Anther Color
+def: "Color of anthers" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000060
+name: Sepal Color
+def: "Color of sepals" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000059
+name: Disc Color
+def: "Color of disc" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000058
+name: Ovary Color
+def: "Color of ovary" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000057
+name: Stigma Color
+def: "Color of stigma" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000056
+name: Caruncle Color
+def: "Color of caruncle" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000055
+name: Storage Root Diameter
+def: "Storage root diameter" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000054
+name: Root Surface Texture
+def: "Storage root surface texture" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000053
+name: Root Surface Color
+def: "Storage root surface color" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000052
+name: Root Position
+def: "Position of roots" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000051
+name: Storage Root Constrictions
+def: "Storage root constrictions" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000050
+name: Storage Root Peduncle
+def: "Storage root peduncle" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000049
+name: Leaf Life
+def: "Leaf life estimated by days" []
+relationship: is_a CO_334:Physiological%20traits
+
+[Term]
+id: CO_334:0000048
+name: Leaf Retention
+def: "Leaf retention (stay green) scored on a 1-7 scale" []
+relationship: is_a CO_334:Physiological%20traits
+
+[Term]
+id: CO_334:0000047
+name: Abscisic Acid Content
+def: "Abscisic acid content of leaf sample" []
+relationship: is_a CO_334:Physiological%20traits
+
+[Term]
+id: CO_334:0000046
+name: Petiole Insertion Angle
+def: "Angle between branch and petiole" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000045
+name: Red Spider Mite Incidence
+def: "Proportion of plants within a plot showing evidence of colonization by red spider mite." []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000044
+name: Red Spider Mite Severity
+def: "Red spider mite severity (scale of 1-5 in increasing severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000043
+name: Spiraling Whitefly Incidence
+def: "Proportion of plants within a plot showing evidence of colonization by spiraling whitefly." []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000042
+name: Spiraling Whitefly Severity
+def: "Spiraling whitefly severity scale of 1-5 in increasing severity" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000041
+name: Cassava Mealy Bug Incidence
+def: "Proportion of plants within a plot showing symptoms of cassava mealy-bug damage" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000040
+name: Cassava brown streak disease leaf incidence
+def: "Proportion of plants within a plot showing  symptoms of cassava brown streak disease, evaluated weeks after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000039
+name: Cassava mosaic disease incidence
+def: "proportion of plants within a plot showing  symptoms of cassava mosaic disease, evaluated weeks after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000038
+name: Cassava anthracnose disease incidence
+def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000037
+name: Cassava bacterial blight incidence
+def: "Proportion of plants within a plot showing symptoms of cassava bacterial blight months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000036
+name: Cassava brown streak disease leaf severity
+def: "visual rating of leaf symptoms caused by cassava brown streak virus evaluated  weeks after planting, in the family of Potyviridae and genus Ipomovirus. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000035
+name: Cassava mosaic disease severity
+def: "visual rating of symptoms caused by cassava mosaic virus,in the family Geminiviridae and denus Begomovirus,evaluated between  weeks after planting. Symptoms rated from 1=(clean,no infection) to 5=(extremely severe, severely diseased)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000034
+name: Cassava Mealy Bug Severity
+def: "Cassava mealy bug severity (scale of 1-5 in increasing  severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000033
+name: Cassava green mite severity
+def: "visual rating of damage caused by cassava green mite (Scale of 1-5 in increasing  severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000032
+name: Cassava anthracnose disease severity
+def: "Cassava anthracnose disease severity rated months caused by  Colletotrichum gloeosporioides f. sp. (scale of 1-5 in increasing severity)" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000031
+name: Cassava bacterial blight severity
+def: "visual rating of symptoms in response to the bacterial blight disease. Manihotis symptoms rated from 1=(clean,no infection), 5=(extremely severe,severly diseased) evaluated  months after planting" []
+relationship: is_a CO_334:Biotic%20stress%20traits
+
+[Term]
+id: CO_334:0000026
+name: Apical Pubescence
+def: "Pubescence of young leaves" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000025
+name: Young Stem Pubescence
+def: "Pubescence of young stem" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000024
+name: Petiole Length
+def: "Petiole length" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000023
+name: Petiole Color
+def: "Petiole color" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000022
+name: Root Neck Length
+def: "Root neck length" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000021
+name: Storage Root Pulp Color
+def: "Storage root pulp color" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000020
+name: Storage Root Shape
+def: "Storage root shape" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000019
+name: Storage Root Size
+def: "Storage root length" []
+relationship: is_a CO_334:Morphological%20traits
+
+[Term]
+id: CO_334:0000018
+name: Plant Height
+def: "Height of plant at harvest from ground level to top of canopy" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000017
+name: Top Yield
+def: "Total fresh weight of foliage and stems per plot (at harvest) in t/ha" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000016
+name: Fresh Shoot Weight
+def: "Total fresh weight of harvested foliage and stems per plot" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000015
+name: Harvest Index
+def: "Harvest index" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000014
+name: Dry Yield
+def: "Dry yield (t/ha)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000013
+name: Fresh Root Yield
+def: "Fresh root yield (t/ha)" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000012
+name: Fresh Weight of Storage Root
+def: "Total fresh weight of storage roots harvested per plot" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000011
+name: Root Number
+def: "Number of harvested marketable storage roots per plot" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000010
+name: Plant Stands Harvested
+def: "Number of plant stands harvested" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000009
+name: Initial Vigor
+def: "Initial plant vigor scored one month after planting" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Term]
+id: CO_334:0000008
+name: Sprouting
+def: "Proportion of stakes germinated scored one month after planting" []
+relationship: is_a CO_334:Agronomical%20traits
+
+[Typedef]
+id: method_of
+name: method_of
+is_transitive: true
+
+[Typedef]
+id: scale_of
+name: scale_of
+is_transitive: true
