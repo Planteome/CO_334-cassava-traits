@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: TEMP
+default-namespace: cco
 
 [Term]
 id: CO_334:ROOT
