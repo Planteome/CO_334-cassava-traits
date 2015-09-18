@@ -19,7 +19,7 @@ The following guidelines are the result of the collaboration between CropOntolog
 It is important to follow these guidelines in order to maintain one ontology which is compatibel with all databases.
 
 
- - Cross product terms and variable:
+- Cross product terms and variable:
 Variable is a notion that has been introduced recently in the Crop Ontology. 
 A variable is composed by the unique combination of one Trait, one Method and one Scale and will annotate the measurement in a database. 
 Therefore, there is now a clear distinction between the trait and the variable. 
@@ -27,7 +27,7 @@ The introduction of the notion of variables as consequences on the current versi
 We agreed on:
 
 
-1.Normalization of variable names
+1. Normalization of variable names
  Variable names should be unique, and not the same as the trait name. 
  A good variable name should have the method and scale as part of its name, 
  an explicit definition which includes all aspects of measuring the variable.
