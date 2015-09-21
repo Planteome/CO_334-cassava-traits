@@ -204,7 +204,7 @@ relationship: variable_of CO_334:0100544 ! 8pt scale
 [Term]
 id: CO_334:0000027
 name: bacterial disease
-namespace: cassavaTrait
+namespace: CassavaTrait
 def: "Traits related to incidence and severity of cassava response to bacterial pathogens." [CO:mb]
 is_a: CO_334:0000007 ! biotic stress trait
 created_by: BAKARE
@@ -213,7 +213,7 @@ creation_date: 2010-11-08T06:42:36Z
 [Term]
 id: CO_334:0000028
 name: viral disease
-namespace: cassavaTrait
+namespace: CassavaTrait
 def: "Traits related to incidence and severity of cassava response to viral pathogens." [CO:mb]
 is_a: CO_334:0000007 ! biotic stress trait
 created_by: BAKARE
@@ -222,7 +222,7 @@ creation_date: 2010-11-08T06:43:31Z
 [Term]
 id: CO_334:0000029
 name: fungal disease
-namespace: cassavaTrait
+namespace: CassavaTrait
 def: "Traits related to incidence and severity of cassava response to fungal pathogens." [CO:mb]
 is_a: CO_334:0000007 ! biotic stress trait
 created_by: BAKARE
@@ -231,7 +231,7 @@ creation_date: 2010-11-08T06:44:26Z
 [Term]
 id: CO_334:0000030
 name: insect damage
-namespace: cassavaTrait
+namespace: CassavaTrait
 def: "Traits related to damage caused by insects." [CO:mb]
 is_a: CO_334:0000007 ! biotic stress trait
 created_by: BAKARE
