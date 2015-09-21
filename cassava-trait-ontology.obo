@@ -200,6 +200,44 @@ relationship: variable_of CO_334:0000283 ! Apical Pubescence
 relationship: variable_of CO_334:0010338 ! Visual Rating:Apical Pubescence_method
 relationship: variable_of CO_334:0100544 ! 8pt scale
 
+
+[Term]
+id: CO_334:0000027
+name: bacterial disease
+namespace: cassava_trait
+def: "Traits related to incidence and severity of cassava response to bacterial pathogens." [CO:mb]
+is_a: CO_334:0000007 ! biotic stress trait
+created_by: BAKARE
+creation_date: 2010-11-08T06:42:36Z
+
+[Term]
+id: CO_334:0000028
+name: viral disease
+namespace: cassava_trait
+def: "Traits related to incidence and severity of cassava response to viral pathogens." [CO:mb]
+is_a: CO_334:0000007 ! biotic stress trait
+created_by: BAKARE
+creation_date: 2010-11-08T06:43:31Z
+
+[Term]
+id: CO_334:0000029
+name: fungal disease
+namespace: cassava_trait
+def: "Traits related to incidence and severity of cassava response to fungal pathogens." [CO:mb]
+is_a: CO_334:0000007 ! biotic stress trait
+created_by: BAKARE
+creation_date: 2010-11-08T06:44:26Z
+
+[Term]
+id: CO_334:0000030
+name: insect damage
+namespace: cassava_trait
+def: "Traits related to damage caused by insects." [CO:mb]
+is_a: CO_334:0000007 ! biotic stress trait
+created_by: BAKARE
+creation_date: 2010-11-08T06:45:42Z
+
+
 [Term]
 id: CO_334:0000031
 name: Cassava bacterial blight severity
@@ -207,7 +245,8 @@ namespace: CassavaTrait
 def: "Severity of bacterial blight disease caused by Xanthomonas axonopodis pv. Manihotis" []
 synonym: "Cassava bacterial blight severity - Cassavabase" EXACT []
 synonym: "CBBSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000027 ! bacterial disease
+
 
 [Term]
 id: CO_334:0000032
@@ -216,7 +255,8 @@ namespace: CassavaTrait
 def: "Severity of the Cassava anthracnose disease caused by Colletotrichum gloeosporioides f. sp." []
 synonym: "CADSev" EXACT []
 synonym: "Cassava anthracnose disease severity - Cassavabase" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000029 ! fungal disease
+
 
 [Term]
 id: CO_334:0000033
@@ -225,7 +265,8 @@ namespace: CassavaTrait
 def: "Severity of the damage caused by cassava green mite" []
 synonym: "Cassava green mite severity - Cassavabase" EXACT []
 synonym: "CGMSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000034
@@ -245,7 +286,8 @@ namespace: CassavaTrait
 def: "Severity of the symptoms caused by the cassava mosaic virus, in the family Geminiviridae and genus Begomovirus" []
 synonym: "Cassava mosaic disease severity - Cassavabase" EXACT []
 synonym: "CMDSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000028 ! viral disease
+
 
 [Term]
 id: CO_334:0000036
@@ -254,7 +296,8 @@ namespace: CassavaTrait
 def: "Severity of the symptoms on leaf caused by cassava brown streak virus in the family of Potyviridae and genus Ipomovirus" []
 synonym: "Cassava brown streak disease leaf severity - Cassavabase" EXACT []
 synonym: "CBSDRtSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000028 ! viral disease
+
 
 [Term]
 id: CO_334:0000037
@@ -262,7 +305,8 @@ name: Cassava bacterial blight incidence
 namespace: CassavaTrait
 def: "Incidence of the cassava bacterial blight" []
 synonym: "CBBInc" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000027 ! bacterial disease
+
 
 [Term]
 id: CO_334:0000038
@@ -270,7 +314,8 @@ name: Cassava anthracnose disease incidence
 namespace: CassavaTrait
 def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease" []
 synonym: "cadi" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000029 ! fungal disease
+
 
 [Term]
 id: CO_334:0000039
@@ -278,7 +323,8 @@ name: Cassava mosaic disease incidence
 namespace: CassavaTrait
 def: "Proportion of plants within a plot showing  symptoms of cassava mosaic disease" []
 synonym: "cmdi" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000028 ! viral disease
+
 
 [Term]
 id: CO_334:0000040
@@ -286,7 +332,8 @@ name: Cassava brown streak disease leaf incidence
 namespace: CassavaTrait
 def: "Proportion of plants within a plot showing  symptoms of cassava brown streak disease" []
 synonym: "cbsdli" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000028 ! viral disease
+
 
 [Term]
 id: CO_334:0000041
@@ -810,7 +857,8 @@ name: Cassava brown streak disease root incidence
 namespace: CassavaTrait
 def: "Proportion of plants within a plot showing root symptoms of cassava brown streak disease" []
 synonym: "cbsdr12i" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000028 ! viral disease
+
 
 [Term]
 id: CO_334:0000090
@@ -819,7 +867,8 @@ namespace: CassavaTrait
 def: "Cassava brown streak disease root symptoms severity" []
 synonym: "Cassava brown streak disease root severity - Cassavabase" EXACT []
 synonym: "CBSDLfSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000028 ! viral disease
+
 
 [Term]
 id: CO_334:0000091
@@ -1168,7 +1217,8 @@ name: Cassava green mite incidence
 namespace: CassavaTrait
 def: "Proportion of plants affected by cassava green mite" []
 synonym: "cgmi" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000124
@@ -2802,7 +2852,8 @@ name: Bemesia tabaci nymphs black
 namespace: CassavaTrait
 def: "Number of black bemesia tabaci nymphs on 14th leaf" []
 synonym: "btwfb" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000289
@@ -2810,7 +2861,7 @@ name: Bemesia tabaci nymphs severity
 namespace: CassavaTrait
 def: "Severity of the chlorotic blotches on leaf caused by the nymphs of Bemesia tabaci" []
 synonym: "BTNSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
 
 [Term]
 id: CO_334:0000290
@@ -2818,7 +2869,8 @@ name: Bemesia tabaci nymphs yellow
 namespace: CassavaTrait
 def: "Number of yellow bemesia tabaci nymphs on 14th leaf" []
 synonym: "btwfy" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000291
@@ -2891,7 +2943,8 @@ name: Cassava Mealy Bug Incidence
 namespace: CassavaTrait
 def: "Proportion of plants within a plot showing symptoms of cassava mealy-bug damage (Phenacoccus Manihoti)" []
 synonym: "cmbi" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000340
@@ -2900,7 +2953,8 @@ namespace: CassavaTrait
 def: "Severity of the damage caused by Cassava mealy bug (Phenacoccus Manihoti)" []
 synonym: "Cassava Mealy Bug Severity - Cassavabase" EXACT []
 synonym: "CMBSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000353
@@ -3029,7 +3083,8 @@ name: Frog Skin Disease
 namespace: CassavaTrait
 def: "Severity of the Frog skin disease caused by unknown causal agent" []
 synonym: "fsd" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000028 ! viral disease
+
 
 [Term]
 id: CO_334:0000371
@@ -3327,7 +3382,8 @@ name: Number of Bemesia tabaci adult
 namespace: CassavaTrait
 def: "Number of Bemesia tabaci adult white flies" []
 synonym: "BTAdtNo" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000411
@@ -3335,7 +3391,8 @@ name: Number of Bemesia tabaci nymphs
 namespace: CassavaTrait
 def: "Number of Bemesia tabaci nymphs white flies" []
 synonym: "BTNyNo" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000412
@@ -3562,7 +3619,8 @@ name: Red Spider Mite Incidence
 namespace: CassavaTrait
 def: "Proportion of plants within a plot showing evidence of colonization by red spider mite." []
 synonym: "rsmi" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000444
@@ -3570,7 +3628,8 @@ name: Red Spider Mite Severity
 namespace: CassavaTrait
 def: "Red spider mite severity" []
 synonym: "RSMSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000446
@@ -3709,7 +3768,8 @@ name: Sooty Mould
 namespace: CassavaTrait
 def: "Balck mould" []
 synonym: "sooty" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000464
@@ -3717,7 +3777,8 @@ name: Spiraling Whitefly Incidence
 namespace: CassavaTrait
 def: "Proportion of plants within a plot showing evidence of colonization by spiraling whitefly." []
 synonym: "Swfi" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000465
@@ -3725,7 +3786,8 @@ name: Spiraling Whitefly Severity
 namespace: CassavaTrait
 def: "Spiraling whitefly severity" []
 synonym: "SWFSev" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000466
@@ -3997,7 +4059,8 @@ name: Typhlodromalus aripo
 namespace: CassavaTrait
 def: "Presence of Typhlodromalus aripo" []
 synonym: "taripo" EXACT []
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0000504
@@ -7086,7 +7149,7 @@ relationship: scale_of CO_334:0010299 ! Estimation :Hydrogen cyanide potential p
 
 [Term]
 id: CO_334:0100505:1
-name: not detectable
+name: 9pt scale : 1
 namespace: CassavaScale
 synonym: "1" EXACT []
 is_a: CO_334:0100505 ! 9pt scale
@@ -9614,7 +9677,7 @@ is_a: CO_334:0100646 ! 9pt scale
 
 [Term]
 id: CO_334:0100646:2
-name:
+name: 9pt scale : 2
 namespace: CassavaScale
 synonym: "2" EXACT []
 is_a: CO_334:0100646 ! 9pt scale
@@ -9628,7 +9691,7 @@ is_a: CO_334:0100646 ! 9pt scale
 
 [Term]
 id: CO_334:0100646:4
-name:
+name: 9pt scale : 4
 namespace: CassavaScale
 synonym: "4" EXACT []
 is_a: CO_334:0100646 ! 9pt scale
