@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:09:2015 16:06
+date: 24:09:2015 16:27
 saved-by: naama
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
@@ -777,6 +777,13 @@ relationship: variable_of CO_334:0010334 ! Estimation :hydrogen cyanide potentia
 relationship: variable_of CO_334:0100540 ! 3pt scale
 
 [Term]
+id: CO_334:0000077
+name: post-harvest physiological deterioration variable
+namespace: CassavaVariable
+def: "Post-harvest physiological deterioration is characterized by internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption." [CO:mb, ISBN:978-131-347-1]
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
 id: CO_334:0000078
 name: zinc content
 namespace: CassavaVariable
@@ -1262,6 +1269,16 @@ namespace: CassavaTrait
 def: "Proportion of plants affected by cassava green mite" []
 synonym: "cgmi" EXACT []
 is_a: CO_334:0000030 ! insect damage
+
+[Term]
+id: CO_334:0000123
+name: plant height with leaf in cm
+namespace: CassavaVariable
+def: "Portion of the stem with leaves measured as the distance in centimeter from the point of attachment of the oldest leaf to the youngest leaf (apical leaf portion)." []
+synonym: "PLHTLF" EXACT []
+relationship: variable_of CO_334:0000478 ! Stem height
+relationship: variable_of CO_334:0010000 ! measurement: plant height with leaf_method
+relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000124
@@ -4122,6 +4139,14 @@ namespace: CassavaTrait
 def: "Zinc content" []
 synonym: "zn" EXACT []
 is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0010000
+name: measurement: plant height with leaf_method
+namespace: CassavaMethod
+relationship: method_of CO_334:0000478 ! Stem height
+created_by: naama
+creation_date: 2015-09-23T16:16:50Z
 
 [Term]
 id: CO_334:0010220
@@ -8600,6 +8625,7 @@ relationship: scale_of CO_334:0010351 ! Counting:Branching Levels_method
 id: CO_334:0100558
 name: cm
 namespace: CassavaScale
+relationship: scale_of CO_334:0010000 ! measurement: plant height with leaf_method
 relationship: scale_of CO_334:0010303 ! Measurement :Plant Height_method
 relationship: scale_of CO_334:0010352 ! Measurement :First Apical Branch Height_method
 relationship: scale_of CO_334:0010384 ! Measurement :plant height without leaf_method
