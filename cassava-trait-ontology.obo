@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:09:2015 14:34
+date: 25:09:2015 14:48
 saved-by: naama
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
@@ -2393,12 +2393,14 @@ relationship: variable_of CO_334:0100644 ! 3pt scale
 
 [Term]
 id: CO_334:0000224
-name: staygreen
+name: staygreen visual scale 1-9
 namespace: CassavaVariable
 def: "Visual rating of leaf longevity using a scale of 1 = Normal plant with full canopy, retaining most formed leaves which are green, turgid and photosynthetically active. 3 = 30% of the leaves have dropped , less than 50% of the remaining leaves are droppy, partially wilted and practically dry, most of the young leaves have reduced greenness or are yellowing. 5 = 50% reduction of the leaf number compared to full canopy; most of the older leaves are droppy, wilted and practically dry; most of the young leaves have reduced greeness or are yellowing. 7 = 80% reduction of the leaf number compareed to full canopy; more than 75% of the remaining old leaves are wilted or brown; young leaves have reduced greeness or are yellowing\". 9 = Complete defoliation of the stem with candlestick appearance; dieback is also evident on the stem." []
 synonym: "SG" EXACT []
 xref: CO:334\:0000048
-is_a: CO_334:0000048 ! leaf retention
+relationship: variable_of CO_334:0000396 ! Leaf Retention
+relationship: variable_of CO_334:0010440 ! Visual Rating:staygreen_method
+relationship: variable_of CO_334:0100646 ! 9pt scale
 
 [Term]
 id: CO_334:0000225
@@ -2844,6 +2846,7 @@ synonym: "sg" EXACT []
 relationship: variable_of CO_334:0000396 ! Leaf Retention
 relationship: variable_of CO_334:0010440 ! Visual Rating:staygreen_method
 relationship: variable_of CO_334:0100646 ! 9pt scale
+is_obsolete: true
 
 [Term]
 id: CO_334:0000275
