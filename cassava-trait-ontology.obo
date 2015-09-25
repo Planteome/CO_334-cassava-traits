@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:09:2015 14:48
+date: 25:09:2015 14:59
 saved-by: naama
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
@@ -144,9 +144,9 @@ def: "Proportion of fresh root weight in total biomass." [CO:mb, ISBN:978-131-30
 synonym: "HI" EXACT []
 xref: ICASS_TRAITID:10045
 xref: TO:0000128 "Plant trait ontology"
-is_a: CO_334:0000001 ! Agronomic trait
 relationship: derives_from CO_334:0000013 ! fresh root yield
 relationship: derives_from CO_334:0000017 ! top yield
+relationship: variable_of CO_334:0000256 ! Harvest index
 
 [Term]
 id: CO_334:0000016
@@ -794,6 +794,7 @@ name: post-harvest physiological deterioration variable 0-10
 namespace: CassavaVariable
 def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale." [CO:mb, ISBN:978-131-347-1]
 relationship: variable_of CO_334:0000266 ! post-harvest physiological deterioration
+relationship: variable_of CO_334:0010001 ! Estimation: post-harvest physiological deterioration method
 
 [Term]
 id: CO_334:0000078
@@ -4191,7 +4192,7 @@ creation_date: 2015-09-23T16:16:50Z
 
 [Term]
 id: CO_334:0010001
-name: Estimation: post-harvest physiological deterioration method>
+name: Estimation: post-harvest physiological deterioration method
 namespace: CassavaMethod
 def: "Estimation of post-harvest physiological deterioration by slicing the roots." []
 relationship: method_of CO_334:0000266 ! post-harvest physiological deterioration
