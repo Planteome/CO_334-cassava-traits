@@ -146,7 +146,7 @@ xref: ICASS_TRAITID:10045
 xref: TO:0000128 "Plant trait ontology"
 relationship: derives_from CO_334:0000013 ! fresh root yield
 relationship: derives_from CO_334:0000017 ! top yield
-relationship: variable_of CO_334:0000256 ! Harvest index
+relationship: variable_of CO_334:0000267 ! Harvest index
 
 [Term]
 id: CO_334:0000016
@@ -2742,21 +2742,12 @@ relationship: variable_of CO_334:0010461 ! Estimation :leaf retention at harvest
 relationship: variable_of CO_334:0100663 ! pct(%)
 
 [Term]
-id: CO_334:0000256
+id: CO_334:0000267
 name: Harvest index
 namespace: CassavaTrait
 is_a: CO_334:0000001 ! Agronomic trait
 created_by: naama
 creation_date: 2015-09-24T16:40:07Z
-
-[Term]
-id: CO_334:0000257
-name: LobMrgnShp_Est_1to7
-namespace: CassavaVariable
-synonym: "lflbmg" EXACT []
-relationship: variable_of CO_334:0000392 ! Leaf lobe margin
-relationship: variable_of CO_334:0010463 ! Visual Observation:leaf lobe margin_method
-relationship: variable_of CO_334:0100669 ! 7pt scale
 
 [Term]
 id: CO_334:0000258
@@ -2839,6 +2830,14 @@ def: "Internal root discoloration or vascular streaking that renders cassava roo
 is_a: CO_334:0000004 ! Quality trait
 created_by: naama
 creation_date: 2015-09-25T11:44:40Z
+
+[Term]
+id: CO_334:0000267
+name: Harvest index
+namespace: CassavaTrait
+is_a: CO_334:0000001 ! Agronomic trait
+created_by: naama
+creation_date: 2015-09-24T16:40:07Z
 
 [Term]
 id: CO_334:0000273
