@@ -1,8 +1,9 @@
 format-version: 1.2
-date: 28:09:2015 11:54
-saved-by: naama
+date: 28:09:2015 18:14
+saved-by: AAfolabi
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
+namespace-id-rule: * CO_334:$sequence(7,0,9999999)$
 
 [Term]
 id: CO_334:0000000
@@ -2742,12 +2743,25 @@ relationship: variable_of CO_334:0010461 ! Estimation :leaf retention at harvest
 relationship: variable_of CO_334:0100663 ! pct(%)
 
 [Term]
-id: CO_334:0000267
-name: Harvest index
+id: CO_334:0000256
+name: assessment of apical pubescence
+namespace: CassavaVariable
+def: "Assessment of the young leaf pubescence . Record the most frequent occurrence scored as 0 = Absent, 1 = Present." []
+synonym: "APUBESA" RELATED []
+relationship: variable_of CO_334:0000283 ! Apical Pubescence
+created_by: AAfolabi
+creation_date: 2015-09-28T17:48:12Z
+
+[Term]
+id: CO_334:0000257
+name: stem diameter measurement in cm
 namespace: CassavaTrait
-is_a: CO_334:0000001 ! Agronomic trait
-created_by: naama
-creation_date: 2015-09-24T16:40:07Z
+def: "Measurement of stem diameter taken on the middle of the plant in centimeter (cm) using the vernier caliper." []
+synonym: "STE" RELATED []
+synonym: "STMDIAM" RELATED []
+relationship: variable_of CO_334:0000480 ! Stem weight
+created_by: AAfolabi
+creation_date: 2015-09-28T17:55:20Z
 
 [Term]
 id: CO_334:0000258
@@ -2838,6 +2852,35 @@ namespace: CassavaTrait
 is_a: CO_334:0000001 ! Agronomic trait
 created_by: naama
 creation_date: 2015-09-24T16:40:07Z
+
+[Term]
+id: CO_334:0000268
+name: shoot apices
+namespace: CassavaTrait
+def: "Structure/arrangement of  shoot apices." []
+synonym: "STS" RELATED []
+is_a: CO_334:0000001 ! Agronomic trait
+created_by: AAfolabi
+creation_date: 2015-09-28T18:02:43Z
+
+[Term]
+id: CO_334:0000269
+name: size of shoot apices assessment 1-3
+namespace: CassavaVariable
+def: "Visual assessment of shoot apices based on how large or small the shoot apices are and categorised on a scale of 1-3 where 1 = small 2= medium and 3 = large." []
+relationship: variable_of CO_334:0000268 ! shoot apices
+created_by: AAfolabi
+creation_date: 2015-09-28T18:04:39Z
+
+[Term]
+id: CO_334:0000270
+name: compactness of shoot apices visual 1-3
+namespace: CassavaVariable
+def: "Visual assessment of the compactness of shoot apices based on how closely the shoot apices are; with 1 = loose, 2 = moderately compact, 3 = compact." []
+synonym: "STC" RELATED []
+relationship: variable_of CO_334:0000268 ! shoot apices
+created_by: AAfolabi
+creation_date: 2015-09-28T18:09:28Z
 
 [Term]
 id: CO_334:0000273
