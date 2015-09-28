@@ -1,8 +1,9 @@
 format-version: 1.2
-date: 25:09:2015 14:59
-saved-by: naama
+date: 27:09:2015 14:31
+saved-by: AAfolabi
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
+namespace-id-rule: * CO_334:$sequence(7,0,9999999)$
 
 [Term]
 id: CO_334:0000000
@@ -61,7 +62,7 @@ is_a: CO_334:0000005 ! Stress trait
 
 [Term]
 id: CO_334:0000008
-name: sprouting
+name: sprouting proportion
 namespace: CassavaVariable
 def: "Proportion of stakes germinated scored one month after planting." []
 synonym: "sprout" EXACT []
@@ -72,7 +73,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000009
-name: initial vigor
+name: initial vigor assessment 1-7
 namespace: CassavaVariable
 def: "Visual assessment of plant vigor during establishment scored one month after planting." []
 synonym: "IVig_IITAVisScg_1to7" EXACT []
@@ -83,7 +84,7 @@ relationship: variable_of CO_334:0100434 ! 7 pt scale
 
 [Term]
 id: CO_334:0000010
-name: plant stands harvested
+name: plant stands harvested counting
 namespace: CassavaVariable
 def: "A count of the number of plant stands at harvest." []
 synonym: "nohav" EXACT []
@@ -94,7 +95,7 @@ relationship: variable_of CO_334:0100490 ! Plant
 
 [Term]
 id: CO_334:0000011
-name: root number
+name: root number counting
 namespace: CassavaVariable
 def: "A count of the total number of storage roots harvested per plot." []
 synonym: "NoHvstRt_Count_Rt" EXACT []
@@ -137,20 +138,8 @@ relationship: variable_of CO_334:0010330 ! Calculation :Dry Yield_method
 relationship: variable_of CO_334:0100535 ! t/ha
 
 [Term]
-id: CO_334:0000015
-name: harvest index variable
-namespace: CassavaVariable
-def: "Proportion of fresh root weight in total biomass." [CO:mb, ISBN:978-131-302-1]
-synonym: "HI" EXACT []
-xref: ICASS_TRAITID:10045
-xref: TO:0000128 "Plant trait ontology"
-relationship: derives_from CO_334:0000013 ! fresh root yield
-relationship: derives_from CO_334:0000017 ! top yield
-relationship: variable_of CO_334:0000256 ! Harvest index
-
-[Term]
 id: CO_334:0000016
-name: fresh shoot weight
+name: fresh shoot weight measurement in kg
 namespace: CassavaVariable
 def: "Total fresh weight of harvested foliage and stems in kilograms per plot." []
 synonym: "shtwt" EXACT []
@@ -172,7 +161,7 @@ relationship: variable_of CO_334:0100535 ! t/ha
 
 [Term]
 id: CO_334:0000018
-name: plant height
+name: plant height measurement in cm
 namespace: CassavaVariable
 def: "Vertical height of plants from the ground to top of the canopy measured in centimeter (cm)." []
 synonym: "PlntH_Meas_cm" EXACT []
@@ -789,14 +778,6 @@ relationship: variable_of CO_334:0010334 ! Estimation :hydrogen cyanide potentia
 relationship: variable_of CO_334:0100540 ! 3pt scale
 
 [Term]
-id: CO_334:0000077
-name: post-harvest physiological deterioration variable 0-10
-namespace: CassavaVariable
-def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale." [CO:mb, ISBN:978-131-347-1]
-relationship: variable_of CO_334:0000266 ! post-harvest physiological deterioration
-relationship: variable_of CO_334:0010001 ! Estimation: post-harvest physiological deterioration method
-
-[Term]
 id: CO_334:0000078
 name: zinc content
 namespace: CassavaVariable
@@ -969,7 +950,7 @@ relationship: variable_of CO_334:0100489 ! 5 pt scale
 
 [Term]
 id: CO_334:0000094
-name: proportion lodged plants
+name: proportion lodged plants in percentage
 namespace: CassavaVariable
 def: "Proportion of lodged plants (>45 degrees) in a plot." []
 synonym: "LodgPlntProp_Comp_r" EXACT []
@@ -1035,7 +1016,7 @@ relationship: variable_of CO_334:0100512 ! 5pt scale
 
 [Term]
 id: CO_334:0000100
-name: stipule length
+name: stipule length visual rating 1-7
 namespace: CassavaVariable
 def: "A qualitative scoring of the length of the leaflike appendage at the base of the leaf with 3= short, 5 = medium, and 7 = long." []
 synonym: "stipgt" EXACT []
@@ -1112,7 +1093,7 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000107
-name: male sterile
+name: male sterile visual rating 0&1
 namespace: CassavaVariable
 def: "Cassava plants that do no produce viable pollen." []
 synonym: "ms" EXACT []
@@ -1123,7 +1104,7 @@ relationship: variable_of CO_334:0100565 ! 2pt scale
 
 [Term]
 id: CO_334:0000108
-name: female staminoids
+name: female staminoids assessment 0&1
 namespace: CassavaVariable
 def: "Visual observation of female cassava flowers without rudimentary stamen scored as 0 = absent and 1 = present." []
 synonym: "femsta" EXACT []
@@ -1145,7 +1126,7 @@ relationship: variable_of CO_334:0100634 ! 3pt scale
 
 [Term]
 id: CO_334:0000110
-name: fruit set
+name: fruit set visual rating 0&1
 namespace: CassavaVariable
 def: "Visual rating of cassava fruit set with 0 = absent and 1 = present." []
 synonym: "frtset" EXACT []
@@ -1167,7 +1148,7 @@ relationship: variable_of CO_334:0100513 ! 2pt scale
 
 [Term]
 id: CO_334:0000112
-name: fruit exocarp texture
+name: fruit exocarp texture assessment 1-7
 namespace: CassavaVariable
 def: "Sensory assessment of the texture of outer most layer of the cassava fruit scored as 3 = smooth and 7 = rough." []
 synonym: "ExocTex_VisClsn_1to7" EXACT []
@@ -1255,7 +1236,7 @@ relationship: variable_of CO_334:0100548 ! 10 pt scale
 
 [Term]
 id: CO_334:0000120
-name: suitability for intercropping
+name: suitability for intercropping visual rating 0&1
 namespace: CassavaVariable
 def: "Qualitative rating of compatibility for use in intercropping with 0 = unsuitable and 1 = suitable." []
 synonym: "intcrp" EXACT []
@@ -1284,16 +1265,6 @@ synonym: "cgmi" EXACT []
 is_a: CO_334:0000030 ! insect damage
 
 [Term]
-id: CO_334:0000123
-name: plant height with leaf in cm
-namespace: CassavaVariable
-def: "Portion of the stem with leaves measured as the distance in centimeter from the point of attachment of the oldest leaf to the youngest leaf (apical leaf portion)." []
-synonym: "PLHTLF" EXACT []
-relationship: variable_of CO_334:0000478 ! Stem height
-relationship: variable_of CO_334:0010000 ! measurement: plant height with leaf_method
-relationship: variable_of CO_334:0100558 ! cm
-
-[Term]
 id: CO_334:0000124
 name: amylose amylopectin ratio
 namespace: CassavaVariable
@@ -1317,7 +1288,7 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000126
-name: plantable stem
+name: plantable stem assessment
 namespace: CassavaVariable
 def: "Portion of stems (matured and disease free) from few centimeter (cm) above the stump comprising the hardwood, semi hardwood upper shoot portion but excluding the immature greenish shoot portion." []
 synonym: "plbstm" EXACT []
@@ -1328,7 +1299,7 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000127
-name: stem weight
+name: stem weight measurement in kg
 namespace: CassavaVariable
 def: "Fresh weight of plantable portion of the plant excluding the leaves, and stump." []
 synonym: "stemwt" EXACT []
@@ -1350,7 +1321,7 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000129
-name: stem number
+name: stem number counting
 namespace: CassavaVariable
 def: "A count of the number of stems per plot." []
 synonym: "stemno" EXACT []
@@ -1361,7 +1332,7 @@ relationship: variable_of CO_334:0100594 ! Stem
 
 [Term]
 id: CO_334:0000130
-name: tip shoot weight
+name: tip shoot weight measurement in kg
 namespace: CassavaVariable
 def: "Weight of the tip shoot portion of the stem measured in kilogram (kg)." []
 synonym: "TipShWt_Wgh_kg" EXACT []
@@ -1372,7 +1343,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000131
-name: marketable root weight
+name: marketable root weight measurement in kg
 namespace: CassavaVariable
 def: "Weight of harvested cassava roots in kilogram (kg), visually classified as large sized and medium sized roots excluding the small sized roots." []
 synonym: "mkrtwt" EXACT []
@@ -1383,7 +1354,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000132
-name: non marketable root weight
+name: non marketable root weight measurement in kg
 namespace: CassavaVariable
 def: "Weight of small sized roots that do not attract any market value, measured in kilogram (kg)." []
 synonym: "NMkRtWt_Wgh_kg" EXACT []
@@ -1394,7 +1365,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000133
-name: stem rot
+name: stem rot counting per plot
 namespace: CassavaVariable
 def: "A count of the number of rotted stems per plot at the time of harvest." []
 synonym: "RotStmNo_Count_Stm" EXACT []
@@ -1405,7 +1376,7 @@ relationship: variable_of CO_334:0100546 ! Number
 
 [Term]
 id: CO_334:0000134
-name: leaf weight
+name: leaf weight measurement in kg
 namespace: CassavaVariable
 def: "Weight of fresh foliage leaf (the above ground biomass excluding the stem), measured in kilogram" []
 synonym: "lfwt" EXACT []
@@ -1416,7 +1387,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000135
-name: stump weight
+name: stump weight measurement in kg
 namespace: CassavaVariable
 def: "Fresh weight (measured in kilogram) of plant parts at the soil level from the neck of the root to the beginning of the plantable stems." []
 synonym: "stmpwt" EXACT []
@@ -1449,7 +1420,7 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000138
-name: sprout count
+name: sprout count discrete counting
 namespace: CassavaVariable
 def: "A count of the number of stakes germinated, after planting." []
 synonym: "NGermStk_Count_Stk" EXACT []
@@ -1680,7 +1651,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000159
-name: number of planted stakes
+name: number of planted stakes counting
 namespace: CassavaVariable
 def: "The total number of stakes planted per plot." []
 synonym: "NStk_Count_Stk" EXACT []
@@ -1767,7 +1738,7 @@ relationship: variable_of CO_334:0100626 ! Seedling
 
 [Term]
 id: CO_334:0000167
-name: number of seed sown
+name: number of seed sown counting
 namespace: CassavaVariable
 def: "Count of the number of seeds sown per family in the pre-nursery or directly in the nursery bed." []
 synonym: "seedno" EXACT []
@@ -1778,7 +1749,7 @@ relationship: variable_of CO_334:0100627 ! Seed
 
 [Term]
 id: CO_334:0000168
-name: non marketable root number
+name: non marketable root number counting
 namespace: CassavaVariable
 def: "Count of the number of storage root sizes visually adjudged to be small and less than one (1) kilogram." []
 synonym: "nmkrtno" EXACT []
@@ -1789,7 +1760,7 @@ relationship: variable_of CO_334:0100546 ! Number
 
 [Term]
 id: CO_334:0000169
-name: marketable root number
+name: marketable root number counting
 namespace: CassavaVariable
 def: "Count of the number of storage root sizes visually adjudged to be big and weigh above one (1) kilogram." []
 synonym: "MkRtNo_Count_Rt" EXACT []
@@ -1800,7 +1771,7 @@ relationship: variable_of CO_334:0100546 ! Number
 
 [Term]
 id: CO_334:0000170
-name: stock weight
+name: stock weight measurement in kg
 namespace: CassavaVariable
 def: "Measurement of fresh weight of the planted part anchoring the storage roots, and measured in kilogram (kg)" []
 synonym: "stkwt" EXACT []
@@ -1811,7 +1782,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000171
-name: stem yield
+name: stem yield estimation
 namespace: CassavaVariable
 def: "Fresh weight in kilogram (kg) of above ground harvested plant biomass excluding the leaves." []
 synonym: "StmWt_Wgh_kg" EXACT []
@@ -2350,7 +2321,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000220
-name: initial plant vigor
+name: initial plant vigor assessment 1-5
 namespace: CassavaVariable
 def: "Visual assessment of plant vigor during establishment (1=very little vigor, and 5 = very vigorous). as being evaluated by CIAT." []
 synonym: "IVig_CIATVisScg_1to5" EXACT []
@@ -2393,19 +2364,8 @@ relationship: variable_of CO_334:0010438 ! Visual Rating:root neck length_method
 relationship: variable_of CO_334:0100644 ! 3pt scale
 
 [Term]
-id: CO_334:0000224
-name: staygreen visual scale 1-9
-namespace: CassavaVariable
-def: "Visual rating of leaf longevity using a scale of 1 = Normal plant with full canopy, retaining most formed leaves which are green, turgid and photosynthetically active. 3 = 30% of the leaves have dropped , less than 50% of the remaining leaves are droppy, partially wilted and practically dry, most of the young leaves have reduced greenness or are yellowing. 5 = 50% reduction of the leaf number compared to full canopy; most of the older leaves are droppy, wilted and practically dry; most of the young leaves have reduced greeness or are yellowing. 7 = 80% reduction of the leaf number compareed to full canopy; more than 75% of the remaining old leaves are wilted or brown; young leaves have reduced greeness or are yellowing\". 9 = Complete defoliation of the stem with candlestick appearance; dieback is also evident on the stem." []
-synonym: "SG" EXACT []
-xref: CO:334\:0000048
-relationship: variable_of CO_334:0000396 ! Leaf Retention
-relationship: variable_of CO_334:0010440 ! Visual Rating:staygreen_method
-relationship: variable_of CO_334:0100646 ! 9pt scale
-
-[Term]
 id: CO_334:0000225
-name: ease of harvest
+name: ease of harvest assessment 1-3
 namespace: CassavaVariable
 def: "An assessment of the difficulty in pulling the plants from the ground during harvesting with 1 = easy, 2= intermediate, 3 = difficult." []
 synonym: "easehav" EXACT []
@@ -2416,7 +2376,7 @@ relationship: variable_of CO_334:0100631 ! 3pt scale
 
 [Term]
 id: CO_334:0000226
-name: root length evaluation
+name: root length evaluation scaled 1-3
 namespace: CassavaVariable
 def: "Visual assessment of the root length on a scale of 1, 2, 3 (1=short;  2= intermediate; 3=long)" []
 synonym: "rtlgt" EXACT []
@@ -2438,7 +2398,7 @@ relationship: variable_of CO_334:0100633 ! 3pt scale
 
 [Term]
 id: CO_334:0000228
-name: root evaluation
+name: root evaluation scaled 1-5
 namespace: CassavaVariable
 def: "An evaluation of the integration of  root shape, size, diameter, constriction, neck length on a scale of 1-5 with 1=very good; 5=very bad. Before scoring the roots, the field technician walks the harvested plot to get an idea of the average root type of the trial which will then be used as a score of 3. Genotypes better than average will be scored 2 and 1 in that order. Similiar genotype that are certainly worse compared to the average score are rated 4 and 5 in that order. Trait description is provided by Hernan Ceballos of CIAT." []
 synonym: "rteval" EXACT []
@@ -2482,7 +2442,7 @@ relationship: variable_of CO_334:0100638 ! t/ha/year
 
 [Term]
 id: CO_334:0000232
-name: selected variety
+name: selected variety boolean 0&1
 namespace: CassavaVariable
 def: "Selected variety (1=yes; 0=no)" []
 synonym: "select" EXACT []
@@ -2669,7 +2629,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000249
-name: peel weight
+name: peel weight measurement in kg
 namespace: CassavaVariable
 def: "The weight of the peels (outer and inner skin) removed from the fresh root cassava; using salter scale. It is measured in Kilogram (kg)." []
 synonym: "peelwt" EXACT []
@@ -2680,7 +2640,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000250
-name: number of stakes
+name: number of stakes counting
 namespace: CassavaVariable
 def: "An estimated number of plantable stakes (about 20cm long, with approximately six nodes) that can be made out of the total number of stems in a plot." []
 synonym: "PlntableStkNo_Est_stk" EXACT []
@@ -2740,14 +2700,6 @@ synonym: "lrcenth" EXACT []
 relationship: variable_of CO_334:0000396 ! Leaf Retention
 relationship: variable_of CO_334:0010461 ! Estimation :leaf retention at harvest_method
 relationship: variable_of CO_334:0100663 ! pct(%)
-
-[Term]
-id: CO_334:0000256
-name: Harvest index
-namespace: CassavaTrait
-is_a: CO_334:0000001 ! Agronomic trait
-created_by: naama
-creation_date: 2015-09-24T16:40:07Z
 
 [Term]
 id: CO_334:0000257
@@ -2823,21 +2775,13 @@ relationship: variable_of CO_334:0100676 ! 4pt scale
 
 [Term]
 id: CO_334:0000265
-name: StplMgn_Est_1or2
+name: stipule margin visual observation 1&2
 namespace: CassavaVariable
+def: "Observe from the upper third of plant and record the most frequent occurence. No intermediates is allowed. Scored as 1 = entire, 2 = split or forked." []
 synonym: "stpmrg" EXACT []
 relationship: variable_of CO_334:0000482 ! Stipule margin
 relationship: variable_of CO_334:0010471 ! Visual Observation:stipule margin_method
 relationship: variable_of CO_334:0100677 ! 2pt scale
-
-[Term]
-id: CO_334:0000266
-name: post-harvest physiological deterioration
-namespace: CassavaTrait
-def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption." [ISBN:978-131-347-1]
-is_a: CO_334:0000004 ! Quality trait
-created_by: naama
-creation_date: 2015-09-25T11:44:40Z
 
 [Term]
 id: CO_334:0000273
@@ -2847,7 +2791,6 @@ synonym: "sg" EXACT []
 relationship: variable_of CO_334:0000396 ! Leaf Retention
 relationship: variable_of CO_334:0010440 ! Visual Rating:staygreen_method
 relationship: variable_of CO_334:0100646 ! 9pt scale
-is_obsolete: true
 
 [Term]
 id: CO_334:0000275
@@ -4181,23 +4124,6 @@ namespace: CassavaTrait
 def: "Zinc content" []
 synonym: "zn" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-
-[Term]
-id: CO_334:0010000
-name: measurement: plant height with leaf_method
-namespace: CassavaMethod
-relationship: method_of CO_334:0000478 ! Stem height
-created_by: naama
-creation_date: 2015-09-23T16:16:50Z
-
-[Term]
-id: CO_334:0010001
-name: Estimation: post-harvest physiological deterioration method
-namespace: CassavaMethod
-def: "Estimation of post-harvest physiological deterioration by slicing the roots." []
-relationship: method_of CO_334:0000266 ! post-harvest physiological deterioration
-created_by: naama
-creation_date: 2015-09-25T11:48:31Z
 
 [Term]
 id: CO_334:0010220
@@ -5862,7 +5788,7 @@ relationship: method_of CO_334:0000433 ! Plant shape
 id: CO_334:0010471
 name: Visual Observation:stipule margin_method
 namespace: CassavaMethod
-def: "Observe the shpae of the stipule margin shapes from the upper third of the plants and record the most frequent occurence. No intermediates is allowed." []
+def: "Observe the shape of the stipule margin shapes from the upper third of the plants and record the most frequent occurence. No intermediates is allowed." []
 relationship: method_of CO_334:0000482 ! Stipule margin
 
 [Term]
@@ -8676,7 +8602,6 @@ relationship: scale_of CO_334:0010351 ! Counting:Branching Levels_method
 id: CO_334:0100558
 name: cm
 namespace: CassavaScale
-relationship: scale_of CO_334:0010000 ! measurement: plant height with leaf_method
 relationship: scale_of CO_334:0010303 ! Measurement :Plant Height_method
 relationship: scale_of CO_334:0010352 ! Measurement :First Apical Branch Height_method
 relationship: scale_of CO_334:0010384 ! Measurement :plant height without leaf_method
@@ -10333,11 +10258,6 @@ name: split or forked
 namespace: CassavaScale
 synonym: "2" EXACT []
 is_a: CO_334:0100677 ! 2pt scale
-
-[Typedef]
-id: derives_from
-name: derives_from
-namespace: CassavaTrait
 
 [Typedef]
 id: method_of
