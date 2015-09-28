@@ -3,7 +3,7 @@ date: 27:09:2015 14:31
 saved-by: AAfolabi
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
-namespace-id-rule: * CO_334:$sequence(7,0,9999999)$
+
 
 [Term]
 id: CO_334:0000000
@@ -136,6 +136,18 @@ synonym: "RtYld_Dry_tha" EXACT []
 relationship: variable_of CO_334:0000456 ! Root Yield
 relationship: variable_of CO_334:0010330 ! Calculation :Dry Yield_method
 relationship: variable_of CO_334:0100535 ! t/ha
+
+[Term]
+id: CO_334:0000015
+name: harvest index variable
+namespace: CassavaVariable
+def: "Proportion of fresh root weight in total biomass." [CO:mb, ISBN:978-131-302-1]
+synonym: "HI" EXACT []
+xref: ICASS_TRAITID:10045
+xref: TO:0000128 "Plant trait ontology"
+relationship: derives_from CO_334:0000013 ! fresh root yield
+relationship: derives_from CO_334:0000017 ! top yield
+relationship: variable_of CO_334:0000256 ! Harvest index
 
 [Term]
 id: CO_334:0000016
@@ -778,6 +790,14 @@ relationship: variable_of CO_334:0010334 ! Estimation :hydrogen cyanide potentia
 relationship: variable_of CO_334:0100540 ! 3pt scale
 
 [Term]
+id: CO_334:0000077
+name: post-harvest physiological deterioration variable 0-10
+namespace: CassavaVariable
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale." [CO:mb, ISBN:978-131-347-1]
+relationship: variable_of CO_334:0000266 ! post-harvest physiological deterioration
+relationship: variable_of CO_334:0010001 ! Estimation: post-harvest physiological deterioration method
+
+[Term]
 id: CO_334:0000078
 name: zinc content
 namespace: CassavaVariable
@@ -1263,6 +1283,16 @@ namespace: CassavaTrait
 def: "Proportion of plants affected by cassava green mite" []
 synonym: "cgmi" EXACT []
 is_a: CO_334:0000030 ! insect damage
+
+[Term]
+id: CO_334:0000123
+name: plant height with leaf in cm
+namespace: CassavaVariable
+def: "Portion of the stem with leaves measured as the distance in centimeter from the point of attachment of the oldest leaf to the youngest leaf (apical leaf portion)." []
+synonym: "PLHTLF" EXACT []
+relationship: variable_of CO_334:0000478 ! Stem height
+relationship: variable_of CO_334:0010000 ! measurement: plant height with leaf_method
+relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000124
@@ -2364,6 +2394,17 @@ relationship: variable_of CO_334:0010438 ! Visual Rating:root neck length_method
 relationship: variable_of CO_334:0100644 ! 3pt scale
 
 [Term]
+id: CO_334:0000224
+name: staygreen visual scale 1-9
+namespace: CassavaVariable
+def: "Visual rating of leaf longevity using a scale of 1 = Normal plant with full canopy, retaining most formed leaves which are green, turgid and photosynthetically active. 3 = 30% of the leaves have dropped , less than 50% of the remaining leaves are droppy, partially wilted and practically dry, most of the young leaves have reduced greenness or are yellowing. 5 = 50% reduction of the leaf number compared to full canopy; most of the older leaves are droppy, wilted and practically dry; most of the young leaves have reduced greeness or are yellowing. 7 = 80% reduction of the leaf number compareed to full canopy; more than 75% of the remaining old leaves are wilted or brown; young leaves have reduced greeness or are yellowing\". 9 = Complete defoliation of the stem with candlestick appearance; dieback is also evident on the stem." []
+synonym: "SG" EXACT []
+xref: CO:334\:0000048
+relationship: variable_of CO_334:0000396 ! Leaf Retention
+relationship: variable_of CO_334:0010440 ! Visual Rating:staygreen_method
+relationship: variable_of CO_334:0100646 ! 9pt scale
+
+[Term]
 id: CO_334:0000225
 name: ease of harvest assessment 1-3
 namespace: CassavaVariable
@@ -2702,6 +2743,14 @@ relationship: variable_of CO_334:0010461 ! Estimation :leaf retention at harvest
 relationship: variable_of CO_334:0100663 ! pct(%)
 
 [Term]
+id: CO_334:0000256
+name: Harvest index
+namespace: CassavaTrait
+is_a: CO_334:0000001 ! Agronomic trait
+created_by: naama
+creation_date: 2015-09-24T16:40:07Z
+
+[Term]
 id: CO_334:0000257
 name: LobMrgnShp_Est_1to7
 namespace: CassavaVariable
@@ -2784,6 +2833,15 @@ relationship: variable_of CO_334:0010471 ! Visual Observation:stipule margin_met
 relationship: variable_of CO_334:0100677 ! 2pt scale
 
 [Term]
+id: CO_334:0000266
+name: post-harvest physiological deterioration
+namespace: CassavaTrait
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption." [ISBN:978-131-347-1]
+is_a: CO_334:0000004 ! Quality trait
+created_by: naama
+creation_date: 2015-09-25T11:44:40Z
+
+[Term]
 id: CO_334:0000273
 name: LfRet_VisSc_1to9
 namespace: CassavaVariable
@@ -2791,6 +2849,7 @@ synonym: "sg" EXACT []
 relationship: variable_of CO_334:0000396 ! Leaf Retention
 relationship: variable_of CO_334:0010440 ! Visual Rating:staygreen_method
 relationship: variable_of CO_334:0100646 ! 9pt scale
+is_obsolete: true
 
 [Term]
 id: CO_334:0000275
@@ -4124,6 +4183,23 @@ namespace: CassavaTrait
 def: "Zinc content" []
 synonym: "zn" EXACT []
 is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0010000
+name: measurement: plant height with leaf_method
+namespace: CassavaMethod
+relationship: method_of CO_334:0000478 ! Stem height
+created_by: naama
+creation_date: 2015-09-23T16:16:50Z
+
+[Term]
+id: CO_334:0010001
+name: Estimation: post-harvest physiological deterioration method
+namespace: CassavaMethod
+def: "Estimation of post-harvest physiological deterioration by slicing the roots." []
+relationship: method_of CO_334:0000266 ! post-harvest physiological deterioration
+created_by: naama
+creation_date: 2015-09-25T11:48:31Z
 
 [Term]
 id: CO_334:0010220
@@ -8602,6 +8678,7 @@ relationship: scale_of CO_334:0010351 ! Counting:Branching Levels_method
 id: CO_334:0100558
 name: cm
 namespace: CassavaScale
+relationship: scale_of CO_334:0010000 ! measurement: plant height with leaf_method
 relationship: scale_of CO_334:0010303 ! Measurement :Plant Height_method
 relationship: scale_of CO_334:0010352 ! Measurement :First Apical Branch Height_method
 relationship: scale_of CO_334:0010384 ! Measurement :plant height without leaf_method
@@ -10271,3 +10348,7 @@ name: scale_of
 id: variable_of
 name: variable_of
 
+[Typedef]
+id: derives_from
+name: derives_from
+namespace: CassavaTrait
