@@ -1,9 +1,8 @@
 format-version: 1.2
-date: 27:09:2015 14:31
-saved-by: AAfolabi
+date: 28:09:2015 11:54
+saved-by: naama
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
-
 
 [Term]
 id: CO_334:0000000
@@ -2846,9 +2845,6 @@ id: CO_334:0000273
 name: LfRet_VisSc_1to9
 namespace: CassavaVariable
 synonym: "sg" EXACT []
-relationship: variable_of CO_334:0000396 ! Leaf Retention
-relationship: variable_of CO_334:0010440 ! Visual Rating:staygreen_method
-relationship: variable_of CO_334:0100646 ! 9pt scale
 is_obsolete: true
 
 [Term]
@@ -2856,9 +2852,7 @@ id: CO_334:0000275
 name: LfPub_VisClsn_0or1
 namespace: CassavaVariable
 synonym: "apubes" EXACT []
-relationship: variable_of CO_334:0000283 ! Apical Pubescence
-relationship: variable_of CO_334:0010462 ! Visual Observation:assessment of presence of leaf pubescence_method
-relationship: variable_of CO_334:0100668 ! 2pt scale
+is_obsolete: true
 
 [Term]
 id: CO_334:0000276
@@ -10337,6 +10331,11 @@ synonym: "2" EXACT []
 is_a: CO_334:0100677 ! 2pt scale
 
 [Typedef]
+id: derives_from
+name: derives_from
+namespace: CassavaTrait
+
+[Typedef]
 id: method_of
 name: method_of
 
@@ -10348,7 +10347,3 @@ name: scale_of
 id: variable_of
 name: variable_of
 
-[Typedef]
-id: derives_from
-name: derives_from
-namespace: CassavaTrait
