@@ -1,9 +1,9 @@
 format-version: 1.2
-date: 28:09:2015 18:14
+date: 29:09:2015 14:15
 saved-by: AAfolabi
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
-namespace-id-rule: * CO_334:$sequence(7,0,9999999)$
+namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 
 [Term]
 id: CO_334:0000000
@@ -1335,7 +1335,7 @@ def: "Fresh weight of plantable portion of the plant excluding the leaves, and s
 synonym: "stemwt" EXACT []
 synonym: "StWt_Meas_kg" EXACT []
 relationship: variable_of CO_334:0000480 ! Stem weight
-relationship: variable_of CO_334:0010386 ! Measurement :Stem weight_method
+relationship: variable_of CO_334:0010386 ! Measurement:Stem weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -2755,11 +2755,13 @@ creation_date: 2015-09-28T17:48:12Z
 [Term]
 id: CO_334:0000257
 name: stem diameter measurement in cm
-namespace: CassavaTrait
+namespace: CassavaVariable
 def: "Measurement of stem diameter taken on the middle of the plant in centimeter (cm) using the vernier caliper." []
 synonym: "STE" RELATED []
 synonym: "STMDIAM" RELATED []
 relationship: variable_of CO_334:0000480 ! Stem weight
+relationship: variable_of CO_334:0010005 ! Measurement:Stem diameter_method
+relationship: variable_of CO_334:0100003 ! cm
 created_by: AAfolabi
 creation_date: 2015-09-28T17:55:20Z
 
@@ -2869,6 +2871,8 @@ name: size of shoot apices assessment 1-3
 namespace: CassavaVariable
 def: "Visual assessment of shoot apices based on how large or small the shoot apices are and categorised on a scale of 1-3 where 1 = small 2= medium and 3 = large." []
 relationship: variable_of CO_334:0000268 ! shoot apices
+relationship: variable_of CO_334:0010003 ! Visual Rating:size of shoot apices_method
+relationship: variable_of CO_334:0100001 ! 3pt scale
 created_by: AAfolabi
 creation_date: 2015-09-28T18:04:39Z
 
@@ -2879,8 +2883,21 @@ namespace: CassavaVariable
 def: "Visual assessment of the compactness of shoot apices based on how closely the shoot apices are; with 1 = loose, 2 = moderately compact, 3 = compact." []
 synonym: "STC" RELATED []
 relationship: variable_of CO_334:0000268 ! shoot apices
+relationship: variable_of CO_334:0010004 ! Visual Rating:compactness of shoot apices_method
+relationship: variable_of CO_334:0100002 ! 3pt scale
 created_by: AAfolabi
 creation_date: 2015-09-28T18:09:28Z
+
+[Term]
+id: CO_334:0000271
+name: staygreen visual scale 1-3
+namespace: CassavaVariable
+def: "Visual rating of leaf longevity using a scale of 1 = poor (50% of the leaves are live and green); 2 = moderately good (50-74% of the leaves are live and green); 3 = very good (>75% of the leaves are live and green)." []
+relationship: variable_of CO_334:0000396 ! Leaf Retention
+relationship: variable_of CO_334:0010002 ! Visual Rating:Staygreen_method
+relationship: variable_of CO_334:0100000 ! 3pt scale
+created_by: AAfolabi
+creation_date: 2015-09-29T12:26:06Z
 
 [Term]
 id: CO_334:0000273
@@ -4238,6 +4255,39 @@ created_by: naama
 creation_date: 2015-09-25T11:48:31Z
 
 [Term]
+id: CO_334:0010002
+name: Visual Rating:Staygreen_method
+namespace: CassavaTrait
+def: "Visual rating of leaf retention or longevity" []
+relationship: method_of CO_334:0000396 ! Leaf Retention
+created_by: AAfolabi
+creation_date: 2015-09-29T12:31:09Z
+
+[Term]
+id: CO_334:0010003
+name: Visual Rating:size of shoot apices_method
+namespace: CassavaMethod
+relationship: method_of CO_334:0000268 ! shoot apices
+created_by: AAfolabi
+creation_date: 2015-09-29T13:44:26Z
+
+[Term]
+id: CO_334:0010004
+name: Visual Rating:compactness of shoot apices_method
+namespace: CassavaVariable
+relationship: method_of CO_334:0000268 ! shoot apices
+created_by: AAfolabi
+creation_date: 2015-09-29T13:56:16Z
+
+[Term]
+id: CO_334:0010005
+name: Measurement:Stem diameter_method
+namespace: CassavaMethod
+relationship: method_of CO_334:0000480 ! Stem weight
+created_by: AAfolabi
+creation_date: 2015-09-29T14:06:39Z
+
+[Term]
 id: CO_334:0010220
 name: Counting:Sprouting_method
 namespace: CassavaMethod
@@ -5303,9 +5353,9 @@ relationship: method_of CO_334:0000435 ! Plantable stem length
 
 [Term]
 id: CO_334:0010386
-name: Measurement :Stem weight_method
+name: Measurement:Stem weight_method
 namespace: CassavaMethod
-def: "Measured stem weight excluding leaves and stump" []
+def: "Measured stem weight excluding leaves and stump." []
 relationship: method_of CO_334:0000480 ! Stem weight
 
 [Term]
@@ -5837,7 +5887,7 @@ relationship: method_of CO_334:0000396 ! Leaf Retention
 id: CO_334:0010462
 name: Visual Observation:assessment of presence of leaf pubescence_method
 namespace: CassavaMethod
-def: "Assessment of the young leaf pubescence . Record whether apical leaves most frequently have or do not have hairs" []
+def: "Assessment of the young leaf pubescence . Record whether apical leaves most frequently have or do not have hairs." []
 relationship: method_of CO_334:0000283 ! Apical Pubescence
 
 [Term]
@@ -5902,6 +5952,38 @@ name: Visual Observation:stipule margin_method
 namespace: CassavaMethod
 def: "Observe the shape of the stipule margin shapes from the upper third of the plants and record the most frequent occurence. No intermediates is allowed." []
 relationship: method_of CO_334:0000482 ! Stipule margin
+
+[Term]
+id: CO_334:0100000
+name: 3pt scale
+namespace: CassavaScale
+relationship: scale_of CO_334:0010002 ! Visual Rating:Staygreen_method
+created_by: AAfolabi
+creation_date: 2015-09-29T12:35:31Z
+
+[Term]
+id: CO_334:0100001
+name: 3pt scale
+namespace: CassavaScale
+relationship: scale_of CO_334:0010003 ! Visual Rating:size of shoot apices_method
+created_by: AAfolabi
+creation_date: 2015-09-29T13:50:02Z
+
+[Term]
+id: CO_334:0100002
+name: 3pt scale
+namespace: CassavaScale
+relationship: scale_of CO_334:0010004 ! Visual Rating:compactness of shoot apices_method
+created_by: AAfolabi
+creation_date: 2015-09-29T13:58:16Z
+
+[Term]
+id: CO_334:0100003
+name: cm
+namespace: CassavaScale
+relationship: scale_of CO_334:0010005 ! Measurement:Stem diameter_method
+created_by: AAfolabi
+creation_date: 2015-09-29T14:08:56Z
 
 [Term]
 id: CO_334:0100434
@@ -6878,7 +6960,7 @@ relationship: scale_of CO_334:0010287 ! Measurement :Fresh Shoot Weight_method
 relationship: scale_of CO_334:0010316 ! Measurement :stock weight_method
 relationship: scale_of CO_334:0010317 ! Counting:stem yield_method
 relationship: scale_of CO_334:0010318 ! Estimation :dry matter content by specific gravity method_method
-relationship: scale_of CO_334:0010386 ! Measurement :Stem weight_method
+relationship: scale_of CO_334:0010386 ! Measurement:Stem weight_method
 relationship: scale_of CO_334:0010389 ! Measurement :tip shoot weight_method
 relationship: scale_of CO_334:0010390 ! Measurement :marketable root weight_method
 relationship: scale_of CO_334:0010391 ! Measurement :non marketable root weight_method
