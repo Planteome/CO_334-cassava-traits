@@ -1,9 +1,8 @@
 format-version: 1.2
-date: 29:09:2015 14:15
-saved-by: AAfolabi
+date: 30:09:2015 16:06
+saved-by: naama
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CCO
-namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 
 [Term]
 id: CO_334:0000000
@@ -4257,7 +4256,7 @@ creation_date: 2015-09-25T11:48:31Z
 [Term]
 id: CO_334:0010002
 name: Visual Rating:Staygreen_method
-namespace: CassavaTrait
+namespace: CassavaMethod
 def: "Visual rating of leaf retention or longevity" []
 relationship: method_of CO_334:0000396 ! Leaf Retention
 created_by: AAfolabi
@@ -4274,7 +4273,7 @@ creation_date: 2015-09-29T13:44:26Z
 [Term]
 id: CO_334:0010004
 name: Visual Rating:compactness of shoot apices_method
-namespace: CassavaVariable
+namespace: CassavaMethod
 relationship: method_of CO_334:0000268 ! shoot apices
 created_by: AAfolabi
 creation_date: 2015-09-29T13:56:16Z
