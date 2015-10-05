@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:10:2015 15:40
+date: 05:10:2015 12:37
 saved-by: naama
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: cassava_trait
@@ -461,7 +461,7 @@ relationship: variable_of CO_334:0100549 ! 7pt scale
 
 [Term]
 id: CO_334:0000047
-name: abscisic acid content
+name: abscisic acid content of leaf ug/g
 namespace: CassavaVariable
 def: "Abscisic acid content of leaf sample." []
 synonym: "abscon" EXACT []
@@ -472,7 +472,7 @@ relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
 id: CO_334:0000048
-name: leaf retention
+name: leaf retention : visual rating 1-5
 namespace: CassavaVariable
 def: "Visual rating of leaf longevity using a scale of 1 =(very poor retention) to 5 = (outstanding leaf retention)." []
 synonym: "lfret" EXACT []
@@ -483,7 +483,7 @@ relationship: variable_of CO_334:0100511 ! 7pt scale
 
 [Term]
 id: CO_334:0000049
-name: leaf life
+name: leaf life span in days
 namespace: CassavaVariable
 def: "Measures leaf life span estimated as days." []
 synonym: "lflife" EXACT []
