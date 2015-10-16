@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:10:2015 12:37
+date: 16:10:2015 15:18
 saved-by: naama
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: cassava_trait
@@ -334,7 +334,7 @@ is_a: CO_334:0000030 ! insect damage
 
 [Term]
 id: CO_334:0000034
-name: cassava mealy bug severity
+name: cassava mealy bug severity by visual rating 1-5
 namespace: CassavaVariable
 def: "Visual rating of damage caused by cassava mealy-bug, Phenacoccus Manihoti. Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased)." []
 synonym: "cmbs" EXACT []
@@ -395,7 +395,7 @@ is_a: CO_334:0000028 ! viral disease
 
 [Term]
 id: CO_334:0000041
-name: cassava mealy bug incidence
+name: cassava mealy bug incidence by ratio
 namespace: CassavaVariable
 def: "Proportion of plants within a plot showing symptoms of cassava mealy-bug damage." []
 synonym: "cmbi" EXACT []
@@ -406,7 +406,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000042
-name: spiraling whitefly severity
+name: spiraling whitefly severity : visual 1-5
 namespace: CassavaVariable
 def: "Visual rating of damage caused by spiraling white fly, Aleurodicus dispersus. Symptoms rated from 1 = (clean, no damage) to 5 = (extremely severe, severely damaged)." []
 synonym: "Swfs" EXACT []
@@ -417,7 +417,7 @@ relationship: variable_of CO_334:0100531 ! 5 pt scale
 
 [Term]
 id: CO_334:0000043
-name: spiraling whitefly incidence
+name: spiraling whitefly incidence by proportion
 namespace: CassavaVariable
 def: "Proportion of plants within a plot showing evidence of colonization by spiraling whitefly." []
 synonym: "Swfi" EXACT []
@@ -428,7 +428,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000044
-name: red spider mite severity
+name: red spider mite severity : visual 1-5
 namespace: CassavaVariable
 def: "Visual rating of damage caused by red spider mite, Oligonychus gossypii and Tetranychus spp. Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely damaged)." []
 synonym: "rsms" EXACT []
@@ -439,7 +439,7 @@ relationship: variable_of CO_334:0100529 ! 5 pt scale
 
 [Term]
 id: CO_334:0000045
-name: red spider mite incidence
+name: red spider mite incidence by proportion
 namespace: CassavaVariable
 def: "Proportion of plants within a plot showing evidence of colonization by red spider mite." []
 synonym: "rsmi" EXACT []
@@ -659,7 +659,7 @@ relationship: variable_of CO_334:0100497 ! 4pt scale
 
 [Term]
 id: CO_334:0000065
-name: ascorbic acid
+name: ascorbic acid in root percentage
 namespace: CassavaVariable
 def: "Antioxidant and water soluble vitamin of cassava storage root." []
 synonym: "AscACt_Meas_pct" EXACT []
@@ -669,7 +669,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000066
-name: ash content
+name: ash content in percentage 
 namespace: CassavaVariable
 def: "Residue left behind after all organic matter has been burnt off, a measure of total mineral salts in a food estimated in percentage (%)." []
 synonym: "ash" EXACT []
@@ -680,7 +680,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000067
-name: fibre content
+name: fibre content estimation in percentage
 namespace: CassavaVariable
 def: "Part of tuber root that cannot be digested by humans estimated in percentage (%)." []
 synonym: "FibCt_Meas_pct" EXACT []
@@ -691,7 +691,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000068
-name: iron content
+name: iron content in roots by ppm (mg/kg)
 namespace: CassavaVariable
 def: "Estimation of total iron content in cassava storage roots expressed in part per million or milligram per kilogram." []
 synonym: "fe" EXACT []
@@ -702,7 +702,7 @@ relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
 id: CO_334:0000069
-name: moisture content
+name: moisture content in percentage
 namespace: CassavaVariable
 def: "Percentage (%) of water contained in cassava storage root." []
 synonym: "mc" EXACT []
@@ -713,7 +713,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000070
-name: protein content
+name: protein content in percentage
 namespace: CassavaVariable
 def: "Percentage (%) of protein content in cassava storage root." []
 synonym: "ProtCt_Meas_pct" EXACT []
@@ -724,7 +724,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000071
-name: starch content
+name: starch content percentage
 namespace: CassavaVariable
 def: "Percentage (%) of complex carbohydrate found in cassava storage root." []
 synonym: "starch" EXACT []
@@ -735,7 +735,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000072
-name: sugar content
+name: sugar content in percentage
 namespace: CassavaVariable
 def: "Estimation of sugar content in cassava storage root expressed in percentage (%)." []
 synonym: "sugar" EXACT []
@@ -746,7 +746,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000073
-name: total carotenoid content
+name: total carotenoid content in ug/g
 namespace: CassavaVariable
 def: "Total extracted carotenoids in cassava storage root as estimated by spectrophotometer and expressed in ug per gram fresh weight." []
 synonym: "CarotCt_spectro_ugg" EXACT []
@@ -757,7 +757,7 @@ relationship: variable_of CO_334:0100574 ! ug beta caroten / g fresh weight
 
 [Term]
 id: CO_334:0000074
-name: poundability
+name: poundability assessment 0-4
 namespace: CassavaVariable
 def: "Mealiness of boiled cassava storage root rating as 0 = Non poundable, 1 = slightly poundable, 2 = poundable, 3 = very poundable." []
 synonym: "pd" EXACT []
@@ -768,7 +768,7 @@ relationship: variable_of CO_334:0100502 ! 4pt scale
 
 [Term]
 id: CO_334:0000075
-name: amylose content
+name: amylose content in ug/g percentage
 namespace: CassavaVariable
 def: "Estimation of amylose content of cassava roots in percentage (%)." []
 synonym: "amyl" EXACT []
@@ -798,7 +798,7 @@ relationship: variable_of CO_334:0010001 ! Estimation: post-harvest physiologica
 
 [Term]
 id: CO_334:0000078
-name: zinc content
+name: zinc content in storage root ug/g
 namespace: CassavaVariable
 def: "Total zinc content in cassava storage root." []
 synonym: "zn" EXACT []
@@ -875,7 +875,7 @@ relationship: variable_of CO_334:0100491 ! Root
 
 [Term]
 id: CO_334:0000085
-name: taste of boiled root
+name: taste of boiled root rating 1-3
 namespace: CassavaVariable
 def: "Taste of boiled root rating as 1 = bland, 2 = sweet, and 3 = bitter." []
 synonym: "pdtas" EXACT []
@@ -897,7 +897,7 @@ relationship: variable_of CO_334:0100556 ! weeks
 
 [Term]
 id: CO_334:0000087
-name: Bemesia tabaci adult
+name: Bemesia tabaci adult by counting
 namespace: CassavaVariable
 def: "Number of Bemesia tabaci adult white flies on the top five leaves." []
 synonym: "BTAdNo_Count_BTad" EXACT []
@@ -908,7 +908,7 @@ relationship: variable_of CO_334:0100546 ! Number
 
 [Term]
 id: CO_334:0000088
-name: Bemesia tabaci nymphs
+name: Bemesia tabaci nymphs by counting
 namespace: CassavaVariable
 def: "Number of Bemesia tabaci nymphs white flies on the14th leaf." []
 synonym: "btnym" EXACT []
@@ -936,7 +936,7 @@ is_a: CO_334:0000028 ! viral disease
 
 [Term]
 id: CO_334:0000091
-name: hydrogen cyanide potential picrate method
+name: hydrogen cyanide potential picrate method 1-9
 namespace: CassavaVariable
 def: "Estimate of storage root cyanide content by picrate test with 1 = not detectable and 9 = very high." []
 synonym: "hcnpic" EXACT []
@@ -947,7 +947,7 @@ relationship: variable_of CO_334:0100505 ! 9pt scale
 
 [Term]
 id: CO_334:0000092
-name: dry matter content
+name: dry matter content percentage
 namespace: CassavaVariable
 def: "Percentage dry matter storage root." []
 synonym: "dm" EXACT []
@@ -958,7 +958,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000093
-name: frog skin disease
+name: frog skin disease : visual 1-5
 namespace: CassavaVariable
 def: "Visual rating of symptoms caused by unknown causal agent. Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased)." []
 synonym: "fsd" EXACT []
@@ -980,7 +980,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000095
-name: beta carotene content
+name: beta carotene content ug/g
 namespace: CassavaVariable
 def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight." []
 synonym: "bcret" EXACT []
@@ -991,7 +991,7 @@ relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
 id: CO_334:0000096
-name: gari content
+name: gari content g/kg
 namespace: CassavaVariable
 def: "Percentage (%) gari processed from fresh storage roots." []
 synonym: "garcon" EXACT []
@@ -1002,7 +1002,7 @@ relationship: variable_of CO_334:0100586 ! g/kg
 
 [Term]
 id: CO_334:0000097
-name: fufu content
+name: fufu content in g/kg
 namespace: CassavaVariable
 def: "Percentage (%) fufu processed from fresh storage roots." []
 synonym: "FfCt_Meas_gkg" EXACT []
@@ -1013,7 +1013,7 @@ relationship: variable_of CO_334:0100586 ! g/kg
 
 [Term]
 id: CO_334:0000098
-name: lafun content
+name: lafun content g/kg
 namespace: CassavaVariable
 def: "Percentage (%) lafun processed from fresh storage roots." []
 synonym: "LafuCt_Comp_gkg" EXACT []
@@ -1189,7 +1189,7 @@ relationship: variable_of CO_334:0100567 ! 4pt scale
 
 [Term]
 id: CO_334:0000114
-name: boiled tuberous root color
+name: boiled tuberous root color visual 1-3
 namespace: CassavaVariable
 def: "Colour of boiled tuberous roots with  1 = white , 2 = cream , 3 = yellow." []
 synonym: "BoilRtCol_VisClsn_1to3" EXACT []
@@ -1222,7 +1222,7 @@ relationship: variable_of CO_334:0100500 ! 7pt scale
 
 [Term]
 id: CO_334:0000117
-name: beta carotene retention
+name: beta carotene retention percentage
 namespace: CassavaVariable
 def: "The percentage (%) of beta carotene content in a prepared food product compared to the nutrient content in the raw food." []
 synonym: "BCarotRet_Meas_pct" EXACT []
@@ -1233,7 +1233,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000118
-name: total carotenoid retention
+name: total carotenoid retention percentage
 namespace: CassavaVariable
 def: "The percentage (%) of total carotene content in a prepared food product compared to the nutrient content in the raw food." []
 synonym: "CarotRet_Meas_pct" EXACT []
@@ -1266,7 +1266,7 @@ relationship: variable_of CO_334:0100539 ! 2pt scale
 
 [Term]
 id: CO_334:0000121
-name: amylopectin content
+name: amylopectin content ug/g in percentage 
 namespace: CassavaVariable
 def: "Estimation of amylopectin content of cassava roots in percentage(%)." []
 synonym: "amylp" EXACT []
@@ -1295,7 +1295,7 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000124
-name: amylose amylopectin ratio
+name: amylose amylopectin root content ratio
 namespace: CassavaVariable
 def: "The amylose content of a cassava root sample divided by the amylopectin content of the same sample." []
 synonym: "AmylR_Comp_r" EXACT []
@@ -1702,7 +1702,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000161
-name: total carotenoid by chart
+name: total carotenoid by chart 1-8
 namespace: CassavaVariable
 def: "Assessment of the level of yellowness in cassava storage root pulp using the tc chart on a scale of : 1 = white, 2 = light cream, 3 = cream, 4 = light yellow, 5 = yellow, 6 = deep yellow, 7 = orange, 8 = pink." []
 synonym: "CarotCt_VisClsn_1to8" EXACT []
@@ -1822,7 +1822,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000172
-name: trans 9
+name: trans 9 beta carotene activity in percentage
 namespace: CassavaVariable
 def: "Estimation of  beta carotenoid components with 100% proVitamin A activity." []
 synonym: "trans-9" EXACT []
@@ -1833,7 +1833,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000173
-name: cis 9
+name: cis 9 isomer activity in percentage
 namespace: CassavaVariable
 def: "Estimation of  isomer activity with 50% proVitamin A in percentage (%)." []
 synonym: "cis-9" EXACT []
@@ -1844,7 +1844,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000174
-name: b Crypto
+name: b Cryptoxanthin estimation in percentage
 namespace: CassavaVariable
 def: "Estimation of B-cryptoxanthin (carotenoid that has hydroxyl group with 50% activity)." []
 synonym: "b-crypto" EXACT []
@@ -2526,7 +2526,7 @@ relationship: variable_of CO_334:0100647 ! Ratio
 
 [Term]
 id: CO_334:0000236
-name: sooty mould
+name: sooty mould : visual 1-5
 namespace: CassavaVariable
 def: "Percentage of black mould on the lower leave caused by green mite, aphid, whitefly on cassava leaves with 1 = none, 2 = mild sooty mould on <5% of leaves, 3 = mild sooty mould on 5-20% of leaves,  4 = moderate sooty mould on >20% of leaves; mild leaf curling, 5 = heavy sooty mould on 20-50% of leaves; strong leaf curling of lower leaves; stunted growth of bottom half of plant." []
 synonym: "SootMould_Est_1to5" EXACT []
@@ -2559,7 +2559,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000239
-name: gari fibre : sensory assessment 0-3
+name: gari fibre by sensory assessment 0-3
 namespace: CassavaVariable
 def: "Sensory assessment of the fibre content. This is done locally by sieving the fried gari, milled locally, and prepared as eba (A popular food in Nigeria). 0 = none, 1 = moderately fibrous, 2 = fibrous, 3 = highly fibrous." []
 synonym: "GariFbrCt_Est_0to3" EXACT []
@@ -2581,18 +2581,18 @@ relationship: variable_of CO_334:0100660 ! 3pt scale
 
 [Term]
 id: CO_334:0000241
-name: gari swelling capacity
+name: gari swelling capacity by visual rating 1-3
 namespace: CassavaVariable
 def: "Visual assessment of the increment in quantity when water is added to the gari. 1 = Less than its original volume, 2 = twice the original volume and 3 =thrice the original volume" []
 synonym: "GariSwel_Est_1to3" EXACT []
 synonym: "swelling" EXACT []
-relationship: variable_of CO_334:0000497 ! Swelling capacity
+relationship: variable_of CO_334:0000497 ! Gari swelling capacity
 relationship: variable_of CO_334:0010455 ! Visual Rating:swelling capacity_method
 relationship: variable_of CO_334:0100661 ! 3pt scale
 
 [Term]
 id: CO_334:0000242
-name: gari weight after grinding
+name: gari weight after grinding in kilograms
 namespace: CassavaVariable
 def: "The weight of grated cassava in kilogram (kg) before fermentation in jute bags ." []
 synonym: "GdGariWt_Meas_kg" EXACT []
@@ -2603,7 +2603,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000243
-name: weight of mashed cassava cake
+name: weight of mashed cassava cake in kg
 namespace: CassavaVariable
 def: "Weight of cassava cake after pressing and dehydrating using hydraulic press. Measured in kilogram (kg)" []
 synonym: "CakeWt_Meas_kg" EXACT []
@@ -2614,7 +2614,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000244
-name: gari shaft weight
+name: gari shaft weight in kg
 namespace: CassavaVariable
 def: "Weight of residue in kilogram (kg) after sieving the roasted gari." []
 synonym: "GariShftWt_Meas_kg" EXACT []
@@ -2625,7 +2625,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000245
-name: gari sample weight
+name: gari sample weight g/kg
 namespace: CassavaVariable
 def: "Sample of gari measured in kilogram per gram (kg/g) before and after frying usually for experimental purposes" []
 synonym: "gariwt" EXACT []
@@ -4150,7 +4150,7 @@ is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0000497
-name: Swelling capacity
+name: Gari swelling capacity
 namespace: CassavaTrait
 def: "Swelling capacity of gari sample" []
 synonym: "swelling" EXACT []
@@ -5838,7 +5838,7 @@ id: CO_334:0010455
 name: Visual Rating:swelling capacity_method
 namespace: CassavaMethod
 def: "Visual assessment of the increment in quantity when water is added to the gari" []
-relationship: method_of CO_334:0000497 ! Swelling capacity
+relationship: method_of CO_334:0000497 ! Gari swelling capacity
 
 [Term]
 id: CO_334:0010456
