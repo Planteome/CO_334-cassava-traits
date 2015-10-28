@@ -1,8 +1,9 @@
 format-version: 1.2
-date: 16:10:2015 15:18
-saved-by: naama
+date: 28:10:2015 11:48
+saved-by: AAfolabi
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: cassava_trait
+namespace-id-rule: * CO_334:$sequence(7,0,9999999)$
 
 [Term]
 id: CO_334:0000000
@@ -183,7 +184,7 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000019
-name: storage root size
+name: storage root size visual rating 1-7
 namespace: CassavaVariable
 def: "Visual rating of storage root size with 3 = short, 5 = medium, and 7 = long." []
 synonym: "RtLng_VisScg_1to7" EXACT []
@@ -194,7 +195,7 @@ relationship: variable_of CO_334:0100494 ! 7pt scale
 
 [Term]
 id: CO_334:0000020
-name: storage root shape
+name: storage root shape visual rating 1-4
 namespace: CassavaVariable
 def: "Visual rating of storage root shape with 1 = conical, 2 = conical-cylindrical, 3 = cylindrical, and 4 = fusiform." []
 synonym: "rtshp" EXACT []
@@ -205,7 +206,7 @@ relationship: variable_of CO_334:0100495 ! 6pt scale
 
 [Term]
 id: CO_334:0000021
-name: storage root pulp color
+name: storage root pulp color visual rating 1-3
 namespace: CassavaVariable
 def: "Visual rating of most frequent pulp color with 1 = white or cream, 2 = yellow, and 3 = pink." []
 synonym: "plpcol" EXACT []
@@ -216,7 +217,7 @@ relationship: variable_of CO_334:0100498 ! 3pt scale
 
 [Term]
 id: CO_334:0000022
-name: root neck length
+name: root neck length visual rating 0-7
 namespace: CassavaVariable
 def: "Visual rating of root neck length with 0 = absent or sessile, 3 = short, 5 = intermediate, and 7 = long." []
 synonym: "nklgt" EXACT []
@@ -227,7 +228,7 @@ relationship: variable_of CO_334:0100499 ! 8pt scale
 
 [Term]
 id: CO_334:0000023
-name: petiole color
+name: petiole color visual rating 1-9
 namespace: CassavaVariable
 def: "Visual rating of the petiole color with 3 = light green, 5 = dark green, 7 = green-purple, 8 = red, and 9 = purple." []
 synonym: "petcol" EXACT []
@@ -238,7 +239,7 @@ relationship: variable_of CO_334:0100551 ! 7pt scale
 
 [Term]
 id: CO_334:0000024
-name: petiole length
+name: petiole length visual rating 0-7
 namespace: CassavaVariable
 def: "Visual rating of petiole length with 0 = petiole absent, 3 = short (5-10cm), 5 = medium (15-20cm), and 7 = long (25-30cm)." []
 synonym: "petlgt" EXACT []
@@ -249,7 +250,7 @@ relationship: variable_of CO_334:0100550 ! 4 pt scale
 
 [Term]
 id: CO_334:0000025
-name: young stem pubescence
+name: young stem pubescence visual rating 0-7
 namespace: CassavaVariable
 def: "Visual rating of young stem pubescence with 0 = absent or glabrous, 3 = little pubescence, 5 = moderate pubescence, and 7 = high pubescence." []
 synonym: "stmpub" EXACT []
@@ -260,7 +261,7 @@ relationship: variable_of CO_334:0100554 ! 8pt scale
 
 [Term]
 id: CO_334:0000026
-name: apical pubescence
+name: apical pubescence visual rating 0-7
 namespace: CassavaVariable
 def: "Visual rating of young leaf pubescence with 0 = absent or glabrous, 3 = little pubescence, 5 = moderate pubescence, and 7 = high pubescence." []
 synonym: "apubes" EXACT []
@@ -450,7 +451,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000046
-name: petiole insertion angle
+name: petiole insertion angle visual rating 0-7
 namespace: CassavaVariable
 def: "Visual rating of orientation or angle between the branch and petiole with 0 = no petiole, 3 = 15-30 degrees, 5 = 45-70 degrees, and 7 = 75-90 degrees." []
 synonym: "petang" EXACT []
@@ -472,7 +473,7 @@ relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
 id: CO_334:0000048
-name: leaf retention : visual rating 1-5
+name: leaf retention visual rating 1-5
 namespace: CassavaVariable
 def: "Visual rating of leaf longevity using a scale of 1 =(very poor retention) to 5 = (outstanding leaf retention)." []
 synonym: "lfret" EXACT []
@@ -485,7 +486,7 @@ relationship: variable_of CO_334:0100511 ! 7pt scale
 id: CO_334:0000049
 name: leaf life span in days
 namespace: CassavaVariable
-def: "Measures leaf life span estimated as days." []
+def: "Measures leaf life span estimated as number of days." []
 synonym: "lflife" EXACT []
 synonym: "LfLife_Count_days" EXACT []
 relationship: variable_of CO_334:0000390 ! Leaf Life  span
@@ -494,7 +495,7 @@ relationship: variable_of CO_334:0100611 ! days
 
 [Term]
 id: CO_334:0000050
-name: storage root peduncle
+name: storage root peduncle visual rating 0-5
 namespace: CassavaVariable
 def: "Visual rating of root peduncle length using a scale of 0 = sessile, 3 = pedunculate, and 5 = mixed." []
 synonym: "RtPed_VisClsn_0to7" EXACT []
@@ -505,7 +506,7 @@ relationship: variable_of CO_334:0100515 ! 8pt scale
 
 [Term]
 id: CO_334:0000051
-name: storage root constriction
+name: storage root constriction visual scoring 0&1
 namespace: CassavaVariable
 def: "Visual scoring of mature root constrictions recorded as 0= absent and 1=present." []
 synonym: "rtcons" EXACT []
@@ -516,7 +517,7 @@ relationship: variable_of CO_334:0100516 ! 2pt scale
 
 [Term]
 id: CO_334:0000052
-name: root position
+name: root position visual rating 1-3
 namespace: CassavaVariable
 def: "Visual rating root position in the soil with 1 = tending toward vertical, 2 = tending toward horizontal, and 3 = irregular." []
 synonym: "RtPos_VisClsn_1to3" EXACT []
@@ -527,7 +528,7 @@ relationship: variable_of CO_334:0100570 ! 3pt scale
 
 [Term]
 id: CO_334:0000053
-name: root surface color
+name: root surface color visual rating 1-3
 namespace: CassavaVariable
 def: "Visual rating of storage root surface color with 1 = white or cream, 2 =light brown, and 3 = dark brown." []
 synonym: "rtscol" EXACT []
@@ -538,7 +539,7 @@ relationship: variable_of CO_334:0100517 ! 3pt scale
 
 [Term]
 id: CO_334:0000054
-name: root surface texture
+name: root surface texture visual rating 1-7
 namespace: CassavaVariable
 def: "Visual rating of storage root texture with 3 = smooth, 5 = intermediate, and 7 = rough." []
 synonym: "RtSurfTex_VisClsn_1to7" EXACT []
@@ -549,7 +550,7 @@ relationship: variable_of CO_334:0100518 ! 3pt scale
 
 [Term]
 id: CO_334:0000055
-name: storage root diameter
+name: storage root diameter visual rating 1-7
 namespace: CassavaVariable
 def: "Visual rating of storage root diameter with 3 = short, 5 = medium and 7 = long." []
 synonym: "RtDia_VisScg_1to7" EXACT []
@@ -560,7 +561,7 @@ relationship: variable_of CO_334:0100571 ! 7pt scale
 
 [Term]
 id: CO_334:0000056
-name: caruncle color
+name: caruncle color visual scoring 1-3
 namespace: CassavaVariable
 def: "Visual scoring of caruncle color with 1 = white or cream, 2 = pink or red, and 3 = purple." []
 synonym: "carcol" EXACT []
@@ -571,7 +572,7 @@ relationship: variable_of CO_334:0100569 ! 4pt scale
 
 [Term]
 id: CO_334:0000057
-name: stigma color
+name: stigma color visual scoring 1-5
 namespace: CassavaVariable
 def: "Visual scoring of stigma color with 1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple." []
 synonym: "stgmco" EXACT []
@@ -582,7 +583,7 @@ relationship: variable_of CO_334:0100561 ! 5pt scale
 
 [Term]
 id: CO_334:0000058
-name: ovary color
+name: ovary color visual rating 1-5
 namespace: CassavaVariable
 def: "Visual scoring of ovary color with 1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple." []
 synonym: "OvrCol_VisClsn_1to5" EXACT []
@@ -593,7 +594,7 @@ relationship: variable_of CO_334:0100562 ! 5pt scale
 
 [Term]
 id: CO_334:0000059
-name: disc color
+name: disc color visual scoring 1-5
 namespace: CassavaVariable
 def: "Visual scoring of floral disc color with 1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple." []
 synonym: "DiscCol_VisClsn_1to5" EXACT []
@@ -604,7 +605,7 @@ relationship: variable_of CO_334:0100560 ! 5pt scale
 
 [Term]
 id: CO_334:0000060
-name: sepal color
+name: sepal color visual rating 1-5
 namespace: CassavaVariable
 def: "Visual scoring of sepal color with 1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple." []
 synonym: "SepCol_VisClsn_1to5" EXACT []
@@ -615,7 +616,7 @@ relationship: variable_of CO_334:0100559 ! 5pt scale
 
 [Term]
 id: CO_334:0000061
-name: anther color
+name: anther color visual rating 1-3
 namespace: CassavaVariable
 def: "Visual scoring of anther color with 1 = cream, 2 = yellow, and 3 = other." []
 synonym: "AnthCol_VisClsn_1to5" EXACT []
@@ -626,7 +627,7 @@ relationship: variable_of CO_334:0100563 ! 3pt scale
 
 [Term]
 id: CO_334:0000062
-name: stem color
+name: stem color visual scoring 1-4
 namespace: CassavaVariable
 def: "Visual scoring of stem color with 1 = silver green, 2 = light brown or orange, 3 = dark brown, and 4 = dark green." []
 synonym: "stmcol" EXACT []
@@ -637,7 +638,7 @@ relationship: variable_of CO_334:0100507 ! 4pt scale
 
 [Term]
 id: CO_334:0000063
-name: seed color
+name: seed color visual rating 1-5
 namespace: CassavaVariable
 def: "Visual scoring of seed color with 1 = brown, 2 = grey, 3 = mottled, 4 = black, and 5 = dark brown." []
 synonym: "SdCol_VisClsn_1to5" EXACT []
@@ -648,7 +649,7 @@ relationship: variable_of CO_334:0100568 ! 5pt scale
 
 [Term]
 id: CO_334:0000064
-name: storage root periderm color
+name: storage root periderm color visual rating 1-4
 namespace: CassavaVariable
 def: "Visual rating of the color of outer surface of storage root periderm (outer skin color) with 1 = white or cream, 2 = yellow, 3 = light brown, 4 = dark brown." []
 synonym: "outcol" EXACT []
@@ -669,7 +670,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000066
-name: ash content in percentage 
+name: ash content in percentage
 namespace: CassavaVariable
 def: "Residue left behind after all organic matter has been burnt off, a measure of total mineral salts in a food estimated in percentage (%)." []
 synonym: "ash" EXACT []
@@ -809,7 +810,7 @@ relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
 id: CO_334:0000079
-name: branching level
+name: branching level counting at harvest
 namespace: CassavaVariable
 def: "Count of the actual number of levels of branching at harvest." []
 synonym: "BrnchLvl_Count_Lvl" EXACT []
@@ -820,7 +821,7 @@ relationship: variable_of CO_334:0100557 ! Number of levels
 
 [Term]
 id: CO_334:0000080
-name: branching angle
+name: branching angle visual rating 0-7
 namespace: CassavaVariable
 def: "Visual rating of a measured angle between vertical plane and first primary branching with 0 = non branching, 3 = 15-30 degrees, 5 = 45-60 degrees, and 7 = 75-90 degrees." []
 synonym: "brnang" EXACT []
@@ -831,7 +832,7 @@ relationship: variable_of CO_334:0100508 ! 8pt scale
 
 [Term]
 id: CO_334:0000081
-name: leaf vein color
+name: leaf vein color visual rating 1-9
 namespace: CassavaVariable
 def: "Visual scoring of leaf vein color with 3 = light green, 5 = dark green, 7 = green-purple, and 9 = purple." []
 synonym: "LfVeinCol_VisClsn_1to9" EXACT []
@@ -842,7 +843,7 @@ relationship: variable_of CO_334:0100543 ! 9pt scale
 
 [Term]
 id: CO_334:0000082
-name: leaf lobe number
+name: leaf lobe number counting
 namespace: CassavaVariable
 def: "Most common number of leaf lobes assessed on five leaves from the middle of the plant at six months after planting." []
 synonym: "lflbno" EXACT []
@@ -853,7 +854,7 @@ relationship: variable_of CO_334:0100546 ! Number
 
 [Term]
 id: CO_334:0000083
-name: leaf lobe position
+name: leaf lobe position visual rating 1-4
 namespace: CassavaVariable
 def: "Visual rating of the position leaf lobes are held with 1 = erect, 2 = horizontal, 3 = deflexed, and 4 = retorse." []
 synonym: "LfLbPo_VisClsn_1to4" EXACT []
@@ -864,7 +865,7 @@ relationship: variable_of CO_334:0100547 ! 4 pt scale
 
 [Term]
 id: CO_334:0000084
-name: rotted storage root
+name: rotted storage root counting
 namespace: CassavaVariable
 def: "A count of the number of rotted storage roots per plot at the time of harvest." []
 synonym: "NoRotRt_Count_Rt" EXACT []
@@ -886,7 +887,7 @@ relationship: variable_of CO_334:0100503 ! 3pt scale
 
 [Term]
 id: CO_334:0000086
-name: apical branching
+name: apical branching counting of number of weeks
 namespace: CassavaVariable
 def: "Number of weeks from planting to first apical branching associated with the formation of inflorescence." []
 synonym: "brntim" EXACT []
@@ -1024,7 +1025,7 @@ relationship: variable_of CO_334:0100586 ! g/kg
 
 [Term]
 id: CO_334:0000099
-name: plant architecture
+name: plant architecture visual rating 1-5
 namespace: CassavaVariable
 def: "Plant architecture on a 1-5 scale with 1 = excellent, 2 good, 3 = fair, 4 = bad, and 5 = very bad." []
 synonym: "plarch" EXACT []
@@ -1046,7 +1047,7 @@ relationship: variable_of CO_334:0100545 ! 7pt scale
 
 [Term]
 id: CO_334:0000101
-name: unexpanded apical leaf color
+name: unexpanded apical leaf color visual rating 1-9
 namespace: CassavaVariable
 def: "Visual rating of unexpanded apical leaf color with 3 = light green, 5 = dark green, 7 = green-purple, and 9 = purple." []
 synonym: "LfCol_ApVisClsn_1to9" EXACT []
@@ -1057,7 +1058,7 @@ relationship: variable_of CO_334:0100541 ! 9pt scale
 
 [Term]
 id: CO_334:0000102
-name: first fully expanded leaf color
+name: first fully expanded leaf color visual rating 1-9
 namespace: CassavaVariable
 def: "Visual rating of first fully expanded leaf color with 3 = light green, 5 = dark green, 7 = green-purple, and 9 = purple." []
 synonym: "LfCol_VisClsn_1to9" EXACT []
@@ -1079,7 +1080,7 @@ relationship: variable_of CO_334:0100552 ! 4pt scale
 
 [Term]
 id: CO_334:0000104
-name: young stem growth habit
+name: young stem growth habit visual rating 1&2
 namespace: CassavaVariable
 def: "Visual rating of growth habit of young stem with 1= straight and 2 = zig-zag." []
 synonym: "stemgh" EXACT []
@@ -1090,7 +1091,7 @@ relationship: variable_of CO_334:0100553 ! 2pt scale
 
 [Term]
 id: CO_334:0000105
-name: leaf scar prominence
+name: leaf scar prominence visual rating 1-7
 namespace: CassavaVariable
 def: "Visual rating of prominence leaf scars (measured on fresh scars) with 3 = little prominence, 5 = moderately prominent, and 7 = prominent." []
 synonym: "lfscar" EXACT []
@@ -1101,7 +1102,7 @@ relationship: variable_of CO_334:0100555 ! 7pt scale
 
 [Term]
 id: CO_334:0000106
-name: first apical branch height
+name: first apical branch height measurement in cm
 namespace: CassavaVariable
 def: "Height of first apical branch (ground level to point of first Apical branch, 9 months after planting) in cm." []
 synonym: "BrnchHt_Meas_cm" EXACT []
@@ -1134,7 +1135,7 @@ relationship: variable_of CO_334:0100564 ! 2pt scale
 
 [Term]
 id: CO_334:0000109
-name: root constriction
+name: root constriction visual rating 1-3
 namespace: CassavaVariable
 def: "Visual ratings of root constrcitions (1 = few, 2 = intermediate, 3 = many) as being evaluated by CIAT." []
 synonym: "rtcon" EXACT []
@@ -1156,7 +1157,7 @@ relationship: variable_of CO_334:0100514 ! 2pt scale
 
 [Term]
 id: CO_334:0000111
-name: flower
+name: flower visual rating 0&1
 namespace: CassavaVariable
 def: "Visual rating of flowers (50%) in plant with 0 = absent and 1 = present." []
 synonym: "flower" EXACT []
@@ -1178,7 +1179,7 @@ relationship: variable_of CO_334:0100566 ! 7pt scale
 
 [Term]
 id: CO_334:0000113
-name: ploidy level
+name: ploidy level visual rating 1-4
 namespace: CassavaVariable
 def: "Ploidy level (n = 1,2,3,4 ) (by morphological characteristics)." []
 synonym: "PldLvl_VisScg_1to4" EXACT []
@@ -1200,7 +1201,7 @@ relationship: variable_of CO_334:0100504 ! 3pt scale
 
 [Term]
 id: CO_334:0000115
-name: storage root cortex color
+name: storage root cortex color visual rating 1-4
 namespace: CassavaVariable
 def: "Visual rating of the color of outer surface of storage root cortex (inner skin color) with 1 = white or cream, 2 = yellow, 3 = pink, 4 = purple." []
 synonym: "inncol" EXACT []
@@ -1211,7 +1212,7 @@ relationship: variable_of CO_334:0100496 ! 4pt scale
 
 [Term]
 id: CO_334:0000116
-name: ease of peeling root cortex
+name: ease of peeling root cortex visual rating 1-7
 namespace: CassavaVariable
 def: "Visual rating of ease of peeling root cortex with 3 = easy and 7 = difficult." []
 synonym: "easepl" EXACT []
@@ -1244,7 +1245,7 @@ relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000119
-name: central leaf shape
+name: central leaf shape visual rating 1-10
 namespace: CassavaVariable
 def: "Shape of central leaf taken from a mid-height position rated from 1 = ovoid, 2 = elliptic-lanceolate, 3 = obovate-lanceolate, 4 = oblong-lanceolate, 5 = lanceolate, 6 = straight or linear, 7 = pandurate, 8 = linear-piramidal, 9 = linear-pandurate, and 10 = linear-hostatilobalate." []
 synonym: "lfshp" EXACT []
@@ -1266,7 +1267,7 @@ relationship: variable_of CO_334:0100539 ! 2pt scale
 
 [Term]
 id: CO_334:0000121
-name: amylopectin content ug/g in percentage 
+name: amylopectin content ug/g in percentage
 namespace: CassavaVariable
 def: "Estimation of amylopectin content of cassava roots in percentage(%)." []
 synonym: "amylp" EXACT []
@@ -1427,7 +1428,7 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000136
-name: leaf scar number
+name: leaf scar number counting
 namespace: CassavaVariable
 def: "A count of the number of leaf scars on the main stem, where a leaf scar is a node without a leaf." []
 synonym: "lfscno" EXACT []
@@ -1438,7 +1439,7 @@ relationship: variable_of CO_334:0100601 ! Scars
 
 [Term]
 id: CO_334:0000137
-name: leaf scar level
+name: leaf scar level measurement in cm
 namespace: CassavaVariable
 def: "The height of the plant  measured in centimeter (cm), from the ground level to the lowest retained leaf on the main stem." []
 synonym: "LfScHt_Meas_cm" EXACT []
@@ -1460,7 +1461,7 @@ relationship: variable_of CO_334:0100546 ! Number
 
 [Term]
 id: CO_334:0000139
-name: branching
+name: branching visual rating 0-3
 namespace: CassavaVariable
 def: "Visual rating of branch height on a scale of 0 = no branching, 1 = low branching (<0.5m), 2 = medium branching (>0.5m <= 1m), 3 = high branching (>= 1)." []
 synonym: "branching" EXACT []
@@ -1471,7 +1472,7 @@ relationship: variable_of CO_334:0100528 ! 4pt scale
 
 [Term]
 id: CO_334:0000140
-name: branching habit
+name: branching habit visual observation 1-4
 namespace: CassavaVariable
 def: "Visual observation of the lowest or first branching on a scale of 1 = erect, 2 = dichotomous, 3 = trichotomous, 4 = tetrachotomous. The most frequent occurence on the plot is recorded." []
 synonym: "BrnchHab_VisClsn_1to4" EXACT []
@@ -1482,7 +1483,7 @@ relationship: variable_of CO_334:0100603 ! 4pt scale
 
 [Term]
 id: CO_334:0000141
-name: days to 50% branching
+name: days to 50% branching visual observation
 namespace: CassavaVariable
 def: "Visual observation of when (actual date in the format of dd/mm/yyyy from the date of planting) fifty percent of the plant stand per plot branches." []
 synonym: "flw50b" EXACT []
@@ -1493,7 +1494,7 @@ relationship: variable_of CO_334:0100611 ! days
 
 [Term]
 id: CO_334:0000142
-name: days to first inflorescence
+name: days to first inflorescence visual observation
 namespace: CassavaVariable
 def: "Visual observation (actual date in the format of dd/mm/yyyy from the date of planting) of the appearance of a developing inflorescence on a plant or plot." []
 synonym: "flwdfi" EXACT []
@@ -1504,7 +1505,7 @@ relationship: variable_of CO_334:0100611 ! days
 
 [Term]
 id: CO_334:0000143
-name: female flower number
+name: female flower number counting
 namespace: CassavaVariable
 def: "A count of the number female flowers after the buds appears, matures, and grows in size to become distinctive at the first, second, and third branch levels." []
 synonym: "FFlwNo_Count_Flw" EXACT []
@@ -1515,7 +1516,7 @@ relationship: variable_of CO_334:0100606 ! Flowers
 
 [Term]
 id: CO_334:0000144
-name: male flower number
+name: male flower number counting
 namespace: CassavaVariable
 def: "A count of the number male flowers after the buds appears, matures, and grows in size to become distinctive at the first, second, and third branch levels." []
 synonym: "flwmno" EXACT []
@@ -1526,7 +1527,7 @@ relationship: variable_of CO_334:0100606 ! Flowers
 
 [Term]
 id: CO_334:0000145
-name: number of flowering stalks per branch level
+name: number of flowering stalks per branch level counting
 namespace: CassavaVariable
 def: "A count of the number of stalks carrying the buds at every point of branching, where inflorescence starts." []
 synonym: "flwstk" EXACT []
@@ -1537,7 +1538,7 @@ relationship: variable_of CO_334:0100608 ! Stalks
 
 [Term]
 id: CO_334:0000146
-name: number of forks
+name: number of forks counting
 namespace: CassavaVariable
 def: "Number of branches at every branching level." []
 synonym: "BrnchNo_Count_Brnch" EXACT []
@@ -1548,7 +1549,7 @@ relationship: variable_of CO_334:0100609 ! Branches
 
 [Term]
 id: CO_334:0000147
-name: Days to first anthesis : visual observation
+name: Days to first anthesis visual observation
 namespace: CassavaVariable
 def: "Visual observation of when (actual date in the format of dd/mm/yyyy from the date of planting) any female flower opens up to expose the pistil per plot." []
 synonym: "flwdfa" EXACT []
@@ -1559,7 +1560,7 @@ relationship: variable_of CO_334:0100611 ! days
 
 [Term]
 id: CO_334:0000148
-name: days to 50% anthesis
+name: days to 50% anthesis visual observation
 namespace: CassavaVariable
 def: "Visual observation of when (actual date in the format of dd/mm/yyyy from the date of planting) fifty percent of the female flower opens up to expose the pistil per plot." []
 synonym: "flw50a" EXACT []
@@ -1570,7 +1571,7 @@ relationship: variable_of CO_334:0100611 ! days
 
 [Term]
 id: CO_334:0000149
-name: number of fruitset
+name: number of fruitset counting
 namespace: CassavaVariable
 def: "A count of the number of fruits formed from the seeds after pollination." []
 synonym: "flwfrt" EXACT []
@@ -1625,7 +1626,7 @@ relationship: variable_of CO_334:0100616 ! 2pt scale
 
 [Term]
 id: CO_334:0000154
-name: plant number with inflorescence
+name: plant number with inflorescence in proportion
 namespace: CassavaVariable
 def: "Proportion of plants per plot that have an inflorescence at varying growth stages. Plant with pollinated and unpollinated flowers are all counted together." []
 synonym: "InflPlntProp_Comp_r" EXACT []
@@ -1636,7 +1637,7 @@ relationship: variable_of CO_334:0100617 ! Proportion
 
 [Term]
 id: CO_334:0000155
-name: max number of terminal branches with inflorescence
+name: number of terminal branches with inflorescence counting
 namespace: CassavaVariable
 def: "The maximum number of  terminal branches with inflorescence observed at all levels of branching in a plot." []
 synonym: "InflBrnchNo_Count_Brnch" EXACT []
@@ -1647,7 +1648,7 @@ relationship: variable_of CO_334:0100609 ! Branches
 
 [Term]
 id: CO_334:0000156
-name: number of fruits
+name: number of fruits counting
 namespace: CassavaVariable
 def: "Number of fruit observed at all levels of branching per plot." []
 synonym: "FrtNo_Count_Frt" EXACT []
@@ -1734,7 +1735,7 @@ relationship: variable_of CO_334:0100623 ! g
 
 [Term]
 id: CO_334:0000164
-name: leaf lobe length
+name: leaf lobe length measurement in cm
 namespace: CassavaVariable
 def: "Measurement of the length of the middle finger or lobe of a matured leaf in centimeter (cm)." []
 synonym: "lflblt" EXACT []
@@ -1745,7 +1746,7 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000165
-name: leaf lobe width
+name: leaf lobe width measurement in cm
 namespace: CassavaVariable
 def: "Measurement of the width of middle finger or lobe of a matured leaf in centimeter (cm)." []
 synonym: "lflbwh" EXACT []
@@ -2361,7 +2362,7 @@ relationship: variable_of CO_334:0100641 ! 2pt scale
 
 [Term]
 id: CO_334:0000221
-name: root color
+name: root color visual rating 1-3
 namespace: CassavaVariable
 def: "Visual rating of storage root surface color with 1 = white , 2 = intermediate, and 3 = dark brown, as being evaluated by CIAT." []
 synonym: "rtcol" EXACT []
@@ -2372,7 +2373,7 @@ relationship: variable_of CO_334:0100642 ! 3pt scale
 
 [Term]
 id: CO_334:0000222
-name: root flesh color
+name: root flesh color visual rating 1-3
 namespace: CassavaVariable
 def: "Visual rating of root pulp color with 1 = white, 2 = cream, 3 = yellow, as being evaluated by CIAT." []
 synonym: "PlpCol_ClsnCIAT_1to3" EXACT []
@@ -2383,7 +2384,7 @@ relationship: variable_of CO_334:0100643 ! 3pt scale
 
 [Term]
 id: CO_334:0000223
-name: storage root neck length
+name: storage root neck length visual rating 1-3
 namespace: CassavaVariable
 def: "Visual rating of root neck length with 1 = short, 2 = intermediate, 3 = long, as being evaluated by CIAT." []
 synonym: "RtNeckLng_ClsnCIAT_1to3" EXACT []
@@ -2493,9 +2494,9 @@ relationship: variable_of CO_334:0100639 ! Yes/No scale
 
 [Term]
 id: CO_334:0000233
-name: flowering ability
+name: flowering ability visual assessment 0-3
 namespace: CassavaVariable
-def: "presence of flowers (0=none; 1=little; 2=intermediate; 3=many)." []
+def: "Presence of flowers (0=none; 1=little; 2=intermediate; 3=many)." []
 synonym: "flowerab" EXACT []
 synonym: "FlwAb_Est_0to3" EXACT []
 relationship: variable_of CO_334:0000367 ! Flowering
@@ -2504,7 +2505,7 @@ relationship: variable_of CO_334:0100640 ! 4pt scale
 
 [Term]
 id: CO_334:0000234
-name: female flower evaluation
+name: female flower evaluation visual rating
 namespace: CassavaVariable
 def: "Visual rating of the count of the number of female flowers present at all branching levels on a plant stand on per plot basis; with 0 = absence of flower, 1 = low number of female flowers [below 5], 2 =  [Medium] 5 to 15 female flowers present, 3 =  [High] above 15 female flowers present)." []
 synonym: "FFlwNo_Est_0to5" EXACT []
@@ -2515,7 +2516,7 @@ relationship: variable_of CO_334:0100645 ! 4pt scale
 
 [Term]
 id: CO_334:0000235
-name: flowering incidence
+name: female flower incidence in proportion
 namespace: CassavaVariable
 def: "Proportion of the number of female flowers in a plot to the number of plant stand in the plot." []
 synonym: "FFlwProp_Comp_ratio" EXACT []
@@ -2537,7 +2538,7 @@ relationship: variable_of CO_334:0100649 ! 5pt scale
 
 [Term]
 id: CO_334:0000237
-name: hairiness
+name: hairiness visual observation 1-5
 namespace: CassavaVariable
 def: "The level of pubescence on the growing part. It is a proportion of tissue covered by hair on the tip leaves. 1 = Glaborous (No hair) 2 = scatter hair on the edges of tip leaves and bracts, 3 = moderate hair on the edges of tip leaves and bract, 4 = about 50% - 70% hair cover the tip leaves, 5 = 75% - 100% of hair cover the tip leaves." []
 synonym: "hairiness" EXACT []
@@ -2743,7 +2744,7 @@ relationship: variable_of CO_334:0100663 ! pct(%)
 
 [Term]
 id: CO_334:0000256
-name: assessment of apical pubescence
+name: assessment of apical pubescence boolean 0&1
 namespace: CassavaVariable
 def: "Assessment of the young leaf pubescence . Record the most frequent occurrence scored as 0 = Absent, 1 = Present." []
 synonym: "APUBESA" RELATED []
@@ -2766,8 +2767,9 @@ creation_date: 2015-09-28T17:55:20Z
 
 [Term]
 id: CO_334:0000258
-name: PetLng_Av_cm
+name: petiole length measurement in cm
 namespace: CassavaVariable
+def: "Observe from the middle third of the plant. Measure two leaves per plant. Expressed in centimeter (cm)" []
 synonym: "petlgth" EXACT []
 relationship: variable_of CO_334:0000429 ! Petiole length
 relationship: variable_of CO_334:0010464 ! Measurement :petiole length_method
@@ -2775,8 +2777,9 @@ relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
 id: CO_334:0000259
-name: PetOrt_Est_1to7
+name: petiole orientation visual observation 1-7
 namespace: CassavaVariable
+def: "Visual observation of petiole orientation. Observe from the middle of the plant, take a general picture across the row. No intermediates allowed. Scored as 1 = Inclined upwards, 3 = Horizontal, 5 = Inclined downwards, 7 = Irregular." []
 synonym: "petort" EXACT []
 relationship: variable_of CO_334:0000430 ! Petiole orientation
 relationship: variable_of CO_334:0010465 ! Visual Observation:Petiole orientation_method
@@ -2784,8 +2787,9 @@ relationship: variable_of CO_334:0100671 ! 4pt scale
 
 [Term]
 id: CO_334:0000260
-name: PollenPrsnc_Est_0or1
+name: presence of pollen visual observation 0&1
 namespace: CassavaVariable
+def: "Visual observation of the presence of pollen. Scored as the same time as flowering. 0 = Absent, 1 = Present." []
 synonym: "pollen" EXACT []
 relationship: variable_of CO_334:0000438 ! Presence of pollen
 relationship: variable_of CO_334:0010466 ! Visual Observation:presence of pollen_method
@@ -2793,8 +2797,9 @@ relationship: variable_of CO_334:0100672 ! 2pt scale
 
 [Term]
 id: CO_334:0000261
-name: StCtxCol_Est_1to3
+name: stem cortex color visual rating 1-3
 namespace: CassavaVariable
+def: "Visual scoring of stem color. Observe from the middle third of the plant. Make a small shallow cut and peel back the epidermis, score as 1  = Orange, 2  = Light green, 3 = Dark green." []
 synonym: "stmctcol" EXACT []
 relationship: variable_of CO_334:0000476 ! Stem cortex color
 relationship: variable_of CO_334:0010467 ! Visual Scoring :stem cortex color_method
@@ -2802,8 +2807,9 @@ relationship: variable_of CO_334:0100673 ! 3pt scale
 
 [Term]
 id: CO_334:0000262
-name: StEpidCol_Est_1to4
+name: stem epidermis color visual scoring 1-4
 namespace: CassavaVariable
+def: "Visual scoring of stem color. Peel epidermis back and look at underside of epidermis(skin). Scored as 1 = Cream, 2 = Light brown, 3 = Dark brown, 4 = Orange." []
 synonym: "stmepcol" EXACT []
 relationship: variable_of CO_334:0000477 ! Stem epidermis color
 relationship: variable_of CO_334:0010468 ! Visual Scoring :stem epidermis color_method
@@ -2811,8 +2817,9 @@ relationship: variable_of CO_334:0100674 ! 4pt scale
 
 [Term]
 id: CO_334:0000263
-name: LfScrDist_Est_1to7
+name: leaf scar distance visual rating 1-7
 namespace: CassavaVariable
+def: "Measurement of the distance between leaf scars. Measured from the middle of stem on the middle third of the plant, where the scars are not flat. Make a measurement along the stem then divide the distance by the number of nodes in the measured part. Avoid taking measurement on mealy bug infected plants. For conservation to qualitative data score 3 as Short (<=8cm), 5 as Medium (8-15cm), 7 as Long(>=15cm)." []
 synonym: "lfscdist" EXACT []
 relationship: variable_of CO_334:0000397 ! Leaf scar distance
 relationship: variable_of CO_334:0010469 ! Visual Rating:leaf scar distance_method
@@ -2820,8 +2827,9 @@ relationship: variable_of CO_334:0100675 ! 7pt scale
 
 [Term]
 id: CO_334:0000264
-name: PlntShp_Est_1to4
+name: plant shape visual assessment 1-4
 namespace: CassavaVariable
+def: "Visual assessment of the shape of plant. Record the frequent occurrence on the plot.. Scored as 1= Compact, 2 = Open, 3 = Umbrella, 4 = Cylindrical." []
 synonym: "pltshp" EXACT []
 relationship: variable_of CO_334:0000433 ! Plant shape
 relationship: variable_of CO_334:0010470 ! Visual Observation:plant shape_method
@@ -3385,7 +3393,7 @@ is_a: CO_334:0000002 ! Morphological trait
 id: CO_334:0000392
 name: Leaf lobe margin
 namespace: CassavaTrait
-def: "leaf lobe margin" []
+def: "leaf lobe margin." []
 synonym: "LobMgnShp" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
 
@@ -3434,7 +3442,7 @@ is_a: CO_334:0000002 ! Morphological trait
 id: CO_334:0000398
 name: Leaf scar height
 namespace: CassavaTrait
-def: "Height from ground to leaf scar" []
+def: "Height from ground to leaf scar." []
 synonym: "ScarHt" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
 
