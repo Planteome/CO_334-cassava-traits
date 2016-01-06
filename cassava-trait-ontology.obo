@@ -3231,7 +3231,7 @@ namespace: CassavaTrait
 def: "Ease of plant harvest" []
 synonym: "easehav" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000362
@@ -3240,7 +3240,7 @@ namespace: CassavaTrait
 def: "Ease of root cortex removal" []
 synonym: "easepl" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000364
@@ -3321,7 +3321,7 @@ namespace: CassavaTrait
 def: "Fufu weight" []
 synonym: "fufucnt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000374
@@ -3331,7 +3331,7 @@ def: "Gari content" []
 synonym: "GarCt" EXACT []
 synonym: "Gari Content - Cassavabase" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000375
@@ -3340,7 +3340,7 @@ namespace: CassavaTrait
 def: "Shaft weight" []
 synonym: "shaftwt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000376
@@ -3349,7 +3349,7 @@ namespace: CassavaTrait
 def: "Weight after drying cassava flakes" []
 synonym: "gdrywt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000377
@@ -3358,7 +3358,7 @@ namespace: CassavaTrait
 def: "Weight after grinding" []
 synonym: "wtagrind" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000378
@@ -3367,7 +3367,7 @@ namespace: CassavaTrait
 def: "gari fibre" []
 synonym: "gfibre" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000379
@@ -3376,7 +3376,7 @@ namespace: CassavaTrait
 def: "gari sampled weight" []
 synonym: "gariwt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000380
@@ -3385,7 +3385,7 @@ namespace: CassavaTrait
 def: "Assessment of the starch content of gari" []
 synonym: "gstarch" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000381
@@ -3394,7 +3394,7 @@ namespace: CassavaTrait
 def: "Taste of gari" []
 synonym: "gtaste" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000382
@@ -3430,7 +3430,7 @@ namespace: CassavaTrait
 def: "Lafu weight" []
 synonym: "lafun" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000389
@@ -3584,7 +3584,7 @@ namespace: CassavaTrait
 def: "Number of big or more than 1kg root size" []
 synonym: "mktrtno" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:0001041
 
 [Term]
 id: CO_334:0000406
@@ -3593,7 +3593,7 @@ namespace: CassavaTrait
 def: "Marketable root weight" []
 synonym: "MkRtWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:0001041
 
 [Term]
 id: CO_334:0000407
@@ -3611,7 +3611,7 @@ namespace: CassavaTrait
 def: "Number of small or less than 1kg root size" []
 synonym: "nmkrtno" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000409
@@ -3620,7 +3620,7 @@ namespace: CassavaTrait
 def: "Weight of non-marketable root- i.e., small sized root" []
 synonym: "NMkRtWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000410
@@ -3736,7 +3736,7 @@ namespace: CassavaTrait
 def: "Peel weight" []
 synonym: "peelwt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000427
@@ -3835,7 +3835,7 @@ def: "Poundability (mealiness of boiled roots)" []
 synonym: "mealiness" EXACT []
 synonym: "pd" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000438
@@ -3916,7 +3916,7 @@ namespace: CassavaTrait
 def: "Dry matter content of storage roots" []
 synonym: "dm" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:1000007
 
 [Term]
 id: CO_334:0000448
@@ -3925,7 +3925,7 @@ namespace: CassavaTrait
 def: "Evaluation of various root properties" []
 synonym: "rteval" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:1000010
 
 [Term]
 id: CO_334:0000450
@@ -4079,7 +4079,7 @@ namespace: CassavaTrait
 def: "Number of germinated stakes" []
 synonym: "sprtct" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:1000007
 
 [Term]
 id: CO_334:0000472
@@ -4089,7 +4089,7 @@ def: "Proportion of stakes germinated" []
 synonym: "Proportion of germinated stakes" EXACT []
 synonym: "sprout" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:1000013
 
 [Term]
 id: CO_334:0000473
@@ -4199,7 +4199,7 @@ namespace: CassavaTrait
 def: "Fresh weight of the planted part anchoring the storage root" []
 synonym: "stkwt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000485
@@ -4294,7 +4294,7 @@ namespace: CassavaTrait
 def: "Weight of stump" []
 synonym: "StumpWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000495
@@ -4320,7 +4320,7 @@ namespace: CassavaTrait
 def: "Swelling capacity of gari sample" []
 synonym: "swelling" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000498
@@ -4329,7 +4329,7 @@ namespace: CassavaTrait
 def: "Taste of boiled roots" []
 synonym: "pdtas" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000499
@@ -4347,7 +4347,7 @@ namespace: CassavaTrait
 def: "Total caroteneoid content after cooking" []
 synonym: "CaroRet" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000501
@@ -4383,7 +4383,7 @@ namespace: CassavaTrait
 def: "Weight of mashed cassava cake" []
 synonym: "wtamash" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000597
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000505
@@ -4409,7 +4409,6 @@ name: Zinc Content
 namespace: CassavaTrait
 def: "Zinc content" []
 synonym: "zn" EXACT []
-xref: TO:0020090
 is_a: CO_334:0000004 ! Quality trait
 
 [Term]
