@@ -81,6 +81,7 @@ synonym: "vigor" EXACT []
 relationship: variable_of CO_334:0000386 ! Initial Vigor
 relationship: variable_of CO_334:0010228 ! Visual Rating:Initial Vigor_method
 relationship: variable_of CO_334:0100434 ! 7 pt scale
+is_a: TO:0000250
 
 [Term]
 id: CO_334:0000010
@@ -181,6 +182,7 @@ synonym: "pltht" EXACT []
 relationship: variable_of CO_334:0000432 ! Plant Height
 relationship: variable_of CO_334:0010303 ! Measurement :Plant Height_method
 relationship: variable_of CO_334:0100558 ! cm
+is_a: TO:0000207
 
 [Term]
 id: CO_334:0000019
@@ -956,6 +958,7 @@ synonym: "RtCyanCt_Picrate_1to9" EXACT []
 relationship: variable_of CO_334:0000502 ! Tuberous root cyanide content
 relationship: variable_of CO_334:0010299 ! Estimation :Hydrogen cyanide potential picrate method_method
 relationship: variable_of CO_334:0100505 ! 9pt scale
+is_a: TO:0000955
 
 [Term]
 id: CO_334:0000092
@@ -2393,6 +2396,7 @@ synonym: "rtfcol" EXACT []
 relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
 relationship: variable_of CO_334:0010437 ! Visual Rating:root flesh color_method
 relationship: variable_of CO_334:0100643 ! 3pt scale
+is_a: TO:1000007
 
 [Term]
 id: CO_334:0000223
@@ -2426,6 +2430,7 @@ synonym: "EasHvst_Est_1to3" EXACT []
 relationship: variable_of CO_334:0000361 ! Ease of Harvest
 relationship: variable_of CO_334:0010425 ! Sensory Assesment :Ease of Harvest_method
 relationship: variable_of CO_334:0100631 ! 3pt scale
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000226
@@ -2437,6 +2442,7 @@ synonym: "RtLng_Est_1to3" EXACT []
 relationship: variable_of CO_334:0000450 ! Root length
 relationship: variable_of CO_334:0010426 ! Visual Rating:root length evaluation_method
 relationship: variable_of CO_334:0100632 ! 3pt scale
+is_a: TO:0000227
 
 [Term]
 id: CO_334:0000227
@@ -2470,6 +2476,7 @@ synonym: "RotRtProp_Est_pct" EXACT []
 relationship: variable_of CO_334:0000458 ! Rotten root proportion
 relationship: variable_of CO_334:0010430 ! Calculation: percent of rotten roots_method
 relationship: variable_of CO_334:0100583 ! Pct (%)
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000230
@@ -2492,6 +2499,7 @@ synonym: "yldyr" EXACT []
 relationship: variable_of CO_334:0000456 ! Root Yield
 relationship: variable_of CO_334:0010432 ! Estimation :yield per year_method
 relationship: variable_of CO_334:0100638 ! t/ha/year
+is_a: TO:0001041
 
 [Term]
 id: CO_334:0000232
