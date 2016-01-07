@@ -3933,7 +3933,7 @@ namespace: CassavaTrait
 def: "Evaluation of various root properties" [CO:curators]
 synonym: "rteval" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:1000010
+is_a: TO:0001042
 
 [Term]
 id: CO_334:0000450
@@ -4097,7 +4097,7 @@ def: "Proportion of stakes germinated" [CO:curators]
 synonym: "Proportion of germinated stakes" EXACT []
 synonym: "sprout" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:1000013
+is_a: TO:0000250
 
 [Term]
 id: CO_334:0000473
