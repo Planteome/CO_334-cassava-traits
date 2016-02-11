@@ -10069,7 +10069,7 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010440 ! Visual Rating:staygreen_method
 
 [Term]
-id: CO_334:0100646:"7
+id: CO_334:0100646:7
 name: 80% reduction of the leaf number compareed to full canopy more than 75% of the remaining old leaves are wilted or brown young leaves have reduced greeness or are yellowing\"\".\"
 namespace: CassavaScale
 synonym: "\"7" EXACT []
