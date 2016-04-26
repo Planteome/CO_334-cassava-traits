@@ -81,7 +81,7 @@ synonym: "vigor" EXACT []
 relationship: variable_of CO_334:0000386 ! Initial Vigor
 relationship: variable_of CO_334:0010228 ! Visual Rating:Initial Vigor_method
 relationship: variable_of CO_334:0100434 ! 7 pt scale
-is_a: TO:0000250
+xref: TO:0000250
 
 [Term]
 id: CO_334:0000010
@@ -182,7 +182,7 @@ synonym: "pltht" EXACT []
 relationship: variable_of CO_334:0000432 ! Plant Height
 relationship: variable_of CO_334:0010303 ! Measurement :Plant Height_method
 relationship: variable_of CO_334:0100558 ! cm
-is_a: TO:0000207
+xref: TO:0000207
 
 [Term]
 id: CO_334:0000019
@@ -316,7 +316,7 @@ def: "Severity of bacterial blight disease caused by Xanthomonas axonopodis pv. 
 synonym: "Cassava bacterial blight severity - Cassavabase" EXACT []
 synonym: "CBBSev" EXACT []
 is_a: CO_334:0000027 ! bacterial disease
-is_a: TO:0000770
+xref: TO:0000770
 
 [Term]
 id: CO_334:0000032
@@ -326,7 +326,7 @@ def: "Severity of the Cassava anthracnose disease caused by Colletotrichum gloeo
 synonym: "CADSev" EXACT []
 synonym: "Cassava anthracnose disease severity - Cassavabase" EXACT []
 is_a: CO_334:0000029 ! fungal disease
-is_a: TO:0000439
+xref: TO:0000439
 
 [Term]
 id: CO_334:0000033
@@ -336,7 +336,7 @@ def: "Severity of the damage caused by cassava green mite" [CO:curators]
 synonym: "Cassava green mite severity - Cassavabase" EXACT []
 synonym: "CGMSev" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000034
@@ -357,7 +357,7 @@ def: "Severity of the symptoms caused by the cassava mosaic virus, in the family
 synonym: "Cassava mosaic disease severity - Cassavabase" EXACT []
 synonym: "CMDSev" EXACT []
 is_a: CO_334:0000028 ! viral disease
-is_a: TO:0000148
+xref: TO:0000148
 
 [Term]
 id: CO_334:0000036
@@ -367,7 +367,7 @@ def: "Severity of the symptoms on leaf caused by cassava brown streak virus in t
 synonym: "Cassava brown streak disease leaf severity - Cassavabase" EXACT []
 synonym: "CBSDRtSev" EXACT []
 is_a: CO_334:0000028 ! viral disease
-is_a: TO:0000148
+xref: TO:0000148
 
 [Term]
 id: CO_334:0000037
@@ -376,7 +376,7 @@ namespace: CassavaTrait
 def: "Incidence of the cassava bacterial blight" [CO:curators]
 synonym: "CBBInc" EXACT []
 is_a: CO_334:0000027 ! bacterial disease
-is_a: TO:0000770
+xref: TO:0000770
 
 [Term]
 id: CO_334:0000038
@@ -385,7 +385,7 @@ namespace: CassavaTrait
 def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease" [CO:curators]
 synonym: "cadi" EXACT []
 is_a: CO_334:0000029 ! fungal disease
-is_a: TO:0000439
+xref: TO:0000439
 
 [Term]
 id: CO_334:0000039
@@ -394,7 +394,7 @@ namespace: CassavaTrait
 def: "Proportion of plants within a plot showing  symptoms of cassava mosaic disease" [CO:curators]
 synonym: "cmdi" EXACT []
 is_a: CO_334:0000028 ! viral disease
-is_a: TO:0000148
+xref: TO:0000148
 
 [Term]
 id: CO_334:0000040
@@ -403,7 +403,7 @@ namespace: CassavaTrait
 def: "Proportion of plants within a plot showing  symptoms of cassava brown streak disease" [CO:curators]
 synonym: "cbsdli" EXACT []
 is_a: CO_334:0000028 ! viral disease
-is_a: TO:0000148
+xref: TO:0000148
 
 [Term]
 id: CO_334:0000041
@@ -936,7 +936,7 @@ namespace: CassavaTrait
 def: "Proportion of plants within a plot showing root symptoms of cassava brown streak disease" [CO:curators]
 synonym: "cbsdr12i" EXACT []
 is_a: CO_334:0000028 ! viral disease
-is_a: TO:0000148
+xref: TO:0000148
 
 [Term]
 id: CO_334:0000090
@@ -946,7 +946,7 @@ def: "Cassava brown streak disease root symptoms severity" [CO:curators]
 synonym: "Cassava brown streak disease root severity - Cassavabase" EXACT []
 synonym: "CBSDLfSev" EXACT []
 is_a: CO_334:0000028 ! viral disease
-is_a: TO:0000148
+xref: TO:0000148
 
 [Term]
 id: CO_334:0000091
@@ -958,7 +958,7 @@ synonym: "RtCyanCt_Picrate_1to9" EXACT []
 relationship: variable_of CO_334:0000502 ! Tuberous root cyanide content
 relationship: variable_of CO_334:0010299 ! Estimation :Hydrogen cyanide potential picrate method_method
 relationship: variable_of CO_334:0100505 ! 9pt scale
-is_a: TO:0000955
+xref: TO:0000955
 
 [Term]
 id: CO_334:0000092
@@ -1297,7 +1297,7 @@ namespace: CassavaTrait
 def: "Proportion of plants affected by cassava green mite" [CO:curators]
 synonym: "cgmi" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000123
@@ -2396,7 +2396,7 @@ synonym: "rtfcol" EXACT []
 relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
 relationship: variable_of CO_334:0010437 ! Visual Rating:root flesh color_method
 relationship: variable_of CO_334:0100643 ! 3pt scale
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000223
@@ -2430,7 +2430,7 @@ synonym: "EasHvst_Est_1to3" EXACT []
 relationship: variable_of CO_334:0000361 ! Ease of Harvest
 relationship: variable_of CO_334:0010425 ! Sensory Assesment :Ease of Harvest_method
 relationship: variable_of CO_334:0100631 ! 3pt scale
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000226
@@ -2442,7 +2442,7 @@ synonym: "RtLng_Est_1to3" EXACT []
 relationship: variable_of CO_334:0000450 ! Root length
 relationship: variable_of CO_334:0010426 ! Visual Rating:root length evaluation_method
 relationship: variable_of CO_334:0100632 ! 3pt scale
-is_a: TO:0000227
+xref: TO:0000227
 
 [Term]
 id: CO_334:0000227
@@ -2476,7 +2476,7 @@ synonym: "RotRtProp_Est_pct" EXACT []
 relationship: variable_of CO_334:0000458 ! Rotten root proportion
 relationship: variable_of CO_334:0010430 ! Calculation: percent of rotten roots_method
 relationship: variable_of CO_334:0100583 ! Pct (%)
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000230
@@ -2499,7 +2499,7 @@ synonym: "yldyr" EXACT []
 relationship: variable_of CO_334:0000456 ! Root Yield
 relationship: variable_of CO_334:0010432 ! Estimation :yield per year_method
 relationship: variable_of CO_334:0100638 ! t/ha/year
-is_a: TO:0001041
+xref: TO:0001041
 
 [Term]
 id: CO_334:0000232
@@ -2947,7 +2947,7 @@ namespace: CassavaTrait
 def: "Abscisic acid content of leaf sample" [CO:curators]
 synonym: "abscon" EXACT []
 is_a: CO_334:0000003 ! Physiological trait
-is_a: TO:0002667
+xref: TO:0002667
 
 [Term]
 id: CO_334:0000277
@@ -2956,7 +2956,7 @@ namespace: CassavaTrait
 def: "Amylopectin content" [CO:curators]
 synonym: "amylp" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000097
+xref: TO:0000097
 
 [Term]
 id: CO_334:0000278
@@ -2965,7 +2965,7 @@ namespace: CassavaTrait
 def: "Amylopectin:amylose ratio" [CO:curators]
 synonym: "RtAmylProp" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000372
+xref: TO:0000372
 
 [Term]
 id: CO_334:0000279
@@ -2974,7 +2974,7 @@ namespace: CassavaTrait
 def: "Amylose content" [CO:curators]
 synonym: "amyl" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000196
+xref: TO:0000196
 
 [Term]
 id: CO_334:0000280
@@ -2983,7 +2983,7 @@ namespace: CassavaTrait
 def: "Color of anthers" [CO:curators]
 synonym: "anther" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000187
+xref: TO:0000187
 
 [Term]
 id: CO_334:0000281
@@ -2992,7 +2992,7 @@ namespace: CassavaTrait
 def: "Distribution of anthocyanin pigmentation" [CO:curators]
 synonym: "AnthrCPig" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000071
+xref: TO:0000071
 
 [Term]
 id: CO_334:0000282
@@ -3001,7 +3001,7 @@ namespace: CassavaTrait
 def: "Time to first apical branching (associated with formation of inflorescence)" [CO:curators]
 synonym: "BrnchTim" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000933
+xref: TO:0000933
 
 [Term]
 id: CO_334:0000283
@@ -3010,7 +3010,7 @@ namespace: CassavaTrait
 def: "Pubescence of young leaves" [CO:curators]
 synonym: "LfPub" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002722
+xref: TO:0002722
 
 [Term]
 id: CO_334:0000284
@@ -3019,7 +3019,7 @@ namespace: CassavaTrait
 def: "Ascorbic acid content" [CO:curators]
 synonym: "Vitamin C" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000281
+xref: TO:0000281
 
 [Term]
 id: CO_334:0000285
@@ -3029,7 +3029,7 @@ def: "Ash content" [CO:curators]
 synonym: "ash" EXACT []
 synonym: "Tuberous root mineral salt content" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000607
+xref: TO:0000607
 
 [Term]
 id: CO_334:0000287
@@ -3038,7 +3038,7 @@ namespace: CassavaTrait
 def: "b-cryptoxanthin (carotenoid that has hydroxyl group with 50% activity) content" [CO:curators]
 synonym: "BCryptoCt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0020079
+xref: TO:0020079
 
 [Term]
 id: CO_334:0000288
@@ -3047,7 +3047,7 @@ namespace: CassavaTrait
 def: "Number of black bemesia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfb" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000289
@@ -3056,7 +3056,7 @@ namespace: CassavaTrait
 def: "Severity of the chlorotic blotches on leaf caused by the nymphs of Bemesia tabaci" [CO:curators]
 synonym: "BTNSev" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000290
@@ -3065,7 +3065,7 @@ namespace: CassavaTrait
 def: "Number of yellow bemesia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfy" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000291
@@ -3074,7 +3074,7 @@ namespace: CassavaTrait
 def: "beta-carotene (ug/g fresh wt)" [CO:curators]
 synonym: "bc" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0002695
+xref: TO:0002695
 
 [Term]
 id: CO_334:0000292
@@ -3083,7 +3083,7 @@ namespace: CassavaTrait
 def: "Beta carotene content after cooking" [CO:curators]
 synonym: "BCaroRet" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0002695
+xref: TO:0002695
 
 [Term]
 id: CO_334:0000293
@@ -3093,7 +3093,7 @@ def: "Branch height" [CO:curators]
 synonym: "branching" EXACT []
 synonym: "BrnchHt" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000008
+xref: TO:1000008
 
 [Term]
 id: CO_334:0000294
@@ -3102,7 +3102,7 @@ namespace: CassavaTrait
 def: "Angle of branching (Angle between vertical plane and first branches)" [CO:curators]
 synonym: "brnang" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000009
+xref: TO:1000009
 
 [Term]
 id: CO_334:0000295
@@ -3111,7 +3111,7 @@ namespace: CassavaTrait
 def: "Branching habit" [CO:curators]
 synonym: "brnhbt" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000740
+xref: TO:0000740
 
 [Term]
 id: CO_334:0000296
@@ -3120,7 +3120,7 @@ namespace: CassavaTrait
 def: "Number of levels of branching (Actual number of levels (at harvest))" [CO:curators]
 synonym: "brnlev" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000740
+xref: TO:0000740
 
 [Term]
 id: CO_334:0000297
@@ -3129,7 +3129,7 @@ namespace: CassavaTrait
 def: "Cassava storage root pulp carotenoid content" [CO:curators]
 synonym: "CarotCt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000496
+xref: TO:0000496
 
 [Term]
 id: CO_334:0000298
@@ -3138,7 +3138,7 @@ namespace: CassavaTrait
 def: "Color of caruncle" [CO:curators]
 synonym: "carcol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000010
+xref: TO:1000010
 
 [Term]
 id: CO_334:0000339
@@ -3147,7 +3147,7 @@ namespace: CassavaTrait
 def: "Proportion of plants within a plot showing symptoms of cassava mealy-bug damage (Phenacoccus Manihoti)" [CO:curators]
 synonym: "cmbi" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000340
@@ -3157,7 +3157,7 @@ def: "Severity of the damage caused by Cassava mealy bug (Phenacoccus Manihoti)"
 synonym: "Cassava Mealy Bug Severity - Cassavabase" EXACT []
 synonym: "CMBSev" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000353
@@ -3166,7 +3166,7 @@ namespace: CassavaTrait
 def: "Shape of central leaf taken from a mid-height position." [CO:curators]
 synonym: "lfshp" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000492
+xref: TO:0000492
 
 [Term]
 id: CO_334:0000354
@@ -3175,7 +3175,7 @@ namespace: CassavaTrait
 def: "Cis 9 isomer activity" [CO:curators]
 synonym: "cis-9" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000282
+xref: TO:0000282
 
 [Term]
 id: CO_334:0000355
@@ -3184,7 +3184,7 @@ namespace: CassavaTrait
 def: "Color of boiled tuberous roots" [CO:curators]
 synonym: "pdcol" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000356
@@ -3194,7 +3194,7 @@ def: "50% of the female flower opened to expose the pistils per plot" [CO:curato
 synonym: "dyfl" EXACT []
 synonym: "flw50a" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002616
+xref: TO:0002616
 
 [Term]
 id: CO_334:0000357
@@ -3203,7 +3203,7 @@ namespace: CassavaTrait
 def: "Time to reach 50% of the plants at the branching stage" [CO:curators]
 synonym: "flw50b" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000933
+xref: TO:0000933
 
 [Term]
 id: CO_334:0000358
@@ -3212,7 +3212,7 @@ namespace: CassavaTrait
 def: "Exposing of the pistil per plot of any female flower" [CO:curators]
 synonym: "flwdfa" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002616
+xref: TO:0002616
 
 [Term]
 id: CO_334:0000359
@@ -3221,7 +3221,7 @@ namespace: CassavaTrait
 def: "Time to reach the first inflorescence" [CO:curators]
 synonym: "flwdfi" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002616
+xref: TO:0002616
 
 [Term]
 id: CO_334:0000360
@@ -3230,7 +3230,7 @@ namespace: CassavaTrait
 def: "Color of disc" [CO:curators]
 synonym: "discol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000019
+xref: TO:1000019
 
 [Term]
 id: CO_334:0000361
@@ -3239,7 +3239,7 @@ namespace: CassavaTrait
 def: "Ease of plant harvest" [CO:curators]
 synonym: "easehav" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000362
@@ -3248,7 +3248,7 @@ namespace: CassavaTrait
 def: "Ease of root cortex removal" [CO:curators]
 synonym: "easepl" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000364
@@ -3257,7 +3257,7 @@ namespace: CassavaTrait
 def: "Number of female flowers after the buds appear" [CO:curators]
 synonym: "FFlwNo" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002736
+xref: TO:0002736
 
 [Term]
 id: CO_334:0000365
@@ -3266,7 +3266,7 @@ namespace: CassavaTrait
 def: "Presence of stamen in female cassava flowers" [CO:curators]
 synonym: "femsta" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000215
+xref: TO:0000215
 
 [Term]
 id: CO_334:0000366
@@ -3275,7 +3275,7 @@ namespace: CassavaTrait
 def: "Fibre content" [CO:curators]
 synonym: "fibre" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0002642
+xref: TO:0002642
 
 [Term]
 id: CO_334:0000367
@@ -3284,7 +3284,7 @@ namespace: CassavaTrait
 def: "Abundance of flower" [CO:curators]
 synonym: "flowerab" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002736
+xref: TO:0002736
 
 [Term]
 id: CO_334:0000369
@@ -3293,7 +3293,7 @@ namespace: CassavaTrait
 def: "Total fresh weight of harvested foliage and stems" [CO:curators]
 synonym: "ShFrWe" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000571
+xref: TO:0000571
 
 [Term]
 id: CO_334:0000370
@@ -3302,7 +3302,7 @@ namespace: CassavaTrait
 def: "Severity of the Frog skin disease caused by unknown causal agent" [CO:curators]
 synonym: "fsd" EXACT []
 is_a: CO_334:0000028 ! viral disease
-is_a: TO:0000439
+xref: TO:0000439
 
 [Term]
 id: CO_334:0000371
@@ -3311,7 +3311,7 @@ namespace: CassavaTrait
 def: "Texture of the outer most layer of the cassava fruit" [CO:curators]
 synonym: "fruexo" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0002624
+xref: TO:0002624
 
 [Term]
 id: CO_334:0000372
@@ -3320,7 +3320,7 @@ namespace: CassavaTrait
 def: "Fruit set" [CO:curators]
 synonym: "frtset" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0002640
+xref: TO:0002640
 
 [Term]
 id: CO_334:0000373
@@ -3329,7 +3329,7 @@ namespace: CassavaTrait
 def: "Fufu weight" [CO:curators]
 synonym: "fufucnt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000374
@@ -3339,7 +3339,7 @@ def: "Gari content" [CO:curators]
 synonym: "GarCt" EXACT []
 synonym: "Gari Content - Cassavabase" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000375
@@ -3348,7 +3348,7 @@ namespace: CassavaTrait
 def: "Shaft weight" [CO:curators]
 synonym: "shaftwt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000376
@@ -3357,7 +3357,7 @@ namespace: CassavaTrait
 def: "Weight after drying cassava flakes" [CO:curators]
 synonym: "gdrywt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000377
@@ -3366,7 +3366,7 @@ namespace: CassavaTrait
 def: "Weight after grinding" [CO:curators]
 synonym: "wtagrind" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000378
@@ -3375,7 +3375,7 @@ namespace: CassavaTrait
 def: "gari fibre" [CO:curators]
 synonym: "gfibre" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000379
@@ -3384,7 +3384,7 @@ namespace: CassavaTrait
 def: "gari sampled weight" [CO:curators]
 synonym: "gariwt" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000380
@@ -3393,7 +3393,7 @@ namespace: CassavaTrait
 def: "Assessment of the starch content of gari" [CO:curators]
 synonym: "gstarch" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000381
@@ -3402,7 +3402,7 @@ namespace: CassavaTrait
 def: "Taste of gari" [CO:curators]
 synonym: "gtaste" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000382
@@ -3411,7 +3411,7 @@ namespace: CassavaTrait
 def: "Hairiness" [CO:curators]
 synonym: "hairiness" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000398
+xref: TO:0000398
 
 [Term]
 id: CO_334:0000386
@@ -3420,7 +3420,7 @@ namespace: CassavaTrait
 def: "Initial plant vigor at one month after planting" [CO:curators]
 synonym: "vigor" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000250
+xref: TO:0000250
 
 [Term]
 id: CO_334:0000387
@@ -3429,7 +3429,7 @@ namespace: CassavaTrait
 def: "Iron content." [CO:curators]
 synonym: "fe" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0020089
+xref: TO:0020089
 
 [Term]
 id: CO_334:0000388
@@ -3438,7 +3438,7 @@ namespace: CassavaTrait
 def: "Lafu weight" [CO:curators]
 synonym: "lafun" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000389
@@ -3447,7 +3447,7 @@ namespace: CassavaTrait
 def: "Leaf color" [CO:curators]
 synonym: "LfCol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000326
+xref: TO:0000326
 
 [Term]
 id: CO_334:0000390
@@ -3456,7 +3456,7 @@ namespace: CassavaTrait
 def: "Leaf life span" [CO:curators]
 synonym: "LfLiife" EXACT []
 is_a: CO_334:0000003 ! Physiological trait
-is_a: TO:0000748
+xref: TO:0000748
 
 [Term]
 id: CO_334:0000391
@@ -3465,7 +3465,7 @@ namespace: CassavaTrait
 def: "Length of middle finger or lobe of matured leaf" [CO:curators]
 synonym: "LfLbLng" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000014
+xref: TO:1000014
 
 [Term]
 id: CO_334:0000392
@@ -3474,7 +3474,7 @@ namespace: CassavaTrait
 def: "leaf lobe margin." [CO:curators]
 synonym: "LobMgnShp" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000013
+xref: TO:1000013
 
 [Term]
 id: CO_334:0000393
@@ -3483,7 +3483,7 @@ namespace: CassavaTrait
 def: "Position in which leaf lobes are held" [CO:curators]
 synonym: "lflobp" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000013
+xref: TO:1000013
 
 [Term]
 id: CO_334:0000394
@@ -3492,7 +3492,7 @@ namespace: CassavaTrait
 def: "Width of middle finger or lobe of matured leaf" [CO:curators]
 synonym: "LfLbWdth" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000015
+xref: TO:1000015
 
 [Term]
 id: CO_334:0000395
@@ -3501,7 +3501,7 @@ namespace: CassavaTrait
 def: "Number of leaf lobes" [CO:curators]
 synonym: "lflbno" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000013
+xref: TO:1000013
 
 [Term]
 id: CO_334:0000396
@@ -3511,7 +3511,7 @@ def: "Leaf retention (stay green)" [CO:curators]
 synonym: "LfRet" EXACT []
 synonym: "Stay green, Leaf Retention - Cassavabase" EXACT []
 is_a: CO_334:0000003 ! Physiological trait
-is_a: TO:0000748
+xref: TO:0000748
 
 [Term]
 id: CO_334:0000397
@@ -3520,7 +3520,7 @@ namespace: CassavaTrait
 def: "Distance between leaf scar" [CO:curators]
 synonym: "lfscdist" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000361
+xref: TO:0000361
 
 [Term]
 id: CO_334:0000398
@@ -3529,7 +3529,7 @@ namespace: CassavaTrait
 def: "Height from ground to leaf scar." [CO:curators]
 synonym: "ScarHt" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000362
+xref: TO:0000362
 
 [Term]
 id: CO_334:0000399
@@ -3538,7 +3538,7 @@ namespace: CassavaTrait
 def: "Number of leaf scars" [CO:curators]
 synonym: "lfscno" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000363
+xref: TO:0000363
 
 [Term]
 id: CO_334:0000400
@@ -3547,7 +3547,7 @@ namespace: CassavaTrait
 def: "Prominence of fresh leaf scars" [CO:curators]
 synonym: "lfscar" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000364
+xref: TO:0000364
 
 [Term]
 id: CO_334:0000401
@@ -3556,7 +3556,7 @@ namespace: CassavaTrait
 def: "Color of leaf vein" [CO:curators]
 synonym: "lfvnco" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000719
+xref: TO:0000719
 
 [Term]
 id: CO_334:0000402
@@ -3565,7 +3565,7 @@ namespace: CassavaTrait
 def: "Weight of leaf" [CO:curators]
 synonym: "LfWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000505
+xref: TO:0000505
 
 [Term]
 id: CO_334:0000403
@@ -3574,7 +3574,7 @@ namespace: CassavaTrait
 def: "Number of male flowers after the buds appear" [CO:curators]
 synonym: "flwmno" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002736
+xref: TO:0002736
 
 [Term]
 id: CO_334:0000404
@@ -3583,7 +3583,7 @@ namespace: CassavaTrait
 def: "Cassava plants that do no produce viable pollen." [CO:curators]
 synonym: "ms" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000437
+xref: TO:0000437
 
 [Term]
 id: CO_334:0000405
@@ -3592,7 +3592,7 @@ namespace: CassavaTrait
 def: "Number of big or more than 1kg root size" [CO:curators]
 synonym: "mktrtno" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001041
+xref: TO:0001041
 
 [Term]
 id: CO_334:0000406
@@ -3601,7 +3601,7 @@ namespace: CassavaTrait
 def: "Marketable root weight" [CO:curators]
 synonym: "MkRtWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001041
+xref: TO:0001041
 
 [Term]
 id: CO_334:0000407
@@ -3610,7 +3610,7 @@ namespace: CassavaTrait
 def: "Storage root moisture content" [CO:curators]
 synonym: "mc" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000228
+xref: TO:0000228
 
 [Term]
 id: CO_334:0000408
@@ -3619,7 +3619,7 @@ namespace: CassavaTrait
 def: "Number of small or less than 1kg root size" [CO:curators]
 synonym: "nmkrtno" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000409
@@ -3628,7 +3628,7 @@ namespace: CassavaTrait
 def: "Weight of non-marketable root- i.e., small sized root" [CO:curators]
 synonym: "NMkRtWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000410
@@ -3637,7 +3637,7 @@ namespace: CassavaTrait
 def: "Number of Bemesia tabaci adult white flies" [CO:curators]
 synonym: "BTAdtNo" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000411
@@ -3646,7 +3646,7 @@ namespace: CassavaTrait
 def: "Number of Bemesia tabaci nymphs white flies" [CO:curators]
 synonym: "BTNyNo" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000412
@@ -3655,7 +3655,7 @@ namespace: CassavaTrait
 def: "Number of stalks carrying buds" [CO:curators]
 synonym: "FlwStlkNo" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000894
+xref: TO:0000894
 
 [Term]
 id: CO_334:0000413
@@ -3664,7 +3664,7 @@ namespace: CassavaTrait
 def: "Number of branches" [CO:curators]
 synonym: "flwfrk" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000740
+xref: TO:0000740
 
 [Term]
 id: CO_334:0000414
@@ -3673,7 +3673,7 @@ namespace: CassavaTrait
 def: "Number of fruits" [CO:curators]
 synonym: "fruitno" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000894
+xref: TO:0000894
 
 [Term]
 id: CO_334:0000415
@@ -3682,7 +3682,7 @@ namespace: CassavaTrait
 def: "Number of fruits formed after pollination" [CO:curators]
 synonym: "flwfrt" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002640
+xref: TO:0002640
 
 [Term]
 id: CO_334:0000416
@@ -3699,7 +3699,7 @@ namespace: CassavaTrait
 def: "Number of rotten stem" [CO:curators]
 synonym: "RotStmNo" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+xref: TO:0000597
 
 [Term]
 id: CO_334:0000418
@@ -3717,7 +3717,7 @@ def: "Number of plantable stakes" [CO:curators]
 synonym: "Plantable stem number" EXACT []
 synonym: "stkno" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000597
+xref: TO:0000597
 
 [Term]
 id: CO_334:0000420
@@ -3726,7 +3726,7 @@ namespace: CassavaTrait
 def: "Number of terminal branches with inflorescence" [CO:curators]
 synonym: "TermBrnchNo" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000582
+xref: TO:0000582
 
 [Term]
 id: CO_334:0000421
@@ -3735,7 +3735,7 @@ namespace: CassavaTrait
 def: "Color of ovary" [CO:curators]
 synonym: "ovryco" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000016
+xref: TO:1000016
 
 [Term]
 id: CO_334:0000422
@@ -3744,7 +3744,7 @@ namespace: CassavaTrait
 def: "Peel weight" [CO:curators]
 synonym: "peelwt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000427
@@ -3753,7 +3753,7 @@ namespace: CassavaTrait
 def: "Petiole color" [CO:curators]
 synonym: "petcol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0002707
+xref: TO:0002707
 
 [Term]
 id: CO_334:0000428
@@ -3762,7 +3762,7 @@ namespace: CassavaTrait
 def: "Angle between branch and petiole" [CO:curators]
 synonym: "petang" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000765
+xref: TO:0000765
 
 [Term]
 id: CO_334:0000429
@@ -3771,7 +3771,7 @@ namespace: CassavaTrait
 def: "petiole length" [CO:curators]
 synonym: "PetLng" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000766
+xref: TO:0000766
 
 [Term]
 id: CO_334:0000430
@@ -3780,7 +3780,7 @@ namespace: CassavaTrait
 def: "petiole orientation" [CO:curators]
 synonym: "PetOrt" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000765
+xref: TO:0000765
 
 [Term]
 id: CO_334:0000431
@@ -3790,7 +3790,7 @@ def: "Plant architecture" [CO:curators]
 synonym: "Plant Architecture - Cassavabase" EXACT []
 synonym: "PlntArch" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000398
+xref: TO:0000398
 
 [Term]
 id: CO_334:0000432
@@ -3799,7 +3799,7 @@ namespace: CassavaTrait
 def: "Height of plant at harvest from ground level to top of canopy" [CO:curators]
 synonym: "pltht" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000207
+xref: TO:0000207
 
 [Term]
 id: CO_334:0000433
@@ -3808,7 +3808,7 @@ namespace: CassavaTrait
 def: "Shape of plant" [CO:curators]
 synonym: "pltshp" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000398
+xref: TO:0000398
 
 [Term]
 id: CO_334:0000434
@@ -3833,7 +3833,7 @@ namespace: CassavaTrait
 def: "Ploidy level (n = 1,2,3,4 ) (by morphological characteristics)" [CO:curators]
 synonym: "ploidy" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000392
+xref: TO:0000392
 
 [Term]
 id: CO_334:0000437
@@ -3843,7 +3843,7 @@ def: "Poundability (mealiness of boiled roots)" [CO:curators]
 synonym: "mealiness" EXACT []
 synonym: "pd" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000438
@@ -3852,7 +3852,7 @@ namespace: CassavaTrait
 def: "Presence of pollen" [CO:curators]
 synonym: "pollen" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000420
+xref: TO:0000420
 
 [Term]
 id: CO_334:0000439
@@ -3861,7 +3861,7 @@ namespace: CassavaTrait
 def: "Proportion of female flower" [CO:curators]
 synonym: "FFlwProp" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000987
+xref: TO:0000987
 
 [Term]
 id: CO_334:0000440
@@ -3878,7 +3878,7 @@ namespace: CassavaTrait
 def: "Proportion of plants per plot that have an inflorescence at varying growth stages. Plant with pollinated and unpollinated flowers are all counted together" [CO:curators]
 synonym: "pnoinf" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000582
+xref: TO:0000582
 
 [Term]
 id: CO_334:0000442
@@ -3887,7 +3887,7 @@ namespace: CassavaTrait
 def: "Protein content" [CO:curators]
 synonym: "protei" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000598
+xref: TO:0000598
 
 [Term]
 id: CO_334:0000443
@@ -3896,7 +3896,7 @@ namespace: CassavaTrait
 def: "Proportion of plants within a plot showing evidence of colonization by red spider mite." [CO:curators]
 synonym: "rsmi" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000444
@@ -3905,7 +3905,7 @@ namespace: CassavaTrait
 def: "Red spider mite severity" [CO:curators]
 synonym: "RSMSev" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000446
@@ -3915,7 +3915,7 @@ def: "Number of constrictions on the storage root" [CO:curators]
 synonym: "RtConsNo" EXACT []
 synonym: "Tuberous root constriction presence" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000447
@@ -3924,7 +3924,7 @@ namespace: CassavaTrait
 def: "Dry matter content of storage roots" [CO:curators]
 synonym: "dm" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000448
@@ -3933,7 +3933,7 @@ namespace: CassavaTrait
 def: "Evaluation of various root properties" [CO:curators]
 synonym: "rteval" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000450
@@ -3942,7 +3942,7 @@ namespace: CassavaTrait
 def: "Root length" [CO:curators]
 synonym: "RtLng" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000227
+xref: TO:0000227
 
 [Term]
 id: CO_334:0000451
@@ -3951,7 +3951,7 @@ namespace: CassavaTrait
 def: "Root neck length" [CO:curators]
 synonym: "nklgt" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000452
@@ -3961,7 +3961,7 @@ def: "Number of harvested marketable storage roots" [CO:curators]
 synonym: "Marketable root number, Root Number - Cassavabase" EXACT []
 synonym: "RtNo" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000453
@@ -3970,7 +3970,7 @@ namespace: CassavaTrait
 def: "Position of roots" [CO:curators]
 synonym: "rtpost" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000454
@@ -3979,7 +3979,7 @@ namespace: CassavaTrait
 def: "Storage root surface color" [CO:curators]
 synonym: "rtscol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000455
@@ -3988,7 +3988,7 @@ namespace: CassavaTrait
 def: "Storage root surface texture" [CO:curators]
 synonym: "rttext" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000456
@@ -3997,7 +3997,7 @@ namespace: CassavaTrait
 def: "Tuberous root yield" [CO:curators]
 synonym: "RtYld" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001041
+xref: TO:0001041
 
 [Term]
 id: CO_334:0000457
@@ -4007,7 +4007,7 @@ def: "Number of rotted storage roots" [CO:curators]
 synonym: "RotRtNo" EXACT []
 synonym: "Unmarketable roots, Rotted Storage Roots - Cassavabase" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000458
@@ -4016,7 +4016,7 @@ namespace: CassavaTrait
 def: "Proportion of rotten root" [CO:curators]
 synonym: "RotRtPrp" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000459
@@ -4025,7 +4025,7 @@ namespace: CassavaTrait
 def: "Main color of seed" [CO:curators]
 synonym: "seedco" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000486
+xref: TO:0000486
 
 [Term]
 id: CO_334:0000460
@@ -4034,7 +4034,7 @@ namespace: CassavaTrait
 def: "Number of emerging seedlings" [CO:curators]
 synonym: "SdlngNo" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000751
+xref: TO:0000751
 
 [Term]
 id: CO_334:0000461
@@ -4051,7 +4051,7 @@ namespace: CassavaTrait
 def: "Color of sepals" [CO:curators]
 synonym: "splcol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000573
+xref: TO:0000573
 
 [Term]
 id: CO_334:0000463
@@ -4060,7 +4060,7 @@ namespace: CassavaTrait
 def: "Balck mould" [CO:curators]
 synonym: "sooty" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000439
+xref: TO:0000439
 
 [Term]
 id: CO_334:0000464
@@ -4069,7 +4069,7 @@ namespace: CassavaTrait
 def: "Proportion of plants within a plot showing evidence of colonization by spiraling whitefly." [CO:curators]
 synonym: "Swfi" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000465
@@ -4078,7 +4078,7 @@ namespace: CassavaTrait
 def: "Spiraling whitefly severity" [CO:curators]
 synonym: "SWFSev" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000466
@@ -4087,7 +4087,7 @@ namespace: CassavaTrait
 def: "Number of germinated stakes" [CO:curators]
 synonym: "sprtct" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000472
@@ -4097,7 +4097,7 @@ def: "Proportion of stakes germinated" [CO:curators]
 synonym: "Proportion of germinated stakes" EXACT []
 synonym: "sprout" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000250
+xref: TO:0000250
 
 [Term]
 id: CO_334:0000473
@@ -4106,7 +4106,7 @@ namespace: CassavaTrait
 def: "Stalk length" [CO:curators]
 synonym: "StkLng" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000920
+xref: TO:0000920
 
 [Term]
 id: CO_334:0000474
@@ -4115,7 +4115,7 @@ namespace: CassavaTrait
 def: "Starch content" [CO:curators]
 synonym: "starch" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000696
+xref: TO:0000696
 
 [Term]
 id: CO_334:0000475
@@ -4124,7 +4124,7 @@ namespace: CassavaTrait
 def: "Stem color" [CO:curators]
 synonym: "stmcol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000056
+xref: TO:0000056
 
 [Term]
 id: CO_334:0000476
@@ -4133,7 +4133,7 @@ namespace: CassavaTrait
 def: "Color of stem cortex" [CO:curators]
 synonym: "stmctcol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000017
+xref: TO:1000017
 
 [Term]
 id: CO_334:0000477
@@ -4142,7 +4142,7 @@ namespace: CassavaTrait
 def: "Color of stem epidermis" [CO:curators]
 synonym: "stmepcol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000018
+xref: TO:1000018
 
 [Term]
 id: CO_334:0000478
@@ -4152,7 +4152,7 @@ def: "Plant height without leaf corresponding to the stem portion without leaf" 
 synonym: "Stem height" EXACT []
 synonym: "StmHt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000576
+xref: TO:0000576
 
 [Term]
 id: CO_334:0000479
@@ -4161,7 +4161,7 @@ namespace: CassavaTrait
 def: "Number of stem" [CO:curators]
 synonym: "StmNo" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000953
+xref: TO:0000953
 
 [Term]
 id: CO_334:0000480
@@ -4171,7 +4171,7 @@ def: "Weight of harvested plant biomass excluding leaves" [CO:curators]
 synonym: "Stem yield" EXACT []
 synonym: "StmYld" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000952
+xref: TO:0000952
 
 [Term]
 id: CO_334:0000481
@@ -4180,7 +4180,7 @@ namespace: CassavaTrait
 def: "Color of stigma" [CO:curators]
 synonym: "stgmco" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000185
+xref: TO:0000185
 
 [Term]
 id: CO_334:0000482
@@ -4189,7 +4189,7 @@ namespace: CassavaTrait
 def: "Observation of stipule's margin" [CO:curators]
 synonym: "StpMrgShp" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000754
+xref: TO:0000754
 
 [Term]
 id: CO_334:0000483
@@ -4198,7 +4198,7 @@ namespace: CassavaTrait
 def: "Length of stipules" [CO:curators]
 synonym: "stipgt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:1000020
+xref: TO:1000020
 
 [Term]
 id: CO_334:0000484
@@ -4207,7 +4207,7 @@ namespace: CassavaTrait
 def: "Fresh weight of the planted part anchoring the storage root" [CO:curators]
 synonym: "stkwt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000485
@@ -4217,7 +4217,7 @@ def: "Presence of constrictions on the storage root" [CO:curators]
 synonym: "rtcons" EXACT []
 synonym: "Tuberous root constriction presence" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000486
@@ -4227,7 +4227,7 @@ def: "Color of outer surface of storage root cortex (inner skin)" [CO:curators]
 synonym: "inncol" EXACT []
 synonym: "Inner skin color" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000487
@@ -4236,7 +4236,7 @@ namespace: CassavaTrait
 def: "Storage root diameter" [CO:curators]
 synonym: "rtdiam" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000006
+xref: TO:1000006
 
 [Term]
 id: CO_334:0000488
@@ -4245,7 +4245,7 @@ namespace: CassavaTrait
 def: "Storage Root Peduncle" [CO:curators]
 synonym: "rtpedu" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000489
@@ -4255,7 +4255,7 @@ def: "Color of outer surface of storage root periderm (outer skin)" [CO:curators
 synonym: "outcol" EXACT []
 synonym: "Outer skin color" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000490
@@ -4264,7 +4264,7 @@ namespace: CassavaTrait
 def: "Storage root pulp color" [CO:curators]
 synonym: "plpcol" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000491
@@ -4273,7 +4273,7 @@ namespace: CassavaTrait
 def: "Storage root shape" [CO:curators]
 synonym: "rtshp" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000492
@@ -4283,7 +4283,7 @@ def: "Storage root length" [CO:curators]
 synonym: "rtsz" EXACT []
 synonym: "Storage root length" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000493
@@ -4293,7 +4293,7 @@ def: "Weight of harvested storage root" [CO:curators]
 synonym: "Fresh Weight of Storage Root - Cassavabase" EXACT []
 synonym: "RtWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:1000007
+xref: TO:1000007
 
 [Term]
 id: CO_334:0000494
@@ -4302,7 +4302,7 @@ namespace: CassavaTrait
 def: "Weight of stump" [CO:curators]
 synonym: "StumpWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000495
@@ -4311,7 +4311,7 @@ namespace: CassavaTrait
 def: "Sugar content" [CO:curators]
 synonym: "sugar" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000333
+xref: TO:0000333
 
 [Term]
 id: CO_334:0000496
@@ -4328,7 +4328,7 @@ namespace: CassavaTrait
 def: "Swelling capacity of gari sample" [CO:curators]
 synonym: "swelling" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000498
@@ -4337,7 +4337,7 @@ namespace: CassavaTrait
 def: "Taste of boiled roots" [CO:curators]
 synonym: "pdtas" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000499
@@ -4346,7 +4346,7 @@ namespace: CassavaTrait
 def: "Tip shoot weight" [CO:curators]
 synonym: "TipShWt" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
-is_a: TO:0000568
+xref: TO:0000568
 
 [Term]
 id: CO_334:0000500
@@ -4355,7 +4355,7 @@ namespace: CassavaTrait
 def: "Total caroteneoid content after cooking" [CO:curators]
 synonym: "CaroRet" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000501
@@ -4364,7 +4364,7 @@ namespace: CassavaTrait
 def: "Activity of trans 9 beta carotene" [CO:curators]
 synonym: "Trans9Ct" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000282
+xref: TO:0000282
 
 [Term]
 id: CO_334:0000502
@@ -4373,7 +4373,7 @@ namespace: CassavaTrait
 def: "Cyanide content in storage roots" [CO:curators]
 synonym: "RtCyanC" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0000465
+xref: TO:0000465
 
 [Term]
 id: CO_334:0000503
@@ -4382,7 +4382,7 @@ namespace: CassavaTrait
 def: "Presence of Typhlodromalus aripo" [CO:curators]
 synonym: "taripo" EXACT []
 is_a: CO_334:0000030 ! insect damage
-is_a: TO:0000261
+xref: TO:0000261
 
 [Term]
 id: CO_334:0000504
@@ -4391,7 +4391,7 @@ namespace: CassavaTrait
 def: "Weight of mashed cassava cake" [CO:curators]
 synonym: "wtamash" EXACT []
 is_a: CO_334:0000004 ! Quality trait
-is_a: TO:0001042
+xref: TO:0001042
 
 [Term]
 id: CO_334:0000505
@@ -4400,7 +4400,7 @@ namespace: CassavaTrait
 def: "Growth habit of young stem" [CO:curators]
 synonym: "stemgh" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000361
+xref: TO:0000361
 
 [Term]
 id: CO_334:0000506
@@ -4409,7 +4409,7 @@ namespace: CassavaTrait
 def: "Pubescence of young stem" [CO:curators]
 synonym: "stmpub" EXACT []
 is_a: CO_334:0000002 ! Morphological trait
-is_a: TO:0000361
+xref: TO:0000361
 
 [Term]
 id: CO_334:0000507
