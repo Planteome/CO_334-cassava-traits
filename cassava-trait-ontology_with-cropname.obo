@@ -3608,7 +3608,7 @@ name: cassava leaf scar number
 namespace: CassavaTrait
 def: "Number of leaf scars" [CO:curators]
 synonym: "lfscno" EXACT []
-is_a: TO:0000363
+is_a: TO:0000373
 
 [Term]
 id: CO_334:0000400
