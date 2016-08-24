@@ -3600,7 +3600,7 @@ name: cassava leaf scar height
 namespace: CassavaTrait
 def: "Height from ground to leaf scar." [CO:curators]
 synonym: "ScarHt" EXACT []
-is_a: TO:0000362
+is_a: TO:0000361
 
 [Term]
 id: CO_334:0000399
@@ -3608,7 +3608,7 @@ name: cassava leaf scar number
 namespace: CassavaTrait
 def: "Number of leaf scars" [CO:curators]
 synonym: "lfscno" EXACT []
-is_a: TO:0000373
+is_a: TO:0000361
 
 [Term]
 id: CO_334:0000400
@@ -3616,7 +3616,7 @@ name: cassava leaf scar prominence
 namespace: CassavaTrait
 def: "Prominence of fresh leaf scars" [CO:curators]
 synonym: "lfscar" EXACT []
-is_a: TO:0000364
+is_a: TO:0000361
 
 [Term]
 id: CO_334:0000401
