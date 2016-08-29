@@ -137,7 +137,7 @@ relationship: variable_of CO_334:0000432 ! Plant Height
 relationship: variable_of CO_334:0010303 ! Measurement :Plant Height_method
 relationship: variable_of CO_334:0100558 ! cm
 is_a: CO_334:0000432 ! Plant Height
-is_a: TO:0000207
+
 
 [Term]
 id: CO_334:0000019
