@@ -6939,90 +6939,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010228 ! Visual Rating:Initial Vigor_method
 
 [Term]
-id: CO_334:0100434:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100434 ! 7 pt scale
-
-[Term]
-id: CO_334:0100434:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100434 ! 7 pt scale
-
-[Term]
-id: CO_334:0100434:3
-name: Low
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100434 ! 7 pt scale
-
-[Term]
-id: CO_334:0100434:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100434 ! 7 pt scale
-
-[Term]
-id: CO_334:0100434:5
-name: Intermediate
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100434 ! 7 pt scale
-
-[Term]
-id: CO_334:0100434:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100434 ! 7 pt scale
-
-[Term]
-id: CO_334:0100434:7
-name: High
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100434 ! 7 pt scale
-
-[Term]
 id: CO_334:0100436
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010230 ! Visual Observation:cassava mosaic disease severity 1-month evaluation_method
-
-[Term]
-id: CO_334:0100436:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100436 ! 5 pt scale
-
-[Term]
-id: CO_334:0100436:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100436 ! 5 pt scale
-
-[Term]
-id: CO_334:0100436:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100436 ! 5 pt scale
-
-[Term]
-id: CO_334:0100436:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100436 ! 5 pt scale
-
-[Term]
-id: CO_334:0100436:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100436 ! 5 pt scale
 
 [Term]
 id: CO_334:0100437
@@ -7031,80 +6951,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010231 ! Visual Observation:cassava mosaic disease severity 3-month evaluation_method
 
 [Term]
-id: CO_334:0100437:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100437 ! 5 pt scale
-
-[Term]
-id: CO_334:0100437:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100437 ! 5 pt scale
-
-[Term]
-id: CO_334:0100437:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100437 ! 5 pt scale
-
-[Term]
-id: CO_334:0100437:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100437 ! 5 pt scale
-
-[Term]
-id: CO_334:0100437:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100437 ! 5 pt scale
-
-[Term]
 id: CO_334:0100438
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010232 ! Visual Observation:cassava mosaic disease severity 6-month evaluation_method
-
-[Term]
-id: CO_334:0100438:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100438 ! 5 pt scale
-
-[Term]
-id: CO_334:0100438:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100438 ! 5 pt scale
-
-[Term]
-id: CO_334:0100438:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100438 ! 5 pt scale
-
-[Term]
-id: CO_334:0100438:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100438 ! 5 pt scale
-
-[Term]
-id: CO_334:0100438:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100438 ! 5 pt scale
 
 [Term]
 id: CO_334:0100439
@@ -7113,80 +6963,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010233 ! Visual Observation:cassava mosaic disease severity 9-month evaluation_method
 
 [Term]
-id: CO_334:0100439:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100439 ! 5 pt scale
-
-[Term]
-id: CO_334:0100439:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100439 ! 5 pt scale
-
-[Term]
-id: CO_334:0100439:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100439 ! 5 pt scale
-
-[Term]
-id: CO_334:0100439:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100439 ! 5 pt scale
-
-[Term]
-id: CO_334:0100439:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100439 ! 5 pt scale
-
-[Term]
 id: CO_334:0100440
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010234 ! Visual Observation:cassava mosaic disease severity 12-month evaluation_method
-
-[Term]
-id: CO_334:0100440:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100440 ! 5 pt scale
-
-[Term]
-id: CO_334:0100440:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100440 ! 5 pt scale
-
-[Term]
-id: CO_334:0100440:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100440 ! 5 pt scale
-
-[Term]
-id: CO_334:0100440:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100440 ! 5 pt scale
-
-[Term]
-id: CO_334:0100440:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100440 ! 5 pt scale
 
 [Term]
 id: CO_334:0100448
@@ -7195,80 +6975,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010242 ! Visual Observation:cassava bacterial blight severity 3-month evalution_method
 
 [Term]
-id: CO_334:0100448:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100448 ! 5 pt scale
-
-[Term]
-id: CO_334:0100448:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100448 ! 5 pt scale
-
-[Term]
-id: CO_334:0100448:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100448 ! 5 pt scale
-
-[Term]
-id: CO_334:0100448:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100448 ! 5 pt scale
-
-[Term]
-id: CO_334:0100448:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100448 ! 5 pt scale
-
-[Term]
 id: CO_334:0100449
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010243 ! Visual Observation:cassava bacterial blight severity 6-month evalution_method
-
-[Term]
-id: CO_334:0100449:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100449 ! 5 pt scale
-
-[Term]
-id: CO_334:0100449:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100449 ! 5 pt scale
-
-[Term]
-id: CO_334:0100449:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100449 ! 5 pt scale
-
-[Term]
-id: CO_334:0100449:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100449 ! 5 pt scale
-
-[Term]
-id: CO_334:0100449:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100449 ! 5 pt scale
 
 [Term]
 id: CO_334:0100450
@@ -7277,80 +6987,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010244 ! Visual Observation:cassava bacterial blight severity 9-month evalution_method
 
 [Term]
-id: CO_334:0100450:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100450 ! 5 pt scale
-
-[Term]
-id: CO_334:0100450:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100450 ! 5 pt scale
-
-[Term]
-id: CO_334:0100450:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100450 ! 5 pt scale
-
-[Term]
-id: CO_334:0100450:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100450 ! 5 pt scale
-
-[Term]
-id: CO_334:0100450:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100450 ! 5 pt scale
-
-[Term]
 id: CO_334:0100451
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010245 ! Visual Observation:cassava bacterial blight severity 12-month evaluation_method
-
-[Term]
-id: CO_334:0100451:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100451 ! 5 pt scale
-
-[Term]
-id: CO_334:0100451:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100451 ! 5 pt scale
-
-[Term]
-id: CO_334:0100451:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100451 ! 5 pt scale
-
-[Term]
-id: CO_334:0100451:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100451 ! 5 pt scale
-
-[Term]
-id: CO_334:0100451:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100451 ! 5 pt scale
 
 [Term]
 id: CO_334:0100458
@@ -7359,80 +6999,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010252 ! Visual Observation:cassava anthractnose disease severity in 3-months_method
 
 [Term]
-id: CO_334:0100458:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100458 ! 5 pt scale
-
-[Term]
-id: CO_334:0100458:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100458 ! 5 pt scale
-
-[Term]
-id: CO_334:0100458:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100458 ! 5 pt scale
-
-[Term]
-id: CO_334:0100458:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100458 ! 5 pt scale
-
-[Term]
-id: CO_334:0100458:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100458 ! 5 pt scale
-
-[Term]
 id: CO_334:0100459
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010253 ! Visual Observation:cassava anthractnose disease severity in 6-months_method
-
-[Term]
-id: CO_334:0100459:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100459 ! 5 pt scale
-
-[Term]
-id: CO_334:0100459:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100459 ! 5 pt scale
-
-[Term]
-id: CO_334:0100459:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100459 ! 5 pt scale
-
-[Term]
-id: CO_334:0100459:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100459 ! 5 pt scale
-
-[Term]
-id: CO_334:0100459:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100459 ! 5 pt scale
 
 [Term]
 id: CO_334:0100460
@@ -7441,80 +7011,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010254 ! Visual Observation:cassava anthractnose disease severity in 9-months_method
 
 [Term]
-id: CO_334:0100460:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100460 ! 5 pt scale
-
-[Term]
-id: CO_334:0100460:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100460 ! 5 pt scale
-
-[Term]
-id: CO_334:0100460:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100460 ! 5 pt scale
-
-[Term]
-id: CO_334:0100460:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100460 ! 5 pt scale
-
-[Term]
-id: CO_334:0100460:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100460 ! 5 pt scale
-
-[Term]
 id: CO_334:0100461
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010255 ! Visual Observation:cassava anthractnose disease severity in 12-months_method
-
-[Term]
-id: CO_334:0100461:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100461 ! 5 pt scale
-
-[Term]
-id: CO_334:0100461:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100461 ! 5 pt scale
-
-[Term]
-id: CO_334:0100461:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100461 ! 5 pt scale
-
-[Term]
-id: CO_334:0100461:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100461 ! 5 pt scale
-
-[Term]
-id: CO_334:0100461:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100461 ! 5 pt scale
 
 [Term]
 id: CO_334:0100471
@@ -7523,80 +7023,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010265 ! Visual Observation:cassava green mite severity first evaluation_method
 
 [Term]
-id: CO_334:0100471:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100471 ! 5 pt scale
-
-[Term]
-id: CO_334:0100471:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100471 ! 5 pt scale
-
-[Term]
-id: CO_334:0100471:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100471 ! 5 pt scale
-
-[Term]
-id: CO_334:0100471:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100471 ! 5 pt scale
-
-[Term]
-id: CO_334:0100471:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100471 ! 5 pt scale
-
-[Term]
 id: CO_334:0100472
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010266 ! Visual Observation:cassava green mite severity second evaluation_method
-
-[Term]
-id: CO_334:0100472:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100472 ! 5 pt scale
-
-[Term]
-id: CO_334:0100472:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100472 ! 5 pt scale
-
-[Term]
-id: CO_334:0100472:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100472 ! 5 pt scale
-
-[Term]
-id: CO_334:0100472:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100472 ! 5 pt scale
-
-[Term]
-id: CO_334:0100472:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100472 ! 5 pt scale
 
 [Term]
 id: CO_334:0100473
@@ -7605,80 +7035,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010267 ! Visual Observation:Cassava Mealy Bug Severity_method
 
 [Term]
-id: CO_334:0100473:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100473 ! 5 pt scale
-
-[Term]
-id: CO_334:0100473:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100473 ! 5 pt scale
-
-[Term]
-id: CO_334:0100473:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100473 ! 5 pt scale
-
-[Term]
-id: CO_334:0100473:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100473 ! 5 pt scale
-
-[Term]
-id: CO_334:0100473:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100473 ! 5 pt scale
-
-[Term]
 id: CO_334:0100476
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010270 ! Visual Observation:cassava brown streak disease leaf severity 1-month evaluation_method
-
-[Term]
-id: CO_334:0100476:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100476 ! 5 pt scale
-
-[Term]
-id: CO_334:0100476:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100476 ! 5 pt scale
-
-[Term]
-id: CO_334:0100476:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100476 ! 5 pt scale
-
-[Term]
-id: CO_334:0100476:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100476 ! 5 pt scale
-
-[Term]
-id: CO_334:0100476:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100476 ! 5 pt scale
 
 [Term]
 id: CO_334:0100477
@@ -7687,80 +7047,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010271 ! Visual Observation:cassava brown streak disease leaf severity 3-month evaluation_method
 
 [Term]
-id: CO_334:0100477:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100477 ! 5 pt scale
-
-[Term]
-id: CO_334:0100477:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100477 ! 5 pt scale
-
-[Term]
-id: CO_334:0100477:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100477 ! 5 pt scale
-
-[Term]
-id: CO_334:0100477:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100477 ! 5 pt scale
-
-[Term]
-id: CO_334:0100477:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100477 ! 5 pt scale
-
-[Term]
 id: CO_334:0100478
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010272 ! Visual Observation:cassava brown streak disease leaf severity 6-month evaluation_method
-
-[Term]
-id: CO_334:0100478:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100478 ! 5 pt scale
-
-[Term]
-id: CO_334:0100478:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100478 ! 5 pt scale
-
-[Term]
-id: CO_334:0100478:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100478 ! 5 pt scale
-
-[Term]
-id: CO_334:0100478:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100478 ! 5 pt scale
-
-[Term]
-id: CO_334:0100478:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100478 ! 5 pt scale
 
 [Term]
 id: CO_334:0100479
@@ -7769,121 +7059,16 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010273 ! Visual Observation:cassava brown streak disease leaf severity 9-month evaluation_method
 
 [Term]
-id: CO_334:0100479:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100479 ! 5 pt scale
-
-[Term]
-id: CO_334:0100479:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100479 ! 5 pt scale
-
-[Term]
-id: CO_334:0100479:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100479 ! 5 pt scale
-
-[Term]
-id: CO_334:0100479:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100479 ! 5 pt scale
-
-[Term]
-id: CO_334:0100479:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100479 ! 5 pt scale
-
-[Term]
 id: CO_334:0100486
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010280 ! Visual Observation:cassava brown streak disease root severity 12-month evaluation_method
 
 [Term]
-id: CO_334:0100486:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100486 ! 5 pt scale
-
-[Term]
-id: CO_334:0100486:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100486 ! 5 pt scale
-
-[Term]
-id: CO_334:0100486:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100486 ! 5 pt scale
-
-[Term]
-id: CO_334:0100486:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100486 ! 5 pt scale
-
-[Term]
-id: CO_334:0100486:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100486 ! 5 pt scale
-
-[Term]
 id: CO_334:0100489
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010283 ! Visual Observation:Frog Skin Disease_method
-
-[Term]
-id: CO_334:0100489:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100489 ! 5 pt scale
-
-[Term]
-id: CO_334:0100489:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100489 ! 5 pt scale
-
-[Term]
-id: CO_334:0100489:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100489 ! 5 pt scale
-
-[Term]
-id: CO_334:0100489:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100489 ! 5 pt scale
-
-[Term]
-id: CO_334:0100489:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100489 ! 5 pt scale
 
 [Term]
 id: CO_334:0100490
@@ -7929,97 +7114,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010288 ! Visual Rating:Storage Root Size_method
 
 [Term]
-id: CO_334:0100494:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100494 ! 7pt scale
-
-[Term]
-id: CO_334:0100494:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100494 ! 7pt scale
-
-[Term]
-id: CO_334:0100494:3
-name: Short
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100494 ! 7pt scale
-
-[Term]
-id: CO_334:0100494:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100494 ! 7pt scale
-
-[Term]
-id: CO_334:0100494:5
-name: Medium
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100494 ! 7pt scale
-
-[Term]
-id: CO_334:0100494:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100494 ! 7pt scale
-
-[Term]
-id: CO_334:0100494:7
-name: Long
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100494 ! 7pt scale
-
-[Term]
 id: CO_334:0100495
 name: 6pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010289 ! Visual Rating:Storage Root Shape_method
-
-[Term]
-id: CO_334:0100495:1
-name: Conical
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100495 ! 6pt scale
-
-[Term]
-id: CO_334:0100495:2
-name: conical-cylindrical
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100495 ! 6pt scale
-
-[Term]
-id: CO_334:0100495:3
-name: Cylindrical
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100495 ! 6pt scale
-
-[Term]
-id: CO_334:0100495:4
-name: Fusiform
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100495 ! 6pt scale
-
-[Term]
-id: CO_334:0100495:5
-name: Irregular
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100495 ! 6pt scale
-
-[Term]
-id: CO_334:0100495:6
-name: Combination of above
-namespace: CassavaScale
-synonym: "6" EXACT []
-is_a: CO_334:0100495 ! 6pt scale
 
 [Term]
 id: CO_334:0100496
@@ -8028,66 +7126,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010290 ! Visual Rating:Storage Root Cortex Color_method
 
 [Term]
-id: CO_334:0100496:1
-name: White or cream
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100496 ! 4pt scale
-
-[Term]
-id: CO_334:0100496:2
-name: yellow
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100496 ! 4pt scale
-
-[Term]
-id: CO_334:0100496:3
-name: pink
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100496 ! 4pt scale
-
-[Term]
-id: CO_334:0100496:4
-name: purple
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100496 ! 4pt scale
-
-[Term]
 id: CO_334:0100497
 name: 4pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010291 ! Visual Rating:Storage Root Periderm Color_method
-
-[Term]
-id: CO_334:0100497:1
-name: White or cream
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100497 ! 4pt scale
-
-[Term]
-id: CO_334:0100497:2
-name: yellow
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100497 ! 4pt scale
-
-[Term]
-id: CO_334:0100497:3
-name: pink
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100497 ! 4pt scale
-
-[Term]
-id: CO_334:0100497:4
-name: purple
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100497 ! 4pt scale
 
 [Term]
 id: CO_334:0100498
@@ -8096,83 +7138,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010292 ! Visual Rating:Storage Root Pulp Color _method
 
 [Term]
-id: CO_334:0100498:1
-name: White or cream
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100498 ! 3pt scale
-
-[Term]
-id: CO_334:0100498:2
-name: yellow
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100498 ! 3pt scale
-
-[Term]
-id: CO_334:0100498:3
-name: pink
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100498 ! 3pt scale
-
-[Term]
 id: CO_334:0100499
 name: 8pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010293 ! Visual Rating:Root Neck Length_method
-
-[Term]
-id: CO_334:0100499:0
-name: absent or sessile
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100499 ! 8pt scale
-
-[Term]
-id: CO_334:0100499:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100499 ! 8pt scale
-
-[Term]
-id: CO_334:0100499:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100499 ! 8pt scale
-
-[Term]
-id: CO_334:0100499:3
-name: Short
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100499 ! 8pt scale
-
-[Term]
-id: CO_334:0100499:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100499 ! 8pt scale
-
-[Term]
-id: CO_334:0100499:5
-name: Medium
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100499 ! 8pt scale
-
-[Term]
-id: CO_334:0100499:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100499 ! 8pt scale
-
-[Term]
-id: CO_334:0100499:7
-name: Long
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100499 ! 8pt scale
 
 [Term]
 id: CO_334:0100500
@@ -8181,82 +7150,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010294 ! Visual Scoring :Ease Of Peeling Root Cortex_method
 
 [Term]
-id: CO_334:0100500:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100500 ! 7pt scale
-
-[Term]
-id: CO_334:0100500:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100500 ! 7pt scale
-
-[Term]
-id: CO_334:0100500:3
-name: easy
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100500 ! 7pt scale
-
-[Term]
-id: CO_334:0100500:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100500 ! 7pt scale
-
-[Term]
-id: CO_334:0100500:5
-name: 5
-namespace: CassavaScale
-is_a: CO_334:0100500 ! 7pt scale
-
-[Term]
-id: CO_334:0100500:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100500 ! 7pt scale
-
-[Term]
-id: CO_334:0100500:7
-name: difficult
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100500 ! 7pt scale
-
-[Term]
 id: CO_334:0100502
 name: 4pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010296 ! Sensory Assesment :Poundability_method
-
-[Term]
-id: CO_334:0100502:0
-name: Non-poundable
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100502 ! 4pt scale
-
-[Term]
-id: CO_334:0100502:1
-name: Slightly poundable
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100502 ! 4pt scale
-
-[Term]
-id: CO_334:0100502:2
-name: Poundable
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100502 ! 4pt scale
-
-[Term]
-id: CO_334:0100502:3
-name: Very poundable
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100502 ! 4pt scale
 
 [Term]
 id: CO_334:0100503
@@ -8265,52 +7162,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010297 ! Gustation :Taste Of Boiled Roots_method
 
 [Term]
-id: CO_334:0100503:1
-name: Bland
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100503 ! 3pt scale
-
-[Term]
-id: CO_334:0100503:2
-name: Sweet
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100503 ! 3pt scale
-
-[Term]
-id: CO_334:0100503:3
-name: Bitter
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100503 ! 3pt scale
-
-[Term]
 id: CO_334:0100504
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010298 ! Visual Rating :Color Of Boiled Storage Roots_method
-
-[Term]
-id: CO_334:0100504:1
-name: White
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100504 ! 3pt scale
-
-[Term]
-id: CO_334:0100504:2
-name: Cream
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100504 ! 3pt scale
-
-[Term]
-id: CO_334:0100504:3
-name: Yellow
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100504 ! 3pt scale
 
 [Term]
 id: CO_334:0100505
@@ -8319,94 +7174,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010299 ! Estimation :Hydrogen cyanide potential picrate method_method
 
 [Term]
-id: CO_334:0100505:1
-name: 9pt scale : 1
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
-id: CO_334:0100505:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
-id: CO_334:0100505:3
-name: 3
-namespace: CassavaScale
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
-id: CO_334:0100505:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
-id: CO_334:0100505:5
-name: 5
-namespace: CassavaScale
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
-id: CO_334:0100505:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
-id: CO_334:0100505:7
-name: 7
-namespace: CassavaScale
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
-id: CO_334:0100505:8
-name: 8
-namespace: CassavaScale
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
-id: CO_334:0100505:9
-name: very high
-namespace: CassavaScale
-synonym: "9" EXACT []
-is_a: CO_334:0100505 ! 9pt scale
-
-[Term]
 id: CO_334:0100507
 name: 4pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010301 ! Visual Scoring :Stem Color_method
-
-[Term]
-id: CO_334:0100507:1
-name: Silver
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100507 ! 4pt scale
-
-[Term]
-id: CO_334:0100507:2
-name: light brown or orange
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100507 ! 4pt scale
-
-[Term]
-id: CO_334:0100507:3
-name: dark brown
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100507 ! 4pt scale
-
-[Term]
-id: CO_334:0100507:4
-name: dark green
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100507 ! 4pt scale
 
 [Term]
 id: CO_334:0100508
@@ -8415,102 +7186,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010302 ! Visual Scoring :Branching Angle_method
 
 [Term]
-id: CO_334:0100508:0
-name: no branching
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100508 ! 8pt scale
-
-[Term]
-id: CO_334:0100508:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100508 ! 8pt scale
-
-[Term]
-id: CO_334:0100508:3
-name: 15-30
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100508 ! 8pt scale
-
-[Term]
-id: CO_334:0100508:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100508 ! 8pt scale
-
-[Term]
-id: CO_334:0100508:5
-name: 45-60
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100508 ! 8pt scale
-
-[Term]
-id: CO_334:0100508:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100508 ! 8pt scale
-
-[Term]
-id: CO_334:0100508:7
-name: 75-90
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100508 ! 8pt scale
-
-[Term]
 id: CO_334:0100511
 name: 7pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010305 ! Visual Rating:Leaf Retention_method
-
-[Term]
-id: CO_334:0100511:1
-name: no stress
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100511 ! 7pt scale
-
-[Term]
-id: CO_334:0100511:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100511 ! 7pt scale
-
-[Term]
-id: CO_334:0100511:3
-name: low susceptibility
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100511 ! 7pt scale
-
-[Term]
-id: CO_334:0100511:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100511 ! 7pt scale
-
-[Term]
-id: CO_334:0100511:5
-name: medium suceptibility
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100511 ! 7pt scale
-
-[Term]
-id: CO_334:0100511:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100511 ! 7pt scale
-
-[Term]
-id: CO_334:0100511:7
-name: high susceptibility
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100511 ! 7pt scale
 
 [Term]
 id: CO_334:0100512
@@ -8519,59 +7198,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010306 ! Visual Rating:Plant Architecture_method
 
 [Term]
-id: CO_334:0100512:1
-name: Excellent
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100512 ! 5pt scale
-
-[Term]
-id: CO_334:0100512:2
-name: Good
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100512 ! 5pt scale
-
-[Term]
-id: CO_334:0100512:3
-name: Fair
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100512 ! 5pt scale
-
-[Term]
-id: CO_334:0100512:4
-name: Bad
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100512 ! 5pt scale
-
-[Term]
-id: CO_334:0100512:5
-name: Very bad
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100512 ! 5pt scale
-
-[Term]
 id: CO_334:0100513
 name: 2pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010434 ! Visual Observation:flowering_method
-
-[Term]
-id: CO_334:0100513:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100513 ! 2pt scale
-
-[Term]
-id: CO_334:0100513:1
-name: Present
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100513 ! 2pt scale
 
 [Term]
 id: CO_334:0100514
@@ -8580,75 +7210,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010308 ! Visual Rating:Fruit Set _method
 
 [Term]
-id: CO_334:0100514:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100514 ! 2pt scale
-
-[Term]
-id: CO_334:0100514:1
-name: Present
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100514 ! 2pt scale
-
-[Term]
 id: CO_334:0100515
 name: 8pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010309 ! Visual Rating:Storage Root Peduncle_method
-
-[Term]
-id: CO_334:0100515:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100515 ! 8pt scale
-
-[Term]
-id: CO_334:0100515:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100515 ! 8pt scale
-
-[Term]
-id: CO_334:0100515:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100515 ! 8pt scale
-
-[Term]
-id: CO_334:0100515:3
-name: Pedunculate
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100515 ! 8pt scale
-
-[Term]
-id: CO_334:0100515:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100515 ! 8pt scale
-
-[Term]
-id: CO_334:0100515:5
-name: Mixed
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100515 ! 8pt scale
-
-[Term]
-id: CO_334:0100515:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100515 ! 8pt scale
-
-[Term]
-id: CO_334:0100515:7
-name: 7
-namespace: CassavaScale
-is_a: CO_334:0100515 ! 8pt scale
 
 [Term]
 id: CO_334:0100516
@@ -8657,45 +7222,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010310 ! Visual Rating:Storage Root Constrictions_method
 
 [Term]
-id: CO_334:0100516:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100516 ! 2pt scale
-
-[Term]
-id: CO_334:0100516:1
-name: Present
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100516 ! 2pt scale
-
-[Term]
 id: CO_334:0100517
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010311 ! Visual Rating:Root Surface Color_method
-
-[Term]
-id: CO_334:0100517:1
-name: White or cream
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100517 ! 3pt scale
-
-[Term]
-id: CO_334:0100517:2
-name: Light brown
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100517 ! 3pt scale
-
-[Term]
-id: CO_334:0100517:3
-name: Dark brown
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100517 ! 3pt scale
 
 [Term]
 id: CO_334:0100518
@@ -8704,111 +7234,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010312 ! Visual Rating:Root Surface Texture_method
 
 [Term]
-id: CO_334:0100518:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100518 ! 3pt scale
-
-[Term]
-id: CO_334:0100518:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100518 ! 3pt scale
-
-[Term]
-id: CO_334:0100518:3
-name: Smooth
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100518 ! 3pt scale
-
-[Term]
-id: CO_334:0100518:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100518 ! 3pt scale
-
-[Term]
-id: CO_334:0100518:5
-name: Intermediate
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100518 ! 3pt scale
-
-[Term]
-id: CO_334:0100518:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100518 ! 3pt scale
-
-[Term]
-id: CO_334:0100518:7
-name: Rough
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100518 ! 3pt scale
-
-[Term]
 id: CO_334:0100525
 name: 8pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010319 ! Visual Rating:total carotenoid by chart_method
-
-[Term]
-id: CO_334:0100525:1
-name: white
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100525 ! 8pt scale
-
-[Term]
-id: CO_334:0100525:2
-name: light cream
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100525 ! 8pt scale
-
-[Term]
-id: CO_334:0100525:3
-name: cream
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100525 ! 8pt scale
-
-[Term]
-id: CO_334:0100525:4
-name: light yellow
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100525 ! 8pt scale
-
-[Term]
-id: CO_334:0100525:5
-name: yellow
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100525 ! 8pt scale
-
-[Term]
-id: CO_334:0100525:6
-name: deep yellow
-namespace: CassavaScale
-synonym: "6" EXACT []
-is_a: CO_334:0100525 ! 8pt scale
-
-[Term]
-id: CO_334:0100525:7
-name: orange
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100525 ! 8pt scale
-
-[Term]
-id: CO_334:0100525:8
-name: pink
-namespace: CassavaScale
-synonym: "8" EXACT []
-is_a: CO_334:0100525 ! 8pt scale
 
 [Term]
 id: CO_334:0100528
@@ -8817,114 +7246,16 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010322 ! Visual Rating:branching_method
 
 [Term]
-id: CO_334:0100528:0
-name: no branching
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100528 ! 4pt scale
-
-[Term]
-id: CO_334:0100528:1
-name: low branching(<0.5m)
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100528 ! 4pt scale
-
-[Term]
-id: CO_334:0100528:2
-name: medium branching(>0.5m<
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100528 ! 4pt scale
-
-[Term]
-id: CO_334:0100528:3
-name: high branching
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100528 ! 4pt scale
-
-[Term]
 id: CO_334:0100529
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010323 ! Visual Observation:Red Spider Mite Severity_method
 
 [Term]
-id: CO_334:0100529:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100529 ! 5 pt scale
-
-[Term]
-id: CO_334:0100529:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100529 ! 5 pt scale
-
-[Term]
-id: CO_334:0100529:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100529 ! 5 pt scale
-
-[Term]
-id: CO_334:0100529:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100529 ! 5 pt scale
-
-[Term]
-id: CO_334:0100529:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100529 ! 5 pt scale
-
-[Term]
 id: CO_334:0100531
 name: 5 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010325 ! Visual Observation:Spiraling Whitefly Severity_method
-
-[Term]
-id: CO_334:0100531:1
-name: No symptom
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100531 ! 5 pt scale
-
-[Term]
-id: CO_334:0100531:2
-name: Mild
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100531 ! 5 pt scale
-
-[Term]
-id: CO_334:0100531:3
-name: Severe
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100531 ! 5 pt scale
-
-[Term]
-id: CO_334:0100531:4
-name: Very severe
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100531 ! 5 pt scale
-
-[Term]
-id: CO_334:0100531:5
-name: Extremely severe
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100531 ! 5 pt scale
 
 [Term]
 id: CO_334:0100535
@@ -8941,45 +7272,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010333 ! Visual Rating :Suitability for Intercropping_method
 
 [Term]
-id: CO_334:0100539:0
-name: unsuitable
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100539 ! 2pt scale
-
-[Term]
-id: CO_334:0100539:1
-name: suitable
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100539 ! 2pt scale
-
-[Term]
 id: CO_334:0100540
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010334 ! Estimation :hydrogen cyanide potential enzymatic method_method
-
-[Term]
-id: CO_334:0100540:1
-name: Low
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100540 ! 3pt scale
-
-[Term]
-id: CO_334:0100540:2
-name: Medium
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100540 ! 3pt scale
-
-[Term]
-id: CO_334:0100540:3
-name: High
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100540 ! 3pt scale
 
 [Term]
 id: CO_334:0100541
@@ -8988,126 +7284,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010335 ! Visual Rating:Unexpanded Apical Leaves Colors_method
 
 [Term]
-id: CO_334:0100541:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
-id: CO_334:0100541:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
-id: CO_334:0100541:3
-name: Light green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
-id: CO_334:0100541:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
-id: CO_334:0100541:5
-name: Dark green
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
-id: CO_334:0100541:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
-id: CO_334:0100541:7
-name: Green purple
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
-id: CO_334:0100541:8
-name: 8
-namespace: CassavaScale
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
-id: CO_334:0100541:9
-name: Purple
-namespace: CassavaScale
-synonym: "9" EXACT []
-is_a: CO_334:0100541 ! 9pt scale
-
-[Term]
 id: CO_334:0100542
 name: 9pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010336 ! Visual Rating:First Fully Expanded Leaf Color_method
-
-[Term]
-id: CO_334:0100542:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100542 ! 9pt scale
-
-[Term]
-id: CO_334:0100542:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100542 ! 9pt scale
-
-[Term]
-id: CO_334:0100542:3
-name: Light green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100542 ! 9pt scale
-
-[Term]
-id: CO_334:0100542:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100542 ! 9pt scale
-
-[Term]
-id: CO_334:0100542:5
-name: Dark green
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100542 ! 9pt scale
-
-[Term]
-id: CO_334:0100542:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100542 ! 9pt scale
-
-[Term]
-id: CO_334:0100542:7
-name: Green purple
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100542 ! 9pt scale
-
-[Term]
-id: CO_334:0100542:8
-name: 8
-namespace: CassavaScale
-is_a: CO_334:0100542 ! 9pt scale
-
-[Term]
-id: CO_334:0100542:9
-name: Purple
-namespace: CassavaScale
-synonym: "9" EXACT []
-is_a: CO_334:0100542 ! 9pt scale
 
 [Term]
 id: CO_334:0100543
@@ -9116,171 +7296,16 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010337 ! Visual Rating:Leaf Vein Color_method
 
 [Term]
-id: CO_334:0100543:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
-id: CO_334:0100543:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
-id: CO_334:0100543:3
-name: Light green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
-id: CO_334:0100543:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
-id: CO_334:0100543:5
-name: Dark green
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
-id: CO_334:0100543:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
-id: CO_334:0100543:7
-name: Green purple
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
-id: CO_334:0100543:8
-name: 8
-namespace: CassavaScale
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
-id: CO_334:0100543:9
-name: Purple
-namespace: CassavaScale
-synonym: "9" EXACT []
-is_a: CO_334:0100543 ! 9pt scale
-
-[Term]
 id: CO_334:0100544
 name: 8pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010338 ! Visual Rating:Apical Pubescence_method
 
 [Term]
-id: CO_334:0100544:0
-name: Absence
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100544 ! 8pt scale
-
-[Term]
-id: CO_334:0100544:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100544 ! 8pt scale
-
-[Term]
-id: CO_334:0100544:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100544 ! 8pt scale
-
-[Term]
-id: CO_334:0100544:3
-name: Little pubescence
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100544 ! 8pt scale
-
-[Term]
-id: CO_334:0100544:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100544 ! 8pt scale
-
-[Term]
-id: CO_334:0100544:5
-name: Moderate pubescence
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100544 ! 8pt scale
-
-[Term]
-id: CO_334:0100544:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100544 ! 8pt scale
-
-[Term]
-id: CO_334:0100544:7
-name: High pubescence
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100544 ! 8pt scale
-
-[Term]
 id: CO_334:0100545
 name: 7pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010339 ! Visual Rating:Stipules Length_method
-
-[Term]
-id: CO_334:0100545:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100545 ! 7pt scale
-
-[Term]
-id: CO_334:0100545:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100545 ! 7pt scale
-
-[Term]
-id: CO_334:0100545:3
-name: Short
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100545 ! 7pt scale
-
-[Term]
-id: CO_334:0100545:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100545 ! 7pt scale
-
-[Term]
-id: CO_334:0100545:5
-name: Medium
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100545 ! 7pt scale
-
-[Term]
-id: CO_334:0100545:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100545 ! 7pt scale
-
-[Term]
-id: CO_334:0100545:7
-name: Long
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100545 ! 7pt scale
 
 [Term]
 id: CO_334:0100546
@@ -9308,80 +7333,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010341 ! Visual Rating:Leaf Lobe Position_method
 
 [Term]
-id: CO_334:0100547:1
-name: Erect
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100547 ! 4 pt scale
-
-[Term]
-id: CO_334:0100547:2
-name: Horizontal
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100547 ! 4 pt scale
-
-[Term]
-id: CO_334:0100547:3
-name: Deflexed
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100547 ! 4 pt scale
-
-[Term]
-id: CO_334:0100547:4
-name: Retorse
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100547 ! 4 pt scale
-
-[Term]
 id: CO_334:0100548
 name: 10 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010342 ! Visual Rating :Central Leaf Shape_method
-
-[Term]
-id: CO_334:0100548:1
-name: Ovoid
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100548 ! 10 pt scale
-
-[Term]
-id: CO_334:0100548:2
-name: Elliptic-lanceolate
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100548 ! 10 pt scale
-
-[Term]
-id: CO_334:0100548:3
-name: Obovate-lanceolate
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100548 ! 10 pt scale
-
-[Term]
-id: CO_334:0100548:4
-name: Oblong-lanceolate
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100548 ! 10 pt scale
-
-[Term]
-id: CO_334:0100548:5
-name: Lanceolate
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100548 ! 10 pt scale
-
-[Term]
-id: CO_334:0100548:6
-name: Straight or Linear
-namespace: CassavaScale
-synonym: "6" EXACT []
-is_a: CO_334:0100548 ! 10 pt scale
 
 [Term]
 id: CO_334:0100549
@@ -9390,114 +7345,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010343 ! Visual Rating :Petiole Insertion Angle_method
 
 [Term]
-id: CO_334:0100549:0
-name: no petiole
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100549 ! 7pt scale
-
-[Term]
-id: CO_334:0100549:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100549 ! 7pt scale
-
-[Term]
-id: CO_334:0100549:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100549 ! 7pt scale
-
-[Term]
-id: CO_334:0100549:3
-name: 15-30
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100549 ! 7pt scale
-
-[Term]
-id: CO_334:0100549:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100549 ! 7pt scale
-
-[Term]
-id: CO_334:0100549:5
-name: 45-60
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100549 ! 7pt scale
-
-[Term]
-id: CO_334:0100549:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100549 ! 7pt scale
-
-[Term]
-id: CO_334:0100549:7
-name: 75-90
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100549 ! 7pt scale
-
-[Term]
 id: CO_334:0100550
 name: 4 pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010344 ! Visual Rating :Petiole Length_method
-
-[Term]
-id: CO_334:0100550:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100550 ! 4 pt scale
-
-[Term]
-id: CO_334:0100550:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100550 ! 4 pt scale
-
-[Term]
-id: CO_334:0100550:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100550 ! 4 pt scale
-
-[Term]
-id: CO_334:0100550:3
-name: Short
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100550 ! 4 pt scale
-
-[Term]
-id: CO_334:0100550:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100550 ! 4 pt scale
-
-[Term]
-id: CO_334:0100550:5
-name: Medium
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100550 ! 4 pt scale
-
-[Term]
-id: CO_334:0100550:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100550 ! 4 pt scale
-
-[Term]
-id: CO_334:0100550:7
-name: Long
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100550 ! 4 pt scale
 
 [Term]
 id: CO_334:0100551
@@ -9506,97 +7357,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010345 ! Visual Rating :Petiole Color_method
 
 [Term]
-id: CO_334:0100551:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
-id: CO_334:0100551:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
-id: CO_334:0100551:3
-name: Light green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
-id: CO_334:0100551:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
-id: CO_334:0100551:5
-name: Dark green
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
-id: CO_334:0100551:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
-id: CO_334:0100551:7
-name: Green purple
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
-id: CO_334:0100551:8
-name: Red
-namespace: CassavaScale
-synonym: "8" EXACT []
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
-id: CO_334:0100551:9
-name: Purple
-namespace: CassavaScale
-synonym: "9" EXACT []
-is_a: CO_334:0100551 ! 7pt scale
-
-[Term]
 id: CO_334:0100552
 name: 4pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010346 ! Visual Rating :Anthocyanin Pigmentation_method
-
-[Term]
-id: CO_334:0100552:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100552 ! 4pt scale
-
-[Term]
-id: CO_334:0100552:1
-name: Top part
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100552 ! 4pt scale
-
-[Term]
-id: CO_334:0100552:2
-name: Central part
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100552 ! 4pt scale
-
-[Term]
-id: CO_334:0100552:3
-name: Totally pigmented
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100552 ! 4pt scale
 
 [Term]
 id: CO_334:0100553
@@ -9605,127 +7369,16 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010347 ! Visual Rating :Young Stem Growth Habit_method
 
 [Term]
-id: CO_334:0100553:1
-name: Straight
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100553 ! 2pt scale
-
-[Term]
-id: CO_334:0100553:2
-name: Zig-zag
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100553 ! 2pt scale
-
-[Term]
 id: CO_334:0100554
 name: 8pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010348 ! Visual Rating :Young Stem Pubescence_method
 
 [Term]
-id: CO_334:0100554:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100554 ! 8pt scale
-
-[Term]
-id: CO_334:0100554:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100554 ! 8pt scale
-
-[Term]
-id: CO_334:0100554:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100554 ! 8pt scale
-
-[Term]
-id: CO_334:0100554:3
-name: Little pubescence
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100554 ! 8pt scale
-
-[Term]
-id: CO_334:0100554:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100554 ! 8pt scale
-
-[Term]
-id: CO_334:0100554:5
-name: Moderate pubescence
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100554 ! 8pt scale
-
-[Term]
-id: CO_334:0100554:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100554 ! 8pt scale
-
-[Term]
-id: CO_334:0100554:7
-name: High pubescence
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100554 ! 8pt scale
-
-[Term]
 id: CO_334:0100555
 name: 7pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010349 ! Visual Rating :Leaf Scar Prominence_method
-
-[Term]
-id: CO_334:0100555:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100555 ! 7pt scale
-
-[Term]
-id: CO_334:0100555:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100555 ! 7pt scale
-
-[Term]
-id: CO_334:0100555:3
-name: Little prominence
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100555 ! 7pt scale
-
-[Term]
-id: CO_334:0100555:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100555 ! 7pt scale
-
-[Term]
-id: CO_334:0100555:5
-name: Moderate
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100555 ! 7pt scale
-
-[Term]
-id: CO_334:0100555:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100555 ! 7pt scale
-
-[Term]
-id: CO_334:0100555:7
-name: Prominent
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100555 ! 7pt scale
 
 [Term]
 id: CO_334:0100556
@@ -9761,80 +7414,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010353 ! Visual Rating :Sepal Color_method
 
 [Term]
-id: CO_334:0100559:1
-name: White or cream
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100559 ! 5pt scale
-
-[Term]
-id: CO_334:0100559:2
-name: Orange
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100559 ! 5pt scale
-
-[Term]
-id: CO_334:0100559:3
-name: Green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100559 ! 5pt scale
-
-[Term]
-id: CO_334:0100559:4
-name: Red
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100559 ! 5pt scale
-
-[Term]
-id: CO_334:0100559:5
-name: Purple
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100559 ! 5pt scale
-
-[Term]
 id: CO_334:0100560
 name: 5pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010354 ! Visual Rating :Disc Color_method
-
-[Term]
-id: CO_334:0100560:1
-name: White
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100560 ! 5pt scale
-
-[Term]
-id: CO_334:0100560:2
-name: Orange
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100560 ! 5pt scale
-
-[Term]
-id: CO_334:0100560:3
-name: Green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100560 ! 5pt scale
-
-[Term]
-id: CO_334:0100560:4
-name: Red
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100560 ! 5pt scale
-
-[Term]
-id: CO_334:0100560:5
-name: Purple
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100560 ! 5pt scale
 
 [Term]
 id: CO_334:0100561
@@ -9843,80 +7426,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010355 ! Visual Rating :Stigma Color_method
 
 [Term]
-id: CO_334:0100561:1
-name: White
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100561 ! 5pt scale
-
-[Term]
-id: CO_334:0100561:2
-name: Orange
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100561 ! 5pt scale
-
-[Term]
-id: CO_334:0100561:3
-name: Green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100561 ! 5pt scale
-
-[Term]
-id: CO_334:0100561:4
-name: Red
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100561 ! 5pt scale
-
-[Term]
-id: CO_334:0100561:5
-name: Purple
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100561 ! 5pt scale
-
-[Term]
 id: CO_334:0100562
 name: 5pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010356 ! Visual Rating :Ovary Color_method
-
-[Term]
-id: CO_334:0100562:1
-name: White
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100562 ! 5pt scale
-
-[Term]
-id: CO_334:0100562:2
-name: Orange
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100562 ! 5pt scale
-
-[Term]
-id: CO_334:0100562:3
-name: Green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100562 ! 5pt scale
-
-[Term]
-id: CO_334:0100562:4
-name: Red
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100562 ! 5pt scale
-
-[Term]
-id: CO_334:0100562:5
-name: Purple
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100562 ! 5pt scale
 
 [Term]
 id: CO_334:0100563
@@ -9925,45 +7438,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010357 ! Visual Rating :Anther Color_method
 
 [Term]
-id: CO_334:0100563:1
-name: Cream
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100563 ! 3pt scale
-
-[Term]
-id: CO_334:0100563:2
-name: Orange
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100563 ! 3pt scale
-
-[Term]
-id: CO_334:0100563:3
-name: Other
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100563 ! 3pt scale
-
-[Term]
 id: CO_334:0100564
 name: 2pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010358 ! Visual Rating :Female Stamenoids_method
-
-[Term]
-id: CO_334:0100564:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100564 ! 2pt scale
-
-[Term]
-id: CO_334:0100564:1
-name: Present
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100564 ! 2pt scale
 
 [Term]
 id: CO_334:0100565
@@ -9972,68 +7450,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010359 ! Visual Rating :Male Sterile_method
 
 [Term]
-id: CO_334:0100565:0
-name: Absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100565 ! 2pt scale
-
-[Term]
-id: CO_334:0100565:1
-name: Present
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100565 ! 2pt scale
-
-[Term]
 id: CO_334:0100566
 name: 7pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010360 ! Visual Rating :Fruit Exocarp Texture_method
-
-[Term]
-id: CO_334:0100566:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100566 ! 7pt scale
-
-[Term]
-id: CO_334:0100566:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100566 ! 7pt scale
-
-[Term]
-id: CO_334:0100566:3
-name: Smooth
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100566 ! 7pt scale
-
-[Term]
-id: CO_334:0100566:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100566 ! 7pt scale
-
-[Term]
-id: CO_334:0100566:5
-name: 5
-namespace: CassavaScale
-is_a: CO_334:0100566 ! 7pt scale
-
-[Term]
-id: CO_334:0100566:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100566 ! 7pt scale
-
-[Term]
-id: CO_334:0100566:7
-name: Rough
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100566 ! 7pt scale
 
 [Term]
 id: CO_334:0100567
@@ -10042,66 +7462,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010361 ! Visual Rating :Ploidy_method
 
 [Term]
-id: CO_334:0100567:1
-name: 1
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100567 ! 4pt scale
-
-[Term]
-id: CO_334:0100567:2
-name: 2
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100567 ! 4pt scale
-
-[Term]
-id: CO_334:0100567:3
-name: 3
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100567 ! 4pt scale
-
-[Term]
-id: CO_334:0100567:4
-name: 4
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100567 ! 4pt scale
-
-[Term]
 id: CO_334:0100568
 name: 5pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010362 ! Visual Rating :Seed Color_method
-
-[Term]
-id: CO_334:0100568:1
-name: Brown
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100568 ! 5pt scale
-
-[Term]
-id: CO_334:0100568:3
-name: Grey
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100568 ! 5pt scale
-
-[Term]
-id: CO_334:0100568:4
-name: Black
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100568 ! 5pt scale
-
-[Term]
-id: CO_334:0100568:5
-name: Dark brown
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100568 ! 5pt scale
 
 [Term]
 id: CO_334:0100569
@@ -10110,103 +7474,16 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010363 ! Visual Rating :Caruncle Color_method
 
 [Term]
-id: CO_334:0100569:1
-name: White or cream
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100569 ! 4pt scale
-
-[Term]
-id: CO_334:0100569:2
-name: Pink or red
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100569 ! 4pt scale
-
-[Term]
-id: CO_334:0100569:3
-name: Purple
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100569 ! 4pt scale
-
-[Term]
 id: CO_334:0100570
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010364 ! Visual Rating :Root Position_method
 
 [Term]
-id: CO_334:0100570:1
-name: Tending toward vertical
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100570 ! 3pt scale
-
-[Term]
-id: CO_334:0100570:2
-name: Tending toward horizontal
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100570 ! 3pt scale
-
-[Term]
-id: CO_334:0100570:3
-name: irregular
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100570 ! 3pt scale
-
-[Term]
 id: CO_334:0100571
 name: 7pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010365 ! Visual Rating :Storage Root Diameter_method
-
-[Term]
-id: CO_334:0100571:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100571 ! 7pt scale
-
-[Term]
-id: CO_334:0100571:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100571 ! 7pt scale
-
-[Term]
-id: CO_334:0100571:3
-name: Short
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100571 ! 7pt scale
-
-[Term]
-id: CO_334:0100571:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100571 ! 7pt scale
-
-[Term]
-id: CO_334:0100571:5
-name: Medium
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100571 ! 7pt scale
-
-[Term]
-id: CO_334:0100571:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100571 ! 7pt scale
-
-[Term]
-id: CO_334:0100571:7
-name: Long
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100571 ! 7pt scale
 
 [Term]
 id: CO_334:0100572
@@ -10304,34 +7581,6 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010397 ! Visual Rating :branching habit_method
 
 [Term]
-id: CO_334:0100603:1
-name: erect
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100603 ! 4pt scale
-
-[Term]
-id: CO_334:0100603:2
-name: dichotomous
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100603 ! 4pt scale
-
-[Term]
-id: CO_334:0100603:3
-name: trichotomous
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100603 ! 4pt scale
-
-[Term]
-id: CO_334:0100603:4
-name: tetrachotomous
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100603 ! 4pt scale
-
-[Term]
 id: CO_334:0100606
 name: Flowers
 namespace: CassavaScale
@@ -10384,59 +7633,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010409 ! Visual Observation:bemesia tabaci nymphs severity_method
 
 [Term]
-id: CO_334:0100615:1
-name: none
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100615 ! 5pt scale
-
-[Term]
-id: CO_334:0100615:2
-name: mild chlorotic blotches on <10% of leaves
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100615 ! 5pt scale
-
-[Term]
-id: CO_334:0100615:3
-name: damaged moderate chlorotic blotches on 10-30% of leaves
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100615 ! 5pt scale
-
-[Term]
-id: CO_334:0100615:4
-name: chlorosis on 30-50% of leaves
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100615 ! 5pt scale
-
-[Term]
-id: CO_334:0100615:5
-name: chlorosis on >50% of leaves
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100615 ! 5pt scale
-
-[Term]
 id: CO_334:0100616
 name: 2pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010410 ! Visual Observation:typhlodromalus aripo_method
-
-[Term]
-id: CO_334:0100616:0
-name: absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100616 ! 2pt scale
-
-[Term]
-id: CO_334:0100616:1
-name: present
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100616 ! 2pt scale
 
 [Term]
 id: CO_334:0100617
@@ -10469,52 +7669,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010425 ! Sensory Assesment :Ease of Harvest_method
 
 [Term]
-id: CO_334:0100631:1
-name: easy
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100631 ! 3pt scale
-
-[Term]
-id: CO_334:0100631:2
-name: intermediate
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100631 ! 3pt scale
-
-[Term]
-id: CO_334:0100631:3
-name: difficult
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100631 ! 3pt scale
-
-[Term]
 id: CO_334:0100632
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010426 ! Visual Rating:root length evaluation_method
-
-[Term]
-id: CO_334:0100632:1
-name: short
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100632 ! 3pt scale
-
-[Term]
-id: CO_334:0100632:2
-name: intermediate
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100632 ! 3pt scale
-
-[Term]
-id: CO_334:0100632:3
-name: long
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100632 ! 3pt scale
 
 [Term]
 id: CO_334:0100633
@@ -10523,93 +7681,16 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010427 ! Visual Rating:stalk average length evaluation_method
 
 [Term]
-id: CO_334:0100633:1
-name: short
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100633 ! 3pt scale
-
-[Term]
-id: CO_334:0100633:2
-name: intermediate
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100633 ! 3pt scale
-
-[Term]
-id: CO_334:0100633:3
-name: long
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100633 ! 3pt scale
-
-[Term]
 id: CO_334:0100634
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010428 ! Visual rating:root constriction_method
 
 [Term]
-id: CO_334:0100634:1
-name: few
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100634 ! 3pt scale
-
-[Term]
-id: CO_334:0100634:2
-name: intermediate
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100634 ! 3pt scale
-
-[Term]
-id: CO_334:0100634:3
-name: many
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100634 ! 3pt scale
-
-[Term]
 id: CO_334:0100635
 name: 5pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010429 ! Visual Rating:root evaluation_method
-
-[Term]
-id: CO_334:0100635:1
-name: very good
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100635 ! 5pt scale
-
-[Term]
-id: CO_334:0100635:2
-name: better than average
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100635 ! 5pt scale
-
-[Term]
-id: CO_334:0100635:3
-name: average
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100635 ! 5pt scale
-
-[Term]
-id: CO_334:0100635:4
-name: worse than average
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100635 ! 5pt scale
-
-[Term]
-id: CO_334:0100635:5
-name: very bad
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100635 ! 5pt scale
 
 [Term]
 id: CO_334:0100637
@@ -10630,52 +7711,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010433 ! Selection:selected variety_method
 
 [Term]
-id: CO_334:0100639:0
-name: no
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100639 ! Yes/No scale
-
-[Term]
-id: CO_334:0100639:1
-name: yes
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100639 ! Yes/No scale
-
-[Term]
 id: CO_334:0100640
 name: 4pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010434 ! Visual Observation:flowering_method
-
-[Term]
-id: CO_334:0100640:0
-name: none
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100640 ! 4pt scale
-
-[Term]
-id: CO_334:0100640:1
-name: little
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100640 ! 4pt scale
-
-[Term]
-id: CO_334:0100640:2
-name: intermediate
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100640 ! 4pt scale
-
-[Term]
-id: CO_334:0100640:3
-name: many
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100640 ! 4pt scale
 
 [Term]
 id: CO_334:0100641
@@ -10684,63 +7723,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010435 ! Visual Rating:initial plant vigor_method
 
 [Term]
-id: CO_334:0100641:1
-name: very little vigor
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100641 ! 2pt scale
-
-[Term]
-id: CO_334:0100641:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100641 ! 2pt scale
-
-[Term]
-id: CO_334:0100641:3
-name: 3
-namespace: CassavaScale
-is_a: CO_334:0100641 ! 2pt scale
-
-[Term]
-id: CO_334:0100641:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100641 ! 2pt scale
-
-[Term]
-id: CO_334:0100641:5
-name: very vigorous
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100641 ! 2pt scale
-
-[Term]
 id: CO_334:0100642
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010436 ! Visual Rating:root color_method
-
-[Term]
-id: CO_334:0100642:1
-name: white
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100642 ! 3pt scale
-
-[Term]
-id: CO_334:0100642:2
-name: intermediate
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100642 ! 3pt scale
-
-[Term]
-id: CO_334:0100642:3
-name: dark brown
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100642 ! 3pt scale
 
 [Term]
 id: CO_334:0100643
@@ -10749,52 +7735,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010437 ! Visual Rating:root flesh color_method
 
 [Term]
-id: CO_334:0100643:1
-name: white
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100643 ! 3pt scale
-
-[Term]
-id: CO_334:0100643:2
-name: cream
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100643 ! 3pt scale
-
-[Term]
-id: CO_334:0100643:3
-name: yellow
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100643 ! 3pt scale
-
-[Term]
 id: CO_334:0100644
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010438 ! Visual Rating:root neck length_method
-
-[Term]
-id: CO_334:0100644:1
-name: short
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100644 ! 3pt scale
-
-[Term]
-id: CO_334:0100644:2
-name: intermediate
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100644 ! 3pt scale
-
-[Term]
-id: CO_334:0100644:3
-name: long
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100644 ! 3pt scale
 
 [Term]
 id: CO_334:0100645
@@ -10803,99 +7747,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010439 ! Visual Rating:female flower evaluation_method
 
 [Term]
-id: CO_334:0100645:0
-name: absence of flower
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100645 ! 4pt scale
-
-[Term]
-id: CO_334:0100645:1
-name: low number of female flowers [below 5]
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100645 ! 4pt scale
-
-[Term]
-id: CO_334:0100645:2
-name: [Medium] 5 to 15 female flowers present
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100645 ! 4pt scale
-
-[Term]
-id: CO_334:0100645:3
-name: [High] above 15 female flowers present)
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100645 ! 4pt scale
-
-[Term]
 id: CO_334:0100646
 name: 9pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010440 ! Visual Rating:staygreen_method
-
-[Term]
-id: CO_334:0100646:1
-name: Normal plant with full canopy, retaining most formed leaves which are green, turgid and photosynthetically active.
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100646 ! 9pt scale
-
-[Term]
-id: CO_334:0100646:2
-name: 9pt scale : 2
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100646 ! 9pt scale
-
-[Term]
-id: CO_334:0100646:3
-name: 30% of the leaves have dropped , less than 50% of the remaining leaves are droppy, partially wilted and practically dry, most of the young leaves have reduced greenness or are yellowing.
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100646 ! 9pt scale
-
-[Term]
-id: CO_334:0100646:4
-name: 9pt scale : 4
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100646 ! 9pt scale
-
-[Term]
-id: CO_334:0100646:5
-name: 50% reduction of the leaf number compared to full canopy most of the older leaves are droppy, wilted and practically dry most of the young leaves have reduced greeness or are yellowing.
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100646 ! 9pt scale
-
-[Term]
-id: CO_334:0100646:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100646 ! 9pt scale
-
-[Term]
-id: CO_334:0100646:7
-name: 80% reduction of the leaf number compareed to full canopy more than 75% of the remaining old leaves are wilted or brown young leaves have reduced greeness or are yellowing""."
-namespace: CassavaScale
-synonym: "\"7" EXACT []
-is_a: CO_334:0100646 ! 9pt scale
-
-[Term]
-id: CO_334:0100646:8
-name: 8
-namespace: CassavaScale
-is_a: CO_334:0100646 ! 9pt scale
-
-[Term]
-id: CO_334:0100646:9
-name: Complete defoliation of the stem with candlestick appearance dieback is also evident on the stem.
-namespace: CassavaScale
-synonym: "9" EXACT []
-is_a: CO_334:0100646 ! 9pt scale
 
 [Term]
 id: CO_334:0100647
@@ -10910,80 +7765,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010442 ! Visual Observation:Hairiness_method
 
 [Term]
-id: CO_334:0100648:1
-name: Glaborous (No hair)
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100648 ! 5pt scale
-
-[Term]
-id: CO_334:0100648:2
-name: scatter hair on the edges of tip leaves and bracts
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100648 ! 5pt scale
-
-[Term]
-id: CO_334:0100648:3
-name: moderate hair on the edges of tip leaves and bract
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100648 ! 5pt scale
-
-[Term]
-id: CO_334:0100648:4
-name: about 50% - 70% hair cover the tip leaves
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100648 ! 5pt scale
-
-[Term]
-id: CO_334:0100648:5
-name: 75% - 100% of hair cover the tip leaves.
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100648 ! 5pt scale
-
-[Term]
 id: CO_334:0100649
 name: 5pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010443 ! Visual Observation:Sooty Mould_method
-
-[Term]
-id: CO_334:0100649:1
-name: none
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100649 ! 5pt scale
-
-[Term]
-id: CO_334:0100649:2
-name: mild sooty mould on <5% of leaves
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100649 ! 5pt scale
-
-[Term]
-id: CO_334:0100649:3
-name: mild sooty mould on 5-20% of leaves
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100649 ! 5pt scale
-
-[Term]
-id: CO_334:0100649:4
-name: moderate sooty mould on >20% of leaves mild leaf curling
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100649 ! 5pt scale
-
-[Term]
-id: CO_334:0100649:5
-name: heavy sooty mould on 20-50% of leaves strong leaf curling of lower leaves stunted growth of bottom half of plant.
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100649 ! 5pt scale
 
 [Term]
 id: CO_334:0100657
@@ -10999,86 +7784,16 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010453 ! Sensory Assesment :gari fibre_method
 
 [Term]
-id: CO_334:0100659:0
-name: none
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100659 ! 4pt scale
-
-[Term]
-id: CO_334:0100659:1
-name: moderatelt fibrous
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100659 ! 4pt scale
-
-[Term]
-id: CO_334:0100659:2
-name: fibrous
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100659 ! 4pt scale
-
-[Term]
-id: CO_334:0100659:3
-name: highly fibrous
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100659 ! 4pt scale
-
-[Term]
 id: CO_334:0100660
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010454 ! Gustation :gari taste_method
 
 [Term]
-id: CO_334:0100660:1
-name: normal
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100660 ! 3pt scale
-
-[Term]
-id: CO_334:0100660:2
-name: sweet
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100660 ! 3pt scale
-
-[Term]
-id: CO_334:0100660:3
-name: sour
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100660 ! 3pt scale
-
-[Term]
 id: CO_334:0100661
 name: 3pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010455 ! Visual Rating:swelling capacity_method
-
-[Term]
-id: CO_334:0100661:1
-name: less than its original volume
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100661 ! 3pt scale
-
-[Term]
-id: CO_334:0100661:2
-name: twice the origiinal volume
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100661 ! 3pt scale
-
-[Term]
-id: CO_334:0100661:3
-name: three times the original volume
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100661 ! 3pt scale
 
 [Term]
 id: CO_334:0100662
@@ -11103,68 +7818,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010462 ! Visual Observation:assessment of presence of leaf pubescence_method
 
 [Term]
-id: CO_334:0100668:0
-name: absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100668 ! 2pt scale
-
-[Term]
-id: CO_334:0100668:1
-name: present
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100668 ! 2pt scale
-
-[Term]
 id: CO_334:0100669
 name: 7pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010463 ! Visual Observation:leaf lobe margin_method
-
-[Term]
-id: CO_334:0100669:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100669 ! 7pt scale
-
-[Term]
-id: CO_334:0100669:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100669 ! 7pt scale
-
-[Term]
-id: CO_334:0100669:3
-name: smooth
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100669 ! 7pt scale
-
-[Term]
-id: CO_334:0100669:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100669 ! 7pt scale
-
-[Term]
-id: CO_334:0100669:5
-name: 5
-namespace: CassavaScale
-is_a: CO_334:0100669 ! 7pt scale
-
-[Term]
-id: CO_334:0100669:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100669 ! 7pt scale
-
-[Term]
-id: CO_334:0100669:7
-name: winding
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100669 ! 7pt scale
 
 [Term]
 id: CO_334:0100671
@@ -11173,70 +7830,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010465 ! Visual Observation:Petiole orientation_method
 
 [Term]
-id: CO_334:0100671:1
-name: inclined upward
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100671 ! 4pt scale
-
-[Term]
-id: CO_334:0100671:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100671 ! 4pt scale
-
-[Term]
-id: CO_334:0100671:3
-name: horizontal
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100671 ! 4pt scale
-
-[Term]
-id: CO_334:0100671:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100671 ! 4pt scale
-
-[Term]
-id: CO_334:0100671:5
-name: inclined
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100671 ! 4pt scale
-
-[Term]
-id: CO_334:0100671:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100671 ! 4pt scale
-
-[Term]
-id: CO_334:0100671:7
-name: irregular
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100671 ! 4pt scale
-
-[Term]
 id: CO_334:0100672
 name: 2pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010466 ! Visual Observation:presence of pollen_method
-
-[Term]
-id: CO_334:0100672:0
-name: absent
-namespace: CassavaScale
-synonym: "0" EXACT []
-is_a: CO_334:0100672 ! 2pt scale
-
-[Term]
-id: CO_334:0100672:1
-name: present
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100672 ! 2pt scale
 
 [Term]
 id: CO_334:0100673
@@ -11245,59 +7842,10 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010467 ! Visual Scoring :stem cortex color_method
 
 [Term]
-id: CO_334:0100673:1
-name: orange
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100673 ! 3pt scale
-
-[Term]
-id: CO_334:0100673:2
-name: light green
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100673 ! 3pt scale
-
-[Term]
-id: CO_334:0100673:3
-name: dark green
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100673 ! 3pt scale
-
-[Term]
 id: CO_334:0100674
 name: 4pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010468 ! Visual Scoring :stem epidermis color_method
-
-[Term]
-id: CO_334:0100674:1
-name: cream
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100674 ! 4pt scale
-
-[Term]
-id: CO_334:0100674:2
-name: light cream
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100674 ! 4pt scale
-
-[Term]
-id: CO_334:0100674:3
-name: dark brown
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100674 ! 4pt scale
-
-[Term]
-id: CO_334:0100674:4
-name: orange
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100674 ! 4pt scale
 
 [Term]
 id: CO_334:0100675
@@ -11306,103 +7854,16 @@ namespace: CassavaScale
 relationship: scale_of CO_334:0010469 ! Visual Rating:leaf scar distance_method
 
 [Term]
-id: CO_334:0100675:1
-name: 1
-namespace: CassavaScale
-is_a: CO_334:0100675 ! 7pt scale
-
-[Term]
-id: CO_334:0100675:2
-name: 2
-namespace: CassavaScale
-is_a: CO_334:0100675 ! 7pt scale
-
-[Term]
-id: CO_334:0100675:3
-name: short(<
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100675 ! 7pt scale
-
-[Term]
-id: CO_334:0100675:4
-name: 4
-namespace: CassavaScale
-is_a: CO_334:0100675 ! 7pt scale
-
-[Term]
-id: CO_334:0100675:5
-name: medium (8-15cm)
-namespace: CassavaScale
-synonym: "5" EXACT []
-is_a: CO_334:0100675 ! 7pt scale
-
-[Term]
-id: CO_334:0100675:6
-name: 6
-namespace: CassavaScale
-is_a: CO_334:0100675 ! 7pt scale
-
-[Term]
-id: CO_334:0100675:7
-name: long (>
-namespace: CassavaScale
-synonym: "7" EXACT []
-is_a: CO_334:0100675 ! 7pt scale
-
-[Term]
 id: CO_334:0100676
 name: 4pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010470 ! Visual Observation:plant shape_method
 
 [Term]
-id: CO_334:0100676:1
-name: compact
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100676 ! 4pt scale
-
-[Term]
-id: CO_334:0100676:2
-name: open
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100676 ! 4pt scale
-
-[Term]
-id: CO_334:0100676:3
-name: umbrella
-namespace: CassavaScale
-synonym: "3" EXACT []
-is_a: CO_334:0100676 ! 4pt scale
-
-[Term]
-id: CO_334:0100676:4
-name: cylindrical
-namespace: CassavaScale
-synonym: "4" EXACT []
-is_a: CO_334:0100676 ! 4pt scale
-
-[Term]
 id: CO_334:0100677
 name: 2pt scale
 namespace: CassavaScale
 relationship: scale_of CO_334:0010471 ! Visual Observation:stipule margin_method
-
-[Term]
-id: CO_334:0100677:1
-name: entire
-namespace: CassavaScale
-synonym: "1" EXACT []
-is_a: CO_334:0100677 ! 2pt scale
-
-[Term]
-id: CO_334:0100677:2
-name: split or forked
-namespace: CassavaScale
-synonym: "2" EXACT []
-is_a: CO_334:0100677 ! 2pt scale
 
 [Typedef]
 id: derives_from
