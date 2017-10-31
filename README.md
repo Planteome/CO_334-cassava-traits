@@ -2,14 +2,18 @@
 
 This ontology results in the collaboration of Cassavabase, BMS and Crop Ontology
 -------------------------------
+Cassava Trait Ontology is maintained by http://www.cropontology.org and https://cassavabase.org
 
+Request new traits/variables by submitting a new issue in this github repo, or by filling the trait request form http://submit.rtbbase.org
+
+-------------------------------
 
 Crop specific trait ontologies enhance the interoperability and effectiveness of data exchange between the data sources which adopt it, 
 by providing standard concepts that are use to describe phenotypes stored in those sources. 
 As one of them, the Cassava Ontology is actively used and shared in different databases used by RTB 
 such as the BMS (Breeding Management system) of the IBP or the CassavaBase. 
 
-Soon, phenotypes of other RTB crops such as Banana, Sweat Potato or Yam will be stored in these RTB databases. 
+phenotypes of other RTB crops such as Banana, Sweet Potato, and Yam are stored in these RTB databases. 
 It is thus of prime importance to agree on and share a common methodology to maintain these ontologies.
 This requires regular interactions between the people using it and the developers of the Crop Ontology project, 
 who participated from the beginning of the building and the curation of those ontologies.
@@ -40,8 +44,9 @@ We agreed on:
  new scales  0100000-0999999
  
 3. Requesting new terms
- To avoid overloading the same ontology IDs only curators should add new terms (currently Afolabi Agbona from IITA and Leo Valette from Bioversity)
+ To avoid overloading the same ontology IDs only curators should add new terms 
  * To request new terms please use the github issue tracker of this repository  https://github.com/Planteome/ibp-cassava-traits/issues
+  or by filling the trait request form http://submit.rtbbase.org
 
 
 
