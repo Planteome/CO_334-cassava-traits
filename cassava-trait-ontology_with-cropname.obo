@@ -1819,67 +1819,67 @@ is_a: CO_334:0000037 ! Cassava bacterial blight incidence
 
 [Term]
 id: CO_334:0000181
-name: cassava anthractnose disease incidence in 6-month variable
+name: cassava anthracnose disease incidence in 6-month variable
 def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease evaluated between four and six months after planting (6MAP)." [CO:curators]
 synonym: "cad6i" EXACT []
 synonym: "CADisInc_Comp_r_T6m" EXACT []
 relationship: variable_of CO_334:0000038 ! Cassava anthracnose disease incidence
-relationship: variable_of CO_334:0010258 ! Counting:cassava anthractnose disease incidence in 6-months_method
+relationship: variable_of CO_334:0010258 ! Counting:cassava anthracnose disease incidence in 6-months_method
 relationship: variable_of CO_334:0100582 ! ratio
 is_a: CO_334:0000038 ! Cassava anthracnose disease incidence
 
 [Term]
 id: CO_334:0000182
-name: cassava anthractnose disease incidence in 9-month variable
+name: cassava anthracnose disease incidence in 9-month variable
 def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease evaluated between seven and nine months after planting (9MAP)." [CO:curators]
 synonym: "cad9i" EXACT []
 synonym: "CADisInc_Comp_r_T9m" EXACT []
 relationship: variable_of CO_334:0000038 ! Cassava anthracnose disease incidence
-relationship: variable_of CO_334:0010259 ! Counting:cassava anthractnose disease incidence in 9-months_method
+relationship: variable_of CO_334:0010259 ! Counting:cassava anthracnose disease incidence in 9-months_method
 relationship: variable_of CO_334:0100582 ! ratio
 is_a: CO_334:0000038 ! Cassava anthracnose disease incidence
 
 [Term]
 id: CO_334:0000183
-name: cassava anthractnose disease incidence in12-month variable
+name: cassava anthracnose disease incidence in12-month variable
 def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease evaluated between ten and twelve months after planting (12MAP)." [CO:curators]
 synonym: "cad12i" EXACT []
 synonym: "CADisInc_Comp_r_T12m" EXACT []
 relationship: variable_of CO_334:0000038 ! Cassava anthracnose disease incidence
-relationship: variable_of CO_334:0010260 ! Counting:cassava anthractnose disease incidence in 12-months_method
+relationship: variable_of CO_334:0010260 ! Counting:cassava anthracnose disease incidence in 12-months_method
 relationship: variable_of CO_334:0100582 ! ratio
 is_a: CO_334:0000038 ! Cassava anthracnose disease incidence
 
 [Term]
 id: CO_334:0000184
-name: cassava anthractnose disease severity in 6-month variable
+name: cassava anthracnose disease severity in 6-month variable
 def: "Visual rating of symptoms in response to the anthracnose disease caused by Colletotrichum gloeosporioides f. sp. Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased), evaluated between four and six months after planting (6MAP)." [CO:curators]
 synonym: "cad6s" EXACT []
 synonym: "CADisSev_VisScg_1to5_T6m" EXACT []
 relationship: variable_of CO_334:0000032 ! Cassava anthracnose disease severity
-relationship: variable_of CO_334:0010253 ! Visual Observation:cassava anthractnose disease severity in 6-months_method
+relationship: variable_of CO_334:0010253 ! Visual Observation:cassava anthracnose disease severity in 6-months_method
 relationship: variable_of CO_334:0100459 ! 5 pt scale
 is_a: CO_334:0000032 ! Cassava anthracnose disease severity
 
 [Term]
 id: CO_334:0000185
-name: cassava anthractnose disease severity in 9-month variable
+name: cassava anthracnose disease severity in 9-month variable
 def: "Visual rating of symptoms in response to the anthracnose disease caused by Colletotrichum gloeosporioides f. sp. Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased), evaluated between seven and nine months after planting (9MAP)." [CO:curators]
 synonym: "cad9s" EXACT []
 synonym: "CADisSev_VisScg_1to5_T9m" EXACT []
 relationship: variable_of CO_334:0000032 ! Cassava anthracnose disease severity
-relationship: variable_of CO_334:0010254 ! Visual Observation:cassava anthractnose disease severity in 9-months_method
+relationship: variable_of CO_334:0010254 ! Visual Observation:cassava anthracnose disease severity in 9-months_method
 relationship: variable_of CO_334:0100460 ! 5 pt scale
 is_a: CO_334:0000032 ! Cassava anthracnose disease severity
 
 [Term]
 id: CO_334:0000186
-name: cassava anthractnose disease severity in12-month variable
+name: cassava anthracnose disease severity in12-month variable
 def: "Visual rating of symptoms in response to the anthracnose disease caused by Colletotrichum gloeosporioides f. sp. Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased), evaluated between ten and twelve months after planting (12MAP)." [CO:curators]
 synonym: "cad12s" EXACT []
 synonym: "CADisSev_VisScg_1to5_T12m" EXACT []
 relationship: variable_of CO_334:0000032 ! Cassava anthracnose disease severity
-relationship: variable_of CO_334:0010255 ! Visual Observation:cassava anthractnose disease severity in 12-months_method
+relationship: variable_of CO_334:0010255 ! Visual Observation:cassava anthracnose disease severity in 12-months_method
 relationship: variable_of CO_334:0100461 ! 5 pt scale
 is_a: CO_334:0000032 ! Cassava anthracnose disease severity
 
@@ -2226,23 +2226,23 @@ is_a: CO_334:0000466 ! Sprout count
 
 [Term]
 id: CO_334:0000218
-name: cassava anthractnose disease severity in 3-month variable
+name: cassava anthracnose disease severity in 3-month variable
 def: "Visual rating of symptoms in response to the anthracnose disease caused by Colletotrichum gloeosporioides f. sp. Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased), evaluated between two and three months after planting." [CO:curators]
 synonym: "cad3s" EXACT []
 synonym: "CADisSev_VisScg_1to5_T3m" EXACT []
 relationship: variable_of CO_334:0000032 ! Cassava anthracnose disease severity
-relationship: variable_of CO_334:0010252 ! Visual Observation:cassava anthractnose disease severity in 3-months_method
+relationship: variable_of CO_334:0010252 ! Visual Observation:cassava anthracnose disease severity in 3-months_method
 relationship: variable_of CO_334:0100458 ! 5 pt scale
 is_a: CO_334:0000032 ! Cassava anthracnose disease severity
 
 [Term]
 id: CO_334:0000219
-name: cassava anthractnose disease incidence in 3-month variable
+name: cassava anthracnose disease incidence in 3-month variable
 def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease evaluated between two and three months after planting." [CO:curators]
 synonym: "cad3i" EXACT []
 synonym: "CADisInc_Comp_r_T3m" EXACT []
 relationship: variable_of CO_334:0000038 ! Cassava anthracnose disease incidence
-relationship: variable_of CO_334:0010257 ! Counting:cassava anthractnose disease incidence in 3-months_method
+relationship: variable_of CO_334:0010257 ! Counting:cassava anthracnose disease incidence in 3-months_method
 relationship: variable_of CO_334:0100582 ! ratio
 is_a: CO_334:0000038 ! Cassava anthracnose disease incidence
 
@@ -3065,7 +3065,7 @@ id: CO_334:0000365
 name: cassava female stamenoids trait
 def: "Presence of stamen in female cassava flowers" [CO:curators]
 synonym: "femsta" EXACT []
-is_a: TO:0000215
+is_a: TO:0000215 ! stamen morphology trait
 
 [Term]
 id: CO_334:0000366
@@ -3086,14 +3086,14 @@ id: CO_334:0000369
 name: cassava fresh shoot weight trait
 def: "Total fresh weight of harvested foliage and stems" [CO:curators]
 synonym: "ShFrWe" EXACT []
-is_a: TO:0000571
+is_a: TO:0000571 ! shoot fresh weight
 
 [Term]
 id: CO_334:0000370
 name: cassava frog skin disease trait
 def: "Severity of the Frog skin disease caused by unknown causal agent" [CO:curators]
 synonym: "fsd" EXACT []
-is_a: TO:0000439
+is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_334:0000371
@@ -4176,49 +4176,49 @@ relationship: method_of CO_334:0000037 ! Cassava bacterial blight incidence
 
 [Term]
 id: CO_334:0010252
-name: cassava Visual Observation:cassava anthractnose disease severity in 3-months_method
+name: cassava Visual Observation:cassava anthracnose disease severity in 3-months_method
 def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
 relationship: method_of CO_334:0000032 ! Cassava anthracnose disease severity
 
 [Term]
 id: CO_334:0010253
-name: cassava Visual Observation:cassava anthractnose disease severity in 6-months_method
+name: cassava Visual Observation:cassava anthracnose disease severity in 6-months_method
 def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
 relationship: method_of CO_334:0000032 ! Cassava anthracnose disease severity
 
 [Term]
 id: CO_334:0010254
-name: cassava Visual Observation:cassava anthractnose disease severity in 9-months_method
+name: cassava Visual Observation:cassava anthracnose disease severity in 9-months_method
 def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
 relationship: method_of CO_334:0000032 ! Cassava anthracnose disease severity
 
 [Term]
 id: CO_334:0010255
-name: cassava Visual Observation:cassava anthractnose disease severity in 12-months_method
+name: cassava Visual Observation:cassava anthracnose disease severity in 12-months_method
 def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
 relationship: method_of CO_334:0000032 ! Cassava anthracnose disease severity
 
 [Term]
 id: CO_334:0010257
-name: cassava Counting:cassava anthractnose disease incidence in 3-months_method
+name: cassava Counting:cassava anthracnose disease incidence in 3-months_method
 def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands at four to six months after planting" [CO:curators]
 relationship: method_of CO_334:0000038 ! Cassava anthracnose disease incidence
 
 [Term]
 id: CO_334:0010258
-name: cassava Counting:cassava anthractnose disease incidence in 6-months_method
+name: cassava Counting:cassava anthracnose disease incidence in 6-months_method
 def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands at four to six months after planting" [CO:curators]
 relationship: method_of CO_334:0000038 ! Cassava anthracnose disease incidence
 
 [Term]
 id: CO_334:0010259
-name: cassava Counting:cassava anthractnose disease incidence in 9-months_method
+name: cassava Counting:cassava anthracnose disease incidence in 9-months_method
 def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands at seven to nine months after planting" [CO:curators]
 relationship: method_of CO_334:0000038 ! Cassava anthracnose disease incidence
 
 [Term]
 id: CO_334:0010260
-name: cassava Counting:cassava anthractnose disease incidence in 12-months_method
+name: cassava Counting:cassava anthracnose disease incidence in 12-months_method
 def: "A ratio of the number of plants showing sysmptoms of cassava anthracnose disease to total plant stands at ten to twelve months after planting" [CO:curators]
 relationship: method_of CO_334:0000038 ! Cassava anthracnose disease incidence
 
@@ -5521,22 +5521,22 @@ relationship: scale_of CO_334:0010245 ! Visual Observation:cassava bacterial bli
 [Term]
 id: CO_334:0100458
 name: cassava 5 pt scale
-relationship: scale_of CO_334:0010252 ! Visual Observation:cassava anthractnose disease severity in 3-months_method
+relationship: scale_of CO_334:0010252 ! Visual Observation:cassava anthracnose disease severity in 3-months_method
 
 [Term]
 id: CO_334:0100459
 name: cassava 5 pt scale
-relationship: scale_of CO_334:0010253 ! Visual Observation:cassava anthractnose disease severity in 6-months_method
+relationship: scale_of CO_334:0010253 ! Visual Observation:cassava anthracnose disease severity in 6-months_method
 
 [Term]
 id: CO_334:0100460
 name: cassava 5 pt scale
-relationship: scale_of CO_334:0010254 ! Visual Observation:cassava anthractnose disease severity in 9-months_method
+relationship: scale_of CO_334:0010254 ! Visual Observation:cassava anthracnose disease severity in 9-months_method
 
 [Term]
 id: CO_334:0100461
 name: cassava 5 pt scale
-relationship: scale_of CO_334:0010255 ! Visual Observation:cassava anthractnose disease severity in 12-months_method
+relationship: scale_of CO_334:0010255 ! Visual Observation:cassava anthracnose disease severity in 12-months_method
 
 [Term]
 id: CO_334:0100471
@@ -5965,10 +5965,10 @@ relationship: scale_of CO_334:0010247 ! Counting:cassava bacterial blight incide
 relationship: scale_of CO_334:0010248 ! Counting:cassava bacterial blight incidence 6-month evalution_method
 relationship: scale_of CO_334:0010249 ! Counting:cassava bacterial blight incidence 9-month evalution_method
 relationship: scale_of CO_334:0010250 ! Counting:cassava bacterial blight incidence 12-month evaluation_method
-relationship: scale_of CO_334:0010257 ! Counting:cassava anthractnose disease incidence in 3-months_method
-relationship: scale_of CO_334:0010258 ! Counting:cassava anthractnose disease incidence in 6-months_method
-relationship: scale_of CO_334:0010259 ! Counting:cassava anthractnose disease incidence in 9-months_method
-relationship: scale_of CO_334:0010260 ! Counting:cassava anthractnose disease incidence in 12-months_method
+relationship: scale_of CO_334:0010257 ! Counting:cassava anthracnose disease incidence in 3-months_method
+relationship: scale_of CO_334:0010258 ! Counting:cassava anthracnose disease incidence in 6-months_method
+relationship: scale_of CO_334:0010259 ! Counting:cassava anthracnose disease incidence in 9-months_method
+relationship: scale_of CO_334:0010260 ! Counting:cassava anthracnose disease incidence in 12-months_method
 relationship: scale_of CO_334:0010262 ! Counting:cassava green mite incidence first evaluation_method
 relationship: scale_of CO_334:0010263 ! Counting:cassava green mite incidence second evaluation_method
 relationship: scale_of CO_334:0010268 ! Counting:Cassava Mealy Bug Incidence_method
