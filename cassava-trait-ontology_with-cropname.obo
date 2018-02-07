@@ -2951,7 +2951,7 @@ id: CO_334:0000296
 name: cassava branching levels trait
 def: "Number of levels of branching (Actual number of levels (at harvest))" [CO:curators]
 synonym: "brnlev" EXACT []
-is_a: TO:0000740  ! branch morphology trait
+is_a: TO:0000077  ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000297
