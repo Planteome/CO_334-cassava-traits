@@ -2891,7 +2891,7 @@ is_a: TO:0020079 ! beta-cryptoxanthin content
 
 [Term]
 id: CO_334:0000288
-name: cassava bemesia tabaci nymphs black trait
+name: cassava bemesia tabaci nymphs black
 def: "Number of black bemesia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfb" EXACT []
 is_a: TO:0000261  ! insect damage resistance
@@ -2905,7 +2905,7 @@ is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_334:0000290
-name: cassava bemesia tabaci nymphs yellow trait
+name: cassava bemesia tabaci nymphs yellow
 def: "Number of yellow bemesia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfy" EXACT []
 is_a: TO:0000261 ! insect damage resistance
@@ -3058,14 +3058,14 @@ id: CO_334:0000364
 name: cassava female flower number trait
 def: "Number of female flowers after the buds appear" [CO:curators]
 synonym: "FFlwNo" EXACT []
-is_a: TO:0002736
+is_a: TO:0000987 ! pistillate flower number trait
 
 [Term]
 id: CO_334:0000365
 name: cassava female stamenoids trait
 def: "Presence of stamen in female cassava flowers" [CO:curators]
 synonym: "femsta" EXACT []
-is_a: TO:0000215 ! stamen morphology trait
+is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_334:0000366
@@ -3305,7 +3305,7 @@ id: CO_334:0000403
 name: cassava male flower number trait
 def: "Number of male flowers after the buds appear" [CO:curators]
 synonym: "flwmno" EXACT []
-is_a: TO:0002736
+is_a: TO:0000986 ! staminate flower number trait
 
 [Term]
 id: CO_334:0000404
