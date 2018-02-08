@@ -3001,7 +3001,7 @@ id: CO_334:0000355
 name: cassava color of boiled tuberous roots trait
 def: "Color of boiled tuberous roots" [CO:curators]
 synonym: "pdcol" EXACT []
-is_a: TO:1000007 ! tuberous root tuber morphology trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000356
@@ -3178,7 +3178,7 @@ id: CO_334:0000382
 name: cassava hairiness trait
 def: "Hairiness" [CO:curators]
 synonym: "hairiness" EXACT []
-is_a: TO:0000398
+is_a: TO:0002722 ! leaf pubescence
 
 [Term]
 id: CO_334:0000386
@@ -3213,7 +3213,7 @@ id: CO_334:0000390
 name: cassava leaf life span trait
 def: "Leaf life span" [CO:curators]
 synonym: "LfLiife" EXACT []
-is_a: TO:0000748
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0000391
@@ -3248,7 +3248,7 @@ id: CO_334:0000395
 name: cassava leaf lobes number trait
 def: "Number of leaf lobes" [CO:curators]
 synonym: "lflbno" EXACT []
-is_a: TO:1000013
+is_a: TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_334:0000396
@@ -3256,7 +3256,7 @@ name: cassava leaf retention trait
 def: "Leaf retention (stay green)" [CO:curators]
 synonym: "LfRet" EXACT []
 synonym: "Stay green, Leaf Retention - Cassavabase" EXACT []
-is_a: TO:0000748
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000397
@@ -3368,7 +3368,7 @@ id: CO_334:0000412
 name: cassava number of flowering stalks trait
 def: "Number of stalks carrying buds" [CO:curators]
 synonym: "FlwStlkNo" EXACT []
-is_a: TO:0000894
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000413
@@ -3578,7 +3578,7 @@ id: CO_334:0000447
 name: cassava root dry matter content trait
 def: "Dry matter content of storage roots" [CO:curators]
 synonym: "dm" EXACT []
-is_a: TO:1000007 ! tuberous root tuber morphology trait
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000448
@@ -3607,14 +3607,14 @@ name: cassava root number trait
 def: "Number of harvested marketable storage roots" [CO:curators]
 synonym: "Marketable root number, Root Number - Cassavabase" EXACT []
 synonym: "RtNo" EXACT []
-is_a: TO:1000007 ! tuberous root tuber morphology trait
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000453
 name: cassava root position trait
 def: "Position of roots" [CO:curators]
 synonym: "rtpost" EXACT []
-is_a: TO:1000007 ! tuberous root tuber morphology trait
+is_a: TO:0000985 ! root system morphology trait
 
 [Term]
 id: CO_334:0000454
@@ -3664,7 +3664,7 @@ id: CO_334:0000460
 name: cassava seedling number trait
 def: "Number of emerging seedlings" [CO:curators]
 synonym: "SdlngNo" EXACT []
-is_a: TO:0000751
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_334:0000461
@@ -3951,7 +3951,7 @@ id: CO_334:0000505
 name: cassava young stem growth habit trait
 def: "Growth habit of young stem" [CO:curators]
 synonym: "stemgh" EXACT []
-is_a: TO:0000361 ! stem morphology trait
+is_a: TO:0002756 ! plant growth trait
 
 [Term]
 id: CO_334:0000506
