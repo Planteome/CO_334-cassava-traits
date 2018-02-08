@@ -2894,7 +2894,6 @@ id: CO_334:0000288
 name: cassava bemesia tabaci nymphs black
 def: "Number of black bemesia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfb" EXACT []
-is_a: TO:0000261  ! insect damage resistance
 
 [Term]
 id: CO_334:0000289
@@ -2908,7 +2907,6 @@ id: CO_334:0000290
 name: cassava bemesia tabaci nymphs yellow
 def: "Number of yellow bemesia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfy" EXACT []
-is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_334:0000291
@@ -3351,17 +3349,16 @@ is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000410
-name: cassava number of bemesia tabaci adult trait
+name: cassava number of bemesia tabaci adult
 def: "Number of Bemesia tabaci adult white flies" [CO:curators]
 synonym: "BTAdtNo" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+
 
 [Term]
 id: CO_334:0000411
-name: cassava number of bemesia tabaci nymphs trait
+name: cassava number of bemesia tabaci nymphs
 def: "Number of Bemesia tabaci nymphs white flies" [CO:curators]
 synonym: "BTNyNo" EXACT []
-is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_334:0000412
@@ -3393,7 +3390,7 @@ is_a: TO:0002640
 
 [Term]
 id: CO_334:0000416
-name: cassava number of planted stakes trait
+name: cassava number of planted stakes
 def: "Total number of stakes planted" [CO:curators]
 synonym: "stkplt" EXACT []
 
@@ -3521,7 +3518,7 @@ id: CO_334:0000438
 name: cassava presence of pollen trait
 def: "Presence of pollen" [CO:curators]
 synonym: "pollen" EXACT []
-is_a: TO:0000420
+is_a: TO:0000420 ! fertility related trait
 
 [Term]
 id: CO_334:0000439
@@ -3585,7 +3582,7 @@ id: CO_334:0000448
 name: cassava root evaluation trait
 def: "Evaluation of various root properties" [CO:curators]
 synonym: "rteval" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_334:0000450
@@ -3934,10 +3931,9 @@ is_a: TO:0000465
 
 [Term]
 id: CO_334:0000503
-name: cassava typhlodromalus aripo trait
+name: cassava typhlodromalus aripo
 def: "Presence of Typhlodromalus aripo" [CO:curators]
 synonym: "taripo" EXACT []
-is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_334:0000504
