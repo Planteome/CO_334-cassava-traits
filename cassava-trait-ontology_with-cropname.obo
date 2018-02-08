@@ -2992,7 +2992,7 @@ id: CO_334:0000354
 name: cassava cis 9 activity trait
 def: "Cis 9 isomer activity" [CO:curators]
 synonym: "cis-9" EXACT []
-is_a: TO:0000599 ! enzyme activity trait
+is_a: TO:0000289 ! carotene content
 
 [Term]
 id: CO_334:0000355
@@ -3920,7 +3920,7 @@ id: CO_334:0000501
 name: cassava trans-9 activity trait
 def: "Activity of trans 9 beta carotene" [CO:curators]
 synonym: "Trans9Ct" EXACT []
-is_a: TO:0000282
+is_a: TO:0000289 ! carotene content
 
 [Term]
 id: CO_334:0000502
