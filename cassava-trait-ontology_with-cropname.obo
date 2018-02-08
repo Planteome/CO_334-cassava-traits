@@ -3331,7 +3331,7 @@ id: CO_334:0000407
 name: cassava moisture content trait
 def: "Storage root moisture content" [CO:curators]
 synonym: "mc" EXACT []
-is_a: TO:0000228
+is_a: TO:0000228 ! moisture content trait
 
 [Term]
 id: CO_334:0000408
