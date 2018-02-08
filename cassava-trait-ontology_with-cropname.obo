@@ -3070,14 +3070,14 @@ id: CO_334:0000366
 name: cassava fibre content trait
 def: "Fibre content" [CO:curators]
 synonym: "fibre" EXACT []
-is_a: TO:0002642
+is_a: TO:0002642 ! dietary fiber related trait
 
 [Term]
 id: CO_334:0000367
 name: cassava flowering trait
 def: "Abundance of flower" [CO:curators]
 synonym: "flowerab" EXACT []
-is_a: TO:0002736
+is_a: TO:0002736 ! flower number trait
 
 [Term]
 id: CO_334:0000369
@@ -3098,14 +3098,14 @@ id: CO_334:0000371
 name: cassava fruit exocarp texture trait
 def: "Texture of the outer most layer of the cassava fruit" [CO:curators]
 synonym: "fruexo" EXACT []
-is_a: TO:0002624
+is_a: TO:0002624 ! exocarp texture
 
 [Term]
 id: CO_334:0000372
 name: cassava fruit set presence trait
 def: "Fruit set" [CO:curators]
 synonym: "frtset" EXACT []
-is_a: TO:0002640
+is_a: TO:0002640 ! fruit set trait
 
 [Term]
 id: CO_334:0000373
@@ -3183,14 +3183,14 @@ id: CO_334:0000386
 name: cassava initial vigor trait
 def: "Initial plant vigor at one month after planting" [CO:curators]
 synonym: "vigor" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_334:0000387
 name: cassava iron content trait
 def: "Iron content." [CO:curators]
 synonym: "fe" EXACT []
-is_a: TO:0020089
+is_a: TO:0020089 ! iron content
 
 [Term]
 id: CO_334:0000388
@@ -3204,7 +3204,7 @@ id: CO_334:0000389
 name: cassava leaf color trait
 def: "Leaf color" [CO:curators]
 synonym: "LfCol" EXACT []
-is_a: TO:0000326
+is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_334:0000390
@@ -3218,28 +3218,28 @@ id: CO_334:0000391
 name: cassava leaf lobe length trait
 def: "Length of middle finger or lobe of matured leaf" [CO:curators]
 synonym: "LfLbLng" EXACT []
-is_a: TO:1000014
+is_a: TO:1000014 ! leaf lamina lobe length
 
 [Term]
 id: CO_334:0000392
 name: cassava leaf lobe margin trait
 def: "leaf lobe margin." [CO:curators]
 synonym: "LobMgnShp" EXACT []
-is_a: TO:1000013
+is_a: TO:1000013 ! leaf lamina lobe morphology trait
 
 [Term]
 id: CO_334:0000393
 name: cassava leaf lobe position trait
 def: "Position in which leaf lobes are held" [CO:curators]
 synonym: "lflobp" EXACT []
-is_a: TO:1000013
+is_a: TO:1000013 ! leaf lamina lobe morphology trait
 
 [Term]
 id: CO_334:0000394
 name: cassava leaf lobe width trait
 def: "Width of middle finger or lobe of matured leaf" [CO:curators]
 synonym: "LfLbWdth" EXACT []
-is_a: TO:1000015
+is_a: TO:1000015 ! leaf lamina lobe width
 
 [Term]
 id: CO_334:0000395
@@ -3289,14 +3289,14 @@ id: CO_334:0000401
 name: cassava leaf vein color trait
 def: "Color of leaf vein" [CO:curators]
 synonym: "lfvnco" EXACT []
-is_a: TO:0000719
+is_a: TO:0000719 ! leaf vein color 
 
 [Term]
 id: CO_334:0000402
 name: cassava leaf weight trait
 def: "Weight of leaf" [CO:curators]
 synonym: "LfWt" EXACT []
-is_a: TO:0000505
+is_a: TO:0000505 ! leaf weight 
 
 [Term]
 id: CO_334:0000403
@@ -3310,21 +3310,21 @@ id: CO_334:0000404
 name: cassava male sterile trait
 def: "Cassava plants that do no produce viable pollen." [CO:curators]
 synonym: "ms" EXACT []
-is_a: TO:0000437
+is_a: TO:0000437 ! male sterility
 
 [Term]
 id: CO_334:0000405
 name: cassava marketable root number trait
 def: "Number of big or more than 1kg root size" [CO:curators]
 synonym: "mktrtno" EXACT []
-is_a: TO:0001041
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000406
 name: cassava marketable root weight trait
 def: "Marketable root weight" [CO:curators]
 synonym: "MkRtWt" EXACT []
-is_a: TO:0001041
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000407
@@ -3379,14 +3379,14 @@ id: CO_334:0000414
 name: cassava number of fruits trait
 def: "Number of fruits" [CO:curators]
 synonym: "fruitno" EXACT []
-is_a: TO:0000894
+is_a: TO:0000894 ! fruit number trait
 
 [Term]
 id: CO_334:0000415
 name: cassava number of fruitset trait
 def: "Number of fruits formed after pollination" [CO:curators]
 synonym: "flwfrt" EXACT []
-is_a: TO:0002640
+is_a: TO:0002640 ! fruit set trait
 
 [Term]
 id: CO_334:0000416
@@ -3399,7 +3399,7 @@ id: CO_334:0000417
 name: cassava number of rotten stem trait
 def: "Number of rotten stem" [CO:curators]
 synonym: "RotStmNo" EXACT []
-is_a: TO:0000597
+is_a: TO:0000597 
 
 [Term]
 id: CO_334:0000418
@@ -3632,7 +3632,7 @@ id: CO_334:0000456
 name: cassava root yield trait
 def: "Tuberous root yield" [CO:curators]
 synonym: "RtYld" EXACT []
-is_a: TO:0001041
+is_a: TO:0001041  ! root yield
 
 [Term]
 id: CO_334:0000457
@@ -3710,7 +3710,7 @@ name: cassava sprouting trait
 def: "Proportion of stakes germinated" [CO:curators]
 synonym: "Proportion of germinated stakes" EXACT []
 synonym: "sprout" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_334:0000473
