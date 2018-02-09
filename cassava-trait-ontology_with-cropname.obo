@@ -3049,7 +3049,7 @@ id: CO_334:0000362
 name: cassava ease of peeling root cortex trait
 def: "Ease of root cortex removal" [CO:curators]
 synonym: "easepl" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0000364
@@ -3112,7 +3112,7 @@ id: CO_334:0000373
 name: cassava fufu content trait
 def: "Fufu weight" [CO:curators]
 synonym: "fufucnt" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000374
@@ -3120,7 +3120,7 @@ name: cassava gari content trait
 def: "Gari content" [CO:curators]
 synonym: "GarCt" EXACT []
 synonym: "Gari Content - Cassavabase" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000375
@@ -3134,14 +3134,14 @@ id: CO_334:0000376
 name: cassava gari weight after drying trait
 def: "Weight after drying cassava flakes" [CO:curators]
 synonym: "gdrywt" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000377
 name: cassava gari weight after grinding trait
 def: "Weight after grinding" [CO:curators]
 synonym: "wtagrind" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000378
@@ -3399,7 +3399,7 @@ id: CO_334:0000417
 name: cassava number of rotten stem trait
 def: "Number of rotten stem" [CO:curators]
 synonym: "RotStmNo" EXACT []
-is_a: TO:0000597 
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_334:0000418
@@ -3413,7 +3413,7 @@ name: cassava number of stakes
 def: "Number of plantable stakes" [CO:curators]
 synonym: "Plantable stem number" EXACT []
 synonym: "stkno" EXACT []
-is_a: TO:0000597
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_334:0000420
@@ -3434,7 +3434,7 @@ id: CO_334:0000422
 name: cassava peel weight trait
 def: "Peel weight" [CO:curators]
 synonym: "peelwt" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0000427
@@ -3511,7 +3511,7 @@ name: cassava poundability trait
 def: "Poundability (mealiness of boiled roots)" [CO:curators]
 synonym: "mealiness" EXACT []
 synonym: "pd" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0000438
@@ -3796,7 +3796,7 @@ id: CO_334:0000484
 name: cassava stock weight trait
 def: "Fresh weight of the planted part anchoring the storage root" [CO:curators]
 synonym: "stkwt" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0000279 ! root weight trait
 
 [Term]
 id: CO_334:0000485
@@ -3871,7 +3871,7 @@ id: CO_334:0000494
 name: cassava stump weight trait
 def: "Weight of stump" [CO:curators]
 synonym: "StumpWt" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0000495
@@ -3892,14 +3892,14 @@ id: CO_334:0000497
 name: cassava gari swelling capacity trait
 def: "Swelling capacity of gari sample" [CO:curators]
 synonym: "swelling" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000498
 name: cassava taste of boiled roots trait
 def: "Taste of boiled roots" [CO:curators]
 synonym: "pdtas" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000499
@@ -3913,7 +3913,7 @@ id: CO_334:0000500
 name: cassava total carotenoid retention trait
 def: "Total caroteneoid content after cooking" [CO:curators]
 synonym: "CaroRet" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0000501
@@ -3940,7 +3940,7 @@ id: CO_334:0000504
 name: cassava weight of mashed cassava cake trait
 def: "Weight of mashed cassava cake" [CO:curators]
 synonym: "wtamash" EXACT []
-is_a: TO:0001042  ! root quality trait
+is_a: TO:0001041  ! root yield trait
 
 [Term]
 id: CO_334:0000505
