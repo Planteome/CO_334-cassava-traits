@@ -284,14 +284,14 @@ is_a: TO:0000439 ! fungal disease resistance
 [Term]
 id: CO_334:0000039
 name: cassava mosaic disease incidence trait
-def: "Proportion of plants within a plot showing  symptoms of cassava mosaic disease" [CO:curators]
+def: "Proportion of plants within a plot showing symptoms of cassava mosaic disease" [CO:curators]
 synonym: "cmdi" EXACT []
 is_a: TO:0000148  ! viral disease resistance
 
 [Term]
 id: CO_334:0000040
 name: cassava brown streak disease leaf incidence trait
-def: "Proportion of plants within a plot showing  symptoms of cassava brown streak disease" [CO:curators]
+def: "Proportion of plants within a plot showing symptoms of cassava brown streak disease" [CO:curators]
 synonym: "cbsdli" EXACT []
 is_a: TO:0000148  ! viral disease resistance
 
@@ -3035,7 +3035,7 @@ id: CO_334:0000360
 name: cassava disc color trait
 def: "Color of disc" [CO:curators]
 synonym: "discol" EXACT []
-is_a: TO:1000019 ! disk flower color
+is_a: 
 
 [Term]
 id: CO_334:0000361
@@ -3420,14 +3420,14 @@ id: CO_334:0000420
 name: cassava number of terminal branches with inflorescence trait
 def: "Number of terminal branches with inflorescence" [CO:curators]
 synonym: "TermBrnchNo" EXACT []
-is_a: TO:0000582
+is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_334:0000421
 name: cassava ovary color trait
 def: "Color of ovary" [CO:curators]
 synonym: "ovryco" EXACT []
-is_a: TO:1000016
+is_a: TO:1000016 ! plant ovary color
 
 [Term]
 id: CO_334:0000422
@@ -3441,28 +3441,28 @@ id: CO_334:0000427
 name: cassava petiole color trait
 def: "Petiole color" [CO:curators]
 synonym: "petcol" EXACT []
-is_a: TO:0002707
+is_a: TO:0002707 ! petiole color
 
 [Term]
 id: CO_334:0000428
 name: cassava petiole insertion angle trait
 def: "Angle between branch and petiole" [CO:curators]
 synonym: "petang" EXACT []
-is_a: TO:0000765
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_334:0000429
 name: cassava petiole length trait
 def: "petiole length" [CO:curators]
 synonym: "PetLng" EXACT []
-is_a: TO:0000766
+is_a: TO:0000766 ! petiole length
 
 [Term]
 id: CO_334:0000430
 name: cassava petiole orientation trait
 def: "petiole orientation" [CO:curators]
 synonym: "PetOrt" EXACT []
-is_a: TO:0000765
+is_a: TO:0000765 ! petiole morphology trait
 
 [Term]
 id: CO_334:0000431
@@ -3470,21 +3470,21 @@ name: cassava plant architecture trait
 def: "Plant architecture" [CO:curators]
 synonym: "Plant Architecture - Cassavabase" EXACT []
 synonym: "PlntArch" EXACT []
-is_a: TO:0000398
+is_a: TO:0000398 ! whole plant morphology trait
 
 [Term]
 id: CO_334:0000432
 name: cassava plant height trait
 def: "Height of plant at harvest from ground level to top of canopy" [CO:curators]
 synonym: "pltht" EXACT []
-is_a: TO:0000207
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_334:0000433
 name: cassava plant shape trait
 def: "Shape of plant" [CO:curators]
 synonym: "pltshp" EXACT []
-is_a: TO:0000398
+is_a: TO:0000398 ! whole plant morphology trait
 
 [Term]
 id: CO_334:0000434
@@ -3503,7 +3503,7 @@ id: CO_334:0000436
 name: cassava ploidy trait
 def: "Ploidy level (n = 1,2,3,4 ) (by morphological characteristics)" [CO:curators]
 synonym: "ploidy" EXACT []
-is_a: TO:0000392
+is_a: TO:0000392 ! sterility or fertility trait
 
 [Term]
 id: CO_334:0000437
@@ -3525,7 +3525,7 @@ id: CO_334:0000439
 name: cassava proportion of female flower trait
 def: "Proportion of female flower" [CO:curators]
 synonym: "FFlwProp" EXACT []
-is_a: TO:0000987
+is_a: TO:0000987 ! pistillate flower number trait
 
 [Term]
 id: CO_334:0000440
@@ -3539,14 +3539,14 @@ id: CO_334:0000441
 name: cassava proportion of plant with inflorescence trait
 def: "Proportion of plants per plot that have an inflorescence at varying growth stages. Plant with pollinated and unpollinated flowers are all counted together" [CO:curators]
 synonym: "pnoinf" EXACT []
-is_a: TO:0000582
+is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_334:0000442
 name: cassava protein content trait
 def: "Protein content" [CO:curators]
 synonym: "protei" EXACT []
-is_a: TO:0000598
+is_a: TO:0000598 ! protein content
 
 [Term]
 id: CO_334:0000443
@@ -3589,7 +3589,7 @@ id: CO_334:0000450
 name: cassava root length trait
 def: "Root length" [CO:curators]
 synonym: "RtLng" EXACT []
-is_a: TO:0000227
+is_a: TO:0000227 ! root length
 
 [Term]
 id: CO_334:0000451
@@ -3654,7 +3654,7 @@ id: CO_334:0000459
 name: cassava seed color trait
 def: "Main color of seed" [CO:curators]
 synonym: "seedco" EXACT []
-is_a: TO:0000486
+is_a: TO:0000486 ! seed color
 
 [Term]
 id: CO_334:0000460
@@ -3674,14 +3674,14 @@ id: CO_334:0000462
 name: cassava sepal color trait
 def: "Color of sepals" [CO:curators]
 synonym: "splcol" EXACT []
-is_a: TO:0000573
+is_a: TO:0000573 ! sepal color
 
 [Term]
 id: CO_334:0000463
 name: cassava sooty mould trait
 def: "Balck mould" [CO:curators]
 synonym: "sooty" EXACT []
-is_a: TO:0000439
+is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_334:0000464
@@ -3717,35 +3717,35 @@ id: CO_334:0000473
 name: cassava stalk length trait
 def: "Stalk length" [CO:curators]
 synonym: "StkLng" EXACT []
-is_a: TO:0000920
+is_a: TO:0000576 ! stem length
 
 [Term]
 id: CO_334:0000474
 name: cassava starch content trait
 def: "Starch content" [CO:curators]
 synonym: "starch" EXACT []
-is_a: TO:0000696
+is_a: TO:0000696 ! starch content
 
 [Term]
 id: CO_334:0000475
 name: cassava stem color trait
 def: "Stem color" [CO:curators]
 synonym: "stmcol" EXACT []
-is_a: TO:0000056
+is_a: TO:0000056 ! stem color
 
 [Term]
 id: CO_334:0000476
 name: cassava stem cortex color trait
 def: "Color of stem cortex" [CO:curators]
 synonym: "stmctcol" EXACT []
-is_a: TO:1000017
+is_a: TO:1000017 ! stem cortex color
 
 [Term]
 id: CO_334:0000477
 name: cassava stem epidermis color trait
 def: "Color of stem epidermis" [CO:curators]
 synonym: "stmepcol" EXACT []
-is_a: TO:1000018
+is_a: TO:1000018 stem epidermis color
 
 [Term]
 id: CO_334:0000478
@@ -3753,14 +3753,14 @@ name: cassava stem height trait
 def: "Plant height without leaf corresponding to the stem portion without leaf" [CO:curators]
 synonym: "Stem height" EXACT []
 synonym: "StmHt" EXACT []
-is_a: TO:0000576
+is_a: TO:0000576 stem length
 
 [Term]
 id: CO_334:0000479
 name: cassava stem number trait
 def: "Number of stem" [CO:curators]
 synonym: "StmNo" EXACT []
-is_a: TO:0000953
+is_a: TO:0000953 ! stem number
 
 [Term]
 id: CO_334:0000480
@@ -3768,28 +3768,28 @@ name: cassava stem weight trait
 def: "Weight of harvested plant biomass excluding leaves" [CO:curators]
 synonym: "Stem yield" EXACT []
 synonym: "StmYld" EXACT []
-is_a: TO:0000952
+is_a: TO:0000952 ! stem weight
 
 [Term]
 id: CO_334:0000481
 name: cassava stigma color trait
 def: "Color of stigma" [CO:curators]
 synonym: "stgmco" EXACT []
-is_a: TO:0000185
+is_a: TO:0000185 ! stigma color
 
 [Term]
 id: CO_334:0000482
 name: cassava stipule margin trait
 def: "Observation of stipule's margin" [CO:curators]
 synonym: "StpMrgShp" EXACT []
-is_a: TO:0000754
+is_a: TO:0000754 ! cardinal organ part morphology trait
 
 [Term]
 id: CO_334:0000483
 name: cassava stipules length trait
 def: "Length of stipules" [CO:curators]
 synonym: "stipgt" EXACT []
-is_a: TO:1000020
+is_a: TO:1000020 ! stipule length
 
 [Term]
 id: CO_334:0000484
@@ -3819,7 +3819,7 @@ id: CO_334:0000487
 name: cassava storage root diameter trait
 def: "Storage root diameter" [CO:curators]
 synonym: "rtdiam" EXACT []
-is_a: TO:1000006
+is_a: TO:1000006 ! tuberous root tuber diameter
 
 [Term]
 id: CO_334:0000488
@@ -3878,7 +3878,7 @@ id: CO_334:0000495
 name: cassava sugar content trait
 def: "Sugar content" [CO:curators]
 synonym: "sugar" EXACT []
-is_a: TO:0000333
+is_a: TO:0000333 ! sugar content
 
 [Term]
 id: CO_334:0000496
@@ -3906,7 +3906,7 @@ id: CO_334:0000499
 name: cassava tip shoot weight trait
 def: "Tip shoot weight" [CO:curators]
 synonym: "TipShWt" EXACT []
-is_a: TO:0000568
+is_a: TO:0000568 ! shoot axis weight
 
 [Term]
 id: CO_334:0000500
@@ -3927,7 +3927,7 @@ id: CO_334:0000502
 name: cassava tuberous root cyanide content trait
 def: "Cyanide content in storage roots" [CO:curators]
 synonym: "RtCyanC" EXACT []
-is_a: TO:0000465
+is_a: TO:0000955 ! cyanide content
 
 [Term]
 id: CO_334:0000503
@@ -3961,7 +3961,7 @@ id: CO_334:0000507
 name: cassava zinc content trait
 def: "Zinc content" [CO:curators]
 synonym: "zn" EXACT []
-is_a: TO:0020090
+is_a: TO:1000050 ! root system zinc content
 
 
 [Term]
