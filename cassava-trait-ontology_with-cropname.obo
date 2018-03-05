@@ -3035,7 +3035,7 @@ id: CO_334:0000360
 name: cassava disc color trait
 def: "Color of disc" [CO:curators]
 synonym: "discol" EXACT []
-is_a: 
+is_a: TO:0000754 ! cardinal organ part morphology trait
 
 [Term]
 id: CO_334:0000361
@@ -3413,7 +3413,7 @@ name: cassava number of stakes
 def: "Number of plantable stakes" [CO:curators]
 synonym: "Plantable stem number" EXACT []
 synonym: "stkno" EXACT []
-is_a: TO:0000597 ! plant quality trait
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_334:0000420
