@@ -3745,7 +3745,7 @@ id: CO_334:0000477
 name: cassava stem epidermis color trait
 def: "Color of stem epidermis" [CO:curators]
 synonym: "stmepcol" EXACT []
-is_a: TO:1000018 stem epidermis color
+is_a: TO:1000018 ! stem epidermis color
 
 [Term]
 id: CO_334:0000478
@@ -3753,7 +3753,7 @@ name: cassava stem height trait
 def: "Plant height without leaf corresponding to the stem portion without leaf" [CO:curators]
 synonym: "Stem height" EXACT []
 synonym: "StmHt" EXACT []
-is_a: TO:0000576 stem length
+is_a: TO:0000576 ! stem length
 
 [Term]
 id: CO_334:0000479
