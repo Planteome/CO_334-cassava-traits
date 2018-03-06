@@ -2942,7 +2942,7 @@ id: CO_334:0000295
 name: cassava branching habit trait
 def: "Branching habit" [CO:curators]
 synonym: "brnhbt" EXACT []
-is_a: TO:0000740 ! branch morphology trait
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000296
@@ -3796,7 +3796,7 @@ id: CO_334:0000484
 name: cassava stock weight trait
 def: "Fresh weight of the planted part anchoring the storage root" [CO:curators]
 synonym: "stkwt" EXACT []
-is_a: TO:0000279 ! root weight trait
+is_a: TO:0000985 ! root system morphology trait
 
 [Term]
 id: CO_334:0000485
