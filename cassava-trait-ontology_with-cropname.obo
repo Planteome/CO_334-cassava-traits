@@ -3105,7 +3105,7 @@ id: CO_334:0000372
 name: cassava fruit set presence trait
 def: "Fruit set" [CO:curators]
 synonym: "frtset" EXACT []
-is_a: TO:0002640 ! fruit set trait
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_334:0000373
@@ -3386,7 +3386,7 @@ id: CO_334:0000415
 name: cassava number of fruitset trait
 def: "Number of fruits formed after pollination" [CO:curators]
 synonym: "flwfrt" EXACT []
-is_a: TO:0002640 ! fruit set trait
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_334:0000416
