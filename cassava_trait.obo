@@ -152,9 +152,8 @@ name: harvest index variable
 namespace: cassava_trait
 def: "Proportion of fresh root weight in total biomass." [CO:curators]
 synonym: "HI" EXACT []
-xref: ICASS_TRAITID:10045
-xref: TO:0000128 "Plant trait ontology"
 is_a: CO_334:0001000 ! Variables
+xref: TO:0000128
 relationship: derives_from CO_334:0000013 ! fresh root yield
 relationship: derives_from CO_334:0000017 ! top yield
 relationship: variable_of CO_334:0000267 ! Harvest index
