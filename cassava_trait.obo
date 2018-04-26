@@ -5784,6 +5784,19 @@ name: Methods
 namespace: CassavaMethod
 
 [Term]
+id: CO_334:0002001
+name: number of plant with rotten root counting
+namespace: cassava_trait
+def: "Number of plant stand harvested with rotten root" []
+synonym: "pltrot" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000434 ! Plant Stands Harvested
+relationship: variable_of CO_334:0010284 ! Counting:Plant Stands Harvested_method
+relationship: variable_of CO_334:0100490 ! Plant
+created_by: aafolabi
+creation_date: 2018-04-24T10:07:21Z
+
+[Term]
 id: CO_334:0010000
 name: measurement: plant height with leaf_method
 namespace: CassavaMethod
