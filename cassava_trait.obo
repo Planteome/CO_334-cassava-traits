@@ -152,8 +152,8 @@ name: harvest index variable
 namespace: cassava_trait
 def: "Proportion of fresh root weight in total biomass." [CO:curators]
 synonym: "HI" EXACT []
-is_a: CO_334:0001000 ! Variables
 xref: TO:0000128
+is_a: CO_334:0001000 ! Variables
 relationship: derives_from CO_334:0000013 ! fresh root yield
 relationship: derives_from CO_334:0000017 ! top yield
 relationship: variable_of CO_334:0000267 ! Harvest index
@@ -5781,6 +5781,22 @@ namespace: CassavaScale
 id: CO_334:0001002
 name: Methods
 namespace: CassavaMethod
+
+[Term]
+id: CO_334:0001012
+name: Softness of boiled cassava roots
+namespace: cassava_trait
+def: "Mechanical attribute of boiled cassava roots relating to force required to make them compressed" []
+is_a: CO_334:0000004 ! Quality trait
+
+
+[Term]
+id: CO_334:0001016
+name: Softness of boiled cassava roots in newtons
+namespace: cassava_trait
+def: "Use of a penetrometer to record the maximum force used to penetrate the boiled root, measured in newtons." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001012 ! Softness of boiled cassava roots
 
 [Term]
 id: CO_334:0010000
