@@ -5784,12 +5784,23 @@ name: Methods
 namespace: CassavaMethod
 
 [Term]
+id: CO_334:0002001
+name: number of plant with rotten root counting
+namespace: cassava_trait
+def: "Number of plant stand harvested with rotten root" []
+synonym: "pltrot" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000434 ! Plant Stands Harvested
+relationship: variable_of CO_334:0010284 ! Counting:Plant Stands Harvested_method
+relationship: variable_of CO_334:0100490 ! Plant
+created_by: aafolabi
+creation_date: 2018-04-24T10:07:21Z
+
 id: CO_334:0001012
 name: Softness of boiled cassava roots
 namespace: cassava_trait
 def: "Mechanical attribute of boiled cassava roots relating to force required to make them compressed" []
 is_a: CO_334:0000004 ! Quality trait
-
 
 [Term]
 id: CO_334:0001016
