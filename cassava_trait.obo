@@ -5814,21 +5814,25 @@ creation_date: 2018-04-24T10:07:21Z
 [Term]
 id: CO_334:0002002
 name: Peel thickness
+namespace: cassava_trait
 is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0002003
 name: In-ground storability
+namespace: cassava_trait
 is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0002004
 name: Early bulking
+namespace: cassava_trait
 is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0002005
 name: Weed tolerance
+namespace: cassava_trait
 is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
