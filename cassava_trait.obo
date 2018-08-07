@@ -5812,6 +5812,70 @@ created_by: aafolabi
 creation_date: 2018-04-24T10:07:21Z
 
 [Term]
+id: CO_334:0002002
+name: Peel thickness
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0002003
+name: In-ground storability
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0002004
+name: Early bulking
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0002005
+name: Weed tolerance
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0002006
+name: peel thickness measurement in cm
+namespace: cassava_trait
+def: "Thickness of cassava peel after peeling it off the cortex" []
+synonym: "peeltk" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002002 ! Peel thickness
+relationship: variable_of CO_334:0010472 ! Measurement:Peel thickness_method
+relationship: variable_of CO_334:0100558 ! cm
+
+[Term]
+id: CO_334:0002007
+name: in-ground storability visual rating 0-3
+namespace: cassava_trait
+def: "Duration of underground storage of cassava without signs of rot or deterioration" []
+synonym: "igstor" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002003 ! In-ground storability
+relationship: variable_of CO_334:0010473 ! Visual Rating:In-ground storability_method
+relationship: variable_of CO_334:0100502 ! 4pt scale
+
+[Term]
+id: CO_334:0002008
+name: early bulking visual rating 0-3
+namespace: cassava_trait
+def: "time taken for storage roots to begin to accumulate and store starch in the root" []
+synonym: "bulkrt" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002004 ! Early bulking
+relationship: variable_of CO_334:0010474 ! Visual Rating:Early bulking_method
+relationship: variable_of CO_334:0100502 ! 4pt scale
+
+[Term]
+id: CO_334:0002009
+name: weed tolerance visual rating 0-3
+namespace: cassava_trait
+def: "Ability of cassava plant to withstand weed infestation without or with minimal negative effect on the growth performance and yield of the plant." []
+synonym: "weedtl" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002005 ! Weed tolerance
+relationship: variable_of CO_334:0010475 ! Visual Rating:Weed tolerance_method
+relationship: variable_of CO_334:0100502 ! 4pt scale
+
+[Term]
 id: CO_334:0010000
 name: measurement: plant height with leaf_method
 namespace: CassavaMethod
@@ -7940,6 +8004,34 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000482 ! Stipule margin
 
 [Term]
+id: CO_334:0010472
+name: Measurement:Peel thickness_method
+namespace: CassavaMethod
+def: "Measurement of peel thickness using vernier caliper" []
+is_a: CO_334:0001002 ! Methods
+
+[Term]
+id: CO_334:0010473
+name: Visual Rating:In-ground storability_method
+namespace: CassavaMethod
+def: "Visual rating of the duration of underground storage of cassava roots without sig of deterioration or rot" []
+is_a: CO_334:0001002 ! Methods
+
+[Term]
+id: CO_334:0010474
+name: Visual Rating:Early bulking_method
+namespace: CassavaMethod
+def: "Visual rating of the assessment of time taken for storage root to begin to accumulate and store starch" []
+is_a: CO_334:0001002 ! Methods
+
+[Term]
+id: CO_334:0010475
+name: Visual Rating:Weed tolerance_method
+namespace: CassavaMethod
+def: "Visual rating of the ability of palnt to withstand weed infestation without or with minimal effect." []
+is_a: CO_334:0001002 ! Methods
+
+[Term]
 id: CO_334:0100000
 name: 3pt scale
 namespace: CassavaScale
@@ -8363,6 +8455,9 @@ name: 4pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010296 ! Sensory Assesment :Poundability_method
+relationship: scale_of CO_334:0010473 ! Visual Rating:In-ground storability_method
+relationship: scale_of CO_334:0010474 ! Visual Rating:Early bulking_method
+relationship: scale_of CO_334:0010475 ! Visual Rating:Weed tolerance_method
 
 [Term]
 id: CO_334:0100503
@@ -8653,6 +8748,7 @@ relationship: scale_of CO_334:0010396 ! Measurement :leaf scar level_method
 relationship: scale_of CO_334:0010418 ! Measurement :leaf lobe length_method
 relationship: scale_of CO_334:0010419 ! Measurement :leaf lobe width_method
 relationship: scale_of CO_334:0010464 ! Measurement :petiole length_method
+relationship: scale_of CO_334:0010472 ! Measurement:Peel thickness_method
 
 [Term]
 id: CO_334:0100559
