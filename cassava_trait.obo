@@ -200,9 +200,11 @@ id: CO_334:0000019
 name: storage root size visual rating 1-7
 namespace: cassava_trait
 def: "Visual rating of storage root size with 3 = short, 5 = medium, and 7 = long." [CO:curators]
+synonym: "Ease of digging out root form the soil" EXACT []
 synonym: "RtLng_VisScg_1to7" EXACT []
 synonym: "rtsz" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000492 ! Storage Root Size
 relationship: variable_of CO_334:0010288 ! Visual Rating: Storage root size_method
 relationship: variable_of CO_334:0100494 ! 7pt scale
@@ -5878,6 +5880,12 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002005 ! Weed tolerance
 relationship: variable_of CO_334:0010475 ! Visual Rating: Weed tolerance_method
 relationship: variable_of CO_334:0100502 ! 4pt scale
+
+[Term]
+id: CO_334:0002010
+name: Farmer trait
+def: "Farmer's description of breeder's trait as used in Participatory Vaerietal Selection (PVS) study" []
+is_a: CO_334:0000000 ! CGIAR cassava trait ontology
 
 [Term]
 id: CO_334:0010000
