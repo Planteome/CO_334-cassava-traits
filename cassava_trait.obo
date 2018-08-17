@@ -78,10 +78,12 @@ id: CO_334:0000009
 name: initial vigor assessment 1-7
 namespace: cassava_trait
 def: "Visual assessment of plant vigor during establishment scored one month after planting. 3 = Not vigorous, 5 = Medium vigor, 7 = highly vigorous." [CO:curators]
+synonym: "Can't fall when there is strong wind" EXACT []
 synonym: "IVig_IITAVisScg_1to7" EXACT []
 synonym: "vigor" EXACT []
 xref: TO:0000250
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000386 ! Initial vigor
 relationship: variable_of CO_334:0010228 ! Visual Rating: Initial vigor_method
 relationship: variable_of CO_334:0100434 ! 7 pt scale
@@ -127,9 +129,12 @@ id: CO_334:0000013
 name: fresh root yield
 namespace: cassava_trait
 def: "Fresh weight of harvested roots expressed in tons per hectares (t/ha) per plant." [CO:curators]
+synonym: "Can easily fill a sack or the truck" EXACT []
+synonym: "Can provide at least ten cassava tubers per plant stand" EXACT []
 synonym: "fyld" EXACT []
 synonym: "RtYld_Fresh_tha" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000456 ! Root yield
 relationship: variable_of CO_334:0010329 ! Calculation: Fresh root yield_method
 relationship: variable_of CO_334:0100535 ! t/ha
@@ -745,7 +750,9 @@ namespace: cassava_trait
 def: "Part of tuber root that cannot be digested by humans estimated in percentage (%)." [CO:curators]
 synonym: "FibCt_Meas_pct" EXACT []
 synonym: "fibre" EXACT []
+synonym: "Longer varieties has less fibre in them" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000366 ! Fibre content
 relationship: variable_of CO_334:0010373 ! Estimation: Fibre content_method
 relationship: variable_of CO_334:0100583 ! Pct (%)
@@ -829,7 +836,9 @@ namespace: cassava_trait
 def: "Mealiness of boiled cassava storage root rating as 0 = Non poundable, 1 = slightly poundable, 2 = poundable, 3 = very poundable." [CO:curators]
 synonym: "pd" EXACT []
 synonym: "Pd_SensScg_1to4" EXACT []
+synonym: "Soft and easy to eat for a toothless or weak tooth person" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000437 ! Poundability
 relationship: variable_of CO_334:0010296 ! Sensory Assesment: Poundability_method
 relationship: variable_of CO_334:0100502 ! 4pt scale
@@ -956,9 +965,11 @@ id: CO_334:0000085
 name: taste of boiled root rating 1-3
 namespace: cassava_trait
 def: "Taste of boiled root rating as 1 = sweet, 2 = bland, and 3 = bitter." [CO:curators]
+synonym: "Has a taste that cannot even be refused by the pigs. When it is bitter, the pigs rejects it." EXACT []
 synonym: "pdtas" EXACT []
 synonym: "RtTast_SensClsn_1to3" EXACT []
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000498 ! Taste of boiled roots
 relationship: variable_of CO_334:0010297 ! Gustation: Taste of boiled roots_method
 relationship: variable_of CO_334:0100503 ! 3pt scale
@@ -1038,7 +1049,9 @@ namespace: cassava_trait
 def: "Percentage dry matter storage root." [CO:curators]
 synonym: "dm" EXACT []
 synonym: "DMCt_Comp_r" EXACT []
+synonym: "Water content" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010300 ! Estimation: Root dry matter content_method
 relationship: variable_of CO_334:0100582 ! ratio
@@ -1850,7 +1863,9 @@ namespace: cassava_trait
 def: "Percentage dry matter content estimated from the specific gravity value of weighted cassava (4-5kg)." [CO:curators]
 synonym: "DMCt_Est_kg" EXACT []
 synonym: "dmspg" EXACT []
+synonym: "Water content" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method_method
 relationship: variable_of CO_334:0100493 ! kg
@@ -2567,9 +2582,11 @@ id: CO_334:0000220
 name: initial plant vigor assessment 1-5
 namespace: cassava_trait
 def: "Visual assessment of plant vigor during establishment (1=very little vigor, and 5 = very vigorous). as being evaluated by CIAT." [CO:curators]
+synonym: "Can't fall when there is strong wind" EXACT []
 synonym: "IVig_CIATVisScg_1to5" EXACT []
 synonym: "vigour" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000386 ! Initial vigor
 relationship: variable_of CO_334:0010435 ! Visual Rating: Initial plant vigor_method
 relationship: variable_of CO_334:0100641 ! 2pt scale
@@ -3092,8 +3109,10 @@ id: CO_334:0000264
 name: plant shape visual assessment 1-4
 namespace: cassava_trait
 def: "Visual assessment of the shape of plant. Record the frequent occurrence on the plot.. Scored as 1= Compact, 2 = Open, 3 = Umbrella, 4 = Cylindrical." [CO:curators]
+synonym: "Ability to form a forest" EXACT []
 synonym: "pltshp" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000433 ! Plant shape
 relationship: variable_of CO_334:0010470 ! Visual Observation: Plant shape_method
 relationship: variable_of CO_334:0100676 ! 4pt scale
@@ -3848,7 +3867,7 @@ creation_date: 2017-06-26T12:02:41Z
 
 [Term]
 id: CO_334:0000345
-name: Female flower number at branching level 1 counting
+name: female flower number at branching level 1 counting
 namespace: cassava_trait
 def: "Count of number of female flowers at the first branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -3858,7 +3877,7 @@ creation_date: 2017-06-26T12:05:00Z
 
 [Term]
 id: CO_334:0000346
-name: Female flower number at branching level 2 counting
+name: female flower number at branching level 2 counting
 namespace: cassava_trait
 def: "Count of number of female flowers at the second branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -3868,7 +3887,7 @@ creation_date: 2017-06-26T12:05:00Z
 
 [Term]
 id: CO_334:0000347
-name: Female flower number at branching level 3 counting
+name: female flower number at branching level 3 counting
 namespace: cassava_trait
 def: "Count of number of female flowers at the third branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -3878,7 +3897,7 @@ creation_date: 2017-06-26T12:05:00Z
 
 [Term]
 id: CO_334:0000348
-name: Female flower number at branching level 4 counting
+name: female flower number at branching level 4 counting
 namespace: cassava_trait
 def: "Count of number of female flowers at the forth branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -3888,7 +3907,7 @@ creation_date: 2017-06-26T12:05:00Z
 
 [Term]
 id: CO_334:0000349
-name: Female flower number at branching level 5 counting
+name: female flower number at branching level 5 counting
 namespace: cassava_trait
 def: "Count of number of female flowers at the fifth branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -3898,7 +3917,7 @@ creation_date: 2017-06-26T12:05:00Z
 
 [Term]
 id: CO_334:0000350
-name: Female flower number at branching level 6 counting
+name: female flower number at branching level 6 counting
 namespace: cassava_trait
 def: "Count of number of female flowers at the sixth branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -3917,7 +3936,7 @@ creation_date: 2017-07-11T10:55:33Z
 
 [Term]
 id: CO_334:0000352
-name: Number of nodes at branching level 1 counting
+name: number of nodes at branching level 1 counting
 namespace: cassava_trait
 def: "Number of nodes at the first branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -4018,7 +4037,7 @@ is_a: CO_334:0000333 ! Root morphological trait
 
 [Term]
 id: CO_334:0000363
-name: Number of nodes at branching level 2 counting
+name: number of nodes at branching level 2 counting
 namespace: cassava_trait
 def: "Number of nodes at the second branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -4064,7 +4083,7 @@ is_a: CO_334:0000336 ! Flower and flowering morphological trait
 
 [Term]
 id: CO_334:0000368
-name: Number of nodes at branching level 3 counting
+name: number of nodes at branching level 3 counting
 namespace: cassava_trait
 def: "Number of nodes at the third branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -4201,7 +4220,7 @@ is_a: CO_334:0000002 ! Morphological trait
 
 [Term]
 id: CO_334:0000383
-name: Number of nodes at branching level 4 counting
+name: number of nodes at branching level 4 counting
 namespace: cassava_trait
 def: "Number of nodes at the fourth branching level." []
 is_a: CO_334:0001000 ! Variables
@@ -4967,7 +4986,7 @@ is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0000467
-name: Days to first forking event visual observation
+name: days to first forking event visual observation
 namespace: cassava_trait
 def: "Visual observation of when (actual date in the format of dd/mm/yyyy from the date of planting) first forking event occured." [CO:curator]
 is_a: CO_334:0001000 ! Variables
@@ -5853,8 +5872,11 @@ id: CO_334:0002007
 name: in-ground storability visual rating 0-3
 namespace: cassava_trait
 def: "Duration of underground storage of cassava without signs of rot or deterioration" []
+synonym: "Can stay in the farm for a long time" EXACT []
+synonym: "Does not create urgent need for harvesting" EXACT []
 synonym: "igstor" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0002003 ! In-ground storability
 relationship: variable_of CO_334:0010473 ! Visual Rating: In-ground storability_method
 relationship: variable_of CO_334:0100502 ! 4pt scale
@@ -5865,7 +5887,9 @@ name: early bulking visual rating 0-3
 namespace: cassava_trait
 def: "time taken for storage roots to begin to accumulate and store starch in the root" []
 synonym: "bulkrt" EXACT []
+synonym: "Matures quickly and rot if harvesting is delayed" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0002004 ! Early bulking
 relationship: variable_of CO_334:0010474 ! Visual Rating: Early bulking_method
 relationship: variable_of CO_334:0100502 ! 4pt scale
