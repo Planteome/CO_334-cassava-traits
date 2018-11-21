@@ -2898,7 +2898,7 @@ relationship: variable_of CO_334:0100657 ! kg/g
 
 [Term]
 id: CO_334:0000246
-name: gari weight after drying
+name: gari weight after drying in kg/g
 namespace: cassava_trait
 def: "weight of cassava in kilogram per gram (kg/g) after drying using the frying pan." [CO:curators]
 synonym: "GariDryWt_Meas_kgg" EXACT []
@@ -5912,6 +5912,261 @@ def: "Farmer's description of breeder's trait as used in Participatory Vaerietal
 is_a: CO_334:0000000 ! CGIAR cassava trait ontology
 
 [Term]
+id: CO_334:0002011
+name: yield visual rating 1-3
+namespace: cassava_trait
+def: "Visual rating of how good the fresh root yield is. 1 = low 2= moderate 3 = high" []
+synonym: "yldQ" EXACT []
+xref: CO_curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000456 ! Root yield
+relationship: variable_of CO_334:0010476 ! Visual Rating: Yield rating_method
+relationship: variable_of CO_334:0100000 ! 3pt scale
+
+[Term]
+id: CO_334:0002012
+name: dry matter visual rating 1-3
+namespace: cassava_trait
+def: "Visual rating of dry matter content of fresh cassava root. 1 = low, 2 = moderate, 3 = high." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000447 ! Dry matter content
+relationship: variable_of CO_334:0010477 ! Visual Rating: Dry matter rating_method
+relationship: variable_of CO_334:0100000 ! 3pt scale
+
+[Term]
+id: CO_334:0002013
+name: fufu initial weight in kg
+namespace: cassava_trait
+def: "Initial weight of cassava root in kilogram(kg), before processing into fufu." []
+synonym: "fufuinwt" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000373 ! Fufu content
+relationship: variable_of CO_334:0010478 ! Measurement: Fufu initial weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002014
+name: fufu peel weight in kg
+namespace: cassava_trait
+def: "Weight of root peels for processing fufu in kilogram (kg)." []
+synonym: "fufuplwt" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000373 ! Fufu content
+relationship: variable_of CO_334:0010479 ! Measurement: Fufu peel weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002015
+name: fufu peeled root weight in kg
+namespace: cassava_trait
+def: "Weight of peeled of cassava root in kilogram(kg) before processing into fufu." []
+synonym: "fufuplrtwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000373 ! Fufu content
+relationship: variable_of CO_334:0010480 ! Measurement: Fufu peeled root weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002016
+name: fufu fibre weight in g
+namespace: cassava_trait
+def: "Weight of oven dried fibre in kilogram(kg), after washing soaked root." []
+synonym: "fufufibwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000373 ! Fufu content
+relationship: variable_of CO_334:0010481 ! Measurement: Fufu fibre weight_method
+relationship: variable_of CO_334:0100623 ! g
+
+[Term]
+id: CO_334:0002017
+name: fufu mash weight in kg
+namespace: cassava_trait
+def: "Weight of root in kilogram (kg) after grinding for processing fufu." []
+synonym: "fufumshwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000373 ! Fufu content
+relationship: variable_of CO_334:0010482 ! Measurement: Fufu mash weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002018
+name: fufu pressed weight in kg
+namespace: cassava_trait
+def: "Weight of pressed mash (grinded root) in kilogram (kg)." []
+synonym: "fufuprwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000373 ! Fufu content
+relationship: variable_of CO_334:0010483 ! Measurement: Fufu pressed weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002019
+name: fufu dry weight in kg
+namespace: cassava_trait
+def: "Weight of oven dried fufu in kilogram (kg)." []
+synonym: "fufudrywt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000373 ! Fufu content
+relationship: variable_of CO_334:0010484 ! Measurement: Fufu dry weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002020
+name: gari initial weight in kg
+namespace: cassava_trait
+def: "Initial weight of root in kilogram (kg) before processing into gari." []
+synonym: "garinwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000374 ! Gari content
+relationship: variable_of CO_334:0010485 ! Measurement: gari initial weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002021
+name: gari peel weight in kg
+namespace: cassava_trait
+def: "Weight of cassava peels in kilogram (kg) for before processing into gari" []
+synonym: "gariplwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000374 ! Gari content
+relationship: variable_of CO_334:0010486 ! Measurement: gari peel weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002022
+name: gari peeled root weight in kg
+namespace: cassava_trait
+def: "Weight of peeled roots in kilogram for processing into gari." []
+synonym: "gariplrtwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000374 ! Gari content
+relationship: variable_of CO_334:0010487 ! Measurement: gari peeled root weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002023
+name: gari mash weight in kg
+namespace: cassava_trait
+def: "Weight of root in kilogram (kg) after grinding for processing into gari" []
+synonym: "garimashwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000374 ! Gari content
+relationship: variable_of CO_334:0010488 ! Measurement: gari mash weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002024
+name: gari pressed weight in kg
+namespace: cassava_trait
+def: "Weight of pressed mash in kilogram (kg) for processing into gari." []
+synonym: "gariprwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000374 ! Gari content
+relationship: variable_of CO_334:0010489 ! Measurement: gari pressed weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002025
+name: gari pulverised weight in kg
+namespace: cassava_trait
+def: "Weight of pulverized mash in kilogram (kg)" []
+synonym: "gariplvwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000374 ! Gari content
+relationship: variable_of CO_334:0010490 ! Measurement: gari pulverised weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002026
+name: gari fried weight in kg
+namespace: cassava_trait
+def: "Weight of gari in kilogram (kg) after frying and sieving." []
+synonym: "garifrwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000374 ! Gari content
+relationship: variable_of CO_334:0010491 ! Measurement: gari fried weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002027
+name: gari shaft coarse weight in g
+namespace: cassava_trait
+def: "Weight of shaft in gram using coarse sieve for gari." []
+synonym: "garicoshfwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000375 ! Gari shaft weight
+relationship: variable_of CO_334:0010492 ! Measurement: gari shaft weight coarse_method
+relationship: variable_of CO_334:0100623 ! g
+
+[Term]
+id: CO_334:0002028
+name: gari shaft medium weight in g
+namespace: cassava_trait
+def: "Weight of shaft in gram using medium sieve for gari." []
+synonym: "garimdshfwt" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+
+[Term]
+id: CO_334:0002029
+name: Remote Sensing
+def: "Remote sensing related traits." []
+xref: CO:curator
+is_a: CO_334:0000000 ! CGIAR cassava trait ontology
+
+[Term]
+id: CO_334:0002030
+name: Plot volume
+namespace: cassava_trait
+def: "Volume derived from probability distribution (Weibull)." []
+xref: CO:curator
+is_a: CO_334:0002029 ! Remote Sensing
+
+[Term]
+id: CO_334:0002031
+name: Plant height per plot
+namespace: cassava_trait
+def: "Plant height calculated from result of drone image analysis." []
+xref: CO:curator
+is_a: CO_334:0002029 ! Remote Sensing
+
+[Term]
+id: CO_334:0002032
+name: plot volume in m3
+namespace: cassava_trait
+def: "Volume of a plot measured in m3, using Weibull's continuous probability distribution for deriving the scale and shape parameters. It is calculated as the sum of all z-values (the height of every point in the point cloud) multiplied by 0.01 and 0.01 (every pixel is 1cm resolution)." []
+synonym: "plotvol" EXACT []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002030 ! Plot volume
+
+[Term]
+id: CO_334:0002033
+name: plant height per plot in m
+namespace: cassava_trait
+def: "Plant height calculated from the mean of the 5% highest point in a plot point cloud (top 95 percentile)." []
+synonym: "plantht" RELATED []
+xref: CO:curator
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002031 ! Plant height per plot
+
+[Term]
 id: CO_334:0010000
 name: measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -8068,6 +8323,186 @@ def: "Visual rating of the ability of palnt to withstand weed infestation withou
 is_a: CO_334:0001002 ! Methods
 
 [Term]
+id: CO_334:0010476
+name: Visual Rating: Yield rating_method
+namespace: CassavaMethod
+def: "Visual rating of the yield of freshly harvested cassava root." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000456 ! Root yield
+
+[Term]
+id: CO_334:0010477
+name: Visual Rating: Dry matter rating_method
+namespace: CassavaMethod
+def: "Visual rating of the dry matter content of fresh cassava root." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000424 ! Root dry matter content
+
+[Term]
+id: CO_334:0010478
+name: Measurement: Fufu initial weight_method
+namespace: CassavaMethod
+def: "Weigh root sample before processing into fufu" []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000373 ! Fufu content
+
+[Term]
+id: CO_334:0010479
+name: Measurement: Fufu peel weight_method
+namespace: CassavaMethod
+def: "Weigh cassava root peels before processing into fufu." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000373 ! Fufu content
+
+[Term]
+id: CO_334:0010480
+name: Measurement: Fufu peeled root weight_method
+namespace: CassavaMethod
+def: "Weigh cassava roots after peeling for proocessing fufu." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000373 ! Fufu content
+
+[Term]
+id: CO_334:0010481
+name: Measurement: Fufu fibre weight_method
+namespace: CassavaMethod
+def: "Weigh oven dired fibre after washing soaked root for fufu." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000373 ! Fufu content
+
+[Term]
+id: CO_334:0010482
+name: Measurement: Fufu mash weight_method
+namespace: CassavaMethod
+def: "Weigh cassava roots after grinding for processing fufu." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000373 ! Fufu content
+
+[Term]
+id: CO_334:0010483
+name: Measurement: Fufu pressed weight_method
+namespace: CassavaMethod
+def: "Weigh pressed cassava mash." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000373 ! Fufu content
+
+[Term]
+id: CO_334:0010484
+name: Measurement: Fufu dry weight_method
+namespace: CassavaMethod
+def: "Weigh oven dried fufu" []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000373 ! Fufu content
+
+[Term]
+id: CO_334:0010485
+name: Measurement: gari initial weight_method
+namespace: CassavaMethod
+def: "Weigh sample roots before processing into gari" []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000374 ! Gari content
+
+[Term]
+id: CO_334:0010486
+name: Measurement: gari peel weight_method
+namespace: CassavaMethod
+def: "Weigh cassva root peels before processing into gari." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000374 ! Gari content
+
+[Term]
+id: CO_334:0010487
+name: Measurement: gari peeled root weight_method
+namespace: CassavaMethod
+def: "Weigh peeled cassava roots before processing into gari." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000374 ! Gari content
+
+[Term]
+id: CO_334:0010488
+name: Measurement: gari mash weight_method
+namespace: CassavaMethod
+def: "Weigh grinded roots (mash) to be processed into gari." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000374 ! Gari content
+
+[Term]
+id: CO_334:0010489
+name: Measurement: gari pressed weight_method
+namespace: CassavaMethod
+def: "Weigh pressed mash (grinded root)." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000374 ! Gari content
+
+[Term]
+id: CO_334:0010490
+name: Measurement: gari pulverised weight_method
+namespace: CassavaMethod
+def: "Weigh mashed (grinded) pulverised cassava root." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000374 ! Gari content
+
+[Term]
+id: CO_334:0010491
+name: Measurement: gari fried weight_method
+namespace: CassavaMethod
+def: "Weigh gari after frying and sieving." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000374 ! Gari content
+
+[Term]
+id: CO_334:0010492
+name: Measurement: gari shaft weight coarse_method
+namespace: CassavaMethod
+def: "Weigh gari shaft using coarse sieve." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000375 ! Gari shaft weight
+
+[Term]
+id: CO_334:0010493
+name: Measurement: gari shaft weight medium_method
+namespace: CassavaMethod
+def: "Weigh gari shaft using medium sieve." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000375 ! Gari shaft weight
+
+[Term]
+id: CO_334:0010494
+name: Calculation: Plot volume_method
+namespace: CassavaMethod
+def: "Plot volume calculated using the sum of all z-values (the height of every point in the point cloud) multiplied by 0.01 X 0.01. Estimates are derived from Weibull's distribution." []
+xref: CO:curator
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002030 ! Plot volume
+
+[Term]
+id: CO_334:0010495
+name: Calculation: Plant height per plot_method
+namespace: CassavaMethod
+def: "Height of plant calculated from the mean of the 5% highest points in a plot point cloud." []
+xref: CO:curator
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002031 ! Plant height per plot
+
+[Term]
 id: CO_334:0100000
 name: 3pt scale
 namespace: CassavaScale
@@ -9309,6 +9744,18 @@ name: 2pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010471 ! Visual Observation: Stipule margin_method
+
+[Term]
+id: CO_334:0100678
+name: cubic meter
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100679
+name: m
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
 
 [Typedef]
 id: derives_from
