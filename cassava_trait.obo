@@ -271,7 +271,7 @@ synonym: "petlgt" EXACT []
 synonym: "PtlLng_VisScg_0to7" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000429 ! Petiole length
-relationship: variable_of CO_334:0010344 ! Visual Rating :Petiole Length_method
+relationship: variable_of CO_334:0010344 ! Visual Rating: Petiole Length_method
 relationship: variable_of CO_334:0100550 ! 4 pt scale
 
 [Term]
@@ -501,7 +501,7 @@ synonym: "petang" EXACT []
 synonym: "PtlAng_VisScg_0to7" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000428 ! Petiole Insertion Angle
-relationship: variable_of CO_334:0010343 ! Visual Rating :Petiole Insertion Angle_method
+relationship: variable_of CO_334:0010343 ! Visual Rating: Petiole Insertion Angle_method
 relationship: variable_of CO_334:0100549 ! 7pt scale
 
 [Term]
@@ -573,7 +573,7 @@ synonym: "RtPos_VisClsn_1to3" EXACT []
 synonym: "rtpost" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000453 ! Root Position
-relationship: variable_of CO_334:0010364 ! Visual Rating :Root position_method
+relationship: variable_of CO_334:0010364 ! Visual Rating: Root position_method
 relationship: variable_of CO_334:0100570 ! 3pt scale
 
 [Term]
@@ -609,7 +609,7 @@ synonym: "RtDia_VisScg_1to7" EXACT []
 synonym: "rtdiam" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000487 ! Storage Root Diameter
-relationship: variable_of CO_334:0010365 ! Visual Rating :Storage root diameter_method
+relationship: variable_of CO_334:0010365 ! Visual Rating: Storage root diameter_method
 relationship: variable_of CO_334:0100571 ! 7pt scale
 
 [Term]
@@ -633,7 +633,7 @@ synonym: "stgmco" EXACT []
 synonym: "StgmCol_VisClsn_1to5" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000481 ! Stigma Color
-relationship: variable_of CO_334:0010355 ! Visual Rating :Stigma color_method
+relationship: variable_of CO_334:0010355 ! Visual Rating: Stigma color_method
 relationship: variable_of CO_334:0100561 ! 5pt scale
 
 [Term]
@@ -669,7 +669,7 @@ synonym: "SepCol_VisClsn_1to5" EXACT []
 synonym: "splcol" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000462 ! Sepal Color
-relationship: variable_of CO_334:0010353 ! Visual Rating :Sepal color_method
+relationship: variable_of CO_334:0010353 ! Visual Rating: Sepal color_method
 relationship: variable_of CO_334:0100559 ! 5pt scale
 
 [Term]
@@ -705,7 +705,7 @@ synonym: "SdCol_VisClsn_1to5" EXACT []
 synonym: "seedco" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000459 ! Seed color
-relationship: variable_of CO_334:0010362 ! Visual Rating :Seed color_method
+relationship: variable_of CO_334:0010362 ! Visual Rating: Seed color_method
 relationship: variable_of CO_334:0100568 ! 5pt scale
 
 [Term]
@@ -1305,7 +1305,7 @@ synonym: "PldLvl_VisScg_1to4" EXACT []
 synonym: "ploidy" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000436 ! Ploidy
-relationship: variable_of CO_334:0010361 ! Visual Rating :Ploidy_method
+relationship: variable_of CO_334:0010361 ! Visual Rating: Ploidy_method
 relationship: variable_of CO_334:0100567 ! 4pt scale
 
 [Term]
@@ -1389,7 +1389,7 @@ synonym: "intcrp" EXACT []
 synonym: "InterCrpSuit_VisClsn_0or1" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000496 ! Suitability for intercropping
-relationship: variable_of CO_334:0010333 ! Visual Rating :Suitability for intercropping_method
+relationship: variable_of CO_334:0010333 ! Visual Rating: Suitability for intercropping_method
 relationship: variable_of CO_334:0100539 ! 2pt scale
 
 [Term]
@@ -6027,7 +6027,7 @@ synonym: "garinwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000374 ! Gari content
-relationship: variable_of CO_334:0010485 ! Measurement: gari initial weight_method
+relationship: variable_of CO_334:0010485 ! Measurement: Gari initial weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -6039,7 +6039,7 @@ synonym: "gariplwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000374 ! Gari content
-relationship: variable_of CO_334:0010486 ! Measurement: gari peel weight_method
+relationship: variable_of CO_334:0010486 ! Measurement: Gari peel weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -6051,7 +6051,7 @@ synonym: "gariplrtwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000374 ! Gari content
-relationship: variable_of CO_334:0010487 ! Measurement: gari peeled root weight_method
+relationship: variable_of CO_334:0010487 ! Measurement: Gari peeled root weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -6063,7 +6063,7 @@ synonym: "garimashwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000374 ! Gari content
-relationship: variable_of CO_334:0010488 ! Measurement: gari mash weight_method
+relationship: variable_of CO_334:0010488 ! Measurement: Gari mash weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -6075,7 +6075,7 @@ synonym: "gariprwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000374 ! Gari content
-relationship: variable_of CO_334:0010489 ! Measurement: gari pressed weight_method
+relationship: variable_of CO_334:0010489 ! Measurement: Gari pressed weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -6087,7 +6087,7 @@ synonym: "gariplvwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000374 ! Gari content
-relationship: variable_of CO_334:0010490 ! Measurement: gari pulverised weight_method
+relationship: variable_of CO_334:0010490 ! Measurement: Gari pulverised weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -6099,7 +6099,7 @@ synonym: "garifrwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000374 ! Gari content
-relationship: variable_of CO_334:0010491 ! Measurement: gari fried weight_method
+relationship: variable_of CO_334:0010491 ! Measurement: Gari fried weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -6111,7 +6111,7 @@ synonym: "garicoshfwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000375 ! Gari shaft weight
-relationship: variable_of CO_334:0010492 ! Measurement: gari shaft weight coarse_method
+relationship: variable_of CO_334:0010492 ! Measurement: Gari shaft weight coarse_method
 relationship: variable_of CO_334:0100623 ! g
 
 [Term]
@@ -6122,6 +6122,9 @@ def: "Weight of shaft in gram using medium sieve for gari." []
 synonym: "garimdshfwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000375 ! Gari shaft weight
+relationship: variable_of CO_334:0010493 ! Measurement: Gari shaft weight medium_method
+relationship: variable_of CO_334:0100623 ! g
 
 [Term]
 id: CO_334:0002029
@@ -7184,7 +7187,7 @@ relationship: method_of CO_334:0000456 ! Root yield
 
 [Term]
 id: CO_334:0010333
-name: Visual Rating :Suitability for intercropping_method
+name: Visual Rating: Suitability for intercropping_method
 namespace: CassavaMethod
 def: "Qualitative rating of compatibility for use in intercroping" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -7264,7 +7267,7 @@ relationship: method_of CO_334:0000353 ! Central Leaf Shape
 
 [Term]
 id: CO_334:0010343
-name: Visual Rating :Petiole Insertion Angle_method
+name: Visual Rating: Petiole Insertion Angle_method
 namespace: CassavaMethod
 def: "Trait monitored by observing the angle between branch and petiole" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -7272,7 +7275,7 @@ relationship: method_of CO_334:0000428 ! Petiole Insertion Angle
 
 [Term]
 id: CO_334:0010344
-name: Visual Rating :Petiole Length_method
+name: Visual Rating: Petiole Length_method
 namespace: CassavaMethod
 def: "Visual  rating of the petiole length" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -7344,7 +7347,7 @@ relationship: method_of CO_334:0000293 ! Branch height
 
 [Term]
 id: CO_334:0010353
-name: Visual Rating :Sepal color_method
+name: Visual Rating: Sepal color_method
 namespace: CassavaMethod
 def: "Visual rating of sepal color" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -7360,7 +7363,7 @@ relationship: method_of CO_334:0000360 ! Disc color
 
 [Term]
 id: CO_334:0010355
-name: Visual Rating :Stigma color_method
+name: Visual Rating: Stigma color_method
 namespace: CassavaMethod
 def: "Visual rating of sigma color" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -7408,7 +7411,7 @@ relationship: method_of CO_334:0000371 ! Fruit exocarp texture
 
 [Term]
 id: CO_334:0010361
-name: Visual Rating :Ploidy_method
+name: Visual Rating: Ploidy_method
 namespace: CassavaMethod
 def: "Visual rating of the ploidy level" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -7416,7 +7419,7 @@ relationship: method_of CO_334:0000436 ! Ploidy
 
 [Term]
 id: CO_334:0010362
-name: Visual Rating :Seed color_method
+name: Visual Rating: Seed color_method
 namespace: CassavaMethod
 def: "Trait monitored by observing the color of  the seed" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -7432,7 +7435,7 @@ relationship: method_of CO_334:0000298 ! Caruncle Color
 
 [Term]
 id: CO_334:0010364
-name: Visual Rating :Root position_method
+name: Visual Rating: Root position_method
 namespace: CassavaMethod
 def: "Visual rating of root position in the soil" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -7440,7 +7443,7 @@ relationship: method_of CO_334:0000453 ! Root Position
 
 [Term]
 id: CO_334:0010365
-name: Visual Rating :Storage root diameter_method
+name: Visual Rating: Storage root diameter_method
 namespace: CassavaMethod
 def: "Visual rating of root diameter" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -8405,7 +8408,7 @@ relationship: method_of CO_334:0000373 ! Fufu content
 
 [Term]
 id: CO_334:0010485
-name: Measurement: gari initial weight_method
+name: Measurement: Gari initial weight_method
 namespace: CassavaMethod
 def: "Weigh sample roots before processing into gari" []
 xref: CO:curators
@@ -8414,7 +8417,7 @@ relationship: method_of CO_334:0000374 ! Gari content
 
 [Term]
 id: CO_334:0010486
-name: Measurement: gari peel weight_method
+name: Measurement: Gari peel weight_method
 namespace: CassavaMethod
 def: "Weigh cassva root peels before processing into gari." []
 xref: CO:curators
@@ -8423,7 +8426,7 @@ relationship: method_of CO_334:0000374 ! Gari content
 
 [Term]
 id: CO_334:0010487
-name: Measurement: gari peeled root weight_method
+name: Measurement: Gari peeled root weight_method
 namespace: CassavaMethod
 def: "Weigh peeled cassava roots before processing into gari." []
 xref: CO:curators
@@ -8432,7 +8435,7 @@ relationship: method_of CO_334:0000374 ! Gari content
 
 [Term]
 id: CO_334:0010488
-name: Measurement: gari mash weight_method
+name: Measurement: Gari mash weight_method
 namespace: CassavaMethod
 def: "Weigh grinded roots (mash) to be processed into gari." []
 xref: CO:curators
@@ -8441,7 +8444,7 @@ relationship: method_of CO_334:0000374 ! Gari content
 
 [Term]
 id: CO_334:0010489
-name: Measurement: gari pressed weight_method
+name: Measurement: Gari pressed weight_method
 namespace: CassavaMethod
 def: "Weigh pressed mash (grinded root)." []
 xref: CO:curators
@@ -8450,7 +8453,7 @@ relationship: method_of CO_334:0000374 ! Gari content
 
 [Term]
 id: CO_334:0010490
-name: Measurement: gari pulverised weight_method
+name: Measurement: Gari pulverised weight_method
 namespace: CassavaMethod
 def: "Weigh mashed (grinded) pulverised cassava root." []
 xref: CO:curators
@@ -8459,7 +8462,7 @@ relationship: method_of CO_334:0000374 ! Gari content
 
 [Term]
 id: CO_334:0010491
-name: Measurement: gari fried weight_method
+name: Measurement: Gari fried weight_method
 namespace: CassavaMethod
 def: "Weigh gari after frying and sieving." []
 xref: CO:curators
@@ -8468,7 +8471,7 @@ relationship: method_of CO_334:0000374 ! Gari content
 
 [Term]
 id: CO_334:0010492
-name: Measurement: gari shaft weight coarse_method
+name: Measurement: Gari shaft weight coarse_method
 namespace: CassavaMethod
 def: "Weigh gari shaft using coarse sieve." []
 xref: CO:curators
@@ -8477,7 +8480,7 @@ relationship: method_of CO_334:0000375 ! Gari shaft weight
 
 [Term]
 id: CO_334:0010493
-name: Measurement: gari shaft weight medium_method
+name: Measurement: Gari shaft weight medium_method
 namespace: CassavaMethod
 def: "Weigh gari shaft using medium sieve." []
 xref: CO:curators
@@ -9063,7 +9066,7 @@ id: CO_334:0100539
 name: 2pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010333 ! Visual Rating :Suitability for intercropping_method
+relationship: scale_of CO_334:0010333 ! Visual Rating: Suitability for intercropping_method
 
 [Term]
 id: CO_334:0100540
@@ -9146,14 +9149,14 @@ id: CO_334:0100549
 name: 7pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010343 ! Visual Rating :Petiole Insertion Angle_method
+relationship: scale_of CO_334:0010343 ! Visual Rating: Petiole Insertion Angle_method
 
 [Term]
 id: CO_334:0100550
 name: 4 pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010344 ! Visual Rating :Petiole Length_method
+relationship: scale_of CO_334:0010344 ! Visual Rating: Petiole Length_method
 
 [Term]
 id: CO_334:0100551
@@ -9226,7 +9229,7 @@ id: CO_334:0100559
 name: 5pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010353 ! Visual Rating :Sepal color_method
+relationship: scale_of CO_334:0010353 ! Visual Rating: Sepal color_method
 
 [Term]
 id: CO_334:0100560
@@ -9240,7 +9243,7 @@ id: CO_334:0100561
 name: 5pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010355 ! Visual Rating :Stigma color_method
+relationship: scale_of CO_334:0010355 ! Visual Rating: Stigma color_method
 
 [Term]
 id: CO_334:0100562
@@ -9282,14 +9285,14 @@ id: CO_334:0100567
 name: 4pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010361 ! Visual Rating :Ploidy_method
+relationship: scale_of CO_334:0010361 ! Visual Rating: Ploidy_method
 
 [Term]
 id: CO_334:0100568
 name: 5pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010362 ! Visual Rating :Seed color_method
+relationship: scale_of CO_334:0010362 ! Visual Rating: Seed color_method
 
 [Term]
 id: CO_334:0100569
@@ -9303,14 +9306,14 @@ id: CO_334:0100570
 name: 3pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010364 ! Visual Rating :Root position_method
+relationship: scale_of CO_334:0010364 ! Visual Rating: Root position_method
 
 [Term]
 id: CO_334:0100571
 name: 7pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010365 ! Visual Rating :Storage root diameter_method
+relationship: scale_of CO_334:0010365 ! Visual Rating: Storage root diameter_method
 
 [Term]
 id: CO_334:0100572
