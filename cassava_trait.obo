@@ -6171,7 +6171,7 @@ relationship: variable_of CO_334:0002031 ! Plant height per plot
 
 [Term]
 id: CO_334:0002034
-name: Weibull scale
+name: Weibull scale trait
 namespace: cassava_trait
 def: "Parameter of weibull function fitted to the pixel height density distribution of a plot." []
 xref: CO:curator
@@ -6179,7 +6179,7 @@ is_a: CO_334:0002029 ! Remote sensing trait
 
 [Term]
 id: CO_334:0002035
-name: Weibull shape
+name: Weibull shape trait
 namespace: cassava_trait
 def: "Parameter of Weibull function fitted to the pixel height density distribution of a plot." []
 xref: CO:curator
@@ -6187,24 +6187,24 @@ is_a: CO_334:0002029 ! Remote sensing trait
 
 [Term]
 id: CO_334:0002036
-name: weibull fit scale
+name: weibull fit scale variable
 namespace: cassava_trait
 def: "Parameter of Weibull function fitted to the pixel height density distribution of a plot. Weibull fit is described as : y = b/a* (x/a)^b-1 * exp(-(x/a)^b)" []
 synonym: "wscale" EXACT []
 xref: Co:curator
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002034 ! Weibull scale
+relationship: variable_of CO_334:0002034 ! Weibull scale trait
 relationship: variable_of CO_334:0010496 ! Calculation: Weibull function
 
 [Term]
 id: CO_334:0002037
-name: weibull fit shape
+name: weibull fit shape variable
 namespace: cassava_trait
 def: "Parameter of Weibull function fitted to the pixel height density distribution of a plot. Weibull fit is described as : y = b/a * (x/a)^b-1 * exp(-(x/a)^b)" []
 synonym: "wshape" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002035 ! Weibull shape
+relationship: variable_of CO_334:0002035 ! Weibull shape trait
 relationship: variable_of CO_334:0010496 ! Calculation: Weibull function
 
 [Term]
@@ -8551,8 +8551,8 @@ namespace: CO_334:0010496
 def: "Weibull continous probability distribution" []
 xref: CO:curator
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0002034 ! Weibull scale
-relationship: method_of CO_334:0002035 ! Weibull shape
+relationship: method_of CO_334:0002034 ! Weibull scale trait
+relationship: method_of CO_334:0002035 ! Weibull shape trait
 
 [Term]
 id: CO_334:0100000
