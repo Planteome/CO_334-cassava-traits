@@ -2774,7 +2774,7 @@ synonym: "flowinc" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000439 ! Proportion of female flower
 relationship: variable_of CO_334:0010441 ! Counting: Flowering incidence_method
-relationship: variable_of CO_334:0100647 ! Ratio
+relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000236
@@ -8591,33 +8591,6 @@ created_by: AAfolabi
 creation_date: 2015-09-29T14:08:56Z
 
 [Term]
-id: CO_334:0100004
-name: ratio
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010009 ! Estimation: Dry matter content of leaf percentage
-created_by: AAfolabi
-creation_date: 2017-07-18T15:15:13Z
-
-[Term]
-id: CO_334:0100005
-name: ratio
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010010 ! Estimation: Dry matter content of lower stem percentage
-created_by: AAfolabi
-creation_date: 2017-07-18T15:22:30Z
-
-[Term]
-id: CO_334:0100006
-name: ratio
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010011 ! Estimation: Dry matter content of fibrous root percentage
-created_by: AAfolabi
-creation_date: 2017-07-18T15:27:22Z
-
-[Term]
 id: CO_334:0100007
 name: cm square
 namespace: CassavaScale
@@ -9389,6 +9362,9 @@ id: CO_334:0100582
 name: ratio
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010009 ! Estimation: Dry matter content of leaf percentage
+relationship: scale_of CO_334:0010010 ! Estimation: Dry matter content of lower stem percentage
+relationship: scale_of CO_334:0010011 ! Estimation: Dry matter content of fibrous root percentage
 relationship: scale_of CO_334:0010220 ! Counting: Sprouting_method
 relationship: scale_of CO_334:0010236 ! Counting: Cassava mosaic disease incidence 1-month evaluation_method
 relationship: scale_of CO_334:0010237 ! Counting: Cassava mosaic disease incidence 3-month evaluation_method
@@ -9416,6 +9392,7 @@ relationship: scale_of CO_334:0010304 ! Counting: Proportion of lodged plants_me
 relationship: scale_of CO_334:0010324 ! Counting: Red spider mite incidence_method
 relationship: scale_of CO_334:0010326 ! Counting: Spiraling whitefly incidence_method
 relationship: scale_of CO_334:0010376 ! Calculation: Amylose amylopectin ratio_method
+relationship: scale_of CO_334:0010441 ! Counting: Flowering incidence_method
 
 [Term]
 id: CO_334:0100583
@@ -9665,13 +9642,6 @@ name: 9pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010440 ! Visual Rating: Staygreen_method
-
-[Term]
-id: CO_334:0100647
-name: Ratio
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010441 ! Counting: Flowering incidence_method
 
 [Term]
 id: CO_334:0100648
