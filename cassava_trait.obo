@@ -2966,7 +2966,7 @@ synonym: "lrcent" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000252
@@ -2977,7 +2977,7 @@ synonym: "lrcent5" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000253
@@ -2988,7 +2988,7 @@ synonym: "lrcent6" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000254
@@ -2999,7 +2999,7 @@ synonym: "lrcent7" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000255
@@ -3011,7 +3011,7 @@ synonym: "lrcenth" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000256
@@ -9333,6 +9333,11 @@ id: CO_334:0100583
 name: Pct (%)
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
+relationship: scale_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
+relationship: scale_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
+relationship: scale_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
+relationship: scale_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
 relationship: scale_of CO_334:0010313 ! Estimation: Starch content _method
 relationship: scale_of CO_334:0010314 ! Estimation: Moisture content_method
 relationship: scale_of CO_334:0010372 ! Estimation: Protein content_method
@@ -9632,17 +9637,6 @@ name: Stakes
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010456 ! Counting: Number of stakes_method
-
-[Term]
-id: CO_334:0100663
-name: pct(%)
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
-relationship: scale_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
-relationship: scale_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
-relationship: scale_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
-relationship: scale_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
 
 [Term]
 id: CO_334:0100668
