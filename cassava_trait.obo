@@ -3034,7 +3034,7 @@ synonym: "STMDIAM" RELATED []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000480 ! Stem weight
 relationship: variable_of CO_334:0010005 ! Measurement: Stem diameter_method
-relationship: variable_of CO_334:0100003 ! cm
+relationship: variable_of CO_334:0100558 ! cm
 created_by: AAfolabi
 creation_date: 2015-09-28T17:55:20Z
 
@@ -8582,15 +8582,6 @@ created_by: AAfolabi
 creation_date: 2015-09-29T13:58:16Z
 
 [Term]
-id: CO_334:0100003
-name: cm
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010005 ! Measurement: Stem diameter_method
-created_by: AAfolabi
-creation_date: 2015-09-29T14:08:56Z
-
-[Term]
 id: CO_334:0100007
 name: cm square
 namespace: CassavaScale
@@ -9235,6 +9226,7 @@ name: cm
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010000 ! measurement: Plant height with leaf_method
+relationship: scale_of CO_334:0010005 ! Measurement: Stem diameter_method
 relationship: scale_of CO_334:0010303 ! Measurement: Plant height_method
 relationship: scale_of CO_334:0010352 ! Measurement: First apical branch height_method
 relationship: scale_of CO_334:0010384 ! Measurement: Plant height without leaf_method
