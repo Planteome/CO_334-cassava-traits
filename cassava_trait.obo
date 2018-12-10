@@ -5671,7 +5671,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100015 ! Flowers
+relationship: variable_of CO_334:0100606 ! Flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:33:09Z
 
@@ -5683,7 +5683,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100015 ! Flowers
+relationship: variable_of CO_334:0100606 ! Flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:34:25Z
 
@@ -5695,7 +5695,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100015 ! Flowers
+relationship: variable_of CO_334:0100606 ! Flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:35:19Z
 
@@ -8620,15 +8620,6 @@ created_by: AAfolabi
 creation_date: 2017-07-25T16:06:30Z
 
 [Term]
-id: CO_334:0100015
-name: Flowers
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010020 ! Counting: Male flower number by branch level
-created_by: AAfolabi
-creation_date: 2017-07-25T16:41:40Z
-
-[Term]
 id: CO_334:0100017
 name: Fruitset
 namespace: CassavaScale
@@ -9394,6 +9385,7 @@ namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010006 ! Counting: Female flower number all levels_method
 relationship: scale_of CO_334:0010007 ! Counting: Male flower number on all levels_method
+relationship: scale_of CO_334:0010020 ! Counting: Male flower number by branch level
 relationship: scale_of CO_334:0010400 ! Counting: Female flower number_method
 relationship: scale_of CO_334:0010401 ! Counting: Male flower number_method
 
