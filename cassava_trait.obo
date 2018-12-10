@@ -4992,7 +4992,7 @@ def: "Visual observation of when (actual date in the format of dd/mm/yyyy from t
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000449 ! Days to branching event
 relationship: variable_of CO_334:0010013 ! Visual Observation: Days to branching event
-relationship: variable_of CO_334:0100008 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T10:00:07Z
 
@@ -5004,7 +5004,7 @@ def: "Visual observation of when (actual date in the format of dd/mm/yyyy from t
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000449 ! Days to branching event
 relationship: variable_of CO_334:0010013 ! Visual Observation: Days to branching event
-relationship: variable_of CO_334:0100008 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T10:05:36Z
 
@@ -5016,7 +5016,7 @@ def: "Visual observation of when (actual date in the format of dd/mm/yyyy from t
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000449 ! Days to branching event
 relationship: variable_of CO_334:0010013 ! Visual Observation: Days to branching event
-relationship: variable_of CO_334:0100008 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T10:06:51Z
 
@@ -5375,7 +5375,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000471 ! Days to abortion by branching levels
 relationship: variable_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
-relationship: variable_of CO_334:0100009 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:17:03Z
 
@@ -5387,7 +5387,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000471 ! Days to abortion by branching levels
 relationship: variable_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
-relationship: variable_of CO_334:0100009 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:22:50Z
 
@@ -5399,7 +5399,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000471 ! Days to abortion by branching levels
 relationship: variable_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
-relationship: variable_of CO_334:0100009 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:26:48Z
 
@@ -5429,7 +5429,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000512 ! Days to first female flower opens by branch levels
 relationship: variable_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
-relationship: variable_of CO_334:0100010 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:52:02Z
 
@@ -5441,7 +5441,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000512 ! Days to first female flower opens by branch levels
 relationship: variable_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
-relationship: variable_of CO_334:0100010 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:53:47Z
 
@@ -5453,7 +5453,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000512 ! Days to first female flower opens by branch levels
 relationship: variable_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
-relationship: variable_of CO_334:0100010 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:55:08Z
 
@@ -5482,7 +5482,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000517 ! Days to senescence by branch level
 relationship: variable_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
-relationship: variable_of CO_334:0100011 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T12:18:35Z
 
@@ -5494,7 +5494,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000517 ! Days to senescence by branch level
 relationship: variable_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
-relationship: variable_of CO_334:0100011 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T12:24:11Z
 
@@ -5506,7 +5506,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000517 ! Days to senescence by branch level
 relationship: variable_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
-relationship: variable_of CO_334:0100011 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T12:26:27Z
 
@@ -5716,7 +5716,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000538 ! Days to fruitset by branch level
 relationship: variable_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
-relationship: variable_of CO_334:0100016 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T16:50:17Z
 
@@ -5728,7 +5728,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000538 ! Days to fruitset by branch level
 relationship: variable_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
-relationship: variable_of CO_334:0100016 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T16:52:43Z
 
@@ -5740,7 +5740,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000538 ! Days to fruitset by branch level
 relationship: variable_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
-relationship: variable_of CO_334:0100016 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T16:53:21Z
 
@@ -8591,45 +8591,6 @@ created_by: AAfolabi
 creation_date: 2017-07-18T15:37:40Z
 
 [Term]
-id: CO_334:0100008
-name: days
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010013 ! Visual Observation: Days to branching event
-created_by: AAfolabi
-creation_date: 2017-07-25T11:01:57Z
-
-[Term]
-id: CO_334:0100009
-name: days
-namespace: CassavaScale
-def: "Number of days." [CO:curator]
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
-created_by: AAfolabi
-creation_date: 2017-07-25T11:36:23Z
-
-[Term]
-id: CO_334:0100010
-name: days
-namespace: CassavaScale
-def: "Number of days." [CO:curator]
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
-created_by: AAfolabi
-creation_date: 2017-07-25T12:01:42Z
-
-[Term]
-id: CO_334:0100011
-name: days
-namespace: CassavaScale
-def: "Number of days." [CO:curator, XX:<new dbxref>]
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
-created_by: AAfolabi
-creation_date: 2017-07-25T12:28:42Z
-
-[Term]
 id: CO_334:0100012
 name: Branches
 namespace: CassavaScale
@@ -8666,16 +8627,6 @@ is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010020 ! Counting: Male flower number by branch level
 created_by: AAfolabi
 creation_date: 2017-07-25T16:41:40Z
-
-[Term]
-id: CO_334:0100016
-name: days
-namespace: CassavaScale
-def: "Number of days." [CO:curator]
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
-created_by: AAfolabi
-creation_date: 2017-07-25T16:55:59Z
 
 [Term]
 id: CO_334:0100017
@@ -9467,6 +9418,11 @@ name: days
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010008 ! Visual Observation: Days to first male flower opens
+relationship: scale_of CO_334:0010013 ! Visual Observation: Days to branching event
+relationship: scale_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
+relationship: scale_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
+relationship: scale_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
+relationship: scale_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
 relationship: scale_of CO_334:0010367 ! Calculation: Leaf life _method
 relationship: scale_of CO_334:0010398 ! Visual Observation: Days to 50% branching_method
 relationship: scale_of CO_334:0010399 ! Visual Observation: Days to first inflorescence_method
