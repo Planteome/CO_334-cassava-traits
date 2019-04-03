@@ -2774,7 +2774,7 @@ synonym: "flowinc" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000439 ! Proportion of female flower
 relationship: variable_of CO_334:0010441 ! Counting: Flowering incidence_method
-relationship: variable_of CO_334:0100647 ! Ratio
+relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000236
@@ -2966,7 +2966,7 @@ synonym: "lrcent" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000252
@@ -2977,7 +2977,7 @@ synonym: "lrcent5" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000253
@@ -2988,7 +2988,7 @@ synonym: "lrcent6" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000254
@@ -2999,7 +2999,7 @@ synonym: "lrcent7" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000255
@@ -3011,7 +3011,7 @@ synonym: "lrcenth" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
-relationship: variable_of CO_334:0100663 ! pct(%)
+relationship: variable_of CO_334:0100583 ! Pct (%)
 
 [Term]
 id: CO_334:0000256
@@ -3034,7 +3034,7 @@ synonym: "STMDIAM" RELATED []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000480 ! Stem weight
 relationship: variable_of CO_334:0010005 ! Measurement: Stem diameter_method
-relationship: variable_of CO_334:0100003 ! cm
+relationship: variable_of CO_334:0100558 ! cm
 created_by: AAfolabi
 creation_date: 2015-09-28T17:55:20Z
 
@@ -4992,7 +4992,7 @@ def: "Visual observation of when (actual date in the format of dd/mm/yyyy from t
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000449 ! Days to branching event
 relationship: variable_of CO_334:0010013 ! Visual Observation: Days to branching event
-relationship: variable_of CO_334:0100008 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T10:00:07Z
 
@@ -5004,7 +5004,7 @@ def: "Visual observation of when (actual date in the format of dd/mm/yyyy from t
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000449 ! Days to branching event
 relationship: variable_of CO_334:0010013 ! Visual Observation: Days to branching event
-relationship: variable_of CO_334:0100008 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T10:05:36Z
 
@@ -5016,7 +5016,7 @@ def: "Visual observation of when (actual date in the format of dd/mm/yyyy from t
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000449 ! Days to branching event
 relationship: variable_of CO_334:0010013 ! Visual Observation: Days to branching event
-relationship: variable_of CO_334:0100008 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T10:06:51Z
 
@@ -5375,7 +5375,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000471 ! Days to abortion by branching levels
 relationship: variable_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
-relationship: variable_of CO_334:0100009 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:17:03Z
 
@@ -5387,7 +5387,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000471 ! Days to abortion by branching levels
 relationship: variable_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
-relationship: variable_of CO_334:0100009 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:22:50Z
 
@@ -5399,7 +5399,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000471 ! Days to abortion by branching levels
 relationship: variable_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
-relationship: variable_of CO_334:0100009 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:26:48Z
 
@@ -5429,7 +5429,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000512 ! Days to first female flower opens by branch levels
 relationship: variable_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
-relationship: variable_of CO_334:0100010 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:52:02Z
 
@@ -5441,7 +5441,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000512 ! Days to first female flower opens by branch levels
 relationship: variable_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
-relationship: variable_of CO_334:0100010 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:53:47Z
 
@@ -5453,7 +5453,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000512 ! Days to first female flower opens by branch levels
 relationship: variable_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
-relationship: variable_of CO_334:0100010 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T11:55:08Z
 
@@ -5482,7 +5482,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000517 ! Days to senescence by branch level
 relationship: variable_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
-relationship: variable_of CO_334:0100011 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T12:18:35Z
 
@@ -5494,7 +5494,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000517 ! Days to senescence by branch level
 relationship: variable_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
-relationship: variable_of CO_334:0100011 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T12:24:11Z
 
@@ -5506,7 +5506,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000517 ! Days to senescence by branch level
 relationship: variable_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
-relationship: variable_of CO_334:0100011 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T12:26:27Z
 
@@ -5671,7 +5671,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100015 ! Flowers
+relationship: variable_of CO_334:0100606 ! Flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:33:09Z
 
@@ -5683,7 +5683,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100015 ! Flowers
+relationship: variable_of CO_334:0100606 ! Flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:34:25Z
 
@@ -5695,7 +5695,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100015 ! Flowers
+relationship: variable_of CO_334:0100606 ! Flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:35:19Z
 
@@ -5716,7 +5716,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000538 ! Days to fruitset by branch level
 relationship: variable_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
-relationship: variable_of CO_334:0100016 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T16:50:17Z
 
@@ -5728,7 +5728,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000538 ! Days to fruitset by branch level
 relationship: variable_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
-relationship: variable_of CO_334:0100016 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T16:52:43Z
 
@@ -5740,7 +5740,7 @@ def: "Visual observation (actual date in the format of dd/mm/yyyy from the date 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000538 ! Days to fruitset by branch level
 relationship: variable_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
-relationship: variable_of CO_334:0100016 ! days
+relationship: variable_of CO_334:0100611 ! days
 created_by: AAfolabi
 creation_date: 2017-07-25T16:53:21Z
 
@@ -8607,42 +8607,6 @@ created_by: AAfolabi
 creation_date: 2015-09-29T13:58:16Z
 
 [Term]
-id: CO_334:0100003
-name: cm
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010005 ! Measurement: Stem diameter_method
-created_by: AAfolabi
-creation_date: 2015-09-29T14:08:56Z
-
-[Term]
-id: CO_334:0100004
-name: ratio
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010009 ! Estimation: Dry matter content of leaf percentage
-created_by: AAfolabi
-creation_date: 2017-07-18T15:15:13Z
-
-[Term]
-id: CO_334:0100005
-name: ratio
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010010 ! Estimation: Dry matter content of lower stem percentage
-created_by: AAfolabi
-creation_date: 2017-07-18T15:22:30Z
-
-[Term]
-id: CO_334:0100006
-name: ratio
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010011 ! Estimation: Dry matter content of fibrous root percentage
-created_by: AAfolabi
-creation_date: 2017-07-18T15:27:22Z
-
-[Term]
 id: CO_334:0100007
 name: cm square
 namespace: CassavaScale
@@ -8650,45 +8614,6 @@ is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010012 ! Estimation: Total leaf area_method
 created_by: AAfolabi
 creation_date: 2017-07-18T15:37:40Z
-
-[Term]
-id: CO_334:0100008
-name: days
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010013 ! Visual Observation: Days to branching event
-created_by: AAfolabi
-creation_date: 2017-07-25T11:01:57Z
-
-[Term]
-id: CO_334:0100009
-name: days
-namespace: CassavaScale
-def: "Number of days." [CO:curator]
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
-created_by: AAfolabi
-creation_date: 2017-07-25T11:36:23Z
-
-[Term]
-id: CO_334:0100010
-name: days
-namespace: CassavaScale
-def: "Number of days." [CO:curator]
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
-created_by: AAfolabi
-creation_date: 2017-07-25T12:01:42Z
-
-[Term]
-id: CO_334:0100011
-name: days
-namespace: CassavaScale
-def: "Number of days." [CO:curator, XX:<new dbxref>]
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
-created_by: AAfolabi
-creation_date: 2017-07-25T12:28:42Z
 
 [Term]
 id: CO_334:0100012
@@ -8718,25 +8643,6 @@ is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010018 ! Counting: Number of inflorescence by branch level
 created_by: AAfolabi
 creation_date: 2017-07-25T16:06:30Z
-
-[Term]
-id: CO_334:0100015
-name: Flowers
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010020 ! Counting: Male flower number by branch level
-created_by: AAfolabi
-creation_date: 2017-07-25T16:41:40Z
-
-[Term]
-id: CO_334:0100016
-name: days
-namespace: CassavaScale
-def: "Number of days." [CO:curator]
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
-created_by: AAfolabi
-creation_date: 2017-07-25T16:55:59Z
 
 [Term]
 id: CO_334:0100017
@@ -9287,6 +9193,7 @@ name: cm
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010000 ! measurement: Plant height with leaf_method
+relationship: scale_of CO_334:0010005 ! Measurement: Stem diameter_method
 relationship: scale_of CO_334:0010303 ! Measurement: Plant height_method
 relationship: scale_of CO_334:0010352 ! Measurement: First apical branch height_method
 relationship: scale_of CO_334:0010384 ! Measurement: Plant height without leaf_method
@@ -9415,6 +9322,9 @@ id: CO_334:0100582
 name: ratio
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010009 ! Estimation: Dry matter content of leaf percentage
+relationship: scale_of CO_334:0010010 ! Estimation: Dry matter content of lower stem percentage
+relationship: scale_of CO_334:0010011 ! Estimation: Dry matter content of fibrous root percentage
 relationship: scale_of CO_334:0010220 ! Counting: Sprouting_method
 relationship: scale_of CO_334:0010236 ! Counting: Cassava mosaic disease incidence 1-month evaluation_method
 relationship: scale_of CO_334:0010237 ! Counting: Cassava mosaic disease incidence 3-month evaluation_method
@@ -9442,12 +9352,18 @@ relationship: scale_of CO_334:0010304 ! Counting: Proportion of lodged plants_me
 relationship: scale_of CO_334:0010324 ! Counting: Red spider mite incidence_method
 relationship: scale_of CO_334:0010326 ! Counting: Spiraling whitefly incidence_method
 relationship: scale_of CO_334:0010376 ! Calculation: Amylose amylopectin ratio_method
+relationship: scale_of CO_334:0010441 ! Counting: Flowering incidence_method
 
 [Term]
 id: CO_334:0100583
 name: Pct (%)
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
+relationship: scale_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
+relationship: scale_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
+relationship: scale_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
+relationship: scale_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
 relationship: scale_of CO_334:0010313 ! Estimation: Starch content _method
 relationship: scale_of CO_334:0010314 ! Estimation: Moisture content_method
 relationship: scale_of CO_334:0010372 ! Estimation: Protein content_method
@@ -9500,6 +9416,7 @@ namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010006 ! Counting: Female flower number all levels_method
 relationship: scale_of CO_334:0010007 ! Counting: Male flower number on all levels_method
+relationship: scale_of CO_334:0010020 ! Counting: Male flower number by branch level
 relationship: scale_of CO_334:0010400 ! Counting: Female flower number_method
 relationship: scale_of CO_334:0010401 ! Counting: Male flower number_method
 
@@ -9524,6 +9441,11 @@ name: days
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010008 ! Visual Observation: Days to first male flower opens
+relationship: scale_of CO_334:0010013 ! Visual Observation: Days to branching event
+relationship: scale_of CO_334:0010014 ! Visual Observation: Days to abortion by branching level
+relationship: scale_of CO_334:0010015 ! Visual Observation: Days to first female flower opens by branch levels
+relationship: scale_of CO_334:0010016 ! Visual Observation: Days to senescence by branch level
+relationship: scale_of CO_334:0010021 ! Visual Observation: Days to fruitset by branch level
 relationship: scale_of CO_334:0010367 ! Calculation: Leaf life _method
 relationship: scale_of CO_334:0010398 ! Visual Observation: Days to 50% branching_method
 relationship: scale_of CO_334:0010399 ! Visual Observation: Days to first inflorescence_method
@@ -9693,13 +9615,6 @@ is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010440 ! Visual Rating: Staygreen_method
 
 [Term]
-id: CO_334:0100647
-name: Ratio
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010441 ! Counting: Flowering incidence_method
-
-[Term]
 id: CO_334:0100648
 name: 5pt scale
 namespace: CassavaScale
@@ -9748,17 +9663,6 @@ name: Stakes
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010456 ! Counting: Number of stakes_method
-
-[Term]
-id: CO_334:0100663
-name: pct(%)
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
-relationship: scale_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
-relationship: scale_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
-relationship: scale_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
-relationship: scale_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
 
 [Term]
 id: CO_334:0100668
