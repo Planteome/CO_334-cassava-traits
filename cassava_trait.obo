@@ -6208,6 +6208,26 @@ relationship: variable_of CO_334:0002035 ! Weibull shape trait
 relationship: variable_of CO_334:0010496 ! Calculation: Weibull function
 
 [Term]
+id: CO_334:0002038
+name: canopy width in cm
+namespace: cassava_trait
+def: "Width of casava leaf canopy measure in centimeter (cm) using metric ruler" []
+synonym: "canwidth" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002039 ! Canopy width
+relationship: variable_of CO_334:0100558 ! cm
+
+[Term]
+id: CO_334:0002039
+name: Canopy width
+namespace: cassava_trait
+def: "Width of cassava leaf canopy" []
+synonym: "canwidth" EXACT []
+synonym: "canwidth_cm" RELATED []
+is_a: CO_334:0000002 ! Morphological trait
+
+[Term]
 id: CO_334:0010000
 name: measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -8555,6 +8575,11 @@ relationship: method_of CO_334:0002034 ! Weibull scale trait
 relationship: method_of CO_334:0002035 ! Weibull shape trait
 
 [Term]
+id: CO_334:0010497
+name: Measurement: Canopy width_method
+is_a: CO_334:0001002 ! Methods
+
+[Term]
 id: CO_334:0100000
 name: 3pt scale
 namespace: CassavaScale
@@ -9179,6 +9204,7 @@ relationship: scale_of CO_334:0010418 ! Measurement: Leaf lobe length_method
 relationship: scale_of CO_334:0010419 ! Measurement: Leaf lobe width_method
 relationship: scale_of CO_334:0010464 ! Measurement: Petiole length_method
 relationship: scale_of CO_334:0010472 ! Measurement: Peel thickness_method
+relationship: scale_of CO_334:0010497 ! Measurement: Canopy width_method
 
 [Term]
 id: CO_334:0100559
