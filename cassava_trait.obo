@@ -6216,6 +6216,7 @@ synonym: "canwidth" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002039 ! Canopy width
+relationship: variable_of CO_334:0010497 ! Measurement: Canopy width_method
 relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
