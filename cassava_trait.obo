@@ -86,7 +86,7 @@ is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000386 ! Initial vigor
 relationship: variable_of CO_334:0010228 ! Visual Rating: Initial vigor_method
-relationship: variable_of CO_334:0100434 ! 7 pt scale
+relationship: variable_of CO_334:0100434 ! 7pt scale
 
 [Term]
 id: CO_334:0000010
@@ -871,10 +871,11 @@ relationship: variable_of CO_334:0100540 ! 3pt scale
 id: CO_334:0000077
 name: post-harvest physiological deterioration variable 0-10
 namespace: cassava_trait
-def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale." [CO:curators]
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration" [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
 relationship: variable_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
+relationship: variable_of CO_334:0100680 ! 11pt scale
 
 [Term]
 id: CO_334:0000078
@@ -1378,7 +1379,7 @@ synonym: "LfShp_VisClsn_1to6" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000353 ! Central Leaf Shape
 relationship: variable_of CO_334:0010342 ! Visual Rating: Central leaf shape_method
-relationship: variable_of CO_334:0100548 ! 10 pt scale
+relationship: variable_of CO_334:0100548 ! 10pt scale
 
 [Term]
 id: CO_334:0000120
@@ -1828,7 +1829,7 @@ def: "Weight of cassava root samples usually between 4-5kg of each of the harves
 synonym: "RtWt_DryWgh_kg" EXACT []
 synonym: "rwtair" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000493 ! Storage root weight
+relationship: variable_of CO_334:0000302 ! Storage root weight by plot
 relationship: variable_of CO_334:0010415 ! Measurement: Root weight in air_method
 relationship: variable_of CO_334:0100493 ! kg
 
@@ -1840,7 +1841,7 @@ def: "Weight obtained by suspending same root sample initially weighed in air, i
 synonym: "RtWt_WtrWgh_kg" EXACT []
 synonym: "rwtwat" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000493 ! Storage root weight
+relationship: variable_of CO_334:0000302 ! Storage root weight by plot
 relationship: variable_of CO_334:0010416 ! Measurement: Root weight in water_method
 relationship: variable_of CO_334:0100493 ! kg
 
@@ -2257,7 +2258,7 @@ relationship: variable_of CO_334:0100437 ! 5 pt scale
 id: CO_334:0000193
 name: cassava mosaic disease severity 9-month evaluation
 namespace: cassava_trait
-def: "Visual rating of symptoms caused by cassava mosaic virus,in the family Geminiviridae and genus Begomovirus , evaluated between seven and nine months after planting. Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased." [CO:curators]
+def: "Visual rating of symptoms caused by cassava mosaic virus,in the family Geminiviridae and genus Begomovirus , evaluated between seven and nine months after planting.  Symptoms rated from 1 = (clean, no infection), 2= Up to 25% leaf area chlorotic, mild leaf distortion, no stunting, 3 = 25-50% leaf area chlorotic, moderate leaf distortion, no stunting, 4 = 50-75% leaf area chlorotic, severe leaf distortion, moderate stunting, 5 = 75 - 100% leaf area chlorotic, severe leaf distortion, small leaflets (almost no lamina), severe stunting." [CO:curators]
 synonym: "cmd9s" EXACT []
 synonym: "CMDisSev_VisScg_1to5_T9m" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -2916,7 +2917,7 @@ def: "This is the weight of fresh roots cassava washed  in water.It is measured 
 synonym: "RtWt_WashWgh_kg" EXACT []
 synonym: "wtwash" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000493 ! Storage root weight
+relationship: variable_of CO_334:0000302 ! Storage root weight by plot
 relationship: variable_of CO_334:0010444 ! Measurement: Root weight after washing_method
 relationship: variable_of CO_334:0100493 ! kg
 
@@ -2928,7 +2929,7 @@ def: "This is weight of the peeled washed  cassava roots in kilogram (kg) using 
 synonym: "RtWt_PeelWgh_kg" EXACT []
 synonym: "rwtapl" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000493 ! Storage root weight
+relationship: variable_of CO_334:0000302 ! Storage root weight by plot
 relationship: variable_of CO_334:0010445 ! Measurement: Root weight after peel_method
 relationship: variable_of CO_334:0100493 ! kg
 
@@ -4245,7 +4246,7 @@ name: dry matter content of lower stem percentage
 namespace: cassava_trait
 def: "Ratio of measured lower stem dry weight and lower stem fresh weight multiplied by 100." [CO:curator]
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000447 ! Dry matter content
+relationship: variable_of CO_334:0002040 ! Leaf dry matter content
 relationship: variable_of CO_334:0010010 ! Estimation: Dry matter content of lower stem percentage
 created_by: AAfolabi
 creation_date: 2017-07-18T14:49:00Z
@@ -4589,7 +4590,7 @@ name: dry matter content of leaf percentage
 namespace: cassava_trait
 def: "Ratio of measured leaf dry weight and leaf fresh weight multiplied by 100." [CO:curator]
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000447 ! Dry matter content
+relationship: variable_of CO_334:0002040 ! Leaf dry matter content
 relationship: variable_of CO_334:0010009 ! Estimation: Dry matter content of leaf percentage
 created_by: AAfolabi
 creation_date: 2017-07-18T14:52:38Z
@@ -5560,7 +5561,7 @@ id: CO_334:0000525
 name: Number of inflorescence by branch level
 namespace: cassava_trait
 def: "Number of inflorescence at specific branching level." [CO:curator]
-is_a: CO_334:0000359 ! Days to first inflorescence
+is_a: CO_334:0000336 ! Flower and flowering morphological trait
 created_by: AAfolabi
 creation_date: 2017-07-25T15:54:07Z
 
@@ -5930,7 +5931,7 @@ namespace: cassava_trait
 def: "Visual rating of dry matter content of fresh cassava root. 1 = low, 2 = moderate, 3 = high." []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000447 ! Dry matter content
+relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010477 ! Visual Rating: Dry matter rating_method
 relationship: variable_of CO_334:0100000 ! 3pt scale
 
@@ -6227,6 +6228,15 @@ def: "Width of cassava leaf canopy" []
 synonym: "canwidth" EXACT []
 synonym: "canwidth_cm" RELATED []
 is_a: CO_334:0000002 ! Morphological trait
+
+[Term]
+id: CO_334:0002040
+name: Leaf dry matter content
+namespace: cassava_trait
+def: "Dry matter content of leaf" []
+synonym: "lfdmc" EXACT []
+xref: CO:curators
+is_a: CO_334:0000447 ! Dry matter content
 
 [Term]
 id: CO_334:0010000
@@ -8656,7 +8666,7 @@ creation_date: 2017-07-25T17:06:23Z
 
 [Term]
 id: CO_334:0100434
-name: 7 pt scale
+name: 7pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010228 ! Visual Rating: Initial vigor_method
@@ -9120,7 +9130,7 @@ relationship: scale_of CO_334:0010341 ! Visual Rating: Leaf lobe position_method
 
 [Term]
 id: CO_334:0100548
-name: 10 pt scale
+name: 10pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010342 ! Visual Rating: Central leaf shape_method
@@ -9360,11 +9370,6 @@ id: CO_334:0100583
 name: Pct (%)
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
-relationship: scale_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
-relationship: scale_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
-relationship: scale_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
-relationship: scale_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
 relationship: scale_of CO_334:0010313 ! Estimation: Starch content _method
 relationship: scale_of CO_334:0010314 ! Estimation: Moisture content_method
 relationship: scale_of CO_334:0010372 ! Estimation: Protein content_method
@@ -9379,6 +9384,11 @@ relationship: scale_of CO_334:0010423 ! Estimation: Cis 9_method
 relationship: scale_of CO_334:0010424 ! Estimation: B crypto_method
 relationship: scale_of CO_334:0010430 ! Calculation: Percent of rotten roots_method
 relationship: scale_of CO_334:0010452 ! Estimation: Gari starch_method
+relationship: scale_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
+relationship: scale_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
+relationship: scale_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
+relationship: scale_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
+relationship: scale_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
 
 [Term]
 id: CO_334:0100586
@@ -9739,6 +9749,19 @@ id: CO_334:0100679
 name: m
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100680
+name: 11pt scale
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100681
+name: m3
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010494 ! Calculation: Plot volume_method
 
 [Typedef]
 id: derives_from
