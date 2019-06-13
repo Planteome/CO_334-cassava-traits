@@ -8578,7 +8578,6 @@ relationship: method_of CO_334:0002031 ! Plant height per plot
 id: CO_334:0010496
 name: Calculation: Weibull function
 namespace: CassavaMethod
-namespace: CO_334:0010496
 def: "Weibull continous probability distribution" []
 xref: CO:curator
 is_a: CO_334:0001002 ! Methods
@@ -8587,6 +8586,7 @@ relationship: method_of CO_334:0002035 ! Weibull shape trait
 
 [Term]
 id: CO_334:0010497
+namespace: CassavaMethod
 name: Measurement: Canopy width_method
 is_a: CO_334:0001002 ! Methods
 
