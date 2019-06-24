@@ -6239,6 +6239,68 @@ xref: CO:curators
 is_a: CO_334:0000447 ! Dry matter content
 
 [Term]
+id: CO_334:0002041
+name: Cassava rust disease severity
+namespace: cassava_trait
+def: "Severity of symptom caused by Uromyces manihots in leaves" []
+synonym: "crds" EXACT []
+xref: CO:curators
+is_a: CO_334:0000028 ! viral disease
+
+[Term]
+id: CO_334:0002042
+name: Cassava rust disease incidence
+namespace: cassava_trait
+def: "Proportion of plants in a plot with symptom of Uromyces manihots" []
+synonym: "crdi" EXACT []
+xref: CO:curators
+is_a: CO_334:0000028 ! viral disease
+
+[Term]
+id: CO_334:0002043
+name: cassava rust disease severity evaluation
+namespace: cassava_trait
+def: "Visual rating of symptoms caused by Uromyces specie in cassava leaf. Symptom rated from 1 = clean, no infection, 2 = Up to 25% leaf area symptomatic, 3 = 25-50% leaf area symptomatic, 4 = 50-75% leaf area symptomatic, 5 = 75-100% leaf area symptomatic." []
+synonym: "crds" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002041 ! Cassava rust disease severity
+relationship: variable_of CO_334:0010500 ! Visual Observation: Cassava rust disease severity_method
+relationship: variable_of CO_334:0100682 ! 5 pt scale
+
+[Term]
+id: CO_334:0002044
+name: cassava rust disease incidence evaluation
+namespace: cassava_trait
+def: "Proportion of plant in a plot with symptom of Uromyces manihot symptom. It is scored as a ratio of symptomatic plants and the total number of plants in the plot." []
+synonym: "crdi" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002042 ! Cassava rust disease incidence
+relationship: variable_of CO_334:0010499 ! Counting: Cassava rust disease incidence_method
+relationship: variable_of CO_334:0100582 ! ratio
+
+[Term]
+id: CO_334:0002045
+name: Biomass dry weight
+namespace: cassava_trait
+def: "Total plant mass (stem, leaves and petiole) above ground." []
+synonym: "biodmc" EXACT []
+xref: CO:curators
+is_a: CO_334:0000447 ! Dry matter content
+
+[Term]
+id: CO_334:0002046
+name: dry weight of biomass in kg
+def: "Measurement of the dry weight of the total plant mass above ground in kilogram (kg), by drying in oven for ten (10) days at 50 deg celsius and weighted using scale." []
+synonym: "biodmc" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002045 ! Biomass dry weight
+relationship: variable_of CO_334:0010498 ! Measurement: Dry weight of biomass_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
 id: CO_334:0010000
 name: measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -8591,6 +8653,30 @@ name: Measurement: Canopy width_method
 is_a: CO_334:0001002 ! Methods
 
 [Term]
+id: CO_334:0010498
+name: Measurement: Dry weight of biomass_method
+namespace: CassavaMethod
+def: "Measurement of total plant biomass by drying in oven for ten days at fifty degrees celsius." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002045 ! Biomass dry weight
+
+[Term]
+id: CO_334:0010499
+name: Counting: Cassava rust disease incidence_method
+namespace: CassavaMethod
+def: "Proportion of plants in a plot showing symptom of rust (Uromyces manihot)." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002042 ! Cassava rust disease incidence
+
+[Term]
+id: CO_334:0010500
+name: Visual Observation: Cassava rust disease severity_method
+namespace: CassavaMethod
+def: "Visual rating of cassava rust disease by observing symptomatic plants in a plot." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002041 ! Cassava rust disease severity
+
+[Term]
 id: CO_334:0100000
 name: 3pt scale
 namespace: CassavaScale
@@ -8864,6 +8950,7 @@ relationship: scale_of CO_334:0010446 ! Measurement: Peel weight_method
 relationship: scale_of CO_334:0010447 ! Measurement: Gari weight after grinding_method
 relationship: scale_of CO_334:0010448 ! Measurement: Weight of mashed cassava cake_method
 relationship: scale_of CO_334:0010449 ! Measurement: Gari shaft weight_method
+relationship: scale_of CO_334:0010498 ! Measurement: Dry weight of biomass_method
 
 [Term]
 id: CO_334:0100494
@@ -9364,6 +9451,7 @@ relationship: scale_of CO_334:0010324 ! Counting: Red spider mite incidence_meth
 relationship: scale_of CO_334:0010326 ! Counting: Spiraling whitefly incidence_method
 relationship: scale_of CO_334:0010376 ! Calculation: Amylose amylopectin ratio_method
 relationship: scale_of CO_334:0010441 ! Counting: Flowering incidence_method
+relationship: scale_of CO_334:0010499 ! Counting: Cassava rust disease incidence_method
 
 [Term]
 id: CO_334:0100583
@@ -9762,6 +9850,13 @@ name: m3
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010494 ! Calculation: Plot volume_method
+
+[Term]
+id: CO_334:0100682
+name: 5 pt scale
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010500 ! Visual Observation: Cassava rust disease severity_method
 
 [Typedef]
 id: derives_from
