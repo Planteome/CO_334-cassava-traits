@@ -38,6 +38,7 @@ id: CO_334:0000004
 name: Quality trait
 namespace: cassava_trait
 def: "A characteristic or distinguishing feature of cassava related to its utilization after harvest." [CO:curators]
+synonym: "post-harvest trait" EXACT []
 is_a: CO_334:0000000 ! CGIAR cassava trait ontology
 
 [Term]
@@ -1866,6 +1867,7 @@ synonym: "DMCt_Est_kg" EXACT []
 synonym: "dmspg" EXACT []
 synonym: "Water content" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method_method
@@ -5821,6 +5823,31 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001012 ! Softness of boiled cassava roots
 
 [Term]
+id: CO_334:0001025
+name: farmer preference trait post-harvest
+namespace: cassava_trait
+is_a: CO_334:0001026 ! Farmer preference trait
+
+[Term]
+id: CO_334:0001026
+name: Farmer preference trait
+namespace: cassava_trait
+is_a: CO_334:0002010 ! Farmer trait
+
+[Term]
+id: CO_334:0001027
+name: farmer preference trait at harvest
+namespace: cassava_trait
+is_a: CO_334:0001026 ! Farmer preference trait
+
+[Term]
+id: CO_334:0001028
+name: farmer preference post harvest visual estimation 1-5 scale
+namespace: cassava_trait
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001025 ! farmer preference trait post-harvest
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
@@ -8648,8 +8675,8 @@ relationship: method_of CO_334:0002035 ! Weibull shape trait
 
 [Term]
 id: CO_334:0010497
-namespace: CassavaMethod
 name: Measurement: Canopy width_method
+namespace: CassavaMethod
 is_a: CO_334:0001002 ! Methods
 
 [Term]
