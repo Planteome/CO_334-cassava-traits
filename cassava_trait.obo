@@ -135,6 +135,7 @@ synonym: "Can provide at least ten cassava tubers per plant stand" EXACT []
 synonym: "fyld" EXACT []
 synonym: "RtYld_Fresh_tha" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000456 ! Root yield
 relationship: variable_of CO_334:0010329 ! Calculation: Fresh root yield_method
@@ -1867,7 +1868,6 @@ synonym: "DMCt_Est_kg" EXACT []
 synonym: "dmspg" EXACT []
 synonym: "Water content" EXACT []
 is_a: CO_334:0001000 ! Variables
-is_a: CO_334:0001025 ! farmer preference trait post-harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method_method
@@ -2242,7 +2242,7 @@ synonym: "CMDisSev_VisScg_1to5_T1m" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000035 ! Cassava mosaic disease severity
 relationship: variable_of CO_334:0010230 ! Visual Observation: Cassava mosaic disease severity 1-month evaluation_method
-relationship: variable_of CO_334:0100436 ! 5 pt scale
+relationship: variable_of CO_334:0100436 ! 1-5 point scale
 
 [Term]
 id: CO_334:0000192
@@ -5848,6 +5848,26 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001025 ! farmer preference trait post-harvest
 
 [Term]
+id: CO_334:0001029
+name: farmer preference at harvest observation 1-5 scale
+namespace: cassava_trait
+def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5.\nThe score represents the farmer perception of a good cassava root at harvest." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001027 ! farmer preference trait at harvest
+relationship: variable_of CO_334:0012000 ! Observation: Farmer trait preference_method
+relationship: variable_of CO_334:0100436 ! 1-5 point scale
+
+[Term]
+id: CO_334:0001030
+name: farmer preference post harvest observation 1-5 scale
+namespace: cassava_trait
+def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5.\nThe score represents the farmer perception of a good cassava root post harvest." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001025 ! farmer preference trait post-harvest
+relationship: variable_of CO_334:0012000 ! Observation: Farmer trait preference_method
+relationship: variable_of CO_334:0100436 ! 1-5 point scale
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
@@ -8733,6 +8753,15 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0002047 ! Leaf edibility
 
 [Term]
+id: CO_334:0012000
+name: Observation: Farmer trait preference_method
+namespace: CassavaMethod
+def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001025 ! farmer preference trait post-harvest
+relationship: method_of CO_334:0001027 ! farmer preference trait at harvest
+
+[Term]
 id: CO_334:0100000
 name: 3pt scale
 namespace: CassavaScale
@@ -8815,7 +8844,7 @@ relationship: scale_of CO_334:0010228 ! Visual Rating: Initial vigor_method
 
 [Term]
 id: CO_334:0100436
-name: 5 pt scale
+name: 1-5 point scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010230 ! Visual Observation: Cassava mosaic disease severity 1-month evaluation_method
@@ -9900,6 +9929,7 @@ id: CO_334:0100680
 name: 11pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
 
 [Term]
 id: CO_334:0100681
