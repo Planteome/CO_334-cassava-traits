@@ -5840,12 +5840,6 @@ name: farmer preference trait at harvest
 namespace: cassava_trait
 is_a: CO_334:0001026 ! Farmer preference trait
 
-[Term]
-id: CO_334:0001028
-name: farmer preference post harvest visual estimation 1-5 scale
-namespace: cassava_trait
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0001025 ! farmer preference trait post-harvest
 
 [Term]
 id: CO_334:0001029
