@@ -6328,6 +6328,26 @@ relationship: variable_of CO_334:0010498 ! Measurement: Dry weight of biomass_me
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
+id: CO_334:0002047
+name: Leaf edibility
+namespace: cassava_trait
+def: "Palatability of cassava leaves likened to be eaten as fresh vegetable" []
+synonym: "leafed" RELATED []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002048
+name: leaf edibility sensory assessment 0&1
+namespace: cassava_trait
+def: "Sensory assessment of how palatable of cassava leaf is, scored on a scale of 0 and 1 where 0 = non palatable and 1 = palatable" []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002047 ! Leaf edibility
+relationship: variable_of CO_334:0010501 ! Sensory assessment: Leaf edibility_method
+relationship: variable_of CO_334:0100539 ! 2pt scale
+
+[Term]
 id: CO_334:0010000
 name: measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -8704,6 +8724,15 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0002041 ! Cassava rust disease severity
 
 [Term]
+id: CO_334:0010501
+name: Sensory assessment: Leaf edibility_method
+namespace: CassavaMethod
+def: "Assessment of how delicious and palatable cooked cassava leaf is by eating" []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002047 ! Leaf edibility
+
+[Term]
 id: CO_334:0100000
 name: 3pt scale
 namespace: CassavaScale
@@ -9172,6 +9201,7 @@ name: 2pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010333 ! Visual Rating: Suitability for intercropping_method
+relationship: scale_of CO_334:0010501 ! Sensory assessment: Leaf edibility_method
 
 [Term]
 id: CO_334:0100540
