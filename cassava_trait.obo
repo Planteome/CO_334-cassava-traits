@@ -38,6 +38,7 @@ id: CO_334:0000004
 name: Quality trait
 namespace: cassava_trait
 def: "A characteristic or distinguishing feature of cassava related to its utilization after harvest." [CO:curators]
+synonym: "post-harvest trait" EXACT []
 is_a: CO_334:0000000 ! CGIAR cassava trait ontology
 
 [Term]
@@ -98,7 +99,7 @@ synonym: "NoHvstPlnt_Count_Plnt" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000434 ! Plant stands harvested
 relationship: variable_of CO_334:0010284 ! Counting: Plant stands harvested_method
-relationship: variable_of CO_334:0100490 ! Plant
+relationship: variable_of CO_334:0100490 ! plant
 
 [Term]
 id: CO_334:0000011
@@ -110,7 +111,7 @@ synonym: "rtno" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000452 ! Root number
 relationship: variable_of CO_334:0010285 ! Counting: Root number_method
-relationship: variable_of CO_334:0100491 ! Root
+relationship: variable_of CO_334:0100491 ! root
 
 [Term]
 id: CO_334:0000012
@@ -134,6 +135,7 @@ synonym: "Can provide at least ten cassava tubers per plant stand" EXACT []
 synonym: "fyld" EXACT []
 synonym: "RtYld_Fresh_tha" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000456 ! Root yield
 relationship: variable_of CO_334:0010329 ! Calculation: Fresh root yield_method
@@ -272,7 +274,7 @@ synonym: "PtlLng_VisScg_0to7" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000429 ! Petiole length
 relationship: variable_of CO_334:0010344 ! Visual Rating: Petiole Length_method
-relationship: variable_of CO_334:0100550 ! 4 pt scale
+relationship: variable_of CO_334:0100550 ! 4pt scale
 
 [Term]
 id: CO_334:0000025
@@ -729,7 +731,7 @@ synonym: "AscACt_Meas_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000284 ! Ascorbic acid
 relationship: variable_of CO_334:0010377 ! Estimation: Ascorbic acid_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000066
@@ -741,7 +743,7 @@ synonym: "MinCt_Burng_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000285 ! Ash content
 relationship: variable_of CO_334:0010378 ! Estimation: Ash content_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000067
@@ -755,7 +757,7 @@ is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000366 ! Fibre content
 relationship: variable_of CO_334:0010373 ! Estimation: Fibre content_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000068
@@ -779,7 +781,7 @@ synonym: "RtMoistCt_Comp_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000407 ! Moisture content
 relationship: variable_of CO_334:0010314 ! Estimation: Moisture content_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000070
@@ -791,7 +793,7 @@ synonym: "protei" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000442 ! Protein content
 relationship: variable_of CO_334:0010372 ! Estimation: Protein content_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000071
@@ -803,7 +805,7 @@ synonym: "StrchCt_Est_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000474 ! Starch Content
 relationship: variable_of CO_334:0010313 ! Estimation: Starch content _method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000072
@@ -815,7 +817,7 @@ synonym: "SugPCt_Meas_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000495 ! Sugar content
 relationship: variable_of CO_334:0010379 ! Estimation: Sugar content_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000073
@@ -838,6 +840,7 @@ synonym: "pd" EXACT []
 synonym: "Pd_SensScg_1to4" EXACT []
 synonym: "Soft and easy to eat for a toothless or weak tooth person" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000437 ! Poundability
 relationship: variable_of CO_334:0010296 ! Sensory Assesment: Poundability_method
@@ -873,6 +876,7 @@ name: post-harvest physiological deterioration variable 0-10
 namespace: cassava_trait
 def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration" [CO:curators]
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
 relationship: variable_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
 relationship: variable_of CO_334:0100680 ! 11pt scale
@@ -899,7 +903,7 @@ synonym: "brnlev" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000296 ! Branching Levels
 relationship: variable_of CO_334:0010351 ! Counting: Branching levels_method
-relationship: variable_of CO_334:0100557 ! Number of levels
+relationship: variable_of CO_334:0100557 ! number of levels
 
 [Term]
 id: CO_334:0000080
@@ -935,7 +939,7 @@ synonym: "LfLbNo_Count_Lb" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000395 ! Leaf Lobes Number
 relationship: variable_of CO_334:0010340 ! Visual Rating: Leaf lobes number_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000083
@@ -947,7 +951,7 @@ synonym: "lflobp" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000393 ! Leaf Lobe Position
 relationship: variable_of CO_334:0010341 ! Visual Rating: Leaf lobe position_method
-relationship: variable_of CO_334:0100547 ! 4 pt scale
+relationship: variable_of CO_334:0100547 ! 4pt scale
 
 [Term]
 id: CO_334:0000084
@@ -959,7 +963,7 @@ synonym: "rtrot" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000457 ! Rotted storage roots
 relationship: variable_of CO_334:0010295 ! Counting: Rotted storage roots _method
-relationship: variable_of CO_334:0100491 ! Root
+relationship: variable_of CO_334:0100491 ! root
 
 [Term]
 id: CO_334:0000085
@@ -970,6 +974,7 @@ synonym: "Has a taste that cannot even be refused by the pigs. When it is bitter
 synonym: "pdtas" EXACT []
 synonym: "RtTast_SensClsn_1to3" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000498 ! Taste of boiled roots
 relationship: variable_of CO_334:0010297 ! Gustation: Taste of boiled roots_method
@@ -997,7 +1002,7 @@ synonym: "btadt" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000410 ! Number of bemesia tabaci adult
 relationship: variable_of CO_334:0010327 ! Counting: Bemesia tabaci adult_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000088
@@ -1009,7 +1014,7 @@ synonym: "BTNymNo_Count_BTNym" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000411 ! Number of bemesia tabaci nymphs
 relationship: variable_of CO_334:0010328 ! Counting: Bemesia tabaci nymphs_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000089
@@ -1052,6 +1057,7 @@ synonym: "dm" EXACT []
 synonym: "DMCt_Comp_r" EXACT []
 synonym: "Water content" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010300 ! Estimation: Root dry matter content_method
@@ -1101,6 +1107,7 @@ def: "Percentage (%) gari processed from fresh storage roots." [CO:curators]
 synonym: "garcon" EXACT []
 synonym: "GariCt_Comp_gkg" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000374 ! Gari content
 relationship: variable_of CO_334:0010315 ! Measurement: Gari content_method
 relationship: variable_of CO_334:0100586 ! g/kg
@@ -1113,6 +1120,7 @@ def: "Percentage (%) fufu processed from fresh storage roots." [CO:curators]
 synonym: "FfCt_Meas_gkg" EXACT []
 synonym: "fufucnt" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000373 ! Fufu content
 relationship: variable_of CO_334:0010380 ! Estimation: Fufu content_method
 relationship: variable_of CO_334:0100586 ! g/kg
@@ -1355,7 +1363,7 @@ synonym: "bcret" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000292 ! Beta carotenoid retention
 relationship: variable_of CO_334:0010382 ! Estimation: Beta carotenoid retention_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000118
@@ -1367,7 +1375,7 @@ synonym: "tcret" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000500 ! Total carotenoid retention
 relationship: variable_of CO_334:0010383 ! Estimation: Total carotenoid retention_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000119
@@ -1495,7 +1503,7 @@ synonym: "StNo_Count_St" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000479 ! Stem number
 relationship: variable_of CO_334:0010388 ! Counting: Stem number_method
-relationship: variable_of CO_334:0100594 ! Stem
+relationship: variable_of CO_334:0100594 ! stem
 
 [Term]
 id: CO_334:0000130
@@ -1543,7 +1551,7 @@ synonym: "stmrot" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000417 ! Number of rotten stem
 relationship: variable_of CO_334:0010392 ! Counting: Stem rot_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000134
@@ -1579,7 +1587,7 @@ synonym: "LfScNo_Count_Scars" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000399 ! Leaf scar number
 relationship: variable_of CO_334:0010395 ! Counting: Leaf scar number_method
-relationship: variable_of CO_334:0100601 ! Scars
+relationship: variable_of CO_334:0100601 ! scars
 
 [Term]
 id: CO_334:0000137
@@ -1603,7 +1611,7 @@ synonym: "sprtct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000466 ! Sprout count
 relationship: variable_of CO_334:0010222 ! Counting: Sprout count _method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000139
@@ -1663,7 +1671,7 @@ synonym: "flwfno" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000364 ! Female flower number
 relationship: variable_of CO_334:0010400 ! Counting: Female flower number_method
-relationship: variable_of CO_334:0100606 ! Flowers
+relationship: variable_of CO_334:0100606 ! flowers
 
 [Term]
 id: CO_334:0000144
@@ -1675,7 +1683,7 @@ synonym: "MFlwNo_Count_Flw" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000403 ! Male flower number
 relationship: variable_of CO_334:0010401 ! Counting: Male flower number_method
-relationship: variable_of CO_334:0100606 ! Flowers
+relationship: variable_of CO_334:0100606 ! flowers
 
 [Term]
 id: CO_334:0000145
@@ -1687,7 +1695,7 @@ synonym: "FlwStlkNo_Count_Stlk" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000412 ! Number of flowering stalks
 relationship: variable_of CO_334:0010402 ! Counting: Number of flowering stalks per branch level _method
-relationship: variable_of CO_334:0100608 ! Stalks
+relationship: variable_of CO_334:0100608 ! stalks
 
 [Term]
 id: CO_334:0000146
@@ -1699,7 +1707,7 @@ synonym: "flwfrk" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000413 ! Number of  forks
 relationship: variable_of CO_334:0010403 ! Counting: Number of forks_method
-relationship: variable_of CO_334:0100609 ! Branches
+relationship: variable_of CO_334:0100609 ! forks
 
 [Term]
 id: CO_334:0000147
@@ -1735,7 +1743,7 @@ synonym: "FrtSetNo_Count_Frt" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000415 ! Number of fruitset
 relationship: variable_of CO_334:0010406 ! Counting: Number of fruitset_method
-relationship: variable_of CO_334:0100612 ! Fruits
+relationship: variable_of CO_334:0100612 ! fruits
 
 [Term]
 id: CO_334:0000150
@@ -1747,7 +1755,7 @@ synonym: "BTYlwN_Count_Nymph" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000290 ! Bemesia tabaci nymphs yellow
 relationship: variable_of CO_334:0010407 ! Counting: Bemesia tabaci nymphs yellow_method
-relationship: variable_of CO_334:0100614 ! Nymphs
+relationship: variable_of CO_334:0100614 ! nymphs
 
 [Term]
 id: CO_334:0000151
@@ -1759,7 +1767,7 @@ synonym: "btwfb" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000288 ! Bemesia tabaci nymphs black
 relationship: variable_of CO_334:0010408 ! Counting: Bemesia tabaci nymphs black_method
-relationship: variable_of CO_334:0100614 ! Nymphs
+relationship: variable_of CO_334:0100614 ! nymphs
 
 [Term]
 id: CO_334:0000152
@@ -1795,7 +1803,7 @@ synonym: "pnoinf" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000441 ! Proportion of plant with inflorescence
 relationship: variable_of CO_334:0010411 ! Counting: Plant number with inflorescence_method
-relationship: variable_of CO_334:0100617 ! Proportion
+relationship: variable_of CO_334:0100617 ! proportion
 
 [Term]
 id: CO_334:0000155
@@ -1807,7 +1815,7 @@ synonym: "tmbrno" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000420 ! Number of terminal branches with inflorescence
 relationship: variable_of CO_334:0010412 ! Counting: Number of terminal branches with inflorescence_method
-relationship: variable_of CO_334:0100609 ! Branches
+relationship: variable_of CO_334:0100609 ! forks
 
 [Term]
 id: CO_334:0000156
@@ -1819,7 +1827,7 @@ synonym: "fruitno" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000414 ! Number of fruits
 relationship: variable_of CO_334:0010413 ! Counting: Number of fruits _method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000157
@@ -1855,7 +1863,7 @@ synonym: "stkplt" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000416 ! Number of planted stakes
 relationship: variable_of CO_334:0010221 ! Counting: Number of planted stakes_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000160
@@ -1866,6 +1874,7 @@ synonym: "DMCt_Est_kg" EXACT []
 synonym: "dmspg" EXACT []
 synonym: "Water content" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method_method
@@ -1940,7 +1949,7 @@ synonym: "SdlngNo_Count_Sdlng" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000460 ! Seedling number
 relationship: variable_of CO_334:0010420 ! Counting: Germination count_method
-relationship: variable_of CO_334:0100626 ! Seedling
+relationship: variable_of CO_334:0100626 ! seedling
 
 [Term]
 id: CO_334:0000167
@@ -1952,7 +1961,7 @@ synonym: "SownSdNo_Count_Sd" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000418 ! Number of seeds sown
 relationship: variable_of CO_334:0010421 ! Counting: Number of seeds sown_method
-relationship: variable_of CO_334:0100627 ! Seed
+relationship: variable_of CO_334:0100627 ! seed
 
 [Term]
 id: CO_334:0000168
@@ -1964,7 +1973,7 @@ synonym: "NMkRtNo_Count_Rt" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000408 ! Non marketable root number
 relationship: variable_of CO_334:0010320 ! Counting: Non marketable root number_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000169
@@ -1976,7 +1985,7 @@ synonym: "mktrtno" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000405 ! Marketable root number
 relationship: variable_of CO_334:0010321 ! Counting: Marketable root number_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000170
@@ -2012,7 +2021,7 @@ synonym: "Trans9Act_Est_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000501 ! Trans-9 activity
 relationship: variable_of CO_334:0010422 ! Estimation: Trans 9_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000173
@@ -2024,7 +2033,7 @@ synonym: "Cis9Act_Est_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000354 ! Cis 9 activity
 relationship: variable_of CO_334:0010423 ! Estimation: Cis 9_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000174
@@ -2036,7 +2045,7 @@ synonym: "BCryptoAct_Est_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000287 ! B crypto activity
 relationship: variable_of CO_334:0010424 ! Estimation: B crypto_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000175
@@ -2070,6 +2079,7 @@ def: "Visual rating of symptoms in response to the bacterial blight disease caus
 synonym: "cbb9s" EXACT []
 synonym: "CBBSev_VisScg_1to5_T9m" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0000031 ! Cassava bacterial blight severity
 relationship: variable_of CO_334:0010244 ! Visual Observation: Cassava bacterial blight severity 9-month evalution_method
 relationship: variable_of CO_334:0100450 ! 5 pt scale
@@ -2178,6 +2188,7 @@ def: "Visual rating of symptoms in response to the anthracnose disease caused by
 synonym: "cad12s" EXACT []
 synonym: "CADisSev_VisScg_1to5_T12m" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0000032 ! Cassava anthracnose disease severity
 relationship: variable_of CO_334:0010255 ! Visual Observation: Cassava anthractnose disease severity in 12-months_method
 relationship: variable_of CO_334:0100461 ! 5 pt scale
@@ -2214,6 +2225,7 @@ def: "Visual rating of damage caused by cassava green mite (Mononychellus tanajo
 synonym: "cgm1" EXACT []
 synonym: "CGMsev_VisScg_1to5" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0000033 ! Cassava green mite severity
 relationship: variable_of CO_334:0010265 ! Visual Observation: Cassava green mite severity first evaluation_method
 relationship: variable_of CO_334:0100471 ! 5 pt scale
@@ -2226,6 +2238,7 @@ def: "Visual rating of damage caused by cassava green mite (Mononychellus tanajo
 synonym: "cgm2" EXACT []
 synonym: "CGMsev_VisScg_1to5" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0000033 ! Cassava green mite severity
 relationship: variable_of CO_334:0010266 ! Visual Observation: Cassava green mite severity second evaluation_method
 relationship: variable_of CO_334:0100472 ! 5 pt scale
@@ -2240,7 +2253,7 @@ synonym: "CMDisSev_VisScg_1to5_T1m" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000035 ! Cassava mosaic disease severity
 relationship: variable_of CO_334:0010230 ! Visual Observation: Cassava mosaic disease severity 1-month evaluation_method
-relationship: variable_of CO_334:0100436 ! 5 pt scale
+relationship: variable_of CO_334:0100436 ! 5 point scales
 
 [Term]
 id: CO_334:0000192
@@ -2252,7 +2265,7 @@ synonym: "CMDisSev_VisScg_1to5_T3m" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000035 ! Cassava mosaic disease severity
 relationship: variable_of CO_334:0010231 ! Visual Observation: Cassava mosaic disease severity 3-month evaluation_method
-relationship: variable_of CO_334:0100437 ! 5 pt scale
+relationship: variable_of CO_334:0100437 ! 5pt scale
 
 [Term]
 id: CO_334:0000193
@@ -2334,6 +2347,7 @@ def: "Visual rating of symptoms caused by cassava mosaic virus,in the family Gem
 synonym: "cmd12s" EXACT []
 synonym: "CMDisSev_VisScg_1to5_T12m" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0000035 ! Cassava mosaic disease severity
 relationship: variable_of CO_334:0010234 ! Visual Observation: Cassava mosaic disease severity 12-month evaluation_method
 relationship: variable_of CO_334:0100440 ! 5 pt scale
@@ -2358,6 +2372,7 @@ def: "Visual rating of root symptoms caused by cassava brown streak virus at twe
 synonym: "CBSDisRtSev_Scg_1to5" EXACT []
 synonym: "cbsdr12s" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0000090 ! Cassava brown streak disease root severity
 relationship: variable_of CO_334:0010280 ! Visual Observation: Cassava brown streak disease root severity 12-month evaluation_method
 relationship: variable_of CO_334:0100486 ! 5 pt scale
@@ -2418,6 +2433,7 @@ def: "Visual rating of leaf symptoms caused by cassava brown streak virus betwee
 synonym: "CBSDisLfSev_Scg_1to5_9m" EXACT []
 synonym: "cbsdl9s" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0000036 ! Cassava brown streak disease leaf severity
 relationship: variable_of CO_334:0010273 ! Visual Observation: Cassava brown streak disease leaf severity 9-month evaluation_method
 relationship: variable_of CO_334:0100479 ! 5 pt scale
@@ -2504,7 +2520,7 @@ synonym: "sprtct1" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000466 ! Sprout count
 relationship: variable_of CO_334:0010223 ! Counting: Sprout count at one-month_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000214
@@ -2516,7 +2532,7 @@ synonym: "sprtct3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000466 ! Sprout count
 relationship: variable_of CO_334:0010224 ! Counting: Sprout count at three-month_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000215
@@ -2528,7 +2544,7 @@ synonym: "sprtct6" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000466 ! Sprout count
 relationship: variable_of CO_334:0010225 ! Counting: Sprout count at six-month_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000216
@@ -2540,7 +2556,7 @@ synonym: "sprtct9" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000466 ! Sprout count
 relationship: variable_of CO_334:0010226 ! Counting: Sprout count at nine-month_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000217
@@ -2552,7 +2568,7 @@ synonym: "sprtct12" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000466 ! Sprout count
 relationship: variable_of CO_334:0010227 ! Counting: Sprout count at twelve-month_method
-relationship: variable_of CO_334:0100546 ! Number
+relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000218
@@ -2702,7 +2718,7 @@ xref: TO:0001042
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000458 ! Rotten root proportion
 relationship: variable_of CO_334:0010430 ! Calculation: Percent of rotten roots_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000230
@@ -2739,7 +2755,7 @@ synonym: "SelVar_Est_0or1" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000461 ! Selected variety
 relationship: variable_of CO_334:0010433 ! Selection: Selected variety_method
-relationship: variable_of CO_334:0100639 ! Yes/No scale
+relationship: variable_of CO_334:0100639 ! yes/no scale
 
 [Term]
 id: CO_334:0000233
@@ -2811,7 +2827,7 @@ synonym: "gstarch" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000380 ! Gari starch
 relationship: variable_of CO_334:0010452 ! Estimation: Gari starch_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000239
@@ -2955,7 +2971,7 @@ synonym: "stkno" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000419 ! Number of stakes
 relationship: variable_of CO_334:0010456 ! Counting: Number of stakes_method
-relationship: variable_of CO_334:0100662 ! Stakes
+relationship: variable_of CO_334:0100662 ! stakes
 
 [Term]
 id: CO_334:0000251
@@ -2967,7 +2983,7 @@ synonym: "lrcent" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010457 ! Estimation: Percentage leaf retention_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000252
@@ -2978,7 +2994,7 @@ synonym: "lrcent5" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010458 ! Estimation: Percentage leaf retention at 5 months after planting_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000253
@@ -2989,7 +3005,7 @@ synonym: "lrcent6" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000254
@@ -3000,7 +3016,7 @@ synonym: "lrcent7" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000255
@@ -3012,7 +3028,7 @@ synonym: "lrcenth" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
-relationship: variable_of CO_334:0100583 ! Pct (%)
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000256
@@ -3201,7 +3217,7 @@ def: "Count the number of female flowers after the buds appear, mature, and grow
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000364 ! Female flower number
 relationship: variable_of CO_334:0010006 ! Counting: Female flower number all levels_method
-relationship: variable_of CO_334:0100606 ! Flowers
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: aafolabi
 creation_date: 2016-05-12T12:45:13Z
 
@@ -5528,7 +5544,7 @@ def: "Number of forks (2 forks/branches (dichotomous), 3 forks/branches (trichot
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000521 ! Number of forks by branch level
 relationship: variable_of CO_334:0010017 ! Counting: Number of forks by branch level
-relationship: variable_of CO_334:0100012 ! Branches
+relationship: variable_of CO_334:0100012 ! branches
 created_by: AAfolabi
 creation_date: 2017-07-25T14:56:41Z
 
@@ -5540,7 +5556,7 @@ def: "Number of forks (2 forks/branches (dichotomous), 3 forks/branches (trichot
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000521 ! Number of forks by branch level
 relationship: variable_of CO_334:0010017 ! Counting: Number of forks by branch level
-relationship: variable_of CO_334:0100012 ! Branches
+relationship: variable_of CO_334:0100012 ! branches
 created_by: AAfolabi
 creation_date: 2017-07-25T15:01:01Z
 
@@ -5552,7 +5568,7 @@ def: "Number of forks (2 forks/branches (dichotomous), 3 forks/branches (trichot
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000521 ! Number of forks by branch level
 relationship: variable_of CO_334:0010017 ! Counting: Number of forks by branch level
-relationship: variable_of CO_334:0100012 ! Branches
+relationship: variable_of CO_334:0100012 ! branches
 created_by: AAfolabi
 creation_date: 2017-07-25T15:02:13Z
 
@@ -5672,7 +5688,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100606 ! Flowers
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:33:09Z
 
@@ -5684,7 +5700,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100606 ! Flowers
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:34:25Z
 
@@ -5696,7 +5712,7 @@ def: "A count of the number male flowers after the buds appears, matures, and gr
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000534 ! male flower number counting by branch level
 relationship: variable_of CO_334:0010020 ! Counting: Male flower number by branch level
-relationship: variable_of CO_334:0100606 ! Flowers
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: AAfolabi
 creation_date: 2017-07-25T16:35:19Z
 
@@ -5762,7 +5778,7 @@ def: "A count of the number of fruits formed from the seeds after pollination on
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000542 ! number of fruitset by branch level
 relationship: variable_of CO_334:0010022 ! Counting: Number of fruitset by branch level
-relationship: variable_of CO_334:0100017 ! Fruitset
+relationship: variable_of CO_334:0100017 ! fruitset
 created_by: AAfolabi
 creation_date: 2017-07-25T17:00:04Z
 
@@ -5774,7 +5790,7 @@ def: "A count of the number of fruits formed from the seeds after pollination on
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000542 ! number of fruitset by branch level
 relationship: variable_of CO_334:0010022 ! Counting: Number of fruitset by branch level
-relationship: variable_of CO_334:0100017 ! Fruitset
+relationship: variable_of CO_334:0100017 ! fruitset
 created_by: AAfolabi
 creation_date: 2017-07-25T17:03:07Z
 
@@ -5786,7 +5802,7 @@ def: "A count of the number of fruits formed from the seeds after pollination on
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000542 ! number of fruitset by branch level
 relationship: variable_of CO_334:0010022 ! Counting: Number of fruitset by branch level
-relationship: variable_of CO_334:0100017 ! Fruitset
+relationship: variable_of CO_334:0100017 ! fruitset
 created_by: AAfolabi
 creation_date: 2017-07-25T17:04:28Z
 
@@ -5814,11 +5830,49 @@ is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0001016
-name: Softness of boiled cassava roots in newtons
+name: softness of boiled cassava roots in newtons
 namespace: cassava_trait
 def: "Use of a penetrometer to record the maximum force used to penetrate the boiled root, measured in newtons." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001012 ! Softness of boiled cassava roots
+
+[Term]
+id: CO_334:0001025
+name: farmer preference trait post-harvest
+namespace: cassava_trait
+is_a: CO_334:0001026 ! Farmer preference trait
+
+[Term]
+id: CO_334:0001026
+name: Farmer preference trait
+namespace: cassava_trait
+is_a: CO_334:0002010 ! Farmer trait
+
+[Term]
+id: CO_334:0001027
+name: farmer preference trait at harvest
+namespace: cassava_trait
+is_a: CO_334:0001026 ! Farmer preference trait
+
+[Term]
+id: CO_334:0001029
+name: farmer preference at harvest observation 1-5 scale
+namespace: cassava_trait
+def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5.\nThe score represents the farmer perception of a good cassava root at harvest." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001027 ! farmer preference trait at harvest
+relationship: variable_of CO_334:0012000 ! Observation: Farmer trait preference_method
+relationship: variable_of CO_334:0100436 ! 5 point scales
+
+[Term]
+id: CO_334:0001030
+name: farmer preference post harvest observation 1-5 scale
+namespace: cassava_trait
+def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5.\nThe score represents the farmer perception of a good cassava root post harvest." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001025 ! farmer preference trait post-harvest
+relationship: variable_of CO_334:0012000 ! Observation: Farmer trait preference_method
+relationship: variable_of CO_334:0100436 ! 5 point scales
 
 [Term]
 id: CO_334:0002001
@@ -5829,7 +5883,7 @@ synonym: "pltrot" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000434 ! Plant stands harvested
 relationship: variable_of CO_334:0010284 ! Counting: Plant stands harvested_method
-relationship: variable_of CO_334:0100490 ! Plant
+relationship: variable_of CO_334:0100490 ! plant
 created_by: aafolabi
 creation_date: 2018-04-24T10:07:21Z
 
@@ -5877,6 +5931,7 @@ synonym: "Can stay in the farm for a long time" EXACT []
 synonym: "Does not create urgent need for harvesting" EXACT []
 synonym: "igstor" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0002003 ! In-ground storability
 relationship: variable_of CO_334:0010473 ! Visual Rating: In-ground storability_method
@@ -5890,6 +5945,7 @@ def: "time taken for storage roots to begin to accumulate and store starch in th
 synonym: "bulkrt" EXACT []
 synonym: "Matures quickly and rot if harvesting is delayed" EXACT []
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0002004 ! Early bulking
 relationship: variable_of CO_334:0010474 ! Visual Rating: Early bulking_method
@@ -5931,6 +5987,7 @@ namespace: cassava_trait
 def: "Visual rating of dry matter content of fresh cassava root. 1 = low, 2 = moderate, 3 = high." []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010477 ! Visual Rating: Dry matter rating_method
 relationship: variable_of CO_334:0100000 ! 3pt scale
@@ -6264,6 +6321,7 @@ def: "Visual rating of symptoms caused by Uromyces specie in cassava leaf. Sympt
 synonym: "crds" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0002041 ! Cassava rust disease severity
 relationship: variable_of CO_334:0010500 ! Visual Observation: Cassava rust disease severity_method
 relationship: variable_of CO_334:0100682 ! 5 pt scale
@@ -6299,6 +6357,46 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002045 ! Biomass dry weight
 relationship: variable_of CO_334:0010498 ! Measurement: Dry weight of biomass_method
 relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002047
+name: Leaf edibility
+namespace: cassava_trait
+def: "Palatability of cassava leaves likened to be eaten as fresh vegetable" []
+synonym: "leafed" RELATED []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002048
+name: leaf edibility sensory assessment 0&1
+namespace: cassava_trait
+def: "Sensory assessment of how palatable of cassava leaf is, scored on a scale of 0 and 1 where 0 = non palatable and 1 = palatable" []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002047 ! Leaf edibility
+relationship: variable_of CO_334:0010501 ! Sensory assessment: Leaf edibility_method
+relationship: variable_of CO_334:0100539 ! 2pt scale
+
+[Term]
+id: CO_334:0002049
+name: Cooking quality
+namespace: cassava_trait
+def: "Cooking characteristics of cassava root" []
+synonym: "cookqty" RELATED []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002050
+name: cooking quality visual rating 0-2
+namespace: cassava_trait
+def: "Qualitative rating of cooking characteristics of cassava. The ability of cassava root to boil in less time, with good taste and texture scored on a scale of 0 to 2; with 0 = poor, 1 = fair and 2 = good." []
+synonym: "cookqty" RELATED []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
+relationship: variable_of CO_334:0002049 ! Cooking quality
 
 [Term]
 id: CO_334:0010000
@@ -8648,8 +8746,8 @@ relationship: method_of CO_334:0002035 ! Weibull shape trait
 
 [Term]
 id: CO_334:0010497
-namespace: CassavaMethod
 name: Measurement: Canopy width_method
+namespace: CassavaMethod
 is_a: CO_334:0001002 ! Methods
 
 [Term]
@@ -8677,10 +8775,41 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0002041 ! Cassava rust disease severity
 
 [Term]
+id: CO_334:0010501
+name: Sensory assessment: Leaf edibility_method
+namespace: CassavaMethod
+def: "Assessment of how delicious and palatable cooked cassava leaf is by eating" []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002047 ! Leaf edibility
+
+[Term]
+id: CO_334:0010502
+name: Visual Rating: Cooking quality_method
+namespace: CassavaMethod
+def: "Qualittaive rating of cassava root after boiling taking into consideration the cooking time, texture and color" []
+is_a: CO_334:0001002 ! Methods
+
+[Term]
+id: CO_334:0010504
+name: Visual Rating: Apical pubescence_method
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000283 ! Apical pubescence
+
+[Term]
+id: CO_334:0012000
+name: Observation: Farmer trait preference_method
+namespace: CassavaMethod
+def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001025 ! farmer preference trait post-harvest
+relationship: method_of CO_334:0001027 ! farmer preference trait at harvest
+
+[Term]
 id: CO_334:0100000
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010002 ! Visual Rating: Staygreen_method
 created_by: AAfolabi
 creation_date: 2015-09-29T12:35:31Z
@@ -8689,7 +8818,7 @@ creation_date: 2015-09-29T12:35:31Z
 id: CO_334:0100001
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010003 ! Visual Rating: Size of shoot apices_method
 created_by: AAfolabi
 creation_date: 2015-09-29T13:50:02Z
@@ -8698,7 +8827,7 @@ creation_date: 2015-09-29T13:50:02Z
 id: CO_334:0100002
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010004 ! Visual Rating: Compactness of shoot apices_method
 created_by: AAfolabi
 creation_date: 2015-09-29T13:58:16Z
@@ -8714,10 +8843,10 @@ creation_date: 2017-07-18T15:37:40Z
 
 [Term]
 id: CO_334:0100012
-name: Branches
+name: branches
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010017 ! Counting: Number of forks by branch level
+relationship: scale_of CO_334:0010412 ! Counting: Number of terminal branches with inflorescence_method
 created_by: AAfolabi
 creation_date: 2017-07-25T15:09:59Z
 
@@ -8743,7 +8872,7 @@ creation_date: 2017-07-25T16:06:30Z
 
 [Term]
 id: CO_334:0100017
-name: Fruitset
+name: fruitset
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010022 ! Counting: Number of fruitset by branch level
@@ -8754,173 +8883,173 @@ creation_date: 2017-07-25T17:06:23Z
 id: CO_334:0100434
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010228 ! Visual Rating: Initial vigor_method
 
 [Term]
 id: CO_334:0100436
-name: 5 pt scale
+name: 5 point scales
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010230 ! Visual Observation: Cassava mosaic disease severity 1-month evaluation_method
 
 [Term]
 id: CO_334:0100437
-name: 5 pt scale
+name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010231 ! Visual Observation: Cassava mosaic disease severity 3-month evaluation_method
 
 [Term]
 id: CO_334:0100438
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010232 ! Visual Observation: Cassava mosaic disease severity 6-month evaluation_method
 
 [Term]
 id: CO_334:0100439
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010233 ! Visual Observation: Cassava mosaic disease severity 9-month evaluation_method
 
 [Term]
 id: CO_334:0100440
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010234 ! Visual Observation: Cassava mosaic disease severity 12-month evaluation_method
 
 [Term]
 id: CO_334:0100448
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010242 ! Visual Observation: Cassava bacterial blight severity 3-month evalution_method
 
 [Term]
 id: CO_334:0100449
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010243 ! Visual Observation: Cassava bacterial blight severity 6-month evalution_method
 
 [Term]
 id: CO_334:0100450
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010244 ! Visual Observation: Cassava bacterial blight severity 9-month evalution_method
 
 [Term]
 id: CO_334:0100451
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010245 ! Visual Observation: Cassava bacterial blight severity 12-month evaluation_method
 
 [Term]
 id: CO_334:0100458
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010252 ! Visual Observation: Cassava anthractnose disease severity in 3-months_method
 
 [Term]
 id: CO_334:0100459
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010253 ! Visual Observation: Cassava anthractnose disease severity in 6-months_method
 
 [Term]
 id: CO_334:0100460
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010254 ! Visual Observation: Cassava anthractnose disease severity in 9-months_method
 
 [Term]
 id: CO_334:0100461
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010255 ! Visual Observation: Cassava anthractnose disease severity in 12-months_method
 
 [Term]
 id: CO_334:0100471
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010265 ! Visual Observation: Cassava green mite severity first evaluation_method
 
 [Term]
 id: CO_334:0100472
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010266 ! Visual Observation: Cassava green mite severity second evaluation_method
 
 [Term]
 id: CO_334:0100473
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010267 ! Visual Observation: Cassava mealy bug severity_method
 
 [Term]
 id: CO_334:0100476
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010270 ! Visual Observation: Cassava brown streak disease leaf severity 1-month evaluation_method
 
 [Term]
 id: CO_334:0100477
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010271 ! Visual Observation: Cassava brown streak disease leaf severity 3-month evaluation_method
 
 [Term]
 id: CO_334:0100478
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010272 ! Visual Observation: Cassava brown streak disease leaf severity 6-month evaluation_method
 
 [Term]
 id: CO_334:0100479
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010273 ! Visual Observation: Cassava brown streak disease leaf severity 9-month evaluation_method
 
 [Term]
 id: CO_334:0100486
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010280 ! Visual Observation: Cassava brown streak disease root severity 12-month evaluation_method
 
 [Term]
 id: CO_334:0100489
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010283 ! Visual Observation: Frog skin disease_method
 
 [Term]
 id: CO_334:0100490
-name: Plant
+name: plant
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010284 ! Counting: Plant stands harvested_method
 
 [Term]
 id: CO_334:0100491
-name: Root
+name: root
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010285 ! Counting: Root number_method
@@ -8956,7 +9085,7 @@ relationship: scale_of CO_334:0010498 ! Measurement: Dry weight of biomass_metho
 id: CO_334:0100494
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010288 ! Visual Rating: Storage root size_method
 
 [Term]
@@ -8970,42 +9099,42 @@ relationship: scale_of CO_334:0010289 ! Visual Rating: Storage root shape_method
 id: CO_334:0100496
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010290 ! Visual Rating: Storage root cortex color_method
 
 [Term]
 id: CO_334:0100497
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010291 ! Visual Rating: Storage root periderm color_method
 
 [Term]
 id: CO_334:0100498
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010292 ! Visual Rating: Storage root pulp color _method
 
 [Term]
 id: CO_334:0100499
 name: 8pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100688 ! 8 point scales
 relationship: scale_of CO_334:0010293 ! Visual Rating: Root neck length_method
 
 [Term]
 id: CO_334:0100500
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010294 ! Visual Scoring: Ease of peeling root cortex_method
 
 [Term]
 id: CO_334:0100502
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010296 ! Sensory Assesment: Poundability_method
 relationship: scale_of CO_334:0010473 ! Visual Rating: In-ground storability_method
 relationship: scale_of CO_334:0010474 ! Visual Rating: Early bulking_method
@@ -9015,119 +9144,119 @@ relationship: scale_of CO_334:0010475 ! Visual Rating: Weed tolerance_method
 id: CO_334:0100503
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010297 ! Gustation: Taste of boiled roots_method
 
 [Term]
 id: CO_334:0100504
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010298 ! Visual Rating: Color of boiled storage roots_method
 
 [Term]
 id: CO_334:0100505
 name: 9pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100689 ! 9 point scales
 relationship: scale_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method_method
 
 [Term]
 id: CO_334:0100507
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010301 ! Visual Scoring: Stem color_method
 
 [Term]
 id: CO_334:0100508
 name: 8pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100688 ! 8 point scales
 relationship: scale_of CO_334:0010302 ! Visual Scoring: Branching angle_method
 
 [Term]
 id: CO_334:0100511
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010305 ! Visual Rating: Leaf retention_method
 
 [Term]
 id: CO_334:0100512
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010306 ! Visual Rating: Plant architecture_method
 
 [Term]
 id: CO_334:0100513
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010434 ! Visual Observation: Flowering_method
 
 [Term]
 id: CO_334:0100514
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010308 ! Visual Rating: Fruit set _method
 
 [Term]
 id: CO_334:0100515
 name: 8pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100688 ! 8 point scales
 relationship: scale_of CO_334:0010309 ! Visual Rating: Storage root peduncle_method
 
 [Term]
 id: CO_334:0100516
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010310 ! Visual Rating: Storage root constrictions_method
 
 [Term]
 id: CO_334:0100517
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010311 ! Visual Rating: Root surface color_method
 
 [Term]
 id: CO_334:0100518
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010312 ! Visual Rating: Root surface texture_method
 
 [Term]
 id: CO_334:0100525
 name: 8pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100688 ! 8 point scales
 relationship: scale_of CO_334:0010319 ! Visual Rating: Total carotenoid by chart_method
 
 [Term]
 id: CO_334:0100528
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010322 ! Visual Rating: Branching_method
 
 [Term]
 id: CO_334:0100529
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010323 ! Visual Observation: Red spider mite severity_method
 
 [Term]
 id: CO_334:0100531
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010325 ! Visual Observation: Spiraling whitefly severity_method
 
 [Term]
@@ -9143,54 +9272,55 @@ relationship: scale_of CO_334:0010332 ! Calculation: Top yield_method
 id: CO_334:0100539
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010333 ! Visual Rating: Suitability for intercropping_method
+relationship: scale_of CO_334:0010501 ! Sensory assessment: Leaf edibility_method
 
 [Term]
 id: CO_334:0100540
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method_method
 
 [Term]
 id: CO_334:0100541
 name: 9pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100689 ! 9 point scales
 relationship: scale_of CO_334:0010335 ! Visual Rating: Unexpanded apical leaves colors_method
 
 [Term]
 id: CO_334:0100542
 name: 9pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100689 ! 9 point scales
 relationship: scale_of CO_334:0010336 ! Visual Rating: First fully expanded leaf color_method
 
 [Term]
 id: CO_334:0100543
 name: 9pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100689 ! 9 point scales
 relationship: scale_of CO_334:0010337 ! Visual Rating: Leaf vein color_method
 
 [Term]
 id: CO_334:0100544
 name: 8pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100688 ! 8 point scales
 relationship: scale_of CO_334:0010338 ! Visual Rating: Apical pubescence_method
 
 [Term]
 id: CO_334:0100545
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010339 ! Visual Rating: Stipules length_method
 
 [Term]
 id: CO_334:0100546
-name: Number
+name: number
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010221 ! Counting: Number of planted stakes_method
@@ -9210,9 +9340,9 @@ relationship: scale_of CO_334:0010413 ! Counting: Number of fruits _method
 
 [Term]
 id: CO_334:0100547
-name: 4 pt scale
+name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010341 ! Visual Rating: Leaf lobe position_method
 
 [Term]
@@ -9226,49 +9356,49 @@ relationship: scale_of CO_334:0010342 ! Visual Rating: Central leaf shape_method
 id: CO_334:0100549
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010343 ! Visual Rating: Petiole Insertion Angle_method
 
 [Term]
 id: CO_334:0100550
-name: 4 pt scale
+name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010344 ! Visual Rating: Petiole Length_method
 
 [Term]
 id: CO_334:0100551
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010345 ! Visual Rating: Petiole color_method
 
 [Term]
 id: CO_334:0100552
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010346 ! Visual Rating: Anthocyanin pigmentation_method
 
 [Term]
 id: CO_334:0100553
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010347 ! Visual Rating: Young stem growth habit_method
 
 [Term]
 id: CO_334:0100554
 name: 8pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100688 ! 8 point scales
 relationship: scale_of CO_334:0010348 ! Visual Rating: Young stem pubescence_method
 
 [Term]
 id: CO_334:0100555
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010349 ! Visual Rating: Leaf scar prominence_method
 
 [Term]
@@ -9280,7 +9410,7 @@ relationship: scale_of CO_334:0010350 ! Visual Rating: Apical branching_method
 
 [Term]
 id: CO_334:0100557
-name: Number of levels
+name: number of levels
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010351 ! Counting: Branching levels_method
@@ -9308,91 +9438,91 @@ relationship: scale_of CO_334:0010497 ! Measurement: Canopy width_method
 id: CO_334:0100559
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010353 ! Visual Rating: Sepal color_method
 
 [Term]
 id: CO_334:0100560
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010354 ! Visual Rating: Disc color_method
 
 [Term]
 id: CO_334:0100561
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010355 ! Visual Rating: Stigma color_method
 
 [Term]
 id: CO_334:0100562
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010356 ! Visual Rating: Ovary color_method
 
 [Term]
 id: CO_334:0100563
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010357 ! Visual Rating: Anther color_method
 
 [Term]
 id: CO_334:0100564
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010358 ! Visual Rating: Female stamenoids_method
 
 [Term]
 id: CO_334:0100565
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010359 ! Visual Rating: Male sterile_method
 
 [Term]
 id: CO_334:0100566
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010360 ! Visual Rating: Fruit exocarp Texture_method
 
 [Term]
 id: CO_334:0100567
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010361 ! Visual Rating: Ploidy_method
 
 [Term]
 id: CO_334:0100568
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010362 ! Visual Rating: Seed color_method
 
 [Term]
 id: CO_334:0100569
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010363 ! Visual Rating: Caruncle color_method
 
 [Term]
 id: CO_334:0100570
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010364 ! Visual Rating: Root position_method
 
 [Term]
 id: CO_334:0100571
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010365 ! Visual Rating: Storage root diameter_method
 
 [Term]
@@ -9455,7 +9585,7 @@ relationship: scale_of CO_334:0010499 ! Counting: Cassava rust disease incidence
 
 [Term]
 id: CO_334:0100583
-name: Pct (%)
+name: pct (%)
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010313 ! Estimation: Starch content _method
@@ -9489,14 +9619,14 @@ relationship: scale_of CO_334:0010381 ! Estimation: Lafun content_method
 
 [Term]
 id: CO_334:0100594
-name: Stem
+name: stem
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010388 ! Counting: Stem number_method
 
 [Term]
 id: CO_334:0100601
-name: Scars
+name: scars
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010395 ! Counting: Leaf scar number_method
@@ -9505,12 +9635,12 @@ relationship: scale_of CO_334:0010395 ! Counting: Leaf scar number_method
 id: CO_334:0100603
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010397 ! Visual Rating: Branching habit_method
 
 [Term]
 id: CO_334:0100606
-name: Flowers
+name: flowers
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010006 ! Counting: Female flower number all levels_method
@@ -9521,18 +9651,18 @@ relationship: scale_of CO_334:0010401 ! Counting: Male flower number_method
 
 [Term]
 id: CO_334:0100608
-name: Stalks
+name: stalks
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010402 ! Counting: Number of flowering stalks per branch level _method
 
 [Term]
 id: CO_334:0100609
-name: Branches
+name: forks
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010017 ! Counting: Number of forks by branch level
 relationship: scale_of CO_334:0010403 ! Counting: Number of forks_method
-relationship: scale_of CO_334:0010412 ! Counting: Number of terminal branches with inflorescence_method
 
 [Term]
 id: CO_334:0100611
@@ -9553,14 +9683,14 @@ relationship: scale_of CO_334:0010405 ! Visual Observation: Days to 50% anthesis
 
 [Term]
 id: CO_334:0100612
-name: Fruits
+name: fruits
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010406 ! Counting: Number of fruitset_method
 
 [Term]
 id: CO_334:0100614
-name: Nymphs
+name: nymphs
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010407 ! Counting: Bemesia tabaci nymphs yellow_method
@@ -9570,19 +9700,19 @@ relationship: scale_of CO_334:0010408 ! Counting: Bemesia tabaci nymphs black_me
 id: CO_334:0100615
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010409 ! Visual Observation: Bemesia tabaci nymphs severity_method
 
 [Term]
 id: CO_334:0100616
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010410 ! Visual Observation: Typhlodromalus aripo_method
 
 [Term]
 id: CO_334:0100617
-name: Proportion
+name: proportion
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010411 ! Counting: Plant number with inflorescence_method
@@ -9596,14 +9726,14 @@ relationship: scale_of CO_334:0010417 ! Measurement: Specific gravity_method
 
 [Term]
 id: CO_334:0100626
-name: Seedling
+name: seedling
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010420 ! Counting: Germination count_method
 
 [Term]
 id: CO_334:0100627
-name: Seed
+name: seed
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010421 ! Counting: Number of seeds sown_method
@@ -9612,35 +9742,35 @@ relationship: scale_of CO_334:0010421 ! Counting: Number of seeds sown_method
 id: CO_334:0100631
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010425 ! Sensory Assesment: Ease of harvest_method
 
 [Term]
 id: CO_334:0100632
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010426 ! Visual Rating: Root length evaluation_method
 
 [Term]
 id: CO_334:0100633
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010427 ! Visual Rating: Stalk average length evaluation_method
 
 [Term]
 id: CO_334:0100634
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010428 ! Visual rating: Root constriction_method
 
 [Term]
 id: CO_334:0100635
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010429 ! Visual Rating: Root evaluation_method
 
 [Term]
@@ -9659,7 +9789,7 @@ relationship: scale_of CO_334:0010432 ! Estimation: Yield per year_method
 
 [Term]
 id: CO_334:0100639
-name: Yes/No scale
+name: yes/no scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010433 ! Selection: Selected variety_method
@@ -9668,63 +9798,63 @@ relationship: scale_of CO_334:0010433 ! Selection: Selected variety_method
 id: CO_334:0100640
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010434 ! Visual Observation: Flowering_method
 
 [Term]
 id: CO_334:0100641
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010435 ! Visual Rating: Initial plant vigor_method
 
 [Term]
 id: CO_334:0100642
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010436 ! Visual Rating: Root color_method
 
 [Term]
 id: CO_334:0100643
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010437 ! Visual Rating: Root flesh color_method
 
 [Term]
 id: CO_334:0100644
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010438 ! Visual Rating: Root neck length_method
 
 [Term]
 id: CO_334:0100645
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010439 ! Visual Rating: Female flower evaluation_method
 
 [Term]
 id: CO_334:0100646
 name: 9pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100689 ! 9 point scales
 relationship: scale_of CO_334:0010440 ! Visual Rating: Staygreen_method
 
 [Term]
 id: CO_334:0100648
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010442 ! Visual Observation: Hairiness_method
 
 [Term]
 id: CO_334:0100649
 name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010443 ! Visual Observation: Sooty mould_method
 
 [Term]
@@ -9739,26 +9869,26 @@ relationship: scale_of CO_334:0010451 ! Measurement: Gari weight after drying_me
 id: CO_334:0100659
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010453 ! Sensory Assesment: Gari fibre_method
 
 [Term]
 id: CO_334:0100660
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010454 ! Gustation: Gari taste_method
 
 [Term]
 id: CO_334:0100661
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010455 ! Visual Rating: Swelling capacity_method
 
 [Term]
 id: CO_334:0100662
-name: Stakes
+name: stakes
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010456 ! Counting: Number of stakes_method
@@ -9767,63 +9897,63 @@ relationship: scale_of CO_334:0010456 ! Counting: Number of stakes_method
 id: CO_334:0100668
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010462 ! Visual Observation: Assessment of presence of leaf pubescence_method
 
 [Term]
 id: CO_334:0100669
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010463 ! Visual Observation: Leaf lobe margin_method
 
 [Term]
 id: CO_334:0100671
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010465 ! Visual Observation: Petiole orientation_method
 
 [Term]
 id: CO_334:0100672
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010466 ! Visual Observation: Presence of pollen_method
 
 [Term]
 id: CO_334:0100673
 name: 3pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010467 ! Visual Scoring: Stem cortex color_method
 
 [Term]
 id: CO_334:0100674
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010468 ! Visual Scoring: Stem epidermis color_method
 
 [Term]
 id: CO_334:0100675
 name: 7pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100687 ! 7 point scales
 relationship: scale_of CO_334:0010469 ! Visual Rating: Leaf scar distance_method
 
 [Term]
 id: CO_334:0100676
 name: 4pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100686 ! 4 point scales
 relationship: scale_of CO_334:0010470 ! Visual Observation: Plant shape_method
 
 [Term]
 id: CO_334:0100677
 name: 2pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010471 ! Visual Observation: Stipule margin_method
 
 [Term]
@@ -9843,6 +9973,7 @@ id: CO_334:0100680
 name: 11pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
 
 [Term]
 id: CO_334:0100681
@@ -9855,8 +9986,46 @@ relationship: scale_of CO_334:0010494 ! Calculation: Plot volume_method
 id: CO_334:0100682
 name: 5 pt scale
 namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010500 ! Visual Observation: Cassava rust disease severity_method
+
+[Term]
+id: CO_334:0100683
+name: 3pt scale
+namespace: CassavaScale
+is_a: CO_334:0100684 ! 3 point scales
+relationship: scale_of CO_334:0010502 ! Visual Rating: Cooking quality_method
+relationship: scale_of CO_334:0010504 ! Visual Rating: Apical pubescence_method
+
+[Term]
+id: CO_334:0100684
+name: 3 point scales
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100685
+name: 2 point scales
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100686
+name: 4 point scales
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100687
+name: 7 point scales
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100688
+name: 8 point scales
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100689
+name: 9 point scales
+is_a: CO_334:0001001 ! Scales
 
 [Typedef]
 id: derives_from
