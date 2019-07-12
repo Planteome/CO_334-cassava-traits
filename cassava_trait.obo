@@ -1908,7 +1908,7 @@ relationship: variable_of CO_334:0100572 ! ug/g
 id: CO_334:0000163
 name: specific gravity
 namespace: cassava_trait
-def: "Estimated value obtained by weighing 4-5 kilogram of cassava root in air, and in water." [CO:curators]
+def: "Estimated value obtained by weighing 4-5 kilogram of cassava root in air, and in water.It is calculated as root weight in air divided by the sum of root weight in air and root weight in water." [CO:curators]
 synonym: "spgrv" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000447 ! Dry matter content
@@ -3646,7 +3646,7 @@ creation_date: 2017-04-07T14:04:47Z
 
 [Term]
 id: CO_334:0000319
-name: Starch granule morphology (pictures)
+name: starch granule morphology (pictures)
 namespace: cassava_trait
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000318 ! Starch granule morphology
@@ -6399,6 +6399,100 @@ is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0002049 ! Cooking quality
 
 [Term]
+id: CO_334:0002051
+name: Fufu smell
+namespace: cassava_trait
+def: "Smell of fufu after processing" []
+synonym: "fufusm" RELATED []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002052
+name: Attieke smell
+namespace: cassava_trait
+def: "Smell of attieke after processing" []
+synonym: "attksm" RELATED []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002053
+name: fufu smell perception by rating 0&1
+namespace: cassava_trait
+def: "Olfactory perception of the smell of fufu after processing often rated as odourless (0) and 1(when it has some smell/odour oozing out)" []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002051 ! Fufu smell
+relationship: variable_of CO_334:0010505 ! Olfactory Perception: Fufu smell_method
+relationship: variable_of CO_334:0100539 ! 2pt scale
+
+[Term]
+id: CO_334:0002054
+name: cbsv quantification in cycle threshold
+namespace: cassava_trait
+def: "Characterization of CBSVs done using the Real time PCR based one step TaqMan method with primers and probes for CBSV.The unit of measurement is cycle threshold (ct)." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000036 ! Cassava brown streak disease leaf severity
+relationship: variable_of CO_334:0010510 ! PCR assay: Cassava Brown Streak Virus_method
+relationship: variable_of CO_334:0100690 ! c/t
+
+[Term]
+id: CO_334:0002055
+name: ucbsv quantification in cycle threshold
+namespace: cassava_trait
+def: "Characterization of CBSVs done using the Real time PCR based on one step TaqMan method with primers and probes for uCBSV.The unit of measurement is cycle threshold (ct)." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000036 ! Cassava brown streak disease leaf severity
+relationship: variable_of CO_334:0010511 ! PCR assay: Ugandan Cassava Brown Streak Virus_method
+relationship: variable_of CO_334:0100690 ! c/t
+
+[Term]
+id: CO_334:0002056
+name: dry matter content by SciO in percentage
+namespace: cassava_trait
+def: "Percentage dry matter content estimated using mini handheld Near InfraRed Spectrophotometry (NIRS) device called SciO. Output are spectrum with wavelength range of 700 to 1100 and are converted to percentage using prediction model." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000424 ! Root dry matter content
+relationship: variable_of CO_334:0010508 ! Prediction: Dry matter content by SciO_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0002057
+name: dry matter content by table-top NIRS in percentage
+namespace: cassava_trait
+def: "Percentage dry matter content using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 850 to 2500, and are converted to percentage using prediction model." []
+synonym: "dmNIRS" RELATED []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000424 ! Root dry matter content
+relationship: variable_of CO_334:0010509 ! Prediction: Dry matter content by table-top NIRS_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0002058
+name: dry matter content by QST in percentage
+namespace: cassava_trait
+def: "Percentage dry matter content estimated using handheld  Near InfraRed Spectrophotometry (NIRS) device called \"Quality Spec Trek\". Output are spectrum with wavelength range of 350-2500, and are converted percentage by prediction model." []
+synonym: "dmqst" RELATED []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000424 ! Root dry matter content
+relationship: variable_of CO_334:0010507 ! Prediction: Dry matter content by QST_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0002059
+name: attieke smell perception by rating 0&1
+namespace: cassava_trait
+def: "Smell of attieke after processing by olfactory perception often rated as 0 (odourless) and 1 (have some kinds of smell)" []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002052 ! Attieke smell
+relationship: variable_of CO_334:0010506 ! Olfactory Perception: Attieke smell_method
+relationship: variable_of CO_334:0100539 ! 2pt scale
+
+[Term]
 id: CO_334:0010000
 name: measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -8797,6 +8891,70 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000283 ! Apical pubescence
 
 [Term]
+id: CO_334:0010505
+name: Olfactory Perception: Fufu smell_method
+namespace: CassavaMethod
+def: "Percieve the fufu product and check to see if it has some smell." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002051 ! Fufu smell
+
+[Term]
+id: CO_334:0010506
+name: Olfactory Perception: Attieke smell_method
+namespace: CassavaMethod
+def: "Percieve the fufu product and check to see if it has some smell." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002052 ! Attieke smell
+relationship: variable_of CO_334:0002052 ! Attieke smell
+
+[Term]
+id: CO_334:0010507
+name: Prediction: Dry matter content by QST_method
+namespace: CassavaMethod
+def: "Prediction of dry matter content using spectrum generated by hand-held NIRS device ( wavelength range of 350-2500) done by placing the device consistently on three different parts of dissected root sections ( proximal, axial and distal)." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000424 ! Root dry matter content
+
+[Term]
+id: CO_334:0010508
+name: Prediction: Dry matter content by SciO_method
+namespace: CassavaMethod
+def: "Prediction of dry matter content using spectrum generated by mini hand-held NIRS device (700-1100) done by placing the device consistently on three different parts of dissected root sections ( proximal, axial and distal)." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000424 ! Root dry matter content
+
+[Term]
+id: CO_334:0010509
+name: Prediction: Dry matter content by table-top NIRS_method
+namespace: CassavaMethod
+def: "Prediction of dry matter content based on spectrum generated using table-top NIRS (wavelength of 850-2500) done by placing chopped and mashed cassava sample into the machine; the sample is rotated at four different degrees (0, 90, 180 and 270)" []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000424 ! Root dry matter content
+
+[Term]
+id: CO_334:0010510
+name: PCR assay: Cassava Brown Streak Virus_method
+namespace: CassavaMethod
+def: "One step TaqMan method used with primers and probes for CBSV" []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000090 ! Cassava brown streak disease root severity
+
+[Term]
+id: CO_334:0010511
+name: PCR assay: Ugandan Cassava Brown Streak Virus_method
+namespace: CassavaMethod
+def: "One step TaqMan method used with primers and probes for UCBSV amplification" []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000090 ! Cassava brown streak disease root severity
+
+[Term]
 id: CO_334:0012000
 name: Observation: Farmer trait preference_method
 namespace: CassavaMethod
@@ -9275,6 +9433,8 @@ namespace: CassavaScale
 is_a: CO_334:0100685 ! 2 point scales
 relationship: scale_of CO_334:0010333 ! Visual Rating: Suitability for intercropping_method
 relationship: scale_of CO_334:0010501 ! Sensory assessment: Leaf edibility_method
+relationship: scale_of CO_334:0010505 ! Olfactory Perception: Fufu smell_method
+relationship: scale_of CO_334:0010506 ! Olfactory Perception: Attieke smell_method
 
 [Term]
 id: CO_334:0100540
@@ -9607,6 +9767,9 @@ relationship: scale_of CO_334:0010458 ! Estimation: Percentage leaf retention at
 relationship: scale_of CO_334:0010459 ! Estimation: Percentage leaf retention at 6 months after planting_method
 relationship: scale_of CO_334:0010460 ! Estimation: Percentage leaf retention at 7 months after planting_method
 relationship: scale_of CO_334:0010461 ! Estimation: Leaf retention at harvest_method
+relationship: scale_of CO_334:0010507 ! Prediction: Dry matter content by QST_method
+relationship: scale_of CO_334:0010508 ! Prediction: Dry matter content by SciO_method
+relationship: scale_of CO_334:0010509 ! Prediction: Dry matter content by table-top NIRS_method
 
 [Term]
 id: CO_334:0100586
@@ -10000,32 +10163,47 @@ relationship: scale_of CO_334:0010504 ! Visual Rating: Apical pubescence_method
 [Term]
 id: CO_334:0100684
 name: 3 point scales
+namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 
 [Term]
 id: CO_334:0100685
 name: 2 point scales
+namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 
 [Term]
 id: CO_334:0100686
 name: 4 point scales
+namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 
 [Term]
 id: CO_334:0100687
 name: 7 point scales
+namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 
 [Term]
 id: CO_334:0100688
 name: 8 point scales
+namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 
 [Term]
 id: CO_334:0100689
 name: 9 point scales
+namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100690
+name: c/t
+namespace: CassavaScale
+def: "CO_334:0100690" []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010510 ! PCR assay: Cassava Brown Streak Virus_method
+relationship: scale_of CO_334:0010511 ! PCR assay: Ugandan Cassava Brown Streak Virus_method
 
 [Typedef]
 id: derives_from
