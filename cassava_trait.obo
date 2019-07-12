@@ -994,26 +994,26 @@ relationship: variable_of CO_334:0100556 ! weeks
 
 [Term]
 id: CO_334:0000087
-name: bemesia tabaci adult by counting
+name: bemisia tabaci adult by counting
 namespace: cassava_trait
-def: "Number of Bemesia tabaci adult white flies on the top five leaves." [CO:curators]
+def: "Number of Bemisia tabaci adult white flies on the top five leaves." [CO:curators]
 synonym: "BTAdNo_Count_BTad" EXACT []
 synonym: "btadt" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000410 ! Number of bemesia tabaci adult
-relationship: variable_of CO_334:0010327 ! Counting: Bemesia tabaci adult_method
+relationship: variable_of CO_334:0000410 ! Number of bemisia tabaci adult
+relationship: variable_of CO_334:0010327 ! Counting: Bemisia tabaci adult_method
 relationship: variable_of CO_334:0100546 ! number
 
 [Term]
 id: CO_334:0000088
-name: bemesia tabaci nymphs by counting
+name: bemisia tabaci nymphs by counting
 namespace: cassava_trait
-def: "Number of Bemesia tabaci nymphs white flies on the14th leaf." [CO:curators]
+def: "Number of Bemisia tabaci nymphs white flies on the14th leaf." [CO:curators]
 synonym: "btnym" EXACT []
 synonym: "BTNymNo_Count_BTNym" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000411 ! Number of bemesia tabaci nymphs
-relationship: variable_of CO_334:0010328 ! Counting: Bemesia tabaci nymphs_method
+relationship: variable_of CO_334:0000411 ! Number of bemisia tabaci nymphs
+relationship: variable_of CO_334:0010328 ! Counting: Bemisia tabaci nymphs_method
 relationship: variable_of CO_334:0100546 ! number
 
 [Term]
@@ -1747,38 +1747,38 @@ relationship: variable_of CO_334:0100612 ! fruits
 
 [Term]
 id: CO_334:0000150
-name: bemesia tabaci nymphs yellow : counting
+name: bemisia tabaci nymphs yellow : counting
 namespace: cassava_trait
-def: "Number of yellow Bemesia tabaci whitefly nymphs on fourteenth leaf of the same tallest shoot." [CO:curators]
+def: "Number of yellow Bemisia tabaci whitefly nymphs on fourteenth leaf of the same tallest shoot." [CO:curators]
 synonym: "btwfy" EXACT []
 synonym: "BTYlwN_Count_Nymph" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000290 ! Bemesia tabaci nymphs yellow
-relationship: variable_of CO_334:0010407 ! Counting: Bemesia tabaci nymphs yellow_method
+relationship: variable_of CO_334:0000290 ! Bemisia tabaci nymphs yellow
+relationship: variable_of CO_334:0010407 ! Counting: Bemisia tabaci nymphs yellow_method
 relationship: variable_of CO_334:0100614 ! nymphs
 
 [Term]
 id: CO_334:0000151
-name: bemesia tabaci nymphs black : counting
+name: bemisia tabaci nymphs black : counting
 namespace: cassava_trait
-def: "Number of black Bemesia tabaci whitefly nymphs on fourteenth leaf of the same tallest shoot." [CO:curators]
+def: "Number of black Bemisia tabaci whitefly nymphs on fourteenth leaf of the same tallest shoot." [CO:curators]
 synonym: "BTNBlkY_Count_Nymph" EXACT []
 synonym: "btwfb" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000288 ! Bemesia tabaci nymphs black
-relationship: variable_of CO_334:0010408 ! Counting: Bemesia tabaci nymphs black_method
+relationship: variable_of CO_334:0000288 ! Bemisia tabaci nymphs black
+relationship: variable_of CO_334:0010408 ! Counting: Bemisia tabaci nymphs black_method
 relationship: variable_of CO_334:0100614 ! nymphs
 
 [Term]
 id: CO_334:0000152
-name: bemesia tabaci nymphs severity : visual 1-5
+name: bemisia tabaci nymphs severity : visual 1-5
 namespace: cassava_trait
 def: "Visual rating of chlorotic blotches infestation on leaves, caused by whitefly on a rating of 1 = none, 2 = mild chlorotic blotches on <10% of leaves, 3 = damage moderate chlorotic blotches on 10-30% of leaves, 4 = chlorosis on 30-50% of leaves, 5 = chlorosis on >50% of leaves." [CO:curators]
 synonym: "BTNSev_Est_1to5" EXACT []
 synonym: "btwfs" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000289 ! Bemesia tabaci nymphs severity
-relationship: variable_of CO_334:0010409 ! Visual Observation: Bemesia tabaci nymphs severity_method
+relationship: variable_of CO_334:0000289 ! Bemisia tabaci nymphs severity
+relationship: variable_of CO_334:0010409 ! Visual Observation: Bemisia tabaci nymphs severity_method
 relationship: variable_of CO_334:0100615 ! 5pt scale
 
 [Term]
@@ -3357,9 +3357,9 @@ is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0000288
-name: Bemesia tabaci nymphs black
+name: Bemisia tabaci nymphs black
 namespace: cassava_trait
-def: "Number of black bemesia tabaci nymphs on 14th leaf" [CO:curators]
+def: "Number of black bemisia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfb" EXACT []
 xref: TO:0000261
 is_a: CO_334:0000030 ! insect damage
@@ -3377,7 +3377,7 @@ is_a: CO_334:0000030 ! insect damage
 id: CO_334:0000290
 name: Bemisia tabaci nymphs yellow
 namespace: cassava_trait
-def: "Number of yellow bemesia tabaci nymphs on 14th leaf" [CO:curators]
+def: "Number of yellow bemisia tabaci nymphs on 14th leaf" [CO:curators]
 synonym: "btwfy" EXACT []
 xref: TO:0000261
 is_a: CO_334:0000030 ! insect damage
@@ -4486,7 +4486,7 @@ is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0000410
-name: Number of bemesia tabaci adult
+name: Number of bemisia tabaci adult
 namespace: cassava_trait
 def: "Number of Bemisia tabaci adult white flies" [CO:curators]
 synonym: "BTAdtNo" EXACT []
@@ -4495,7 +4495,7 @@ is_a: CO_334:0000030 ! insect damage
 
 [Term]
 id: CO_334:0000411
-name: Number of bemesia tabaci nymphs
+name: Number of bemisia tabaci nymphs
 namespace: cassava_trait
 def: "Number of Bemisia tabaci nymphs white flies" [CO:curators]
 synonym: "BTNyNo" EXACT []
@@ -7474,7 +7474,7 @@ name: Counting: Bemisia tabaci adult_method
 namespace: CassavaMethod
 def: "Counting of the number of Bemisia tabaci adult white flies on the top five leaves." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0000410 ! Number of bemesia tabaci adult
+relationship: method_of CO_334:0000410 ! Number of bemisia tabaci adult
 
 [Term]
 id: CO_334:0010328
@@ -7482,7 +7482,7 @@ name: Counting: Bemisia tabaci nymphs_method
 namespace: CassavaMethod
 def: "Counting of the number of Bemisia tabaci nymphs white flies on the 14th leaf." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0000411 ! Number of bemesia tabaci nymphs
+relationship: method_of CO_334:0000411 ! Number of bemisia tabaci nymphs
 
 [Term]
 id: CO_334:0010329
@@ -8104,7 +8104,7 @@ relationship: method_of CO_334:0000415 ! Number of fruitset
 id: CO_334:0010407
 name: Counting: Bemisia tabaci nymphs yellow_method
 namespace: CassavaMethod
-def: "Count of the number of number of yellow bemesia tabaci nymphs on 14th leaf on the same tallest shoot" [CO:curators]
+def: "Count of the number of number of yellow bemisia tabaci nymphs on 14th leaf on the same tallest shoot" [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000290 ! Bemisia tabaci nymphs yellow
 
@@ -8112,7 +8112,7 @@ relationship: method_of CO_334:0000290 ! Bemisia tabaci nymphs yellow
 id: CO_334:0010408
 name: Counting: Bemisia tabaci nymphs black_method
 namespace: CassavaMethod
-def: "Count of the number of number of black bemesia tabaci nymphs on 14th leaf on the same tallest shoot" [CO:curators]
+def: "Count of the number of number of black bemisia tabaci nymphs on 14th leaf on the same tallest shoot" [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000288 ! Bemisia tabaci nymphs black
 
