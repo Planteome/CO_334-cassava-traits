@@ -164,6 +164,8 @@ is_a: CO_334:0001000 ! Variables
 relationship: derives_from CO_334:0000013 ! fresh root yield
 relationship: derives_from CO_334:0000017 ! top yield
 relationship: variable_of CO_334:0000267 ! Harvest index
+relationship: variable_of CO_334:0010512 ! Calculation: Harvest index_method
+relationship: variable_of CO_334:0100582 ! ratio
 
 [Term]
 id: CO_334:0000016
@@ -1062,6 +1064,7 @@ is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010300 ! Estimation: Root dry matter content_method
 relationship: variable_of CO_334:0100582 ! ratio
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000093
@@ -1430,7 +1433,7 @@ def: "Portion of the stem with leaves measured as the distance in centimeter fro
 synonym: "PLHTLF" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000478 ! Stem height
-relationship: variable_of CO_334:0010000 ! measurement: Plant height with leaf_method
+relationship: variable_of CO_334:0010000 ! Measurement: Plant height with leaf_method
 relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
@@ -3038,6 +3041,7 @@ def: "Assessment of the young leaf pubescence . Record the most frequent occurre
 synonym: "APUBESA" RELATED []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000283 ! Apical pubescence
+relationship: variable_of CO_334:0010513 ! Visual Rating: Apical pubescence_method
 created_by: AAfolabi
 creation_date: 2015-09-28T17:48:12Z
 
@@ -3236,6 +3240,7 @@ synonym: "aflwmno" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000403 ! Male flower number
 relationship: variable_of CO_334:0010007 ! Counting: Male flower number on all levels_method
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: aafolabi
 creation_date: 2016-05-12T14:43:50Z
 
@@ -3474,6 +3479,8 @@ name: number of planted stakes per plant counting
 namespace: cassava_trait
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000416 ! Number of planted stakes
+relationship: variable_of CO_334:0010456 ! Counting: Number of stakes_method
+relationship: variable_of CO_334:0100662 ! stakes
 created_by: naama
 creation_date: 2016-10-27T15:44:39Z
 
@@ -3511,6 +3518,8 @@ namespace: cassava_trait
 def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:Curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000303 ! Storage root weight by plant
+relationship: variable_of CO_334:0010514 ! Measurement: Storage root weight per plant_method
+relationship: variable_of CO_334:0100493 ! kg
 created_by: naama
 creation_date: 2016-12-22T16:17:12Z
 
@@ -3537,6 +3546,8 @@ namespace: cassava_trait
 def: "Total fresh weight of harvested foliage and stems in kilograms per plant" [CO:Curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000306 ! Fresh shoot weight by plant
+relationship: variable_of CO_334:0010515 ! Measurement: Fresh shoot weight per plant_method
+relationship: variable_of CO_334:0100493 ! kg
 created_by: naama
 creation_date: 2016-12-22T16:24:39Z
 
@@ -3548,6 +3559,8 @@ def: "Visual rating of ease of peeling root cortex with 1 = easy, 2 = intermedia
 synonym: "easepl" RELATED []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000362 ! Ease of peeling storage root cortex
+relationship: variable_of CO_334:0010518 ! Visual Rating: Ease of peel_method
+relationship: variable_of CO_334:0100000 ! 3pt scale
 created_by: AAfolabi
 creation_date: 2017-02-10T10:54:15Z
 
@@ -3559,6 +3572,8 @@ def: "Visual rating of young leaf pubescence with 0 = absent, 1 = Moderate pubes
 synonym: "apubes" RELATED []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000283 ! Apical pubescence
+relationship: variable_of CO_334:0010513 ! Visual Rating: Apical pubescence_method
+relationship: variable_of CO_334:0100000 ! 3pt scale
 created_by: AAfolabi
 creation_date: 2017-02-10T11:02:13Z
 
@@ -3650,6 +3665,8 @@ name: starch granule morphology (pictures)
 namespace: cassava_trait
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000318 ! Starch granule morphology
+relationship: variable_of CO_334:0010519 ! Measurement: Starch granule_method
+relationship: variable_of CO_334:0100000 ! 3pt scale
 created_by: naama
 creation_date: 2017-04-07T14:05:27Z
 
@@ -3668,6 +3685,8 @@ namespace: cassava_trait
 def: "Starch granule average diameter (µm)" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000320 ! Starch granule size
+relationship: variable_of CO_334:0010519 ! Measurement: Starch granule_method
+relationship: variable_of CO_334:0100692 ! um
 created_by: naama
 creation_date: 2017-04-07T14:06:56Z
 
@@ -3678,6 +3697,8 @@ namespace: cassava_trait
 def: "Starch granule size distribution with three categories. 1: between 0-7µm ; 2: 8-14 µm ; 3: 15 - 22 µm." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000320 ! Starch granule size
+relationship: variable_of CO_334:0010519 ! Measurement: Starch granule_method
+relationship: variable_of CO_334:0100000 ! 3pt scale
 created_by: naama
 creation_date: 2017-04-07T14:07:28Z
 
@@ -3688,6 +3709,8 @@ namespace: cassava_trait
 def: "Starch chain length distribution, values range from dp3 to dp82." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000320 ! Starch granule size
+relationship: variable_of CO_334:0010519 ! Measurement: Starch granule_method
+relationship: variable_of CO_334:0100693 ! dp
 created_by: naama
 creation_date: 2017-04-07T14:08:52Z
 
@@ -3706,6 +3729,8 @@ namespace: cassava_trait
 def: "The sum of fresh root weight + fresh root weight by plot." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000324 ! Total fresh weight
+relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
+relationship: variable_of CO_334:0100493 ! kg
 created_by: naama
 creation_date: 2017-04-10T12:26:56Z
 
@@ -3716,6 +3741,8 @@ namespace: cassava_trait
 def: "The sum of fresh root weight + fresh root weight by plant." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000324 ! Total fresh weight
+relationship: variable_of CO_334:0010514 ! Measurement: Storage root weight per plant_method
+relationship: variable_of CO_334:0100493 ! kg
 created_by: naama
 creation_date: 2017-04-10T12:41:21Z
 
@@ -3723,9 +3750,11 @@ creation_date: 2017-04-10T12:41:21Z
 id: CO_334:0000327
 name: fresh fibrous root weight per plant
 namespace: cassava_trait
-def: "Total fresh weight of fibrous roots harvested per plant measured in kilogram (kg)." [CO:Curators]
+def: "Total fresh weight of fibrous roots harvested per plot measured in kilogram (kg)." [CO:Curators]
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000303 ! Storage root weight by plant
+relationship: variable_of CO_334:0002060 ! Fibrous root weight
+relationship: variable_of CO_334:0010521 ! Measurement: Fresh fibrous root_method
+relationship: variable_of CO_334:0100493 ! kg
 created_by: naama
 creation_date: 2017-05-04T15:44:25Z
 
@@ -3737,8 +3766,8 @@ def: "Total fresh weight of fibrous roots harvested per plot measured in kilogra
 synonym: "rtwt" EXACT []
 synonym: "RtWt_Wgh_kg" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000302 ! Storage root weight by plot
-relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
+relationship: variable_of CO_334:0002060 ! Fibrous root weight
+relationship: variable_of CO_334:0010521 ! Measurement: Fresh fibrous root_method
 relationship: variable_of CO_334:0100493 ! kg
 created_by: naama
 creation_date: 2017-05-04T15:47:58Z
@@ -3870,6 +3899,8 @@ namespace: cassava_trait
 def: "Average number of nodes per branch level.\nCounting all nodes per branch at each level. If more than one branch, select one branch and count nodes up to the apical shoot. Value averaged per plot." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000342 ! Node number
+relationship: variable_of CO_334:0010520 ! Counting: Number of node_method
+relationship: variable_of CO_334:0100546 ! number
 created_by: naama
 creation_date: 2017-06-22T11:46:27Z
 
@@ -3889,6 +3920,8 @@ namespace: cassava_trait
 def: "Count of number of female flowers at the first branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000344 ! female flower number at specific branching level
+relationship: variable_of CO_334:0010400 ! Counting: Female flower number_method
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: naama
 creation_date: 2017-06-26T12:05:00Z
 
@@ -3899,6 +3932,8 @@ namespace: cassava_trait
 def: "Count of number of female flowers at the second branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000344 ! female flower number at specific branching level
+relationship: variable_of CO_334:0010400 ! Counting: Female flower number_method
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: naama
 creation_date: 2017-06-26T12:05:00Z
 
@@ -3909,6 +3944,8 @@ namespace: cassava_trait
 def: "Count of number of female flowers at the third branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000344 ! female flower number at specific branching level
+relationship: variable_of CO_334:0010400 ! Counting: Female flower number_method
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: naama
 creation_date: 2017-06-26T12:05:00Z
 
@@ -3919,6 +3956,8 @@ namespace: cassava_trait
 def: "Count of number of female flowers at the forth branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000344 ! female flower number at specific branching level
+relationship: variable_of CO_334:0010400 ! Counting: Female flower number_method
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: naama
 creation_date: 2017-06-26T12:05:00Z
 
@@ -3929,6 +3968,8 @@ namespace: cassava_trait
 def: "Count of number of female flowers at the fifth branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000344 ! female flower number at specific branching level
+relationship: variable_of CO_334:0010400 ! Counting: Female flower number_method
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: naama
 creation_date: 2017-06-26T12:05:00Z
 
@@ -3939,6 +3980,8 @@ namespace: cassava_trait
 def: "Count of number of female flowers at the sixth branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000344 ! female flower number at specific branching level
+relationship: variable_of CO_334:0010400 ! Counting: Female flower number_method
+relationship: variable_of CO_334:0100606 ! flowers
 created_by: naama
 creation_date: 2017-06-26T12:05:00Z
 
@@ -3958,6 +4001,8 @@ namespace: cassava_trait
 def: "Number of nodes at the first branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000351 ! Node number per branch
+relationship: variable_of CO_334:0010520 ! Counting: Number of node_method
+relationship: variable_of CO_334:0100691 ! nodes
 created_by: naama
 creation_date: 2017-07-11T10:57:20Z
 
@@ -4059,6 +4104,8 @@ namespace: cassava_trait
 def: "Number of nodes at the second branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000351 ! Node number per branch
+relationship: variable_of CO_334:0010520 ! Counting: Number of node_method
+relationship: variable_of CO_334:0100691 ! nodes
 created_by: naama
 creation_date: 2017-07-11T10:57:20Z
 
@@ -4105,6 +4152,8 @@ namespace: cassava_trait
 def: "Number of nodes at the third branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000351 ! Node number per branch
+relationship: variable_of CO_334:0010520 ! Counting: Number of node_method
+relationship: variable_of CO_334:0100691 ! nodes
 created_by: naama
 creation_date: 2017-07-11T10:57:20Z
 
@@ -4242,6 +4291,8 @@ namespace: cassava_trait
 def: "Number of nodes at the fourth branching level." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000351 ! Node number per branch
+relationship: variable_of CO_334:0010520 ! Counting: Number of node_method
+relationship: variable_of CO_334:0100691 ! nodes
 created_by: naama
 creation_date: 2017-07-11T10:57:20Z
 
@@ -4253,6 +4304,7 @@ def: "Ratio of measured fibrous root dry weight and fibrous root fresh weight mu
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000424 ! Root dry matter content
 relationship: variable_of CO_334:0010011 ! Estimation: Dry matter content of fibrous root percentage
+relationship: variable_of CO_334:0100583 ! pct (%)
 created_by: AAfolabi
 creation_date: 2017-07-18T14:45:13Z
 
@@ -4264,6 +4316,7 @@ def: "Ratio of measured lower stem dry weight and lower stem fresh weight multip
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002040 ! Leaf dry matter content
 relationship: variable_of CO_334:0010010 ! Estimation: Dry matter content of lower stem percentage
+relationship: variable_of CO_334:0100583 ! pct (%)
 created_by: AAfolabi
 creation_date: 2017-07-18T14:49:00Z
 
@@ -4608,6 +4661,7 @@ def: "Ratio of measured leaf dry weight and leaf fresh weight multiplied by 100.
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002040 ! Leaf dry matter content
 relationship: variable_of CO_334:0010009 ! Estimation: Dry matter content of leaf percentage
+relationship: variable_of CO_334:0100583 ! pct (%)
 created_by: AAfolabi
 creation_date: 2017-07-18T14:52:38Z
 
@@ -4637,6 +4691,7 @@ def: "Estimation of leaf area by scanning all leaves of a plant on centimeter sq
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000425 ! Total leaf area
 relationship: variable_of CO_334:0010012 ! Estimation: Total leaf area_method
+relationship: variable_of CO_334:0100007 ! cm square
 created_by: AAfolabi
 creation_date: 2017-07-18T15:30:58Z
 
@@ -5835,6 +5890,8 @@ namespace: cassava_trait
 def: "Use of a penetrometer to record the maximum force used to penetrate the boiled root, measured in newtons." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001012 ! Softness of boiled cassava roots
+relationship: variable_of CO_334:0010517 ! Calculation: Softness of boiled root_method
+relationship: variable_of CO_334:0100695 ! newton
 
 [Term]
 id: CO_334:0001025
@@ -6216,6 +6273,8 @@ synonym: "plotvol" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002030 ! Plot volume
+relationship: variable_of CO_334:0010516 ! Estimation: Plot volume_method
+relationship: variable_of CO_334:0100681 ! m3
 
 [Term]
 id: CO_334:0002033
@@ -6226,6 +6285,8 @@ synonym: "plantht" RELATED []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002031 ! Plant height per plot
+relationship: variable_of CO_334:0010303 ! Measurement: Plant height_method
+relationship: variable_of CO_334:0100679 ! m
 
 [Term]
 id: CO_334:0002034
@@ -6428,7 +6489,7 @@ relationship: variable_of CO_334:0100539 ! 2pt scale
 
 [Term]
 id: CO_334:0002054
-name: cbsv quantification in cycle threshold
+name: cbsv quantification with RTPCR in cycle threshold
 namespace: cassava_trait
 def: "Characterization of CBSVs done using the Real time PCR based one step TaqMan method with primers and probes for CBSV.The unit of measurement is cycle threshold (ct)." []
 is_a: CO_334:0001000 ! Variables
@@ -6438,7 +6499,7 @@ relationship: variable_of CO_334:0100690 ! c/t
 
 [Term]
 id: CO_334:0002055
-name: ucbsv quantification in cycle threshold
+name: ucbsv quantification with RTPCR in cycle threshold
 namespace: cassava_trait
 def: "Characterization of CBSVs done using the Real time PCR based on one step TaqMan method with primers and probes for uCBSV.The unit of measurement is cycle threshold (ct)." []
 is_a: CO_334:0001000 ! Variables
@@ -6493,8 +6554,72 @@ relationship: variable_of CO_334:0010506 ! Olfactory Perception: Attieke smell_m
 relationship: variable_of CO_334:0100539 ! 2pt scale
 
 [Term]
+id: CO_334:0002060
+name: Fibrous root weight
+namespace: cassava_trait
+synonym: "firtwt" RELATED []
+xref: CO:curators
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0002061
+name: L chromometer
+namespace: cassava_trait
+def: "L scale from chromometer indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002062
+name: B chromometer
+namespace: cassava_trait
+def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." []
+synonym: "bval" EXACT []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002063
+name: A chromometer
+namespace: cassava_trait
+def: "a scale indicate red vs. green where a positive number indicates red and a negative number indicates green" []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002064
+name: b chromometer value
+namespace: cassava_trait
+def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." []
+synonym: "bval" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+
+[Term]
+id: CO_334:0002065
+name: L chromometer value
+namespace: cassava_trait
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+
+[Term]
+id: CO_334:0002066
+name: a chromometer value
+namespace: cassava_trait
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002063 ! A chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+
+[Term]
 id: CO_334:0010000
-name: measurement: Plant height with leaf_method
+name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000478 ! Stem height
@@ -6622,6 +6747,7 @@ creation_date: 2017-07-18T15:34:16Z
 id: CO_334:0010013
 name: Visual Observation: Days to branching event
 namespace: CassavaMethod
+def: "Visual observation of branching event in a plot" []
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000449 ! Days to branching event
 created_by: AAfolabi
@@ -6681,6 +6807,7 @@ creation_date: 2017-07-25T16:04:51Z
 id: CO_334:0010019
 name: Counting: Number of buds by branch level
 namespace: CassavaMethod
+def: "Count of the number of buds" []
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000530 ! Number of buds by branch level
 created_by: AAfolabi
@@ -8843,6 +8970,7 @@ id: CO_334:0010497
 name: Measurement: Canopy width_method
 namespace: CassavaMethod
 is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002039 ! Canopy width
 
 [Term]
 id: CO_334:0010498
@@ -8953,6 +9081,98 @@ def: "One step TaqMan method used with primers and probes for UCBSV amplificatio
 xref: CO:curators
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000090 ! Cassava brown streak disease root severity
+
+[Term]
+id: CO_334:0010512
+name: Calculation: Harvest index_method
+namespace: CassavaMethod
+def: "Plot biomass estimated as the ratio of root weight and the sum of root and shoot weight" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000267 ! Harvest index
+
+[Term]
+id: CO_334:0010513
+name: Visual Rating: Apical pubescence_method
+namespace: CassavaMethod
+def: "Rating of the presence of pubescence on the leaf apices" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000283 ! Apical pubescence
+
+[Term]
+id: CO_334:0010514
+name: Measurement: Storage root weight per plant_method
+namespace: CassavaMethod
+def: "Weight of root using scales from individual plant stands" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000303 ! Storage root weight by plant
+
+[Term]
+id: CO_334:0010515
+name: Measurement: Fresh shoot weight per plant_method
+namespace: CassavaMethod
+def: "Weight of shoot (stem and foliar) using scales" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000306 ! Fresh shoot weight by plant
+
+[Term]
+id: CO_334:0010516
+name: Estimation: Plot volume_method
+namespace: CassavaMethod
+def: "Estimation based on Weibull's continuous probability distribution for deriving the scale and shape parameters. It is calculated as the sum of all z-values (the height of every point in the point cloud) multiplied by 0.01 and 0.01 (every pixel is 1cm resolution)." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002030 ! Plot volume
+
+[Term]
+id: CO_334:0010517
+name: Calculation: Softness of boiled root_method
+namespace: CassavaMethod
+def: "Assessment of the softness of boiled root through calculation of the force it takes using a penetrometer to penetrate the root." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001012 ! Softness of boiled cassava roots
+
+[Term]
+id: CO_334:0010518
+name: Visual Rating: Ease of peel_method
+namespace: CassavaMethod
+def: "Visual rating of ease of peeling root cortex." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000362 ! Ease of peeling storage root cortex
+
+[Term]
+id: CO_334:0010519
+name: Measurement: Starch granule_method
+namespace: CassavaMethod
+def: "Measurement of starch granule" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000318 ! Starch granule morphology
+relationship: method_of CO_334:0000320 ! Starch granule size
+
+[Term]
+id: CO_334:0010520
+name: Counting: Number of node_method
+namespace: CassavaMethod
+def: "Count of the number of nodes on a stem" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000342 ! Node number
+relationship: method_of CO_334:0000351 ! Node number per branch
+
+[Term]
+id: CO_334:0010521
+name: Measurement: Fresh fibrous root_method
+namespace: CassavaMethod
+def: "Weigh fibrous root" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002060 ! Fibrous root weight
+
+[Term]
+id: CO_334:0010522
+name: Computation: Chromometer color values
+namespace: CassavaMethod
+def: "Color scales based on the Opponent-Color Theory" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002061 ! L chromometer
+relationship: method_of CO_334:0002062 ! B chromometer
+relationship: method_of CO_334:0002063 ! A chromometer
 
 [Term]
 id: CO_334:0012000
@@ -9388,6 +9608,8 @@ name: 3pt scale
 namespace: CassavaScale
 is_a: CO_334:0100684 ! 3 point scales
 relationship: scale_of CO_334:0010312 ! Visual Rating: Root surface texture_method
+relationship: scale_of CO_334:0010518 ! Visual Rating: Ease of peel_method
+relationship: scale_of CO_334:0010519 ! Measurement: Starch granule_method
 
 [Term]
 id: CO_334:0100525
@@ -9431,6 +9653,7 @@ id: CO_334:0100539
 name: 2pt scale
 namespace: CassavaScale
 is_a: CO_334:0100685 ! 2 point scales
+relationship: scale_of CO_334:0000256 ! assessment of apical pubescence boolean 0&1
 relationship: scale_of CO_334:0010333 ! Visual Rating: Suitability for intercropping_method
 relationship: scale_of CO_334:0010501 ! Sensory assessment: Leaf edibility_method
 relationship: scale_of CO_334:0010505 ! Olfactory Perception: Fufu smell_method
@@ -9580,7 +9803,7 @@ id: CO_334:0100558
 name: cm
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010000 ! measurement: Plant height with leaf_method
+relationship: scale_of CO_334:0010000 ! Measurement: Plant height with leaf_method
 relationship: scale_of CO_334:0010005 ! Measurement: Stem diameter_method
 relationship: scale_of CO_334:0010303 ! Measurement: Plant height_method
 relationship: scale_of CO_334:0010352 ! Measurement: First apical branch height_method
@@ -9742,6 +9965,7 @@ relationship: scale_of CO_334:0010326 ! Counting: Spiraling whitefly incidence_m
 relationship: scale_of CO_334:0010376 ! Calculation: Amylose amylopectin ratio_method
 relationship: scale_of CO_334:0010441 ! Counting: Flowering incidence_method
 relationship: scale_of CO_334:0010499 ! Counting: Cassava rust disease incidence_method
+relationship: scale_of CO_334:0010512 ! Calculation: Harvest index_method
 
 [Term]
 id: CO_334:0100583
@@ -10204,6 +10428,31 @@ def: "CO_334:0100690" []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010510 ! PCR assay: Cassava Brown Streak Virus_method
 relationship: scale_of CO_334:0010511 ! PCR assay: Ugandan Cassava Brown Streak Virus_method
+
+[Term]
+id: CO_334:0100691
+name: nodes
+namespace: CassavaScale
+def: "Number of nodes." []
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100692
+name: um
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100693
+name: dp
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100695
+name: newton
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
 
 [Typedef]
 id: derives_from
