@@ -6618,6 +6618,110 @@ relationship: variable_of CO_334:0002063 ! A chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 
 [Term]
+id: CO_334:0002067
+name: Change in weight after boiling
+namespace: cassava_trait
+def: "Change in the weight of cassava root after boiling at specific time" []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002068
+name: Change in weight after boiling computation percentage
+namespace: cassava_trait
+def: "The change in weight of pieces of cassava roots in boiling water computed in percentage. Usually the weight increases as roots absorb water during boiling." []
+synonym: "water absorption" RELATED []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002067 ! Change in weight after boiling
+relationship: variable_of CO_334:0010523 ! Computation: Change in weight after boiling
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0002069
+name: Time of boiling
+namespace: cassava_trait
+def: "Time required to boil root to become soft and acceptable for consumption" []
+synonym: "boiltime" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002070
+name: time of boiling estimation minute
+namespace: cassava_trait
+def: "Time of boiling required for cassava roots to become soft and acceptable for consumption, as determined by probing the pieces of roots with a fork" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002069 ! Time of boiling
+relationship: variable_of CO_334:0010524 ! Estimation: Time of boiling
+relationship: variable_of CO_334:0100696 ! minute
+
+[Term]
+id: CO_334:0002071
+name: Textural characteristic
+namespace: cassava_trait
+def: "Textural characteristics of boiled cassava root." []
+synonym: "texture" RELATED []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002072
+name: textural characteristic gradient extrusion g/mm
+namespace: cassava_trait
+def: "The Gradient, or initial slope, of the texture-extrusion profile of a piece of boiled cassava root and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002071 ! Textural characteristic
+relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
+relationship: variable_of CO_334:0100698 ! g/mm
+
+[Term]
+id: CO_334:0002073
+name: textural characteristic max force extrusion g
+namespace: cassava_trait
+def: "The Maximum force of the texture-extrusion profile of a piece of boiled cassava root  and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002071 ! Textural characteristic
+relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
+relationship: variable_of CO_334:0100623 ! g
+
+[Term]
+id: CO_334:0002074
+name: textural characteristic distance at max force extrusion mm
+namespace: cassava_trait
+def: "The Distance of compression, at which Maximum force is reached on the texture-extrusion profile of a piece of boiled cassava root and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002071 ! Textural characteristic
+relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
+relationship: variable_of CO_334:0100697 ! mm
+
+[Term]
+id: CO_334:0002075
+name: textural characteristic end force extrusion g
+namespace: cassava_trait
+def: "The force at the end of the texture-extrusion test, i.e. when travel distance is 20mm, for a piece of boiled cassava root and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002071 ! Textural characteristic
+relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
+relationship: variable_of CO_334:0100623 ! g
+
+[Term]
+id: CO_334:0002076
+name: textural characteristic area under curve extrusion gmm
+namespace: cassava_trait
+def: "The Area under the curve of the texture-extrusion profile of a piece of boiled cassava root and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002071 ! Textural characteristic
+relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
+relationship: variable_of CO_334:0100699 ! gmm
+
+[Term]
+id: CO_334:0002077
+name: textural characteristic linear distance extrusion mm
+namespace: cassava_trait
+def: "The Linear distance of the texture-extrusion profile of a piece of boiled cassava root and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002071 ! Textural characteristic
+relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
+relationship: variable_of CO_334:0100697 ! mm
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -9175,6 +9279,30 @@ relationship: method_of CO_334:0002062 ! B chromometer
 relationship: method_of CO_334:0002063 ! A chromometer
 
 [Term]
+id: CO_334:0010523
+name: Computation: Change in weight after boiling
+namespace: CassavaMethod
+def: "The weight of 8 pieces of cassava roots pooled together is measured before boiling. Change in weight is calculated as the weight difference before and after boiling divided by the initial weight before boiling, and expressed as percentage. The experiment is recommended in triplicate (8 pieces x 3)" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002067 ! Change in weight after boiling
+
+[Term]
+id: CO_334:0010524
+name: Estimation: Time of boiling
+namespace: CassavaMethod
+def: "Eight pieces of cassava roots are monitored during boiling by carefully probing their surface with a fork and visually assessing their appearance, until becoming soft. The time at which six out of the eight pieces become soft, is recorded as Optimum Cooking Time (OCT) (after subtracting if necessary the cumulated time the strainer was outside the boiling water for Change in weight measurements). Three replications are recommended. If the roots need more than 60 minutes to boil, the experiment is interrupted and OCT of 60 min is reported." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002069 ! Time of boiling
+
+[Term]
+id: CO_334:0010525
+name: Measurement: Textural characteristic
+namespace: CassavaMethod
+def: "A piece of boiled cassava root (half-cylinder 5.5 cm diameter, 6 cm long) was placed flat-face down in an Ottawa cell and pushed through a 5-blade grid over a distance of 20 mm at 1 mm/s. The force to carry out this extrusion was recorded, together with the distance traveled and the time. The texture profile was represented on a diagram as Force vs Distance traveled. The measurement was repeated 18 times with 18 different pieces of roots, and the average was reported." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002071 ! Textural characteristic
+
+[Term]
 id: CO_334:0012000
 name: Observation: Farmer trait preference_method
 namespace: CassavaMethod
@@ -9994,6 +10122,7 @@ relationship: scale_of CO_334:0010461 ! Estimation: Leaf retention at harvest_me
 relationship: scale_of CO_334:0010507 ! Prediction: Dry matter content by QST_method
 relationship: scale_of CO_334:0010508 ! Prediction: Dry matter content by SciO_method
 relationship: scale_of CO_334:0010509 ! Prediction: Dry matter content by table-top NIRS_method
+relationship: scale_of CO_334:0010523 ! Computation: Change in weight after boiling
 
 [Term]
 id: CO_334:0100586
@@ -10453,6 +10582,35 @@ id: CO_334:0100695
 name: newton
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0100696
+name: minute
+namespace: CassavaScale
+synonym: "min" EXACT []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010524 ! Estimation: Time of boiling
+
+[Term]
+id: CO_334:0100697
+name: mm
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010525 ! Measurement: Textural characteristic
+
+[Term]
+id: CO_334:0100698
+name: g/mm
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010525 ! Measurement: Textural characteristic
+
+[Term]
+id: CO_334:0100699
+name: gmm
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010525 ! Measurement: Textural characteristic
 
 [Typedef]
 id: derives_from
