@@ -6722,6 +6722,19 @@ relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
 relationship: variable_of CO_334:0100697 ! mm
 
 [Term]
+id: CO_334:0002078
+name: cassava brown streak disease root severity computation percentage
+namespace: cassava_trait
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.The percentage of tissue visible in root cross sections that appears diseased, as determined by image analysis described in https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3638.pdf" []
+synonym: "CBSDpct" EXACT []
+synonym: "CBSDRtSev_Cmp_pct" RELATED []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000090 ! Cassava brown streak disease root severity
+relationship: variable_of CO_334:0010526 ! Computation: Cassava brown streak disease root severity in percentage_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: CO:curators
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -9303,6 +9316,14 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0002071 ! Textural characteristic
 
 [Term]
+id: CO_334:0010526
+name: Computation: Cassava brown streak disease root severity in percentage_method
+namespace: CassavaMethod
+def: "Computation of visible tissues in the root cross sections that appear to be diseased using image analysis as described in https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3638.pdf" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000090 ! Cassava brown streak disease root severity
+
+[Term]
 id: CO_334:0012000
 name: Observation: Farmer trait preference_method
 namespace: CassavaMethod
@@ -10123,6 +10144,7 @@ relationship: scale_of CO_334:0010507 ! Prediction: Dry matter content by QST_me
 relationship: scale_of CO_334:0010508 ! Prediction: Dry matter content by SciO_method
 relationship: scale_of CO_334:0010509 ! Prediction: Dry matter content by table-top NIRS_method
 relationship: scale_of CO_334:0010523 ! Computation: Change in weight after boiling
+relationship: scale_of CO_334:0010526 ! Computation: Cassava brown streak disease root severity in percentage_method
 
 [Term]
 id: CO_334:0100586
