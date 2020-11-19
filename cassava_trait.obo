@@ -6740,7 +6740,7 @@ name: root flesh color 50% inner ring visual rating 1-8
 namespace: cassava_trait
 def: "Assessment of the level of yellowness in 50% of the inner ring of the storage root pulp at the time of harvest. Measured on a scale of 1 to 8, where 1 = white, 2 = light cream, 3 = cream, 4 = light yellow, 5 = yellow, 6 = deep yellow, 7 = orange, 8 = pink" []
 synonym: "rtfcol50i" EXACT []
-xref: CO_curators
+xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 
 [Term]
@@ -6749,7 +6749,7 @@ name: root flesh color 25% center ring visual rating 1-8
 namespace: cassava_trait
 def: "Assessment of the level of yellowness in 25% of the center ring of the storage root pulp at the time of harvest. Measured on a scale of 1 to 8, where 1 = white, 2 = light cream, 3 = cream, 4 = light yellow, 5 = yellow, 6 = deep yellow, 7 = orange, 8 = pink" []
 synonym: "rtfcol25c" EXACT []
-xref: CO_curators
+xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
 relationship: variable_of CO_334:0010527 ! Visual Rating: Root flesh color ring_method
@@ -6761,7 +6761,7 @@ name: root flesh color 25% outer ring visual rating 1-8
 namespace: cassava_trait
 def: "Assessment of the level of yellowness in 25% of the outer ring of the storage root pulp at the time of harvest. Measured on a scale of 1 to 8, where 1 = white, 2 = light cream, 3 = cream, 4 = light yellow, 5 = yellow, 6 = deep yellow, 7 = orange, 8 = pink" []
 synonym: "rtfcol25o" EXACT []
-xref: CO_curators
+xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 
 [Term]
@@ -9358,7 +9358,7 @@ id: CO_334:0010527
 name: Visual Rating: Root flesh color ring_method
 namespace: CassavaMethod
 def: "An assesment of the ring formed around the pulp. Rating is done by cutting the root and ring pattern is then checked from the center of the pulp." []
-xref: CO_curators
+xref: CO:curators
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000490 ! Storage Root Pulp Color
 
