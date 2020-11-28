@@ -6742,6 +6742,9 @@ def: "Assessment of the level of yellowness in 50% of the inner ring of the stor
 synonym: "rtfcol50i" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
+relationship: variable_of CO_334:0010527 ! Visual Rating: Root flesh color ring_method
+relationship: variable_of CO_334:0100700 ! 8pt scale
 
 [Term]
 id: CO_334:0002080
@@ -6763,6 +6766,9 @@ def: "Assessment of the level of yellowness in 25% of the outer ring of the stor
 synonym: "rtfcol25o" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
+relationship: variable_of CO_334:0010527 ! Visual Rating: Root flesh color ring_method
+relationship: variable_of CO_334:0100700 ! 8pt scale
 
 [Term]
 id: CO_334:0010000
