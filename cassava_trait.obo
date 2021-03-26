@@ -6,6 +6,7 @@ default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
 
+
 [Term]
 id: CO_334:0000000
 name: CGIAR cassava trait ontology
@@ -5910,6 +5911,16 @@ id: CO_334:0001027
 name: farmer preference trait at harvest
 namespace: cassava_trait
 is_a: CO_334:0001026 ! Farmer preference trait
+
+[Term]
+id: CO_334:0001028
+name: textural characteristic end force to max force ratio extrusion percentage
+namespace: cassava_trait
+def: "The ratio of the end force measured at 20mm divided by the maximum force recorded during the texture-extrusion profile of a piece of cassava root boiled for a set time, and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long.\n\nDerived trait calculated as percentage \n(CO_334:0002075/CO_334:0002073) * 100" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002071 ! Textural characteristic
+relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0001029
