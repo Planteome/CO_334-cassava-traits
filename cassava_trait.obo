@@ -6801,6 +6801,7 @@ relationship: variable_of CO_334:0100701 ! 5 pt scale
 [Term]
 id: CO_334:0002085
 name: Cassava Franklinella williamsi severity
+namespace: cassava_trait
 def: "Franklinella williamsi" []
 synonym: "thrips" RELATED []
 is_a: CO_334:0000030 ! insect damage
