@@ -6812,6 +6812,7 @@ def: "Franklinella williamsi" []
 synonym: "thrips" RELATED []
 is_a: CO_334:0000030 ! insect damage
 
+
 [Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
