@@ -6739,7 +6739,7 @@ id: CO_334:0002079
 name: root flesh color 50% inner ring visual rating 1-8
 namespace: cassava_trait
 def: "Assessment of the level of yellowness in 50% of the inner ring of the storage root pulp at the time of harvest. Measured on a scale of 1 to 8, where 1 = white, 2 = light cream, 3 = cream, 4 = light yellow, 5 = yellow, 6 = deep yellow, 7 = orange, 8 = pink" []
-synonym: "rtfcol25c" EXACT []
+synonym: "rtfcol50i" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
@@ -6769,6 +6769,49 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
 relationship: variable_of CO_334:0010527 ! Visual Rating: Root flesh color ring_method
 relationship: variable_of CO_334:0100700 ! 8pt scale
+
+[Term]
+id: CO_334:0002082
+name: branching angle in degrees
+namespace: cassava_trait
+def: "The angle between vertical plane and first primary branching in degrees." []
+synonym: "brnangdg" RELATED []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000294 ! Branching Angle
+relationship: variable_of CO_334:0010530 ! Visual Scoring :Branching Angle_degree_method
+relationship: variable_of CO_334:0100702 ! degree
+
+[Term]
+id: CO_334:0002083
+name: bemisia tabaci adult : visual 1-5
+namespace: cassava_trait
+def: "Visual rating of number of whitefly adults present in the buds 1 (=healthy plant), 2 (=presence of few adults), 3 (=presence of adults and eggs), 4 (=presence of adults, eggs and nymphs), 5( = presence of sooty mold)" []
+synonym: "btadtvs" RELATED []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000410 ! Number of bemisia tabaci adult
+relationship: variable_of CO_334:0010528 ! Visual Observation:Whitefly severity evaluation_method
+relationship: variable_of CO_334:0100701 ! 5 pt scale
+
+[Term]
+id: CO_334:0002084
+name: thrips severity : visual 1-5
+namespace: cassava_trait
+def: "Visual rating in buds 1 (=healthy bud), 2 (=Slight yellowish marks on the apical leaves), 3 (=Bud and adjacent leaves with slight deformations and yellow marks), 4 (=Intense deformation of apical leaves or maturation of the foliar area), 5( =Bud completely deformed or dead, no adjacent leaves and symptoms of broom witch apex apical death and dead lateral buds)" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002085 ! Cassava Franklinella williamsi severity
+relationship: variable_of CO_334:0010529 ! Visual Observation: Thrips severity evaluation_method
+relationship: variable_of CO_334:0100701 ! 5 pt scale
+
+[Term]
+id: CO_334:0002085
+name: Cassava Franklinella williamsi severity
+namespace: cassava_trait
+def: "Franklinella williamsi" []
+synonym: "thrips" RELATED []
+is_a: CO_334:0000030 ! insect damage
+
 
 [Term]
 id: CO_334:0010000
@@ -9369,6 +9412,30 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000490 ! Storage Root Pulp Color
 
 [Term]
+id: CO_334:0010528
+name: Visual Observation:Whitefly severity evaluation_method
+namespace: CassavaMethod
+def: "The number of whitefly adults present in the buds" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000410 ! Number of bemisia tabaci adult
+
+[Term]
+id: CO_334:0010529
+name: Visual Observation: Thrips severity evaluation_method
+namespace: CassavaMethod
+def: "Assessment of the buds and apical leaf for discoloration and deformation" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002085 ! Cassava Franklinella williamsi severity
+
+[Term]
+id: CO_334:0010530
+name: Visual Scoring :Branching Angle_degree_method
+namespace: CassavaMethod
+def: "Visual rating of the angle between a vertical plane and first primary branch." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000294 ! Branching Angle
+
+[Term]
 id: CO_334:0012000
 name: Observation: Farmer trait preference_method
 namespace: CassavaMethod
@@ -10685,6 +10752,21 @@ name: 8pt scale
 namespace: CassavaScale
 is_a: CO_334:0100688 ! 8 point scales
 relationship: scale_of CO_334:0010527 ! Visual Rating: Root flesh color ring_method
+
+[Term]
+id: CO_334:0100701
+name: 5 pt scale
+namespace: CassavaScale
+is_a: CO_334:0100436 ! 5 point scales
+relationship: scale_of CO_334:0010528 ! Visual Observation:Whitefly severity evaluation_method
+relationship: scale_of CO_334:0010529 ! Visual Observation: Thrips severity evaluation_method
+
+[Term]
+id: CO_334:0100702
+name: degree
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010530 ! Visual Scoring :Branching Angle_degree_method
 
 [Typedef]
 id: derives_from
