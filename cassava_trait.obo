@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001031> \"CO_334:0000001\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -5943,6 +5943,25 @@ relationship: variable_of CO_334:0012000 ! Observation: Farmer trait preference_
 relationship: variable_of CO_334:0100436 ! 5 point scales
 
 [Term]
+id: CO_334:0001031
+name: Agronomy management traits
+namespace: cassava_trait
+def: "Traits for recording field data related to field or trial management." [CO:curators]
+is_a: CO_334:0000000 ! CGIAR cassava trait ontology
+
+[Term]
+id: CO_334:0001032
+name: Planting
+namespace: cassava_trait
+is_a: CO_334:0001031 ! Agronomy management traits
+
+[Term]
+id: CO_334:0001033
+name: Harvesting
+namespace: cassava_trait
+is_a: CO_334:0001031 ! Agronomy management traits
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
@@ -6822,7 +6841,6 @@ namespace: cassava_trait
 def: "Franklinella williamsi" []
 synonym: "thrips" RELATED []
 is_a: CO_334:0000030 ! insect damage
-
 
 [Term]
 id: CO_334:0010000
