@@ -6,7 +6,6 @@ default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
 
-
 [Term]
 id: CO_334:0000000
 name: CGIAR cassava trait ontology
@@ -5095,7 +5094,7 @@ creation_date: 2017-07-25T10:06:51Z
 
 [Term]
 id: CO_334:0000470
-name: Days to abortio
+name: Days to abortion
 namespace: cassava_trait
 is_a: CO_334:0000336 ! Flower and flowering morphological trait
 created_by: AAfolabi
@@ -5106,7 +5105,7 @@ id: CO_334:0000471
 name: Days to abortion by branching levels
 namespace: cassava_trait
 def: "Days to the death of immatured flower." [CO:curator]
-is_a: CO_334:0000470 ! Days to abortio
+is_a: CO_334:0000470 ! Days to abortion
 created_by: AAfolabi
 creation_date: 2017-07-25T11:14:47Z
 
@@ -6822,7 +6821,6 @@ namespace: cassava_trait
 def: "Franklinella williamsi" []
 synonym: "thrips" RELATED []
 is_a: CO_334:0000030 ! insect damage
-
 
 [Term]
 id: CO_334:0010000
