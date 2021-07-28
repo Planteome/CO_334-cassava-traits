@@ -5942,6 +5942,16 @@ relationship: variable_of CO_334:0012000 ! Observation: Farmer trait preference_
 relationship: variable_of CO_334:0100436 ! 5 point scales
 
 [Term]
+id: CO_334:0001034
+name: root length measurement in cm
+namespace: cassava_trait
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000450 ! Root length
+relationship: variable_of CO_334:0012001 ! Measurement: total root length_methodq
+relationship: variable_of CO_334:0100558 ! cm
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
@@ -9452,6 +9462,14 @@ def: "Farmers were given three(3) varieties each and they give their opinion on 
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001025 ! farmer preference trait post-harvest
 relationship: method_of CO_334:0001027 ! farmer preference trait at harvest
+
+[Term]
+id: CO_334:0012001
+name: Measurement: total root length_method
+namespace: CassavaMethod
+def: "Measurement of the total root length" [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001034 ! root length measurement in cm
 
 [Term]
 id: CO_334:0100000
