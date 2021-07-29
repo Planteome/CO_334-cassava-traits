@@ -526,11 +526,11 @@ name: leaf retention visual rating 1-5
 namespace: cassava_trait
 def: "Visual rating of leaf longevity using a scale of 1 =(very poor retention) to 5 = (outstanding leaf retention)." [CO:curators]
 synonym: "lfret" EXACT []
-synonym: "LfRet_VisSc_1to7" EXACT []
+synonym: "LfRet_VisSc_1to5" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
 relationship: variable_of CO_334:0010305 ! Visual Rating: Leaf retention_method
-relationship: variable_of CO_334:0100511 ! 7pt scale
+relationship: variable_of CO_334:0100511 ! 5pt scale
 
 [Term]
 id: CO_334:0000049
@@ -9861,9 +9861,9 @@ relationship: scale_of CO_334:0010302 ! Visual Scoring: Branching angle_method
 
 [Term]
 id: CO_334:0100511
-name: 7pt scale
+name: 5pt scale
 namespace: CassavaScale
-is_a: CO_334:0100687 ! 7 point scales
+is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010305 ! Visual Rating: Leaf retention_method
 
 [Term]
