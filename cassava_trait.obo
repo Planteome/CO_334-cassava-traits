@@ -5948,7 +5948,17 @@ namespace: cassava_trait
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000450 ! Root length
-relationship: variable_of CO_334:0012001 ! Measurement: total root length_methodq
+relationship: variable_of CO_334:0012001 ! Measurement: total root length_method
+relationship: variable_of CO_334:0100558 ! cm
+
+[Term]
+id: CO_334:0001035
+name: storage root diameter in cm
+namespace: cassava_trait
+def: "Measured as the total root diameter with a pachymeter." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000487 ! Storage Root Diameter
+relationship: variable_of CO_334:0012002 ! Measurement: total root diameter_method
 relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
@@ -9470,6 +9480,14 @@ namespace: CassavaMethod
 def: "Measurement of the total root length" [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001034 ! root length measurement in cm
+
+[Term]
+id: CO_334:0012002
+name: Measurement: total root diameter_method
+namespace: CassavaMethod
+def: "Measurement of the total root diameter" [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001035 ! root diameter measurement in cm
 
 [Term]
 id: CO_334:0100000
