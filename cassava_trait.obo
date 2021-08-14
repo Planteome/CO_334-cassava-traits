@@ -5875,6 +5875,7 @@ namespace: CassavaScale
 id: CO_334:0001002
 name: Methods
 namespace: CassavaMethod
+relationship: method_of CO_334:0000474 ! Starch Content
 
 [Term]
 id: CO_334:0001012
@@ -6841,6 +6842,29 @@ namespace: cassava_trait
 def: "Franklinella williamsi" []
 synonym: "thrips" RELATED []
 is_a: CO_334:0000030 ! insect damage
+
+[Term]
+id: CO_334:0002086
+name: starch content specific gravity EMBRAPA percentage
+namespace: cassava_trait
+def: "Percentage (%) of starch using calculation based on specific gravity estimated from sampled roots. 158.3 * specific gravity - 137.35" []
+synonym: "starchspg" RELATED []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000474 ! Starch Content
+relationship: variable_of CO_334:0010531 ! Calculation: Starch content_EMBRAPA_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0002087
+name: starch content specific gravity NRCRI percentage
+namespace: cassava_trait
+def: "Percentage (%) of starch using calculation based on specific gravity estimated from sampled roots. 210.8 * specific gravity - 213.4" []
+synonym: "starchsg" RELATED []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000474 ! Starch Content
+relationship: variable_of CO_334:0010532 ! Calculation: Starch content_NRCRI_method
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0010000
@@ -9465,6 +9489,22 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000294 ! Branching Angle
 
 [Term]
+id: CO_334:0010531
+name: Calculation: Starch content_EMBRAPA_method
+namespace: CassavaMethod
+def: "Starch content calculation based specific gravity (spg)estimation of sampled cassava (weighing 4-5 kilogram of cassava root in air, and in water.It is calculated as root weight in air divided by the sum of root weight in air and root weight in water as described Kawano et al. (1987)). Starch value is derived using the equation: 158.3 * spg - 137.35 .It is applied in the Brazilian starch industry" []
+xref: CO:curator
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000474 ! Starch Content
+
+[Term]
+id: CO_334:0010532
+name: Calculation: Starch content_NRCRI_method
+namespace: CassavaMethod
+def: "Starch content calculation based specific gravity (spg)estimation of sampled cassava (weighing 4-5 kilogram of cassava root in air, and in water.It is calculated as root weight in air divided by the sum of root weight in air and root weight in water as described Kawano et al. (1987)). Starch value is derived using the equation: 210.8 * spg - 213.4" []
+is_a: CO_334:0001002 ! Methods
+
+[Term]
 id: CO_334:0012000
 name: Observation: Farmer trait preference_method
 namespace: CassavaMethod
@@ -9487,7 +9527,7 @@ name: Measurement: total root diameter_method
 namespace: CassavaMethod
 def: "Measurement of the total root diameter" [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0001035 ! root diameter measurement in cm
+relationship: method_of CO_334:0001035 ! storage root diameter in cm
 
 [Term]
 id: CO_334:0100000
