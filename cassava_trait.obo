@@ -781,7 +781,7 @@ def: "Percentage (%) of water contained in cassava storage root." [CO:curators]
 synonym: "mc" EXACT []
 synonym: "RtMoistCt_Comp_pct" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000407 ! Moisture content
+relationship: variable_of CO_334:0000407 ! Moisture content of fresh root
 relationship: variable_of CO_334:0010314 ! Estimation: Moisture content_method
 relationship: variable_of CO_334:0100583 ! pct (%)
 
@@ -4512,7 +4512,7 @@ is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0000407
-name: Moisture content
+name: Moisture content of fresh root
 namespace: cassava_trait
 def: "Storage root moisture content" [CO:curators]
 synonym: "mc" EXACT []
@@ -6867,6 +6867,191 @@ relationship: variable_of CO_334:0010532 ! Calculation: Starch content_NRCRI_met
 relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
+id: CO_334:0002088
+name: Moisture content of cassava flour
+namespace: cassava_trait
+def: "Moisture content of cassava flour." []
+synonym: "moisture" RELATED []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002089
+name: moisture content of cassava flour in percentage
+namespace: cassava_trait
+def: "Amount of moisture retained in cassava flour after milling. Determined as the loss in weight of a flour sample after oven drying expressed as a proportion of the original weight prior to oven drying" []
+synonym: "moisture" RELATED []
+xref: CO_curators
+is_a: CO_334:0001000 ! Variables
+
+[Term]
+id: CO_334:0002090
+name: Setback
+namespace: cassava_trait
+def: "Final viscosity minus trough viscosity" []
+synonym: "setbck" RELATED []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002091
+name: setback in pascal per seconds
+def: "Final viscosity minus trough viscosity measured using rapid Visco Analyzer" []
+synonym: "setbck" RELATED []
+is_a: CO_334:0001000 ! Variables
+
+[Term]
+id: CO_334:0002092
+name: Final viscosity
+namespace: cassava_trait
+def: "Viscosity at the end of the Rapid Visco Analyzer test" []
+synonym: "fvisc" RELATED []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002093
+name: final viscosity in pascal per seconds
+namespace: cassava_trait
+def: "Viscosity measured using the Rapid Visco Analyzer (RVA)" []
+is_a: CO_334:0001000 ! Variables
+
+[Term]
+id: CO_334:0002094
+name: Breakdown
+namespace: cassava_trait
+def: "Breakdown equals peak viscosity minus trough viscosity" []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002095
+name: breakdown in pascal per seconds
+namespace: cassava_trait
+def: "Breakdown equals peak viscosity minus trough viscosity measured with the Rapid Visco Analyzer (RVA)" []
+synonym: "brkdown" RELATED []
+is_a: CO_334:0001000 ! Variables
+
+[Term]
+id: CO_334:0002096
+name: Trough
+namespace: cassava_trait
+def: "The minimum viscosity after the peak" []
+synonym: "hold" RELATED []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002097
+name: trough in pascal per seconds
+namespace: cassava_trait
+def: "The minimum viscosity after the peak measured with the Rapid Visco Analyzer (RVA)" []
+synonym: "hold" RELATED []
+is_a: CO_334:0001000 ! Variables
+
+[Term]
+id: CO_334:0002098
+name: Peak viscosity
+namespace: cassava_trait
+def: "Maximum viscosity during the heating or hold phase of the RVA test. It is the maximum hot paste viscosity" []
+synonym: "peakvsc" RELATED []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002099
+name: peak in degree celsius
+namespace: cassava_trait
+def: "Maximum viscosity during the heating or hold phase of the RVA test. it is measured using the Rapid Visco Analyzer and estimated in degree celsius." []
+is_a: CO_334:0001000 ! Variables
+
+[Term]
+id: CO_334:0002100
+name: Pasting temperature
+namespace: cassava_trait
+def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase." []
+synonym: "pstemp" RELATED []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002101
+name: pasting temperature in degree celsius
+namespace: cassava_trait
+def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase measured using the Rapid Visco Analyzer" []
+synonym: "pstemp" RELATED []
+is_a: CO_334:0001000 ! Variables
+
+[Term]
+id: CO_334:0002102
+name: moisture content of flour estimation in percentage
+namespace: cassava_trait
+def: "Amount of moisture retained in cassava flour after milling.Determined as the loss in weight of a flour sample after oven drying expressed as a proportion of the original weight prior to oven drying in percentage." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002088 ! Moisture content of cassava flour
+relationship: variable_of CO_334:0010533 ! Estimation: Moisture content_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0002103
+name: setback calculation in pascal per seconds
+namespace: cassava_trait
+def: "Measured on cassava flour using the Rapid Visco Analyzer (RVA). Final viscosity minus trough viscosity." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002090 ! Setback
+relationship: variable_of CO_334:0010534 ! Calculation: Setback_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+
+[Term]
+id: CO_334:0002104
+name: final viscosity estimation in pascal per seconds
+namespace: cassava_trait
+def: "Viscosity at the end of the RVA test. Measured using the Rapid Visco Analyzer (RVA) in pascal per second." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002092 ! Final viscosity
+relationship: variable_of CO_334:0010535 ! Estimation: Final viscosity_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+
+[Term]
+id: CO_334:0002105
+name: breakdown calculation in pascal per seconds
+namespace: cassava_trait
+def: "Breakdown equals peak viscosity minus trough viscosity. Measured with the Rapid Visco Analyzer (RVA) in pascal per seconds" []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002094 ! Breakdown
+relationship: variable_of CO_334:0010536 ! Calculation: Breakdown_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+
+[Term]
+id: CO_334:0002106
+name: trough estimation in pascal per seconds
+namespace: cassava_trait
+def: "The minimum viscosity after the peak.Measured with the Rapid Visco Analyzer (RVA) in pascal per seconds. it is a measure of the holding strength of the flour" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002096 ! Trough
+relationship: variable_of CO_334:0010537 ! Estimation: Trough_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+
+[Term]
+id: CO_334:0002107
+name: peak viscosity measurement in degree celsius
+namespace: cassava_trait
+def: "Maximum viscosity during the heating or hold phase of the RVA test measured by the Rapid Visco Analyser (RVA) in degree celsius." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002098 ! Peak viscosity
+relationship: variable_of CO_334:0010538 ! Measurement: Peak viscosity_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+
+[Term]
+id: CO_334:0002108
+name: pasting temperature measurement in degree celsius
+namespace: cassava_trait
+def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase measured by the Rapid Visco Analyser (RVA) in degree celsius." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002100 ! Pasting temperature
+relationship: variable_of CO_334:0010539 ! Measurement: Pasting temperature_method
+relationship: variable_of CO_334:0100703 ! degree celsius
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -7746,7 +7931,7 @@ name: Estimation: Moisture content_method
 namespace: CassavaMethod
 def: "Measured percentage of water contained in cassava storage roots at harvest usually estimated as one minus the dry matter content" [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0000407 ! Moisture content
+relationship: method_of CO_334:0000407 ! Moisture content of fresh root
 
 [Term]
 id: CO_334:0010315
@@ -9505,6 +9690,62 @@ def: "Starch content calculation based specific gravity (spg)estimation of sampl
 is_a: CO_334:0001002 ! Methods
 
 [Term]
+id: CO_334:0010533
+name: Estimation: Moisture content_method
+namespace: CassavaMethod
+def: "Determined as the loss in weight of a flour sample after oven drying expressed as a proportion of the original weight prior to oven drying" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002088 ! Moisture content of cassava flour
+
+[Term]
+id: CO_334:0010534
+name: Calculation: Setback_method
+namespace: CassavaMethod
+def: "Measured on cassava flour using the Rapid Visco Analyzer (RVA)" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002090 ! Setback
+
+[Term]
+id: CO_334:0010535
+name: Estimation: Final viscosity_method
+namespace: CassavaMethod
+def: "Viscosity at the end of the RVA test" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002092 ! Final viscosity
+
+[Term]
+id: CO_334:0010536
+name: Calculation: Breakdown_method
+namespace: CassavaMethod
+def: "Breakdown equals peak viscosity minus trough viscosity" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002094 ! Breakdown
+
+[Term]
+id: CO_334:0010537
+name: Estimation: Trough_method
+namespace: CassavaMethod
+def: "The minimum viscosity after the peak" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002096 ! Trough
+
+[Term]
+id: CO_334:0010538
+name: Measurement: Peak viscosity_method
+namespace: CassavaMethod
+def: "Maximum viscosity during the heating or hold phase of the RVA test" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002098 ! Peak viscosity
+
+[Term]
+id: CO_334:0010539
+name: Measurement: Pasting temperature_method
+namespace: CassavaMethod
+def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002100 ! Pasting temperature
+
+[Term]
 id: CO_334:0012000
 name: Observation: Farmer trait preference_method
 namespace: CassavaMethod
@@ -10342,6 +10583,7 @@ relationship: scale_of CO_334:0010508 ! Prediction: Dry matter content by SciO_m
 relationship: scale_of CO_334:0010509 ! Prediction: Dry matter content by table-top NIRS_method
 relationship: scale_of CO_334:0010523 ! Computation: Change in weight after boiling
 relationship: scale_of CO_334:0010526 ! Computation: Cassava brown streak disease root severity in percentage_method
+relationship: scale_of CO_334:0010533 ! Estimation: Moisture content_method
 
 [Term]
 id: CO_334:0100586
@@ -10852,6 +11094,24 @@ name: degree
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010530 ! Visual Scoring :Branching Angle_degree_method
+
+[Term]
+id: CO_334:0100703
+name: degree celsius
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010538 ! Measurement: Peak viscosity_method
+relationship: scale_of CO_334:0010539 ! Measurement: Pasting temperature_method
+
+[Term]
+id: CO_334:0100704
+name: pascal per seconds
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010534 ! Calculation: Setback_method
+relationship: scale_of CO_334:0010535 ! Estimation: Final viscosity_method
+relationship: scale_of CO_334:0010536 ! Calculation: Breakdown_method
+relationship: scale_of CO_334:0010537 ! Estimation: Trough_method
 
 [Typedef]
 id: derives_from
