@@ -6896,7 +6896,7 @@ id: CO_334:0002094
 name: Breakdown
 namespace: cassava_trait
 def: "Breakdown equals peak viscosity minus trough viscosity" []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0002109 ! Viscosity trait
 
 [Term]
 id: CO_334:0002095
