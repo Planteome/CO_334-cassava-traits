@@ -6872,16 +6872,7 @@ name: Moisture content of cassava flour
 namespace: cassava_trait
 def: "Moisture content of cassava flour." []
 synonym: "moisture" RELATED []
-is_a: CO_334:0000004 ! Quality trait
-
-[Term]
-id: CO_334:0002089
-name: moisture content of cassava flour in percentage
-namespace: cassava_trait
-def: "Amount of moisture retained in cassava flour after milling. Determined as the loss in weight of a flour sample after oven drying expressed as a proportion of the original weight prior to oven drying" []
-synonym: "moisture" RELATED []
-xref: CO_curators
-is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002109 ! Viscosity trait
 
 [Term]
 id: CO_334:0002090
@@ -6889,14 +6880,7 @@ name: Setback
 namespace: cassava_trait
 def: "Final viscosity minus trough viscosity" []
 synonym: "setbck" RELATED []
-is_a: CO_334:0000004 ! Quality trait
-
-[Term]
-id: CO_334:0002091
-name: setback in pascal per seconds
-def: "Final viscosity minus trough viscosity measured using rapid Visco Analyzer" []
-synonym: "setbck" RELATED []
-is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002109 ! Viscosity trait
 
 [Term]
 id: CO_334:0002092
@@ -6905,14 +6889,7 @@ namespace: cassava_trait
 def: "Viscosity at the end of the Rapid Visco Analyzer test" []
 synonym: "fvisc" RELATED []
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
-
-[Term]
-id: CO_334:0002093
-name: final viscosity in pascal per seconds
-namespace: cassava_trait
-def: "Viscosity measured using the Rapid Visco Analyzer (RVA)" []
-is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002109 ! Viscosity trait
 
 [Term]
 id: CO_334:0002094
@@ -6935,15 +6912,7 @@ name: Trough
 namespace: cassava_trait
 def: "The minimum viscosity after the peak" []
 synonym: "hold" RELATED []
-is_a: CO_334:0000004 ! Quality trait
-
-[Term]
-id: CO_334:0002097
-name: trough in pascal per seconds
-namespace: cassava_trait
-def: "The minimum viscosity after the peak measured with the Rapid Visco Analyzer (RVA)" []
-synonym: "hold" RELATED []
-is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002109 ! Viscosity trait
 
 [Term]
 id: CO_334:0002098
@@ -6951,14 +6920,7 @@ name: Peak viscosity
 namespace: cassava_trait
 def: "Maximum viscosity during the heating or hold phase of the RVA test. It is the maximum hot paste viscosity" []
 synonym: "peakvsc" RELATED []
-is_a: CO_334:0000004 ! Quality trait
-
-[Term]
-id: CO_334:0002099
-name: peak in degree celsius
-namespace: cassava_trait
-def: "Maximum viscosity during the heating or hold phase of the RVA test. it is measured using the Rapid Visco Analyzer and estimated in degree celsius." []
-is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002109 ! Viscosity trait
 
 [Term]
 id: CO_334:0002100
@@ -6966,15 +6928,7 @@ name: Pasting temperature
 namespace: cassava_trait
 def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase." []
 synonym: "pstemp" RELATED []
-is_a: CO_334:0000004 ! Quality trait
-
-[Term]
-id: CO_334:0002101
-name: pasting temperature in degree celsius
-namespace: cassava_trait
-def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase measured using the Rapid Visco Analyzer" []
-synonym: "pstemp" RELATED []
-is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0002109 ! Viscosity trait
 
 [Term]
 id: CO_334:0002102
@@ -7050,6 +7004,12 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002100 ! Pasting temperature
 relationship: variable_of CO_334:0010539 ! Measurement: Pasting temperature_method
 relationship: variable_of CO_334:0100703 ! degree celsius
+
+[Term]
+id: CO_334:0002109
+name: Viscosity trait
+namespace: cassava_trait
+is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0010000
