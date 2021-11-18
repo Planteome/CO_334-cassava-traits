@@ -6899,14 +6899,6 @@ def: "Breakdown equals peak viscosity minus trough viscosity" []
 is_a: CO_334:0002109 ! Viscosity trait
 
 [Term]
-id: CO_334:0002095
-name: breakdown in pascal per seconds
-namespace: cassava_trait
-def: "Breakdown equals peak viscosity minus trough viscosity measured with the Rapid Visco Analyzer (RVA)" []
-synonym: "brkdown" RELATED []
-is_a: CO_334:0001000 ! Variables
-
-[Term]
 id: CO_334:0002096
 name: Trough
 namespace: cassava_trait
