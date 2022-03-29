@@ -7004,6 +7004,124 @@ namespace: cassava_trait
 is_a: CO_334:0000004 ! Quality trait
 
 [Term]
+id: CO_334:0002110
+name: Cassava white leaf spot disease severity
+namespace: cassava_trait
+def: "Severity of white leaf spot caused by Passalora maninhotis" []
+synonym: "cwlsds" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+
+[Term]
+id: CO_334:0002111
+name: Cassava white leaf spot disease incidence
+namespace: cassava_trait
+def: "Proportion of plants showing symptoms of disease casued by Passalora maninhotis." []
+synonym: "cwlsdi" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+
+[Term]
+id: CO_334:0002112
+name: Cassava brown leaf spot disease severity
+namespace: cassava_trait
+def: "Severity of brown leaf spot disease caused by Passalora henningsii." []
+synonym: "cblsds" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+
+[Term]
+id: CO_334:0002113
+name: Cassava brown leaf spot disease incidence
+namespace: cassava_trait
+def: "Proportion of symptom of brown leaf spot disease caused by Passalora henningsii." []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+
+[Term]
+id: CO_334:0002114
+name: Cassava blight leaf spot disease severity
+namespace: cassava_trait
+def: "Severity of blight leaf spot disease caused by Passalora vicosae." []
+synonym: "cbllsds" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+
+[Term]
+id: CO_334:0002115
+name: Cassava blight leaf spot disease incidence
+namespace: cassava_trait
+def: "Proportion of symptoms caused by blight spot disease." []
+synonym: "cbllsdi" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+
+[Term]
+id: CO_334:0002116
+name: cassava white leaf spot disease severity by visual rating 1-5
+namespace: cassava_trait
+def: "Visual rating of symptoms in response to the white leaf spot disease caused by Passalora maninhotis. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = > 50% of affected leaves at the lower third of the plant, 3 = Affected leaves on the middle and upper third of the plant, 4 = low incidence distributed all over the plant, 5 = Middle incidence distributed all over the plant with yellowed leaves and/or defoliation of the lower third part of the plant, 6 = Plant fully defoliated." []
+synonym: "cwlsds" RELATED []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002110 ! Cassava white leaf spot disease severity
+relationship: variable_of CO_334:0010543 ! Visual Observation: Cassava white leaf spot disease severity_method
+relationship: variable_of CO_334:0100705 ! 5 pt scale
+
+[Term]
+id: CO_334:0002117
+name: cassava white leaf spot disease incidence in proportion
+namespace: cassava_trait
+def: "Proportion of plant showing symptoms of white leaf spot disease." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002111 ! Cassava white leaf spot disease incidence
+relationship: variable_of CO_334:0010542 ! Counting: Cassava white leaf spot disease incidence_method
+relationship: variable_of CO_334:0100617 ! proportion
+
+[Term]
+id: CO_334:0002118
+name: cassava brown leaf spot disease severity by visual rating 1-5
+namespace: cassava_trait
+def: "Visual rating of symptoms in response to the brown leaf spot disease caused by Passalora henningsii. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = Low incidence at the lower third part of the plant, 3 = middle incidence distributed at the lower and middle parts of the plant with yellowed leaves and/or defoliation, 4 = high incidence distributed all over the plant with yellowed leaves and/or defoliation, 5 = Plant fully defoliated." []
+synonym: "cblsds" RELATED []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002112 ! Cassava brown leaf spot disease severity
+relationship: variable_of CO_334:0010544 ! Visual Observation: Cassava brown leaf spot disease severity_method
+relationship: variable_of CO_334:0100705 ! 5 pt scale
+
+[Term]
+id: CO_334:0002119
+name: cassava brown leaf spot disease incidence in proportion
+namespace: cassava_trait
+def: "Proportion of plants showing symptoms of brown leaf spot disease." []
+synonym: "cblsdi" RELATED []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002113 ! Cassava brown leaf spot disease incidence
+relationship: variable_of CO_334:0010541 ! Counting: Cassava brown leaf spot disease incidence_method
+relationship: variable_of CO_334:0100617 ! proportion
+
+[Term]
+id: CO_334:0002120
+name: cassava blight leaf spot disease severity by visual rating 1-5
+namespace: cassava_trait
+def: "Visual rating of symptoms in response to the blight leaf spot disease caused by Passalora vicosae. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = Low incidence at the lower third part of the plant, 3 = middle incidence distributed at the lower and middle parts of the plant with yellowed leaves and/or defoliation, 4 = high incidence distributed all over the plant with yellowed leaves and/or defoliation, 5 = Plant fully defoliated." []
+synonym: "cbllsds" RELATED []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002114 ! Cassava blight leaf spot disease severity
+relationship: variable_of CO_334:0010545 ! Visual Observation: Cassava blight leaf spot disease severity_method
+relationship: variable_of CO_334:0100705 ! 5 pt scale
+
+[Term]
+id: CO_334:0002121
+name: cassava blight leaf spot disease incidence in proportion
+namespace: cassava_trait
+def: "Proportion of plants showing symptoms of blight leaf spot disease." []
+synonym: "cbllsdi" RELATED []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002115 ! Cassava blight leaf spot disease incidence
+relationship: variable_of CO_334:0010540 ! Counting: Cassava blight leaf spot disease incidence_method
+relationship: variable_of CO_334:0100617 ! proportion
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -9698,6 +9816,54 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0002100 ! Pasting temperature
 
 [Term]
+id: CO_334:0010540
+name: Counting: Cassava blight leaf spot disease incidence_method
+namespace: CassavaMethod
+def: "Count of the number of plants showing symptoms of blight leaf spot relative to the total nu,ber of plants in a plot." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002115 ! Cassava blight leaf spot disease incidence
+
+[Term]
+id: CO_334:0010541
+name: Counting: Cassava brown leaf spot disease incidence_method
+namespace: CassavaMethod
+def: "Count of the number plants showing symptoms of brown leaf spot relative to the total number of plants in a plot." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002113 ! Cassava brown leaf spot disease incidence
+
+[Term]
+id: CO_334:0010542
+name: Counting: Cassava white leaf spot disease incidence_method
+namespace: CassavaMethod
+def: "Count of the number of plants showing symptoms of white leaf spot relative to the total number of plants in a plot." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002111 ! Cassava white leaf spot disease incidence
+
+[Term]
+id: CO_334:0010543
+name: Visual Observation: Cassava white leaf spot disease severity_method
+namespace: CassavaMethod
+def: "Visual rating of symptoms in response to the white leaf spot disease caused by Passalora maninhotis. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = > 50% of affected leaves at the lower third of the plant, 3 = Affected leaves on the middle and upper third of the plant, 4 = low incidence distributed all over the plant, 5 = Middle incidence distributed all over the plant with yellowed leaves and/or defoliation of the lower third part of the plant, 6 = Plant fully defoliated." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002110 ! Cassava white leaf spot disease severity
+
+[Term]
+id: CO_334:0010544
+name: Visual Observation: Cassava brown leaf spot disease severity_method
+namespace: CassavaMethod
+def: "Visual rating of symptoms in response to the brown leaf spot disease caused by Passalora henningsii. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = Low incidence at the lower third part of the plant, 3 = middle incidence distributed at the lower and middle parts of the plant with yellowed leaves and/or defoliation, 4 = high incidence distributed all over the plant with yellowed leaves and/or defoliation, 5 = Plant fully defoliated." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002112 ! Cassava brown leaf spot disease severity
+
+[Term]
+id: CO_334:0010545
+name: Visual Observation: Cassava blight leaf spot disease severity_method
+namespace: CassavaMethod
+def: "Visual rating of symptoms in response to the blight leaf spot disease caused by Passalora vicosae. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = Low incidence at the lower third part of the plant, 3 = middle incidence distributed at the lower and middle parts of the plant with yellowed leaves and/or defoliation, 4 = high incidence distributed all over the plant with yellowed leaves and/or defoliation, 5 = Plant fully defoliated." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002114 ! Cassava blight leaf spot disease severity
+
+[Term]
 id: CO_334:0012000
 name: Observation: Farmer trait preference_method
 namespace: CassavaMethod
@@ -10645,6 +10811,9 @@ name: proportion
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010411 ! Counting: Plant number with inflorescence_method
+relationship: scale_of CO_334:0010540 ! Counting: Cassava blight leaf spot disease incidence_method
+relationship: scale_of CO_334:0010541 ! Counting: Cassava brown leaf spot disease incidence_method
+relationship: scale_of CO_334:0010542 ! Counting: Cassava white leaf spot disease incidence_method
 
 [Term]
 id: CO_334:0100623
@@ -11064,6 +11233,15 @@ relationship: scale_of CO_334:0010534 ! Calculation: Setback_method
 relationship: scale_of CO_334:0010535 ! Estimation: Final viscosity_method
 relationship: scale_of CO_334:0010536 ! Calculation: Breakdown_method
 relationship: scale_of CO_334:0010537 ! Estimation: Trough_method
+
+[Term]
+id: CO_334:0100705
+name: 5 pt scale
+namespace: CassavaScale
+is_a: CO_334:0100436 ! 5 point scales
+relationship: scale_of CO_334:0010543 ! Visual Observation: Cassava white leaf spot disease severity_method
+relationship: scale_of CO_334:0010544 ! Visual Observation: Cassava brown leaf spot disease severity_method
+relationship: scale_of CO_334:0010545 ! Visual Observation: Cassava blight leaf spot disease severity_method
 
 [Typedef]
 id: derives_from
