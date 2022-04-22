@@ -2894,13 +2894,13 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000244
-name: gari shaft weight in kg
+name: gari chaff weight in kg
 namespace: cassava_trait
 def: "Weight of residue in kilogram (kg) after sieving the roasted gari." [CO:curators]
 synonym: "GariShftWt_Meas_kg" EXACT []
 synonym: "shaftwt" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000375 ! Gari shaft weight
+relationship: variable_of CO_334:0000375 ! Gari chaff weight
 relationship: variable_of CO_334:0010449 ! Measurement: Gari shaft weight_method
 relationship: variable_of CO_334:0100493 ! kg
 
@@ -4214,10 +4214,10 @@ is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0000375
-name: Gari shaft weight
+name: Gari chaff weight
 namespace: cassava_trait
-def: "Shaft weight" [CO:curators]
-synonym: "shaftwt" EXACT []
+def: "Chaff weight" [CO:curators]
+synonym: "chaffwt" EXACT []
 xref: TO:0001042
 is_a: CO_334:0000004 ! Quality trait
 
@@ -6205,6 +6205,7 @@ id: CO_334:0002023
 name: gari mash weight in kg
 namespace: cassava_trait
 def: "Weight of root in kilogram (kg) after grinding for processing into gari" []
+synonym: "dewatered_mash" RELATED []
 synonym: "garimashwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
@@ -6250,25 +6251,25 @@ relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0002027
-name: gari shaft coarse weight in g
+name: gari chaff coarse weight in g
 namespace: cassava_trait
 def: "Weight of shaft in gram using coarse sieve for gari." []
 synonym: "garicoshfwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000375 ! Gari shaft weight
+relationship: variable_of CO_334:0000375 ! Gari chaff weight
 relationship: variable_of CO_334:0010492 ! Measurement: Gari shaft weight coarse_method
 relationship: variable_of CO_334:0100623 ! g
 
 [Term]
 id: CO_334:0002028
-name: gari shaft medium weight in g
+name: gari chaff medium weight in g
 namespace: cassava_trait
 def: "Weight of shaft in gram using medium sieve for gari." []
 synonym: "garimdshfwt" EXACT []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000375 ! Gari shaft weight
+relationship: variable_of CO_334:0000375 ! Gari chaff weight
 relationship: variable_of CO_334:0010493 ! Measurement: Gari shaft weight medium_method
 relationship: variable_of CO_334:0100623 ! g
 
@@ -7120,6 +7121,66 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002115 ! Cassava blight leaf spot disease incidence
 relationship: variable_of CO_334:0010540 ! Counting: Cassava blight leaf spot disease incidence_method
 relationship: variable_of CO_334:0100617 ! proportion
+
+[Term]
+id: CO_334:0002122
+name: gari yield in percentage
+namespace: cassava_trait
+def: "Gari yield in percentage calculated as the ratio of Gari initial weight (CO_334:0002020) and Gari fried weight (CO_334:0002026) multiplied by 100." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000374 ! Gari content
+relationship: variable_of CO_334:0010546 ! Calculation: Gari yield_method
+relationship: variable_of CO_334:0100617 ! proportion
+
+[Term]
+id: CO_334:0002123
+name: fufu yield in percentage
+namespace: cassava_trait
+def: "Fufu yield in percentage calculated as the ratio of fufu dewatered mash weight(CO_334:0002017) and  fufu peeled root weight (CO_334:0002013) multiplied by 100." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000373 ! Fufu content
+relationship: variable_of CO_334:0010549 ! Calculation: Fufu yield in percentage
+relationship: variable_of CO_334:0100617 ! proportion
+
+[Term]
+id: CO_334:0002124
+name: Fufu chaff weight
+namespace: cassava_trait
+def: "Fufu chaff weight" []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0002125
+name: fufu chaff weight in kg
+namespace: cassava_trait
+def: "Weight of fufu chaff in kilogram." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002124 ! Fufu chaff weight
+relationship: variable_of CO_334:0010547 ! Measurement: Fufu chaff weight_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0002126
+name: fufu chaff loss in percentage
+namespace: cassava_trait
+def: "Fufu chaff loss in percentage calculated as the ratio of dewatered fufu mash weight (CO_334:0002017)- fufu chaff weight (CO_334:0002125) and dewatered fufu mash weight (CO_334:0002017)." []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002124 ! Fufu chaff weight
+relationship: variable_of CO_334:0002127 ! Fufu  chaff loss
+relationship: variable_of CO_334:0100617 ! proportion
+
+[Term]
+id: CO_334:0002127
+name: Fufu  chaff loss
+namespace: cassava_trait
+def: "Fufu chaff loss relative to dewatered mash weight" []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0010000
@@ -9073,7 +9134,7 @@ name: Measurement: Gari shaft weight_method
 namespace: CassavaMethod
 def: "Weighing of the residues after sieving the roasted gari" [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0000375 ! Gari shaft weight
+relationship: method_of CO_334:0000375 ! Gari chaff weight
 
 [Term]
 id: CO_334:0010450
@@ -9430,7 +9491,7 @@ namespace: CassavaMethod
 def: "Weigh gari shaft using coarse sieve." []
 xref: CO:curators
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0000375 ! Gari shaft weight
+relationship: method_of CO_334:0000375 ! Gari chaff weight
 
 [Term]
 id: CO_334:0010493
@@ -9439,7 +9500,7 @@ namespace: CassavaMethod
 def: "Weigh gari shaft using medium sieve." []
 xref: CO:curators
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0000375 ! Gari shaft weight
+relationship: method_of CO_334:0000375 ! Gari chaff weight
 
 [Term]
 id: CO_334:0010494
@@ -9862,6 +9923,40 @@ namespace: CassavaMethod
 def: "Visual rating of symptoms in response to the blight leaf spot disease caused by Passalora vicosae. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = Low incidence at the lower third part of the plant, 3 = middle incidence distributed at the lower and middle parts of the plant with yellowed leaves and/or defoliation, 4 = high incidence distributed all over the plant with yellowed leaves and/or defoliation, 5 = Plant fully defoliated." []
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0002114 ! Cassava blight leaf spot disease severity
+
+[Term]
+id: CO_334:0010546
+name: Calculation: Gari yield_method
+namespace: CassavaMethod
+def: "Gari yield calculated as the ratio of Gari initial weight (CO_334:0002020) and Gari fried weight (CO_334:0002026) multiplied by 100." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000374 ! Gari content
+
+[Term]
+id: CO_334:0010547
+name: Measurement: Fufu chaff weight_method
+namespace: CassavaMethod
+def: "Measurement of fufu chaff weight using laboratory scale." []
+xref: CO:curators
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002124 ! Fufu chaff weight
+
+[Term]
+id: CO_334:0010548
+name: Calculation: Fufu chaff loss in percentage
+namespace: CassavaMethod
+def: "Fufu chaff loss calculated as the ratio of dewatered fufu mash weight (CO_334:0002017)- fufu chaff weight (CO_334:0002125) and dewatered fufu mash weight (CO_334:0002017)." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002127 ! Fufu  chaff loss
+
+[Term]
+id: CO_334:0010549
+name: Calculation: Fufu yield in percentage
+namespace: CassavaMethod
+def: "Fufu yield calculated as the ratio of fufu dewatered mash weight(CO_334:0002017) and  fufu peeled root weight (CO_334:0002013) multiplied by 100." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000373 ! Fufu content
 
 [Term]
 id: CO_334:0012000
