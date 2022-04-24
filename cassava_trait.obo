@@ -103,10 +103,11 @@ relationship: variable_of CO_334:0100490 ! plant
 
 [Term]
 id: CO_334:0000011
-name: root number counting
+name: root number per plot counting
 namespace: cassava_trait
-def: "A count of the total number of storage roots harvested per plot." [CO:curators]
+def: "A count of the total number of storage roots (marketable and non-marketable) harvested per plot." [CO:curators]
 synonym: "NoHvstRt_Count_Rt" EXACT []
+synonym: "plotrtno" RELATED []
 synonym: "rtno" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000452 ! Root number
@@ -4924,8 +4925,8 @@ is_a: CO_334:0000334 ! Storage root morphological trait
 id: CO_334:0000452
 name: Root number
 namespace: cassava_trait
-def: "Number of harvested marketable storage roots" [CO:curators]
-synonym: "Marketable root number, Root Number - Cassavabase" EXACT []
+def: "Number of storage roots (marketable and non-marketable)" [CO:curators]
+synonym: "Root Number" EXACT []
 synonym: "RtNo" EXACT []
 xref: TO:1000007
 is_a: CO_334:0000001 ! Agronomic trait
@@ -7183,6 +7184,17 @@ xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
 
 [Term]
+id: CO_334:0002128
+name: root number per plant counting
+namespace: cassava_trait
+def: "A count of the total number of storage roots (marketable and non-marketable) harvested per plant stand that makes up a plot." []
+synonym: "plntrtno" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000452 ! Root number
+relationship: variable_of CO_334:0010285 ! Counting: Root number_method
+relationship: variable_of CO_334:0100491 ! root
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -7836,7 +7848,7 @@ relationship: method_of CO_334:0000434 ! Plant stands harvested
 id: CO_334:0010285
 name: Counting: Root number_method
 namespace: CassavaMethod
-def: "Count the number of storage root per plot harvest" [CO:curators]
+def: "Count the number of storage root." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000452 ! Root number
 
