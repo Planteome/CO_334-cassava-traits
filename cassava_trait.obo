@@ -1873,7 +1873,7 @@ relationship: variable_of CO_334:0100546 ! number
 id: CO_334:0000160
 name: dry matter content by specific gravity method
 namespace: cassava_trait
-def: "Percentage dry matter content estimated from the specific gravity value of weighted cassava (4-5kg)." [CO:curators]
+def: "Percentage dry matter content derived from the specific gravity (CO_334:0000163) value of weighted cassava (4-5kg). It is calculated as 158.3 * specific gravity  - 142.0" [CO:curators]
 synonym: "DMCt_Est_kg" EXACT []
 synonym: "dmspg" EXACT []
 synonym: "Water content" EXACT []
@@ -1912,7 +1912,7 @@ relationship: variable_of CO_334:0100572 ! ug/g
 id: CO_334:0000163
 name: specific gravity
 namespace: cassava_trait
-def: "Estimated value obtained by weighing 4-5 kilogram of cassava root in air, and in water.It is calculated as root weight in air divided by the sum of root weight in air and root weight in water." [CO:curators]
+def: "Estimated value obtained by weighing 4-5 kilogram of cassava root in air, and in water.It is calculated as root weight in air divided by the sum of root weight in air and root weight in water. Once calculated, it is used to empirically derive percentage dry matter and starch content of cassava." [CO:curators]
 synonym: "spgrv" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000447 ! Dry matter content
@@ -6396,7 +6396,7 @@ namespace: cassava_trait
 def: "Severity of symptom caused by Uromyces manihots in leaves" []
 synonym: "crds" EXACT []
 xref: CO:curators
-is_a: CO_334:0000028 ! viral disease
+is_a: CO_334:0000029 ! fungal disease
 
 [Term]
 id: CO_334:0002042
@@ -6405,7 +6405,7 @@ namespace: cassava_trait
 def: "Proportion of plants in a plot with symptom of Uromyces manihots" []
 synonym: "crdi" EXACT []
 xref: CO:curators
-is_a: CO_334:0000028 ! viral disease
+is_a: CO_334:0000029 ! fungal disease
 
 [Term]
 id: CO_334:0002043
@@ -6544,7 +6544,7 @@ relationship: variable_of CO_334:0100690 ! c/t
 id: CO_334:0002056
 name: dry matter content by SciO in percentage
 namespace: cassava_trait
-def: "Percentage dry matter content estimated using mini handheld Near InfraRed Spectrophotometry (NIRS) device called SciO. Output are spectrum with wavelength range of 700 to 1100 and are converted to percentage using prediction model." []
+def: "Percentage dry matter content estimated using mini handheld Near InfraRed Spectroscopy (NIRS) device called SciO. Output are spectra with wavelength range of 700 to 1100 and are converted to percentage using prediction model." []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000424 ! Root dry matter content
@@ -6555,7 +6555,7 @@ relationship: variable_of CO_334:0100583 ! pct (%)
 id: CO_334:0002057
 name: dry matter content by table-top NIRS in percentage
 namespace: cassava_trait
-def: "Percentage dry matter content using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 850 to 2500, and are converted to percentage using prediction model." []
+def: "Percentage dry matter content using laboratory table-top Near InfraRed Spectroscopy (NIRS). Output are spectrum with wavelength range of 850 to 2500nm, and are converted to percentage using prediction model." []
 synonym: "dmNIRS" RELATED []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
@@ -6567,7 +6567,7 @@ relationship: variable_of CO_334:0100583 ! pct (%)
 id: CO_334:0002058
 name: dry matter content by QST in percentage
 namespace: cassava_trait
-def: "Percentage dry matter content estimated using handheld  Near InfraRed Spectrophotometry (NIRS) device called \"Quality Spec Trek\". Output are spectrum with wavelength range of 350-2500, and are converted percentage by prediction model." []
+def: "Percentage dry matter content estimated using handheld  Near InfraRed Spectroscopy (NIRS) device called \"Quality Spec Trek\". Output are spectra with wavelength range of 350-2500nm, and are converted percentage by prediction model." []
 synonym: "dmqst" RELATED []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
@@ -6849,7 +6849,7 @@ is_a: CO_334:0000030 ! insect damage
 id: CO_334:0002086
 name: starch content specific gravity EMBRAPA percentage
 namespace: cassava_trait
-def: "Percentage (%) of starch using calculation based on specific gravity estimated from sampled roots. 158.3 * specific gravity - 137.35" []
+def: "Percentage (%) of starch using calculation based on specific gravity estimated from sampled roots. 158.3 * specific gravity (CO_334:0000163) - 137.35" []
 synonym: "starchspg" RELATED []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
@@ -6861,7 +6861,7 @@ relationship: variable_of CO_334:0100583 ! pct (%)
 id: CO_334:0002087
 name: starch content specific gravity NRCRI percentage
 namespace: cassava_trait
-def: "Percentage (%) of starch using calculation based on specific gravity estimated from sampled roots. 210.8 * specific gravity - 213.4" []
+def: "Percentage (%) of starch using calculation based on specific gravity estimated from sampled roots. 210.8 * specific gravity (CO_334:0000163) - 213.4" []
 synonym: "starchsg" RELATED []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000474 ! Starch Content
@@ -7193,6 +7193,27 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000452 ! Root number
 relationship: variable_of CO_334:0010285 ! Counting: Root number_method
 relationship: variable_of CO_334:0100491 ! root
+
+[Term]
+id: CO_334:0002129
+name: cassava brown streak viral titre absorption in ng/ml
+namespace: cassava_trait
+def: "Viral titre is a new trait that we are exploring in understanding the genetics of Cassava brown streak disease. ELISA assays are used to generate absorbance readings that are converted titre with the aid of a standard curve. Standard curves tend to vary with how serial dilutions are made and to some extent may depend on the reagents used. In the end, a value in ng/ml unit is generated that represents viral titre which is always in the range of the standard curve concentration" []
+synonym: "cbsvt" RELATED []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002130 ! Cassava brown streak viral titre
+relationship: variable_of CO_334:0010550 ! Absorption: Cassava brown streak viral titre_method
+relationship: variable_of CO_334:0100706 ! ng/ml
+
+[Term]
+id: CO_334:0002130
+name: Cassava brown streak viral titre
+namespace: cassava_trait
+def: "Viral titre is a new trait that we are exploring in understanding the genetics of Cassava brown streak disease." []
+synonym: "cbsvt" RELATED []
+xref: CO:curators
+is_a: CO_334:0000028 ! viral disease
 
 [Term]
 id: CO_334:0010000
@@ -9971,6 +9992,14 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000373 ! Fufu content
 
 [Term]
+id: CO_334:0010550
+name: Absorption: Cassava brown streak viral titre_method
+namespace: CassavaMethod
+def: "ELISA assays are used to generate absorbance readings that are converted titre with the aid of a standard curve. Standard curves tend to vary with how serial dilutions are made and to some extent may depend on the reagents used" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002130 ! Cassava brown streak viral titre
+
+[Term]
 id: CO_334:0012000
 name: Observation: Farmer trait preference_method
 namespace: CassavaMethod
@@ -11349,6 +11378,14 @@ is_a: CO_334:0100436 ! 5 point scales
 relationship: scale_of CO_334:0010543 ! Visual Observation: Cassava white leaf spot disease severity_method
 relationship: scale_of CO_334:0010544 ! Visual Observation: Cassava brown leaf spot disease severity_method
 relationship: scale_of CO_334:0010545 ! Visual Observation: Cassava blight leaf spot disease severity_method
+
+[Term]
+id: CO_334:0100706
+name: ng/ml
+namespace: CassavaScale
+def: "Nanograms per milliliter, abbreviated ng/ml" []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010550 ! Absorption: Cassava brown streak viral titre_method
 
 [Typedef]
 id: derives_from
