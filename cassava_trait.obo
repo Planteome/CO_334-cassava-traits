@@ -5085,7 +5085,7 @@ creation_date: 2017-07-25T10:05:36Z
 id: CO_334:0000469
 name: days to third forking event visual observation
 namespace: cassava_trait
-def: "Visual observation of when (actual date in the format of dd/mm/yyyy from the date of planting) third forking event occured." [CO:<new dbxref>curator]
+def: "Visual observation of when (actual date in the format of dd/mm/yyyy from the date of planting) third forking event occured." [CO:curator]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000449 ! Days to branching event
 relationship: variable_of CO_334:0010013 ! Visual Observation: Days to branching event
@@ -7315,7 +7315,7 @@ creation_date: 2017-07-18T15:13:10Z
 id: CO_334:0010010
 name: Estimation: Dry matter content of lower stem percentage
 namespace: CassavaMethod
-def: "Dry matter content of lower stem estimated as the ratio of measured lower stem dry weight and lower stem fresh weight multiplied by 100." [CO:curator, XX:<new dbxref>]
+def: "Dry matter content of lower stem estimated as the ratio of measured lower stem dry weight and lower stem fresh weight multiplied by 100." [CO:curator]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000447 ! Dry matter content
 created_by: AAfolabi
