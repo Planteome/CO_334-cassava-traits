@@ -7265,7 +7265,7 @@ name: Boiled cassava in mouth hardness scale 0-10
 namespace: CassavaTrait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Soft, 5=Firm, 10=Hard" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003024 ! boiled root hardness  in mouth
+relationship: variable_of CO_334:0003024 ! boiled root hardness in mouth
 relationship: variable_of CO_334:0013001 ! texture in the mouth method
 relationship: variable_of CO_334:0103004 ! Hardness scale 0-10
 created_by: Paula Iragaba
@@ -7276,7 +7276,7 @@ name: Boiled cassava in mouth moisture scale 0-10
 namespace: CassavaTrait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Dry, 10=Moist" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003025 ! boiled root moisture  in mouth
+relationship: variable_of CO_334:0003025 ! boiled root moisture in mouth
 relationship: variable_of CO_334:0013001 ! texture in the mouth method
 relationship: variable_of CO_334:0103005 ! Moisture scale 0-10
 created_by: Paula Iragaba
@@ -7287,7 +7287,7 @@ name: Boiled cassava in mouth smoothness scale 0-10
 namespace: CassavaTrait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Lumpy, 5=Grainy, 10=Smooth" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003026 ! boiled root smoothness  in mouth
+relationship: variable_of CO_334:0003026 ! boiled root smoothness in mouth
 relationship: variable_of CO_334:0013001 ! texture in the mouth method
 relationship: variable_of CO_334:0103006 ! Smoothness scale 0-10
 created_by: Paula Iragaba
@@ -7298,7 +7298,7 @@ name: Boiled cassava in mouth fibrousness scale 0-10
 namespace: CassavaTrait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Non fibrous, 5=Medium intensity, 10=Very fibrous" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003027 ! boiled root fibrousness  in mouth
+relationship: variable_of CO_334:0003027 ! boiled root fibrousness in mouth
 relationship: variable_of CO_334:0013001 ! texture in the mouth method
 relationship: variable_of CO_334:0103007 ! Fibrousness scale 0-10
 created_by: Paula Iragaba
@@ -7309,7 +7309,7 @@ name: Boiled cassava in mouth mealiness scale 0-10
 namespace: CassavaTrait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Not mealy, 5=Medium mealiness, 10=Very mealy" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003028 ! boiled root mealiness  in mouth
+relationship: variable_of CO_334:0003028 ! boiled root mealiness in mouth
 relationship: variable_of CO_334:0013001 ! texture in the mouth method
 relationship: variable_of CO_334:0103008 ! Mealiness scale 0-10
 created_by: Paula Iragaba
@@ -7320,7 +7320,7 @@ name: Boiled cassava in mouth stickness scale 0-10
 namespace: CassavaTrait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Non sticky, 10=Sticky" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003029 ! boiled root stickness  in mouth
+relationship: variable_of CO_334:0003029 ! boiled root stickness in mouth
 relationship: variable_of CO_334:0013001 ! texture in the mouth method
 relationship: variable_of CO_334:0103009 ! Stickness scale 0-10
 created_by: Paula Iragaba
@@ -7441,7 +7441,7 @@ name: boiled root surface yellowness
 namespace: CassavaTrait
 def: "Colour of cassava root surface varies from light yellow to bright yellow" []
 synonym: "BoiCasSurfYell" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103017 ! Appearance trait
 
 [Term]
 id: CO_334:0003021
@@ -7449,7 +7449,7 @@ name: boiled root surface whiteness
 namespace: CassavaTrait
 def: "Colour of cassava root surface varies from cream to bright white" []
 synonym: "BoiCasSurfWhit" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103017 ! Appearance trait
 
 [Term]
 id: CO_334:0003022
@@ -7457,7 +7457,7 @@ name: boiled root surface color homogeneity
 namespace: CassavaTrait
 def: "Uniformity of cassava root surface colour" []
 synonym: "BoiCasSurfColHom" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103017 ! Appearance trait
 
 [Term]
 id: CO_334:0003023
@@ -7465,55 +7465,55 @@ name: boiled root surface smoothnness
 namespace: CassavaTrait
 def: "Absence of roughness,  lumps, holes, fibre lines, and ridges along the cassava root" []
 synonym: "BoiCasSurfSmooth" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103017 ! Appearance trait
 
 [Term]
 id: CO_334:0003024
-name: boiled root hardness  in mouth
+name: boiled root hardness in mouth
 namespace: CassavaTrait
 def: "Mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." []
 synonym: "BoiCastMthRootHard" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103018 ! Texture in mouth trait
 
 [Term]
 id: CO_334:0003025
-name: boiled root moisture  in mouth
+name: boiled root moisture in mouth
 namespace: CassavaTrait
 def: "Perception of moisture content of food by the tactile receptors in the mouth, and also in relation to the lubricating properties of the product" []
 synonym: "BoiCasMthRootMoist" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103018 ! Texture in mouth trait
 
 [Term]
 id: CO_334:0003026
-name: boiled root smoothness  in mouth
+name: boiled root smoothness in mouth
 namespace: CassavaTrait
 def: "Geometrical textural attribute relating to lack of presence of particles in a product" []
 synonym: "BoiCasMthRootSmooth" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103018 ! Texture in mouth trait
 
 [Term]
 id: CO_334:0003027
-name: boiled root fibrousness  in mouth
+name: boiled root fibrousness in mouth
 namespace: CassavaTrait
 def: "Feeling of threads/fibres as you chew" []
 synonym: "BoiCasMthFibr" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103018 ! Texture in mouth trait
 
 [Term]
 id: CO_334:0003028
-name: boiled root mealiness  in mouth
+name: boiled root mealiness in mouth
 namespace: CassavaTrait
 def: "Characterised by being dry and crumbly like boiled egg yolk" []
 synonym: "BoiCasMthMeal" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103018 ! Texture in mouth trait
 
 [Term]
 id: CO_334:0003029
-name: boiled root stickness  in mouth
+name: boiled root stickness in mouth
 namespace: CassavaTrait
 def: "Mechanical textural attribute relating to the force required to remove material that sticks to the mouth" []
 synonym: "BoiCasMthStick" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103018 ! Texture in mouth trait
 
 [Term]
 id: CO_334:0003030
@@ -7521,7 +7521,7 @@ name: boiled root mealiness by hand
 namespace: CassavaTrait
 def: "Characterised by being dry and crumbly like boiled egg" []
 synonym: "BoiCasHdMeal" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003031
@@ -7529,7 +7529,7 @@ name: boiled root moldability by hand
 namespace: CassavaTrait
 def: "Mechanical textural attribute relating to the degree to which a substance can be deformed before it breaks" []
 synonym: "BoiCasHdMold" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003032
@@ -7537,7 +7537,7 @@ name: boiled root stickness by hand
 namespace: CassavaTrait
 def: "Mechanical textural attribute relating to the force required to remove material that sticks to the finger" []
 synonym: "boiCasHdStick" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003033
@@ -7545,7 +7545,7 @@ name: boiled root taste sweetness
 namespace: CassavaTrait
 def: "Basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" []
 synonym: "BoiCasTastSweet" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103020 ! Taste trait
 
 [Term]
 id: CO_334:0003034
@@ -7553,7 +7553,7 @@ name: boiled root taste bitterness
 namespace: CassavaTrait
 def: "Basic taste produced by produced by dilute aqueous solutions of natural or artificial substances such as quinine" []
 synonym: "BoiCasTastBit" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103020 ! Taste trait
 
 [Term]
 id: CO_334:0003035
@@ -7561,7 +7561,7 @@ name: boiled root bitterness after taste
 namespace: CassavaTrait
 def: "Feeling of slight bitterness after swallow" []
 synonym: "BoiCasTastBit" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103020 ! Taste trait
 
 [Term]
 id: CO_334:0003036
@@ -7569,7 +7569,7 @@ name: boiled root steamed cassava-like aroma
 namespace: CassavaTrait
 def: "Aroma of the steamed cassava" []
 synonym: "BoiCasAromInt" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103020 ! Taste trait
 
 [Term]
 id: CO_334:0003037
@@ -7577,7 +7577,7 @@ name: boiled root roasted cassava-like aroma
 namespace: CassavaTrait
 def: "Aroma like that of roasted cassava" []
 synonym: "boiCasAromRoas" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103020 ! Taste trait
 
 [Term]
 id: CO_334:0003038
@@ -7585,7 +7585,7 @@ name: boiled root yam-like aroma
 namespace: CassavaTrait
 def: "Aroma like that of yam, Possibly like aroma of boiled, roasted or fried yam" []
 synonym: "BoiCasAromYam" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103020 ! Taste trait
 
 [Term]
 id: CO_334:0003039
@@ -7593,7 +7593,7 @@ name: boiled root sweet potato-like aroma
 namespace: CassavaTrait
 def: "Aroma like tha of sweet potato, Possibly like aroma of boiled, roasted or fried sweet potato" []
 synonym: "BoiCasAromSweetpotat" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103020 ! Taste trait
 
 [Term]
 id: CO_334:0010000
@@ -10418,7 +10418,7 @@ name: texture in the mouth method
 namespace: CassavaMethod
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003029 ! boiled root stickness  in mouth
+relationship: method_of CO_334:0003029 ! boiled root stickness in mouth
 
 [Term]
 id: CO_334:0013002
