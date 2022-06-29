@@ -11926,6 +11926,36 @@ namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013004 ! aroma method
 
+[Term]
+id: CO_334:0103017
+name: Appearance trait
+namespace: cassava_trait
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0103018
+name: Texture in mouth trait
+namespace: cassava_trait
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0103019
+name: Texture in hand trait
+namespace: cassava_trait
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0103020
+name: Taste trait
+namespace: cassava_trait
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0103021
+name: Aroma trait
+namespace: cassava_trait
+is_a: CO_334:0000004 ! Quality trait
+
 [Typedef]
 id: derives_from
 name: derives_from
