@@ -7568,7 +7568,7 @@ name: boiled root steamed cassava-like aroma
 namespace: cassava_trait
 def: "Aroma of the steamed cassava" []
 synonym: "BoiCasAromInt" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: CO_334:0103021 ! Aroma trait
 
 [Term]
 id: CO_334:0003037
@@ -7576,7 +7576,7 @@ name: boiled root roasted cassava-like aroma
 namespace: cassava_trait
 def: "Aroma like that of roasted cassava" []
 synonym: "boiCasAromRoas" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: CO_334:0103021 ! Aroma trait
 
 [Term]
 id: CO_334:0003038
@@ -7584,7 +7584,7 @@ name: boiled root yam-like aroma
 namespace: cassava_trait
 def: "Aroma like that of yam, Possibly like aroma of boiled, roasted or fried yam" []
 synonym: "BoiCasAromYam" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: CO_334:0103021 ! Aroma trait
 
 [Term]
 id: CO_334:0003039
@@ -7592,7 +7592,7 @@ name: boiled root sweet potato-like aroma
 namespace: cassava_trait
 def: "Aroma like tha of sweet potato, Possibly like aroma of boiled, roasted or fried sweet potato" []
 synonym: "BoiCasAromSweetpotat" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: CO_334:0103021 ! Aroma trait
 
 [Term]
 id: CO_334:0003040
