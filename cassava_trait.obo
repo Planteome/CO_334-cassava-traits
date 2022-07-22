@@ -7595,6 +7595,139 @@ synonym: "BoiCasAromSweetpotat" EXACT []
 is_a: CO_334:0103020 ! Taste trait
 
 [Term]
+id: CO_334:0003040
+name: Fufu colour scale 1-8
+namespace: CassavaTrait
+def: "Measures the intensity of the different colours of the cooked fufu surface on a scale 1 to 8" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003047 ! fufu surface colour
+relationship: variable_of CO_334:0013005 ! appearance method
+relationship: variable_of CO_334:0103022 ! Colour scale 1-8
+created_by: Ugo Chijioke
+
+[Term]
+id: CO_334:0003041
+name: Fufu smoothness scale 0-10
+namespace: CassavaTrait
+def: "Measures the absence of lumps when a sample is pressed firmly between the fingers" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003048 ! fufu smoothness in hand
+relationship: variable_of CO_334:0013006 ! texture by handfeel method
+relationship: variable_of CO_334:0103023 ! Smoothness scale 0-10
+created_by: Ugo Chijioke
+
+[Term]
+id: CO_334:0003042
+name: Fufu stickiness scale 0-10
+namespace: CassavaTrait
+def: "Measures the adherence of fufu onto the fingers when it is touched with fingers or during moulding into bolus for swallowing" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003049 ! fufu stickiness in hand
+relationship: variable_of CO_334:0013007 ! texture by handfeel method
+relationship: variable_of CO_334:0103024 ! Stickiness scale 0-10
+created_by: Ugo Chijioke
+
+[Term]
+id: CO_334:0003043
+name: Fufu moldability scale 0-10
+namespace: CassavaTrait
+def: "Meassures the easiness of fufu to stick together without disintegrating easiness to mould." []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003050 ! fufu moldability in hand
+relationship: variable_of CO_334:0013008 ! texture by handfeel method
+relationship: variable_of CO_334:0103025 ! Moldability scale 0-10
+created_by: Ugo Chijioke
+
+[Term]
+id: CO_334:0003044
+name: Fufu hardness scale 0-10
+namespace: CassavaTrait
+def: "Measure the easiness of pressing a sample with the index finger" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003051 ! fufu hardness in hand
+relationship: variable_of CO_334:0013009 ! texture by handfeel method
+relationship: variable_of CO_334:0103026 ! Hardness scale 0-10
+created_by: Ugo Chijioke
+
+[Term]
+id: CO_334:0003045
+name: Fufu stretchability scale 0-10
+namespace: CassavaTrait
+def: "Measures the ability of fufu to stretch when pulled apart with the fingers" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003052 ! fufu stretchability in hand
+relationship: variable_of CO_334:0013010 ! texture by handfeel method
+relationship: variable_of CO_334:0103027 ! Stretchability scale 0-10
+created_by: Ugo Chijioke
+
+[Term]
+id: CO_334:0003046
+name: Fufu odour scale 0-10
+namespace: CassavaTrait
+def: "Measures the odour fufu  smelt with nose when it is just cooked" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003053 ! fufu odour
+relationship: variable_of CO_334:0013011 ! odour method
+relationship: variable_of CO_334:0103028 ! Fufu odour scale 0-10
+created_by: Ugo Chijioke
+
+[Term]
+id: CO_334:0003047
+name: fufu surface colour
+namespace: CassavaTrait
+def: "Colour of cooked fufu being as white as a flip chart paper or as as off white as soy milk colour, or as grey as skin of sardine fish, or as light as cement colour, or as cream coloured as peak evaporated liquid milk, or as light yellow as cooked egg york, or as yellow as skin of ripe orange, or as brown in colour as whole wheat meal" []
+synonym: "FufSurfCol" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003048
+name: fufu smoothness in hand
+namespace: CassavaTrait
+def: "Absence of lumps" []
+synonym: "FufHdSmoth" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003049
+name: fufu stickiness in hand
+namespace: CassavaTrait
+def: "This is when the fufu sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing" []
+synonym: "FufHdStick" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003050
+name: fufu moldability in hand
+namespace: CassavaTrait
+def: "Ability of the fufu to stick together easily without disintegrating or cohesive and being easy to mould." []
+synonym: "FufHdMol" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003051
+name: fufu hardness in hand
+namespace: CassavaTrait
+def: "Softness is when it is quite easy to compress the fufu sample, while hardness is when force is used to compress the sample or takes effort to compress the sample" []
+synonym: "FufHdHard" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003052
+name: fufu stretchability in hand
+namespace: CassavaTrait
+def: "Ability of fufu to stretch when pulled apart with fingers" []
+synonym: "FufHdStret" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003053
+name: fufu odour
+namespace: CassavaTrait
+def: "Odour/aroma of fufu" []
+synonym: "FuOd" EXACT []
+is_a: CO_334:0103021 ! Aroma trait
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -10444,6 +10577,62 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0003039 ! boiled root sweet potato-like aroma
 
 [Term]
+id: CO_334:0013005
+name: appearance method
+namespace: CassavaMethod
+def: "Visually inspect sample surface" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003047 ! fufu surface colour
+
+[Term]
+id: CO_334:0013006
+name: texture by handfeel method
+namespace: CassavaMethod
+def: "Sample is pressed firmly between the fingers" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003048 ! fufu smoothness in hand
+
+[Term]
+id: CO_334:0013007
+name: texture by handfeel method
+namespace: CassavaMethod
+def: "Sample is touched with fingers or moulded in the hands" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003049 ! fufu stickiness in hand
+
+[Term]
+id: CO_334:0013008
+name: texture by handfeel method
+namespace: CassavaMethod
+def: "Sample is put in the hands and moulded" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003050 ! fufu moldability in hand
+
+[Term]
+id: CO_334:0013009
+name: texture by handfeel method
+namespace: CassavaMethod
+def: "Sample is pressed with the index finger" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003051 ! fufu hardness in hand
+
+[Term]
+id: CO_334:0013010
+name: texture by handfeel method
+namespace: CassavaMethod
+def: "The fufu is touched and pulled apart with the fingers" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003052 ! fufu stretchability in hand
+
+[Term]
+id: CO_334:0013011
+name: odour method
+namespace: CassavaMethod
+def: "Take a whiff and evaluate the intensity of fufu odour" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003053 ! fufu odour
+
+[Term]
 id: CO_334:0100000
 name: 3pt scale
 namespace: CassavaScale
@@ -11954,6 +12143,55 @@ id: CO_334:0103021
 name: Aroma trait
 namespace: cassava_trait
 is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0103022
+name: Colour scale 1-8
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013005 ! appearance method
+
+[Term]
+id: CO_334:0103023
+name: Smoothness scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013006 ! texture by handfeel method
+
+[Term]
+id: CO_334:0103024
+name: Stickiness scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013007 ! texture by handfeel method
+
+[Term]
+id: CO_334:0103025
+name: Moldability scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013008 ! texture by handfeel method
+
+[Term]
+id: CO_334:0103026
+name: Hardness scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013009 ! texture by handfeel method
+
+[Term]
+id: CO_334:0103027
+name: Stretchability scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013010 ! texture by handfeel method
+
+[Term]
+id: CO_334:0103028
+name: Fufu odour scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013011 ! odour method
 
 [Typedef]
 id: derives_from
