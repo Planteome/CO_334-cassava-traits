@@ -6497,9 +6497,9 @@ id: CO_334:0002051
 name: Fufu smell
 namespace: cassava_trait
 def: "Smell of fufu after processing" []
+synonym: "fufu odour" EXACT []
 synonym: "fufusm" RELATED []
 synonym: "FuOd" EXACT []
-synonym: "fufu odour" EXACT []
 xref: CO:curators
 is_a: CO_334:0103021 ! Aroma trait
 
@@ -7599,7 +7599,7 @@ is_a: CO_334:0103021 ! Aroma trait
 [Term]
 id: CO_334:0003040
 name: Fufu colour scale 1-8
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Measures the intensity of the different colours of the cooked fufu surface on a scale 1 to 8; 1=White, 2=Off white, 3=Grey, 4=Light grey, 5=Light cream, 6=Light yellow, 7=Yellow, 8=Light brown." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003047 ! fufu surface colour
@@ -7610,7 +7610,7 @@ created_by: Ugo Chijioke
 [Term]
 id: CO_334:0003041
 name: Fufu smoothness scale 0-10
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Measures the absence of lumps when a sample is pressed firmly between the fingers on a scale 0 to 10; 0=Big lumps, 10=Absence of lumps." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003048 ! fufu smoothness in hand
@@ -7621,7 +7621,7 @@ created_by: Ugo Chijioke
 [Term]
 id: CO_334:0003042
 name: Fufu stickiness scale 0-10
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Measures the adherence of fufu onto the fingers when it is touched with fingers or during moulding into bolus for swallowing on a scale 0 to 10; 0=Not sticky, 5=Slightly sticky, 10=Very sticky" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003049 ! fufu stickiness in hand
@@ -7632,7 +7632,7 @@ created_by: Ugo Chijioke
 [Term]
 id: CO_334:0003043
 name: Fufu moldability scale 0-10
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Measures the easiness of fufu to stick together without disintegrating easiness to mould on a scale 0 to 10; 0=Not moldable, 5=Slightly mouldable, 10=Moldable " []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003050 ! fufu moldability in hand
@@ -7643,7 +7643,7 @@ created_by: Ugo Chijioke
 [Term]
 id: CO_334:0003044
 name: Fufu hardness scale 0-10
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Measure the easiness of pressing a sample with the index finger on a 0 to 10 scale; 0=Very soft, 10=Very hard" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003051 ! fufu hardness in hand
@@ -7654,7 +7654,7 @@ created_by: Ugo Chijioke
 [Term]
 id: CO_334:0003045
 name: Fufu stretchability scale 0-10
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Measures the ability of fufu to stretch when pulled apart with the fingers, on a 0 to 10 scale; 0=Not streachable, 5=Medium stretchability, 10=Very stretchable" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003052 ! fufu stretchability in hand
@@ -7665,7 +7665,7 @@ created_by: Ugo Chijioke
 [Term]
 id: CO_334:0003046
 name: Fufu odour scale 0-10
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Measures the odour fufu  smelt with nose when it is just cooked on a 0 to 10 scale; 0=No fufu odour, 5=Mild fufu odour, 10=Strong fufu odour" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002051 ! Fufu smell
@@ -7676,7 +7676,7 @@ created_by: Ugo Chijioke
 [Term]
 id: CO_334:0003047
 name: fufu surface colour
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Colour of cooked fufu being as white as a flip chart paper or as as off white as soy milk colour, or as grey as skin of sardine fish, or as light as cement colour, or as cream coloured as peak evaporated liquid milk, or as light yellow as cooked egg york, or as yellow as skin of ripe orange, or as brown in colour as whole wheat meal" []
 synonym: "FufSurfCol" EXACT []
 is_a: CO_334:0103017 ! Appearance trait
@@ -7684,7 +7684,7 @@ is_a: CO_334:0103017 ! Appearance trait
 [Term]
 id: CO_334:0003048
 name: fufu smoothness in hand
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Absence of lumps" []
 synonym: "FufHdSmoth" EXACT []
 is_a: CO_334:0103019 ! Texture in hand trait
@@ -7692,7 +7692,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 [Term]
 id: CO_334:0003049
 name: fufu stickiness in hand
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "This is when the fufu sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing" []
 synonym: "FufHdStick" EXACT []
 is_a: CO_334:0103019 ! Texture in hand trait
@@ -7700,7 +7700,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 [Term]
 id: CO_334:0003050
 name: fufu moldability in hand
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Ability of the fufu to stick together easily without disintegrating or cohesive and being easy to mould." []
 synonym: "FufHdMol" EXACT []
 is_a: CO_334:0103019 ! Texture in hand trait
@@ -7708,7 +7708,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 [Term]
 id: CO_334:0003051
 name: fufu hardness in hand
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Softness is when it is quite easy to compress the fufu sample, while hardness is when force is used to compress the sample or takes effort to compress the sample" []
 synonym: "FufHdHard" EXACT []
 is_a: CO_334:0103019 ! Texture in hand trait
@@ -7716,7 +7716,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 [Term]
 id: CO_334:0003052
 name: fufu stretchability in hand
-namespace: CassavaTrait
+namespace: cassava_trait
 def: "Ability of fufu to stretch when pulled apart with fingers" []
 synonym: "FufHdStret" EXACT []
 is_a: CO_334:0103019 ! Texture in hand trait
@@ -12025,7 +12025,6 @@ is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013001 ! texture in the mouth method
 relationship: scale_of CO_334:0013009 ! texture by handfeel method
 
-
 [Term]
 id: CO_334:0103005
 name: Moisture scale 0-10
@@ -12197,4 +12196,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
