@@ -6498,8 +6498,10 @@ name: Fufu smell
 namespace: cassava_trait
 def: "Smell of fufu after processing" []
 synonym: "fufusm" RELATED []
+synonym: "FuOd" EXACT []
+synonym: "fufu odour" EXACT []
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0103021 ! Aroma trait
 
 [Term]
 id: CO_334:0002052
@@ -7666,7 +7668,7 @@ name: Fufu odour scale 0-10
 namespace: CassavaTrait
 def: "Measures the odour fufu  smelt with nose when it is just cooked" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003053 ! fufu odour
+relationship: variable_of CO_334:0002051 ! Fufu smell
 relationship: variable_of CO_334:0013011 ! odour method
 relationship: variable_of CO_334:0103028 ! Fufu odour scale 0-10
 created_by: Ugo Chijioke
@@ -7718,14 +7720,6 @@ namespace: CassavaTrait
 def: "Ability of fufu to stretch when pulled apart with fingers" []
 synonym: "FufHdStret" EXACT []
 is_a: CO_334:0103019 ! Texture in hand trait
-
-[Term]
-id: CO_334:0003053
-name: fufu odour
-namespace: CassavaTrait
-def: "Odour/aroma of fufu" []
-synonym: "FuOd" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
 
 [Term]
 id: CO_334:0010000
@@ -10630,7 +10624,7 @@ name: odour method
 namespace: CassavaMethod
 def: "Take a whiff and evaluate the intensity of fufu odour" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003053 ! fufu odour
+relationship: method_of CO_334:0002051 ! Fufu smell
 
 [Term]
 id: CO_334:0100000
