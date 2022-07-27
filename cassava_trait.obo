@@ -7251,13 +7251,13 @@ created_by: Paula Iragaba
 
 [Term]
 id: CO_334:0003003
-name: Boiled cassava  surface smoothness scale 0-10
+name: Boiled cassava surface smoothness scale 0-10
 namespace: cassava_trait
 def: "When you receive a cassava root sample, observe the surface and evaluate the intensity of the yellow colour. ; 0=Very rough, 10=Very smooth" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003023 ! boiled root surface smoothnness
 relationship: variable_of CO_334:0013000 ! appearance method
-relationship: variable_of CO_334:0103003 ! Smoothness scale 0-10
+relationship: variable_of CO_334:0103003 ! Appearance smoothness scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7290,7 +7290,7 @@ def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003026 ! boiled root smoothness in mouth
 relationship: variable_of CO_334:0013001 ! texture in the mouth method
-relationship: variable_of CO_334:0103006 ! Smoothness scale 0-10
+relationship: variable_of CO_334:0103006 ! Smoothness in mouth scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7615,7 +7615,7 @@ def: "Measures the absence of lumps when a sample is pressed firmly between the 
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003048 ! fufu smoothness in hand
 relationship: variable_of CO_334:0013006 ! texture by handfeel method
-relationship: variable_of CO_334:0103023 ! Smoothness scale 0-10
+relationship: variable_of CO_334:0103023 ! Dough smoothness scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
@@ -12012,7 +12012,7 @@ relationship: scale_of CO_334:0013000 ! appearance method
 
 [Term]
 id: CO_334:0103003
-name: Smoothness scale 0-10
+name: Appearance smoothness scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013000 ! appearance method
@@ -12035,7 +12035,7 @@ relationship: scale_of CO_334:0013001 ! texture in the mouth method
 
 [Term]
 id: CO_334:0103006
-name: Smoothness scale 0-10
+name: Smoothness in mouth scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013001 ! texture in the mouth method
@@ -12149,7 +12149,7 @@ relationship: scale_of CO_334:0013005 ! appearance method
 
 [Term]
 id: CO_334:0103023
-name: Smoothness scale 0-10
+name: Dough smoothness scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013006 ! texture by handfeel method
