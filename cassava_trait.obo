@@ -7600,7 +7600,7 @@ is_a: CO_334:0103021 ! Aroma trait
 id: CO_334:0003040
 name: Fufu colour scale 1-8
 namespace: CassavaTrait
-def: "Measures the intensity of the different colours of the cooked fufu surface on a scale 1 to 8" []
+def: "Measures the intensity of the different colours of the cooked fufu surface on a scale 1 to 8; 1=White, 2=Off white, 3=Grey, 4=Light grey, 5=Light cream, 6=Light yellow, 7=Yellow, 8=Light brown." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003047 ! fufu surface colour
 relationship: variable_of CO_334:0013005 ! appearance method
@@ -7611,7 +7611,7 @@ created_by: Ugo Chijioke
 id: CO_334:0003041
 name: Fufu smoothness scale 0-10
 namespace: CassavaTrait
-def: "Measures the absence of lumps when a sample is pressed firmly between the fingers" []
+def: "Measures the absence of lumps when a sample is pressed firmly between the fingers on a scale 0 to 10; 0=Big lumps, 10=Absence of lumps." []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003048 ! fufu smoothness in hand
 relationship: variable_of CO_334:0013006 ! texture by handfeel method
@@ -7622,7 +7622,7 @@ created_by: Ugo Chijioke
 id: CO_334:0003042
 name: Fufu stickiness scale 0-10
 namespace: CassavaTrait
-def: "Measures the adherence of fufu onto the fingers when it is touched with fingers or during moulding into bolus for swallowing" []
+def: "Measures the adherence of fufu onto the fingers when it is touched with fingers or during moulding into bolus for swallowing on a scale 0 to 10; 0=Not sticky, 5=Slightly sticky, 10=Very sticky" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003049 ! fufu stickiness in hand
 relationship: variable_of CO_334:0013007 ! texture by handfeel method
@@ -7633,7 +7633,7 @@ created_by: Ugo Chijioke
 id: CO_334:0003043
 name: Fufu moldability scale 0-10
 namespace: CassavaTrait
-def: "Meassures the easiness of fufu to stick together without disintegrating easiness to mould." []
+def: "Measures the easiness of fufu to stick together without disintegrating easiness to mould on a scale 0 to 10; 0=Not moldable, 5=Slightly mouldable, 10=Moldable " []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003050 ! fufu moldability in hand
 relationship: variable_of CO_334:0013008 ! texture by handfeel method
@@ -7644,7 +7644,7 @@ created_by: Ugo Chijioke
 id: CO_334:0003044
 name: Fufu hardness scale 0-10
 namespace: CassavaTrait
-def: "Measure the easiness of pressing a sample with the index finger" []
+def: "Measure the easiness of pressing a sample with the index finger on a 0 to 10 scale; 0=Very soft, 10=Very hard" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003051 ! fufu hardness in hand
 relationship: variable_of CO_334:0013009 ! texture by handfeel method
@@ -7655,7 +7655,7 @@ created_by: Ugo Chijioke
 id: CO_334:0003045
 name: Fufu stretchability scale 0-10
 namespace: CassavaTrait
-def: "Measures the ability of fufu to stretch when pulled apart with the fingers" []
+def: "Measures the ability of fufu to stretch when pulled apart with the fingers, on a 0 to 10 scale; 0=Not streachable, 5=Medium stretchability, 10=Very stretchable" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003052 ! fufu stretchability in hand
 relationship: variable_of CO_334:0013010 ! texture by handfeel method
@@ -7666,7 +7666,7 @@ created_by: Ugo Chijioke
 id: CO_334:0003046
 name: Fufu odour scale 0-10
 namespace: CassavaTrait
-def: "Measures the odour fufu  smelt with nose when it is just cooked" []
+def: "Measures the odour fufu  smelt with nose when it is just cooked on a 0 to 10 scale; 0=No fufu odour, 5=Mild fufu odour, 10=Strong fufu odour" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002051 ! Fufu smell
 relationship: variable_of CO_334:0013011 ! odour method
