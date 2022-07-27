@@ -7648,7 +7648,7 @@ def: "Measure the easiness of pressing a sample with the index finger" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003051 ! fufu hardness in hand
 relationship: variable_of CO_334:0013009 ! texture by handfeel method
-relationship: variable_of CO_334:0103026 ! Hardness scale 0-10
+relationship: variable_of CO_334:0103004 ! Hardness scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
@@ -12023,6 +12023,8 @@ name: Hardness scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013001 ! texture in the mouth method
+relationship: scale_of CO_334:0013009 ! texture by handfeel method
+
 
 [Term]
 id: CO_334:0103005
@@ -12165,13 +12167,6 @@ name: Moldability scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013008 ! texture by handfeel method
-
-[Term]
-id: CO_334:0103026
-name: Hardness scale 0-10
-namespace: CassavaScale
-is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013009 ! texture by handfeel method
 
 [Term]
 id: CO_334:0103027
