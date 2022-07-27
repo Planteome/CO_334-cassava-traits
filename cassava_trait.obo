@@ -7637,7 +7637,7 @@ def: "Meassures the easiness of fufu to stick together without disintegrating ea
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003050 ! fufu moldability in hand
 relationship: variable_of CO_334:0013008 ! texture by handfeel method
-relationship: variable_of CO_334:0103025 ! Moldability scale 0-10
+relationship: variable_of CO_334:0103025 ! Dough moldability scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
@@ -12163,7 +12163,7 @@ relationship: scale_of CO_334:0013007 ! texture by handfeel method
 
 [Term]
 id: CO_334:0103025
-name: Moldability scale 0-10
+name: Dough moldability scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013008 ! texture by handfeel method
