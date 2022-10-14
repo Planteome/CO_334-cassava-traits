@@ -7220,11 +7220,12 @@ is_a: CO_334:0000028 ! viral disease
 [Term]
 id: CO_334:0003000
 name: Boiled cassava surface yellowness scale 0-10
+namespace: cassava_trait
 def: "When you receive a cassava root sample, observe the surface and evaluate the intensity of the yellow colour. ; 0=Non-yellow, 10=Bright yellow" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003020 ! boiled root surface yellowness
-relationship: variable_of CO_334:0013000 ! appearance method
-relationship: variable_of CO_334:0103000 ! Yellowness scale 0-10
+relationship: variable_of CO_334:0013000 ! surface yellowness appearance method
+relationship: variable_of CO_334:0103000 ! Surface yellowness scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7234,8 +7235,8 @@ namespace: cassava_trait
 def: "When you receive a cassava root sample, observe the surface and evaluate the intensity of the yellow colour. ; 0=Cream, 10=Bright white" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003021 ! boiled root surface whiteness
-relationship: variable_of CO_334:0013000 ! appearance method
-relationship: variable_of CO_334:0103001 ! Whitness 0-10
+relationship: variable_of CO_334:0013047 ! surface whiteness appearance method
+relationship: variable_of CO_334:0103001 ! Boiled cassava surface whitness 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7245,19 +7246,19 @@ namespace: cassava_trait
 def: "When you receive a cassava root sample, observe the surface and evaluate the intensity of the yellow colour. ; 0= Heterogeneous, 10=Homogeneous" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003022 ! boiled root surface color homogeneity
-relationship: variable_of CO_334:0013000 ! appearance method
-relationship: variable_of CO_334:0103002 ! Colour homogeneity 0-10
+relationship: variable_of CO_334:0013018 ! color homogeneity appearance method
+relationship: variable_of CO_334:0103002 ! Surface colour homogeneity 0-10
 created_by: Paula Iragaba
 
 [Term]
 id: CO_334:0003003
-name: Boiled cassava surface smoothness scale 0-10
+name: Boiled cassava  surface smoothness scale 0-10
 namespace: cassava_trait
 def: "When you receive a cassava root sample, observe the surface and evaluate the intensity of the yellow colour. ; 0=Very rough, 10=Very smooth" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003023 ! boiled root surface smoothnness
-relationship: variable_of CO_334:0013000 ! appearance method
-relationship: variable_of CO_334:0103003 ! Appearance smoothness scale 0-10
+relationship: variable_of CO_334:0013046 ! surface smoothness appearance method
+relationship: variable_of CO_334:0103003 ! Surface smoothness scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7266,9 +7267,9 @@ name: Boiled cassava in mouth hardness scale 0-10
 namespace: cassava_trait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Soft, 5=Firm, 10=Hard" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003024 ! boiled root hardness in mouth
-relationship: variable_of CO_334:0013001 ! texture in the mouth method
-relationship: variable_of CO_334:0103004 ! Hardness scale 0-10
+relationship: variable_of CO_334:0003024 ! boiled root hardness  in mouth
+relationship: variable_of CO_334:0013001 ! stickiness texture in the mouth method
+relationship: variable_of CO_334:0103004 ! Hardness texture in the mouth scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7277,9 +7278,9 @@ name: Boiled cassava in mouth moisture scale 0-10
 namespace: cassava_trait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Dry, 10=Moist" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003025 ! boiled root moisture in mouth
-relationship: variable_of CO_334:0013001 ! texture in the mouth method
-relationship: variable_of CO_334:0103005 ! Moisture scale 0-10
+relationship: variable_of CO_334:0003025 ! boiled root moisture  in mouth
+relationship: variable_of CO_334:0013001 ! stickiness texture in the mouth method
+relationship: variable_of CO_334:0103005 ! Moisture texture in the mouth s scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7289,8 +7290,8 @@ namespace: cassava_trait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Lumpy, 5=Grainy, 10=Smooth" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003026 ! boiled root smoothness in mouth
-relationship: variable_of CO_334:0013001 ! texture in the mouth method
-relationship: variable_of CO_334:0103006 ! Smoothness in mouth scale 0-10
+relationship: variable_of CO_334:0013001 ! stickiness texture in the mouth method
+relationship: variable_of CO_334:0103006 ! Boiled root smoothness in the mouth scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7300,8 +7301,8 @@ namespace: cassava_trait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Non fibrous, 5=Medium intensity, 10=Very fibrous" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003027 ! boiled root fibrousness in mouth
-relationship: variable_of CO_334:0013001 ! texture in the mouth method
-relationship: variable_of CO_334:0103007 ! Fibrousness scale 0-10
+relationship: variable_of CO_334:0013001 ! stickiness texture in the mouth method
+relationship: variable_of CO_334:0103007 ! Boiled root fibrousness in mouth scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7310,9 +7311,9 @@ name: Boiled cassava in mouth mealiness scale 0-10
 namespace: cassava_trait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Not mealy, 5=Medium mealiness, 10=Very mealy" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003028 ! boiled root mealiness in mouth
-relationship: variable_of CO_334:0013001 ! texture in the mouth method
-relationship: variable_of CO_334:0103008 ! Mealiness scale 0-10
+relationship: variable_of CO_334:0003028 ! boiled root mealiness  in mouth
+relationship: variable_of CO_334:0013001 ! stickiness texture in the mouth method
+relationship: variable_of CO_334:0103008 ! Mealiness texture in the mouth scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7322,8 +7323,8 @@ namespace: cassava_trait
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate ; 0=Non sticky, 10=Sticky" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003029 ! boiled root stickness in mouth
-relationship: variable_of CO_334:0013001 ! texture in the mouth method
-relationship: variable_of CO_334:0103009 ! Stickness scale 0-10
+relationship: variable_of CO_334:0013001 ! stickiness texture in the mouth method
+relationship: variable_of CO_334:0103009 ! Stickness in the mouth scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7333,8 +7334,8 @@ namespace: cassava_trait
 def: "Put a part of the boiled sample between thumb and index fingers and using tapping motions, evaluate the amount of product adhering on them ; 0=Not mealy, 5=Medium mealiness, 10=Very mealy" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003030 ! boiled root mealiness by hand
-relationship: variable_of CO_334:0013002 ! texture in the hand method
-relationship: variable_of CO_334:0103010 ! Mealiness scale 0-10
+relationship: variable_of CO_334:0013002 ! mealiness texture in the hand method
+relationship: variable_of CO_334:0103010 ! Mealiness in the hand scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7344,8 +7345,8 @@ namespace: cassava_trait
 def: "Put a part of the boiled sample between thumb and index fingers and using tapping motions, evaluate the amount of product adhering on them ; 0=Crumbly, 10=Moldable" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003031 ! boiled root moldability by hand
-relationship: variable_of CO_334:0013002 ! texture in the hand method
-relationship: variable_of CO_334:0103011 ! Moldability scale 0-10
+relationship: variable_of CO_334:0013008 ! moldability texture in the hand method
+relationship: variable_of CO_334:0103011 ! Boiled root moldability by hand scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7354,9 +7355,9 @@ name: Boiled cassava in hand stickness scale 0-10
 namespace: cassava_trait
 def: "Put a part of the boiled sample between thumb and index fingers and using tapping motions, evaluate the amount of product adhering on them ; 0=Non sticky, 10=Sticky" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003032 ! boiled root stickness by hand
-relationship: variable_of CO_334:0013002 ! texture in the hand method
-relationship: variable_of CO_334:0103012 ! Stickness scale 0-10
+relationship: variable_of CO_334:0003032 ! boiled root stickness in the hand
+relationship: variable_of CO_334:0013007 ! stickiness texture in the hand method
+relationship: variable_of CO_334:0103012 ! Boiled root stickness in hand  scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7365,9 +7366,9 @@ name: Boiled cassava taste sweetness scale 0-10
 namespace: cassava_trait
 def: "Put a part of the boiled sample in the mouth and evaluate whether bitter after swallowing ; 0=No sweetness, 3=Low intensity, 6=Medium intensity" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003033 ! boiled root taste sweetness
-relationship: variable_of CO_334:0013003 ! taste method
-relationship: variable_of CO_334:0103013 ! Sweetness scale 0-10
+relationship: variable_of CO_334:0003033 ! boiled root sweetness taste
+relationship: variable_of CO_334:0013003 ! sweetness taste method
+relationship: variable_of CO_334:0103013 ! Boiled root sweetness taste scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7377,7 +7378,7 @@ namespace: cassava_trait
 def: "Put a part of the boiled sample in the mouth and evaluate whether bitter after swallowing ; 0=No bitterness, 3=Low intensity, 6=Medium intensity" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003034 ! boiled root taste bitterness
-relationship: variable_of CO_334:0013003 ! taste method
+relationship: variable_of CO_334:0013014 ! bitterness taste method
 relationship: variable_of CO_334:0103014 ! Bitterness scale 0-10
 created_by: Paula Iragaba
 
@@ -7388,7 +7389,7 @@ namespace: cassava_trait
 def: "Put a part of the boiled sample in the mouth and evaluate whether bitter after swallowing ; YES, NO" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003035 ! boiled root bitterness after taste
-relationship: variable_of CO_334:0013003 ! taste method
+relationship: variable_of CO_334:0013013 ! bitterness after taste method
 relationship: variable_of CO_334:0103015 ! 2 pt scale
 created_by: Paula Iragaba
 
@@ -7399,8 +7400,8 @@ namespace: cassava_trait
 def: "Put a part of the boiled sample and by retro-olfaction, evaluate the presence and the intensity of sweet potato aroma ; 0=Low intensity, 5= Medium intensity, 10= High intensity" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003036 ! boiled root steamed cassava-like aroma
-relationship: variable_of CO_334:0013004 ! aroma method
-relationship: variable_of CO_334:0103016 ! Aroma scale 0-10
+relationship: variable_of CO_334:0013004 ! steamed cassava-like_aroma  method
+relationship: variable_of CO_334:0103016 ! Cassava-like aroma scale 0-10
 created_by: Paula Iragaba
 
 [Term]
@@ -7410,7 +7411,7 @@ namespace: cassava_trait
 def: "Put a part of the boiled sample and by retro-olfaction, evaluate the presence and the intensity of sweet potato aroma ; YES, NO" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003037 ! boiled root roasted cassava-like aroma
-relationship: variable_of CO_334:0013004 ! aroma method
+relationship: variable_of CO_334:0013040 ! roasted cassava-like aroma method
 relationship: variable_of CO_334:0103015 ! 2 pt scale
 created_by: Paula Iragaba
 
@@ -7421,7 +7422,7 @@ namespace: cassava_trait
 def: "Put a part of the boiled sample and by retro-olfaction, evaluate the presence and the intensity of sweet potato aroma ; YES, NO" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003038 ! boiled root yam-like aroma
-relationship: variable_of CO_334:0013004 ! aroma method
+relationship: variable_of CO_334:0013052 ! yam-like aroma method
 relationship: variable_of CO_334:0103015 ! 2 pt scale
 created_by: Paula Iragaba
 
@@ -7432,7 +7433,7 @@ namespace: cassava_trait
 def: "Put a part of the boiled sample and by retro-olfaction, evaluate the presence and the intensity of sweet potato aroma ; YES, NO" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003039 ! boiled root sweet potato-like aroma
-relationship: variable_of CO_334:0013004 ! aroma method
+relationship: variable_of CO_334:0013048 ! sweetpotato-like aroma method
 relationship: variable_of CO_334:0103015 ! 2 pt scale
 created_by: Paula Iragaba
 
@@ -7470,7 +7471,7 @@ is_a: CO_334:0103017 ! Appearance trait
 
 [Term]
 id: CO_334:0003024
-name: boiled root hardness in mouth
+name: boiled root hardness  in mouth
 namespace: cassava_trait
 def: "Mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." []
 synonym: "BoiCastMthRootHard" EXACT []
@@ -7478,7 +7479,7 @@ is_a: CO_334:0103018 ! Texture in mouth trait
 
 [Term]
 id: CO_334:0003025
-name: boiled root moisture in mouth
+name: boiled root moisture  in mouth
 namespace: cassava_trait
 def: "Perception of moisture content of food by the tactile receptors in the mouth, and also in relation to the lubricating properties of the product" []
 synonym: "BoiCasMthRootMoist" EXACT []
@@ -7502,7 +7503,7 @@ is_a: CO_334:0103018 ! Texture in mouth trait
 
 [Term]
 id: CO_334:0003028
-name: boiled root mealiness in mouth
+name: boiled root mealiness  in mouth
 namespace: cassava_trait
 def: "Characterised by being dry and crumbly like boiled egg yolk" []
 synonym: "BoiCasMthMeal" EXACT []
@@ -7534,7 +7535,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003032
-name: boiled root stickness by hand
+name: boiled root stickness in the hand
 namespace: cassava_trait
 def: "Mechanical textural attribute relating to the force required to remove material that sticks to the finger" []
 synonym: "boiCasHdStick" EXACT []
@@ -7542,7 +7543,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003033
-name: boiled root taste sweetness
+name: boiled root sweetness taste
 namespace: cassava_trait
 def: "Basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" []
 synonym: "BoiCasTastSweet" EXACT []
@@ -7598,77 +7599,77 @@ is_a: CO_334:0103021 ! Aroma trait
 
 [Term]
 id: CO_334:0003040
-name: Fufu colour visual scale 1-8
+name: Fufu colour scale 1-8
 namespace: cassava_trait
-def: "Measures the intensity of the different colours of the cooked fufu surface on a scale 1 to 8; 1=White, 2=Off white, 3=Grey, 4=Light grey, 5=Light cream, 6=Light yellow, 7=Yellow, 8=Light brown." []
+def: "Measures the intensity of the different colours of the cooked fufu surface on a scale 1 to 8" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003047 ! fufu surface colour
-relationship: variable_of CO_334:0013005 ! appearance method
-relationship: variable_of CO_334:0103022 ! Colour scale 1-8
+relationship: variable_of CO_334:0013005 ! surface colour sppearance method
+relationship: variable_of CO_334:0103022 ! Surface colour appearance scale 1-8
 created_by: Ugo Chijioke
 
 [Term]
 id: CO_334:0003041
-name: Fufu smoothness visual scale 0-10
+name: Fufu smoothness scale 0-10
 namespace: cassava_trait
-def: "Measures the absence of lumps when a sample is pressed firmly between the fingers on a scale 0 to 10; 0=Big lumps, 10=Absence of lumps." []
+def: "Measures the absence of lumps when a sample is pressed firmly between the fingers" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003048 ! fufu smoothness in hand
-relationship: variable_of CO_334:0013006 ! texture by handfeel method
-relationship: variable_of CO_334:0103023 ! Dough smoothness scale 0-10
+relationship: variable_of CO_334:0013006 ! smoothness texture in the hand method
+relationship: variable_of CO_334:0103023 ! Smoothness in the hand scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
 id: CO_334:0003042
-name: Fufu stickiness estimation scale 0-10
+name: Fufu stickiness scale 0-10
 namespace: cassava_trait
-def: "Measures the adherence of fufu onto the fingers when it is touched with fingers or during moulding into bolus for swallowing on a scale 0 to 10; 0=Not sticky, 5=Slightly sticky, 10=Very sticky" []
+def: "Measures the adherence of fufu onto the fingers when it is touched with fingers or during moulding into bolus for swallowing" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003049 ! fufu stickiness in hand
-relationship: variable_of CO_334:0013007 ! texture by handfeel method
-relationship: variable_of CO_334:0103024 ! Stickiness scale 0-10
+relationship: variable_of CO_334:0003049 ! fufu stickiness in the hand
+relationship: variable_of CO_334:0013007 ! stickiness texture in the hand method
+relationship: variable_of CO_334:0103024 ! Fufu stickiness in hand scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
 id: CO_334:0003043
-name: Fufu moldability estimation scale 0-10
+name: Fufu moldability scale 0-10
 namespace: cassava_trait
-def: "Measures the easiness of fufu to stick together without disintegrating easiness to mould on a scale 0 to 10; 0=Not moldable, 5=Slightly mouldable, 10=Moldable " []
+def: "Meassures the easiness of fufu to stick together without disintegrating easiness to mould." []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003050 ! fufu moldability in hand
-relationship: variable_of CO_334:0013008 ! texture by handfeel method
-relationship: variable_of CO_334:0103025 ! Dough moldability scale 0-10
+relationship: variable_of CO_334:0003050 ! fufu moldability in the hand
+relationship: variable_of CO_334:0013008 ! moldability texture in the hand method
+relationship: variable_of CO_334:0103025 ! Fufu moldability by hand scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
 id: CO_334:0003044
-name: Fufu hardness estimation scale 0-10
+name: Fufu hardness scale 0-10
 namespace: cassava_trait
-def: "Measure the easiness of pressing a sample with the index finger on a 0 to 10 scale; 0=Very soft, 10=Very hard" []
+def: "Measure the easiness of pressing a sample with the index finger" []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003051 ! fufu hardness in hand
-relationship: variable_of CO_334:0013009 ! texture by handfeel method
-relationship: variable_of CO_334:0103004 ! Hardness scale 0-10
+relationship: variable_of CO_334:0013009 ! hardness texture by hand method
+relationship: variable_of CO_334:0103026 ! Fufu hardness by hand scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
 id: CO_334:0003045
-name: Fufu stretchability estimation scale 0-10
+name: Fufu stretchability scale 0-10
 namespace: cassava_trait
-def: "Measures the ability of fufu to stretch when pulled apart with the fingers, on a 0 to 10 scale; 0=Not streachable, 5=Medium stretchability, 10=Very stretchable" []
+def: "Measures the ability of fufu to stretch when pulled apart with the fingers" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003052 ! fufu stretchability in hand
-relationship: variable_of CO_334:0013010 ! texture by handfeel method
-relationship: variable_of CO_334:0103027 ! Stretchability scale 0-10
+relationship: variable_of CO_334:0003052 ! fufu stretchability in the hand
+relationship: variable_of CO_334:0013010 ! stretchability texture by the hand method
+relationship: variable_of CO_334:0103027 ! Fufu stretchability in hand scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
 id: CO_334:0003046
-name: Fufu odour estimation scale 0-10
+name: Fufu odour scale 0-10
 namespace: cassava_trait
-def: "Measures the odour fufu  smelt with nose when it is just cooked on a 0 to 10 scale; 0=No fufu odour, 5=Mild fufu odour, 10=Strong fufu odour" []
+def: "Measures the odour fufu  smelt with nose when it is just cooked" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002051 ! Fufu smell
+relationship: variable_of CO_334:0003053 ! fufu odour
 relationship: variable_of CO_334:0013011 ! odour method
 relationship: variable_of CO_334:0103028 ! Fufu odour scale 0-10
 created_by: Ugo Chijioke
@@ -7691,7 +7692,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003049
-name: fufu stickiness in hand
+name: fufu stickiness in the hand
 namespace: cassava_trait
 def: "This is when the fufu sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing" []
 synonym: "FufHdStick" EXACT []
@@ -7699,7 +7700,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003050
-name: fufu moldability in hand
+name: fufu moldability in the hand
 namespace: cassava_trait
 def: "Ability of the fufu to stick together easily without disintegrating or cohesive and being easy to mould." []
 synonym: "FufHdMol" EXACT []
@@ -7715,11 +7716,884 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003052
-name: fufu stretchability in hand
+name: fufu stretchability in the hand
 namespace: cassava_trait
 def: "Ability of fufu to stretch when pulled apart with fingers" []
 synonym: "FufHdStret" EXACT []
 is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003053
+name: fufu odour
+namespace: cassava_trait
+def: "Odour/aroma of fufu" []
+synonym: "FuOd" EXACT []
+is_a: CO_334:0103021 ! Aroma trait
+
+[Term]
+id: CO_334:0003054
+name: Attieke cohesiveness scale 0-10
+namespace: cassava_trait
+def: "Measures the cohesion between granules (ability of grains to stick together or retake initial form after force of pressure)  scale 0-10. 0=Uncooked gari	; 10=Attoukpou (Ivorian cassava dish)" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003102 ! attieke cohesiveness
+relationship: variable_of CO_334:0013017 ! cohesiveness texture by touch method
+relationship: variable_of CO_334:0103030 ! Attieke cohesiveness scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003055
+name: Attieke sourness scale 0-10
+namespace: cassava_trait
+def: "Measures the sourrness of the sample (gustatory complex sensation, generally due to presence of organic acids),   scale 0-10. 0=Absence	; 10=High intensity" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003103 ! attieke sourness in the mouth
+relationship: variable_of CO_334:0013043 ! sourness taste method
+relationship: variable_of CO_334:0103031 ! Attieke sourness in the mouth scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003056
+name: Attieke stickness scale 0-10
+namespace: cassava_trait
+def: "Measures the ability of grains to stick in the palm after the granules are pressed in the hand,   scale 0-10. 0=Non sticky	; 10=chewing gum" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003104 ! attieke stickness in the hand
+relationship: variable_of CO_334:0013007 ! stickiness texture in the hand method
+relationship: variable_of CO_334:0103032 ! Attieke Stickness in hand scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003057
+name: Attieke sweetness scale 0-10
+namespace: cassava_trait
+def: "Measures the degree or intensity of the sweet taste or after-taste (basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose).   scale 0-10. 0=Yace cassava variety	; 10=Bonoua cassava variety" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003105 ! attieke sweetness taste
+relationship: variable_of CO_334:0013003 ! sweetness taste method
+relationship: variable_of CO_334:0103033 ! Attieke Sweetness taste scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003058
+name: Attieke brightness scale 0-10
+namespace: cassava_trait
+def: "Measures the brighter or somber  scale 0-10. 0=Dark	; 10=Clear" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003106 ! attieke brightness
+relationship: variable_of CO_334:0013016 ! brightness appearance method
+relationship: variable_of CO_334:0103039 ! Brightness appearance scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003059
+name: Attieke colour scale 0-10
+namespace: cassava_trait
+def: "Measures the color of grains from light yellow to orange,   scale 0-10. 0=White	; 5=Yellow" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003107 ! attieke orange colour
+relationship: variable_of CO_334:0013035 ! orange colour appearance method
+relationship: variable_of CO_334:0103065 ! Orange colour scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003060
+name: Attieke extraneous matters appearance scale 0-10
+namespace: cassava_trait
+def: "Measures the presence of extraneous matters (other than cassava)   scale 0-10. 0=Absence	; 10=High intensity" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003108 ! attieke extraneous matters
+relationship: variable_of CO_334:0013021 ! extraneous matters appearance method
+relationship: variable_of CO_334:0103051 ! Extraneous matters appearance scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003061
+name: Attieke extraneous matters texture scale 0-10
+namespace: cassava_trait
+def: "Measures the sensation of extraneous matters during mastication   scale 0-10. 0=Absence	; 10=High intensity" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003108 ! attieke extraneous matters
+relationship: variable_of CO_334:0013022 ! extraneous matters texture in mouth method
+relationship: variable_of CO_334:0103052 ! Extraneous matters in mouth scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003062
+name: Attieke fermented taste scale 0-10
+namespace: cassava_trait
+def: "Measures the intensity of the fermented taste   scale 0-10. 0=Gari	; 10=Mangnan (the traditional starter of attieke)" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003109 ! attieke fermented taste
+relationship: variable_of CO_334:0013023 ! fermented taste method
+relationship: variable_of CO_334:0103053 ! Fermented taste scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003063
+name: Attieke firmness scale 0-10
+namespace: cassava_trait
+def: "Measures the expression de softness or hardness of the Attieke grains.   scale 0-10. 0=Soft cheese (Laughing cow)	; 5=Pitted olives" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003110 ! attieke firmness
+relationship: variable_of CO_334:0013026 ! firmness texture by touch method
+relationship: variable_of CO_334:0103054 ! Firmness scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003064
+name: Attieke grain size scale 0-10
+namespace: cassava_trait
+def: "Measures the size or diameter of grains   scale 0-10. 0=Powdered sugar	; 10=Couscous" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003111 ! attieke grain size
+relationship: variable_of CO_334:0013041 ! size of grains appearance method
+relationship: variable_of CO_334:0103055 ! Grain size scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003065
+name: Attieke granularity scale 0-10
+namespace: cassava_trait
+def: "Measures the perception of the size, shape, and amount of grains (particles) in the sample.   scale 0-10. 0=Milk powder	; 5=medium size grain couscous" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003112 ! attieke granularity
+relationship: variable_of CO_334:0013027 ! granularity texture in the mouth method
+relationship: variable_of CO_334:0103056 ! Granularity in mouth scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003066
+name: Attieke homogenity of grains scale 0-10
+namespace: cassava_trait
+def: "Measures the degree of uniformity of the size of grains   scale 0-10. 0=Broken corn grains	; 10=Fish Eggs" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003113 ! attieke homogenity of grains
+relationship: variable_of CO_334:0013030 ! homogenity of grains appearance method
+relationship: variable_of CO_334:0103060 ! Homogenity of grains scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003067
+name: Attieke masticability scale 0-10
+namespace: cassava_trait
+def: "Measures the force required to a given deformation, penetration or to reduce to sample to a swallowable form, (being easily chewable)   scale 0-10. 0=mush (Coco baca)	; 10=uncooked gari" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003114 ! attieke masticability
+relationship: variable_of CO_334:0013031 ! masticability texture in mouth method
+relationship: variable_of CO_334:0103061 ! Masticability scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003068
+name: Attieke moldability scale 0-10
+namespace: cassava_trait
+def: "Measures the ability to form a ball  scale 0-10. 0=uncooked semolina 	; 10=Moldable paste" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003115 ! attieke moldability in the hand
+relationship: variable_of CO_334:0013032 ! moldability texture in touch method
+relationship: variable_of CO_334:0103062 ! Moldability in the hand  scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003069
+name: Attieke mouth filled sensations scale 0-10
+namespace: cassava_trait
+def: "Measures the sensation that grains fill the mouth ,   scale 0-10. 0=Compacted	; 10=Dispersed" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003116 ! attieke mouth filled sensations
+relationship: variable_of CO_334:0013033 ! mouth filled sensations texture in mouth method
+relationship: variable_of CO_334:0103063 ! Mouth filled sensations scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003070
+name: Attieke off-odours scale 0-10
+namespace: cassava_trait
+def: "Measures the undesired or atypical odor associated with transformation or deterioration of the product. (Smoke, molds, over fermented, etc),   scale 0-10. 0=Absence	; 10=High intensity" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003117 ! attieke off-odours
+relationship: variable_of CO_334:0013034 ! off-odours aroma method
+relationship: variable_of CO_334:0103064 ! Off-odours scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003071
+name: Attieke presence of fibers scale 0-10
+namespace: cassava_trait
+def: "Measures the quantity of fibers   scale 0-10. 0=Couscous	; 10=Gari" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003118 ! attieke presence of fibers
+relationship: variable_of CO_334:0013036 ! presence of fibers appearance method
+relationship: variable_of CO_334:0103066 ! Presence of fibers scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003072
+name: Attieke presence of lumps scale 0-10
+namespace: cassava_trait
+def: "Measures the presence of aggregates,   scale 0-10. 0=Absence	; 10=High intensity" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003119 ! attieke presence of lumps
+relationship: variable_of CO_334:0013037 ! presence of lumps appearance method
+relationship: variable_of CO_334:0103068 ! Presence of lumps scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003073
+name: Attieke red palm oil aroma scale 0-10
+namespace: cassava_trait
+def: "Measures the characteristic odor of red palm oil,   scale 0-10. 0=Non present	; 10=Red palm oil odor" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003120 ! attieke red palm oil aroma
+relationship: variable_of CO_334:0013039 ! red palm oil aroma method
+relationship: variable_of CO_334:0103070 ! Red palm oil aroma scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003074
+name: Attieke sourness aroma scale 0-10
+namespace: cassava_trait
+def: "Measures the odor of sourness,   scale 0-10. 0=Absence	; 10=High intensity (pure vinegar)" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003121 ! attieke sourness aroma
+relationship: variable_of CO_334:0013042 ! sourness aroma method
+relationship: variable_of CO_334:0103071 ! Sourness aroma scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003075
+name: Attieke taste of red palm oil scale 0-10
+namespace: cassava_trait
+def: "Measures the presence and Intensity of the taste of Red Palm oil ,   scale 0-10. 0=No red palm oil	; 10=Red palm oil" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003122 ! attieke taste of red palm oil
+relationship: variable_of CO_334:0013049 ! taste of red palm oil taste method
+relationship: variable_of CO_334:0103074 ! Taste of red palm oil scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003076
+name: Attieke undesired taste scale 0-10
+namespace: cassava_trait
+def: "Measures any undesired taste in the sample (smoke, over-fermented, etc.).,  scale 0-10. 0=Absence	; 10=High intensity" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003123 ! attieke undesired taste
+relationship: variable_of CO_334:0013050 ! undesired taste taste method
+relationship: variable_of CO_334:0103075 ! Undesired taste scale 0-10
+created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003077
+name: Boiled cassava bitter aftertaste scale 0-100
+namespace: cassava_trait
+def: "Measures bitter taste after swallowing, eg there is a light bitter aftertaste,  scale 0-10. 0=Absent	; 100=Present" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003035 ! boiled root bitterness after taste
+relationship: variable_of CO_334:0013013 ! bitterness after taste method
+relationship: variable_of CO_334:0103034 ! Bitter aftertaste scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003078
+name: Boiled cassava bitterness scale 0-100
+namespace: cassava_trait
+def: "Measures bitter taste after swallowing, eg there is a light bitter aftertaste,  scale 0-10. 0=Absent; 100=Present" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003034 ! boiled root taste bitterness
+relationship: variable_of CO_334:0013014 ! bitterness taste method
+relationship: variable_of CO_334:0103035 ! Bitterness scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003079
+name: Boiled cassava stickness scale 0-100
+namespace: cassava_trait
+def: "Measures the property related to the adhesion of the product between the fingers, scale 0-100. 0=No sticky	; 100=Sticky" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003032 ! boiled root stickness in the hand
+relationship: variable_of CO_334:0013007 ! stickiness texture in the hand method
+relationship: variable_of CO_334:0103037 ! boiled root stickness in hand scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003080
+name: Boiled cassava sweetness scale 0-100
+namespace: cassava_trait
+def: "Measures the basic light sugary taste like a little glucose or sucrose in water solution, scale 0-100. 0=Neutral/Absent	; 100=Sweet" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003033 ! boiled root sweetness taste
+relationship: variable_of CO_334:0013003 ! sweetness taste method
+relationship: variable_of CO_334:0103038 ! Boiled root sweetness taste scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003081
+name: Boiled cassava cassava odour scale 0-100
+namespace: cassava_trait
+def: "Measures odour of boiled cassava. Scale 0-100. 0=Low; 100=High" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003124 ! boiled root cassava odour
+relationship: variable_of CO_334:0013015 ! boiled cassava odour method
+relationship: variable_of CO_334:0103036 ! boiled root odour scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003082
+name: Boiled cassava crumbness scale 0-100
+namespace: cassava_trait
+def: "Measures the property of the product to crumble between the fingers. Scale 0-100. 0=No crumbly	100=Crumbly" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003125 ! boiled root crumbness
+relationship: variable_of CO_334:0013019 ! crumbly in the hand method
+relationship: variable_of CO_334:0103040 ! Crumbness in the hand scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003083
+name: Boiled cassava easy to chew scale 0-100
+namespace: cassava_trait
+def: "Measures the property related to the number of chews necessary to swallow the product.  Scale 0-100" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003126 ! boiled root easiness to chew
+relationship: variable_of CO_334:0013020 ! easy to chew texture in the mouth method
+relationship: variable_of CO_334:0103041 ! Easy to chew scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003084
+name: Boiled cassava granulariness scale 0-100
+namespace: cassava_trait
+def: "Measures the presence of small grains during chewing.  Scale 0-100. 0=Difficult; 100=Easy" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003127 ! boiled root granulariness
+relationship: variable_of CO_334:0013028 ! granularity texture in the mouth method
+relationship: variable_of CO_334:0103057 ! Granularity in mouth scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003085
+name: Boiled cassava hardness to break scale 0-100
+namespace: cassava_trait
+def: "Measures the force required to cut/break with hand.  Scale 0-100. 0=No granular;	100=Granular" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003128 ! boiled root hardness to break
+relationship: variable_of CO_334:0013029 ! hardness to break/cut texture in the hand method
+relationship: variable_of CO_334:0103059 ! Hardness to break in the hand scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003086
+name: Boiled cassava presence of fibers scale 0-100
+namespace: cassava_trait
+def: "Measures the presence of fine fibers visible to the eye.  Scale 0-100. 0=Ease to cut; 	100=Difficult to cut" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003129 ! boiled root presence of fibers
+relationship: variable_of CO_334:0013024 ! fibrouness texture appearance  method
+relationship: variable_of CO_334:0103067 ! Presence of fibers texture scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003087
+name: Boiled cassava presence of strips scale 0-100
+namespace: cassava_trait
+def: "Measures the presence of the  stripe on the surface of product.  Scale 0-100. 0=Absent; 	100=Present" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003130 ! boiled root presence of stripe
+relationship: variable_of CO_334:0013038 ! presence of stripes appearance method
+relationship: variable_of CO_334:0103069 ! Presence of strips appearance scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003088
+name: Boiled cassava yellow colour scale 0-100
+namespace: cassava_trait
+def: "Measures yellowish to Yellow colour of product" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003020 ! boiled root surface yellowness
+relationship: variable_of CO_334:0013000 ! surface yellowness appearance method
+relationship: variable_of CO_334:0103073 ! Surface yellow ness appearance scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003089
+name: Boiled cassava white colour scale 0-100
+namespace: cassava_trait
+def: "Measures both inner and outer colour that can range from light off-white to white (pure white).  Scale 0-100. 0=Off-white; 	100=Pure White" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003131 ! boiled root white colour
+relationship: variable_of CO_334:0013051 ! white color appearance method
+relationship: variable_of CO_334:0103076 ! White colour scale 0-100
+created_by: Laurent Adinsi
+
+[Term]
+id: CO_334:0003090
+name: Eba creamness scale 0-10
+namespace: cassava_trait
+def: "Measures the intensity of surface creamness. Scale 0to10. 0=Cream	; 5=Light cream	; 10=Dark cream" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003132 ! eba surface creamness
+relationship: variable_of CO_334:0013044 ! surface creamness appearance method
+relationship: variable_of CO_334:0103072 ! surface creamness scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003091
+name: Eba cohesiveness scale 0-10
+namespace: cassava_trait
+def: "Measures easiness to make a ball with from a sizeable piece of sample using all fingers, Scale 0to10. 0=Not mouldable	; 5=Slightly mouldable	; 10=Mouldable" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003133 ! eba cohessiveness/moldability
+relationship: variable_of CO_334:0013017 ! cohesiveness texture by touch method
+relationship: variable_of CO_334:0103042 ! Eba cohesiveness in the hand  scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003092
+name: Eba hardness scale 0-10
+namespace: cassava_trait
+def: "Measures the amount of force required to press a sample placed between fingers. Scale 0to10.  0=Soft	; 5=Slightly soft; 10=Very hard" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003134 ! eba hardness in hand
+relationship: variable_of CO_334:0013009 ! hardness texture by hand method
+relationship: variable_of CO_334:0103044 ! Eba hardness in the hand scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003093
+name: Eba smoothness scale 0-10
+namespace: cassava_trait
+def: "Measures the amount of string like particles present on sample by feeling sample between tongue and palate after chewing. Scale 0to10. 0=Fine	; 5=Moderately course	; 10=Coarse" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003135 ! eba smoothness in mouth
+relationship: variable_of CO_334:0013053 ! smoothness texture in the mouth method
+relationship: variable_of CO_334:0103045 ! Eba smoothness in the mouth scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003094
+name: Eba stickiness scale 0-10
+namespace: cassava_trait
+def: "Measures the amount of product adhering on thumb and index fingers when a sample is placed between them. Scale 0to10. 0=Not sticky	; 5=Slightly sticky	; 10=Very sticky" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003136 ! eba stickiness kin the hand
+relationship: variable_of CO_334:0013007 ! stickiness texture in the hand method
+relationship: variable_of CO_334:0103047 ! Eba stickiness in hand scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003095
+name: Eba streachability scale 0-10
+namespace: cassava_trait
+def: "Measures the ability of sample to stretch when flattened with palms. Scale 0to10. 0=Not streachable	; 5=Slightly streachable	; 10=Very streachable" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003137 ! eba stretchability in the hand
+relationship: variable_of CO_334:0013010 ! stretchability texture by the hand method
+relationship: variable_of CO_334:0103048 ! Eba streachability in hand scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003096
+name: Eba surface whiteness scale 0-10
+namespace: cassava_trait
+def: "Measures the intensity of surface white colour. Scale 0to10. 0=White	10-Off white" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003138 ! eba surface whiteness
+relationship: variable_of CO_334:0013047 ! surface whiteness appearance method
+relationship: variable_of CO_334:0103049 ! Eba surface whiteness scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003097
+name: Eba sourness scale 0-10
+namespace: cassava_trait
+def: "Measures the intensity of the sourness. Scale 0to10. 0=Slightly sour	; 5=Sour	; 10=Very sour" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003139 ! eba sourness in the mouth
+relationship: variable_of CO_334:0013043 ! sourness taste method
+relationship: variable_of CO_334:0103046 ! Eba sourness taste scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003098
+name: Eba sweetness scale 0-10
+namespace: cassava_trait
+def: "Measures the intensity of sweetness. Scale 0to10. 0=Slightly sweet	; 5=Sweet	; 10=Very sweet" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003140 ! eba sweetness taste
+relationship: variable_of CO_334:0013003 ! sweetness taste method
+relationship: variable_of CO_334:0103050 ! Eba sweetness taste scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003099
+name: Eba fibrousness scale 0-10
+namespace: cassava_trait
+def: "Measures the amount of string like particles present on sample when felt between tongue and palate. Scale 0to10. 0=Low fibre	; 5=Moderate fibre	; 10=High fibre" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003141 ! eba fibrousness in mouth
+relationship: variable_of CO_334:0013025 ! fibrousness texture in the mouth method
+relationship: variable_of CO_334:0103043 ! Eba fibrousness in mouth scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003100
+name: Eba greyness scale 0-10
+namespace: cassava_trait
+def: "Measures the intensity of surface grey colour. Scale 0to10. 0=Cream	; 5=Light cream	; 10=Dark cream" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003142 ! eba surface greyness
+relationship: variable_of CO_334:0013045 ! surface greyness appearance method
+relationship: variable_of CO_334:0103058 ! Greyness scale 0-10
+created_by: Busie Maziya-Dixon
+
+[Term]
+id: CO_334:0003101
+name: attieke attieke-like  aroma
+namespace: cassava_trait
+def: "Aroma of attieke" []
+synonym: "AttArom" EXACT []
+is_a: CO_334:0103021 ! Aroma trait
+
+[Term]
+id: CO_334:0003102
+name: attieke cohesiveness
+namespace: cassava_trait
+def: "Cohesion between granules (ability of grains to stick together or retake initial form after force of pressure)" []
+synonym: "AttCoh" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003103
+name: attieke sourness in the mouth
+namespace: cassava_trait
+def: "Sourrness of the sample (gustatory complex sensation, generally due to presence of organic acids)" []
+synonym: "AttSourn" EXACT []
+is_a: CO_334:0103020 ! Taste trait
+
+[Term]
+id: CO_334:0003104
+name: attieke stickness in the hand
+namespace: cassava_trait
+def: "Ability of grains to stick in the palm after the granules are pressed in the hand" []
+synonym: "AttStickn" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003105
+name: attieke sweetness taste
+namespace: cassava_trait
+def: "Basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" []
+synonym: "AttTastSweet" EXACT []
+is_a: CO_334:0103020 ! Taste trait
+
+[Term]
+id: CO_334:0003106
+name: attieke brightness
+namespace: cassava_trait
+def: "Brighter or somber" []
+synonym: "AttBrigh" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003107
+name: attieke orange colour
+namespace: cassava_trait
+def: "Color of grains from light yellow to orange" []
+synonym: "AttOrCol" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003108
+name: attieke extraneous matters
+namespace: cassava_trait
+def: "Sensation of extraneous matters during mastication" []
+synonym: "AttExtrMat" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+is_a: CO_334:0103018 ! Texture in mouth trait
+
+[Term]
+id: CO_334:0003109
+name: attieke fermented taste
+namespace: cassava_trait
+def: "Intensity of the fermented taste" []
+synonym: "AttFermTast" EXACT []
+is_a: CO_334:0103020 ! Taste trait
+
+[Term]
+id: CO_334:0003110
+name: attieke firmness
+namespace: cassava_trait
+def: "Expression de la douceur ou de la dureté des grains d'attiéké" []
+synonym: "AttFirm" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003111
+name: attieke grain size
+namespace: cassava_trait
+def: "Size or diameter of grains" []
+synonym: "AttGrSiz" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003112
+name: attieke granularity
+namespace: cassava_trait
+def: "Perception of the size, shape, and amount of grains (particles) in the sample." []
+synonym: "AttGran" EXACT []
+is_a: CO_334:0103018 ! Texture in mouth trait
+
+[Term]
+id: CO_334:0003113
+name: attieke homogenity of grains
+namespace: cassava_trait
+def: "Degree of uniformity of the size of grains" []
+synonym: "AttHomGr" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003114
+name: attieke masticability
+namespace: cassava_trait
+def: "Force required to a given deformation, penetration or to reduce to sample to a swallowable form, (being easily chewable)" []
+synonym: "AttMast" EXACT []
+is_a: CO_334:0103018 ! Texture in mouth trait
+
+[Term]
+id: CO_334:0003115
+name: attieke moldability in the hand
+namespace: cassava_trait
+def: "Ability to form a ball" []
+synonym: "AttMold" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003116
+name: attieke mouth filled sensations
+namespace: cassava_trait
+def: "Sensation that grains fill the mouth" []
+synonym: "AttMouFilSens" EXACT []
+is_a: CO_334:0103018 ! Texture in mouth trait
+
+[Term]
+id: CO_334:0003117
+name: attieke off-odours
+namespace: cassava_trait
+def: "Undesired or atypical odor associated with transformation or deterioration of the product. (Smoke, molds, over fermented, etc)" []
+synonym: "AttOffOdo" EXACT []
+is_a: CO_334:0103021 ! Aroma trait
+
+[Term]
+id: CO_334:0003118
+name: attieke presence of fibers
+namespace: cassava_trait
+def: "Quantity of fibers" []
+synonym: "AttPrFibr" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003119
+name: attieke presence of lumps
+namespace: cassava_trait
+def: "Presence of aggregates" []
+synonym: "AttPrLum" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003120
+name: attieke red palm oil aroma
+namespace: cassava_trait
+def: "Characteristic odor of red palm oil" []
+synonym: "AttRdPlmOilArom" EXACT []
+is_a: CO_334:0103021 ! Aroma trait
+
+[Term]
+id: CO_334:0003121
+name: attieke sourness aroma
+namespace: cassava_trait
+def: "Odor of sourness" []
+synonym: "AttSourArom" EXACT []
+is_a: CO_334:0103021 ! Aroma trait
+
+[Term]
+id: CO_334:0003122
+name: attieke taste of red palm oil
+namespace: cassava_trait
+def: "Presence and Intensity of the taste of Red Palm oil" []
+synonym: "AttTastRdPalmOil" EXACT []
+is_a: CO_334:0103020 ! Taste trait
+
+[Term]
+id: CO_334:0003123
+name: attieke undesired taste
+namespace: cassava_trait
+def: "Any undesired taste in the sample (smoke, over-fermented, etc.)." []
+synonym: "AttUndesTast" EXACT []
+is_a: CO_334:0103020 ! Taste trait
+
+[Term]
+id: CO_334:0003124
+name: boiled root cassava odour
+namespace: cassava_trait
+def: "Odour of boiled cassava" []
+synonym: "BoiCasCasOd" EXACT []
+is_a: CO_334:0103021 ! Aroma trait
+
+[Term]
+id: CO_334:0003125
+name: boiled root crumbness
+namespace: cassava_trait
+def: "Property of the product to crumble between the fingers" []
+synonym: "BoiCasCrum" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003126
+name: boiled root easiness to chew
+namespace: cassava_trait
+def: "Property related to the number of chews necessary to swallow the product" []
+synonym: "BoiCasChew" EXACT []
+is_a: CO_334:0103018 ! Texture in mouth trait
+
+[Term]
+id: CO_334:0003127
+name: boiled root granulariness
+namespace: cassava_trait
+def: "Refers to the presence of small grains during chewing" []
+synonym: "BoiCasGran" EXACT []
+is_a: CO_334:0103018 ! Texture in mouth trait
+
+[Term]
+id: CO_334:0003128
+name: boiled root hardness to break
+namespace: cassava_trait
+def: "Force required to cut/break with hand" []
+synonym: "BoiCasHard" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003129
+name: boiled root presence of fibers
+namespace: cassava_trait
+def: "Refers to the presence of fine fibers visible to the eye" []
+synonym: "boiCasFibr" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003130
+name: boiled root presence of stripe
+namespace: cassava_trait
+def: "Refers to the presence of the  stripe on the surface of product" []
+synonym: "BoiCasStrip" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003131
+name: boiled root white colour
+namespace: cassava_trait
+def: "Both inner and outer colour can range from light off-white to white (pure white)" []
+synonym: "BoiCasWhitCol" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003132
+name: eba surface creamness
+namespace: cassava_trait
+def: "Colour of the surface of the sample from cream to light cream" []
+synonym: "EbaSurfCream" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003133
+name: eba cohessiveness/moldability
+namespace: cassava_trait
+def: "Textural attribute relating to degree to which a substance can be deformed before it breaks" []
+synonym: "EbaHdCohe" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003134
+name: eba hardness in hand
+namespace: cassava_trait
+def: "Mechanical textural attribute related to the force necessary to achieve a certain deformation" []
+synonym: "EbaHdHard" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003135
+name: eba smoothness in mouth
+namespace: cassava_trait
+def: "Geometrical attribute associated with the overall degree of absence of particles within sample" []
+synonym: "EbaMthSmooth" EXACT []
+is_a: CO_334:0103018 ! Texture in mouth trait
+
+[Term]
+id: CO_334:0003136
+name: eba stickiness kin the hand
+namespace: cassava_trait
+def: "Mechanical textural attribute relating to the force required to remove material that sticks to the hand" []
+synonym: "EbaHdStic" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003137
+name: eba stretchability in the hand
+namespace: cassava_trait
+def: "The tendency of a body to return to its original shape after it has been stretched or compressed" []
+synonym: "EbaHdStrea" EXACT []
+is_a: CO_334:0103019 ! Texture in hand trait
+
+[Term]
+id: CO_334:0003138
+name: eba surface whiteness
+namespace: cassava_trait
+def: "Colour of the surface of the sample from light white to off white" []
+synonym: "EbaSurfWhit" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003139
+name: eba sourness in the mouth
+namespace: cassava_trait
+def: "Gustatory complex sensation, generally due to presence of organic acids" []
+synonym: "EbaSour" EXACT []
+is_a: CO_334:0103020 ! Taste trait
+
+[Term]
+id: CO_334:0003140
+name: eba sweetness taste
+namespace: cassava_trait
+def: "Basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" []
+synonym: "EbaTastSweet" EXACT []
+is_a: CO_334:0103020 ! Taste trait
+
+[Term]
+id: CO_334:0003141
+name: eba fibrousness in mouth
+namespace: cassava_trait
+def: "Geometrical attribute of product associated with presence of long string like particles" []
+synonym: "EbaFibr" EXACT []
+is_a: CO_334:0103018 ! Texture in mouth trait
+
+[Term]
+id: CO_334:0003142
+name: eba surface greyness
+namespace: cassava_trait
+def: "Colour of the surface of the sample from grey to light grey" []
+synonym: "EbaSurfGrey" EXACT []
+is_a: CO_334:0103017 ! Appearance trait
+
+[Term]
+id: CO_334:0003143
+name: Attieke aroma scale 0-10
+namespace: cassava_trait
+def: "Measures the aroma of attieke scale 0-10. 0=Gari; 	10=Fresh attieke" []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003101 ! attieke attieke-like  aroma
+relationship: variable_of CO_334:0013012 ! attieke-like aroma method
+relationship: variable_of CO_334:0103029 ! Attieke aroma scale 0-10
+created_by: Ebah Catherine
 
 [Term]
 id: CO_334:0010000
@@ -10532,15 +11406,15 @@ relationship: method_of CO_334:0001035 ! storage root diameter in cm
 
 [Term]
 id: CO_334:0013000
-name: appearance method
+name: surface yellowness appearance method
 namespace: CassavaMethod
 def: "When you receive a cassava root sample, observe the surface and evaluate the intensity of the yellow colour." []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003023 ! boiled root surface smoothnness
+relationship: method_of CO_334:0003020 ! boiled root surface yellowness
 
 [Term]
 id: CO_334:0013001
-name: texture in the mouth method
+name: stickiness texture in the mouth method
 namespace: CassavaMethod
 def: "Put a part of boiled sample in the mouth, chew it and evaluate: Amount of product adhering on/in the teeth after product mastication, and force required to remove product  completely  from the palate, using the tongue, after complete compression of the sample between  tongue and palate" []
 is_a: CO_334:0001002 ! Methods
@@ -10548,31 +11422,31 @@ relationship: method_of CO_334:0003029 ! boiled root stickness in mouth
 
 [Term]
 id: CO_334:0013002
-name: texture in the hand method
+name: mealiness texture in the hand method
 namespace: CassavaMethod
 def: "Put a part of the boiled sample between thumb and index fingers and using tapping motions, evaluate the amount of product adhering on them" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003032 ! boiled root stickness by hand
+relationship: method_of CO_334:0003030 ! boiled root mealiness by hand
 
 [Term]
 id: CO_334:0013003
-name: taste method
+name: sweetness taste method
 namespace: CassavaMethod
-def: "Put a part of the boiled sample in the mouth and evaluate whether bitter after swallowing" []
+def: "Put a part of the sample in the mouth and on the tongue; then evaluate the intensity of sugary taste" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003035 ! boiled root bitterness after taste
+relationship: method_of CO_334:0003140 ! eba sweetness taste
 
 [Term]
 id: CO_334:0013004
-name: aroma method
+name: steamed cassava-like_aroma  method
 namespace: CassavaMethod
 def: "Put a part of the boiled sample and by retro-olfaction, evaluate the presence and the intensity of sweet potato aroma" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003039 ! boiled root sweet potato-like aroma
+relationship: method_of CO_334:0003036 ! boiled root steamed cassava-like aroma
 
 [Term]
 id: CO_334:0013005
-name: appearance method
+name: surface colour sppearance method
 namespace: CassavaMethod
 def: "Visually inspect sample surface" []
 is_a: CO_334:0001002 ! Methods
@@ -10580,7 +11454,7 @@ relationship: method_of CO_334:0003047 ! fufu surface colour
 
 [Term]
 id: CO_334:0013006
-name: texture by handfeel method
+name: smoothness texture in the hand method
 namespace: CassavaMethod
 def: "Sample is pressed firmly between the fingers" []
 is_a: CO_334:0001002 ! Methods
@@ -10588,35 +11462,35 @@ relationship: method_of CO_334:0003048 ! fufu smoothness in hand
 
 [Term]
 id: CO_334:0013007
-name: texture by handfeel method
+name: stickiness texture in the hand method
 namespace: CassavaMethod
-def: "Sample is touched with fingers or moulded in the hands" []
+def: "Put a part of the boiled sample between thumb and index fingers and using tapping motions, evaluate the amount of product adhering on them" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003049 ! fufu stickiness in hand
+relationship: method_of CO_334:0003136 ! eba stickiness kin the hand
 
 [Term]
 id: CO_334:0013008
-name: texture by handfeel method
+name: moldability texture in the hand method
 namespace: CassavaMethod
 def: "Sample is put in the hands and moulded" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003050 ! fufu moldability in hand
+relationship: method_of CO_334:0003050 ! fufu moldability in the hand
 
 [Term]
 id: CO_334:0013009
-name: texture by handfeel method
+name: hardness texture by hand method
 namespace: CassavaMethod
-def: "Sample is pressed with the index finger" []
+def: "Place sample between fingers and feel to access the amount of force required to press it" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003051 ! fufu hardness in hand
+relationship: method_of CO_334:0003134 ! eba hardness in hand
 
 [Term]
 id: CO_334:0013010
-name: texture by handfeel method
+name: stretchability texture by the hand method
 namespace: CassavaMethod
-def: "The fufu is touched and pulled apart with the fingers" []
+def: "Take a sizeable piece of sample, flatten it with palms and stretch" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003052 ! fufu stretchability in hand
+relationship: method_of CO_334:0003137 ! eba stretchability in the hand
 
 [Term]
 id: CO_334:0013011
@@ -10624,7 +11498,343 @@ name: odour method
 namespace: CassavaMethod
 def: "Take a whiff and evaluate the intensity of fufu odour" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0002051 ! Fufu smell
+relationship: method_of CO_334:0003053 ! fufu odour
+
+[Term]
+id: CO_334:0013012
+name: attieke-like aroma method
+namespace: CassavaMethod
+def: "Smell the sample and asses the intensity of attieke aroma" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003101 ! attieke attieke-like  aroma
+
+[Term]
+id: CO_334:0013013
+name: bitterness after taste method
+namespace: CassavaMethod
+def: "Put a part of the boiled sample in the mouth and evaluate whether bitter after swallowing" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003035 ! boiled root bitterness after taste
+
+[Term]
+id: CO_334:0013014
+name: bitterness taste method
+namespace: CassavaMethod
+def: "Put a part of the boiled sample in the mouth and evaluate whether bitter after swallowing" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003034 ! boiled root taste bitterness
+
+[Term]
+id: CO_334:0013015
+name: boiled cassava odour method
+namespace: CassavaMethod
+def: "Take a whiff and evaluate the intensity of cassava odour" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003124 ! boiled root cassava odour
+
+[Term]
+id: CO_334:0013016
+name: brightness appearance method
+namespace: CassavaMethod
+def: "Observe the sample and evaluate the degree of brightness" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003106 ! attieke brightness
+
+[Term]
+id: CO_334:0013017
+name: cohesiveness texture by touch method
+namespace: CassavaMethod
+def: "Put the sample between fingers and press to evaluate how grains adhere to each other." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003133 ! eba cohessiveness/moldability
+
+[Term]
+id: CO_334:0013018
+name: color homogeneity appearance method
+namespace: CassavaMethod
+def: "When you receive a cassava root sample, observe the surface and evaluate the intensity of the yellow colour." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003022 ! boiled root surface color homogeneity
+
+[Term]
+id: CO_334:0013019
+name: crumbly in the hand method
+namespace: CassavaMethod
+def: "Crush the product between two fingers and assess the ease of  crumbliness" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003125 ! boiled root crumbness
+
+[Term]
+id: CO_334:0013020
+name: easy to chew texture in the mouth method
+namespace: CassavaMethod
+def: "Put the product between the molars and mash it to assess the number of chews before swallowing" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003126 ! boiled root easiness to chew
+
+[Term]
+id: CO_334:0013021
+name: extraneous matters appearance method
+namespace: CassavaMethod
+def: "Observe the sample and evaluate the presence of absence of extraneous matter" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003108 ! attieke extraneous matters
+
+[Term]
+id: CO_334:0013022
+name: extraneous matters texture in mouth method
+namespace: CassavaMethod
+def: "Put a part of the sample in mouth, chew it and after 5 chews, evaluate the presence or absence of extraneous matter" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003108 ! attieke extraneous matters
+
+[Term]
+id: CO_334:0013023
+name: fermented taste method
+namespace: CassavaMethod
+def: "Put a part of the sample in the mouth and evaluate the intensity of fermented taste" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003109 ! attieke fermented taste
+
+[Term]
+id: CO_334:0013024
+name: fibrouness texture appearance  method
+namespace: CassavaMethod
+def: "After breaking / cutting, breaking / crumbling, evaluate the presence/intensity of fine fibers visible to the eye" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003129 ! boiled root presence of fibers
+
+[Term]
+id: CO_334:0013025
+name: fibrousness texture in the mouth method
+namespace: CassavaMethod
+def: "After chewing feel sample between tongue and palate to assess the amount of string like particles present on sample" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003141 ! eba fibrousness in mouth
+
+[Term]
+id: CO_334:0013026
+name: firmness texture by touch method
+namespace: CassavaMethod
+def: "Put the sample between fingers and press to evaluate how hard the grains are." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003110 ! attieke firmness
+
+[Term]
+id: CO_334:0013027
+name: granularity texture in the mouth method
+namespace: CassavaMethod
+def: "Put a part of the sample in mouth, chew it and after 5 chews, evaluate the granurality" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003112 ! attieke granularity
+
+[Term]
+id: CO_334:0013028
+name: granularity texture in the mouth method
+namespace: CassavaMethod
+def: "Put the product in mouth and mash/crush it between the molars to assess the presence of small grains on the tongue" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003127 ! boiled root granulariness
+
+[Term]
+id: CO_334:0013029
+name: hardness to break/cut texture in the hand method
+namespace: CassavaMethod
+def: "Crush the product between fingers and assess the ease of breaking" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003128 ! boiled root hardness to break
+
+[Term]
+id: CO_334:0013030
+name: homogenity of grains appearance method
+namespace: CassavaMethod
+def: "Observe the sample and evaluate the uniformity of grains" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003113 ! attieke homogenity of grains
+
+[Term]
+id: CO_334:0013031
+name: masticability texture in mouth method
+namespace: CassavaMethod
+def: "Put a part of the sample in mouth, chew it and after 5 chews, evaluate the masticability" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003114 ! attieke masticability
+
+[Term]
+id: CO_334:0013032
+name: moldability texture in touch method
+namespace: CassavaMethod
+def: "Try to make a ball of the sample and evaluate how easy it is to deform or break the sample" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003115 ! attieke moldability in the hand
+
+[Term]
+id: CO_334:0013033
+name: mouth filled sensations texture in mouth method
+namespace: CassavaMethod
+def: "Put a part of the sample in mouth, chew it and after 5 chews, evaluate the mouth filled sensetions" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003116 ! attieke mouth filled sensations
+
+[Term]
+id: CO_334:0013034
+name: off-odours aroma method
+namespace: CassavaMethod
+def: "Smell the sample and asses the presence or absence of off-odours" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003117 ! attieke off-odours
+
+[Term]
+id: CO_334:0013035
+name: orange colour appearance method
+namespace: CassavaMethod
+def: "Observe the sample and evaluate the intensity of the orange colour" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003107 ! attieke orange colour
+
+[Term]
+id: CO_334:0013036
+name: presence of fibers appearance method
+namespace: CassavaMethod
+def: "Observe the sample and evaluate the presence of absence of fibers" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003118 ! attieke presence of fibers
+
+[Term]
+id: CO_334:0013037
+name: presence of lumps appearance method
+namespace: CassavaMethod
+def: "Observe the sample and evaluate the presence of absence of lumps" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003119 ! attieke presence of lumps
+
+[Term]
+id: CO_334:0013038
+name: presence of stripes appearance method
+namespace: CassavaMethod
+def: "Observe the surface of product and evaluate the size and the number of stripe" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003130 ! boiled root presence of stripe
+
+[Term]
+id: CO_334:0013039
+name: red palm oil aroma method
+namespace: CassavaMethod
+def: "Smell the sample and asses the presence or absence of red palm oil aroma" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003120 ! attieke red palm oil aroma
+
+[Term]
+id: CO_334:0013040
+name: roasted cassava-like aroma method
+namespace: CassavaMethod
+def: "Put a part of the boiled sample and by retro-olfaction, evaluate the presence and the intensity of sweet potato aroma" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003037 ! boiled root roasted cassava-like aroma
+
+[Term]
+id: CO_334:0013041
+name: size of grains appearance method
+namespace: CassavaMethod
+def: "Observe the sample and evaluate the size of grains" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003111 ! attieke grain size
+
+[Term]
+id: CO_334:0013042
+name: sourness aroma method
+namespace: CassavaMethod
+def: "Smell the sample and asses the presence or absence of odour of sourness" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003121 ! attieke sourness aroma
+
+[Term]
+id: CO_334:0013043
+name: sourness taste method
+namespace: CassavaMethod
+def: "Put a part of the sample in the mouth and evaluate the intensity of the sourness" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003139 ! eba sourness in the mouth
+
+[Term]
+id: CO_334:0013044
+name: surface creamness appearance method
+namespace: CassavaMethod
+def: "When you receive the sample, immediately open it  and examine the cream colour" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003132 ! eba surface creamness
+
+[Term]
+id: CO_334:0013045
+name: surface greyness appearance method
+namespace: CassavaMethod
+def: "When you receive the sample, immediately open it  and examine the grey colour" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003142 ! eba surface greyness
+
+[Term]
+id: CO_334:0013046
+name: surface smoothness appearance method
+namespace: CassavaMethod
+def: "When you receive a cassava root sample, observe the surface and evaluate the intensity of the yellow colour." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003023 ! boiled root surface smoothnness
+
+[Term]
+id: CO_334:0013047
+name: surface whiteness appearance method
+namespace: CassavaMethod
+def: "When you receive the sample, observe the surface and evaluate the intensity of the white colour." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003138 ! eba surface whiteness
+
+[Term]
+id: CO_334:0013048
+name: sweetpotato-like aroma method
+namespace: CassavaMethod
+def: "Put a part of the boiled sample and by retro-olfaction, evaluate the presence and the intensity of sweet potato aroma" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003039 ! boiled root sweet potato-like aroma
+
+[Term]
+id: CO_334:0013049
+name: taste of red palm oil taste method
+namespace: CassavaMethod
+def: "Put a part of the sample in the mouth and evaluate the intensity of taste of red palm oil" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003122 ! attieke taste of red palm oil
+
+[Term]
+id: CO_334:0013050
+name: undesired taste taste method
+namespace: CassavaMethod
+def: "Put a part of the sample in the mouth and evaluate the intensity of undesired taste" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003123 ! attieke undesired taste
+
+[Term]
+id: CO_334:0013051
+name: white color appearance method
+namespace: CassavaMethod
+def: "Observe the surface of product and evaluate the intensity of each type of the colour and its homogeneity" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003131 ! boiled root white colour
+
+[Term]
+id: CO_334:0013052
+name: yam-like aroma method
+namespace: CassavaMethod
+def: "Put a part of the boiled sample and by retro-olfaction, evaluate the presence and the intensity of sweet potato aroma" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003038 ! boiled root yam-like aroma
+
+[Term]
+id: CO_334:0013053
+name: smoothness texture in the mouth method
+namespace: CassavaMethod
+def: "After chewing feel sample between tongue and palate to assess the amount of string like particles present on sample" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003135 ! eba smoothness in mouth
 
 [Term]
 id: CO_334:0100000
@@ -11991,123 +13201,122 @@ relationship: scale_of CO_334:0010550 ! Absorption: Cassava brown streak viral t
 
 [Term]
 id: CO_334:0103000
-name: Yellowness scale 0-10
+name: Surface yellowness scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013000 ! appearance method
+relationship: scale_of CO_334:0013000 ! surface yellowness appearance method
 
 [Term]
 id: CO_334:0103001
-name: Whitness 0-10
+name: Boiled cassava surface whitness 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013000 ! appearance method
+relationship: scale_of CO_334:0013047 ! surface whiteness appearance method
 
 [Term]
 id: CO_334:0103002
-name: Colour homogeneity 0-10
+name: Surface colour homogeneity 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013000 ! appearance method
+relationship: scale_of CO_334:0013018 ! color homogeneity appearance method
 
 [Term]
 id: CO_334:0103003
-name: Appearance smoothness scale 0-10
+name: Surface smoothness scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013000 ! appearance method
+relationship: scale_of CO_334:0013046 ! surface smoothness appearance method
 
 [Term]
 id: CO_334:0103004
-name: Hardness scale 0-10
+name: Hardness texture in the mouth scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013001 ! texture in the mouth method
-relationship: scale_of CO_334:0013009 ! texture by handfeel method
+relationship: scale_of CO_334:0013001 ! stickiness texture in the mouth method
 
 [Term]
 id: CO_334:0103005
-name: Moisture scale 0-10
+name: Moisture texture in the mouth s scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013001 ! texture in the mouth method
+relationship: scale_of CO_334:0013001 ! stickiness texture in the mouth method
 
 [Term]
 id: CO_334:0103006
-name: Smoothness in mouth scale 0-10
+name: Boiled root smoothness in the mouth scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013001 ! texture in the mouth method
+relationship: scale_of CO_334:0013001 ! stickiness texture in the mouth method
 
 [Term]
 id: CO_334:0103007
-name: Fibrousness scale 0-10
+name: Boiled root fibrousness in mouth scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013001 ! texture in the mouth method
+relationship: scale_of CO_334:0013001 ! stickiness texture in the mouth method
 
 [Term]
 id: CO_334:0103008
-name: Mealiness scale 0-10
+name: Mealiness texture in the mouth scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013001 ! texture in the mouth method
+relationship: scale_of CO_334:0013001 ! stickiness texture in the mouth method
 
 [Term]
 id: CO_334:0103009
-name: Stickness scale 0-10
+name: Stickness in the mouth scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013001 ! texture in the mouth method
+relationship: scale_of CO_334:0013001 ! stickiness texture in the mouth method
 
 [Term]
 id: CO_334:0103010
-name: Mealiness scale 0-10
+name: Mealiness in the hand scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013002 ! texture in the hand method
+relationship: scale_of CO_334:0013002 ! mealiness texture in the hand method
 
 [Term]
 id: CO_334:0103011
-name: Moldability scale 0-10
+name: Boiled root moldability by hand scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013002 ! texture in the hand method
+relationship: scale_of CO_334:0013008 ! moldability texture in the hand method
 
 [Term]
 id: CO_334:0103012
-name: Stickness scale 0-10
+name: Boiled root stickness in hand  scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013002 ! texture in the hand method
+relationship: scale_of CO_334:0013007 ! stickiness texture in the hand method
 
 [Term]
 id: CO_334:0103013
-name: Sweetness scale 0-10
+name: Boiled root sweetness taste scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013003 ! taste method
+relationship: scale_of CO_334:0013003 ! sweetness taste method
 
 [Term]
 id: CO_334:0103014
 name: Bitterness scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013003 ! taste method
+relationship: scale_of CO_334:0013014 ! bitterness taste method
 
 [Term]
 id: CO_334:0103015
 name: 2 pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013004 ! aroma method
+relationship: scale_of CO_334:0013048 ! sweetpotato-like aroma method
 
 [Term]
 id: CO_334:0103016
-name: Aroma scale 0-10
+name: Cassava-like aroma scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013004 ! aroma method
+relationship: scale_of CO_334:0013004 ! steamed cassava-like_aroma  method
 
 [Term]
 id: CO_334:0103017
@@ -12141,38 +13350,45 @@ is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0103022
-name: Colour scale 1-8
+name: Surface colour appearance scale 1-8
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013005 ! appearance method
+relationship: scale_of CO_334:0013005 ! surface colour sppearance method
 
 [Term]
 id: CO_334:0103023
-name: Dough smoothness scale 0-10
+name: Smoothness in the hand scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013006 ! texture by handfeel method
+relationship: scale_of CO_334:0013006 ! smoothness texture in the hand method
 
 [Term]
 id: CO_334:0103024
-name: Stickiness scale 0-10
+name: Fufu stickiness in hand scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013007 ! texture by handfeel method
+relationship: scale_of CO_334:0013007 ! stickiness texture in the hand method
 
 [Term]
 id: CO_334:0103025
-name: Dough moldability scale 0-10
+name: Fufu moldability by hand scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013008 ! texture by handfeel method
+relationship: scale_of CO_334:0013008 ! moldability texture in the hand method
+
+[Term]
+id: CO_334:0103026
+name: Fufu hardness by hand scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013009 ! hardness texture by hand method
 
 [Term]
 id: CO_334:0103027
-name: Stretchability scale 0-10
+name: Fufu stretchability in hand scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013010 ! texture by handfeel method
+relationship: scale_of CO_334:0013010 ! stretchability texture by the hand method
 
 [Term]
 id: CO_334:0103028
@@ -12180,6 +13396,342 @@ name: Fufu odour scale 0-10
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013011 ! odour method
+
+[Term]
+id: CO_334:0103029
+name: Attieke aroma scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013012 ! attieke-like aroma method
+
+[Term]
+id: CO_334:0103030
+name: Attieke cohesiveness scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013017 ! cohesiveness texture by touch method
+
+[Term]
+id: CO_334:0103031
+name: Attieke sourness in the mouth scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013043 ! sourness taste method
+
+[Term]
+id: CO_334:0103032
+name: Attieke Stickness in hand scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013007 ! stickiness texture in the hand method
+
+[Term]
+id: CO_334:0103033
+name: Attieke Sweetness taste scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013003 ! sweetness taste method
+
+[Term]
+id: CO_334:0103034
+name: Bitter aftertaste scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013013 ! bitterness after taste method
+
+[Term]
+id: CO_334:0103035
+name: Bitterness scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013014 ! bitterness taste method
+
+[Term]
+id: CO_334:0103036
+name: boiled root odour scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013015 ! boiled cassava odour method
+
+[Term]
+id: CO_334:0103037
+name: boiled root stickness in hand scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013007 ! stickiness texture in the hand method
+
+[Term]
+id: CO_334:0103038
+name: Boiled root sweetness taste scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013003 ! sweetness taste method
+
+[Term]
+id: CO_334:0103039
+name: Brightness appearance scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013016 ! brightness appearance method
+
+[Term]
+id: CO_334:0103040
+name: Crumbness in the hand scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013019 ! crumbly in the hand method
+
+[Term]
+id: CO_334:0103041
+name: Easy to chew scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013020 ! easy to chew texture in the mouth method
+
+[Term]
+id: CO_334:0103042
+name: Eba cohesiveness in the hand  scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013017 ! cohesiveness texture by touch method
+
+[Term]
+id: CO_334:0103043
+name: Eba fibrousness in mouth scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013025 ! fibrousness texture in the mouth method
+
+[Term]
+id: CO_334:0103044
+name: Eba hardness in the hand scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013009 ! hardness texture by hand method
+
+[Term]
+id: CO_334:0103045
+name: Eba smoothness in the mouth scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013053 ! smoothness texture in the mouth method
+
+[Term]
+id: CO_334:0103046
+name: Eba sourness taste scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013043 ! sourness taste method
+
+[Term]
+id: CO_334:0103047
+name: Eba stickiness in hand scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013007 ! stickiness texture in the hand method
+
+[Term]
+id: CO_334:0103048
+name: Eba streachability in hand scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013010 ! stretchability texture by the hand method
+
+[Term]
+id: CO_334:0103049
+name: Eba surface whiteness scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013047 ! surface whiteness appearance method
+
+[Term]
+id: CO_334:0103050
+name: Eba sweetness taste scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013003 ! sweetness taste method
+
+[Term]
+id: CO_334:0103051
+name: Extraneous matters appearance scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013021 ! extraneous matters appearance method
+
+[Term]
+id: CO_334:0103052
+name: Extraneous matters in mouth scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013022 ! extraneous matters texture in mouth method
+
+[Term]
+id: CO_334:0103053
+name: Fermented taste scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013023 ! fermented taste method
+
+[Term]
+id: CO_334:0103054
+name: Firmness scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013026 ! firmness texture by touch method
+
+[Term]
+id: CO_334:0103055
+name: Grain size scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013041 ! size of grains appearance method
+
+[Term]
+id: CO_334:0103056
+name: Granularity in mouth scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013027 ! granularity texture in the mouth method
+
+[Term]
+id: CO_334:0103057
+name: Granularity in mouth scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013028 ! granularity texture in the mouth method
+
+[Term]
+id: CO_334:0103058
+name: Greyness scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013045 ! surface greyness appearance method
+
+[Term]
+id: CO_334:0103059
+name: Hardness to break in the hand scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013029 ! hardness to break/cut texture in the hand method
+
+[Term]
+id: CO_334:0103060
+name: Homogenity of grains scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013030 ! homogenity of grains appearance method
+
+[Term]
+id: CO_334:0103061
+name: Masticability scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013031 ! masticability texture in mouth method
+
+[Term]
+id: CO_334:0103062
+name: Moldability in the hand  scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013032 ! moldability texture in touch method
+
+[Term]
+id: CO_334:0103063
+name: Mouth filled sensations scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013033 ! mouth filled sensations texture in mouth method
+
+[Term]
+id: CO_334:0103064
+name: Off-odours scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013034 ! off-odours aroma method
+
+[Term]
+id: CO_334:0103065
+name: Orange colour scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013035 ! orange colour appearance method
+
+[Term]
+id: CO_334:0103066
+name: Presence of fibers scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013036 ! presence of fibers appearance method
+
+[Term]
+id: CO_334:0103067
+name: Presence of fibers texture scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013024 ! fibrouness texture appearance  method
+
+[Term]
+id: CO_334:0103068
+name: Presence of lumps scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013037 ! presence of lumps appearance method
+
+[Term]
+id: CO_334:0103069
+name: Presence of strips appearance scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013038 ! presence of stripes appearance method
+
+[Term]
+id: CO_334:0103070
+name: Red palm oil aroma scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013039 ! red palm oil aroma method
+
+[Term]
+id: CO_334:0103071
+name: Sourness aroma scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013042 ! sourness aroma method
+
+[Term]
+id: CO_334:0103072
+name: surface creamness scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013044 ! surface creamness appearance method
+
+[Term]
+id: CO_334:0103073
+name: Surface yellow ness appearance scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013000 ! surface yellowness appearance method
+
+[Term]
+id: CO_334:0103074
+name: Taste of red palm oil scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013049 ! taste of red palm oil taste method
+
+[Term]
+id: CO_334:0103075
+name: Undesired taste scale 0-10
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013050 ! undesired taste taste method
+
+[Term]
+id: CO_334:0103076
+name: White colour scale 0-100
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013051 ! white color appearance method
 
 [Typedef]
 id: derives_from
@@ -12196,3 +13748,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
