@@ -7798,7 +7798,7 @@ created_by: Ebah Catherine
 
 [Term]
 id: CO_334:0003060
-name: Attieke extraneous matters scale 0-10
+name: Attieke extraneous matters appearance scale 0-10
 namespace: cassava_trait
 def: "Measures the presence of extraneous matters (other than cassava)   scale 0-10. 0=Absence	; 10=High intensity" []
 is_a: CO_334:0001000 ! Variables
@@ -7809,7 +7809,7 @@ created_by: Ebah Catherine
 
 [Term]
 id: CO_334:0003061
-name: Attieke extraneous matters scale 0-10
+name: Attieke extraneous matters texture scale 0-10
 namespace: cassava_trait
 def: "Measures the sensation of extraneous matters during mastication   scale 0-10. 0=Absence	; 10=High intensity" []
 is_a: CO_334:0001000 ! Variables
