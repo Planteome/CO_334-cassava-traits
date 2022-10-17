@@ -5964,6 +5964,50 @@ relationship: variable_of CO_334:0012002 ! Measurement: total root diameter_meth
 relationship: variable_of CO_334:0100558 ! cm
 
 [Term]
+id: CO_334:0001037
+name: post-harvest physiological deterioration variable 0-10 month 8
+namespace: cassava_trait
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 8 moths after planting." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
+relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
+relationship: variable_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
+relationship: variable_of CO_334:0100680 ! 11pt scale
+
+[Term]
+id: CO_334:0001038
+name: 'post-harvest physiological deterioration variable 0-10 month 10'
+namespace: cassava_trait
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 10 moths after planting." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
+relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
+relationship: variable_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
+relationship: variable_of CO_334:0100680 ! 11pt scale
+
+[Term]
+id: CO_334:0001039
+name: post-harvest physiological deterioration variable 0-10 month 11
+namespace: cassava_trait
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 11 moths after planting." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
+relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
+relationship: variable_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
+relationship: variable_of CO_334:0100680 ! 11pt scale
+
+[Term]
+id: CO_334:0001040
+name: post-harvest physiological deterioration variable 0-10 month 12
+namespace: cassava_trait
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 12 moths after planting." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
+relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
+relationship: variable_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
+relationship: variable_of CO_334:0100680 ! 11pt scale
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
