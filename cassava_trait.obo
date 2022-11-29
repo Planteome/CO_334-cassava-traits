@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001041> \"CO_334:0000291\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001042> \"CO_334:0000291\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001043> \"CO_334:0000095\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001041> \"CO_334:0000291\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001042> \"CO_334:0000291\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001043> \"CO_334:0000095\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001044> \"CO_334:0010369\"^^xsd:string)\n)
 
 [Term]
 id: CO_3340001041
@@ -29,8 +29,16 @@ def: "Total carotene content using HPLC. Fresh cassava roots are ground into a m
 synonym: "CarTot HPLC" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_3340001042 ! carotene content
-relationship: variable_of CO_334:0010369 ! Estimation: Beta carotene_method
+relationship: variable_of CO_3340001044 ! Estimation: total carotenes HPLC method
 relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_3340001044
+name: Estimation: total carotenes HPLC method
+namespace: CassavaMethod
+def: "Total carotene content using HPLC. Fresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Total carotenes are evaluated by summing the peaks, and expressed in ug/g wet basis." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000291 ! Beta carotene
 
 [Term]
 id: CO_334:0000000
