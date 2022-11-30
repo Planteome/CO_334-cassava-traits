@@ -8,21 +8,21 @@ ontology: co_334
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001041> \"CO_334:0000291\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001042> \"CO_334:0000291\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001043> \"CO_334:0000095\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_3340001044> \"CO_334:0010369\"^^xsd:string)\n)
 
 [Term]
-id: CO_3340001041
+id: CO_334:0001041
 name: Biochemical trait
 namespace: cassava_trait
 def: "traits for biochemical metabolites." [CO:curators]
 is_a: CO_334:0000004 ! Quality trait
 
 [Term]
-id: CO_3340001042
+id: CO_334:0001042
 name: carotene content
 namespace: cassava_trait
 def: "carotene content." [CO:curators]
 is_a: CO_3340001041 ! Biochemical trait
 
 [Term]
-id: CO_3340001043
+id: CO_334:0001043
 name: Total carotenes HPLC ug/g
 namespace: cassava_trait
 def: "Total carotene content using HPLC. Fresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Total carotenes are evaluated by summing the peaks, and expressed in ug/g wet basis.." [CO:curators]
@@ -33,7 +33,7 @@ relationship: variable_of CO_3340001044 ! Estimation: total carotenes HPLC metho
 relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
-id: CO_3340001044
+id: CO_334:0001044
 name: Estimation: total carotenes HPLC method
 namespace: CassavaMethod
 def: "Total carotene content using HPLC. Fresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Total carotenes are evaluated by summing the peaks, and expressed in ug/g wet basis." [CO:curators]
@@ -13815,4 +13815,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
