@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001047> \"CO_334:0000071\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001048> \"CO_334:0010313\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001049> \"CO_334:0000075\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001050> \"CO_334:0010374\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001047> \"CO_334:0000071\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001048> \"CO_334:0010313\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001049> \"CO_334:0000075\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001050> \"CO_334:0010374\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001051> \"CO_334:0001043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001052> \"CO_334:0001044\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6087,6 +6087,25 @@ namespace: CassavaMethod
 def: "Measured amylose content of cassava roots using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in percent (wet weight basis) using prediction model." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000279 ! Amylose content
+
+[Term]
+id: CO_334:0001051
+name: Total carotenes ug/g NIRS 400-2500 nm
+namespace: cassava_trait
+def: "The total carotene content of mashed fresh cassava roots evaluated by NIRS prediction (ug/g wb). Measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in ppm (wet weight basis) using prediction model." [CO:curators]
+synonym: "CarTot NIRS (ug/g wb)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001042 ! carotene content
+relationship: variable_of CO_334:0001052 ! Measurement: total carotenes NIRS 400-2500 nm method
+relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_334:0001052
+name: Measurement: total carotenes NIRS 400-2500 nm method
+namespace: CassavaMethod
+def: "Total carotene content measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in ppm (wet weight basis) using prediction model." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000291 ! Beta carotene
 
 [Term]
 id: CO_334:0002001
