@@ -871,7 +871,7 @@ synonym: "hcn_enz" EXACT []
 synonym: "RtCyanCt_Enz_1to3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
-relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method_method
+relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
 relationship: variable_of CO_334:0100540 ! 3pt scale
 
 [Term]
@@ -1049,7 +1049,7 @@ synonym: "RtCyanCt_Picrate_1to9" EXACT []
 xref: TO:0000955
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
-relationship: variable_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method_method
+relationship: variable_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method
 relationship: variable_of CO_334:0100505 ! 9pt scale
 
 [Term]
@@ -1882,7 +1882,7 @@ is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0001025 ! farmer preference trait post-harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
-relationship: variable_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method_method
+relationship: variable_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -1906,7 +1906,7 @@ synonym: "CarotCt_icheck_ugg" EXACT []
 synonym: "tcichk" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000297 ! Carotenoid content
-relationship: variable_of CO_334:0010414 ! Estimation: Total carotenoid by icheck method_method
+relationship: variable_of CO_334:0010414 ! Estimation: Total carotenoid by icheck method
 relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
@@ -6135,7 +6135,7 @@ def: "The cyanogenic potential of extracts from cassava roots (or other cassava-
 synonym: "HCN linamarase (ug/g wb)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
-relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method_method
+relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
 relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
@@ -9534,7 +9534,7 @@ relationship: method_of CO_334:0000355 ! Color of boiled storage roots
 
 [Term]
 id: CO_334:0010299
-name: Estimation: Hydrogen cyanide potential picrate method_method
+name: Estimation: Hydrogen cyanide potential picrate method
 namespace: CassavaMethod
 def: "Visual scoring of the root cyanide content estimated using the sodium picrate test. This test consist is applying sodium picrate on the storage root and observing the reacting colour " [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -9678,7 +9678,7 @@ relationship: method_of CO_334:0000480 ! Stem weight
 
 [Term]
 id: CO_334:0010318
-name: Estimation: Dry matter content by specific gravity method_method
+name: Estimation: Dry matter content by specific gravity method
 namespace: CassavaMethod
 def: "Estimated dry  matter content from the specific gravity value weighted cassava (4-5kg)" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -9798,7 +9798,7 @@ relationship: method_of CO_334:0000496 ! Suitability for intercropping
 
 [Term]
 id: CO_334:0010334
-name: Estimation: Hydrogen cyanide potential enzymatic method_method
+name: Estimation: Hydrogen cyanide potential enzymatic method
 namespace: CassavaMethod
 def: "Visual scoring of the root cyanide content evaluated using the enzymatic method" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -10438,7 +10438,7 @@ relationship: method_of CO_334:0000414 ! Number of fruits
 
 [Term]
 id: CO_334:0010414
-name: Estimation: Total carotenoid by icheck method_method
+name: Estimation: Total carotenoid by icheck method
 namespace: CassavaMethod
 def: "Measurement of total carotenoid content in a giving cassava storage root sample using icheck kits or device" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -12270,7 +12270,7 @@ relationship: scale_of CO_334:0010286 ! Measurement: Fresh weight of storage roo
 relationship: scale_of CO_334:0010287 ! Measurement: Fresh shoot weight_method
 relationship: scale_of CO_334:0010316 ! Measurement: Stock weight_method
 relationship: scale_of CO_334:0010317 ! Counting: Stem yield_method
-relationship: scale_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method_method
+relationship: scale_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method
 relationship: scale_of CO_334:0010386 ! Measurement: Stem weight_method
 relationship: scale_of CO_334:0010389 ! Measurement: Tip shoot weight_method
 relationship: scale_of CO_334:0010390 ! Measurement: Marketable root weight_method
@@ -12365,7 +12365,7 @@ id: CO_334:0100505
 name: 9pt scale
 namespace: CassavaScale
 is_a: CO_334:0100689 ! 9 point scales
-relationship: scale_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method_method
+relationship: scale_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method
 
 [Term]
 id: CO_334:0100507
@@ -12492,7 +12492,7 @@ id: CO_334:0100540
 name: 3pt scale
 namespace: CassavaScale
 is_a: CO_334:0100684 ! 3 point scales
-relationship: scale_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method_method
+relationship: scale_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
 
 [Term]
 id: CO_334:0100541
@@ -12747,7 +12747,7 @@ relationship: scale_of CO_334:0010370 ! Estimation: Iron content_method
 relationship: scale_of CO_334:0010371 ! Estimation: Zinc content_method
 relationship: scale_of CO_334:0010374 ! Estimation: Amylose  content_method
 relationship: scale_of CO_334:0010375 ! Estimation: Amylopectin content_method
-relationship: scale_of CO_334:0010414 ! Estimation: Total carotenoid by icheck method_method
+relationship: scale_of CO_334:0010414 ! Estimation: Total carotenoid by icheck method
 
 [Term]
 id: CO_334:0100574
@@ -13923,4 +13923,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
