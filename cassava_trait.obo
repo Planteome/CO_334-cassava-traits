@@ -1096,7 +1096,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 id: CO_334:0000095
 name: beta carotene content ug/g
 namespace: cassava_trait
-def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight." [CO:curators]
+def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight. \n\nFresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Concentrations are expressed in ug/g wet basis." [CO:curators]
 synonym: "bcret" EXACT []
 synonym: "BetaCarotCt_HPLC_ugg" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -10069,7 +10069,7 @@ relationship: method_of CO_334:0000297 ! Carotenoid content
 id: CO_334:0010369
 name: Estimation: Beta carotene_method
 namespace: CassavaMethod
-def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight." [CO:curators]
+def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight.\n\nFresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Concentrations are expressed in ug/g wet basis." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000291 ! Beta carotene
 
