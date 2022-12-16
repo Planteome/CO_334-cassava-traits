@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001047> \"CO_334:0000071\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001048> \"CO_334:0010313\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001049> \"CO_334:0000075\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001050> \"CO_334:0010374\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001051> \"CO_334:0001043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001052> \"CO_334:0001044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001053> \"CO_334:0000095\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001054> \"CO_334:0010369\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001055> \"CO_334:0000076\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -870,7 +871,7 @@ synonym: "hcn_enz" EXACT []
 synonym: "RtCyanCt_Enz_1to3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
-relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method_method
+relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
 relationship: variable_of CO_334:0100540 ! 3pt scale
 
 [Term]
@@ -1048,7 +1049,7 @@ synonym: "RtCyanCt_Picrate_1to9" EXACT []
 xref: TO:0000955
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
-relationship: variable_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method_method
+relationship: variable_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method
 relationship: variable_of CO_334:0100505 ! 9pt scale
 
 [Term]
@@ -1095,7 +1096,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 id: CO_334:0000095
 name: beta carotene content ug/g
 namespace: cassava_trait
-def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight." [CO:curators]
+def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight. \n\nFresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Concentrations are expressed in ug/g wet basis." [CO:curators]
 synonym: "bcret" EXACT []
 synonym: "BetaCarotCt_HPLC_ugg" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -1881,7 +1882,7 @@ is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0001025 ! farmer preference trait post-harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000424 ! Root dry matter content
-relationship: variable_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method_method
+relationship: variable_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method
 relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
@@ -1905,7 +1906,7 @@ synonym: "CarotCt_icheck_ugg" EXACT []
 synonym: "tcichk" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000297 ! Carotenoid content
-relationship: variable_of CO_334:0010414 ! Estimation: Total carotenoid by icheck method_method
+relationship: variable_of CO_334:0010414 ! Estimation: Total carotenoid by icheck method
 relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
@@ -3395,7 +3396,7 @@ namespace: cassava_trait
 def: "beta-carotene (ug/g fresh wt)" [CO:curators]
 synonym: "bc" EXACT []
 xref: TO:0002695
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001042 ! carotene content
 
 [Term]
 id: CO_334:0000292
@@ -3404,7 +3405,7 @@ namespace: cassava_trait
 def: "Beta carotene content after cooking" [CO:curators]
 synonym: "BCaroRet" EXACT []
 xref: TO:0002695
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0000291 ! Beta carotene
 
 [Term]
 id: CO_334:0000293
@@ -3450,7 +3451,7 @@ namespace: cassava_trait
 def: "Cassava storage root pulp carotenoid content" [CO:curators]
 synonym: "CarotCt" EXACT []
 xref: TO:0000496
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001042 ! carotene content
 
 [Term]
 id: CO_334:0000298
@@ -5376,7 +5377,7 @@ namespace: cassava_trait
 def: "Total caroteneoid content after cooking" [CO:curators]
 synonym: "CaroRet" EXACT []
 xref: TO:0001042
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0000297 ! Carotenoid content
 
 [Term]
 id: CO_334:0000501
@@ -5995,6 +5996,147 @@ is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
 relationship: variable_of CO_334:0010001 ! Estimation: Post-harvest physiological deterioration method
 relationship: variable_of CO_334:0100680 ! 11pt scale
+
+[Term]
+id: CO_334:0001041
+name: Biochemical trait
+namespace: cassava_trait
+def: "traits for biochemical metabolites." [CO:curators]
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001042
+name: carotene content
+namespace: cassava_trait
+def: "carotene content." [CO:curators]
+is_a: CO_334:0001041 ! Biochemical trait
+
+[Term]
+id: CO_334:0001043
+name: Total carotenes HPLC ug/g
+namespace: cassava_trait
+def: "Total carotene content using HPLC. Fresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Total carotenes are evaluated by summing the peaks, and expressed in ug/g wet basis.." [CO:curators]
+synonym: "CarTot HPLC" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001042 ! carotene content
+relationship: variable_of CO_334:0001044 ! Estimation: total carotenes HPLC method
+relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_334:0001044
+name: Estimation: total carotenes HPLC method
+namespace: CassavaMethod
+def: "Total carotene content using HPLC. Fresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Total carotenes are evaluated by summing the peaks, and expressed in ug/g wet basis." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000291 ! Beta carotene
+
+[Term]
+id: CO_334:0001045
+name: protein content percentage evaluated by NIRS 400-2500nm
+namespace: cassava_trait
+def: "The protein content of mashed fresh cassava roots evaluated by NIRS prediction (% wb). Measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in percent (wet weight basis) using prediction model." [CO:curators]
+synonym: "protei" EXACT []
+synonym: "Protein NIRS (% wb)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000442 ! Protein content
+relationship: variable_of CO_334:0001046 ! Measurement: Protein content percentage NIRS 400-2500 nm
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0001046
+name: Measurement: Protein content percentage NIRS 400-2500 nm
+namespace: CassavaMethod
+def: "measurement using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in percent (wet weight basis) using prediction model." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000442 ! Protein content
+
+[Term]
+id: CO_334:0001047
+name: starch content percentage NIRS 400-2500nm
+namespace: cassava_trait
+def: "The starch content of mashed fresh cassava roots evaluated by NIRS prediction (% wb). Measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in percent (wet weight basis) using prediction model." [CO:curators]
+synonym: "Starch NIRS (% wb)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000474 ! Starch Content
+relationship: variable_of CO_334:0001048 ! Measurement: Starch content % NIRS 400-2500 nm
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0001048
+name: Measurement: Starch content % NIRS 400-2500 nm
+namespace: CassavaMethod
+def: "The starch content of mashed fresh cassava roots evaluated by NIRS prediction (% wb) measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in percent (wet weight basis) using prediction model." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000474 ! Starch Content
+
+[Term]
+id: CO_334:0001049
+name: The amylose content percetage NIRS 400-2500 nm
+namespace: cassava_trait
+def: "The amylose content of mashed fresh cassava roots evaluated by NIRS prediction (% wb). Measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in percent (wet weight basis) using prediction model." [CO:curators]
+synonym: "Amylose NIRS (% wb)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000279 ! Amylose content
+relationship: variable_of CO_334:0001050 ! Measurement: Amylose  content percetange NIRS 400-2500 nm
+relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_334:0001050
+name: Measurement: Amylose  content percetange NIRS 400-2500 nm
+namespace: CassavaMethod
+def: "Measured amylose content of cassava roots using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in percent (wet weight basis) using prediction model." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000279 ! Amylose content
+
+[Term]
+id: CO_334:0001051
+name: Total carotenes ug/g NIRS 400-2500 nm
+namespace: cassava_trait
+def: "The total carotene content of mashed fresh cassava roots evaluated by NIRS prediction (ug/g wb). Measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in ppm (wet weight basis) using prediction model." [CO:curators]
+synonym: "CarTot NIRS (ug/g wb)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001042 ! carotene content
+relationship: variable_of CO_334:0001052 ! Measurement: total carotenes NIRS 400-2500 nm method
+relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_334:0001052
+name: Measurement: total carotenes NIRS 400-2500 nm method
+namespace: CassavaMethod
+def: "Total carotene content measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400 to 2500, and are converted to concentration in ppm (wet weight basis) using prediction model." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000291 ! Beta carotene
+
+[Term]
+id: CO_334:0001053
+name: beta carotene content ug/g NIRS 400-2500 nm
+namespace: cassava_trait
+def: "The beta-carotene content of mashed fresh cassava roots evaluated by NIRS prediction. Measured using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400-2500 nm." [CO:curators]
+synonym: "bcret" EXACT []
+synonym: "BetaCarotCt_HPLC_ugg" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000291 ! Beta carotene
+relationship: variable_of CO_334:0001054 ! Measurement: Beta carotene NIRS method 400-2500 nm
+relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_334:0001054
+name: Measurement: Beta carotene NIRS method 400-2500 nm
+namespace: CassavaMethod
+def: "Beta carotene content using laboratory table-top Near InfraRed Spectrophotometry (NIRS). Output are spectrum with wavelength range of 400-2500 nm." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000291 ! Beta carotene
+
+[Term]
+id: CO_334:0001055
+name: hydrogen cyanide ug/g wet basis
+namespace: cassava_trait
+def: "The cyanogenic potential of extracts from cassava roots (or other cassava-based products), evaluated by reaction with linamarase followed by colorimetric determination of cyanide concentration and expressed in ug/g of sample wet basis. \n\nSample is ground into a mash and cyanogenic compounds extracted using a buffer of orthophosphoric acid. The extracts are incubated with linamarase to release CN ions, which are quantified by spectrophotometry at 605 nm (in presence of chloramin T and isonicotinic/1,3 dimethyl-barbituric reagent)." [CO:curators]
+synonym: "HCN linamarase (ug/g wb)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000502 ! Storage root cyanide content
+relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
+relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
 id: CO_334:0002001
@@ -9392,7 +9534,7 @@ relationship: method_of CO_334:0000355 ! Color of boiled storage roots
 
 [Term]
 id: CO_334:0010299
-name: Estimation: Hydrogen cyanide potential picrate method_method
+name: Estimation: Hydrogen cyanide potential picrate method
 namespace: CassavaMethod
 def: "Visual scoring of the root cyanide content estimated using the sodium picrate test. This test consist is applying sodium picrate on the storage root and observing the reacting colour " [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -9536,7 +9678,7 @@ relationship: method_of CO_334:0000480 ! Stem weight
 
 [Term]
 id: CO_334:0010318
-name: Estimation: Dry matter content by specific gravity method_method
+name: Estimation: Dry matter content by specific gravity method
 namespace: CassavaMethod
 def: "Estimated dry  matter content from the specific gravity value weighted cassava (4-5kg)" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -9656,7 +9798,7 @@ relationship: method_of CO_334:0000496 ! Suitability for intercropping
 
 [Term]
 id: CO_334:0010334
-name: Estimation: Hydrogen cyanide potential enzymatic method_method
+name: Estimation: Hydrogen cyanide potential enzymatic method
 namespace: CassavaMethod
 def: "Visual scoring of the root cyanide content evaluated using the enzymatic method" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -9938,7 +10080,7 @@ relationship: method_of CO_334:0000297 ! Carotenoid content
 id: CO_334:0010369
 name: Estimation: Beta carotene_method
 namespace: CassavaMethod
-def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight." [CO:curators]
+def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight.\n\nFresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Concentrations are expressed in ug/g wet basis." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000291 ! Beta carotene
 
@@ -10296,7 +10438,7 @@ relationship: method_of CO_334:0000414 ! Number of fruits
 
 [Term]
 id: CO_334:0010414
-name: Estimation: Total carotenoid by icheck method_method
+name: Estimation: Total carotenoid by icheck method
 namespace: CassavaMethod
 def: "Measurement of total carotenoid content in a giving cassava storage root sample using icheck kits or device" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -12128,7 +12270,7 @@ relationship: scale_of CO_334:0010286 ! Measurement: Fresh weight of storage roo
 relationship: scale_of CO_334:0010287 ! Measurement: Fresh shoot weight_method
 relationship: scale_of CO_334:0010316 ! Measurement: Stock weight_method
 relationship: scale_of CO_334:0010317 ! Counting: Stem yield_method
-relationship: scale_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method_method
+relationship: scale_of CO_334:0010318 ! Estimation: Dry matter content by specific gravity method
 relationship: scale_of CO_334:0010386 ! Measurement: Stem weight_method
 relationship: scale_of CO_334:0010389 ! Measurement: Tip shoot weight_method
 relationship: scale_of CO_334:0010390 ! Measurement: Marketable root weight_method
@@ -12223,7 +12365,7 @@ id: CO_334:0100505
 name: 9pt scale
 namespace: CassavaScale
 is_a: CO_334:0100689 ! 9 point scales
-relationship: scale_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method_method
+relationship: scale_of CO_334:0010299 ! Estimation: Hydrogen cyanide potential picrate method
 
 [Term]
 id: CO_334:0100507
@@ -12350,7 +12492,7 @@ id: CO_334:0100540
 name: 3pt scale
 namespace: CassavaScale
 is_a: CO_334:0100684 ! 3 point scales
-relationship: scale_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method_method
+relationship: scale_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
 
 [Term]
 id: CO_334:0100541
@@ -12605,7 +12747,7 @@ relationship: scale_of CO_334:0010370 ! Estimation: Iron content_method
 relationship: scale_of CO_334:0010371 ! Estimation: Zinc content_method
 relationship: scale_of CO_334:0010374 ! Estimation: Amylose  content_method
 relationship: scale_of CO_334:0010375 ! Estimation: Amylopectin content_method
-relationship: scale_of CO_334:0010414 ! Estimation: Total carotenoid by icheck method_method
+relationship: scale_of CO_334:0010414 ! Estimation: Total carotenoid by icheck method
 
 [Term]
 id: CO_334:0100574
@@ -13781,4 +13923,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
