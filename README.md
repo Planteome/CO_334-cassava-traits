@@ -1,6 +1,7 @@
 # CO_334-cassava-traits
 [![DOI](https://zenodo.org/badge/34696115.svg)](https://zenodo.org/badge/latestdoi/34696115)
-This ontology results in the collaboration of Cassavabase, BMS and Crop Ontology
+
+This ontology is a collaboration between Cassavabase, BMS and Crop Ontology
 -------------------------------
 Cassava Trait Ontology is maintained by http://www.cropontology.org and https://cassavabase.org
 
