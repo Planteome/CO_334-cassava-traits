@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001047> \"CO_334:0000071\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001048> \"CO_334:0010313\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001049> \"CO_334:0000075\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001050> \"CO_334:0010374\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001051> \"CO_334:0001043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001052> \"CO_334:0001044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001053> \"CO_334:0000095\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001054> \"CO_334:0010369\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001055> \"CO_334:0000076\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001058> \"CO_334:0000419\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001059> \"CO_334:0000250\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001060> \"CO_334:0010456\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001061> \"CO_334:0000250\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001062> \"CO_334:0010456\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -5877,7 +5877,6 @@ namespace: CassavaScale
 id: CO_334:0001002
 name: Methods
 namespace: CassavaMethod
-relationship: method_of CO_334:0000474 ! Starch Content
 
 [Term]
 id: CO_334:0001012
@@ -6137,6 +6136,47 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
 relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
 relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_334:0001058
+name: Number of infected plants
+namespace: cassava_trait
+def: "Number of infected plants" [CO:curators]
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0001059
+name: number of infected plants counting
+namespace: cassava_trait
+def: "Count the number of infected plants per plot." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001058 ! Number of infected plants
+relationship: variable_of CO_334:0001060 ! Counting: Number of infected plants method
+relationship: variable_of CO_334:0100490 ! plant
+
+[Term]
+id: CO_334:0001060
+name: Counting: Number of infected plants method
+namespace: CassavaMethod
+def: "The number of infected plants out of the total number of plants in a plot" [CO:curators]
+is_a: CO_334:0001002 ! Methods
+
+[Term]
+id: CO_334:0001061
+name: Presence or absence of plant infection. 0/1 boolean score
+namespace: cassava_trait
+def: "visual observation of presence or absence of infection symptoms on the plant." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001058 ! Number of infected plants
+relationship: variable_of CO_334:0001062 ! Visualization: presence/absence of infected plants
+relationship: variable_of CO_334:0100639 ! yes/no scale
+
+[Term]
+id: CO_334:0001062
+name: Visualization: presence/absence of infected plants
+namespace: CassavaMethod
+def: "The number of infected plants out of the total number of plants in a plot" [CO:curators]
+is_a: CO_334:0001002 ! Methods
 
 [Term]
 id: CO_334:0002001
@@ -13012,6 +13052,8 @@ relationship: scale_of CO_334:0010432 ! Estimation: Yield per year_method
 id: CO_334:0100639
 name: yes/no scale
 namespace: CassavaScale
+synonym: "boolean" EXACT []
+synonym: "presence/absence" EXACT []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010433 ! Selection: Selected variety_method
 
@@ -13923,3 +13965,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
