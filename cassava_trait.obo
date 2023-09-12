@@ -5,7 +5,6 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001047> \"CO_334:0000071\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001048> \"CO_334:0010313\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001049> \"CO_334:0000075\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001050> \"CO_334:0010374\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001051> \"CO_334:0001043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001052> \"CO_334:0001044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001053> \"CO_334:0000095\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001054> \"CO_334:0010369\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001055> \"CO_334:0000076\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6810,8 +6809,9 @@ relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 
 [Term]
 id: CO_334:0002065
-name: L chromometer value
+name: L chromometer value cassava root
 namespace: cassava_trait
+def: "L scale from chromometer for root indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light." []
 synonym: "lval" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
@@ -13923,3 +13923,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
