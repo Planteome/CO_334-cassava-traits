@@ -67,7 +67,7 @@ is_a: CO_334:0000005 ! Stress trait
 id: CO_334:0000008
 name: sprouting proportion
 namespace: cassava_trait
-def: "Proportion of stakes germinated scored one month after planting." [CO:curators]
+def: "Proportion of stakes germinated scored three month after planting." [CO:curators]
 synonym: "sprout" EXACT []
 synonym: "sprout_comp_r" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -88,7 +88,7 @@ is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000386 ! Initial vigor
 relationship: variable_of CO_334:0010228 ! Visual Rating: Initial vigor_method
-relationship: variable_of CO_334:0100434 ! 7pt scale
+relationship: variable_of CO_334:0100434 ! 7pt scale (3,5,7)
 
 [Term]
 id: CO_334:0000010
@@ -114,6 +114,18 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000452 ! Root number
 relationship: variable_of CO_334:0010285 ! Counting: Root number_method
 relationship: variable_of CO_334:0100491 ! root
+
+[Term]
+id: CO_334:000004001
+name: fresh storage root weight per plant
+namespace: cassava_trait
+def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:curators]
+synonym: "rtwt" EXACT []
+synonym: "RtWt_Wgh_kg" EXACT []
+is_a: CO_334:000004001 ! Variables
+relationship: variable_of CO_334:0000302 ! Storage root weight by plant
+relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
+relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000012
