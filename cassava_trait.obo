@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004003> \"CO_334:000004001\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -8791,6 +8792,18 @@ created_by: Ekanem
 creation_date: 2023-09-14T16:13:27Z
 
 [Term]
+id: CO_334:0004003
+name: fresh storage root weight per sample measured in Kg
+namespace: cassava_trait
+def: "Total fresh weight of storage roots harvested per sample measured in kilogram (kg)." [CO:curators]
+synonym: "rtwt" EXACT []
+synonym: "RtWt_Wgh_kg" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000302 ! Storage root weight by plot
+relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -13943,3 +13956,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
