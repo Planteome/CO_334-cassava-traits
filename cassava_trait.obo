@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001047> \"CO_334:0000071\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001048> \"CO_334:0010313\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001049> \"CO_334:0000075\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001050> \"CO_334:0010374\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001051> \"CO_334:0001043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001052> \"CO_334:0001044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001053> \"CO_334:0000095\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001054> \"CO_334:0010369\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001055> \"CO_334:0000076\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))\n\n\nAnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CO_334_0002062> \"\")\n)
 
 [Term]
 id: CO_334:0000000
@@ -41,6 +41,18 @@ namespace: cassava_trait
 def: "A characteristic or distinguishing feature of cassava related to its utilization after harvest." [CO:curators]
 synonym: "post-harvest trait" EXACT []
 is_a: CO_334:0000000 ! CGIAR cassava trait ontology
+
+[Term]
+id: CO_334:0000004010
+name: b chromometer value of gari
+namespace: cassava_trait
+def: "b scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "bval" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
 
 [Term]
 id: CO_334:0000005
@@ -6781,52 +6793,6 @@ xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
 
 [Term]
-id: CO_334:0002065
-name: L chromometer value
-namespace: cassava_trait
-synonym: "lval" EXACT []
-xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
-relationship: variable_of CO_334:0002061 ! L chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
-
-
-[Term]
-id: CO_334:0004005
-name: L chromometer of plant root
-namespace: cassava_trait
-synonym: "lval" EXACT []
-xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
-relationship: variable_of CO_334:0002061 ! L chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
-
-[Term]
-id: CO_334:0004006
-name: L chromometer of gari
-namespace: cassava_trait
-synonym: "lval" EXACT []
-xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
-relationship: variable_of CO_334:0002061 ! L chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
-
-[Term]
-id: CO_334:0004007
-name: L chromometer of eba
-namespace: cassava_trait
-synonym: "lval" EXACT []
-xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
-relationship: variable_of CO_334:0002061 ! L chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
-
-
-[Term]
 id: CO_334:0002062
 name: B chromometer
 namespace: cassava_trait
@@ -6834,40 +6800,6 @@ def: "b scale indicate yellow vs. blue where a positive number indicates yellow 
 synonym: "bval" EXACT []
 xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
-relationship: variable_of CO_334:0002062 ! B chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-
-[Term]
-id: CO_334:0002064
-name: b chromometer value of plant root
-namespace: cassava_trait
-synonym: "bval" EXACT []
-xref: CO:curators
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002062 ! B chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-
-[Term]
-id: CO_334:0000004010
-name: b chromometer value of gari
-namespace: cassava_trait
-synonym: "bval" EXACT []
-xref: CO:curators
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002062 ! B chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
-
-[Term]
-id: CO_334:0004011
-name: b chromometer value of eba
-namespace: cassava_trait
-synonym: "bval" EXACT []
-xref: CO:curators
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002062 ! B chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
 
 [Term]
 id: CO_334:0002063
@@ -6878,33 +6810,37 @@ xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
 
 [Term]
+id: CO_334:0002064
+name: b chromometer value of plant root
+namespace: cassava_trait
+def: "b scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "bval" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+
+[Term]
+id: CO_334:0002065
+name: L chromometer of plant root
+namespace: cassava_trait
+def: "L scale of plant root from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
 id: CO_334:0002066
 name: a chromometer value of plant root
 namespace: cassava_trait
+def: "a scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002063 ! A chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-
-[Term]
-id: CO_334:0004008
-name: a chromometer value of gari
-namespace: cassava_trait
-xref: CO:curators
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002063 ! A chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
-
-[Term]
-id: CO_334:0004009
-name: a chromometer value of eba
-namespace: cassava_trait
-xref: CO:curators
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002063 ! A chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
 
 [Term]
 id: CO_334:0002067
@@ -8848,6 +8784,64 @@ relationship: variable_of CO_334:0003101 ! attieke attieke-like  aroma
 relationship: variable_of CO_334:0013012 ! attieke-like aroma method
 relationship: variable_of CO_334:0103029 ! Attieke aroma scale 0-10
 created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0004006
+name: L chromometer of gari
+namespace: cassava_trait
+def: "L scale of gari from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004007
+name: L chromometer of eba
+namespace: cassava_trait
+def: "L scale of eba from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004008
+name: a chromometer value of gari
+namespace: cassava_trait
+def: "a scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002063 ! A chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004009
+name: a chromometer value of eba
+namespace: cassava_trait
+def: "a scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002063 ! A chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004011
+name: b chromometer value of eba
+namespace: cassava_trait
+def: "b scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "bval" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
 
 [Term]
 id: CO_334:0010000
@@ -14002,3 +13996,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
