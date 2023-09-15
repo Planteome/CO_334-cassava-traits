@@ -6862,7 +6862,7 @@ created_by: Ekanem
 
 [Term]
 id: CO_334:0004010
-name: b chromometer value of plant eba
+name: b chromometer value of eba
 namespace: cassava_trait
 def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." []
 synonym: "bval" EXACT []
