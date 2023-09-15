@@ -6883,6 +6883,39 @@ relationship: variable_of CO_334:0002061 ! L chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 
 [Term]
+id: CO_334:0004005
+name: L chromometer of plant root
+namespace: cassava_trait
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004006
+name: L chromometer of gari
+namespace: cassava_trait
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004007
+name: L chromometer of eba
+namespace: cassava_trait
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
 id: CO_334:0002066
 name: a chromometer value of plant root
 namespace: cassava_trait
