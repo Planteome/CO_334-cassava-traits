@@ -6779,10 +6779,32 @@ def: "L scale from chromometer indicate light vs. dark where a low number (0-50)
 synonym: "lval" EXACT []
 xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
-[Term]
 
+[Term]
 id: CO_334:0004005
 name: L chromometer of plant root
+namespace: cassava_trait
+def: "L scale from chromometer indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+
+[Term]
+id: CO_334:0004006
+name: L chromometer of gari
+namespace: cassava_trait
+def: "L scale from chromometer indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "lval" EXACT []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+
+[Term]
+id: CO_334:0004007
+name: L chromometer of eba
 namespace: cassava_trait
 def: "L scale from chromometer indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
 synonym: "lval" EXACT []
