@@ -6828,20 +6828,10 @@ is_a: CO_334:0000004 ! Quality trait
 relationship: variable_of CO_334:0002062 ! B chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 
-
-[Term]
-id: CO_334:0002063
-name: A chromometer
-namespace: cassava_trait
-def: "a scale indicate red vs. green where a positive number indicates red and a negative number indicates green" []
-xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
-
 [Term]
 id: CO_334:0002064
 name: b chromometer value of plant root
 namespace: cassava_trait
-def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." []
 synonym: "bval" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
@@ -6852,7 +6842,6 @@ relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 id: CO_334:0004009
 name: b chromometer value of gari
 namespace: cassava_trait
-def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." []
 synonym: "bval" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
@@ -6864,13 +6853,23 @@ created_by: Ekanem
 id: CO_334:0004010
 name: b chromometer value of eba
 namespace: cassava_trait
-def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." []
 synonym: "bval" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002062 ! B chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 created_by: Ekanem
+
+
+
+[Term]
+id: CO_334:0002063
+name: A chromometer
+namespace: cassava_trait
+def: "a scale indicate red vs. green where a positive number indicates red and a negative number indicates green" []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
+
 
 [Term]
 id: CO_334:0002065
