@@ -6839,7 +6839,7 @@ relationship: variable_of CO_334:0002062 ! B chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 
 [Term]
-id: CO_334:0004009
+id: CO_334:0000004010
 name: b chromometer value of gari
 namespace: cassava_trait
 synonym: "bval" EXACT []
@@ -6850,7 +6850,7 @@ relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 created_by: Ekanem
 
 [Term]
-id: CO_334:0004010
+id: CO_334:0004011
 name: b chromometer value of eba
 namespace: cassava_trait
 synonym: "bval" EXACT []
