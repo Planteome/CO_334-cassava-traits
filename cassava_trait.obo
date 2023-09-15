@@ -6784,7 +6784,6 @@ is_a: CO_334:0000004 ! Quality trait
 id: CO_334:0004005
 name: L chromometer of plant root
 namespace: cassava_trait
-def: "L scale from chromometer indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
 synonym: "lval" EXACT []
 xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
@@ -6796,7 +6795,6 @@ created_by: Ekanem
 id: CO_334:0004006
 name: L chromometer of gari
 namespace: cassava_trait
-def: "L scale from chromometer indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
 synonym: "lval" EXACT []
 xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
@@ -6808,7 +6806,6 @@ created_by: Ekanem
 id: CO_334:0004007
 name: L chromometer of eba
 namespace: cassava_trait
-def: "L scale from chromometer indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
 synonym: "lval" EXACT []
 xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
@@ -6861,16 +6858,6 @@ relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 created_by: Ekanem
 
 
-
-[Term]
-id: CO_334:0002063
-name: A chromometer
-namespace: cassava_trait
-def: "a scale indicate red vs. green where a positive number indicates red and a negative number indicates green" []
-xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
-
-
 [Term]
 id: CO_334:0002065
 name: L chromometer value
@@ -6913,6 +6900,14 @@ is_a: CO_334:0000004 ! Quality trait
 relationship: variable_of CO_334:0002061 ! L chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 created_by: Ekanem
+
+[Term]
+id: CO_334:0002063
+name: A chromometer
+namespace: cassava_trait
+def: "a scale indicate red vs. green where a positive number indicates red and a negative number indicates green" []
+xref: CO:curators
+is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0002066
