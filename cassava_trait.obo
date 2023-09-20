@@ -51,14 +51,14 @@ is_a: CO_334:0000000 ! CGIAR cassava trait ontology
 
 [Term]
 id: CO_334:0000006
-name: abiotic stress trait
+name: Abiotic stress trait
 namespace: cassava_trait
 def: "Response in terms of resistance or sensitivity to abiotic stress." [CO:curators]
 is_a: CO_334:0000005 ! Stress trait
 
 [Term]
 id: CO_334:0000007
-name: biotic stress trait
+name: Biotic stress trait
 namespace: cassava_trait
 def: "Response in terms of resistance, susceptibility or tolerance to biotic stress." [CO:curators]
 is_a: CO_334:0000005 ! Stress trait
