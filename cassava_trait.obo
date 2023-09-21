@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001047> \"CO_334:0000071\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001048> \"CO_334:0010313\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001049> \"CO_334:0000075\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001050> \"CO_334:0010374\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001051> \"CO_334:0001043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001052> \"CO_334:0001044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001053> \"CO_334:0000095\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001054> \"CO_334:0010369\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001055> \"CO_334:0000076\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CO_334_000004001> \"CO_334:0004001\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -67,7 +67,7 @@ is_a: CO_334:0000005 ! Stress trait
 id: CO_334:0000008
 name: sprouting proportion
 namespace: cassava_trait
-def: "Proportion of stakes germinated scored one month after planting." [CO:curators]
+def: "Proportion of stakes germinated scored three month after planting." [CO:curators]
 synonym: "sprout" EXACT []
 synonym: "sprout_comp_r" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -437,6 +437,18 @@ def: "Proportion of plants within a plot showing  symptoms of cassava brown stre
 synonym: "cbsdli" EXACT []
 xref: TO:0000148
 is_a: CO_334:0000028 ! viral disease
+
+[Term]
+id: CO_334:0004001
+name: fresh storage root weight per plant measured in Kg
+namespace: cassava_trait
+def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:curators]
+synonym: "rtwt" EXACT []
+synonym: "RtWt_Wgh_kg" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000302 ! Storage root weight by plot
+relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
+relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000041
@@ -5877,7 +5889,6 @@ namespace: CassavaScale
 id: CO_334:0001002
 name: Methods
 namespace: CassavaMethod
-relationship: method_of CO_334:0000474 ! Starch Content
 
 [Term]
 id: CO_334:0001012
@@ -8769,6 +8780,15 @@ relationship: variable_of CO_334:0003101 ! attieke attieke-like  aroma
 relationship: variable_of CO_334:0013012 ! attieke-like aroma method
 relationship: variable_of CO_334:0103029 ! Attieke aroma scale 0-10
 created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0004002
+name: Storage root weight per plant
+namespace: cassava_trait
+def: "Storage root weight by plant trait" []
+is_a: CO_334:0000493 ! Storage root weight
+created_by: Ekanem
+creation_date: 2023-09-14T16:13:27Z
 
 [Term]
 id: CO_334:0010000
@@ -13923,3 +13943,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
