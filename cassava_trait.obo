@@ -43,7 +43,7 @@ synonym: "post-harvest trait" EXACT []
 is_a: CO_334:0000000 ! CGIAR cassava trait ontology
 
 [Term]
-id: CO_334:0000004010
+id: CO_334:0004010
 name: b chromometer value of gari
 namespace: cassava_trait
 def: "b scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
@@ -13996,4 +13996,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
