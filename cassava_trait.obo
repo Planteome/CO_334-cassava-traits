@@ -5888,7 +5888,6 @@ namespace: CassavaScale
 id: CO_334:0001002
 name: Methods
 namespace: CassavaMethod
-relationship: method_of CO_334:0000474 ! Starch Content
 
 [Term]
 id: CO_334:0001012
