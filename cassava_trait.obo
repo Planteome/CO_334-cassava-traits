@@ -43,18 +43,6 @@ synonym: "post-harvest trait" EXACT []
 is_a: CO_334:0000000 ! CGIAR cassava trait ontology
 
 [Term]
-id: CO_334:0004010
-name: b chromometer value of gari
-namespace: cassava_trait
-def: "b scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
-synonym: "bval" EXACT []
-xref: CO:curators
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002062 ! B chromometer
-relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
-created_by: Ekanem
-
-[Term]
 id: CO_334:0000005
 name: Stress trait
 namespace: cassava_trait
@@ -8790,7 +8778,7 @@ id: CO_334:0004006
 name: L chromometer of gari
 namespace: cassava_trait
 def: "L scale of gari from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
-synonym: "lval" EXACT []
+synonym: "L*gari" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002061 ! L chromometer
@@ -8802,7 +8790,7 @@ id: CO_334:0004007
 name: L chromometer of eba
 namespace: cassava_trait
 def: "L scale of eba from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
-synonym: "lval" EXACT []
+synonym: "l*eba" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002061 ! L chromometer
@@ -8814,6 +8802,7 @@ id: CO_334:0004008
 name: a chromometer value of gari
 namespace: cassava_trait
 def: "a scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*gari" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002063 ! A chromometer
@@ -8825,9 +8814,22 @@ id: CO_334:0004009
 name: a chromometer value of eba
 namespace: cassava_trait
 def: "a scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*eba" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002063 ! A chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004010
+name: b chromometer value of gari
+namespace: cassava_trait
+def: "b scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "b*gari" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 created_by: Ekanem
 
@@ -8836,7 +8838,7 @@ id: CO_334:0004011
 name: b chromometer value of eba
 namespace: cassava_trait
 def: "b scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
-synonym: "bval" EXACT []
+synonym: "b*eba" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002062 ! B chromometer
