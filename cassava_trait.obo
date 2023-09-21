@@ -6799,10 +6799,10 @@ is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0002064
-name: b chromometer value of plant root
+name: b chromometer value of fresh root
 namespace: cassava_trait
 def: "b scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
-synonym: "bval" EXACT []
+synonym: "b*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002062 ! B chromometer
@@ -6810,10 +6810,10 @@ relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 
 [Term]
 id: CO_334:0002065
-name: L chromometer of plant root
+name: L chromometer of fresh root
 namespace: cassava_trait
 def: "L scale of plant root from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
-synonym: "lval" EXACT []
+synonym: "L*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002061 ! L chromometer
@@ -6822,9 +6822,10 @@ created_by: Ekanem
 
 [Term]
 id: CO_334:0002066
-name: a chromometer value of plant root
+name: a chromometer value of fresh root
 namespace: cassava_trait
 def: "a scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002063 ! A chromometer
