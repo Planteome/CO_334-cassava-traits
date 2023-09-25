@@ -2042,7 +2042,7 @@ relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000174
-name: b Cryptoxanthin estimation in percentage
+name: B Cryptoxanthin estimation in percentage
 namespace: cassava_trait
 def: "Estimation of B-cryptoxanthin (carotenoid that has hydroxyl group with 50% activity)." [CO:curators]
 synonym: "b-crypto" EXACT []
@@ -6799,7 +6799,7 @@ is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0002064
-name: b chromometer value of fresh root
+name: B chromometer value of fresh root
 namespace: cassava_trait
 def: "b scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
 synonym: "b*_fresh" EXACT []
@@ -6822,7 +6822,7 @@ created_by: Ekanem
 
 [Term]
 id: CO_334:0002066
-name: a chromometer value of fresh root
+name: A chromometer value of fresh root
 namespace: cassava_trait
 def: "a scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
 synonym: "a*_fresh" EXACT []
@@ -8800,7 +8800,7 @@ created_by: Ekanem
 
 [Term]
 id: CO_334:0004008
-name: a chromometer value of gari
+name: A chromometer value of gari
 namespace: cassava_trait
 def: "a scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
 synonym: "a*gari" EXACT []
@@ -8812,7 +8812,7 @@ created_by: Ekanem
 
 [Term]
 id: CO_334:0004009
-name: a chromometer value of eba
+name: A chromometer value of eba
 namespace: cassava_trait
 def: "a scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
 synonym: "a*eba" EXACT []
@@ -8824,7 +8824,7 @@ created_by: Ekanem
 
 [Term]
 id: CO_334:0004010
-name: b chromometer value of gari
+name: B chromometer value of gari
 namespace: cassava_trait
 def: "b scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
 synonym: "b*gari" EXACT []
@@ -8836,7 +8836,7 @@ created_by: Ekanem
 
 [Term]
 id: CO_334:0004011
-name: b chromometer value of eba
+name: B chromometer value of eba
 namespace: cassava_trait
 def: "b scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
 synonym: "b*eba" EXACT []
@@ -13999,3 +13999,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
