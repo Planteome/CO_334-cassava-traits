@@ -5,7 +5,6 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CO_334_000004001> \"CO_334:0004001\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -437,18 +436,6 @@ def: "Proportion of plants within a plot showing  symptoms of cassava brown stre
 synonym: "cbsdli" EXACT []
 xref: TO:0000148
 is_a: CO_334:0000028 ! viral disease
-
-[Term]
-id: CO_334:0004001
-name: fresh storage root weight per plant measured in Kg
-namespace: cassava_trait
-def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:curators]
-synonym: "rtwt" EXACT []
-synonym: "RtWt_Wgh_kg" EXACT []
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000302 ! Storage root weight by plot
-relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
-relationship: variable_of CO_334:0100493 ! kg
 
 [Term]
 id: CO_334:0000041
@@ -2054,7 +2041,7 @@ relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000174
-name: b Cryptoxanthin estimation in percentage
+name: B Cryptoxanthin estimation in percentage
 namespace: cassava_trait
 def: "Estimation of B-cryptoxanthin (carotenoid that has hydroxyl group with 50% activity)." [CO:curators]
 synonym: "b-crypto" EXACT []
@@ -6810,10 +6797,10 @@ is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0002064
-name: b chromometer value
+name: B chromometer value of fresh root
 namespace: cassava_trait
-def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." []
-synonym: "bval" EXACT []
+def: "b scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "b*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002062 ! B chromometer
@@ -6821,18 +6808,22 @@ relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 
 [Term]
 id: CO_334:0002065
-name: L chromometer value
+name: L chromometer of fresh root
 namespace: cassava_trait
-synonym: "lval" EXACT []
+def: "L scale of plant root from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "L*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002061 ! L chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
 
 [Term]
 id: CO_334:0002066
-name: a chromometer value
+name: A chromometer value of fresh root
 namespace: cassava_trait
+def: "a scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002063 ! A chromometer
@@ -8782,13 +8773,88 @@ relationship: variable_of CO_334:0103029 ! Attieke aroma scale 0-10
 created_by: Ebah Catherine
 
 [Term]
-id: CO_334:0004002
-name: Storage root weight per plant
+id: CO_334:0004001
+name: fresh storage root weight per plant measured in Kg
 namespace: cassava_trait
-def: "Storage root weight by plant trait" []
-is_a: CO_334:0000493 ! Storage root weight
+def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:curators]
+synonym: "rtwt" EXACT []
+synonym: "RtWt_Wgh_kg" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000302 ! Storage root weight by plot
+relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0004006
+name: L chromometer of gari
+namespace: cassava_trait
+def: "L scale of gari from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "L*gari" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 created_by: Ekanem
-creation_date: 2023-09-14T16:13:27Z
+
+[Term]
+id: CO_334:0004007
+name: L chromometer of eba
+namespace: cassava_trait
+def: "L scale of eba from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "l*eba" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004008
+name: A chromometer value of gari
+namespace: cassava_trait
+def: "a scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*gari" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002063 ! A chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004009
+name: A chromometer value of eba
+namespace: cassava_trait
+def: "a scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*eba" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002063 ! A chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004010
+name: B chromometer value of gari
+namespace: cassava_trait
+def: "b scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "b*gari" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004011
+name: B chromometer value of eba
+namespace: cassava_trait
+def: "b scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "b*eba" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
 
 [Term]
 id: CO_334:0010000
