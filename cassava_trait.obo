@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004012> \"CO_334:0000374\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004013> \"CO_334:0000245\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004014> \"CO_334:0100586\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -139,7 +140,7 @@ is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0001027 ! farmer preference trait at harvest
 is_a: CO_334:0002010 ! Farmer trait
 relationship: variable_of CO_334:0000456 ! Root yield
-relationship: variable_of CO_334:0010329 ! Calculation: Fresh root yield_method
+relationship: variable_of CO_334:0010329 ! Calculation: Gari bulk density
 relationship: variable_of CO_334:0100535 ! t/ha
 
 [Term]
@@ -3040,7 +3041,7 @@ name: assessment of apical pubescence boolean 0&1
 namespace: cassava_trait
 def: "Assessment of the young leaf pubescence . Record the most frequent occurrence scored as 0 = Absent, 1 = Present." [CO:curators]
 synonym: "APUBESA" RELATED []
-is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0000066 ! ash content in percentage
 relationship: variable_of CO_334:0000283 ! Apical pubescence
 relationship: variable_of CO_334:0010513 ! Visual Rating: Apical pubescence_method
 created_by: AAfolabi
@@ -8857,6 +8858,34 @@ relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 created_by: Ekanem
 
 [Term]
+id: CO_334:0004012
+name: Gari Quality
+namespace: cassava_trait
+def: "The quality of gari depends on various factors ranging from the quality of cassava used to the processing techniques employed." [CO:curators]
+synonym: "Gari Quality - Cassavabase" EXACT []
+synonym: "GarQt" EXACT []
+xref: TO:0001042
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0004013
+name: Bulk density of gari g cm−3
+namespace: cassava_trait
+def: "Bulk density refers to the mass of a substance divided by its volume when it is in a bulk or loose state is  measured in grams per cubic meter" [CO:curators]
+synonym: "BD(g/cm3)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004012 ! Gari Quality
+relationship: variable_of CO_334:0010450 ! Measurement: Gari sampled weight_method
+relationship: variable_of CO_334:0100657 ! kg/g
+
+[Term]
+id: CO_334:0004014
+name: g cm−3
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0010329 ! Calculation: Gari bulk density
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -9852,11 +9881,11 @@ relationship: method_of CO_334:0000411 ! Number of bemisia tabaci nymphs
 
 [Term]
 id: CO_334:0010329
-name: Calculation: Fresh root yield_method
+name: Calculation: Gari bulk density
 namespace: CassavaMethod
-def: "Calculated as weight of fresh storage roots expressed in tons per hectares per plant at harvest" [CO:curators]
+def: "Bulk density was measured by filling a 250 mL graduated measuring cylinder with gari samples and gently tapped on the laboratory bench about 50 times until they were levelled to the 250 mL mark.The weights were taken using an EJ Series value balance, and BD was expressed as grams per cubic centimetre." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0000456 ! Root yield
+relationship: method_of CO_334:0004012 ! Gari Quality
 
 [Term]
 id: CO_334:0010330
@@ -12558,7 +12587,7 @@ id: CO_334:0100535
 name: t/ha
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010329 ! Calculation: Fresh root yield_method
+relationship: scale_of CO_334:0010329 ! Calculation: Gari bulk density
 relationship: scale_of CO_334:0010330 ! Calculation: Dry yield_method
 relationship: scale_of CO_334:0010332 ! Calculation: Top yield_method
 
