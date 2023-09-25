@@ -8875,8 +8875,6 @@ def: "Bulk density refers to the mass of a substance divided by its volume when 
 synonym: "BD(g/cm3)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0004012 ! Gari Quality
-relationship: variable_of CO_334:0010450 ! Measurement: Gari sampled weight_method
-relationship: variable_of CO_334:0100657 ! kg/g
 
 [Term]
 id: CO_334:0004014
