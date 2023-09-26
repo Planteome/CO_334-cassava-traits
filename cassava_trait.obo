@@ -6154,7 +6154,7 @@ synonym: "BD(g/cm3)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001064 ! Gari quality
 relationship: variable_of CO_334:0001066 ! Calculation: Gari bulk density_method
-relationship: variable_of CO_334:0004017 ! g/cm-3
+relationship: variable_of CO_334:0004017 ! -log (H30+)
 
 [Term]
 id: CO_334:0001066
@@ -6166,9 +6166,9 @@ relationship: method_of CO_334:0001064 ! Gari quality
 
 [Term]
 id: CO_334:0001067
-name: -log (H30+)
+name: g/cm-3
 namespace: CassavaScale
-def: "Negative of the logarithm of H+ activity" []
+def: "grams per cubic centimeter" []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0001066 ! Calculation: Gari bulk density_method
 
@@ -8900,8 +8900,8 @@ def: "The pH of gari samples is evaluated by pH meter (PH=-log(H+) and measures 
 synonym: "PH = -log (H30+)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001064 ! Gari quality
-relationship: variable_of CO_334:0001067 ! -log (H30+)
 relationship: variable_of CO_334:0004016 ! Measurement: pH of gari_method
+relationship: variable_of CO_334:0004017 ! -log (H30+)
 created_by: Ekanem
 creation_date: 9/26/2023
 
@@ -8915,9 +8915,9 @@ relationship: method_of CO_334:0001064 ! Gari quality
 
 [Term]
 id: CO_334:0004017
-name: g/cm-3
+name: -log (H30+)
 namespace: CassavaScale
-def: "grams per cubic centimeter" []
+def: "Negative of the logarithm of H+ activity" []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0001066 ! Calculation: Gari bulk density_method
 
