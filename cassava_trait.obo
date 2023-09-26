@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001065> \"CO_334:0000096\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001066> \"CO_334:0010315\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001067> \"CO_334:0100586\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004017> \"CO_334:0001067\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004018> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004019> \"CO_334:0001066\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004020> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004021> \"CO_334:0001066\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004022> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004023> \"CO_334:0001066\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6154,7 +6154,7 @@ synonym: "BD(g/cm3)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001064 ! Gari quality
 relationship: variable_of CO_334:0001066 ! Calculation: Gari bulk density_method
-relationship: variable_of CO_334:0001067 ! g/cm-3
+relationship: variable_of CO_334:0004017 ! g/cm-3
 
 [Term]
 id: CO_334:0001066
@@ -6166,9 +6166,9 @@ relationship: method_of CO_334:0001064 ! Gari quality
 
 [Term]
 id: CO_334:0001067
-name: g/cm-3
+name: -log (H30+)
 namespace: CassavaScale
-def: "grams per cubic centimeter." []
+def: "Negative of the logarithm of H+ activity" []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0001066 ! Calculation: Gari bulk density_method
 
@@ -8891,6 +8891,98 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002062 ! B chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 created_by: Ekanem
+
+[Term]
+id: CO_334:0004015
+name: pH of gari -log (H30+)
+namespace: cassava_trait
+def: "The pH of gari samples is evaluated by pH meter (PH=-log(H+) and measures the acidity or alkalinity of gari solution." [CO:curators]
+synonym: "PH = -log (H30+)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0001067 ! -log (H30+)
+relationship: variable_of CO_334:0004016 ! Measurement: pH of gari_method
+created_by: Ekanem
+creation_date: 9/26/2023
+
+[Term]
+id: CO_334:0004016
+name: Measurement: pH of gari_method
+namespace: CassavaMethod
+def: "Measurement using a laboratory pH meter." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0004017
+name: g/cm-3
+namespace: CassavaScale
+def: "grams per cubic centimeter" []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001066 ! Calculation: Gari bulk density_method
+
+[Term]
+id: CO_334:0004018
+name: Solubility of gari %
+namespace: cassava_trait
+def: "Solubility of gari is expressed in units of mass divided by volume, such as grams per liter and is the property of gari to dissolve in distilled water at 55 degree for 30 minutes." [CO:curators]
+synonym: "Sol KSP =(A+)a(B-)b" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0004019 ! Calculation: Gari solubility_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: Ukoabasi Ekanem
+creation_date: 9/26/2023
+
+[Term]
+id: CO_334:0004019
+name: Calculation: Gari solubility_method
+namespace: CassavaMethod
+def: "Calculation of gari solubility - mass divided by volume and expressed as the percentage of dried supernatant to the initial sample weight." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0004020
+name: Swelling index of gari
+namespace: cassava_trait
+def: "Swelling index of gari is expressed as a percentage, and it indicates how much the gari swells when exposed to water." [CO:curators]
+synonym: "(vd-vk)/vk)*100" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0004021 ! Calculation: Gari swelling index_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: Ukoabasi Ekanem
+creation_date: 9/26/2023
+
+[Term]
+id: CO_334:0004021
+name: Calculation: Gari swelling index_method
+namespace: CassavaMethod
+def: "Calculation of gari swelling index using the volume of the gari and water mixture after soaking and the volume of the gari sample before soaking." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0004022
+name: Swelling power of gari %
+namespace: cassava_trait
+def: "Swelling power of gari is expressed as a percentage, and it quantifies how much the gari expands when exposed to heat and water. A higher swelling power indicates that the gari can absorb more water and increase in volume during cooking" [CO:curators]
+synonym: "Swp (%)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0004023 ! Calculation: Gari swelling power_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: Ukoabasi Ekanem
+creation_date: 9/26/2023
+
+[Term]
+id: CO_334:0004023
+name: Calculation: Gari swelling power_method
+namespace: CassavaMethod
+def: "Calculation of gari swelling power using the volume of the gari and water mixture after swelling and the initial volume of the gari sample before swelling" [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
 
 [Term]
 id: CO_334:0010000
@@ -12921,6 +13013,7 @@ relationship: scale_of CO_334:0010512 ! Calculation: Harvest index_method
 id: CO_334:0100583
 name: pct (%)
 namespace: CassavaScale
+def: "Percentage swelling power" []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010313 ! Estimation: Starch content _method
 relationship: scale_of CO_334:0010314 ! Estimation: Moisture content_method
