@@ -6137,6 +6137,14 @@ relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potentia
 relationship: variable_of CO_334:0100572 ! ug/g
 
 [Term]
+id: CO_334:0001064
+name: Gari quality
+namespace: cassava_trait
+def: "The quality of gari depends on various factors ranging from the quality of cassava used to the processing techniques employed." []
+synonym: "GarQt" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
