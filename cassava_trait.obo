@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001065> \"CO_334:0000096\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001066> \"CO_334:0010315\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001067> \"CO_334:0100586\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6135,6 +6136,41 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
 relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
 relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_334:0001064
+name: Gari quality
+namespace: cassava_trait
+def: "The quality of gari depends on various factors ranging from the quality of cassava used to the processing techniques employed." []
+synonym: "GarQt" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001065
+name: Bulk density of gari g cm−3
+namespace: cassava_trait
+def: "Bulk density refers to the mass of a substance divided by its volume when it is in a bulk or loose state is measured in grams per cubic meter." [CO:curators]
+synonym: "BD(g/cm3)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0001066 ! Calculation: Gari bulk density_method
+relationship: variable_of CO_334:0001067 ! g/cm-3
+
+[Term]
+id: CO_334:0001066
+name: Calculation: Gari bulk density_method
+namespace: CassavaMethod
+def: "Calculation of gari bulk density - mass divided by volume." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0001067
+name: g/cm-3
+namespace: CassavaScale
+def: "grams per cubic centimeter." []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001066 ! Calculation: Gari bulk density_method
 
 [Term]
 id: CO_334:0002001
