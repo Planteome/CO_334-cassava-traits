@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004030> \"CO_334:0001064\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004031> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004032> \"CO_334:0004016\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004033> \"CO_334:0004017\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004034> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004035> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004036> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004037> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004038> \"CO_334:0001065\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004039> \"CO_334:0001065\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -8982,6 +8983,121 @@ namespace: CassavaMethod
 def: "Calculation of gari swelling power using the volume of the gari and water mixture after swelling and the initial volume of the gari sample before swelling" [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0004030
+name: Gari Rapid Visco Analyzer
+namespace: cassava_trait
+def: "The assessment of gari texture using rheometry and texture profile analysis" []
+synonym: "RVA" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0004031
+name: Rapid visco analyze breakdown of gari RUV
+namespace: cassava_trait
+def: "Rapid visco analyze breakdown of gari is regarded as the measure of the degree of disintegration of the granules or paste stability" [CO:curators]
+synonym: "RVA-breakdown (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004030 ! Gari Rapid Visco Analyzer
+relationship: variable_of CO_334:0004032 ! Measurement: Gari rapid visco analyzer_method
+relationship: variable_of CO_334:0004033 ! RUV
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004032
+name: Measurement: Gari rapid visco analyzer_method
+namespace: CassavaMethod
+def: "Measurement using rapid visco analyzer." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0004033
+name: RUV
+namespace: CassavaScale
+def: "Rapid Visco Units" []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0004016 ! Measurement: pH of gari_method
+
+[Term]
+id: CO_334:0004034
+name: Rapid visco analyze final viscosity of gari RUV
+namespace: cassava_trait
+def: "The final viscosity of gari is the ability of the gari to form viscous paste after cooking and cooling" [CO:curators]
+synonym: "RVA-final visc (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004030 ! Gari Rapid Visco Analyzer
+relationship: variable_of CO_334:0004032 ! Measurement: Gari rapid visco analyzer_method
+relationship: variable_of CO_334:0004033 ! RUV
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004035
+name: Rapid visco analyze peak viscosity of gari RUV
+namespace: cassava_trait
+def: "The peak viscosity of gari is achieved when the rate of granules swelling equals the breakdown granules" [CO:curators]
+synonym: "RVA-peak visc (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004030 ! Gari Rapid Visco Analyzer
+relationship: variable_of CO_334:0004032 ! Measurement: Gari rapid visco analyzer_method
+relationship: variable_of CO_334:0004033 ! RUV
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004036
+name: Rapid visco analyze peak time of gari in minute
+namespace: cassava_trait
+def: "The peak viscosity of gari is achieved when the rate of granules swelling equals the breakdown granules" [CO:curators]
+synonym: "RVA-peak time (m)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004030 ! Gari Rapid Visco Analyzer
+relationship: variable_of CO_334:0004032 ! Measurement: Gari rapid visco analyzer_method
+relationship: variable_of CO_334:0100696 ! minute
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004037
+name: Rapid visco analyze setback viscosity of gari RUV
+namespace: cassava_trait
+def: "The setback viscosity of gari is determined by the difference between the peak viscosity and the final viscosity" [CO:curators]
+synonym: "RVA-setback visc (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004030 ! Gari Rapid Visco Analyzer
+relationship: variable_of CO_334:0004032 ! Measurement: Gari rapid visco analyzer_method
+relationship: variable_of CO_334:0004033 ! RUV
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004038
+name: Rapid visco analyze trough viscosity of gari RUV
+namespace: cassava_trait
+def: "Trough viscosity of gari is the disruption of granules resulting in a decrease in paste viscosity" [CO:curators]
+synonym: "RVA-trough (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004030 ! Gari Rapid Visco Analyzer
+relationship: variable_of CO_334:0004032 ! Measurement: Gari rapid visco analyzer_method
+relationship: variable_of CO_334:0004033 ! RUV
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004039
+name: Rapid visco analyze pasting temperature of gari in °C
+namespace: cassava_trait
+def: "The rapid visco analyze pasting temperature of gari is the temperature at which the starch in gari begins to gelatinize and thicken as it is heated and stirred" [CO:curators]
+synonym: "RVA-pasting temp (°C))" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004030 ! Gari Rapid Visco Analyzer
+relationship: variable_of CO_334:0004032 ! Measurement: Gari rapid visco analyzer_method
+relationship: variable_of CO_334:0100703 ! degree celsius
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
 
 [Term]
 id: CO_334:0010000
