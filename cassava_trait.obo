@@ -8987,15 +8987,15 @@ relationship: method_of CO_334:0001064 ! Gari quality
 id: CO_334:0004024
 name: Gari particle size
 namespace: cassava_trait
-def: "The partricle size indicate the granular size of the gari samples measure at 0-300, ps300-500, ps500-800, and ps800 um" []
+def: "The  size indicate the granular size of the gari samples measure at 0-300, ps300-500, ps500-800, and ps800 um" []
 synonym: "granular size(um)" EXACT []
 is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0004025
-name: Partricle size of gari at ps800 um
+name: particle size of gari at ps800 um
 namespace: cassava_trait
-def: "Partricle size of gari measure at ps800 (800 um) refers to as the large particles size of gari" [CO:curators]
+def: "particle size of gari measure at ps800 (800 um) refers to as the large particles size of gari" [CO:curators]
 synonym: "ps800 (um)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0004024 ! Gari particle size
@@ -9014,9 +9014,9 @@ relationship: method_of CO_334:0004024 ! Gari particle size
 
 [Term]
 id: CO_334:0004027
-name: Partricle size of gari at 500-800 um
+name: particle size of gari at 500-800 um
 namespace: cassava_trait
-def: "Partricle size of gari measure at ps500-800 (500 um) refers to as the medium-sized particles of gari" [CO:curators]
+def: "particle size of gari measure at ps500-800 (500 um) refers to as the medium-sized particles of gari" [CO:curators]
 synonym: "ps500-800 (um)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0004024 ! Gari particle size
@@ -9027,9 +9027,9 @@ creation_date: 9/27/2023
 
 [Term]
 id: CO_334:0004028
-name: Partricle size of gari at ps300-500 um
+name: particle size of gari at ps300-500 um
 namespace: cassava_trait
-def: "Partricle size of gari measure at ps300-500 (300 um) refers to as the  small particles of gari" [CO:curators]
+def: "particle size of gari measure at ps300-500 (300 um) refers to as the  small particles of gari" [CO:curators]
 synonym: "ps300-500 (um)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0004024 ! Gari particle size
@@ -9040,9 +9040,9 @@ creation_date: 9/27/2023
 
 [Term]
 id: CO_334:0004029
-name: Partricle size of gari at ps0-300 um
+name: particle size of gari at ps0-300 um
 namespace: cassava_trait
-def: "Partricle size of gari measure at ps0-300 refers to as the  smallest particles of gari" [CO:curators]
+def: "particle size of gari measure at ps0-300 refers to as the  smallest particles of gari" [CO:curators]
 synonym: "ps0-300(um)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0004024 ! Gari particle size
@@ -14204,4 +14204,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
