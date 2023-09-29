@@ -8984,6 +8984,74 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001064 ! Gari quality
 
 [Term]
+id: CO_334:0004024
+name: Gari particle size
+namespace: cassava_trait
+def: "The  size indicate the granular size of the gari samples measure at 0-300, ps300-500, ps500-800, and ps800 um" []
+synonym: "granular size(um)" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0004025
+name: particle size of gari at ps800 um
+namespace: cassava_trait
+def: "particle size of gari measure at ps800 (800 um) refers to as the large particles size of gari" [CO:curators]
+synonym: "ps800 (um)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004024 ! Gari particle size
+relationship: variable_of CO_334:0004026 ! Measurement: Gari particle size_method
+relationship: variable_of CO_334:0100692 ! um
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004026
+name: Measurement: Gari particle size_method
+namespace: CassavaMethod
+def: "The particle size of gari sample is determined by placing 50 g of gari samples on a tier of sieves arranged in a decreasing aperture size: ps800 (800 um) for the large particles,ps500-800 (500 um) for medium-sized particles, ps300-500 (300 um) for small particles, and ps0-300 for the smallest particles, collected in a base pan and fractions retain on each sieve are weighed using an electrionic balance and expressed as a percentage of the initial sample weight." []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0004024 ! Gari particle size
+
+[Term]
+id: CO_334:0004027
+name: particle size of gari at 500-800 um
+namespace: cassava_trait
+def: "particle size of gari measure at ps500-800 (500 um) refers to as the medium-sized particles of gari" [CO:curators]
+synonym: "ps500-800 (um)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004024 ! Gari particle size
+relationship: variable_of CO_334:0004026 ! Measurement: Gari particle size_method
+relationship: variable_of CO_334:0100692 ! um
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004028
+name: particle size of gari at ps300-500 um
+namespace: cassava_trait
+def: "particle size of gari measure at ps300-500 (300 um) refers to as the  small particles of gari" [CO:curators]
+synonym: "ps300-500 (um)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004024 ! Gari particle size
+relationship: variable_of CO_334:0004026 ! Measurement: Gari particle size_method
+relationship: variable_of CO_334:0100692 ! um
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
+id: CO_334:0004029
+name: particle size of gari at ps0-300 um
+namespace: cassava_trait
+def: "particle size of gari measure at ps0-300 refers to as the  smallest particles of gari" [CO:curators]
+synonym: "ps0-300(um)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004024 ! Gari particle size
+relationship: variable_of CO_334:0004026 ! Measurement: Gari particle size_method
+relationship: variable_of CO_334:0100692 ! um
+created_by: Ukoabasi Ekanem
+creation_date: 9/27/2023
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -14136,4 +14204,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
