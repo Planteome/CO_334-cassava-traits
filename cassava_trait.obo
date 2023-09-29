@@ -66,7 +66,7 @@ is_a: CO_334:0000005 ! Stress trait
 id: CO_334:0000008
 name: sprouting proportion
 namespace: cassava_trait
-def: "Proportion of stakes germinated scored one month after planting." [CO:curators]
+def: "Proportion of stakes germinated scored three month after planting." [CO:curators]
 synonym: "sprout" EXACT []
 synonym: "sprout_comp_r" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -2041,7 +2041,7 @@ relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0000174
-name: b Cryptoxanthin estimation in percentage
+name: B Cryptoxanthin estimation in percentage
 namespace: cassava_trait
 def: "Estimation of B-cryptoxanthin (carotenoid that has hydroxyl group with 50% activity)." [CO:curators]
 synonym: "b-crypto" EXACT []
@@ -5876,7 +5876,6 @@ namespace: CassavaScale
 id: CO_334:0001002
 name: Methods
 namespace: CassavaMethod
-relationship: method_of CO_334:0000474 ! Starch Content
 
 [Term]
 id: CO_334:0001012
@@ -6136,6 +6135,41 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
 relationship: variable_of CO_334:0010334 ! Estimation: Hydrogen cyanide potential enzymatic method
 relationship: variable_of CO_334:0100572 ! ug/g
+
+[Term]
+id: CO_334:0001064
+name: Gari quality
+namespace: cassava_trait
+def: "The quality of gari depends on various factors ranging from the quality of cassava used to the processing techniques employed." []
+synonym: "GarQt" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001065
+name: Bulk density of gari g cm−3
+namespace: cassava_trait
+def: "Bulk density refers to the mass of a substance divided by its volume when it is in a bulk or loose state is measured in grams per cubic meter." [CO:curators]
+synonym: "BD(g/cm3)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0001066 ! Calculation: Gari bulk density_method
+relationship: variable_of CO_334:0001067 ! g/cm-3
+
+[Term]
+id: CO_334:0001066
+name: Calculation: Gari bulk density_method
+namespace: CassavaMethod
+def: "Calculation of gari bulk density - mass divided by volume." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0001067
+name: g/cm-3
+namespace: CassavaScale
+def: "grams per cubic centimeter" []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001066 ! Calculation: Gari bulk density_method
 
 [Term]
 id: CO_334:0002001
@@ -6798,10 +6832,10 @@ is_a: CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0002064
-name: b chromometer value
+name: B chromometer value of fresh root
 namespace: cassava_trait
-def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." []
-synonym: "bval" EXACT []
+def: "b scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "b*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002062 ! B chromometer
@@ -6809,18 +6843,22 @@ relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
 
 [Term]
 id: CO_334:0002065
-name: L chromometer value
+name: L chromometer of fresh root
 namespace: cassava_trait
-synonym: "lval" EXACT []
+def: "L scale of plant root from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "L*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002061 ! L chromometer
 relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
 
 [Term]
 id: CO_334:0002066
-name: a chromometer value
+name: A chromometer value of fresh root
 namespace: cassava_trait
+def: "a scale of plant root indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*_fresh" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002063 ! A chromometer
@@ -9638,6 +9676,182 @@ namespace: cassava_trait
 def: "Compatibility for use in a given environment" []
 synonym: "SuitSlEnv" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0004001
+name: fresh storage root weight per plant measured in Kg
+namespace: cassava_trait
+def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:curators]
+synonym: "rtwt" EXACT []
+synonym: "RtWt_Wgh_kg" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000302 ! Storage root weight by plot
+relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
+relationship: variable_of CO_334:0100493 ! kg
+
+[Term]
+id: CO_334:0004006
+name: L chromometer of gari
+namespace: cassava_trait
+def: "L scale of gari from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "L*gari" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004007
+name: L chromometer of eba
+namespace: cassava_trait
+def: "L scale of eba from chromometer indicating light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" []
+synonym: "l*eba" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002061 ! L chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004008
+name: A chromometer value of gari
+namespace: cassava_trait
+def: "a scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*gari" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002063 ! A chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004009
+name: A chromometer value of eba
+namespace: cassava_trait
+def: "a scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "a*eba" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002063 ! A chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004010
+name: B chromometer value of gari
+namespace: cassava_trait
+def: "b scale of gari indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "b*gari" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004011
+name: B chromometer value of eba
+namespace: cassava_trait
+def: "b scale of eba indicating red vs. green where a positive number indicates red and a negative number indicates green" []
+synonym: "b*eba" EXACT []
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002062 ! B chromometer
+relationship: variable_of CO_334:0010522 ! Computation: Chromometer color values
+created_by: Ekanem
+
+[Term]
+id: CO_334:0004015
+name: pH of gari -log (H30+)
+namespace: cassava_trait
+def: "The pH of gari samples is evaluated by pH meter (PH=-log(H+) and measures the acidity or alkalinity of gari solution." [CO:curators]
+synonym: "PH = -log (H30+)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0004016 ! Measurement: pH of gari_method
+relationship: variable_of CO_334:0004017 ! -log (H30+)
+created_by: Ekanem
+creation_date: 9/26/2023
+
+[Term]
+id: CO_334:0004016
+name: Measurement: pH of gari_method
+namespace: CassavaMethod
+def: "Measurement using a laboratory pH meter." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0004017
+name: -log (H30+)
+namespace: CassavaScale
+def: "Negative of the logarithm of H+ activity" []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0004016 ! Measurement: pH of gari_method
+
+[Term]
+id: CO_334:0004018
+name: Solubility of gari %
+namespace: cassava_trait
+def: "Solubility of gari is expressed in units of mass divided by volume, such as grams per liter and is the property of gari to dissolve in distilled water at 55 degree for 30 minutes." [CO:curators]
+synonym: "Sol KSP =(A+)a(B-)b" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0004019 ! Calculation: Gari solubility_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: Ukoabasi Ekanem
+creation_date: 9/26/2023
+
+[Term]
+id: CO_334:0004019
+name: Calculation: Gari solubility_method
+namespace: CassavaMethod
+def: "Calculation of gari solubility - mass divided by volume and expressed as the percentage of dried supernatant to the initial sample weight." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0004020
+name: Swelling index of gari
+namespace: cassava_trait
+def: "Swelling index of gari is expressed as a percentage, and it indicates how much the gari swells when exposed to water." [CO:curators]
+synonym: "(vd-vk)/vk)*100" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0004021 ! Calculation: Gari swelling index_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: Ukoabasi Ekanem
+creation_date: 9/26/2023
+
+[Term]
+id: CO_334:0004021
+name: Calculation: Gari swelling index_method
+namespace: CassavaMethod
+def: "Calculation of gari swelling index using the volume of the gari and water mixture after soaking and the volume of the gari sample before soaking." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
+
+[Term]
+id: CO_334:0004022
+name: Swelling power of gari %
+namespace: cassava_trait
+def: "Swelling power of gari is expressed as a percentage, and it quantifies how much the gari expands when exposed to heat and water. A higher swelling power indicates that the gari can absorb more water and increase in volume during cooking" [CO:curators]
+synonym: "Swp (%)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001064 ! Gari quality
+relationship: variable_of CO_334:0004023 ! Calculation: Gari swelling power_method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: Ukoabasi Ekanem
+creation_date: 9/26/2023
+
+[Term]
+id: CO_334:0004023
+name: Calculation: Gari swelling power_method
+namespace: CassavaMethod
+def: "Calculation of gari swelling power using the volume of the gari and water mixture after swelling and the initial volume of the gari sample before swelling" [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001064 ! Gari quality
 
 [Term]
 id: CO_334:0010000
