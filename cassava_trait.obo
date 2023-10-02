@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004040> \"CO_334:0002105\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004041> \"CO_334:0002104\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004042> \"CO_334:0002108\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004043> \"CO_334:0002107\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004044> \"\")\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004044> \"CO_334:0002104\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004045> \"CO_334:0010538\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004046> \"CO_334:0002098\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004047> \"CO_334:0002103\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0004048> \"CO_334:0002106\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -9052,6 +9053,111 @@ created_by: Ukoabasi Ekanem
 creation_date: 9/27/2023
 
 [Term]
+id: CO_334:0004040
+name: Breakdown of gari in pascal per seconds
+namespace: cassava_trait
+def: "Breakdown equals peak viscosity minus trough viscosity. Measured with the Rapid Visco Analyzer (RVA) in pascal per seconds" []
+synonym: "RVA-breakdown (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002094 ! Breakdown
+relationship: variable_of CO_334:0010536 ! Calculation: Breakdown_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+created_by: Ukoabasi Ekanem
+creation_date: 10/2/2023
+
+[Term]
+id: CO_334:0004041
+name: Final viscosity of gari estimation in pascal per seconds
+namespace: cassava_trait
+def: "Viscosity at the end of the RVA test. Measured using the Rapid Visco Analyzer (RVA) in pascal per second." []
+synonym: "RVA-final visc (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002092 ! Final viscosity
+relationship: variable_of CO_334:0010535 ! Estimation: Final viscosity_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+created_by: Ukoabasi Ekanem
+creation_date: 10/2/2023
+
+[Term]
+id: CO_334:0004042
+name: Pasting temperature of gari measurement in degree celsius
+namespace: cassava_trait
+def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase measured by the Rapid Visco Analyser (RVA) in degree celsius." []
+synonym: "RVA-pasting temp (°C)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002100 ! Pasting temperature
+relationship: variable_of CO_334:0010539 ! Measurement: Pasting temperature_method
+relationship: variable_of CO_334:0100703 ! degree celsius
+created_by: Ukoabasi Ekanem
+creation_date: 10/2/2023
+
+[Term]
+id: CO_334:0004043
+name: Peak viscosity of gari measurement in degree celsius
+namespace: cassava_trait
+def: "Maximum viscosity during the heating or hold phase of the RVA test measured by the Rapid Visco Analyser (RVA) in degree celsius." []
+synonym: "RVA-peak visc(RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002098 ! Peak viscosity
+relationship: variable_of CO_334:0010538 ! Measurement: Peak viscosity_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+created_by: Ukoabasi Ekanem
+creation_date: 10/2/2023
+
+[Term]
+id: CO_334:0004044
+name: Peak time viscosity of gari measured in minutes
+namespace: cassava_trait
+def: "Time at which the viscosity of gari sample reaches its maximum value during the RVA test. Measured using the Rapid Visco Analyzer (RVA) in pascal per second." []
+synonym: "RVA-peak time (m)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0004045 ! Measurement: Peak time viscosity_method
+relationship: variable_of CO_334:0004046 ! Peak time viscosity
+relationship: variable_of CO_334:0100696 ! minute
+created_by: Ukoabasi Ekanem
+creation_date: 10/2/2023
+
+[Term]
+id: CO_334:0004045
+name: Measurement: Peak time viscosity_method
+namespace: CassavaMethod
+def: "Maximum time taken for the viscosity to reach its peak value during the RVA test" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0002098 ! Peak viscosity
+
+[Term]
+id: CO_334:0004046
+name: Peak time viscosity
+namespace: cassava_trait
+def: "Time at which the viscosity of the sample reaches its maximum value during the RVA test" []
+synonym: "RVA-peak time" RELATED []
+is_a: CO_334:0002109 ! Viscosity trait
+
+[Term]
+id: CO_334:0004047
+name: Setback of gari calculation in pascal per seconds
+namespace: cassava_trait
+def: "Measured on gari using the Rapid Visco Analyzer (RVA). Final viscosity minus trough viscosity." []
+synonym: "RVA-setback visc (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002090 ! Setback
+relationship: variable_of CO_334:0010534 ! Calculation: Setback_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+
+[Term]
+id: CO_334:0004048
+name: Trough of gari estimation in pascal per seconds
+namespace: cassava_trait
+def: "The minimum viscosity after the peak.Measured with the Rapid Visco Analyzer (RVA) in pascal per seconds. it is a measure of the holding strength of the flour" []
+synonym: "RVA-trough (RUV)" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002096 ! Trough
+relationship: variable_of CO_334:0010537 ! Estimation: Trough_method
+relationship: variable_of CO_334:0100704 ! pascal per seconds
+created_by: Ukoabasi Ekanem
+creation_date: 10/2/2023
+
+[Term]
 id: CO_334:0010000
 name: Measurement: Plant height with leaf_method
 namespace: CassavaMethod
@@ -14204,3 +14310,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
