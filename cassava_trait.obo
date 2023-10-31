@@ -308,7 +308,7 @@ id: CO_334:0000027
 name: bacterial disease
 namespace: cassava_trait
 def: "Traits related to incidence and severity of cassava response to bacterial pathogens." [CO:curators]
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000007 ! Biotic stress trait
 created_by: BAKARE
 creation_date: 2010-11-08T06:42:36Z
 
@@ -317,7 +317,7 @@ id: CO_334:0000028
 name: viral disease
 namespace: cassava_trait
 def: "Traits related to incidence and severity of cassava response to viral pathogens." [CO:curators]
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000007 ! Biotic stress trait
 created_by: BAKARE
 creation_date: 2010-11-08T06:43:31Z
 
@@ -326,7 +326,7 @@ id: CO_334:0000029
 name: fungal disease
 namespace: cassava_trait
 def: "Traits related to incidence and severity of cassava response to fungal pathogens." [CO:curators]
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000007 ! Biotic stress trait
 created_by: BAKARE
 creation_date: 2010-11-08T06:44:26Z
 
@@ -335,7 +335,7 @@ id: CO_334:0000030
 name: insect damage
 namespace: cassava_trait
 def: "Traits related to damage caused by insects." [CO:curators]
-is_a: CO_334:0000007 ! biotic stress trait
+is_a: CO_334:0000007 ! Biotic stress trait
 created_by: BAKARE
 creation_date: 2010-11-08T06:45:42Z
 
@@ -3429,9 +3429,10 @@ is_a: CO_334:0000329 ! Plant branch morphological trait
 id: CO_334:0000295
 name: Branching habit
 namespace: cassava_trait
-def: "Branching habit" [CO:curators]
+def: "Branching habit" []
 synonym: "brnhbt" EXACT []
 xref: TO:0000740
+is_a: CO_334:0000002 ! Morphological trait
 is_a: CO_334:0000329 ! Plant branch morphological trait
 
 [Term]
@@ -4084,7 +4085,7 @@ is_a: CO_334:0000002 ! Morphological trait
 id: CO_334:0000361
 name: Ease of harvest
 namespace: cassava_trait
-def: "Ease of plant harvest" [CO:curators]
+def: "Ease of plant harvest" []
 synonym: "easehav" EXACT []
 xref: TO:0001042
 is_a: CO_334:0000001 ! Agronomic trait
@@ -4093,9 +4094,10 @@ is_a: CO_334:0000001 ! Agronomic trait
 id: CO_334:0000362
 name: Ease of peeling storage root cortex
 namespace: cassava_trait
-def: "Ease of storage root cortex removal." [CO:curators]
+def: "Ease of root cortex removal" []
 synonym: "easepl" EXACT []
 xref: TO:0001042
+is_a: CO_334:0000002 ! Morphological trait
 is_a: CO_334:0000333 ! Root morphological trait
 
 [Term]
@@ -4271,7 +4273,7 @@ is_a: CO_334:0000004 ! Quality trait
 id: CO_334:0000381
 name: Gari taste
 namespace: cassava_trait
-def: "Taste of gari" [CO:curators]
+def: "Taste of gari" []
 synonym: "gtaste" EXACT []
 xref: TO:0001042
 is_a: CO_334:0000004 ! Quality trait
@@ -4415,8 +4417,9 @@ is_a: CO_334:0000331 ! Leaf lobe
 id: CO_334:0000396
 name: Leaf retention
 namespace: cassava_trait
-def: "Leaf retention (stay green)" [CO:curators]
+def: "Leaf retention (stay green)." []
 synonym: "LfRet" EXACT []
+synonym: "lfret" EXACT []
 synonym: "Stay green, Leaf Retention - Cassavabase" EXACT []
 xref: TO:0000748
 is_a: CO_334:0000003 ! Physiological trait
@@ -4670,7 +4673,9 @@ creation_date: 2017-07-18T14:52:38Z
 id: CO_334:0000424
 name: Root dry matter content
 namespace: cassava_trait
-def: "Dry matter content of root related terms." [CO:curator]
+def: "Dry matter content of root related terms." []
+synonym: "RtDMC" EXACT []
+is_a: CO_334:0000004 ! Quality trait
 is_a: CO_334:0000447 ! Dry matter content
 created_by: AAfolabi
 creation_date: 2017-07-18T14:58:31Z
@@ -4962,7 +4967,7 @@ is_a: CO_334:0000334 ! Storage root morphological trait
 id: CO_334:0000456
 name: Root yield
 namespace: cassava_trait
-def: "Storage root yield" [CO:curators]
+def: "Tuberous root yield" []
 synonym: "RtYld" EXACT []
 xref: TO:0001041
 is_a: CO_334:0000001 ! Agronomic trait
@@ -5114,7 +5119,7 @@ creation_date: 2017-07-25T11:14:47Z
 id: CO_334:0000472
 name: Sprouting
 namespace: cassava_trait
-def: "Proportion of stakes germinated" [CO:curators]
+def: "Proportion of stakes germinated" []
 synonym: "Proportion of germinated stakes" EXACT []
 synonym: "sprout" EXACT []
 xref: TO:0000250
@@ -5282,28 +5287,32 @@ is_a: CO_334:0000334 ! Storage root morphological trait
 id: CO_334:0000490
 name: Storage Root Pulp Color
 namespace: cassava_trait
-def: "Storage root pulp color" [CO:curators]
+def: "Storage root pulp color" []
+synonym: "PlpCol" EXACT []
 synonym: "plpcol" EXACT []
 xref: TO:1000007
+is_a: CO_334:0000002 ! Morphological trait
 is_a: CO_334:0000334 ! Storage root morphological trait
 
 [Term]
 id: CO_334:0000491
 name: Storage Root Shape
 namespace: cassava_trait
-def: "Storage root shape" [CO:curators]
+def: "Storage root shape" []
 synonym: "rtshp" EXACT []
 xref: TO:1000007
+is_a: CO_334:0000002 ! Morphological trait
 is_a: CO_334:0000334 ! Storage root morphological trait
 
 [Term]
 id: CO_334:0000492
 name: Storage Root Size
 namespace: cassava_trait
-def: "Storage root length" [CO:curators]
+def: "Storage root length" []
 synonym: "rtsz" EXACT []
 synonym: "Storage root length" EXACT []
 xref: TO:1000007
+is_a: CO_334:0000002 ! Morphological trait
 is_a: CO_334:0000334 ! Storage root morphological trait
 
 [Term]
@@ -5355,7 +5364,7 @@ is_a: CO_334:0000004 ! Quality trait
 id: CO_334:0000498
 name: Taste of boiled roots
 namespace: cassava_trait
-def: "Taste of boiled roots" [CO:curators]
+def: "Taste of boiled roots" []
 synonym: "pdtas" EXACT []
 xref: TO:0001042
 is_a: CO_334:0000004 ! Quality trait
@@ -6194,12 +6203,16 @@ is_a: CO_334:0000001 ! Agronomic trait
 id: CO_334:0002003
 name: In-ground storability
 namespace: cassava_trait
+def: "In-ground storability" []
+synonym: "InGrdStor" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0002004
 name: Early bulking
 namespace: cassava_trait
+def: "Early bulking" []
+synonym: "EarBulk" EXACT []
 is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
@@ -6665,6 +6678,7 @@ id: CO_334:0002047
 name: Leaf edibility
 namespace: cassava_trait
 def: "Palatability of cassava leaves likened to be eaten as fresh vegetable" []
+synonym: "leafed" EXACT []
 synonym: "leafed" RELATED []
 xref: CO:curators
 is_a: CO_334:0000004 ! Quality trait
@@ -7815,7 +7829,7 @@ name: Fufu colour scale 1-8
 namespace: cassava_trait
 def: "Measures the intensity of the different colours of the cooked fufu surface on a scale 1 to 8" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003047 ! fufu surface colour
+relationship: variable_of CO_334:0003047 ! Fufu surface colour
 relationship: variable_of CO_334:0013005 ! surface colour sppearance method
 relationship: variable_of CO_334:0103022 ! Surface colour appearance scale 1-8
 created_by: Ugo Chijioke
@@ -7848,7 +7862,7 @@ name: Fufu moldability scale 0-10
 namespace: cassava_trait
 def: "Meassures the easiness of fufu to stick together without disintegrating easiness to mould." []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003050 ! fufu moldability in the hand
+relationship: variable_of CO_334:0003050 ! Fufu moldability in the hand
 relationship: variable_of CO_334:0013008 ! moldability texture in the hand method
 relationship: variable_of CO_334:0103025 ! Fufu moldability by hand scale 0-10
 created_by: Ugo Chijioke
@@ -7859,7 +7873,7 @@ name: Fufu hardness scale 0-10
 namespace: cassava_trait
 def: "Measure the easiness of pressing a sample with the index finger" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003051 ! fufu hardness in hand
+relationship: variable_of CO_334:0003051 ! Fufu hardness in hand
 relationship: variable_of CO_334:0013009 ! hardness texture by hand method
 relationship: variable_of CO_334:0103026 ! Fufu hardness by hand scale 0-10
 created_by: Ugo Chijioke
@@ -7870,7 +7884,7 @@ name: Fufu stretchability scale 0-10
 namespace: cassava_trait
 def: "Measures the ability of fufu to stretch when pulled apart with the fingers" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003052 ! fufu stretchability in the hand
+relationship: variable_of CO_334:0003052 ! Fufu stretchability in the hand
 relationship: variable_of CO_334:0013010 ! stretchability texture by the hand method
 relationship: variable_of CO_334:0103027 ! Fufu stretchability in hand scale 0-10
 created_by: Ugo Chijioke
@@ -7881,14 +7895,14 @@ name: Fufu odour scale 0-10
 namespace: cassava_trait
 def: "Measures the odour fufu  smelt with nose when it is just cooked" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003053 ! fufu odour
+relationship: variable_of CO_334:0003053 ! Fufu odour
 relationship: variable_of CO_334:0013011 ! odour method
 relationship: variable_of CO_334:0103028 ! Fufu odour scale 0-10
 created_by: Ugo Chijioke
 
 [Term]
 id: CO_334:0003047
-name: fufu surface colour
+name: Fufu surface colour
 namespace: cassava_trait
 def: "Colour of cooked fufu being as white as a flip chart paper or as as off white as soy milk colour, or as grey as skin of sardine fish, or as light as cement colour, or as cream coloured as peak evaporated liquid milk, or as light yellow as cooked egg york, or as yellow as skin of ripe orange, or as brown in colour as whole wheat meal" []
 synonym: "FufSurfCol" EXACT []
@@ -7912,7 +7926,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003050
-name: fufu moldability in the hand
+name: Fufu moldability in the hand
 namespace: cassava_trait
 def: "Ability of the fufu to stick together easily without disintegrating or cohesive and being easy to mould." []
 synonym: "FufHdMol" EXACT []
@@ -7920,7 +7934,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003051
-name: fufu hardness in hand
+name: Fufu hardness in hand
 namespace: cassava_trait
 def: "Softness is when it is quite easy to compress the fufu sample, while hardness is when force is used to compress the sample or takes effort to compress the sample" []
 synonym: "FufHdHard" EXACT []
@@ -7928,7 +7942,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003052
-name: fufu stretchability in the hand
+name: Fufu stretchability in the hand
 namespace: cassava_trait
 def: "Ability of fufu to stretch when pulled apart with fingers" []
 synonym: "FufHdStret" EXACT []
@@ -7936,7 +7950,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003053
-name: fufu odour
+name: Fufu odour
 namespace: cassava_trait
 def: "Odour/aroma of fufu" []
 synonym: "FuOd" EXACT []
@@ -8366,7 +8380,7 @@ name: Eba hardness scale 0-10
 namespace: cassava_trait
 def: "Measures the amount of force required to press a sample placed between fingers. Scale 0to10.  0=Soft	; 5=Slightly soft; 10=Very hard" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003134 ! eba hardness in hand
+relationship: variable_of CO_334:0003134 ! Eba hardness in hand
 relationship: variable_of CO_334:0013009 ! hardness texture by hand method
 relationship: variable_of CO_334:0103044 ! Eba hardness in the hand scale 0-10
 created_by: Busie Maziya-Dixon
@@ -8377,7 +8391,7 @@ name: Eba smoothness scale 0-10
 namespace: cassava_trait
 def: "Measures the amount of string like particles present on sample by feeling sample between tongue and palate after chewing. Scale 0to10. 0=Fine	; 5=Moderately course	; 10=Coarse" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003135 ! eba smoothness in mouth
+relationship: variable_of CO_334:0003135 ! Eba smoothness in mouth
 relationship: variable_of CO_334:0013053 ! smoothness texture in the mouth method
 relationship: variable_of CO_334:0103045 ! Eba smoothness in the mouth scale 0-10
 created_by: Busie Maziya-Dixon
@@ -8399,7 +8413,7 @@ name: Eba streachability scale 0-10
 namespace: cassava_trait
 def: "Measures the ability of sample to stretch when flattened with palms. Scale 0to10. 0=Not streachable	; 5=Slightly streachable	; 10=Very streachable" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003137 ! eba stretchability in the hand
+relationship: variable_of CO_334:0003137 ! Eba stretchability in the hand
 relationship: variable_of CO_334:0013010 ! stretchability texture by the hand method
 relationship: variable_of CO_334:0103048 ! Eba streachability in hand scale 0-10
 created_by: Busie Maziya-Dixon
@@ -8410,7 +8424,7 @@ name: Eba surface whiteness scale 0-10
 namespace: cassava_trait
 def: "Measures the intensity of surface white colour. Scale 0to10. 0=White	10-Off white" []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0003138 ! eba surface whiteness
+relationship: variable_of CO_334:0003138 ! Eba surface whiteness
 relationship: variable_of CO_334:0013047 ! surface whiteness appearance method
 relationship: variable_of CO_334:0103049 ! Eba surface whiteness scale 0-10
 created_by: Busie Maziya-Dixon
@@ -8726,7 +8740,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003134
-name: eba hardness in hand
+name: Eba hardness in hand
 namespace: cassava_trait
 def: "Mechanical textural attribute related to the force necessary to achieve a certain deformation" []
 synonym: "EbaHdHard" EXACT []
@@ -8734,7 +8748,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003135
-name: eba smoothness in mouth
+name: Eba smoothness in mouth
 namespace: cassava_trait
 def: "Geometrical attribute associated with the overall degree of absence of particles within sample" []
 synonym: "EbaMthSmooth" EXACT []
@@ -8750,7 +8764,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003137
-name: eba stretchability in the hand
+name: Eba stretchability in the hand
 namespace: cassava_trait
 def: "The tendency of a body to return to its original shape after it has been stretched or compressed" []
 synonym: "EbaHdStrea" EXACT []
@@ -8758,7 +8772,7 @@ is_a: CO_334:0103019 ! Texture in hand trait
 
 [Term]
 id: CO_334:0003138
-name: eba surface whiteness
+name: Eba surface whiteness
 namespace: cassava_trait
 def: "Colour of the surface of the sample from light white to off white" []
 synonym: "EbaSurfWhit" EXACT []
@@ -8806,6 +8820,876 @@ relationship: variable_of CO_334:0003101 ! attieke attieke-like  aroma
 relationship: variable_of CO_334:0013012 ! attieke-like aroma method
 relationship: variable_of CO_334:0103029 ! Attieke aroma scale 0-10
 created_by: Ebah Catherine
+
+[Term]
+id: CO_334:0003144
+name: Canopy formation ranking block 3
+namespace: cassava_trait
+synonym: "CanForm_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003203 ! Canopy formation
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003145
+name: Discoloration ranking block 3
+namespace: cassava_trait
+synonym: "Discol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003204 ! Discoloration
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003146
+name: Disease tolerance ranking block 3
+namespace: cassava_trait
+synonym: "DisTol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003205 ! Disease tolerance
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003147
+name: Drought tolerance  ranking block 3
+namespace: cassava_trait
+synonym: "DrgTol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003206 ! Drought tolerance
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003148
+name: Eba preservability ranking block 3
+namespace: cassava_trait
+synonym: "EbaPresev_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003207 ! Eba preservability
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003149
+name: Eba swelling ranking block 3
+namespace: cassava_trait
+synonym: "EbSw_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003208 ! Eba swelling
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003150
+name: Eba taste ranking block 3
+namespace: cassava_trait
+synonym: "EbaTast_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003209 ! Eba taste
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003151
+name: Flood tolerance   ranking block 3
+namespace: cassava_trait
+synonym: "FloodTol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003210 ! Flood tolerance
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003152
+name: Fufu preservability ranking block 3
+namespace: cassava_trait
+synonym: "FufuPresev_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003211 ! Fufu preservability
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003153
+name: Fufu swelling capacity ranking block 3
+namespace: cassava_trait
+synonym: "FufSw_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003212 ! Fufu swelling capacity
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003154
+name: Fufu taste ranking block 3
+namespace: cassava_trait
+synonym: "FufTast_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003213 ! Fufu taste
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003155
+name: Fufu woody filament presence ranking block 3
+namespace: cassava_trait
+synonym: "FufFil_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003214 ! Fufu woody filament presence
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003156
+name: Gari dryness ranking block 3
+namespace: cassava_trait
+synonym: "GariDry_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003215 ! Gari dryness
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003157
+name: Gari heaviness ranking block 3
+namespace: cassava_trait
+synonym: "GariHea_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003216 ! Gari heaviness
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003158
+name: Gari smoothness in mouth ranking block 3
+namespace: cassava_trait
+synonym: "GariSm_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003217 ! Gari smoothness in mouth
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003159
+name: Gari surface butter colour ranking block 3
+namespace: cassava_trait
+synonym: "GariCol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003218 ! Gari surface butter colour
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003160
+name: Gari water release ranking block 3
+namespace: cassava_trait
+synonym: "gariWtRel_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003219 ! Gari water release
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003161
+name: Gari woody filament presence ranking block 3
+namespace: cassava_trait
+synonym: "GariFil_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003220 ! Gari woody filament presence
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003162
+name: Gari yield ranking block 3
+namespace: cassava_trait
+synonym: "GariYld_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003221 ! Gari yield
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003163
+name: General appreciation ranking block 3
+namespace: cassava_trait
+synonym: "GenApp_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003222 ! General appreciation
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003164
+name: Overall performance ranking block 3
+namespace: cassava_trait
+synonym: "OvPerf_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003223 ! Overall performance
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003165
+name: Pest tolerance ranking block 3
+namespace: cassava_trait
+synonym: "PestTol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003224 ! Pest tolerance
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003166
+name: Plant growth ranking block 3
+namespace: cassava_trait
+synonym: "PltGwt_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003225 ! Plant growth
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003167
+name: Planting material quality ranking block 3
+namespace: cassava_trait
+synonym: "PltMatQual_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003226 ! Planting material quality
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003168
+name: Pulp discoloration  ranking block 3
+namespace: cassava_trait
+synonym: "PulDisc_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003227 ! Pulp discoloration
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003169
+name: Pulp swelling ranking block 3
+namespace: cassava_trait
+synonym: "PulSw_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003228 ! Pulp swelling
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003170
+name: Rettability capacity ranking block 3
+namespace: cassava_trait
+synonym: "RetCap_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003229 ! Rettability capacity
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003171
+name: Root food content ranking block 3
+namespace: cassava_trait
+synonym: "RtFdCt_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003230 ! Root food content
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003172
+name: Root formation ranking block 3
+namespace: cassava_trait
+synonym: "RtForm_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003231 ! Root formation
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003173
+name: Root rot presence ranking block 3
+namespace: cassava_trait
+synonym: "RtRotPre_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003232 ! Root rot presence
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003174
+name: Root suitable for Abacha ranking block 3
+namespace: cassava_trait
+synonym: "RtSuitAb_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003233 ! Root suitable for Abacha
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003175
+name: Root suitable for Fufu ranking block 3
+namespace: cassava_trait
+synonym: "RtSuitFuf_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003234 ! Root suitable for Fufu
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003176
+name: Root suitable for Gari ranking block 3
+namespace: cassava_trait
+synonym: "RtSuitGar_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003235 ! Root suitable for Gari
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003177
+name: Sprouting time ranking block 3
+namespace: cassava_trait
+synonym: "SprTm_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003236 ! Sprouting time
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003178
+name: Suitability to soil and environment ranking block 3
+namespace: cassava_trait
+synonym: "SuitSlEnv_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003237 ! Suitability to soil and environment
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003179
+name: Branching habit ranking block 3
+namespace: cassava_trait
+synonym: "brnhbt_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000295 ! Branching habit
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003180
+name: Ease of harvest ranking block 3
+namespace: cassava_trait
+synonym: "easehav_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000361 ! Ease of harvest
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003181
+name: Ease of peeling storage root cortex ranking block 3
+namespace: cassava_trait
+synonym: "easepl_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000362 ! Ease of peeling storage root cortex
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003182
+name: Gari taste ranking block 3
+namespace: cassava_trait
+synonym: "gtaste_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000381 ! Gari taste
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003183
+name: Leaf retention ranking block 3
+namespace: cassava_trait
+synonym: "lfret_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000396 ! Leaf retention
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003184
+name: Root dry matter content ranking block 3
+namespace: cassava_trait
+synonym: "RtDMC_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000424 ! Root dry matter content
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003185
+name: Root yield ranking block 3
+namespace: cassava_trait
+synonym: "RtYld_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000456 ! Root yield
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003186
+name: Sprouting ranking block 3
+namespace: cassava_trait
+synonym: "sprout_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000472 ! Sprouting
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003187
+name: Storage Root Pulp Color ranking block 3
+namespace: cassava_trait
+synonym: "PlpCol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003188
+name: Storage Root Shape ranking block 3
+namespace: cassava_trait
+synonym: "rtshp_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000491 ! Storage Root Shape
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003189
+name: Storage Root Size ranking block 3
+namespace: cassava_trait
+synonym: "rtsz_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000492 ! Storage Root Size
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003190
+name: Taste of boiled roots ranking block 3
+namespace: cassava_trait
+synonym: "pdtas_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000498 ! Taste of boiled roots
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003191
+name: In-ground storability ranking block 3
+namespace: cassava_trait
+synonym: "InGrdStor_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002003 ! In-ground storability
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003192
+name: Early bulking ranking block 3
+namespace: cassava_trait
+synonym: "EarBulk_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002004 ! Early bulking
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003193
+name: Leaf edibility ranking block 3
+namespace: cassava_trait
+synonym: "leafed_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0002047 ! Leaf edibility
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003194
+name: Fufu surface colour ranking block 3
+namespace: cassava_trait
+synonym: "FufSurfCol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003047 ! Fufu surface colour
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003195
+name: Fufu moldability in the hand ranking block 3
+namespace: cassava_trait
+synonym: "FufHdMol_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003050 ! Fufu moldability in the hand
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003196
+name: Fufu hardness in hand ranking block 3
+namespace: cassava_trait
+synonym: "FufHdHard_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003051 ! Fufu hardness in hand
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003197
+name: Fufu stretchability in the hand ranking block 3
+namespace: cassava_trait
+synonym: "FufHdStret_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003052 ! Fufu stretchability in the hand
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003198
+name: Fufu odour ranking block 3
+namespace: cassava_trait
+synonym: "FuOd_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003053 ! Fufu odour
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003199
+name: Eba hardness in hand ranking block 3
+namespace: cassava_trait
+synonym: "EbaHdHard_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003134 ! Eba hardness in hand
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003200
+name: Eba smoothness in mouth ranking block 3
+namespace: cassava_trait
+synonym: "EbaMthSmooth_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003135 ! Eba smoothness in mouth
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003201
+name: Eba stretchability in the hand ranking block 3
+namespace: cassava_trait
+synonym: "EbaHdStrea_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003137 ! Eba stretchability in the hand
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003202
+name: Eba surface whiteness ranking block 3
+namespace: cassava_trait
+synonym: "EbaSurfWhit_CompRank_Bl3" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003138 ! Eba surface whiteness
+relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0103077 ! Ranking:3
+
+[Term]
+id: CO_334:0003203
+name: Canopy formation
+namespace: cassava_trait
+def: "Soil area covered by the plant's canopy" []
+synonym: "CanForm" EXACT []
+is_a: CO_334:0000002 ! Morphological trait
+
+[Term]
+id: CO_334:0003204
+name: Discoloration
+namespace: cassava_trait
+def: "Change in color, when food product is being processed" []
+synonym: "Discol" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003205
+name: Disease tolerance
+namespace: cassava_trait
+def: "The host's ability to reduce the effect of infection on its fitness regardless of the level of disease pathogen multiplication (" []
+synonym: "DisTol" EXACT []
+is_a: CO_334:0000007 ! Biotic stress trait
+
+[Term]
+id: CO_334:0003206
+name: Drought tolerance
+namespace: cassava_trait
+def: "The ability to which a cassava plant maintains its biomass production during arid or drought conditions" []
+synonym: "DrgTol" EXACT []
+is_a: CO_334:0000006 ! Abiotic stress trait
+
+[Term]
+id: CO_334:0003207
+name: Eba preservability
+namespace: cassava_trait
+def: "Quality of Eba to be preserved for 24h" []
+synonym: "EbaPresev" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003208
+name: Eba swelling
+namespace: cassava_trait
+def: "Swelling of the gari during the preparation of eba" []
+synonym: "EbSw" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003209
+name: Eba taste
+namespace: cassava_trait
+def: "Taste of eba" []
+synonym: "EbaTast" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003210
+name: Flood tolerance
+namespace: cassava_trait
+def: "The ability to which a cassava plant maintains its biomass production during flood conditions" []
+synonym: "FloodTol" EXACT []
+is_a: CO_334:0000006 ! Abiotic stress trait
+
+[Term]
+id: CO_334:0003211
+name: Fufu preservability
+namespace: cassava_trait
+def: "Quality of Fufu to be preserved for 72h" []
+synonym: "FufuPresev" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003212
+name: Fufu swelling capacity
+namespace: cassava_trait
+def: "Swelling capacity of fufu sample" []
+synonym: "FufSw" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003213
+name: Fufu taste
+namespace: cassava_trait
+def: "Taste of fufu" []
+synonym: "FufTast" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003214
+name: Fufu woody filament presence
+namespace: cassava_trait
+def: "Presence of woody filaments or crude fibers in Fufu" []
+synonym: "FufFil" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003215
+name: Gari dryness
+namespace: cassava_trait
+def: "Dryness of the gari sample" []
+synonym: "GariDry" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003216
+name: Gari heaviness
+namespace: cassava_trait
+def: "Density of gari" []
+synonym: "GariHea" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003217
+name: Gari smoothness in mouth
+namespace: cassava_trait
+def: "homogeneity of the gari sample" []
+synonym: "GariSm" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003218
+name: Gari surface butter colour
+namespace: cassava_trait
+def: "Colour of the surface of the sample, taking into account its shininess" []
+synonym: "GariCol" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003219
+name: Gari water release
+namespace: cassava_trait
+def: "the ease of water relased during pressing gari" []
+synonym: "gariWtRel" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003220
+name: Gari woody filament presence
+namespace: cassava_trait
+def: "Presence of woody filaments or crude fibers in Gari" []
+synonym: "GariFil" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003221
+name: Gari yield
+namespace: cassava_trait
+def: "The weight of gari in relation to the unpeelled fresh root mass" []
+synonym: "GariYld" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003222
+name: General appreciation
+namespace: cassava_trait
+def: "General appreciation at a given crop stage" []
+synonym: "GenApp" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003223
+name: Overall performance
+namespace: cassava_trait
+def: "Plant's ability to meet the farmers' needs from planting to final product." []
+synonym: "OvPerf" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003224
+name: Pest tolerance
+namespace: cassava_trait
+def: "The host's ability to reduce the effect of damages on its fitness regardless of the level of pest pathogen multiplication (" []
+synonym: "PestTol" EXACT []
+is_a: CO_334:0000007 ! Biotic stress trait
+
+[Term]
+id: CO_334:0003225
+name: Plant growth
+namespace: cassava_trait
+def: "Plant growth/vigor of the plant." []
+synonym: "PltGwt" EXACT []
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0003226
+name: Planting material quality
+namespace: cassava_trait
+def: "Quality of the stem to replant" []
+synonym: "PltMatQual" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003227
+name: Pulp discoloration
+namespace: cassava_trait
+def: "Pulp discoloration during processing" []
+synonym: "PulDisc" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003228
+name: Pulp swelling
+namespace: cassava_trait
+def: "Swelling of the pulp during toasting" []
+synonym: "PulSw" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003229
+name: Rettability capacity
+namespace: cassava_trait
+def: "Capability for roots to soften during soaking" []
+synonym: "RetCap" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003230
+name: Root food content
+namespace: cassava_trait
+def: "Quantity of food from a root. Related to root dry matter content" []
+synonym: "RtFdCt" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003231
+name: Root formation
+namespace: cassava_trait
+def: "The extent to which storage root has formed, taking shape. Related to early bulking" []
+synonym: "RtForm" EXACT []
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0003232
+name: Root rot presence
+namespace: cassava_trait
+def: "Presence of rot on root" []
+synonym: "RtRotPre" EXACT []
+is_a: CO_334:0000007 ! Biotic stress trait
+
+[Term]
+id: CO_334:0003233
+name: Root suitable for Abacha
+namespace: cassava_trait
+def: "Suitability of the root to make Abacha" []
+synonym: "RtSuitAb" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003234
+name: Root suitable for Fufu
+namespace: cassava_trait
+def: "Suitability of the root to make Fufu" []
+synonym: "RtSuitFuf" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003235
+name: Root suitable for Gari
+namespace: cassava_trait
+def: "Suitability of the root to make Gari" []
+synonym: "RtSuitGar" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003236
+name: Sprouting time
+namespace: cassava_trait
+def: "Time from planting cassava seed until hypocotyl emerges from the substrate" []
+synonym: "SprTm" EXACT []
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0003237
+name: Suitability to soil and environment
+namespace: cassava_trait
+def: "Compatibility for use in a given environment" []
+synonym: "SuitSlEnv" EXACT []
+is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0004001
@@ -12011,7 +12895,7 @@ name: surface colour sppearance method
 namespace: CassavaMethod
 def: "Visually inspect sample surface" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003047 ! fufu surface colour
+relationship: method_of CO_334:0003047 ! Fufu surface colour
 
 [Term]
 id: CO_334:0013006
@@ -12035,7 +12919,7 @@ name: moldability texture in the hand method
 namespace: CassavaMethod
 def: "Sample is put in the hands and moulded" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003050 ! fufu moldability in the hand
+relationship: method_of CO_334:0003050 ! Fufu moldability in the hand
 
 [Term]
 id: CO_334:0013009
@@ -12043,7 +12927,7 @@ name: hardness texture by hand method
 namespace: CassavaMethod
 def: "Place sample between fingers and feel to access the amount of force required to press it" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003134 ! eba hardness in hand
+relationship: method_of CO_334:0003134 ! Eba hardness in hand
 
 [Term]
 id: CO_334:0013010
@@ -12051,7 +12935,7 @@ name: stretchability texture by the hand method
 namespace: CassavaMethod
 def: "Take a sizeable piece of sample, flatten it with palms and stretch" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003137 ! eba stretchability in the hand
+relationship: method_of CO_334:0003137 ! Eba stretchability in the hand
 
 [Term]
 id: CO_334:0013011
@@ -12059,7 +12943,7 @@ name: odour method
 namespace: CassavaMethod
 def: "Take a whiff and evaluate the intensity of fufu odour" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003053 ! fufu odour
+relationship: method_of CO_334:0003053 ! Fufu odour
 
 [Term]
 id: CO_334:0013012
@@ -12347,7 +13231,7 @@ name: surface whiteness appearance method
 namespace: CassavaMethod
 def: "When you receive the sample, observe the surface and evaluate the intensity of the white colour." []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003138 ! eba surface whiteness
+relationship: method_of CO_334:0003138 ! Eba surface whiteness
 
 [Term]
 id: CO_334:0013048
@@ -12395,7 +13279,15 @@ name: smoothness texture in the mouth method
 namespace: CassavaMethod
 def: "After chewing feel sample between tongue and palate to assess the amount of string like particles present on sample" []
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0003135 ! eba smoothness in mouth
+relationship: method_of CO_334:0003135 ! Eba smoothness in mouth
+
+[Term]
+id: CO_334:0013054
+name: Comparative ranking by users method
+namespace: CassavaMethod
+def: "Ranking of phenotypes based on field observations/on  testing of food products ​" []
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0003138 ! Eba surface whiteness
 
 [Term]
 id: CO_334:0100000
@@ -14293,6 +15185,13 @@ name: White colour scale 0-100
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0013051 ! white color appearance method
+
+[Term]
+id: CO_334:0103077
+name: Ranking:3
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0013054 ! Comparative ranking by users method
 
 [Typedef]
 id: derives_from
