@@ -8902,7 +8902,7 @@ relationship: variable_of CO_334:0001064 ! Gari quality
 relationship: variable_of CO_334:0004016 ! Measurement: pH of gari_method
 relationship: variable_of CO_334:0004017 ! -log (H30+)
 created_by: Ekanem
-creation_date: 9/26/2023
+creation_date: 2023-09-26T10:07:21Z
 
 [Term]
 id: CO_334:0004016
@@ -8931,7 +8931,7 @@ relationship: variable_of CO_334:0001064 ! Gari quality
 relationship: variable_of CO_334:0004019 ! Calculation: Gari solubility_method
 relationship: variable_of CO_334:0100583 ! pct (%)
 created_by: Ukoabasi Ekanem
-creation_date: 9/26/2023
+creation_date: 2023-09-26T10:07:21Z
 
 [Term]
 id: CO_334:0004019
@@ -8952,7 +8952,7 @@ relationship: variable_of CO_334:0001064 ! Gari quality
 relationship: variable_of CO_334:0004021 ! Calculation: Gari swelling index_method
 relationship: variable_of CO_334:0100583 ! pct (%)
 created_by: Ukoabasi Ekanem
-creation_date: 9/26/2023
+creation_date: 2023-09-26T10:07:21Z
 
 [Term]
 id: CO_334:0004021
@@ -8973,7 +8973,7 @@ relationship: variable_of CO_334:0001064 ! Gari quality
 relationship: variable_of CO_334:0004023 ! Calculation: Gari swelling power_method
 relationship: variable_of CO_334:0100583 ! pct (%)
 created_by: Ukoabasi Ekanem
-creation_date: 9/26/2023
+creation_date: 2023-09-26T10:07:21Z
 
 [Term]
 id: CO_334:0004023
@@ -9002,7 +9002,7 @@ relationship: variable_of CO_334:0004024 ! Gari particle size
 relationship: variable_of CO_334:0004026 ! Measurement: Gari particle size_method
 relationship: variable_of CO_334:0100692 ! um
 created_by: Ukoabasi Ekanem
-creation_date: 9/27/2023
+creation_date: 2023-09-27T10:07:21Z
 
 [Term]
 id: CO_334:0004026
@@ -9023,7 +9023,7 @@ relationship: variable_of CO_334:0004024 ! Gari particle size
 relationship: variable_of CO_334:0004026 ! Measurement: Gari particle size_method
 relationship: variable_of CO_334:0100692 ! um
 created_by: Ukoabasi Ekanem
-creation_date: 9/27/2023
+creation_date: 2023-09-27T10:07:21Z
 
 [Term]
 id: CO_334:0004028
@@ -9036,7 +9036,7 @@ relationship: variable_of CO_334:0004024 ! Gari particle size
 relationship: variable_of CO_334:0004026 ! Measurement: Gari particle size_method
 relationship: variable_of CO_334:0100692 ! um
 created_by: Ukoabasi Ekanem
-creation_date: 9/27/2023
+creation_date: 2023-09-27T10:07:21Z
 
 [Term]
 id: CO_334:0004029
@@ -9049,7 +9049,7 @@ relationship: variable_of CO_334:0004024 ! Gari particle size
 relationship: variable_of CO_334:0004026 ! Measurement: Gari particle size_method
 relationship: variable_of CO_334:0100692 ! um
 created_by: Ukoabasi Ekanem
-creation_date: 9/27/2023
+creation_date: 2023-09-27T10:07:21Z
 
 [Term]
 id: CO_334:0004040
@@ -9062,7 +9062,7 @@ relationship: variable_of CO_334:0002094 ! Breakdown
 relationship: variable_of CO_334:0010536 ! Calculation: Breakdown_method
 relationship: variable_of CO_334:0100704 ! pascal per seconds
 created_by: Ukoabasi Ekanem
-creation_date: 10/2/2023
+creation_date: 2023-10-02T10:07:21Z
 
 [Term]
 id: CO_334:0004041
@@ -9075,7 +9075,7 @@ relationship: variable_of CO_334:0002092 ! Final viscosity
 relationship: variable_of CO_334:0010535 ! Estimation: Final viscosity_method
 relationship: variable_of CO_334:0100704 ! pascal per seconds
 created_by: Ukoabasi Ekanem
-creation_date: 10/2/2023
+creation_date: 2023-10-02T10:07:21Z
 
 [Term]
 id: CO_334:0004042
@@ -9088,7 +9088,7 @@ relationship: variable_of CO_334:0002100 ! Pasting temperature
 relationship: variable_of CO_334:0010539 ! Measurement: Pasting temperature_method
 relationship: variable_of CO_334:0100703 ! degree celsius
 created_by: Ukoabasi Ekanem
-creation_date: 10/2/2023
+creation_date: 2023-10-02T10:07:21Z
 
 [Term]
 id: CO_334:0004043
@@ -9101,7 +9101,7 @@ relationship: variable_of CO_334:0002098 ! Peak viscosity
 relationship: variable_of CO_334:0010538 ! Measurement: Peak viscosity_method
 relationship: variable_of CO_334:0100704 ! pascal per seconds
 created_by: Ukoabasi Ekanem
-creation_date: 10/2/2023
+creation_date: 2023-10-02T10:07:21Z
 
 [Term]
 id: CO_334:0004044
@@ -9114,7 +9114,7 @@ relationship: variable_of CO_334:0004045 ! Measurement: Peak time viscosity_meth
 relationship: variable_of CO_334:0004046 ! Peak time viscosity
 relationship: variable_of CO_334:0100696 ! minute
 created_by: Ukoabasi Ekanem
-creation_date: 10/2/2023
+creation_date: 2023-10-02T10:07:21Z
 
 [Term]
 id: CO_334:0004045
@@ -9154,7 +9154,7 @@ relationship: variable_of CO_334:0002096 ! Trough
 relationship: variable_of CO_334:0010537 ! Estimation: Trough_method
 relationship: variable_of CO_334:0100704 ! pascal per seconds
 created_by: Ukoabasi Ekanem
-creation_date: 10/2/2023
+creation_date: 2023-10-02T10:07:21Z
 
 [Term]
 id: CO_334:0010000
