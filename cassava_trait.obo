@@ -8825,590 +8825,649 @@ created_by: Ebah Catherine
 id: CO_334:0003144
 name: Canopy formation ranking 3 varieties
 namespace: cassava_trait
+def: "Canopy formation assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "CanForm_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003203 ! Canopy formation
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003145
 name: Discoloration ranking 3 varieties
 namespace: cassava_trait
+def: "Discoloration assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "Discol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003204 ! Discoloration
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003146
 name: Disease tolerance ranking 3 varieties
 namespace: cassava_trait
+def: "Disease tolerance assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "DisTol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003205 ! Disease tolerance
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003147
-name: Drought tolerance  ranking 3 varieties
+name: Drought tolerance ranking 3 varieties
 namespace: cassava_trait
+def: "Drought tolerance  assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "DrgTol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003206 ! Drought tolerance
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003148
 name: Eba preservability ranking 3 varieties
 namespace: cassava_trait
+def: "Eba preservability assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "EbaPresev_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003207 ! Eba preservability
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003149
 name: Eba swelling ranking 3 varieties
 namespace: cassava_trait
+def: "Eba swelling assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "EbSw_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003208 ! Eba swelling
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003150
 name: Eba taste ranking 3 varieties
 namespace: cassava_trait
+def: "Eba taste assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "EbaTast_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003209 ! Eba taste
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003151
-name: Flood tolerance   ranking 3 varieties
+name: Flood tolerance ranking 3 varieties
 namespace: cassava_trait
+def: "Flood tolerance   assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FloodTol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003210 ! Flood tolerance
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003152
 name: Fufu preservability ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu preservability assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FufuPresev_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003211 ! Fufu preservability
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003153
 name: Fufu swelling capacity ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu swelling capacity assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FufSw_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003212 ! Fufu swelling capacity
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003154
 name: Fufu taste ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu taste assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FufTast_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003213 ! Fufu taste
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003155
 name: Fufu woody filament presence ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu woody filament presence assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FufFil_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003214 ! Fufu woody filament presence
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003156
 name: Gari dryness ranking 3 varieties
 namespace: cassava_trait
+def: "Gari dryness assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "GariDry_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003215 ! Gari dryness
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003157
 name: Gari heaviness ranking 3 varieties
 namespace: cassava_trait
+def: "Gari heaviness assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "GariHea_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003216 ! Gari heaviness
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003158
 name: Gari smoothness in mouth ranking 3 varieties
 namespace: cassava_trait
+def: "Gari smoothness in mouth assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "GariSm_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003217 ! Gari smoothness in mouth
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003159
 name: Gari surface butter colour ranking 3 varieties
 namespace: cassava_trait
+def: "Gari surface butter colour assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "GariCol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003218 ! Gari surface butter colour
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003160
 name: Gari water release ranking 3 varieties
 namespace: cassava_trait
+def: "Gari water release assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "gariWtRel_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003219 ! Gari water release
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003161
 name: Gari woody filament presence ranking 3 varieties
 namespace: cassava_trait
+def: "Gari woody filament presence assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "GariFil_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003220 ! Gari woody filament presence
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003162
 name: Gari yield ranking 3 varieties
 namespace: cassava_trait
+def: "Gari yield assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "GariYld_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003221 ! Gari yield
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003163
 name: General appreciation ranking 3 varieties
 namespace: cassava_trait
+def: "General appreciation assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "GenApp_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003222 ! General appreciation
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003164
 name: Overall performance ranking 3 varieties
 namespace: cassava_trait
+def: "Overall performance assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "OvPerf_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003223 ! Overall performance
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003165
 name: Pest tolerance ranking 3 varieties
 namespace: cassava_trait
+def: "Pest tolerance assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "PestTol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003224 ! Pest tolerance
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003166
 name: Plant growth ranking 3 varieties
 namespace: cassava_trait
+def: "Plant growth assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "PltGwt_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003225 ! Plant growth
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003167
 name: Planting material quality ranking 3 varieties
 namespace: cassava_trait
+def: "Planting material quality assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "PltMatQual_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003226 ! Planting material quality
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003168
 name: Pulp discoloration  ranking 3 varieties
 namespace: cassava_trait
+def: "Pulp discoloration  assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "PulDisc_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003227 ! Pulp discoloration
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003169
 name: Pulp swelling ranking 3 varieties
 namespace: cassava_trait
+def: "Pulp swelling assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "PulSw_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003228 ! Pulp swelling
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003170
 name: Rettability capacity ranking 3 varieties
 namespace: cassava_trait
+def: "Rettability capacity assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RetCap_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003229 ! Rettability capacity
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003171
 name: Root food content ranking 3 varieties
 namespace: cassava_trait
+def: "Root food content assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RtFdCt_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003230 ! Root food content
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003172
 name: Root formation ranking 3 varieties
 namespace: cassava_trait
+def: "Root formation assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RtForm_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003231 ! Root formation
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003173
 name: Root rot presence ranking 3 varieties
 namespace: cassava_trait
+def: "Root rot presence assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RtRotPre_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003232 ! Root rot presence
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003174
 name: Root suitable for Abacha ranking 3 varieties
 namespace: cassava_trait
+def: "Root suitable for Abacha assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RtSuitAb_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003233 ! Root suitable for Abacha
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003175
 name: Root suitable for Fufu ranking 3 varieties
 namespace: cassava_trait
+def: "Root suitable for Fufu assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RtSuitFuf_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003234 ! Root suitable for Fufu
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003176
 name: Root suitable for Gari ranking 3 varieties
 namespace: cassava_trait
+def: "Root suitable for Gari assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RtSuitGar_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003235 ! Root suitable for Gari
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003177
 name: Sprouting time ranking 3 varieties
 namespace: cassava_trait
+def: "Sprouting time assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "SprTm_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003236 ! Sprouting time
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003178
 name: Suitability to soil and environment ranking 3 varieties
 namespace: cassava_trait
+def: "Suitability to soil and environment assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "SuitSlEnv_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003237 ! Suitability to soil and environment
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003179
 name: Branching habit ranking 3 varieties
 namespace: cassava_trait
+def: "Branching habit assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "brnhbt_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000295 ! Branching habit
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003180
 name: Ease of harvest ranking 3 varieties
 namespace: cassava_trait
+def: "Ease of harvest assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "easehav_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000361 ! Ease of harvest
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003181
 name: Ease of peeling storage root cortex ranking 3 varieties
 namespace: cassava_trait
+def: "Ease of peeling storage root cortex assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "easepl_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000362 ! Ease of peeling storage root cortex
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003182
 name: Gari taste ranking 3 varieties
 namespace: cassava_trait
+def: "Gari taste assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "gtaste_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000381 ! Gari taste
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003183
 name: Leaf retention ranking 3 varieties
 namespace: cassava_trait
+def: "Leaf retention assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "lfret_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000396 ! Leaf retention
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003184
 name: Root dry matter content ranking 3 varieties
 namespace: cassava_trait
+def: "Root dry matter content assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RtDMC_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000424 ! Root dry matter content
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003185
 name: Root yield ranking 3 varieties
 namespace: cassava_trait
+def: "Root yield assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "RtYld_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000456 ! Root yield
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003186
 name: Sprouting ranking 3 varieties
 namespace: cassava_trait
+def: "Sprouting assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "sprout_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000472 ! Sprouting
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003187
 name: Storage Root Pulp Color ranking 3 varieties
 namespace: cassava_trait
+def: "Storage Root Pulp Color assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "PlpCol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000490 ! Storage Root Pulp Color
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003188
 name: Storage Root Shape ranking 3 varieties
 namespace: cassava_trait
+def: "Storage Root Shape assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "rtshp_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000491 ! Storage Root Shape
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003189
 name: Storage Root Size ranking 3 varieties
 namespace: cassava_trait
+def: "Storage Root Size assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "rtsz_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000492 ! Storage Root Size
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003190
 name: Taste of boiled roots ranking 3 varieties
 namespace: cassava_trait
+def: "Taste of boiled roots assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "pdtas_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000498 ! Taste of boiled roots
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003191
 name: In-ground storability ranking 3 varieties
 namespace: cassava_trait
+def: "In-ground storability assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "InGrdStor_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002003 ! In-ground storability
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003192
 name: Early bulking ranking 3 varieties
 namespace: cassava_trait
+def: "Early bulking assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "EarBulk_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002004 ! Early bulking
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003193
 name: Leaf edibility ranking 3 varieties
 namespace: cassava_trait
+def: "Leaf edibility assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "leafed_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002047 ! Leaf edibility
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003194
 name: Fufu surface colour ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu surface colour assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FufSurfCol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003047 ! Fufu surface colour
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003195
 name: Fufu moldability in the hand ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu moldability in the hand assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FufHdMol_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003050 ! Fufu moldability in the hand
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003196
 name: Fufu hardness in hand ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu hardness in hand assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FufHdHard_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003051 ! Fufu hardness in hand
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003197
 name: Fufu stretchability in the hand ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu stretchability in the hand assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FufHdStret_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003052 ! Fufu stretchability in the hand
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003198
 name: Fufu odour ranking 3 varieties
 namespace: cassava_trait
+def: "Fufu odour assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "FuOd_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003053 ! Fufu odour
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003199
 name: Eba hardness in hand ranking 3 varieties
 namespace: cassava_trait
+def: "Eba hardness in hand assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "EbaHdHard_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003134 ! Eba hardness in hand
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003200
 name: Eba smoothness in mouth ranking 3 varieties
 namespace: cassava_trait
+def: "Eba smoothness in mouth assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "EbaMthSmooth_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003135 ! Eba smoothness in mouth
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003201
 name: Eba stretchability in the hand ranking 3 varieties
 namespace: cassava_trait
+def: "Eba stretchability in the hand assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "EbaHdStrea_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003137 ! Eba stretchability in the hand
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
 id: CO_334:0003202
 name: Eba surface whiteness ranking 3 varieties
 namespace: cassava_trait
+def: "Eba surface whiteness  assessed by comparatively ranking 3 varieties (1=highest ranking;2=medium ranking;3=lowestranking)" [CO:curators]
 synonym: "EbaSurfWhit_CompRank_Bl3" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0003138 ! Eba surface whiteness
-relationship: variable_of CO_334:0013054 ! Comparative ranking by users method
+relationship: variable_of CO_334:0013054 ! comparative ranking by users method
 relationship: variable_of CO_334:0103077 ! Ranking:3
 
 [Term]
@@ -13283,7 +13342,7 @@ relationship: method_of CO_334:0003135 ! Eba smoothness in mouth
 
 [Term]
 id: CO_334:0013054
-name: Comparative ranking by users method
+name: comparative ranking by users method
 namespace: CassavaMethod
 def: "Ranking of phenotypes based on field observations/on  testing of food products ​" [CO:curators]
 is_a: CO_334:0001002 ! Methods
@@ -15191,7 +15250,7 @@ id: CO_334:0103077
 name: Ranking:3
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0013054 ! Comparative ranking by users method
+relationship: scale_of CO_334:0013054 ! comparative ranking by users method
 
 [Typedef]
 id: derives_from
