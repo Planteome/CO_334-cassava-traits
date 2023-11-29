@@ -1,0 +1,164 @@
+Variable ID,Variable name,Variable synonyms,Context of use,Growth stage,Variable status,Variable Xref,Institution,Scientist,Date,Language,Crop
+CO_366:0000021,PShelling_Cp_pct,,Trial evaluation,Post-Harvest,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000024,SdFat_M_pct,,Trial evaluation,Post-Harvest,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000027,SdProt_M_pct,,Trial evaluation,Post-Harvest,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000031,StmHair_E_0to9,,Nursery evaluation,Harvest,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000035,NoduCap_E_0to9,,"Nursery evaluation, Trial evaluation",,,,"IBP, IPGRI","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000039,GH_E_1to3,,Trial evaluation,,,,"IBP, IITA, IPGRI","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000043,SdSh_E_1to3,,"Nursery evaluation, Trial evaluation",Post-Harvest,,,"IBP, IITA, IPGRI","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000047,TLfltCol_E_1to4,,Nursery evaluation,,,,"IBP, IITA, IPGRI","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000051,Ptext_E_1to4,,"Nursery evaluation, Trial evaluation",Post-Harvest,,,"IBP, IITA, IPGRI","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000055,TLfltSh_E_1to5,,Nursery evaluation,,,,"IBP, IITA, IPGRI","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000059,PSh_E_1to5,,"Nursery evaluation, Trial evaluation",Post-Harvest,,,"IBP, IITA, IPGRI","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000063,PCol_E_1to6,,"Nursery evaluation, Trial evaluation",Post-Harvest,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000066,AlSus_E_1to9,,Research-intensive characterization,,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000069,DroSus_E_1to9,,Research-intensive characterization,,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000072,FrostSus_E_1to9,,Research-intensive characterization,,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000075,HTempSus_E_1to9,,Research-intensive characterization,,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000078,SaltSus_E_1to9,,Research-intensive characterization,,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000081,AlteLfSpotSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000084,AscBlightSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000087,BCMVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000090,BeanBugSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000093,BruchidSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000096,BSMVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000099,CABMVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000102,CercLfSpotSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,"IBP, IITA","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000105,ChiBruchidSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000108,CMVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000111,CocoaWvlSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000114,CowpeaWvilSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000117,CPMMVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000120,CPMoVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000123,CPMVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000126,DidyLfSpotSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000129,FusaWiltSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000132,PeMoVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000135,PhylLfSpotSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000138,PowMildewSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000141,RootKnotSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000144,SclerRootRotSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000147,SuckingBugSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000150,VNMVSus_E_1to9,,"Nursery evaluation, Trial evaluation",,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000154,StmBrnchN_Ct_brnch,,Trial evaluation,Harvest,,,"IBP, IITA","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000157,PlntH_M_cm,,"Nursery evaluation, Trial evaluation",,,,"IBP, IPGRI, IITA, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000160,PlntSpread_M_cm,,"Nursery evaluation, Trial evaluation",,,,"IBP, UoN","Julian Pietragalla, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000162,Emer_Date_ymd,,"Nursery evaluation, Trial evaluation",Emergence,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000164,Flw_DateFirst_ymd,,"Nursery evaluation, Trial evaluation",Flowering,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000166,Flw_DateHalf_ymd,,"Nursery evaluation, Trial evaluation",Flowering,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000168,Mat_Date_ymd,,"Nursery evaluation, Trial evaluation",Maturity,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000170,Emer_DT_day,,"Nursery evaluation, Trial evaluation",Emergence,,,"IBP, IITA, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000172,Flw_DTFirst_day,,"Nursery evaluation, Trial evaluation",Flowering,,,"IBP, IITA","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000174,Flw_DTHalf_day,,"Nursery evaluation, Trial evaluation",Flowering,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000176,Mat_DT_day,,"Nursery evaluation, Trial evaluation",Maturity,,,"IBP, IPGRI, IITA, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000180,PedFlwN_Ct_flw,,"Nursery evaluation, Trial evaluation",,,,"IBP, IITA, IPGRI","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000182,HSdAdjW_M_g,,Trial evaluation,Post-Harvest,,,"IBP, IITA, IPGRI, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000184,HSdDW_M_g,,Trial evaluation,Post-Harvest,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000186,SdMoist_M_pct,,Trial evaluation,Harvest,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000187,SdYAdjW_Cp_gm2,,Trial evaluation,Harvest,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000189,SdYFW_M_gplant,,Trial evaluation,Harvest,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000191,SdYFW_M_gplot,,Trial evaluation,Harvest,,,IBP,Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000193,SdYAdjW_Cp_kgha,,Trial evaluation,Harvest,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000197,PlntLfN_Ct_lf,,"Nursery evaluation, Trial evaluation",,,,"IBP, UoN","Julian Pietragalla, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000200,BLng_M_mm,,"Nursery evaluation, Trial evaluation",Flowering,,,"IBP, IITA","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000203,IntNodeLng_M_mm,,Trial evaluation,Harvest,,,"IBP, IITA, UoN, IPGRI","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000206,PedLng_M_mm,,"Nursery evaluation, Trial evaluation",,,,"IBP, IPGRI, IITA, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000209,PetioLng_M_mm,,"Nursery evaluation, Trial evaluation",,,,"IBP, IPGRI, IITA, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000212,PLng_M_mm,,Trial evaluation,Post-Harvest,,,"IBP, IITA, IPGRI, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000215,PWid_M_mm,,Trial evaluation,Post-Harvest,,,"IBP, IITA, IPGRI, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000218,SdLng_M_mm,,Trial evaluation,Post-Harvest,,,"IBP, IITA, IPGRI, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000221,SdWid_M_mm,,Trial evaluation,Post-Harvest,,,"IBP, IITA, IPGRI, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000224,TLfltLng_M_mm,,"Nursery evaluation, Trial evaluation",,,,"IBP, IITA, IPGRI, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000227,TLfltWid_M_mm,,"Nursery evaluation, Trial evaluation",,,,"IBP, IITA, IPGRI, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000231,StmNodeN_Ct_node,,Trial evaluation,Harvest,,,"IBP, IPGRI",Julian Pietragalla,,EN,Bambara groundnut
+CO_366:0000235,PlntPN_Ct_pod,,Trial evaluation,Harvest,,,"IBP, IITA, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000239,PSdN_Cp_sd,,Trial evaluation,Post-Harvest,,,"IBP, IITA, IPGRI","Julian Pietragalla, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000243,PlntStmN_Ct_stm,,Trial evaluation,Harvest,,,"IBP, IPGRI, IITA, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000247,ShellThk_M_um,,Trial evaluation,Post-Harvest,,,"IBP, IITA, IPGRI, UoN","Julian Pietragalla, Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000250,EyeCol_E_1to19,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000254,EyePat_E_1to12,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000258,CanWid_M,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000262,GColSdTta_E,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000266,PigArEye_E,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000270,PodAreaN_Cp_cm2,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000274,TrifN_Ct_Lvs,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000278,OpenflwCol_E_col,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000282,PodFill_Ct,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000286,ShellHrvst_M_Plot/kg,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000290,VgIndx_E,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000294,PetCol_E_col,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000297,TestPat_E_1to19,,Trial evaluation,,,,IITA,Michael Abberton,,EN,Bambara groundnut
+CO_366:0000300,Flw50_Ct_day,,Trial evaluation,,,,"IITA, UoN, IPGRI","Michael Abberton, Sean Mayes",,EN,Bambara groundnut
+CO_366:0000304,PhotoReacTpe_E_1to3,,Trial evaluation,,,,IPGRI,,,EN,Bambara groundnut
+CO_366:0000308,SdCol_E_1to9,,Trial evaluation,Harvest,,,IPGRI,,,EN,Bambara groundnut
+CO_366:0000312,SdCarb_Cp_pct,,Trial evaluation,,,,IPGRI,,,EN,Bambara groundnut
+CO_366:0000316,LTemp_E_Reac,,Trial evaluation,,,,IPGRI,,,EN,Bambara groundnut
+CO_366:0000320,Drght_E_Reac,,Trial evaluation,,,,IPGRI,,,EN,Bambara groundnut
+CO_366:0000324,PtInterNodRatio_Cp_ratio,,Trial evaluation,Growth,,,UoN,Sean Mayes,,EN,Bambara groundnut
+CO_366:0000327,PodDryWt_Cp_g,,Trial evaluation,Harvest,,,UoN,Sean Mayes,,EN,Bambara groundnut
+CO_366:0000330,SingSW_Cp_g,,Trial evaluation,Harvest,,,UoN,Sean Mayes,,EN,Bambara groundnut
+CO_366:0000333,ShW_Cp_g,,Trial evaluation,Harvest,,,UoN,Sean Mayes,,EN,Bambara groundnut
+CO_366:0000336,Shell_Cp_Pct,,Trial evaluation,Harvest,,,"UoN, IITA","Sean Mayes, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000339,SdWt_Cp_g,,Trial evaluation,harvest,,,UoN,Sean Mayes,,EN,Bambara groundnut
+CO_366:0000343,SdN_Ct_perplant,,Trial evaluation,harvest,,,UoN,Sean Mayes,,EN,Bambara groundnut
+CO_366:0000346,ShtDWT_Cp_g,,Trial evaluation,harvest,,,UoN,Sean Mayes,,EN,Bambara groundnut
+CO_366:0000349,DMat_Ct_Day,,Trial evaluation,Full maturity,,,"UoN, IITA","Sean Mayes, Michael Abberton",,EN,Bambara groundnut
+CO_366:0000352,SdB_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000355,SdMg_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000358,SdP_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000361,SdS_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000364,SdK_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000367,SdCa_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000370,SdTi_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000373,SdBe_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000376,SdAl_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000379,SdV_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000382,SdCr_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000385,SdMn_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000388,SdFe_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000391,SdCo_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000394,SdNi_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000397,SdCu_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000400,SdZn_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000403,SdGa_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000406,SdAs_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000409,SdSe_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000412,SdRb_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000415,SdSr_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000418,SdMo_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000421,SdAg_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000424,SdCd_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000427,SdCs_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000430,SdBa_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000433,SdTl_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000436,SdPb_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000439,SdU_M_mgkg,,Trial evaluation,Post-Harvest,,,UoN,Sean Mayes,2019-08-13 00:00:00,EN,Bambara groundnut
+CO_366:0000440,WatCont_Cp_pct,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000441,Lf_Area_M_cm2,,Trial evaluation,Growth,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000442,StomDen_Cp_cm2,,Trial evaluation,Growth,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000443,Dpod_E_day,,Trial evaluation,Growth,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000444,ShtFWT_Cp_g,,Trial evaluation,harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000445,Dbiom_Cp_g,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000446,SdDW_M_g,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000447,TotSdDW_M_g,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000448,TotPdDW_M_g,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000449,PdFWPP_M_g,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000450,TotDieFib_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000451,AvaCarb_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000452,MetEgy_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000453,Stch_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000454,LinAcid_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000455,OleAcid_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000456,PalAcid_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000457,SteAcid_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000458,BeheAcid_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000459,AraAcid_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000460,LigAcid_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000461,AlphaLinAcid_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000462,TotN_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000463,TotS_M_g/100g,,Trial evaluation,Post-Harvest,,,SCU,Razlin Azman,2020-12-03 00:00:00,EN,Bambara groundnut
+CO_366:0000464,TotPdFW_M_g,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000465,StomCduc_Cp_mmol,,Trial evaluation,Growth,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000466,CIsoDis_Cp_,,Trial evaluation,Growth,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000467,Del15N_ratio,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
+CO_366:0000468,TotSdN_Ct,,Trial evaluation,Post-Harvest,,,UoN,Waikuanho,2019-10-30 00:00:00,EN,Bambara groundnut
