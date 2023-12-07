@@ -230,7 +230,7 @@ name: cassava anthracnose disease severity trait
 def: "Severity of the Cassava anthracnose disease caused by Colletotrichum gloeosporioides f. sp." [CO:curators]
 synonym: "CADSev" EXACT []
 synonym: "Cassava anthracnose disease severity - Cassavabase" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0000033
@@ -279,7 +279,7 @@ id: CO_334:0000038
 name: cassava anthracnose disease incidence trait
 def: "Proportion of plants within a plot showing symptoms of cassava anthracnose disease" [CO:curators]
 synonym: "cadi" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0000039
@@ -3091,7 +3091,7 @@ id: CO_334:0000370
 name: cassava frog skin disease trait
 def: "Severity of the Frog skin disease caused by unknown causal agent" [CO:curators]
 synonym: "fsd" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_334:0000371
