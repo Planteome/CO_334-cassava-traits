@@ -2968,7 +2968,7 @@ id: CO_334:0000298
 name: cassava caruncle color trait
 def: "Color of caruncle" [CO:curators]
 synonym: "carcol" EXACT []
-is_a: TO:1000010 caruncle color
+is_a: TO:1000010 ! caruncle color
 
 [Term]
 id: CO_334:0000302
