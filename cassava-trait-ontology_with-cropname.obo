@@ -1177,7 +1177,7 @@ id: CO_334:0000122
 name: cassava green mite incidence trait
 def: "Proportion of plants affected by cassava green mite" [CO:curators]
 synonym: "cgmi" EXACT []
-is_a: TO:0000261 insect damage response
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_334:0000123
