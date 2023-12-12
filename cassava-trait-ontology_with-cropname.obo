@@ -1175,7 +1175,7 @@ relationship: variable_of CO_334:0100572 ! cassava ug/g scale
 [Term]
 id: CO_334:0000122
 name: cassava green mite incidence trait
-def: "Proportion of plants affected by cassava green mite" [CO:curators]
+def: "Proportion of plants affected by cassava green mite (Mononychellus tanajoa)" [CO:curators]
 synonym: "cgmi" EXACT []
 is_a: TO:0000261 ! insect damage response
 
@@ -3047,7 +3047,7 @@ id: CO_334:0000355
 name: cassava color of boiled tuberous roots trait
 def: "Color of boiled tuberous roots" [CO:curators]
 synonym: "pdcol" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000356
@@ -3139,7 +3139,7 @@ id: CO_334:0000370
 name: cassava frog skin disease trait
 def: "Severity of the Frog skin disease caused by unknown causal agent" [CO:curators]
 synonym: "fsd" EXACT []
-is_a: TO:0000148
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_334:0000371
@@ -3153,14 +3153,14 @@ id: CO_334:0000372
 name: cassava fruit set presence trait
 def: "Fruit set" [CO:curators]
 synonym: "frtset" EXACT []
-is_a: TO:0000852
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_334:0000373
 name: cassava fufu content trait
 def: "Fufu weight" [CO:curators]
 synonym: "fufucnt" EXACT []
-is_a: TO:0001041
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000374
@@ -3168,56 +3168,56 @@ name: cassava gari content trait
 def: "Gari content" [CO:curators]
 synonym: "GarCt" EXACT []
 synonym: "Gari Content - Cassavabase" EXACT []
-is_a: TO:0001041
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000375
 name: cassava gari shaft weight trait
 def: "Shaft weight" [CO:curators]
 synonym: "shaftwt" EXACT []
-is_a: TO:0001042 ! root quality trait ! root quality trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000376
 name: cassava gari weight after drying trait
 def: "Weight after drying cassava flakes" [CO:curators]
 synonym: "gdrywt" EXACT []
-is_a: TO:0001041
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000377
 name: cassava gari weight after grinding trait
 def: "Weight after grinding" [CO:curators]
 synonym: "wtagrind" EXACT []
-is_a: TO:0001041
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000378
 name: cassava gari fibre trait
 def: "gari fibre" [CO:curators]
 synonym: "gfibre" EXACT []
-is_a: TO:0001042 ! root quality trait ! root quality trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000379
 name: cassava gari sampled weight trait
 def: "gari sampled weight" [CO:curators]
 synonym: "gariwt" EXACT []
-is_a: TO:0001042 ! root quality trait ! root quality trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000380
 name: cassava gari starch trait
 def: "Assessment of the starch content of gari" [CO:curators]
 synonym: "gstarch" EXACT []
-is_a: TO:0001042 ! root quality trait ! root quality trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000381
 name: cassava gari taste trait
 def: "Taste of gari" [CO:curators]
 synonym: "gtaste" EXACT []
-is_a: TO:0001042 ! root quality trait ! root quality trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000382
@@ -3245,14 +3245,14 @@ id: CO_334:0000388
 name: cassava lafun content trait
 def: "Lafu weight" [CO:curators]
 synonym: "lafun" EXACT []
-is_a: TO:0001042 ! root quality trait ! root quality trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000389
 name: cassava leaf color trait
 def: "Leaf color" [CO:curators]
 synonym: "LfCol" EXACT []
-is_a: TO:0000326
+is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_334:0000390
@@ -3266,7 +3266,7 @@ id: CO_334:0000391
 name: cassava leaf lobe length trait
 def: "Length of middle finger or lobe of matured leaf" [CO:curators]
 synonym: "LfLbLng" EXACT []
-is_a: TO:1000014
+is_a: TO:1000014 ! leaf lamina lobe length
 
 [Term]
 id: CO_334:0000392
@@ -3400,12 +3400,14 @@ id: CO_334:0000410
 name: cassava number of bemesia tabaci adult
 def: "Number of Bemesia tabaci adult white flies" [CO:curators]
 synonym: "BTAdtNo" EXACT []
+is_a: TO:0000261 !	insect damage response
 
 [Term]
 id: CO_334:0000411
 name: cassava number of bemesia tabaci nymphs
 def: "Number of Bemesia tabaci nymphs white flies" [CO:curators]
 synonym: "BTNyNo" EXACT []
+is_a: TO:0000261 !	insect damage response
 
 [Term]
 id: CO_334:0000412
@@ -3419,7 +3421,7 @@ id: CO_334:0000413
 name: cassava number of forks trait
 def: "Number of branches" [CO:curators]
 synonym: "flwfrk" EXACT []
-is_a: TO:0000740
+is_a: TO:0002639 !	shoot branching
 
 [Term]
 id: CO_334:0000414
@@ -3460,7 +3462,7 @@ name: cassava number of stakes
 def: "Number of plantable stakes" [CO:curators]
 synonym: "Plantable stem number" EXACT []
 synonym: "stkno" EXACT []
-is_a: TO:0000327
+is_a: TO:0000953 !	stem number
 
 [Term]
 id: CO_334:0000420
@@ -3544,6 +3546,7 @@ id: CO_334:0000435
 name: cassava plantable stem length
 def: "Plantable stem length" [CO:curators]
 synonym: "PlStmHt" EXACT []
+is_a: TO:0000576 !	stem length
 
 [Term]
 id: CO_334:0000436
@@ -3600,14 +3603,14 @@ id: CO_334:0000443
 name: cassava red spider mite incidence trait
 def: "Proportion of plants within a plot showing evidence of colonization by red spider mite." [CO:curators]
 synonym: "rsmi" EXACT []
-is_a: TO:0000261
+is_a: TO:0020121 ! arachnid damage response trait
 
 [Term]
 id: CO_334:0000444
 name: cassava red spider mite severity trait
 def: "Red spider mite severity" [CO:curators]
 synonym: "RSMSev" EXACT []
-is_a: TO:0000261
+is_a: TO:0020121 ! arachnid damage response trait
 
 [Term]
 id: CO_334:0000446
@@ -3629,7 +3632,7 @@ id: CO_334:0000448
 name: cassava root evaluation trait
 def: "Evaluation of various root properties" [CO:curators]
 synonym: "rteval" EXACT []
-is_a: TO:0000250
+is_a: TO:0001042 !	root quality trait
 
 [Term]
 id: CO_334:0000450
@@ -3643,7 +3646,7 @@ id: CO_334:0000451
 name: cassava root neck length trait
 def: "Root neck length" [CO:curators]
 synonym: "nklgt" EXACT []
-is_a: TO:1000007
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_334:0000452
@@ -3651,7 +3654,7 @@ name: cassava root number trait
 def: "Number of harvested marketable storage roots" [CO:curators]
 synonym: "Marketable root number, Root Number - Cassavabase" EXACT []
 synonym: "RtNo" EXACT []
-is_a: TO:0001041
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000453
