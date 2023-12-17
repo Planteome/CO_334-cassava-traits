@@ -3407,7 +3407,7 @@ id: CO_334:0000411
 name: cassava number of bemesia tabaci nymphs
 def: "Number of Bemesia tabaci nymphs white flies" [CO:curators]
 synonym: "BTNyNo" EXACT []
-is_a: TO:0000261 !	insect damage response
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_334:0000412
@@ -3421,7 +3421,7 @@ id: CO_334:0000413
 name: cassava number of forks trait
 def: "Number of branches" [CO:curators]
 synonym: "flwfrk" EXACT []
-is_a: TO:0002639 !	shoot branching
+is_a: TO:0002639 ! shoot branching
 
 [Term]
 id: CO_334:0000414
@@ -3462,7 +3462,7 @@ name: cassava number of stakes
 def: "Number of plantable stakes" [CO:curators]
 synonym: "Plantable stem number" EXACT []
 synonym: "stkno" EXACT []
-is_a: TO:0000953 !	stem number
+is_a: TO:0000953 ! stem number
 
 [Term]
 id: CO_334:0000420
@@ -3546,7 +3546,7 @@ id: CO_334:0000435
 name: cassava plantable stem length
 def: "Plantable stem length" [CO:curators]
 synonym: "PlStmHt" EXACT []
-is_a: TO:0000576 !	stem length
+is_a: TO:0000576 ! stem length
 
 [Term]
 id: CO_334:0000436
@@ -3632,7 +3632,7 @@ id: CO_334:0000448
 name: cassava root evaluation trait
 def: "Evaluation of various root properties" [CO:curators]
 synonym: "rteval" EXACT []
-is_a: TO:0001042 !	root quality trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000450
