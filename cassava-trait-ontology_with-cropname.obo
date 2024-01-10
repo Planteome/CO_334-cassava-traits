@@ -215,6 +215,46 @@ relationship: variable_of CO_334:0010338 ! cassava Visual Rating:Apical Pubescen
 relationship: variable_of CO_334:0100544 ! cassava 8pt scale
 
 [Term]
+id: CO_334:0000027
+name: bacterial disease
+namespace: cassava_trait
+def: "Traits related to incidence and severity of cassava response to bacterial pathogens." [CO:curators]
+is_a: CO_334:0000007 ! Biotic stress trait
+created_by: BAKARE
+creation_date: 2010-11-08T06:42:36Z
+is_a: TO:0000315 ! bacterial disease response trait
+
+[Term]
+id: CO_334:0000028
+name: viral disease
+namespace: cassava_trait
+def: "Traits related to incidence and severity of cassava response to viral pathogens." [CO:curators]
+is_a: CO_334:0000007 ! Biotic stress trait
+created_by: BAKARE
+creation_date: 2010-11-08T06:43:31Z
+is_a: TO:0000148 ! viral disease response trait
+
+[Term]
+id: CO_334:0000029
+name: fungal disease
+namespace: cassava_trait
+def: "Traits related to incidence and severity of cassava response to fungal pathogens." [CO:curators]
+is_a: CO_334:0000007 ! Biotic stress trait
+created_by: BAKARE
+creation_date: 2010-11-08T06:44:26Z
+is_a: TO:0000439 ! fungal disease response trait
+
+[Term]
+id: CO_334:0000030
+name: insect damage
+namespace: cassava_trait
+def: "Traits related to damage caused by insects." [CO:curators]
+is_a: CO_334:0000007 ! Biotic stress trait
+created_by: BAKARE
+creation_date: 2010-11-08T06:45:42Z
+is_a: TO:0000261 ! insect damage response trait
+
+[Term]
 id: CO_334:0000031
 name: cassava bacterial blight severity trait
 def: "Severity of bacterial blight disease caused by Xanthomonas axonopodis pv. Manihotis" [CO:curators]
@@ -4004,7 +4044,7 @@ id: CO_334:0000506
 name: cassava young stem pubescence trait
 def: "Pubescence of young stem" [CO:curators]
 synonym: "stmpub" EXACT []
-is_a: TO:0000361
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_334:0000507
@@ -6304,6 +6344,87 @@ relationship: scale_of CO_334:0010470 ! cassava Visual Observation:plant shape_m
 id: CO_334:0100677
 name: cassava 2pt scale
 relationship: scale_of CO_334:0010471 ! cassava Visual Observation:stipule margin_method
+
+[Term]
+id: CO_334:0002041
+name: Cassava rust disease severity
+namespace: cassava_trait
+def: "Severity of symptom caused by Uromyces manihots in leaves" [CO:curators]
+synonym: "crds" EXACT []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001146  ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_334:0002042
+name: Cassava rust disease incidence
+namespace: cassava_trait
+def: "Proportion of plants in a plot with symptom of Uromyces manihots" [CO:curators]
+synonym: "crdi" EXACT []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001146  ! Basidiomycete fungal disease response
+
+[Term]
+id: CO_334:0002110
+name: Cassava white leaf spot disease severity
+namespace: cassava_trait
+def: "Severity of white leaf spot caused by Passalora maninhotis" [CO:curators]
+synonym: "cwlsds" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease
+
+
+[Term]
+id: CO_334:0002111
+name: Cassava white leaf spot disease incidence
+namespace: cassava_trait
+def: "Proportion of plants showing symptoms of disease casued by Passalora maninhotis." [CO:curators]
+synonym: "cwlsdi" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease
+
+
+[Term]
+id: CO_334:0002112
+name: Cassava brown leaf spot disease severity
+namespace: cassava_trait
+def: "Severity of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
+synonym: "cblsds" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease
+
+[Term]
+id: CO_334:0002113
+name: Cassava brown leaf spot disease incidence
+namespace: cassava_trait
+def: "Proportion of symptom of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease
+
+[Term]
+id: CO_334:0002114
+name: Cassava blight leaf spot disease severity
+namespace: cassava_trait
+def: "Severity of blight leaf spot disease caused by Passalora vicosae." [CO:curators]
+synonym: "cbllsds" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease
+
+[Term]
+id: CO_334:0002115
+name: Cassava blight leaf spot disease incidence
+namespace: cassava_trait
+def: "Proportion of symptoms caused by blight spot disease." [CO:curators]
+synonym: "cbllsdi" RELATED []
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease
 
 [Typedef]
 id: derives_from
