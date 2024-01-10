@@ -6353,7 +6353,7 @@ def: "Severity of symptom caused by Uromyces manihots in leaves" [CO:curators]
 synonym: "crds" EXACT []
 xref: CO:curators
 is_a: CO_334:0000029 ! fungal disease
-is_a: TO:0001146  ! Basidiomycete fungal disease response
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_334:0002042
@@ -6363,7 +6363,7 @@ def: "Proportion of plants in a plot with symptom of Uromyces manihots" [CO:cura
 synonym: "crdi" EXACT []
 xref: CO:curators
 is_a: CO_334:0000029 ! fungal disease
-is_a: TO:0001146  ! Basidiomycete fungal disease response
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_334:0002110
