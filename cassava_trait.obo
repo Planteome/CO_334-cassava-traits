@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001068> \"CO_334:0000411\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001069> \"CO_334:0000151\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001070> \"CO_334:0010408\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -5030,7 +5031,7 @@ is_a: CO_334:0000336 ! Flower and flowering morphological trait
 id: CO_334:0000463
 name: Sooty mould
 namespace: cassava_trait
-def: "Balck mould" [CO:curators]
+def: "Black mould" [CO:curators]
 synonym: "sooty" EXACT []
 xref: TO:0000439
 is_a: CO_334:0000030 ! insect damage
@@ -6179,6 +6180,32 @@ namespace: CassavaScale
 def: "grams per cubic centimeter" [CO:curators]
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0001066 ! Calculation: Gari bulk density_method
+
+[Term]
+id: CO_334:0001068
+name: Number of Aleurotrachelus socialis nymphs
+namespace: cassava_trait
+def: "Number of Aleurotrachelus socialis nymphs white flies" [CO:curators]
+is_a: CO_334:0000030 ! insect damage
+
+[Term]
+id: CO_334:0001069
+name: Aleurotrachelus socialis nymphs: counting
+namespace: cassava_trait
+def: "An automated counting of the Aleurotrachelus socialis nymphs on the two most preferred leaves for oviposition on the infestation moment." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001068 ! Number of Aleurotrachelus socialis nymphs
+relationship: variable_of CO_334:0001070 ! Counting: Aleurotrachelus socialis nymphs_method
+relationship: variable_of CO_334:0100614 ! nymphs
+creation_date: Feb-07-2024
+
+[Term]
+id: CO_334:0001070
+name: Counting: Aleurotrachelus socialis nymphs_method
+namespace: CassavaMethod
+def: "An automated counting of the Aleurotrachelus socialis nymphs on the two most preferred leaves for oviposition on the infestation moment." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001068 ! Number of Aleurotrachelus socialis nymphs
 
 [Term]
 id: CO_334:0002001
