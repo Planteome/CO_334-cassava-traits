@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001068> \"CO_334:0000411\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001069> \"CO_334:0000151\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001070> \"CO_334:0010408\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001071> \"CO_334:0000151\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001072> \"CO_334:0010408\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001073> \"CO_334:0001064\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001074> \"CO_334:0004015\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6227,6 +6227,25 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001068 ! Number of Aleurotrachelus socialis nymphs
 
 [Term]
+id: CO_334:0001073
+name: Fufu quality
+namespace: cassava_trait
+def: "The quality of fufu depends on various factors ranging from the quality of cassava used to the processing techniques employed." [CO:curators]
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001074
+name: pH of fufu
+namespace: cassava_trait
+def: "The pH of fufu samples is evaluated by pH meter (PH=-log(H+) and measures the acidity or alkalinity of fufu solution." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0004016 ! Measurement: pH meter method
+relationship: variable_of CO_334:0004017 ! -log (H30+)
+created_by: Naama Menda
+creation_date: 2024-13-02
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
@@ -9888,18 +9907,18 @@ def: "The pH of gari samples is evaluated by pH meter (PH=-log(H+) and measures 
 synonym: "PH = -log (H30+)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001064 ! Gari quality
-relationship: variable_of CO_334:0004016 ! Measurement: pH of gari_method
+relationship: variable_of CO_334:0004016 ! Measurement: pH meter method
 relationship: variable_of CO_334:0004017 ! -log (H30+)
 created_by: Ekanem
 creation_date: 2023-09-26T10:07:21Z
 
 [Term]
 id: CO_334:0004016
-name: Measurement: pH of gari_method
+name: Measurement: pH meter method
 namespace: CassavaMethod
 def: "Measurement using a laboratory pH meter." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0001064 ! Gari quality
+relationship: method_of CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0004017
@@ -9907,7 +9926,7 @@ name: -log (H30+)
 namespace: CassavaScale
 def: "Negative of the logarithm of H+ activity" [CO:curators]
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0004016 ! Measurement: pH of gari_method
+relationship: scale_of CO_334:0004016 ! Measurement: pH meter method
 
 [Term]
 id: CO_334:0004018
