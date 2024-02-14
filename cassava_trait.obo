@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001073> \"CO_334:0001064\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001074> \"CO_334:0004015\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001075> \"CO_334:0004015\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001076> \"CO_334:0004016\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001073> \"CO_334:0001064\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001074> \"CO_334:0004015\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001075> \"CO_334:0004015\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001076> \"CO_334:0004016\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001077> \"CO_334:0003230\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001078> \"CO_334:0001012\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001079> \"CO_334:0001016\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001080> \"CO_334:0010517\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001081> \"CO_334:0100695\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -4676,8 +4676,8 @@ name: Root dry matter content
 namespace: cassava_trait
 def: "Dry matter content of root related terms." [CO:curators]
 synonym: "RtDMC" EXACT []
-is_a: CO_334:0000004 ! Quality trait
 is_a: CO_334:0000447 ! Dry matter content
+is_a: CO_334:0001077 ! Root quality traits
 created_by: AAfolabi
 creation_date: 2017-07-18T14:58:31Z
 
@@ -5892,7 +5892,7 @@ id: CO_334:0001012
 name: Softness of boiled cassava roots
 namespace: cassava_trait
 def: "Mechanical attribute of boiled cassava roots relating to force required to make them compressed" [CO:curators]
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0001016
@@ -6264,6 +6264,46 @@ namespace: CassavaMethod
 def: "Measurement using a laboratory pH meter." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001077
+name: Root quality traits
+namespace: cassava_trait
+def: "Traits measured on cassava roots." [CO:curators]
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001078
+name: Hardness/softness of raw cassava roots
+namespace: cassava_trait
+def: "Mechanical attribute of boiled cassava roots relating to force required to make them compressed" [CO:curators]
+is_a: CO_334:0001077 ! Root quality traits
+
+[Term]
+id: CO_334:0001079
+name: Hardness/softness of raw cassava roots in kilograms per cubic centimeter kg/cm^3
+namespace: cassava_trait
+def: "A measure of the hardness or softness of cassava or its penetrability.\nPenetrometer measurement in kg/cm^3." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001078 ! Hardness/softness of raw cassava roots
+relationship: variable_of CO_334:0001080 ! Calculation: hardness of raw root_method
+relationship: variable_of CO_334:0100695 ! newton
+creation_date: 02-13-2024
+
+[Term]
+id: CO_334:0001080
+name: Calculation: hardness of raw root_method
+namespace: CassavaMethod
+def: "Assessment of the hardness/softness of raw root through calculation of the force it takes using a penetrometer to penetrate the root." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001012 ! Softness of boiled cassava roots
+
+[Term]
+id: CO_334:0001081
+name: kg/cm^3
+namespace: CassavaScale
+def: "kilograms per cubic centimeter." []
+is_a: CO_334:0001001 ! Scales
 
 [Term]
 id: CO_334:0002001
@@ -9777,7 +9817,7 @@ name: Root food content
 namespace: cassava_trait
 def: "Quantity of food from a root. Related to root dry matter content" [CO:curators]
 synonym: "RtFdCt" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0003231
@@ -9801,7 +9841,7 @@ name: Root suitable for Abacha
 namespace: cassava_trait
 def: "Suitability of the root to make Abacha" [CO:curators]
 synonym: "RtSuitAb" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0003234
@@ -9809,7 +9849,7 @@ name: Root suitable for Fufu
 namespace: cassava_trait
 def: "Suitability of the root to make Fufu" [CO:curators]
 synonym: "RtSuitFuf" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0003235
@@ -9817,7 +9857,7 @@ name: Root suitable for Gari
 namespace: cassava_trait
 def: "Suitability of the root to make Gari" [CO:curators]
 synonym: "RtSuitGar" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0003236
