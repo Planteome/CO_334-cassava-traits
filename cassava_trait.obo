@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001073> \"CO_334:0001064\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001074> \"CO_334:0004015\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001073> \"CO_334:0001064\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001074> \"CO_334:0004015\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001075> \"CO_334:0004015\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001076> \"CO_334:0004016\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6244,6 +6244,26 @@ relationship: variable_of CO_334:0004016 ! Measurement: pH meter method
 relationship: variable_of CO_334:0004017 ! -log (H30+)
 created_by: Naama Menda
 creation_date: 2024-13-02
+
+[Term]
+id: CO_334:0001075
+name: Total titratable acidity of fufu in percentage
+namespace: cassava_trait
+def: "A measure of the percentage amount of acid or acids present in a food sample. \n10ml of fufu liquor was measured into a conical flask and 3 drops of phenolpthalein indicator added. It was titrated against 0.1N NaOH solution in a burette till a colour change was observed. Th initial and final vol. of the NaOH solution was noted. The procedure was replicatd for each sample. %TTA = ((concentration of base * titre value)/volume of sample used))*100" [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001076 ! Measurement:  acidity titer method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: Naama Menda
+creation_date: 2024-13-02
+
+[Term]
+id: CO_334:0001076
+name: Measurement:  acidity titer method
+namespace: CassavaMethod
+def: "Measurement using a laboratory pH meter." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0002001
