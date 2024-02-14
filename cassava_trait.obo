@@ -6287,7 +6287,7 @@ def: "A measure of the hardness or softness of cassava or its penetrability.\nPe
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001078 ! Hardness/softness of raw cassava roots
 relationship: variable_of CO_334:0001080 ! Calculation: hardness of raw root_method
-relationship: variable_of CO_334:0100695 ! newton
+relationship: variable_of CO_334:0001081 ! kg/cm^3
 creation_date: 02-13-2024
 
 [Term]
