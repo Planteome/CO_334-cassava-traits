@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001098> \"CO_334:0001079\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001099> \"CO_334:0001080\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6384,7 +6385,7 @@ namespace: cassava_trait
 def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the total cooking process time in seconds." [CO:curators]
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
-is_a: CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001088 ! seconds (time)
 relationship: variable_of CO_334:0001091 ! Measurement: fufu cooking time method
 relationship: variable_of CO_334:0002049 ! Cooking quality
@@ -6405,7 +6406,6 @@ namespace: cassava_trait
 def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the temperature needed for the final product." [CO:curators]
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
-is_a: CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001094 ! Measurement: fufu cooking temperature method
 relationship: variable_of CO_334:0002049 ! Cooking quality
 relationship: variable_of CO_334:0100703 ! temperature celsius
@@ -6426,7 +6426,7 @@ namespace: cassava_trait
 def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked. THe ease of cooking is estimated on a 0-5 scale. 0= hardest, 5= easiest." [CO:curators]
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
-is_a: CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001096 ! Estimation: fufu ease of cooking method
 relationship: variable_of CO_334:0001097 ! 0-5 scale for fufu ease of cooking
 relationship: variable_of CO_334:0002049 ! Cooking quality
@@ -6444,6 +6444,25 @@ relationship: method_of CO_334:0001095 ! Fufu ease of cooking estimation 0-5 sca
 id: CO_334:0001097
 name: 0-5 scale for fufu ease of cooking
 is_a: CO_334:0100495 ! 6pt scale
+
+[Term]
+id: CO_334:0001098
+name: fufu turbidity percentage %
+namespace: cassava_trait
+def: "A measure of the cloudiness or clarity of fufu liquor measured using a spectrophotometer with a wavelength of 420nm." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001099 ! Calculation: fufu turbidity percentage method
+relationship: variable_of CO_334:0100583 ! pct (%)
+creation_date: 02-13-2024
+
+[Term]
+id: CO_334:0001099
+name: Calculation: fufu turbidity percentage method
+namespace: CassavaMethod
+def: "A measure of the cloudiness or clarity of fufu liquor and transmittance was noted using a spectrophotometer with a wavelength of 420nm." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001098 ! fufu turbidity percentage %
 
 [Term]
 id: CO_334:0002001
