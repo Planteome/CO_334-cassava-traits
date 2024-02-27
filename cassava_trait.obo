@@ -6502,6 +6502,25 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001103 ! fufu resilience ratio
 
 [Term]
+id: CO_334:0001105
+name: fufu cohesiveness ratio
+namespace: cassava_trait
+def: "Textural profile analysis by double compression of fufu cohesiveness. The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001106 ! Calculation: fufu cohesiveness ratio method
+relationship: variable_of CO_334:0100582 ! ratio
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001106
+name: Calculation: fufu cohesiveness ratio method
+namespace: CassavaMethod
+def: "The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements.\nFufu sample of uniform dimension 4.0 cm height x 4.7 cm diameter and temperature of 45°C was placed at the center of the platform of a Stable Microsystems TA. XTplus equipped with a standard compression cylindrical plate of 100 mm diameter. Double compression of the samples was done automatically with a 10g trigger load and 10 seconds interval between each compression." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001105 ! fufu cohesiveness ratio
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
