@@ -6521,6 +6521,25 @@ is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001105 ! fufu cohesiveness ratio
 
 [Term]
+id: CO_334:0001107
+name: fufu springiness percentage
+namespace: cassava_trait
+def: "Textural profile analysis by double compression. A measure of elasticity in percentage. A product’s recovery to its original height ((Distance 2)/(Distance 1)*100 or (Time 2/Time 1)*100)." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001108 ! Calculation: Fufu springiness in percentage
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0001108
+name: Calculation: Fufu springiness in percentage
+namespace: CassavaMethod
+def: "A ratio or percentage of a product’s recovery to its original height as computed from TPA measurements. A ratio or percentage of a product’s recovery to its original height ((Distance 2)/(Distance 1)*100 or (Time 2/Time 1)*100)." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001107 ! fufu springiness percentage
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
