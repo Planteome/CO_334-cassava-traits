@@ -6317,6 +6317,7 @@ name: Fufu gumminess measured in Newtons
 namespace: cassava_trait
 def: "A measure of fufu stickiness in newtons obtained by Texture Profile Analysis probe." [CO:curators]
 is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0100695 ! newton
@@ -6345,6 +6346,7 @@ name: Fufu hardness measured in Newtons
 namespace: cassava_trait
 def: "Fufu hardness is measure of the easiness of pressing a sample with the texture profile analyzer." [CO:curators]
 is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0100695 ! newton
@@ -6489,6 +6491,7 @@ namespace: cassava_trait
 def: "Textural profile analysis by double compression of fufu resilience. The area under curve after peak force is reached divided by the area under curve before peak force is reached as  computed from TPA measurements." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001104 ! Calculation: fufu resilience ratio method
 relationship: variable_of CO_334:0100582 ! ratio
 creation_date: 02-27-2024
@@ -6508,6 +6511,7 @@ namespace: cassava_trait
 def: "Textural profile analysis by double compression of fufu cohesiveness. The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001106 ! Calculation: fufu cohesiveness ratio method
 relationship: variable_of CO_334:0100582 ! ratio
 creation_date: 02-27-2024
@@ -6528,6 +6532,7 @@ def: "Textural profile analysis by double compression. A measure of elasticity i
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001108 ! Calculation: Fufu springiness in percentage
 relationship: variable_of CO_334:0100583 ! pct (%)
 
@@ -6538,6 +6543,24 @@ namespace: CassavaMethod
 def: "A ratio or percentage of a product’s recovery to its original height as computed from TPA measurements. A ratio or percentage of a product’s recovery to its original height ((Distance 2)/(Distance 1)*100 or (Time 2/Time 1)*100)." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001107 ! fufu springiness percentage
+
+[Term]
+id: CO_334:0001109
+name: Fufu adhesiveness measured in Newton per second N/s
+namespace: cassava_trait
+def: "Textural profile analysis by double compression of fufu adhesiveness. A measure of the quality of fufu stickiness measured in newton per second N/s." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0001110 ! newton per second
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001110
+name: newton per second
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
 
 [Term]
 id: CO_334:0002001
