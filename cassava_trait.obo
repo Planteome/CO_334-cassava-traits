@@ -6563,6 +6563,50 @@ namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
 
 [Term]
+id: CO_334:0001111
+name: fufu water clarity assesment 1-5 scale
+namespace: cassava_trait
+def: "Assessment of the decrease in clarity of the fermenting liquor by visual observation. The rate of bubble formation and water clarity/turbidity is evaluated by the processors with structured questionnaire on a scale of 1 to 5; where 5=extremely foamy and extremely turbid, 4=foamy and turbid, 3=moderately foamy and neither turbid nor clear, 2=scanty foam and clear, 1=no foam and extremely clear." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
+relationship: variable_of CO_334:0001112 ! Fufu water clarity 1-5 scale
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001112
+name: Fufu water clarity 1-5 scale
+namespace: CassavaScale
+def: "5=extremely foamy and extremely turbid, 4=foamy and turbid, 3=moderately foamy and neither turbid nor clear, 2=scanty foam and clear, 1=no foam and extremely clear." []
+is_a: CO_334:0100436 ! 5 point scales
+
+[Term]
+id: CO_334:0001113
+name: Visual Observation: Cassava fufu water clarity evaluation method
+namespace: CassavaMethod
+def: "Visual observation rate of bubble formation and water clarity/turbidity was evaluated by the processors with structured questionnaire on a scale of 1 to 5; where 5=extremely foamy and extremely turbid, 4=foamy and turbid, 3=moderately foamy and neither turbid nor clear,2=scanty foam and clear and 1=no foam and extremely clear." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001111 ! fufu water clarity assesment 1-5 scale
+
+[Term]
+id: CO_334:0001114
+name: fufu foaming ability assesment 1-5 scale
+namespace: cassava_trait
+def: "Assessment of the intensity of air bubbles formed on the fermenting liquor as the days of fermentation progresses. The rate of bubble formation is evaluated by the processors with structured questionaires on a scale of 1 to 5. 5=extremely foamy, 4=foamy, 3=moderately foamy, 2=scanty foam and 1=no foam." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
+relationship: variable_of CO_334:0001115 ! Fufu foaming ability 1-5 scale
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001115
+name: Fufu foaming ability 1-5 scale
+namespace: CassavaScale
+def: "5=extremely foamy, 4=foamy, 3=moderately foamy, 2=scanty foam and 1=no foam." []
+is_a: CO_334:0100436 ! 5 point scales
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
@@ -13816,7 +13860,7 @@ id: CO_334:0100436
 name: 5 point scales
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010230 ! Visual Observation: Cassava mosaic disease severity 1-month evaluation_method
+relationship: scale_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
 
 [Term]
 id: CO_334:0100437
