@@ -6444,7 +6444,9 @@ relationship: method_of CO_334:0001095 ! Fufu ease of cooking estimation 0-5 sca
 [Term]
 id: CO_334:0001097
 name: 0-5 scale for fufu ease of cooking
+namespace: CassavaScale
 is_a: CO_334:0100495 ! 6pt scale
+
 
 [Term]
 id: CO_334:0001098
