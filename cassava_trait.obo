@@ -5,7 +5,6 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001068> \"CO_334:0000411\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001069> \"CO_334:0000151\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001070> \"CO_334:0010408\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001071> \"CO_334:0000151\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001072> \"CO_334:0010408\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -4204,7 +4203,7 @@ namespace: cassava_trait
 def: "Fufu weight" [CO:curators]
 synonym: "fufucnt" EXACT []
 xref: TO:0001042
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001073 ! Fufu quality
 
 [Term]
 id: CO_334:0000374
@@ -4676,8 +4675,8 @@ name: Root dry matter content
 namespace: cassava_trait
 def: "Dry matter content of root related terms." [CO:curators]
 synonym: "RtDMC" EXACT []
-is_a: CO_334:0000004 ! Quality trait
 is_a: CO_334:0000447 ! Dry matter content
+is_a: CO_334:0001077 ! Root quality traits
 created_by: AAfolabi
 creation_date: 2017-07-18T14:58:31Z
 
@@ -5892,7 +5891,7 @@ id: CO_334:0001012
 name: Softness of boiled cassava roots
 namespace: cassava_trait
 def: "Mechanical attribute of boiled cassava roots relating to force required to make them compressed" [CO:curators]
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0001016
@@ -6225,6 +6224,389 @@ namespace: CassavaMethod
 def: "Estimated percentage of the leaf area occupied by nymphs." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001068 ! Number of Aleurotrachelus socialis nymphs
+
+[Term]
+id: CO_334:0001073
+name: Fufu quality
+namespace: cassava_trait
+def: "The quality of fufu depends on various factors ranging from the quality of cassava used to the processing techniques employed." [CO:curators]
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001074
+name: pH of fufu
+namespace: cassava_trait
+def: "The pH of fufu samples is evaluated by pH meter (PH=-log(H+) and measures the acidity or alkalinity of fufu solution." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0004016 ! Measurement: pH meter method
+relationship: variable_of CO_334:0004017 ! -log (H30+)
+created_by: Naama Menda
+creation_date: 2024-13-02
+
+[Term]
+id: CO_334:0001075
+name: Total titratable acidity of fufu in percentage
+namespace: cassava_trait
+def: "A measure of the percentage amount of acid or acids present in a food sample. \n10ml of fufu liquor was measured into a conical flask and 3 drops of phenolpthalein indicator added. It was titrated against 0.1N NaOH solution in a burette till a colour change was observed. Th initial and final vol. of the NaOH solution was noted. The procedure was replicatd for each sample. %TTA = ((concentration of base * titre value)/volume of sample used))*100" [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001076 ! Measurement:  acidity titer method
+relationship: variable_of CO_334:0100583 ! pct (%)
+created_by: Naama Menda
+creation_date: 2024-13-02
+
+[Term]
+id: CO_334:0001076
+name: Measurement:  acidity titer method
+namespace: CassavaMethod
+def: "Measurement using a laboratory pH meter." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001077
+name: Root quality traits
+namespace: cassava_trait
+def: "Traits measured on cassava roots." [CO:curators]
+is_a: CO_334:0000004 ! Quality trait
+
+[Term]
+id: CO_334:0001078
+name: Hardness/softness of raw cassava roots
+namespace: cassava_trait
+def: "Mechanical attribute of boiled cassava roots relating to force required to make them compressed" [CO:curators]
+is_a: CO_334:0001077 ! Root quality traits
+
+[Term]
+id: CO_334:0001079
+name: Hardness/softness of raw cassava roots in kilograms per cubic centimeter kg/cm^3
+namespace: cassava_trait
+def: "A measure of the hardness or softness of cassava or its penetrability.\nPenetrometer measurement in kg/cm^3." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001078 ! Hardness/softness of raw cassava roots
+relationship: variable_of CO_334:0001080 ! Calculation: hardness of raw root_method
+relationship: variable_of CO_334:0001081 ! kg/cm^3
+creation_date: 02-13-2024
+
+[Term]
+id: CO_334:0001080
+name: Calculation: hardness of raw root_method
+namespace: CassavaMethod
+def: "Assessment of the hardness/softness of raw root through calculation of the force it takes using a penetrometer to penetrate the root." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001012 ! Softness of boiled cassava roots
+
+[Term]
+id: CO_334:0001081
+name: kg/cm^3
+namespace: CassavaScale
+def: "kilograms per cubic centimeter." []
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0001082
+name: Texture profile analysis trait
+namespace: cassava_trait
+def: "TExture profile analysis TPA" [CO:curators]
+is_a: CO_334:0002071 ! Textural characteristic
+
+[Term]
+id: CO_334:0001083
+name: Fufu gumminess measured in Newtons
+namespace: cassava_trait
+def: "A measure of fufu stickiness in newtons obtained by Texture Profile Analysis probe." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100695 ! newton
+
+[Term]
+id: CO_334:0001084
+name: Measurement: Texture Profile Analysys with TPA platform and probe
+namespace: CassavaMethod
+def: "A sample is placed on the TPA platform. The TPA probe presses it for the various measurements to be obtained." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001082 ! Texture profile analysis trait
+
+[Term]
+id: CO_334:0001085
+name: Fufu chewiness measured in Newtons
+namespace: cassava_trait
+def: "A measure of fufu easiness to chew in newtons obtained by Texture Profile Analysis probe." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100695 ! newton
+
+[Term]
+id: CO_334:0001086
+name: Fufu hardness measured in Newtons
+namespace: cassava_trait
+def: "Fufu hardness is measure of the easiness of pressing a sample with the texture profile analyzer." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100695 ! newton
+
+[Term]
+id: CO_334:0001087
+name: Fufu pasting time in seconds
+namespace: cassava_trait
+def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the fufu pasting time in seconds." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001088 ! seconds (time)
+relationship: variable_of CO_334:0001089 ! Measurement: fufu pasting time method
+relationship: variable_of CO_334:0002049 ! Cooking quality
+creation_date: 2024-02-16
+
+[Term]
+id: CO_334:0001088
+name: seconds (time)
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001087 ! Fufu pasting time in seconds
+
+[Term]
+id: CO_334:0001089
+name: Measurement: fufu pasting time method
+namespace: CassavaMethod
+def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the starting, pasting, ending and total time of cooking. Also, the cooking temperature, weight of dough before and after cooking were noted." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001087 ! Fufu pasting time in seconds
+
+[Term]
+id: CO_334:0001090
+name: Fufu cooking time in seconds
+namespace: cassava_trait
+def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the total cooking process time in seconds." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001088 ! seconds (time)
+relationship: variable_of CO_334:0001091 ! Measurement: fufu cooking time method
+relationship: variable_of CO_334:0002049 ! Cooking quality
+creation_date: 2024-02-16
+
+[Term]
+id: CO_334:0001091
+name: Measurement: fufu cooking time method
+namespace: CassavaMethod
+def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the starting, pasting, ending and total time of cooking. Also, the cooking temperature, weight of dough before and after cooking were noted." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001090 ! Fufu cooking time in seconds
+
+[Term]
+id: CO_334:0001092
+name: Fufu cooking temperature needed for the final product measured in celcius
+namespace: cassava_trait
+def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the temperature needed for the final product." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001094 ! Measurement: fufu cooking temperature method
+relationship: variable_of CO_334:0002049 ! Cooking quality
+relationship: variable_of CO_334:0100703 ! temperature celsius
+creation_date: 2024-02-16
+
+[Term]
+id: CO_334:0001094
+name: Measurement: fufu cooking temperature method
+namespace: CassavaMethod
+def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the starting, pasting, ending and total time of cooking. Also, the cooking temperature, weight of dough before and after cooking were noted." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001092 ! Fufu cooking temperature needed for the final product measured in celcius
+
+[Term]
+id: CO_334:0001095
+name: Fufu ease of cooking estimation 0-5 scale
+namespace: cassava_trait
+def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked. THe ease of cooking is estimated on a 0-5 scale. 0= hardest, 5= easiest." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001096 ! Estimation: fufu ease of cooking method
+relationship: variable_of CO_334:0001097 ! 0-5 scale for fufu ease of cooking
+relationship: variable_of CO_334:0002049 ! Cooking quality
+creation_date: 2024-02-16
+
+[Term]
+id: CO_334:0001096
+name: Estimation: fufu ease of cooking method
+namespace: CassavaMethod
+def: "A known measurement of fufu mash was weighed into a bowl and a weighed quantity of water added. They were mixed thoroughly to dissolve every lump. The mixture was transferred into a pot on fire and stirred till it cooked noting the starting, pasting, ending and total time of cooking. Also, the cooking temperature, weight of dough before and after cooking were noted." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001095 ! Fufu ease of cooking estimation 0-5 scale
+
+[Term]
+id: CO_334:0001097
+name: 0-5 scale for fufu ease of cooking
+namespace: CassavaScale
+is_a: CO_334:0100495 ! 6pt scale
+
+
+[Term]
+id: CO_334:0001098
+name: fufu turbidity percentage %
+namespace: cassava_trait
+def: "A measure of the cloudiness or clarity of fufu liquor measured using a spectrophotometer with a wavelength of 420nm." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001099 ! Calculation: fufu turbidity percentage method
+relationship: variable_of CO_334:0100583 ! pct (%)
+creation_date: 02-13-2024
+
+[Term]
+id: CO_334:0001099
+name: Calculation: fufu turbidity percentage method
+namespace: CassavaMethod
+def: "A measure of the cloudiness or clarity of fufu liquor and transmittance was noted using a spectrophotometer with a wavelength of 420nm." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001098 ! fufu turbidity percentage %
+
+[Term]
+id: CO_334:0001101
+name: Fufu  peel loss
+namespace: cassava_trait
+def: "Fufu peel weight reltive to fresh root weight." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0001073 ! Fufu quality
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001102
+name: fufu peel loss in percentage
+namespace: cassava_trait
+def: "The ratio of weight of fresh root minus weight of peeled root and weight of fresh root in percentage." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001101 ! Fufu  peel loss
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0001103
+name: fufu resilience ratio
+namespace: cassava_trait
+def: "Textural profile analysis by double compression of fufu resilience. The area under curve after peak force is reached divided by the area under curve before peak force is reached as  computed from TPA measurements." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0001104 ! Calculation: fufu resilience ratio method
+relationship: variable_of CO_334:0100582 ! ratio
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001104
+name: Calculation: fufu resilience ratio method
+namespace: CassavaMethod
+def: "The area under curve after peak force is reached divided by the area under curve before peak force is reached.\nFufu sample of uniform dimension 4.0 cm height x 4.7 cm diameter and temperature of 45°C was placed at the center of the platform of a Stable Microsystems TA. XTplus equipped with a standard compression cylindrical plate of 100 mm diameter. Double compression of the samples was done automatically with a 10g trigger load and 10 seconds interval between each compression." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001103 ! fufu resilience ratio
+
+[Term]
+id: CO_334:0001105
+name: fufu cohesiveness ratio
+namespace: cassava_trait
+def: "Textural profile analysis by double compression of fufu cohesiveness. The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0001106 ! Calculation: fufu cohesiveness ratio method
+relationship: variable_of CO_334:0100582 ! ratio
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001106
+name: Calculation: fufu cohesiveness ratio method
+namespace: CassavaMethod
+def: "The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements.\nFufu sample of uniform dimension 4.0 cm height x 4.7 cm diameter and temperature of 45°C was placed at the center of the platform of a Stable Microsystems TA. XTplus equipped with a standard compression cylindrical plate of 100 mm diameter. Double compression of the samples was done automatically with a 10g trigger load and 10 seconds interval between each compression." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001105 ! fufu cohesiveness ratio
+
+[Term]
+id: CO_334:0001107
+name: fufu springiness percentage
+namespace: cassava_trait
+def: "Textural profile analysis by double compression. A measure of elasticity in percentage. A product’s recovery to its original height ((Distance 2)/(Distance 1)*100 or (Time 2/Time 1)*100)." [CO:curators]
+xref: CO:curators
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0001108 ! Calculation: Fufu springiness in percentage
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0001108
+name: Calculation: Fufu springiness in percentage
+namespace: CassavaMethod
+def: "A ratio or percentage of a product’s recovery to its original height as computed from TPA measurements. A ratio or percentage of a product’s recovery to its original height ((Distance 2)/(Distance 1)*100 or (Time 2/Time 1)*100)." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001107 ! fufu springiness percentage
+
+[Term]
+id: CO_334:0001109
+name: Fufu adhesiveness measured in Newton per second N/s
+namespace: cassava_trait
+def: "Textural profile analysis by double compression of fufu adhesiveness. A measure of the quality of fufu stickiness measured in newton per second N/s." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0001110 ! newton per second
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001110
+name: newton per second
+namespace: CassavaScale
+is_a: CO_334:0001001 ! Scales
+
+[Term]
+id: CO_334:0001111
+name: fufu water clarity assesment 1-5 scale
+namespace: cassava_trait
+def: "Assessment of the decrease in clarity of the fermenting liquor by visual observation. The rate of bubble formation and water clarity/turbidity is evaluated by the processors with structured questionnaire on a scale of 1 to 5; where 5=extremely foamy and extremely turbid, 4=foamy and turbid, 3=moderately foamy and neither turbid nor clear, 2=scanty foam and clear, 1=no foam and extremely clear." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
+relationship: variable_of CO_334:0001112 ! Fufu water clarity 1-5 scale
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001112
+name: Fufu water clarity 1-5 scale
+namespace: CassavaScale
+def: "5=extremely foamy and extremely turbid, 4=foamy and turbid, 3=moderately foamy and neither turbid nor clear, 2=scanty foam and clear, 1=no foam and extremely clear." []
+is_a: CO_334:0100436 ! 5 point scales
+
+[Term]
+id: CO_334:0001113
+name: Visual Observation: Cassava fufu water clarity evaluation method
+namespace: CassavaMethod
+def: "Visual observation rate of bubble formation and water clarity/turbidity was evaluated by the processors with structured questionnaire on a scale of 1 to 5; where 5=extremely foamy and extremely turbid, 4=foamy and turbid, 3=moderately foamy and neither turbid nor clear,2=scanty foam and clear and 1=no foam and extremely clear." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001111 ! fufu water clarity assesment 1-5 scale
+
+[Term]
+id: CO_334:0001114
+name: fufu foaming ability assesment 1-5 scale
+namespace: cassava_trait
+def: "Assessment of the intensity of air bubbles formed on the fermenting liquor as the days of fermentation progresses. The rate of bubble formation is evaluated by the processors with structured questionaires on a scale of 1 to 5. 5=extremely foamy, 4=foamy, 3=moderately foamy, 2=scanty foam and 1=no foam." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
+relationship: variable_of CO_334:0001115 ! Fufu foaming ability 1-5 scale
+creation_date: 02-27-2024
+
+[Term]
+id: CO_334:0001115
+name: Fufu foaming ability 1-5 scale
+namespace: CassavaScale
+def: "5=extremely foamy, 4=foamy, 3=moderately foamy, 2=scanty foam and 1=no foam." []
+is_a: CO_334:0100436 ! 5 point scales
 
 [Term]
 id: CO_334:0002001
@@ -7271,7 +7653,7 @@ def: "Temperature at which the viscosity trace first raises above the baseline d
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002100 ! Pasting temperature
 relationship: variable_of CO_334:0010539 ! Measurement: Pasting temperature_method
-relationship: variable_of CO_334:0100703 ! degree celsius
+relationship: variable_of CO_334:0100703 ! temperature celsius
 
 [Term]
 id: CO_334:0002109
@@ -7425,7 +7807,7 @@ name: Fufu chaff weight
 namespace: cassava_trait
 def: "Fufu chaff weight" [CO:curators]
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001073 ! Fufu quality
 
 [Term]
 id: CO_334:0002125
@@ -7447,7 +7829,7 @@ xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002124 ! Fufu chaff weight
 relationship: variable_of CO_334:0002127 ! Fufu  chaff loss
-relationship: variable_of CO_334:0100617 ! proportion
+relationship: variable_of CO_334:0100583 ! pct (%)
 
 [Term]
 id: CO_334:0002127
@@ -7455,7 +7837,7 @@ name: Fufu  chaff loss
 namespace: cassava_trait
 def: "Fufu chaff loss relative to dewatered mash weight" [CO:curators]
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001073 ! Fufu quality
 
 [Term]
 id: CO_334:0002128
@@ -9586,7 +9968,7 @@ name: Fufu preservability
 namespace: cassava_trait
 def: "Quality of Fufu to be preserved for 72h" [CO:curators]
 synonym: "FufuPresev" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001073 ! Fufu quality
 
 [Term]
 id: CO_334:0003212
@@ -9594,7 +9976,7 @@ name: Fufu swelling capacity
 namespace: cassava_trait
 def: "Swelling capacity of fufu sample" [CO:curators]
 synonym: "FufSw" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001073 ! Fufu quality
 
 [Term]
 id: CO_334:0003213
@@ -9602,7 +9984,7 @@ name: Fufu taste
 namespace: cassava_trait
 def: "Taste of fufu" [CO:curators]
 synonym: "FufTast" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001073 ! Fufu quality
 
 [Term]
 id: CO_334:0003214
@@ -9610,7 +9992,7 @@ name: Fufu woody filament presence
 namespace: cassava_trait
 def: "Presence of woody filaments or crude fibers in Fufu" [CO:curators]
 synonym: "FufFil" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001073 ! Fufu quality
 
 [Term]
 id: CO_334:0003215
@@ -9738,7 +10120,7 @@ name: Root food content
 namespace: cassava_trait
 def: "Quantity of food from a root. Related to root dry matter content" [CO:curators]
 synonym: "RtFdCt" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0003231
@@ -9762,7 +10144,7 @@ name: Root suitable for Abacha
 namespace: cassava_trait
 def: "Suitability of the root to make Abacha" [CO:curators]
 synonym: "RtSuitAb" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0003234
@@ -9770,7 +10152,7 @@ name: Root suitable for Fufu
 namespace: cassava_trait
 def: "Suitability of the root to make Fufu" [CO:curators]
 synonym: "RtSuitFuf" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0003235
@@ -9778,7 +10160,7 @@ name: Root suitable for Gari
 namespace: cassava_trait
 def: "Suitability of the root to make Gari" [CO:curators]
 synonym: "RtSuitGar" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: CO_334:0001077 ! Root quality traits
 
 [Term]
 id: CO_334:0003236
@@ -9888,18 +10270,18 @@ def: "The pH of gari samples is evaluated by pH meter (PH=-log(H+) and measures 
 synonym: "PH = -log (H30+)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001064 ! Gari quality
-relationship: variable_of CO_334:0004016 ! Measurement: pH of gari_method
+relationship: variable_of CO_334:0004016 ! Measurement: pH meter method
 relationship: variable_of CO_334:0004017 ! -log (H30+)
 created_by: Ekanem
 creation_date: 2023-09-26T10:07:21Z
 
 [Term]
 id: CO_334:0004016
-name: Measurement: pH of gari_method
+name: Measurement: pH meter method
 namespace: CassavaMethod
 def: "Measurement using a laboratory pH meter." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0001064 ! Gari quality
+relationship: method_of CO_334:0000004 ! Quality trait
 
 [Term]
 id: CO_334:0004017
@@ -9907,7 +10289,7 @@ name: -log (H30+)
 namespace: CassavaScale
 def: "Negative of the logarithm of H+ activity" [CO:curators]
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0004016 ! Measurement: pH of gari_method
+relationship: scale_of CO_334:0004016 ! Measurement: pH meter method
 
 [Term]
 id: CO_334:0004018
@@ -10075,7 +10457,7 @@ synonym: "RVA-pasting temp (°C)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002100 ! Pasting temperature
 relationship: variable_of CO_334:0010539 ! Measurement: Pasting temperature_method
-relationship: variable_of CO_334:0100703 ! degree celsius
+relationship: variable_of CO_334:0100703 ! temperature celsius
 created_by: Ukoabasi Ekanem
 creation_date: 2023-10-02T10:07:21Z
 
@@ -13480,7 +13862,7 @@ id: CO_334:0100436
 name: 5 point scales
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010230 ! Visual Observation: Cassava mosaic disease severity 1-month evaluation_method
+relationship: scale_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
 
 [Term]
 id: CO_334:0100437
@@ -13682,7 +14064,7 @@ id: CO_334:0100495
 name: 6pt scale
 namespace: CassavaScale
 is_a: CO_334:0001001 ! Scales
-relationship: scale_of CO_334:0010289 ! Visual Rating: Storage root shape_method
+relationship: scale_of CO_334:0001096 ! Estimation: fufu ease of cooking method
 
 [Term]
 id: CO_334:0100496
@@ -14724,8 +15106,10 @@ relationship: scale_of CO_334:0010530 ! Visual Scoring :Branching Angle_degree_m
 
 [Term]
 id: CO_334:0100703
-name: degree celsius
+name: temperature celsius
 namespace: CassavaScale
+synonym: "centigrade" EXACT []
+synonym: "degree" EXACT []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0010538 ! Measurement: Peak viscosity_method
 relationship: scale_of CO_334:0010539 ! Measurement: Pasting temperature_method
