@@ -7665,7 +7665,7 @@ is_a: CO_334:0000004 ! Quality trait
 id: CO_334:0002110
 name: Cassava white leaf spot disease severity
 namespace: cassava_trait
-def: "Severity of white leaf spot caused by Passalora maninhotis" [CO:curators]
+def: "Severity of white leaf spot caused by Phaeoramularia manihotis (previosly named Passalora manihotis)" [CO:curators]
 synonym: "cwlsds" RELATED []
 xref: CO:curators
 is_a: CO_334:0000029 ! fungal disease
@@ -7674,7 +7674,7 @@ is_a: CO_334:0000029 ! fungal disease
 id: CO_334:0002111
 name: Cassava white leaf spot disease incidence
 namespace: cassava_trait
-def: "Proportion of plants showing symptoms of disease casued by Passalora maninhotis." [CO:curators]
+def: "Proportion of plants showing symptoms of disease caused by Phaeoramularia manihotis (previosly named Passalora manihotis)." [CO:curators]
 synonym: "cwlsdi" RELATED []
 xref: CO:curators
 is_a: CO_334:0000029 ! fungal disease
