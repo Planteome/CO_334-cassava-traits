@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001116> \"CO_334:0000281\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001117> \"CO_334:0000047\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001118> \"CO_334:0100681\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001119> \"CO_334:0001076\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001120> \"CO_334:0100681\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001121> \"CO_334:0000047\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6447,7 +6448,6 @@ name: 0-5 scale for fufu ease of cooking
 namespace: CassavaScale
 is_a: CO_334:0100495 ! 6pt scale
 
-
 [Term]
 id: CO_334:0001098
 name: fufu turbidity percentage %
@@ -6571,8 +6571,8 @@ namespace: cassava_trait
 def: "Assessment of the decrease in clarity of the fermenting liquor by visual observation. The rate of bubble formation and water clarity/turbidity is evaluated by the processors with structured questionnaire on a scale of 1 to 5; where 5=extremely foamy and extremely turbid, 4=foamy and turbid, 3=moderately foamy and neither turbid nor clear, 2=scanty foam and clear, 1=no foam and extremely clear." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
-relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
 relationship: variable_of CO_334:0001112 ! Fufu water clarity 1-5 scale
+relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
 creation_date: 02-27-2024
 
 [Term]
@@ -6607,6 +6607,58 @@ name: Fufu foaming ability 1-5 scale
 namespace: CassavaScale
 def: "5=extremely foamy, 4=foamy, 3=moderately foamy, 2=scanty foam and 1=no foam." []
 is_a: CO_334:0100436 ! 5 point scales
+
+[Term]
+id: CO_334:0001116
+name: Growth rate
+namespace: cassava_trait
+def: "The speed of crop growth." [CO:curators]
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0001117
+name: relative growth rate measured remotely in cubic meters per day m^3/day
+namespace: cassava_trait
+def: "the speed of the crop growth in terms of volume per unit of time (a day) m3/day." [CO:curators]
+synonym: "RGR_vol" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001116 ! Growth rate
+relationship: variable_of CO_334:0001118 ! Cubic meter per day m3/day
+relationship: variable_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+
+[Term]
+id: CO_334:0001118
+name: Cubic meter per day m3/day
+namespace: CassavaScale
+synonym: "m3/day" EXACT []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+
+[Term]
+id: CO_334:0001119
+name: Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+namespace: CassavaMethod
+def: "Measurement using a Remote sensing, from unmanned aerial vehicles (UAV)." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001117 ! relative growth rate measured remotely in cubic meters per day m^3/day
+
+[Term]
+id: CO_334:0001120
+name: Cubic meter per celcius degree m3/°C
+namespace: CassavaScale
+synonym: "m3/°C" EXACT []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+
+[Term]
+id: CO_334:0001121
+name: relative growth rate measured remotely in cubic meters per celcius degree m^3/°C
+namespace: cassava_trait
+def: "the speed of the crop growth in terms of volume per unit of temperature (celcius) m3/°C." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001116 ! Growth rate
+relationship: variable_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+relationship: variable_of CO_334:0001120 ! Cubic meter per celcius degree m3/°C
 
 [Term]
 id: CO_334:0002001
