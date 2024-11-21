@@ -6643,21 +6643,21 @@ relationship: method_of CO_334:0001117 ! relative growth rate measured remotely 
 
 [Term]
 id: CO_334:0001120
-name: Cubic meter per celcius degree m3/°C
+name: Cubic meter per celcius degree m3/C
 namespace: CassavaScale
-synonym: "m3/°C" EXACT []
+synonym: "m3/C" EXACT []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
 
 [Term]
 id: CO_334:0001121
-name: relative growth rate measured remotely in cubic meters per celcius degree m^3/°C
+name: relative growth rate measured remotely in cubic meters per celcius degree m^3/C
 namespace: cassava_trait
-def: "the speed of the crop growth in terms of volume per unit of temperature (celcius) m3/°C." [CO:curators]
+def: "the speed of the crop growth in terms of volume per unit of temperature (celcius) m3/C." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001116 ! Growth rate
 relationship: variable_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
-relationship: variable_of CO_334:0001120 ! Cubic meter per celcius degree m3/°C
+relationship: variable_of CO_334:0001120 ! Cubic meter per celcius degree m3/C
 
 [Term]
 id: CO_334:0002001
@@ -10504,7 +10504,7 @@ id: CO_334:0004042
 name: Pasting temperature of gari measurement in degree celsius
 namespace: cassava_trait
 def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase measured by the Rapid Visco Analyser (RVA) in degree celsius." [CO:curators]
-synonym: "RVA-pasting temp (°C)" EXACT []
+synonym: "RVA-pasting temp (C)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002100 ! Pasting temperature
 relationship: variable_of CO_334:0010539 ! Measurement: Pasting temperature_method
