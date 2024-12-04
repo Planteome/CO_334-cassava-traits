@@ -5984,7 +5984,7 @@ relationship: variable_of CO_334:0100680 ! 11pt scale
 
 [Term]
 id: CO_334:0001038
-name: 'post-harvest physiological deterioration variable 0-10 month 10'
+name: post-harvest physiological deterioration variable 0-10 month 10
 namespace: cassava_trait
 def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 10 moths after planting." [CO:curators]
 is_a: CO_334:0001000 ! Variables
@@ -6609,19 +6609,19 @@ is_a: CO_334:0100436 ! 5 point scales
 
 [Term]
 id: CO_334:0001116
-name: Growth rate
+name: Relative growth rate trait
 namespace: cassava_trait
 def: "The speed of crop growth." [CO:curators]
 is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0001117
-name: relative growth rate measured remotely in cubic meters per day m^3/day
+name: relative growth rate measured from an unmanned aerial vehicle (UAV) in cubic meters per day m^3/day
 namespace: cassava_trait
 def: "the speed of the crop growth in terms of volume per unit of time (a day) m3/day." [CO:curators]
 synonym: "RGR_vol" EXACT []
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0001116 ! Growth rate
+relationship: variable_of CO_334:0001116 ! Relative growth rate trait
 relationship: variable_of CO_334:0001118 ! Cubic meter per day m3/day
 relationship: variable_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
 
@@ -6639,7 +6639,7 @@ name: Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehi
 namespace: CassavaMethod
 def: "Measurement using a Remote sensing, from unmanned aerial vehicles (UAV)." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0001117 ! relative growth rate measured remotely in cubic meters per day m^3/day
+relationship: method_of CO_334:0001117 ! relative growth rate measured from an unmanned aerial vehicle (UAV) in cubic meters per day m^3/day
 
 [Term]
 id: CO_334:0001120
@@ -6651,13 +6651,20 @@ relationship: scale_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote
 
 [Term]
 id: CO_334:0001121
-name: relative growth rate measured remotely in cubic meters per celcius degree m^3/C
+name: relative growth rate measured from an unmanned aerial vehicle (UAV) in cubic meters per celcius degree m^3/C
 namespace: cassava_trait
 def: "the speed of the crop growth in terms of volume per unit of temperature (celcius) m3/C." [CO:curators]
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0001116 ! Growth rate
+relationship: variable_of CO_334:0001116 ! Relative growth rate trait
 relationship: variable_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
 relationship: variable_of CO_334:0001120 ! Cubic meter per celcius degree m3/C
+
+[Term]
+id: CO_334:0001122
+name: Electron transport rate trait
+namespace: cassava_trait
+def: "The rate of transport of electrons between photosystems I and II, and it is considered a close approximation of photosynthetic rates." [CO:curators]
+is_a: CO_334:0000003 ! Physiological trait
 
 [Term]
 id: CO_334:0002001
