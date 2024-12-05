@@ -5984,7 +5984,7 @@ relationship: variable_of CO_334:0100680 ! 11pt scale
 
 [Term]
 id: CO_334:0001038
-name: 'post-harvest physiological deterioration variable 0-10 month 10'
+name: post-harvest physiological deterioration variable 0-10 month 10
 namespace: cassava_trait
 def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 10 moths after planting." [CO:curators]
 is_a: CO_334:0001000 ! Variables
@@ -6447,7 +6447,6 @@ name: 0-5 scale for fufu ease of cooking
 namespace: CassavaScale
 is_a: CO_334:0100495 ! 6pt scale
 
-
 [Term]
 id: CO_334:0001098
 name: fufu turbidity percentage %
@@ -6571,8 +6570,8 @@ namespace: cassava_trait
 def: "Assessment of the decrease in clarity of the fermenting liquor by visual observation. The rate of bubble formation and water clarity/turbidity is evaluated by the processors with structured questionnaire on a scale of 1 to 5; where 5=extremely foamy and extremely turbid, 4=foamy and turbid, 3=moderately foamy and neither turbid nor clear, 2=scanty foam and clear, 1=no foam and extremely clear." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
-relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
 relationship: variable_of CO_334:0001112 ! Fufu water clarity 1-5 scale
+relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
 creation_date: 02-27-2024
 
 [Term]
@@ -6607,6 +6606,65 @@ name: Fufu foaming ability 1-5 scale
 namespace: CassavaScale
 def: "5=extremely foamy, 4=foamy, 3=moderately foamy, 2=scanty foam and 1=no foam." []
 is_a: CO_334:0100436 ! 5 point scales
+
+[Term]
+id: CO_334:0001116
+name: Relative growth rate trait
+namespace: cassava_trait
+def: "The speed of crop growth." [CO:curators]
+is_a: CO_334:0000001 ! Agronomic trait
+
+[Term]
+id: CO_334:0001117
+name: relative growth rate measured from an unmanned aerial vehicle (UAV) in cubic meters per day m^3/day
+namespace: cassava_trait
+def: "the speed of the crop growth in terms of volume per unit of time (a day) m3/day." [CO:curators]
+synonym: "RGR_vol" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001116 ! Relative growth rate trait
+relationship: variable_of CO_334:0001118 ! Cubic meter per day m3/day
+relationship: variable_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+
+[Term]
+id: CO_334:0001118
+name: Cubic meter per day m3/day
+namespace: CassavaScale
+synonym: "m3/day" EXACT []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+
+[Term]
+id: CO_334:0001119
+name: Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+namespace: CassavaMethod
+def: "Measurement using a Remote sensing, from unmanned aerial vehicles (UAV)." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001117 ! relative growth rate measured from an unmanned aerial vehicle (UAV) in cubic meters per day m^3/day
+
+[Term]
+id: CO_334:0001120
+name: Cubic meter per celcius degree m3/C
+namespace: CassavaScale
+synonym: "m3/C" EXACT []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+
+[Term]
+id: CO_334:0001121
+name: relative growth rate measured from an unmanned aerial vehicle (UAV) in cubic meters per celcius degree m^3/C
+namespace: cassava_trait
+def: "the speed of the crop growth in terms of volume per unit of temperature (celcius) m3/C." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001116 ! Relative growth rate trait
+relationship: variable_of CO_334:0001119 ! Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehicles (UAV)
+relationship: variable_of CO_334:0001120 ! Cubic meter per celcius degree m3/C
+
+[Term]
+id: CO_334:0001122
+name: Electron transport rate trait
+namespace: cassava_trait
+def: "The rate of transport of electrons between photosystems I and II, and it is considered a close approximation of photosynthetic rates." [CO:curators]
+is_a: CO_334:0000003 ! Physiological trait
 
 [Term]
 id: CO_334:0002001
@@ -10453,7 +10511,7 @@ id: CO_334:0004042
 name: Pasting temperature of gari measurement in degree celsius
 namespace: cassava_trait
 def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase measured by the Rapid Visco Analyser (RVA) in degree celsius." [CO:curators]
-synonym: "RVA-pasting temp (°C)" EXACT []
+synonym: "RVA-pasting temp (C)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002100 ! Pasting temperature
 relationship: variable_of CO_334:0010539 ! Measurement: Pasting temperature_method
@@ -15697,4 +15755,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
