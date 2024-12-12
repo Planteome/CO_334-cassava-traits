@@ -6667,6 +6667,33 @@ def: "The rate of transport of electrons between photosystems I and II, and it i
 is_a: CO_334:0000003 ! Physiological trait
 
 [Term]
+id: CO_334:0001123
+name: Maximum electron transport rate (ETRmax) measured in mmol electrons using pulse amplitude modulation (PAM)-based methods
+namespace: cassava_trait
+def: "the electron transport rate between photosystems I and II, and it is considered as a close approximation of photosynthetic efficiency. The maximum ETR, or ETRmax, refers to maximum rate at saturating light intensities. ETR is measured using pulse amplitude modulation (PAM)-based methods, which consists of emitting blue light pulses over a leaf area of about 1 square cm. The ETR data is collected every 15 minutes during the day and every 2 hours during the evening, typically measured on 50-100 plants in a time window of 2-4 weeks." [CO:curators]
+synonym: "ETRmax" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001122 ! Electron transport rate trait
+relationship: variable_of CO_334:0001124 ! Measurement: Pulse Amplitude Modulation (PAM) technique for measuring electron transport rate
+relationship: variable_of CO_334:0001125 ! millimol electrons
+
+[Term]
+id: CO_334:0001124
+name: Measurement: Pulse Amplitude Modulation (PAM) technique for measuring electron transport rate
+namespace: CassavaMethod
+def: "the method to measure ETR is based on the pulse amplitude modulation (PAM) technique.\nIt  consists of emitting blue light pulse (over a leaf area of about 1 square cm) which will cause chlorophyll fluorescence (ChlF);\nChlF information is used to estimate the quantum efficiency of photosystem II, and subsequently ETR as a proxy of photosynthesis." [CO:curators]
+is_a: CO_334:0001002 ! Methods
+relationship: method_of CO_334:0001123 ! Maximum electron transport rate measured in mmol electrons using pulse amplitude modulation (PAM)
+
+[Term]
+id: CO_334:0001125
+name: millimol electrons
+namespace: CassavaScale
+synonym: "mmol electrons" EXACT []
+is_a: CO_334:0001001 ! Scales
+relationship: scale_of CO_334:0001124 ! Measurement: Pulse Amplitude Modulation (PAM) technique for measuring electron transport rate
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
