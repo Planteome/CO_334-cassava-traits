@@ -1,7 +1,5 @@
 format-version: 1.2
-date: 28:10:2015 12:57
-saved-by: naama
-auto-generated-by: OBO-Edit 2.3.1
+saved-by: cooperl
 default-namespace: CO_334_cassava
 ontology: co_334
 
@@ -11,7 +9,6 @@ name: cassava sprouting proportion variable
 def: "Proportion of stakes germinated scored one month after planting." [CO:curators]
 synonym: "sprout" EXACT []
 synonym: "sprout_comp_r" EXACT []
-is_a: CO_334:0000472 ! cassava sprouting trait
 relationship: variable_of CO_334:0000472 ! cassava sprouting trait
 relationship: variable_of CO_334:0010220 ! cassava Counting:Sprouting_method
 relationship: variable_of CO_334:0100582 ! cassava ratio scale
@@ -22,7 +19,6 @@ name: cassava initial vigor assessment 1-7 variable
 def: "Visual assessment of plant vigor during establishment scored one month after planting." [CO:curators]
 synonym: "IVig_IITAVisScg_1to7" EXACT []
 synonym: "vigor" EXACT []
-is_a: CO_334:0000386 ! cassava initial vigor trait
 relationship: variable_of CO_334:0000386 ! cassava initial vigor trait
 relationship: variable_of CO_334:0010228 ! cassava Visual Rating:Initial Vigor_method
 relationship: variable_of CO_334:0100434 ! cassava 7 pt scale
@@ -33,7 +29,6 @@ name: cassava plant stands harvested counting variable
 def: "A count of the number of plant stands at harvest." [CO:curators]
 synonym: "nohav" EXACT []
 synonym: "NoHvstPlnt_Count_Plnt" EXACT []
-is_a: CO_334:0000434 ! cassava plant stands harvested
 relationship: variable_of CO_334:0000434 ! cassava plant stands harvested
 relationship: variable_of CO_334:0010284 ! cassava Counting:Plant Stands Harvested_method
 relationship: variable_of CO_334:0100490 ! cassava Plant scale
@@ -44,7 +39,6 @@ name: cassava root number counting variable
 def: "A count of the total number of storage roots harvested per plot." [CO:curators]
 synonym: "NoHvstRt_Count_Rt" EXACT []
 synonym: "rtno" EXACT []
-is_a: CO_334:0000452 ! cassava root number trait
 relationship: variable_of CO_334:0000452 ! cassava root number trait
 relationship: variable_of CO_334:0010285 ! cassava Counting:Root Number_method
 relationship: variable_of CO_334:0100491 ! cassava Root scale
@@ -55,7 +49,6 @@ name: cassava fresh root weight variable
 def: "Total fresh weight of storage roots harvested per plot measured in kilogram (kg)." [CO:curators]
 synonym: "rtwt" EXACT []
 synonym: "RtWt_Wgh_kg" EXACT []
-is_a: CO_334:0000493 ! cassava storage root weight trait
 relationship: variable_of CO_334:0000493 ! cassava storage root weight trait
 relationship: variable_of CO_334:0010286 ! cassava Measurement :Fresh Weight of Storage Root_method
 relationship: variable_of CO_334:0100493 ! cassava kg scale
@@ -66,7 +59,6 @@ name: cassava fresh root yield variable
 def: "Fresh weight of harvested roots expressed in tons per hectares (t/ha) per plant." [CO:curators]
 synonym: "fyld" EXACT []
 synonym: "RtYld_Fresh_tha" EXACT []
-is_a: CO_334:0000456 ! cassava root yield trait
 relationship: variable_of CO_334:0000456 ! cassava root yield trait
 relationship: variable_of CO_334:0010329 ! cassava Calculation :Fresh Root Yield_method
 relationship: variable_of CO_334:0100535 ! cassava t/ha scale
@@ -77,7 +69,6 @@ name: cassava dry yield variable
 def: "Dry weight of harvested roots derived by multiplying fresh storage root yield by dry matter content expressed in tons per hectares (t/ha)." [CO:curators]
 synonym: "dyld" EXACT []
 synonym: "RtYld_Dry_tha" EXACT []
-is_a: CO_334:0000456 ! cassava root yield trait
 relationship: variable_of CO_334:0000456 ! cassava root yield trait
 relationship: variable_of CO_334:0010330 ! cassava Calculation :Dry Yield_method
 relationship: variable_of CO_334:0100535 ! cassava t/ha scale
@@ -88,7 +79,6 @@ name: cassava harvest index variable
 def: "Proportion of fresh root weight in total biomass." [CO:curators]
 synonym: "HI" EXACT []
 xref: ICASS_TRAITID:10045
-xref: TO:0000128
 relationship: derives_from CO_334:0000013 ! cassava fresh root yield variable
 relationship: derives_from CO_334:0000017 ! cassava top yield variable
 relationship: variable_of CO_334:0000267 ! cassava harvest index trait
@@ -99,7 +89,6 @@ name: cassava fresh shoot weight measurement in kg variable
 def: "Total fresh weight of harvested foliage and stems in kilograms per plot." [CO:curators]
 synonym: "shtwt" EXACT []
 synonym: "ShWt_Meas_kg" EXACT []
-is_a: CO_334:0000369 ! cassava fresh shoot weight trait
 relationship: variable_of CO_334:0000369 ! cassava fresh shoot weight trait
 relationship: variable_of CO_334:0010287 ! cassava Measurement :Fresh Shoot Weight_method
 relationship: variable_of CO_334:0100493 ! cassava kg scale
@@ -110,7 +99,6 @@ name: cassava top yield variable
 def: "Total fresh weight of harvested foliage and stems expressed in tons per hectare (t/ha)." [CO:curators]
 synonym: "RtYld_FreshAerial_tha" EXACT []
 synonym: "tyld" EXACT []
-is_a: CO_334:0000456 ! cassava root yield trait
 relationship: variable_of CO_334:0000456 ! cassava root yield trait
 relationship: variable_of CO_334:0010332 ! cassava Calculation :Top Yield_method
 relationship: variable_of CO_334:0100535 ! cassava t/ha scale
@@ -250,23 +238,23 @@ is_a: TO:0000261 ! insect damage response trait
 id: CO_334:0000031
 name: cassava bacterial blight severity trait
 def: "Severity of bacterial blight disease caused by Xanthomonas axonopodis pv. Manihotis" [CO:curators]
-synonym: "Cassava bacterial blight severity - Cassavabase" EXACT []
+synonym: "cassava bacterial blight severity - Cassavabase" EXACT []
 synonym: "CBBSev" EXACT []
 is_a: TO:0000770 ! bacterial blight disease response
 
 [Term]
 id: CO_334:0000032
 name: cassava anthracnose disease severity trait
-def: "Severity of the Cassava anthracnose disease caused by Colletotrichum gloeosporioides f. sp." [CO:curators]
+def: "Severity of the cassava anthracnose disease caused by Colletotrichum gloeosporioides f. sp." [CO:curators]
 synonym: "CADSev" EXACT []
-synonym: "Cassava anthracnose disease severity - Cassavabase" EXACT []
+synonym: "cassava anthracnose disease severity - Cassavabase" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0000033
 name: cassava green mite severity trait
 def: "Severity of the damage caused by cassava green mite" [CO:curators]
-synonym: "Cassava green mite severity - Cassavabase" EXACT []
+synonym: "cassava green mite severity - Cassavabase" EXACT []
 synonym: "CGMSev" EXACT []
 is_a: TO:0020121 ! arachnid damage response trait
 
@@ -278,24 +266,24 @@ synonym: "cmbs" EXACT []
 synonym: "CMBSev_Est_1to5" EXACT []
 is_a: CO_334:0000340 ! cassava mealy bug severity trait
 relationship: variable_of CO_334:0000340 ! cassava mealy bug severity trait
-relationship: variable_of CO_334:0010267 ! cassava Visual Observation:Cassava Mealy Bug Severity_method
+relationship: variable_of CO_334:0010267 ! cassava Visual Observation:cassava Mealy Bug Severity_method
 relationship: variable_of CO_334:0100473 ! cassava 5 pt scale
 
 [Term]
 id: CO_334:0000035
 name: cassava mosaic disease severity trait
 def: "Severity of the symptoms caused by the cassava mosaic virus, in the family Geminiviridae and genus Begomovirus" [CO:curators]
-synonym: "Cassava mosaic disease severity - Cassavabase" EXACT []
+synonym: "cassava mosaic disease severity - Cassavabase" EXACT []
 synonym: "CMDSev" EXACT []
-is_a: TO:0000148 ! viral disease response
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_334:0000036
 name: cassava brown streak disease leaf severity trait
 def: "Severity of the symptoms on leaf caused by cassava brown streak virus in the family of Potyviridae and genus Ipomovirus" [CO:curators]
-synonym: "Cassava brown streak disease leaf severity - Cassavabase" EXACT []
+synonym: "cassava brown streak disease leaf severity - Cassavabase" EXACT []
 synonym: "CBSDRtSev" EXACT []
-is_a: TO:0000148 ! viral disease response
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_334:0000037
@@ -323,7 +311,7 @@ id: CO_334:0000040
 name: cassava brown streak disease leaf incidence trait
 def: "Proportion of plants within a plot showing symptoms of cassava brown streak disease" [CO:curators]
 synonym: "cbsdli" EXACT []
-is_a: TO:0000148 ! viral disease response
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_334:0000041
@@ -333,7 +321,7 @@ synonym: "cmbi" EXACT []
 synonym: "CMBInc_Est_1to5" EXACT []
 is_a: CO_334:0000339 ! cassava mealy bug incidence trait
 relationship: variable_of CO_334:0000339 ! cassava mealy bug incidence trait
-relationship: variable_of CO_334:0010268 ! cassava Counting:Cassava Mealy Bug Incidence_method
+relationship: variable_of CO_334:0010268 ! cassava Counting:cassava Mealy Bug Incidence_method
 relationship: variable_of CO_334:0100582 ! cassava ratio scale
 
 [Term]
@@ -858,10 +846,10 @@ is_a: TO:0000148 ! viral disease response
 [Term]
 id: CO_334:0000090
 name: cassava brown streak disease root severity trait
-def: "Cassava brown streak disease root symptoms severity" [CO:curators]
-synonym: "Cassava brown streak disease root severity - Cassavabase" EXACT []
+def: "cassava brown streak disease root symptoms severity" [CO:curators]
+synonym: "cassava brown streak disease root severity - Cassavabase" EXACT []
 synonym: "CBSDLfSev" EXACT []
-is_a: TO:0000148  ! viral disease response
+is_a: TO:0000148  ! viral disease response trait
 
 [Term]
 id: CO_334:0000091
@@ -880,7 +868,7 @@ name: cassava dry matter content percentage variable
 def: "Percentage dry matter storage root." [CO:curators]
 synonym: "dm" EXACT []
 synonym: "DMCt_Comp_r" EXACT []
-is_a: CO_334:0000447 ! cassava root dry matter content trait
+
 relationship: variable_of CO_334:0000447 ! cassava root dry matter content trait
 relationship: variable_of CO_334:0010300 ! cassava Estimation :Root Dry Matter Content_method
 relationship: variable_of CO_334:0100582 ! cassava ratio scale
@@ -926,7 +914,7 @@ synonym: "garcon" EXACT []
 synonym: "GariCt_Comp_gkg" EXACT []
 is_a: CO_334:0000374 ! cassava gari content trait
 relationship: variable_of CO_334:0000374 ! cassava gari content trait
-relationship: variable_of CO_334:0010315 ! cassava Measurement :Gari Content_method
+relationship: variable_of CO_334:0010315 ! cassava Measurement :gari Content_method
 relationship: variable_of CO_334:0100586 ! cassava g/kg scale
 
 [Term]
@@ -935,9 +923,8 @@ name: cassava fufu content in g/kg variable
 def: "Percentage (%) fufu processed from fresh storage roots." [CO:curators]
 synonym: "FfCt_Meas_gkg" EXACT []
 synonym: "fufucnt" EXACT []
-is_a: CO_334:0000373 ! cassava fufu content trait
 relationship: variable_of CO_334:0000373 ! cassava fufu content trait
-relationship: variable_of CO_334:0010380 ! cassava Estimation :Fufu Content_method
+relationship: variable_of CO_334:0010380 ! cassava Estimation :fufu Content_method
 relationship: variable_of CO_334:0100586 ! cassava g/kg scale
 
 [Term]
@@ -946,7 +933,6 @@ name: cassava lafun content g/kg variable
 def: "Percentage (%) lafun processed from fresh storage roots." [CO:curators]
 synonym: "LafuCt_Comp_gkg" EXACT []
 synonym: "lafun" EXACT []
-is_a: CO_334:0000388 ! cassava lafun content trait
 relationship: variable_of CO_334:0000388 ! cassava lafun content trait
 relationship: variable_of CO_334:0010381 ! cassava Estimation :Lafun Content_method
 relationship: variable_of CO_334:0100586 ! cassava g/kg scale
@@ -1042,7 +1028,7 @@ relationship: variable_of CO_334:0100558 ! cassava cm scale
 [Term]
 id: CO_334:0000107
 name: cassava male sterile visual rating 0&1 variable
-def: "Cassava plants that do no produce viable pollen." [CO:curators]
+def: "cassava plants that do no produce viable pollen." [CO:curators]
 synonym: "ms" EXACT []
 synonym: "PolPrsnc_VisClsn_0or1" EXACT []
 is_a: CO_334:0000404 ! cassava male sterile trait
@@ -1623,7 +1609,7 @@ name: cassava dry matter content by specific gravity method variable
 def: "Percentage dry matter content estimated from the specific gravity value of weighted cassava (4-5kg)." [CO:curators]
 synonym: "DMCt_Est_kg" EXACT []
 synonym: "dmspg" EXACT []
-is_a: CO_334:0000447 ! cassava root dry matter content trait
+
 relationship: variable_of CO_334:0000447 ! cassava root dry matter content trait
 relationship: variable_of CO_334:0010318 ! cassava Estimation :dry matter content by specific gravity method_method
 relationship: variable_of CO_334:0100493 ! cassava kg scale
@@ -1655,7 +1641,7 @@ id: CO_334:0000163
 name: cassava specific gravity variable
 def: "Estimated value obtained by weighing 4-5 kilogram of cassava root in air, and in water." [CO:curators]
 synonym: "spgrv" EXACT []
-is_a: CO_334:0000447 ! cassava root dry matter content trait
+
 relationship: variable_of CO_334:0000447 ! cassava root dry matter content trait
 relationship: variable_of CO_334:0010417 ! cassava Measurement :specific gravity_method
 relationship: variable_of CO_334:0100623 ! cassava g scale
@@ -2282,7 +2268,7 @@ name: cassava initial plant vigor assessment 1-5 variable
 def: "Visual assessment of plant vigor during establishment (1=very little vigor, and 5 = very vigorous). as being evaluated by CIAT." [CO:curators]
 synonym: "IVig_CIATVisScg_1to5" EXACT []
 synonym: "vigour" EXACT []
-is_a: CO_334:0000386 ! cassava initial vigor trait
+
 relationship: variable_of CO_334:0000386 ! cassava initial vigor trait
 relationship: variable_of CO_334:0010435 ! cassava Visual Rating:initial plant vigor_method
 relationship: variable_of CO_334:0100641 ! cassava 2pt scale
@@ -2392,7 +2378,7 @@ name: cassava plant yield variable
 def: "Average yield per plant in a plot measured in kilogram (kg). It is estimated by dividing the total weight of roots by the number of plants harvested." [CO:curators]
 synonym: "pltyld" EXACT []
 synonym: "RtYld_PerPlnt_kgPlnt" EXACT []
-is_a: CO_334:0000456 ! cassava root yield trait
+
 relationship: variable_of CO_334:0000456 ! cassava root yield trait
 relationship: variable_of CO_334:0010431 ! cassava Estimation :plant yield_method
 relationship: variable_of CO_334:0100637 ! cassava kg/plant scale
@@ -2403,7 +2389,7 @@ name: cassava yield per year variable
 def: "Annual root yield estimated in tonnes per hectare (t/ha) using yield per hectare as a function of the crop duration. Trait description provided by Hernan Ceballos in CIAT" [CO:curators]
 synonym: "RtYld_PerYr_thayr" EXACT []
 synonym: "yldyr" EXACT []
-is_a: CO_334:0000456 ! cassava root yield trait
+
 relationship: variable_of CO_334:0000456 ! cassava root yield trait
 relationship: variable_of CO_334:0010432 ! cassava Estimation :yield per year_method
 relationship: variable_of CO_334:0100638 ! cassava t/ha/year scale
@@ -2775,9 +2761,9 @@ relationship: variable_of CO_334:0100677 ! cassava 2pt scale
 id: CO_334:0000266
 name: cassava post-harvest physiological deterioration trait
 def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption." [CO:curators]
-is_a: TO:0001042 ! root quality trait
 created_by: naama
 creation_date: 2015-09-25T11:44:40Z
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0000267
@@ -2991,7 +2977,7 @@ is_a: TO:0000077  ! shoot system morphology trait
 [Term]
 id: CO_334:0000297
 name: cassava carotenoid content trait
-def: "Cassava storage root pulp carotenoid content" [CO:curators]
+def: "cassava storage root pulp carotenoid content" [CO:curators]
 synonym: "CarotCt" EXACT []
 is_a: TO:0000496 ! carotenoid content
 
@@ -3004,7 +2990,7 @@ is_a: TO:1000010 ! caruncle color
 
 [Term]
 id: CO_334:0000302
-name: Cassava storage root weight by plot trait
+name: cassava storage root weight by plot trait
 is_a: CO_334:0000493 ! Storage root weight
 created_by: naama
 creation_date: 2016-12-22T16:13:27Z
@@ -3012,7 +2998,7 @@ is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000303
-name: Cassava storage root weight by plant trait
+name: cassava storage root weight by plant trait
 is_a: CO_334:0000493 ! Storage root weight
 created_by: naama
 creation_date: 2016-12-22T16:15:30Z
@@ -3020,7 +3006,7 @@ is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_334:0000304
-name: Cassava fresh storage root weight per plant variable
+name: cassava fresh storage root weight per plant variable
 def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:Curators]
 relationship: variable_of CO_334:0000303 ! Storage root weight by plant
 relationship: variable_of CO_334:0100493 ! kg
@@ -3029,7 +3015,7 @@ creation_date: 2016-12-22T16:17:12Z
 
 [Term]
 id: CO_334:0000305
-name: Cassava fresh shoot weight by plot trait
+name: cassava fresh shoot weight by plot trait
 is_a: CO_334:0000369 ! Fresh shoot weight
 created_by: naama
 creation_date: 2016-12-22T16:23:13Z
@@ -3037,7 +3023,7 @@ is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_334:0000306
-name: Cassava fresh shoot weight by plant trait
+name: cassava fresh shoot weight by plant trait
 is_a: CO_334:0000369 ! Fresh shoot weight
 created_by: naama
 creation_date: 2016-12-22T16:23:29Z
@@ -3053,8 +3039,8 @@ is_a: TO:0000261 ! insect damage response trait
 [Term]
 id: CO_334:0000340
 name: cassava mealy bug severity trait
-def: "Severity of the damage caused by Cassava mealy bug (Phenacoccus Manihoti)" [CO:curators]
-synonym: "Cassava Mealy Bug Severity - Cassavabase" EXACT []
+def: "Severity of the damage caused by cassava mealy bug (Phenacoccus Manihoti)" [CO:curators]
+synonym: "cassava Mealy Bug Severity - Cassavabase" EXACT []
 synonym: "CMBSev" EXACT []
 is_a: TO:0000261 ! insect damage response trait
 
@@ -3169,7 +3155,7 @@ id: CO_334:0000370
 name: cassava frog skin disease trait
 def: "Severity of the Frog skin disease caused by unknown causal agent" [CO:curators]
 synonym: "fsd" EXACT []
-is_a: TO:0000148 ! viral disease response
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_334:0000371
@@ -3188,66 +3174,66 @@ is_a: TO:0000852 ! fruit set trait
 [Term]
 id: CO_334:0000373
 name: cassava fufu content trait
-def: "Fufu weight" [CO:curators]
+def: "fufu weight" [CO:curators]
 synonym: "fufucnt" EXACT []
-is_a: TO:0001041 ! root yield
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000374
 name: cassava gari content trait
-def: "Gari content" [CO:curators]
+def: "gari content" [CO:curators]
 synonym: "GarCt" EXACT []
-synonym: "Gari Content - Cassavabase" EXACT []
-is_a: TO:0001041 ! root yield
+synonym: "gari Content - Cassavabase" EXACT []
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000375
 name: cassava gari shaft weight trait
 def: "Shaft weight" [CO:curators]
 synonym: "shaftwt" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000376
 name: cassava gari weight after drying trait
 def: "Weight after drying cassava flakes" [CO:curators]
 synonym: "gdrywt" EXACT []
-is_a: TO:0001041 ! root yield
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000377
 name: cassava gari weight after grinding trait
 def: "Weight after grinding" [CO:curators]
 synonym: "wtagrind" EXACT []
-is_a: TO:0001041 ! root yield
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000378
 name: cassava gari fibre trait
 def: "gari fibre" [CO:curators]
 synonym: "gfibre" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000379
 name: cassava gari sampled weight trait
 def: "gari sampled weight" [CO:curators]
 synonym: "gariwt" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000380
 name: cassava gari starch trait
 def: "Assessment of the starch content of gari" [CO:curators]
 synonym: "gstarch" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000381
 name: cassava gari taste trait
 def: "Taste of gari" [CO:curators]
 synonym: "gtaste" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0000382
@@ -3386,7 +3372,7 @@ is_a: TO:0000986 ! staminate flower number trait
 [Term]
 id: CO_334:0000404
 name: cassava male sterile trait
-def: "Cassava plants that do no produce viable pollen." [CO:curators]
+def: "cassava plants that do no produce viable pollen." [CO:curators]
 synonym: "ms" EXACT []
 is_a: TO:0000437 ! male sterility
 
@@ -3573,7 +3559,7 @@ synonym: "nohav" EXACT []
 
 [Term]
 id: CO_334:0000435
-name: cassava plantable stem length
+name: cassava plantable stem length trait
 def: "Plantable stem length" [CO:curators]
 synonym: "PlStmHt" EXACT []
 is_a: TO:0000576 ! stem length
@@ -3782,7 +3768,7 @@ id: CO_334:0000466
 name: cassava sprout count trait
 def: "Number of germinated stakes" [CO:curators]
 synonym: "sprtct" EXACT []
-is_a: TO:1000007 ! tuberous root tuber morphology trait
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_334:0000472
@@ -3991,9 +3977,9 @@ is_a: TO:0000568 ! shoot axis weight
 [Term]
 id: CO_334:0000500
 name: cassava total carotenoid retention trait
-def: "Total caroteneoid content after cooking" [CO:curators]
+def: "Total carotenoid content after cooking" [CO:curators]
 synonym: "CaroRet" EXACT []
-is_a: TO:0001068 ! processing quality trait
+is_a: TO:0000496 ! carotenoid content
 
 [Term]
 id: CO_334:0000501
@@ -4011,7 +3997,7 @@ is_a: TO:0000955 ! cyanide content
 
 [Term]
 id: CO_334:0000503
-name: cassava typhlodromalus aripo presence
+name: cassava typhlodromalus aripo presence trait
 def: "Presence of Typhlodromalus aripo" [CO:curators]
 synonym: "taripo" EXACT []
 is_a: TO:0020121 ! arachnid damage response trait
@@ -4046,1418 +4032,1225 @@ is_a: TO:1000050 ! root system zinc content
 
 [Term]
 id: CO_334:0000511
-name: Days to first female flower opens
-namespace: cassava_trait
+name: cassava days to first female flower opens trait
 def: "First female flower (pistillate) mature and opens." [CO:curator]
-is_a: CO_334:0000336 ! Flower and flowering morphological trait
 created_by: AAfolabi
 creation_date: 2017-07-25T11:46:46Z
 is_a: TO:0000933 ! plant phenological trait
 
-
 [Term]
 id: CO_334:0000512
-name: Days to first female flower opens by branch levels
-namespace: cassava_trait
+name: cassava days to first female flower opens by branch levels trait
 def: "First female flower (pistillate) mature and opens by branching levels." [CO:curator]
-is_a: CO_334:0000511 ! Days to first female flower opens
 created_by: AAfolabi
 creation_date: 2017-07-25T11:49:20Z
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0000516
-name: Days to senescence
-namespace: cassava_trait
+name: cassava days to senescence trait
 def: "Days to senescence." [CO:curator]
-is_a: CO_334:0000336 ! Flower and flowering morphological trait
 created_by: AAfolabi
 creation_date: 2017-07-25T12:16:27Z
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0000517
-name: Days to senescence by branch level
-namespace: cassava_trait
-is_a: CO_334:0000516 ! Days to senescence
+name: cassava days to senescence by branch level trait
 created_by: AAfolabi
 creation_date: 2017-07-25T12:17:45Z
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0000521
-name: Number of forks by branch level
-namespace: cassava_trait
+name: cassava number of forks by branch level trait
 def: "Number of forks or branches at specific branching levels." [CO:curator]
-is_a: CO_334:0000413 ! Number of  forks
 created_by: AAfolabi
 creation_date: 2017-07-25T14:53:49Z
 is_a: TO:0000077  ! shoot system morphology trait
 
 [Term]
 id: CO_334:0000525
-name: Number of inflorescence by branch level
-namespace: cassava_trait
+name: cassava number of inflorescence by branch level trait
 def: "Number of inflorescence at specific branching level." [CO:curator]
-is_a: CO_334:0000336 ! Flower and flowering morphological trait
-created_by: AAfolabi
 creation_date: 2017-07-25T15:54:07Z
 is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_334:0000529
-name: Number of buds
-namespace: cassava_trait
+name: cassava number of buds trait
 def: "Number of buds." [CO:curator]
-is_a: CO_334:0000336 ! Flower and flowering morphological trait
 created_by: AAfolabi
 creation_date: 2017-07-25T16:16:00Z
 is_a: TO:0000792 ! axillary bud number
 
 [Term]
 id: CO_334:0000530
-name: Number of buds by branch level
-namespace: cassava_trait
+name: cassava number of buds by branch level trait
 def: "Count of the number of buds at different branching level." [CO:curator]
-is_a: CO_334:0000529 ! Number of buds
 created_by: AAfolabi
 creation_date: 2017-07-25T16:16:30Z
 is_a: TO:0000792 ! axillary bud number
 
 [Term]
 id: CO_334:0000534
-name: male flower number counting by branch level
-namespace: cassava_trait
+name: cassava male flower number counting by branch level trait
 def: "Number male flowers after the buds appears, matures, and grows in size to become distinctive at specific branch levels." [CO:curator]
-is_a: CO_334:0000403 ! Male flower number
 created_by: AAfolabi
 creation_date: 2017-07-25T16:30:45Z
 is_a: TO:0000986 ! staminate flower number trait
 
 [Term]
 id: CO_334:0000538
-name: Days to fruitset by branch level
-namespace: cassava_trait
+name: cassava days to fruitset by branch level trait
 def: "Days to fruitset in a plant." [CO:curator]
-is_a: CO_334:0000337 ! Fruit morphological trait
 created_by: AAfolabi
 creation_date: 2017-07-25T16:49:04Z
 is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0000542
-name: number of fruitset by branch level
-namespace: cassava_trait
+name: cassava number of fruitset by branch level trait
 def: "Number of fruits formed from the seeds after pollination at different branching level." [CO:curator]
-is_a: CO_334:0000415 ! Number of fruitset
 created_by: AAfolabi
 creation_date: 2017-07-25T16:58:36Z
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_334:0001012
-name: Softness of boiled cassava roots
-namespace: cassava_trait
+name: cassava softness of boiled cassava roots
 def: "Mechanical attribute of boiled cassava roots relating to force required to make them compressed" [CO:curators]
-is_a: CO_334:0001077 ! Root quality traits
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0001025
-name: farmer preference trait post-harvest
-namespace: cassava_trait
-is_a: CO_334:0001026 ! Farmer preference trait
+name: cassava farmer preference post-harvest trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0001026
-name: Farmer preference trait
-namespace: cassava_trait
-is_a: CO_334:0002010 ! Farmer trait
+name: cassava farmer preference trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0001027
-name: farmer preference trait at harvest
-namespace: cassava_trait
-is_a: CO_334:0001026 ! Farmer preference trait
+name: cassava farmer preference at harvest trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0001041
-name: Biochemical trait
-namespace: cassava_trait
+name: cassava biochemical trait
 def: "traits for biochemical metabolites." [CO:curators]
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000277 ! biochemical trait
 
 [Term]
 id: CO_334:0001042
-name: carotene content
-namespace: cassava_trait
+name: cassava carotene content trait
 def: "carotene content." [CO:curators]
-is_a: CO_334:0001041 ! Biochemical trait
+is_a: TO:0000289 ! carotene content
 
 [Term]
 id: CO_334:0001064
-name: Gari quality
-namespace: cassava_trait
+name: cassava gari quality trait
 def: "The quality of gari depends on various factors ranging from the quality of cassava used to the processing techniques employed." [CO:curators]
 synonym: "GarQt" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0001068
-name: Number of Aleurotrachelus socialis nymphs
-namespace: cassava_trait
+name: cassava number of Aleurotrachelus socialis nymphs trait
 def: "Number of Aleurotrachelus socialis nymphs white flies" [CO:curators]
-is_a: CO_334:0000030 ! insect damage
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_334:0001073
-name: Fufu quality
-namespace: cassava_trait
+name: cassava fufu quality
 def: "The quality of fufu depends on various factors ranging from the quality of cassava used to the processing techniques employed." [CO:curators]
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0001077
-name: Root quality traits
-namespace: cassava_trait
+name: cassava root quality trait
 def: "Traits measured on cassava roots." [CO:curators]
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0001078
-name: Hardness/softness of raw cassava roots
-namespace: cassava_trait
+name: cassava hardness/softness of raw cassava roots trait
 def: "Mechanical attribute of boiled cassava roots relating to force required to make them compressed" [CO:curators]
-is_a: CO_334:0001077 ! Root quality traits
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_334:0001082
-name: Texture profile analysis trait
-namespace: cassava_trait
-def: "TExture profile analysis TPA" [CO:curators]
-is_a: CO_334:0002071 ! Textural characteristic
+name: cassava texture profile analysis trait
+def: "Texture profile analysis TPA" [CO:curators]
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0001101
-name: Fufu  peel loss
-namespace: cassava_trait
-def: "Fufu peel weight reltive to fresh root weight." [CO:curators]
+name: cassava fufu peel loss trait
+def: "fufu peel weight relative to fresh root weight." [CO:curators]
 creation_date: 02-27-2024
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0001116
-name: Relative growth rate trait
-namespace: cassava_trait
+name: cassava relative growth rate trait
 def: "The speed of crop growth." [CO:curators]
-is_a: CO_334:0000001 ! Agronomic trait
+is_a: TO:0000515 ! relative growth rate
 
 [Term]
 id: CO_334:0001122
-name: Electron transport rate trait
-namespace: cassava_trait
+name: cassava electron transport rate trait
 def: "The rate of transport of electrons between photosystems I and II, and it is considered a close approximation of photosynthetic rates." [CO:curators]
-is_a: CO_334:0000003 ! Physiological trait
+is_a: TO:0001015 ! photosynthetic rate
 
 [Term]
 id: CO_334:0002002
-name: Peel thickness
-namespace: cassava_trait
-is_a: CO_334:0000001 ! Agronomic trait
+name: cassava peel thickness trait
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_334:0002003
-name: In-ground storability
-namespace: cassava_trait
+name: cassava in-ground storability trait
 def: "In-ground storability" [CO:curators]
 synonym: "InGrdStor" EXACT []
-is_a: CO_334:0000001 ! Agronomic trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0002004
-name: Early bulking
-namespace: cassava_trait
+name: cassava early bulking trait
 def: "Early bulking" [CO:curators]
 synonym: "EarBulk" EXACT []
-is_a: CO_334:0000001 ! Agronomic trait
+is_a: TO:0000656 ! root development trait
 
 [Term]
 id: CO_334:0002005
-name: Weed tolerance
-namespace: cassava_trait
-is_a: CO_334:0000001 ! Agronomic trait
+name: cassava weed tolerance trait
+is_a: TO:0000347 ! weed damage response trait
 
 [Term]
 id: CO_334:0002010
-name: Farmer trait
-def: "Farmer's description of breeder's trait as used in Participatory Vaerietal Selection (PVS) study" [CO:curators]
-is_a: CO_334:0000000 ! CGIAR cassava trait ontology
-
-[Term]
-id: CO_334:0002029
-name: Remote sensing trait
-def: "Remote sensing related traits." [CO:curators]
-xref: CO:curator
-is_a: CO_334:0000000 ! CGIAR cassava trait ontology
+name: cassava farmer trait
+def: "Farmer's description of breeder's trait as used in Participatory Varietal Selection (PVS) study" [CO:curators]
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0002030
-name: Plot volume
-namespace: cassava_trait
+name: cassava plot volume trait
 def: "Volume derived from probability distribution (Weibull)." [CO:curators]
 xref: CO:curator
-is_a: CO_334:0002029 ! Remote sensing trait
+is_a: TO:0000559 ! plant volume
 
 [Term]
 id: CO_334:0002031
-name: Plant height per plot
-namespace: cassava_trait
+name: cassava plant height per plot trait
 def: "Plant height calculated from result of drone image analysis." [CO:curators]
 xref: CO:curator
-is_a: CO_334:0002029 ! Remote sensing trait
+is_a: TO:0000207 ! plant height
+
 
 [Term]
 id: CO_334:0002034
-name: Weibull scale trait
-namespace: cassava_trait
-def: "Parameter of weibull function fitted to the pixel height density distribution of a plot." [CO:curators]
+name: cassava Weibull scale trait
+def: "Parameter of Weibull function fitted to the pixel height density distribution of a plot." [CO:curators]
 xref: CO:curator
-is_a: CO_334:0002029 ! Remote sensing trait
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_334:0002035
-name: Weibull shape trait
-namespace: cassava_trait
+name: cassava Weibull shape trait
 def: "Parameter of Weibull function fitted to the pixel height density distribution of a plot." [CO:curators]
 xref: CO:curator
-is_a: CO_334:0002029 ! Remote sensing trait
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_334:0002039
-name: Canopy width
-namespace: cassava_trait
+name: cassava canopy width trait
 def: "Width of cassava leaf canopy" [CO:curators]
 synonym: "canwidth" EXACT []
 synonym: "canwidth_cm" RELATED []
-is_a: CO_334:0000002 ! Morphological trait
+is_a: TO:0000559 ! plant volume
 
 [Term]
 id: CO_334:0002040
-name: Leaf dry matter content
-namespace: cassava_trait
+name: cassava leaf dry matter content trait
 def: "Dry matter content of leaf" [CO:curators]
 synonym: "lfdmc" EXACT []
 xref: CO:curators
-is_a: CO_334:0000447 ! Dry matter content
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_334:0002041
-name: Cassava rust disease severity
-namespace: cassava_trait
+name: cassava rust disease severity trait
 def: "Severity of symptom caused by Uromyces manihots in leaves" [CO:curators]
 synonym: "crds" EXACT []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0000439 ! fungal disease response trait
 
 [Term]
 id: CO_334:0002042
-name: Cassava rust disease incidence
-namespace: cassava_trait
-def: "Proportion of plants in a plot with symptom of Uromyces manihots" [CO:curators]
+name: cassava rust disease incidence trait
+def: "Proportion of plants in a plot with symptom of Uromyces manihots." [CO:curators]
 synonym: "crdi" EXACT []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0000439 ! fungal disease response trait
 
 [Term]
 id: CO_334:0002045
-name: Biomass dry weight
-namespace: cassava_trait
+name: cassava biomass dry weight trait
 def: "Total plant mass (stem, leaves and petiole) above ground." [CO:curators]
 synonym: "biodmc" EXACT []
 xref: CO:curators
-is_a: CO_334:0000447 ! Dry matter content
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_334:0002047
-name: Leaf edibility
-namespace: cassava_trait
+name: cassava leaf edibility trait
 def: "Palatability of cassava leaves likened to be eaten as fresh vegetable" [CO:curators]
 synonym: "leafed" EXACT []
 synonym: "leafed" RELATED []
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_334:0002049
-name: Cooking quality
-namespace: cassava_trait
+name: cassava cooking quality trait
 def: "Cooking characteristics of cassava root" [CO:curators]
 synonym: "cookqty" RELATED []
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002051
-name: Fufu smell
-namespace: cassava_trait
+name: cassava fufu smell trait
 def: "Smell of fufu after processing" [CO:curators]
 synonym: "fufu odour" EXACT []
 synonym: "fufusm" RELATED []
 synonym: "FuOd" EXACT []
 xref: CO:curators
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002052
-name: Attieke smell
-namespace: cassava_trait
+name: cassava attieke smell trait
 def: "Smell of attieke after processing" [CO:curators]
 synonym: "attksm" RELATED []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0002060
-name: Fibrous root weight
-namespace: cassava_trait
+name: cassava fibrous root weight trait
 synonym: "firtwt" RELATED []
 xref: CO:curators
-is_a: CO_334:0000001 ! Agronomic trait
+is_a: TO:0003009 tuberous root tuber weight
 
 [Term]
 id: CO_334:0002061
-name: L chromometer
-namespace: cassava_trait
-def: "L scale from chromometer indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" [CO:curators]
+name: cassava L chromameter trait
+def: "L scale from chromameter indicate light vs. dark where a low number (0-50) indicates dark and a high number (51-100) indicates light" [CO:curators]
 synonym: "lval" EXACT []
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_334:0002062
-name: B chromometer
-namespace: cassava_trait
+name: cassava B chroma meter trait
 def: "b scale indicate yellow vs. blue where a positive number indicates yellow and a negative number indicates blue." [CO:curators]
 synonym: "bval" EXACT []
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_334:0002063
-name: A chromometer
-namespace: cassava_trait
+name: cassava A chroma meter trait
 def: "a scale indicate red vs. green where a positive number indicates red and a negative number indicates green" [CO:curators]
 xref: CO:curators
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_334:0002067
-name: Change in weight after boiling
-namespace: cassava_trait
+name: cassava change in weight after boiling
 def: "Change in the weight of cassava root after boiling at specific time" [CO:curators]
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002069
-name: Time of boiling
-namespace: cassava_trait
+name: cassava time of boiling trait
 def: "Time required to boil root to become soft and acceptable for consumption" [CO:curators]
 synonym: "boiltime" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002071
-name: Textural characteristic
-namespace: cassava_trait
+name: cassava textural characteristic trait
 def: "Textural characteristics of boiled cassava root." [CO:curators]
 synonym: "texture" RELATED []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002085
-name: Cassava Franklinella williamsi severity
-namespace: cassava_trait
+name: cassava Franklinella williamsi severity trait
 def: "Franklinella williamsi" [CO:curators]
 synonym: "thrips" RELATED []
-is_a: CO_334:0000030 ! insect damage
+is_a: TO:0000154 ! thrips resistance
 
 [Term]
 id: CO_334:0002088
-name: Moisture content of cassava flour
-namespace: cassava_trait
+name: cassava moisture content of flour trait
 def: "Moisture content of cassava flour." [CO:curators]
 synonym: "moisture" RELATED []
-is_a: CO_334:0002109 ! Viscosity trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0002090
-name: Setback
-namespace: cassava_trait
+name: cassava starch setback trait
 def: "Final viscosity minus trough viscosity" [CO:curators]
 synonym: "setbck" RELATED []
-is_a: CO_334:0002109 ! Viscosity trait
+is_a: TO:0000412 ! starch setback viscosity
 
 [Term]
 id: CO_334:0002092
-name: Final viscosity
-namespace: cassava_trait
+name: cassava starch final viscosity trait
 def: "Viscosity at the end of the Rapid Visco Analyzer test" [CO:curators]
 synonym: "fvisc" RELATED []
 xref: CO:curators
-is_a: CO_334:0002109 ! Viscosity trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002094
-name: Breakdown
-namespace: cassava_trait
+name: cassava starch breakdown trait
 def: "Breakdown equals peak viscosity minus trough viscosity" [CO:curators]
-is_a: CO_334:0002109 ! Viscosity trait
+is_a: TO:0000374 ! starch breakdown viscosity
 
 [Term]
 id: CO_334:0002096
-name: Trough
-namespace: cassava_trait
+name: cassava starch trough trait
 def: "The minimum viscosity after the peak" [CO:curators]
 synonym: "hold" RELATED []
-is_a: CO_334:0002109 ! Viscosity trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002098
-name: Peak viscosity
-namespace: cassava_trait
+name: cassava starch peak viscosity
 def: "Maximum viscosity during the heating or hold phase of the RVA test. It is the maximum hot paste viscosity" [CO:curators]
 synonym: "peakvsc" RELATED []
-is_a: CO_334:0002109 ! Viscosity trait
+is_a: TO:0000409 ! starch peak viscosity trait
 
 [Term]
 id: CO_334:0002100
-name: Pasting temperature
-namespace: cassava_trait
+name: cassava starch pasting temperature trait
 def: "Temperature at which the viscosity trace first raises above the baseline during the initial heating phase." [CO:curators]
 synonym: "pstemp" RELATED []
-is_a: CO_334:0002109 ! Viscosity trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002109
-name: Viscosity trait
-namespace: cassava_trait
-is_a: CO_334:0000004 ! Quality trait
+name: cassava starch viscosity trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0002110
-name: Cassava white leaf spot disease severity
-namespace: cassava_trait
-def: "Severity of white leaf spot caused by Phaeoramularia manihotis (previosly named Passalora manihotis)" [CO:curators]
+name: cassava white leaf spot disease severity
+def: "Severity of white leaf spot caused by Phaeoramularia manihotis (previously named Passalora manihotis)" [CO:curators]
 synonym: "cwlsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002111
-name: Cassava white leaf spot disease incidence
-namespace: cassava_trait
+name: cassava white leaf spot disease incidence
 def: "Proportion of plants showing symptoms of disease caused by Phaeoramularia manihotis (previosly named Passalora manihotis)." [CO:curators]
 synonym: "cwlsdi" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002112
-name: Cassava brown leaf spot disease severity
-namespace: cassava_trait
+name: cassava brown leaf spot disease severity
 def: "Severity of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
 synonym: "cblsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002113
-name: Cassava brown leaf spot disease incidence
-namespace: cassava_trait
+name: cassava brown leaf spot disease incidence
 def: "Proportion of symptom of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002114
-name: Cassava blight leaf spot disease severity
-namespace: cassava_trait
+name: cassava blight leaf spot disease severity
 def: "Severity of blight leaf spot disease caused by Passalora vicosae." [CO:curators]
 synonym: "cbllsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002115
-name: Cassava blight leaf spot disease incidence
-namespace: cassava_trait
+name: cassava blight leaf spot disease incidence
 def: "Proportion of symptoms caused by blight spot disease." [CO:curators]
 synonym: "cbllsdi" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_334:0002124
-name: Fufu chaff weight
-namespace: cassava_trait
-def: "Fufu chaff weight" [CO:curators]
+name: cassava fufu chaff weight
+def: "fufu chaff weight" [CO:curators]
 xref: CO:curators
-is_a: CO_334:0001073 ! Fufu quality
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0002127
-name: Fufu  chaff loss
-namespace: cassava_trait
-def: "Fufu chaff loss relative to dewatered mash weight" [CO:curators]
+name: cassava fufu chaff loss
+def: "fufu chaff loss relative to dewatered mash weight" [CO:curators]
 xref: CO:curators
-is_a: CO_334:0001073 ! Fufu quality
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0002130
-name: Cassava brown streak viral titre
-namespace: cassava_trait
-def: "Viral titre is a new trait that we are exploring in understanding the genetics of Cassava brown streak disease." [CO:curators]
+name: cassava brown streak viral titre trait
+def: "Viral titre is a new trait that we are exploring in understanding the genetics of cassava brown streak disease." [CO:curators]
 synonym: "cbsvt" RELATED []
 xref: CO:curators
-is_a: CO_334:0000028 ! viral disease
+is_a: TO:0000148 ! viral disease response trait
 
 [Term]
 id: CO_334:0003020
-name: boiled root surface yellowness
-namespace: cassava_trait
+name: cassava boiled root surface yellowness trait
 def: "Colour of cassava root surface varies from light yellow to bright yellow" [CO:curators]
 synonym: "BoiCasSurfYell" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003021
-name: boiled root surface whiteness
-namespace: cassava_trait
+name: cassava boiled root surface whiteness trait
 def: "Colour of cassava root surface varies from cream to bright white" [CO:curators]
 synonym: "BoiCasSurfWhit" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003022
-name: boiled root surface color homogeneity
-namespace: cassava_trait
+name: cassava boiled root surface color homogeneity trait
 def: "Uniformity of cassava root surface colour" [CO:curators]
 synonym: "BoiCasSurfColHom" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003023
-name: boiled root surface smoothnness
-namespace: cassava_trait
-def: "Absence of roughness,  lumps, holes, fibre lines, and ridges along the cassava root" [CO:curators]
+name: cassava boiled root surface smoothnness trait
+def: "Absence of roughness, lumps, holes, fibre lines, and ridges along the cassava root" [CO:curators]
 synonym: "BoiCasSurfSmooth" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003024
-name: boiled root hardness  in mouth
-namespace: cassava_trait
+name: cassava boiled root hardness  in mouth trait
 def: "Mechanical textural attribute relating to the force required to achieve a given deformation, penetration, or breakage of a product." [CO:curators]
 synonym: "BoiCastMthRootHard" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003025
-name: boiled root moisture  in mouth
-namespace: cassava_trait
+name: cassava boiled root moisture  in mouth trait
 def: "Perception of moisture content of food by the tactile receptors in the mouth, and also in relation to the lubricating properties of the product" [CO:curators]
 synonym: "BoiCasMthRootMoist" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003026
-name: boiled root smoothness in mouth
-namespace: cassava_trait
+name: cassava boiled root smoothness in mouth trait
 def: "Geometrical textural attribute relating to lack of presence of particles in a product" [CO:curators]
 synonym: "BoiCasMthRootSmooth" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003027
-name: boiled root fibrousness in mouth
-namespace: cassava_trait
+name: cassava boiled root fibrousness in mouth trait
 def: "Feeling of threads/fibres as you chew" [CO:curators]
 synonym: "BoiCasMthFibr" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003028
-name: boiled root mealiness  in mouth
-namespace: cassava_trait
+name: cassava boiled root mealiness  in mouth trait
 def: "Characterised by being dry and crumbly like boiled egg yolk" [CO:curators]
 synonym: "BoiCasMthMeal" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003029
-name: boiled root stickness in mouth
-namespace: cassava_trait
+name: cassava boiled root stickness in mouth trait
 def: "Mechanical textural attribute relating to the force required to remove material that sticks to the mouth" [CO:curators]
 synonym: "BoiCasMthStick" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003030
-name: boiled root mealiness by hand
-namespace: cassava_trait
+name: cassava boiled root mealiness by hand trait
 def: "Characterised by being dry and crumbly like boiled egg" [CO:curators]
 synonym: "BoiCasHdMeal" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003031
-name: boiled root moldability by hand
-namespace: cassava_trait
+name: cassava boiled root moldability by hand trait
 def: "Mechanical textural attribute relating to the degree to which a substance can be deformed before it breaks" [CO:curators]
 synonym: "BoiCasHdMold" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003032
-name: boiled root stickness in the hand
-namespace: cassava_trait
+name: cassava boiled root stickness in the hand trait
 def: "Mechanical textural attribute relating to the force required to remove material that sticks to the finger" [CO:curators]
 synonym: "boiCasHdStick" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003033
-name: boiled root sweetness taste
-namespace: cassava_trait
+name: cassava boiled root sweetness taste trait
 def: "Basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" [CO:curators]
 synonym: "BoiCasTastSweet" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003034
-name: boiled root taste bitterness
-namespace: cassava_trait
+name: cassava boiled root taste bitterness trait
 def: "Basic taste produced by produced by dilute aqueous solutions of natural or artificial substances such as quinine" [CO:curators]
 synonym: "BoiCasTastBit" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003035
-name: boiled root bitterness after taste
-namespace: cassava_trait
+name: cassava boiled root bitterness after taste trait
 def: "Feeling of slight bitterness after swallow" [CO:curators]
 synonym: "BoiCasTastBit" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003036
-name: boiled root steamed cassava-like aroma
-namespace: cassava_trait
+name: cassava boiled root steamed cassava-like aroma trait
 def: "Aroma of the steamed cassava" [CO:curators]
 synonym: "BoiCasAromInt" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003037
-name: boiled root roasted cassava-like aroma
-namespace: cassava_trait
+name: cassava boiled root roasted cassava-like aroma trait
 def: "Aroma like that of roasted cassava" [CO:curators]
 synonym: "boiCasAromRoas" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003038
-name: boiled root yam-like aroma
-namespace: cassava_trait
+name: cassava boiled root yam-like aroma trait
 def: "Aroma like that of yam, Possibly like aroma of boiled, roasted or fried yam" [CO:curators]
 synonym: "BoiCasAromYam" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003039
-name: boiled root sweet potato-like aroma
-namespace: cassava_trait
+name: cassava boiled root sweet potato-like aroma trait
 def: "Aroma like tha of sweet potato, Possibly like aroma of boiled, roasted or fried sweet potato" [CO:curators]
 synonym: "BoiCasAromSweetpotat" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003047
-name: Fufu surface colour
-namespace: cassava_trait
+name: cassava fufu surface colour trait
 def: "Colour of cooked fufu being as white as a flip chart paper or as as off white as soy milk colour, or as grey as skin of sardine fish, or as light as cement colour, or as cream coloured as peak evaporated liquid milk, or as light yellow as cooked egg york, or as yellow as skin of ripe orange, or as brown in colour as whole wheat meal" [CO:curators]
 synonym: "FufSurfCol" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003048
-name: fufu smoothness in hand
-namespace: cassava_trait
+name: cassava fufu smoothness in hand trait
 def: "Absence of lumps" [CO:curators]
 synonym: "FufHdSmoth" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003049
-name: fufu stickiness in the hand
-namespace: cassava_trait
+name: cassava fufu stickiness in the hand trait
 def: "This is when the fufu sticks or adhere to the fingers when it is touched with fingers or during moulding into bolus for swallowing" [CO:curators]
 synonym: "FufHdStick" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003050
-name: Fufu moldability in the hand
-namespace: cassava_trait
+name: cassava fufu moldability in the hand trait
 def: "Ability of the fufu to stick together easily without disintegrating or cohesive and being easy to mould." [CO:curators]
 synonym: "FufHdMol" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003051
-name: Fufu hardness in hand
-namespace: cassava_trait
+name: cassava fufu hardness in hand trait
 def: "Softness is when it is quite easy to compress the fufu sample, while hardness is when force is used to compress the sample or takes effort to compress the sample" [CO:curators]
 synonym: "FufHdHard" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003052
-name: Fufu stretchability in the hand
-namespace: cassava_trait
+name: cassava fufu stretchability in the hand trait
 def: "Ability of fufu to stretch when pulled apart with fingers" [CO:curators]
 synonym: "FufHdStret" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003053
-name: Fufu odour
-namespace: cassava_trait
+name: cassava fufu odour trait
 def: "Odour/aroma of fufu" [CO:curators]
 synonym: "FuOd" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
-
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003101
-name: attieke attieke-like  aroma
-namespace: cassava_trait
+name: cassava attieke attieke-like aroma trait
 def: "Aroma of attieke" [CO:curators]
 synonym: "AttArom" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003102
-name: attieke cohesiveness
-namespace: cassava_trait
+name: cassava attieke cohesiveness trait
 def: "Cohesion between granules (ability of grains to stick together or retake initial form after force of pressure)" [CO:curators]
 synonym: "AttCoh" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003103
-name: attieke sourness in the mouth
-namespace: cassava_trait
+name: cassava attieke sourness in the mouth trait
 def: "Sourrness of the sample (gustatory complex sensation, generally due to presence of organic acids)" [CO:curators]
 synonym: "AttSourn" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003104
-name: attieke stickness in the hand
-namespace: cassava_trait
+name: cassava attieke stickness in the hand trait
 def: "Ability of grains to stick in the palm after the granules are pressed in the hand" [CO:curators]
 synonym: "AttStickn" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003105
-name: attieke sweetness taste
-namespace: cassava_trait
+name: cassava attieke sweetness taste trait
 def: "Basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" [CO:curators]
 synonym: "AttTastSweet" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003106
-name: attieke brightness
-namespace: cassava_trait
+name: cassava attieke brightness trait
 def: "Brighter or somber" [CO:curators]
 synonym: "AttBrigh" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003107
-name: attieke orange colour
-namespace: cassava_trait
+name: cassava attieke orange colour trait
 def: "Color of grains from light yellow to orange" [CO:curators]
 synonym: "AttOrCol" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003108
-name: attieke extraneous matters
-namespace: cassava_trait
+name: cassava attieke extraneous matters trait
 def: "Sensation of extraneous matters during mastication" [CO:curators]
 synonym: "AttExtrMat" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003109
-name: attieke fermented taste
-namespace: cassava_trait
+name: cassava attieke fermented taste trait
 def: "Intensity of the fermented taste" [CO:curators]
 synonym: "AttFermTast" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003110
-name: attieke firmness
-namespace: cassava_trait
+name: cassava attieke firmness trait
 def: "Expression de la douceur ou de la dureté des grains d'attiéké" [CO:curators]
 synonym: "AttFirm" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003111
-name: attieke grain size
-namespace: cassava_trait
+name: cassava attieke grain size trait
 def: "Size or diameter of grains" [CO:curators]
 synonym: "AttGrSiz" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003112
-name: attieke granularity
-namespace: cassava_trait
+name: cassava attieke granularity trait
 def: "Perception of the size, shape, and amount of grains (particles) in the sample." [CO:curators]
 synonym: "AttGran" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003113
-name: attieke homogenity of grains
-namespace: cassava_trait
+name: cassava attieke homogenity of grains trait
 def: "Degree of uniformity of the size of grains" [CO:curators]
 synonym: "AttHomGr" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003114
-name: attieke masticability
-namespace: cassava_trait
+name: cassava attieke masticability trait
 def: "Force required to a given deformation, penetration or to reduce to sample to a swallowable form, (being easily chewable)" [CO:curators]
 synonym: "AttMast" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003115
-name: attieke moldability in the hand
-namespace: cassava_trait
+name: cassava attieke moldability in the hand trait
 def: "Ability to form a ball" [CO:curators]
 synonym: "AttMold" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003116
-name: attieke mouth filled sensations
-namespace: cassava_trait
+name: cassava attieke mouth filled sensations trait
 def: "Sensation that grains fill the mouth" [CO:curators]
 synonym: "AttMouFilSens" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003117
-name: attieke off-odours
-namespace: cassava_trait
+name: cassava attieke off-odours trait
 def: "Undesired or atypical odor associated with transformation or deterioration of the product. (Smoke, molds, over fermented, etc)" [CO:curators]
 synonym: "AttOffOdo" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003118
-name: attieke presence of fibers
-namespace: cassava_trait
+name: cassava attieke presence of fibers trait
 def: "Quantity of fibers" [CO:curators]
 synonym: "AttPrFibr" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003119
-name: attieke presence of lumps
-namespace: cassava_trait
+name: cassava attieke presence of lumps trait
 def: "Presence of aggregates" [CO:curators]
 synonym: "AttPrLum" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003120
-name: attieke red palm oil aroma
-namespace: cassava_trait
+name: cassava attieke red palm oil aroma trait
 def: "Characteristic odor of red palm oil" [CO:curators]
 synonym: "AttRdPlmOilArom" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003121
-name: attieke sourness aroma
-namespace: cassava_trait
+name: cassava attieke sourness aroma trait
 def: "Odor of sourness" [CO:curators]
 synonym: "AttSourArom" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003122
-name: attieke taste of red palm oil
-namespace: cassava_trait
+name: cassava attieke taste of red palm oil trait
 def: "Presence and Intensity of the taste of Red Palm oil" [CO:curators]
 synonym: "AttTastRdPalmOil" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003123
-name: attieke undesired taste
-namespace: cassava_trait
+name: cassava attieke undesired taste trait
 def: "Any undesired taste in the sample (smoke, over-fermented, etc.)." [CO:curators]
 synonym: "AttUndesTast" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003124
-name: boiled root cassava odour
-namespace: cassava_trait
+name: cassava boiled root cassava odour trait
 def: "Odour of boiled cassava" [CO:curators]
 synonym: "BoiCasCasOd" EXACT []
-is_a: CO_334:0103021 ! Aroma trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003125
-name: boiled root crumbness
-namespace: cassava_trait
+name: cassava boiled root crumbness trait
 def: "Property of the product to crumble between the fingers" [CO:curators]
 synonym: "BoiCasCrum" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003126
-name: boiled root easiness to chew
-namespace: cassava_trait
+name: cassava boiled root easiness to chew trait
 def: "Property related to the number of chews necessary to swallow the product" [CO:curators]
 synonym: "BoiCasChew" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003127
-name: boiled root granulariness
-namespace: cassava_trait
+name: cassava boiled root granulariness trait
 def: "Refers to the presence of small grains during chewing" [CO:curators]
 synonym: "BoiCasGran" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003128
-name: boiled root hardness to break
-namespace: cassava_trait
+name: cassava boiled root hardness to break trait
 def: "Force required to cut/break with hand" [CO:curators]
 synonym: "BoiCasHard" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003129
-name: boiled root presence of fibers
-namespace: cassava_trait
+name: cassava boiled root presence of fibers trait
 def: "Refers to the presence of fine fibers visible to the eye" [CO:curators]
 synonym: "boiCasFibr" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003130
-name: boiled root presence of stripe
-namespace: cassava_trait
+name: cassava boiled root presence of stripe trait
 def: "Refers to the presence of the  stripe on the surface of product" [CO:curators]
 synonym: "BoiCasStrip" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003131
-name: boiled root white colour
-namespace: cassava_trait
+name: cassava boiled root white colour trait
 def: "Both inner and outer colour can range from light off-white to white (pure white)" [CO:curators]
 synonym: "BoiCasWhitCol" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003132
-name: eba surface creamness
-namespace: cassava_trait
+name: cassava eba surface creamness trait
 def: "Colour of the surface of the sample from cream to light cream" [CO:curators]
 synonym: "EbaSurfCream" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003133
-name: eba cohessiveness/moldability
-namespace: cassava_trait
+name: cassava eba cohessiveness/moldability trait
 def: "Textural attribute relating to degree to which a substance can be deformed before it breaks" [CO:curators]
 synonym: "EbaHdCohe" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003134
-name: Eba hardness in hand
-namespace: cassava_trait
+name: cassava eba hardness in hand trait
 def: "Mechanical textural attribute related to the force necessary to achieve a certain deformation" [CO:curators]
 synonym: "EbaHdHard" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003135
-name: Eba smoothness in mouth
-namespace: cassava_trait
+name: cassava eba smoothness in mouth trait
 def: "Geometrical attribute associated with the overall degree of absence of particles within sample" [CO:curators]
 synonym: "EbaMthSmooth" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003136
-name: eba stickiness kin the hand
-namespace: cassava_trait
+name: cassava eba stickiness kin the hand trait
 def: "Mechanical textural attribute relating to the force required to remove material that sticks to the hand" [CO:curators]
 synonym: "EbaHdStic" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003137
-name: Eba stretchability in the hand
-namespace: cassava_trait
+name: cassava eba stretchability in the hand trait
 def: "The tendency of a body to return to its original shape after it has been stretched or compressed" [CO:curators]
 synonym: "EbaHdStrea" EXACT []
-is_a: CO_334:0103019 ! Texture in hand trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003138
-name: Eba surface whiteness
-namespace: cassava_trait
+name: cassava eba surface whiteness trait
 def: "Colour of the surface of the sample from light white to off white" [CO:curators]
 synonym: "EbaSurfWhit" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003139
-name: eba sourness in the mouth
-namespace: cassava_trait
+name: cassava eba sourness in the mouth trait
 def: "Gustatory complex sensation, generally due to presence of organic acids" [CO:curators]
 synonym: "EbaSour" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003140
-name: eba sweetness taste
-namespace: cassava_trait
+name: cassava eba sweetness taste trait
 def: "Basic taste produced by dilute aqueous solutions of natural or artificial substances such as sucrose" [CO:curators]
 synonym: "EbaTastSweet" EXACT []
-is_a: CO_334:0103020 ! Taste trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003141
-name: eba fibrousness in mouth
-namespace: cassava_trait
+name: cassava eba fibrousness in mouth trait
 def: "Geometrical attribute of product associated with presence of long string like particles" [CO:curators]
 synonym: "EbaFibr" EXACT []
-is_a: CO_334:0103018 ! Texture in mouth trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003142
-name: eba surface greyness
-namespace: cassava_trait
+name: cassava eba surface greyness
 def: "Colour of the surface of the sample from grey to light grey" [CO:curators]
 synonym: "EbaSurfGrey" EXACT []
-is_a: CO_334:0103017 ! Appearance trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003203
-name: Canopy formation
-namespace: cassava_trait
+name: cassava canopy formation trait
 def: "Soil area covered by the plant's canopy" [CO:curators]
 synonym: "CanForm" EXACT []
-is_a: CO_334:0000002 ! Morphological trait
+is_a: TO:0000559 ! plant volume
 
 [Term]
 id: CO_334:0003204
-name: Discoloration
-namespace: cassava_trait
+name: cassava discoloration trait
 def: "Change in color, when food product is being processed" [CO:curators]
 synonym: "Discol" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003205
-name: Disease tolerance
-namespace: cassava_trait
+name: cassava disease tolerance trait
 def: "The host's ability to reduce the effect of infection on its fitness regardless of the level of disease pathogen multiplication (" [CO:curators]
 synonym: "DisTol" EXACT []
-is_a: CO_334:0000007 ! Biotic stress trait
+is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_334:0003206
-name: Drought tolerance
-namespace: cassava_trait
+name: cassava drought tolerance trait
 def: "The ability to which a cassava plant maintains its biomass production during arid or drought conditions" [CO:curators]
 synonym: "DrgTol" EXACT []
-is_a: CO_334:0000006 ! Abiotic stress trait
+is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_334:0003207
-name: Eba preservability
-namespace: cassava_trait
-def: "Quality of Eba to be preserved for 24h" [CO:curators]
+name: cassava eba preservability trait
+def: "Quality of eba to be preserved for 24h" [CO:curators]
 synonym: "EbaPresev" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003208
-name: Eba swelling
-namespace: cassava_trait
+name: cassava eba swelling trait
 def: "Swelling of the gari during the preparation of eba" [CO:curators]
 synonym: "EbSw" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003209
-name: Eba taste
-namespace: cassava_trait
+name: cassava eba taste trait
 def: "Taste of eba" [CO:curators]
 synonym: "EbaTast" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003210
-name: Flood tolerance
-namespace: cassava_trait
+name: cassava flood tolerance trait
 def: "The ability to which a cassava plant maintains its biomass production during flood conditions" [CO:curators]
 synonym: "FloodTol" EXACT []
-is_a: CO_334:0000006 ! Abiotic stress trait
 
 [Term]
 id: CO_334:0003211
-name: Fufu preservability
-namespace: cassava_trait
-def: "Quality of Fufu to be preserved for 72h" [CO:curators]
+name: cassava fufu preservability trait
+def: "Quality of fufu to be preserved for 72h" [CO:curators]
 synonym: "FufuPresev" EXACT []
-is_a: CO_334:0001073 ! Fufu quality
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003212
-name: Fufu swelling capacity
-namespace: cassava_trait
+name: cassava fufu swelling capacity trait
 def: "Swelling capacity of fufu sample" [CO:curators]
 synonym: "FufSw" EXACT []
-is_a: CO_334:0001073 ! Fufu quality
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003213
-name: Fufu taste
-namespace: cassava_trait
+name: cassava fufu taste trait
 def: "Taste of fufu" [CO:curators]
 synonym: "FufTast" EXACT []
-is_a: CO_334:0001073 ! Fufu quality
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003214
-name: Fufu woody filament presence
-namespace: cassava_trait
-def: "Presence of woody filaments or crude fibers in Fufu" [CO:curators]
+name: cassava fufu woody filament presence trait
+def: "Presence of woody filaments or crude fibers in fufu" [CO:curators]
 synonym: "FufFil" EXACT []
-is_a: CO_334:0001073 ! Fufu quality
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003215
-name: Gari dryness
-namespace: cassava_trait
+name: cassava gari dryness trait
 def: "Dryness of the gari sample" [CO:curators]
 synonym: "GariDry" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003216
-name: Gari heaviness
-namespace: cassava_trait
+name: cassava gari heaviness trait
 def: "Density of gari" [CO:curators]
 synonym: "GariHea" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003217
-name: Gari smoothness in mouth
-namespace: cassava_trait
+name: cassava gari smoothness in mouth trait
 def: "homogeneity of the gari sample" [CO:curators]
 synonym: "GariSm" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003218
-name: Gari surface butter colour
-namespace: cassava_trait
+name: cassava gari surface butter colour trait
 def: "Colour of the surface of the sample, taking into account its shininess" [CO:curators]
 synonym: "GariCol" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003219
-name: Gari water release
-namespace: cassava_trait
+name: cassava gari water release trait
 def: "the ease of water relased during pressing gari" [CO:curators]
 synonym: "gariWtRel" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003220
-name: Gari woody filament presence
-namespace: cassava_trait
-def: "Presence of woody filaments or crude fibers in Gari" [CO:curators]
+name: cassava gari woody filament presence
+def: "Presence of woody filaments or crude fibers in gari" [CO:curators]
 synonym: "GariFil" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003221
-name: Gari yield
-namespace: cassava_trait
+name: cassava gari yield trait
 def: "The weight of gari in relation to the unpeelled fresh root mass" [CO:curators]
 synonym: "GariYld" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003222
-name: General appreciation
-namespace: cassava_trait
+name: cassava general appreciation trait
 def: "General appreciation at a given crop stage" [CO:curators]
 synonym: "GenApp" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_334:0003223
-name: Overall performance
-namespace: cassava_trait
+name: cassava overall performance trait
 def: "Plant's ability to meet the farmers' needs from planting to final product." [CO:curators]
 synonym: "OvPerf" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_334:0003224
-name: Pest tolerance
-namespace: cassava_trait
-def: "The host's ability to reduce the effect of damages on its fitness regardless of the level of pest pathogen multiplication (" [CO:curators]
+name: cassava pest tolerance trait
+def: "The host's ability to reduce the effect of damages on its fitness regardless of the level of pest pathogen multiplication." [CO:curators]
 synonym: "PestTol" EXACT []
-is_a: CO_334:0000007 ! Biotic stress trait
+is_a: TO:0000179 ! biotic plant stress trait
 
 [Term]
 id: CO_334:0003225
-name: Plant growth
-namespace: cassava_trait
+name: cassava plant growth trait
 def: "Plant growth/vigor of the plant." [CO:curators]
 synonym: "PltGwt" EXACT []
-is_a: CO_334:0000001 ! Agronomic trait
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_334:0003226
-name: Planting material quality
-namespace: cassava_trait
+name: cassava planting material quality trait
 def: "Quality of the stem to replant" [CO:curators]
 synonym: "PltMatQual" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000597 ! plant quality trait
 
 [Term]
 id: CO_334:0003227
-name: Pulp discoloration
-namespace: cassava_trait
+name: cassava pulp discoloration trait
 def: "Pulp discoloration during processing" [CO:curators]
 synonym: "PulDisc" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003228
-name: Pulp swelling
-namespace: cassava_trait
+name: cassava pulp swelling trait
 def: "Swelling of the pulp during toasting" [CO:curators]
 synonym: "PulSw" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003229
-name: Rettability capacity
-namespace: cassava_trait
+name: cassava rettability capacity trait
 def: "Capability for roots to soften during soaking" [CO:curators]
 synonym: "RetCap" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001068 ! processing quality trait
 
 [Term]
 id: CO_334:0003230
-name: Root food content
-namespace: cassava_trait
+name: cassava root food content trait
 def: "Quantity of food from a root. Related to root dry matter content" [CO:curators]
 synonym: "RtFdCt" EXACT []
-is_a: CO_334:0001077 ! Root quality traits
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0003231
-name: Root formation
-namespace: cassava_trait
+name: cassava root formation trait
 def: "The extent to which storage root has formed, taking shape. Related to early bulking" [CO:curators]
 synonym: "RtForm" EXACT []
-is_a: CO_334:0000001 ! Agronomic trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0003232
-name: Root rot presence
-namespace: cassava_trait
+name: cassava root rot presence trait
 def: "Presence of rot on root" [CO:curators]
 synonym: "RtRotPre" EXACT []
-is_a: CO_334:0000007 ! Biotic stress trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_334:0003233
-name: Root suitable for Abacha
-namespace: cassava_trait
+name: cassava root suitable for Abacha trait
 def: "Suitability of the root to make Abacha" [CO:curators]
 synonym: "RtSuitAb" EXACT []
-is_a: CO_334:0001077 ! Root quality traits
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003234
-name: Root suitable for Fufu
-namespace: cassava_trait
-def: "Suitability of the root to make Fufu" [CO:curators]
+name: cassava root suitable for fufu trait
+def: "Suitability of the root to make fufu" [CO:curators]
 synonym: "RtSuitFuf" EXACT []
-is_a: CO_334:0001077 ! Root quality traits
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003235
-name: Root suitable for Gari
-namespace: cassava_trait
-def: "Suitability of the root to make Gari" [CO:curators]
+name: cassava root suitable for gari trait
+def: "Suitability of the root to make gari" [CO:curators]
 synonym: "RtSuitGar" EXACT []
-is_a: CO_334:0001077 ! Root quality traits
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0003236
-name: Sprouting time
-namespace: cassava_trait
+name: cassava sprouting time trait
 def: "Time from planting cassava seed until hypocotyl emerges from the substrate" [CO:curators]
 synonym: "SprTm" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0000933 ! plant phenological trait
 
 [Term]
 id: CO_334:0003237
-name: Suitability to soil and environment
-namespace: cassava_trait
+name: cassava suitability to soil and environment trait
 def: "Compatibility for use in a given environment" [CO:curators]
 synonym: "SuitSlEnv" EXACT []
-is_a: CO_334:0000001 ! Agronomic trait
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_334:0004024
-name: Gari particle size
-namespace: cassava_trait
+name: cassava gari particle size trait
 def: "The  size indicate the granular size of the gari samples measure at 0-300, ps300-500, ps500-800, and ps800 um" [CO:curators]
 synonym: "granular size(um)" EXACT []
-is_a: CO_334:0000004 ! Quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_334:0010000
@@ -5668,25 +5461,25 @@ relationship: method_of CO_334:0000037 ! cassava bacterial blight incidence trai
 [Term]
 id: CO_334:0010252
 name: cassava Visual Observation:cassava anthracnose disease severity in 3-months_method
-def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
+def: "cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
 relationship: method_of CO_334:0000032 ! cassava anthracnose disease severity trait
 
 [Term]
 id: CO_334:0010253
 name: cassava Visual Observation:cassava anthracnose disease severity in 6-months_method
-def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
+def: "cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
 relationship: method_of CO_334:0000032 ! cassava anthracnose disease severity trait
 
 [Term]
 id: CO_334:0010254
 name: cassava Visual Observation:cassava anthracnose disease severity in 9-months_method
-def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
+def: "cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
 relationship: method_of CO_334:0000032 ! cassava anthracnose disease severity trait
 
 [Term]
 id: CO_334:0010255
 name: cassava Visual Observation:cassava anthracnose disease severity in 12-months_method
-def: "Cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
+def: "cassava anthracnose stem lesion severity is scored at different times after planting to coincide with typically high symptom expression.  Symptoms are rated on a scale from 1 (= no symptoms) to 5 (= extremely severe stem lesions and dieback of stem)" [CO:curators]
 relationship: method_of CO_334:0000032 ! cassava anthracnose disease severity trait
 
 [Term]
@@ -5739,13 +5532,13 @@ relationship: method_of CO_334:0000033 ! cassava green mite severity trait
 
 [Term]
 id: CO_334:0010267
-name: cassava Visual Observation:Cassava Mealy Bug Severity_method
+name: cassava Visual Observation:cassava Mealy Bug Severity_method
 def: "Severity of cassava mealy bug symptoms caused by mealybug, Phenacoccus Manihoti" [CO:curators]
 relationship: method_of CO_334:0000340 ! cassava mealy bug severity trait
 
 [Term]
 id: CO_334:0010268
-name: cassava Counting:Cassava Mealy Bug Incidence_method
+name: cassava Counting:cassava Mealy Bug Incidence_method
 def: "A ratio of plants showing symptoms of cassava mealy bug damage divided by the total number of plant stands" [CO:curators]
 relationship: method_of CO_334:0000339 ! cassava mealy bug incidence trait
 
@@ -5997,7 +5790,7 @@ relationship: method_of CO_334:0000407 ! cassava moisture content trait
 
 [Term]
 id: CO_334:0010315
-name: cassava Measurement :Gari Content_method
+name: cassava Measurement :gari Content_method
 def: "Measured gari content of fresh root tubers" [CO:curators]
 relationship: method_of CO_334:0000374 ! cassava gari content trait
 
@@ -6381,7 +6174,7 @@ relationship: method_of CO_334:0000495 ! cassava sugar content trait
 
 [Term]
 id: CO_334:0010380
-name: cassava Estimation :Fufu Content_method
+name: cassava Estimation :fufu Content_method
 def: "Measured percentage fufu processed from fresh storage roots." [CO:curators]
 relationship: method_of CO_334:0000373 ! cassava fufu content trait
 
@@ -7042,7 +6835,7 @@ relationship: scale_of CO_334:0010266 ! cassava Visual Observation:cassava green
 [Term]
 id: CO_334:0100473
 name: cassava 5 pt scale
-relationship: scale_of CO_334:0010267 ! cassava Visual Observation:Cassava Mealy Bug Severity_method
+relationship: scale_of CO_334:0010267 ! cassava Visual Observation:cassava Mealy Bug Severity_method
 
 [Term]
 id: CO_334:0100476
@@ -7462,7 +7255,7 @@ relationship: scale_of CO_334:0010259 ! cassava Counting:cassava anthracnose dis
 relationship: scale_of CO_334:0010260 ! cassava Counting:cassava anthracnose disease incidence in 12-months_method
 relationship: scale_of CO_334:0010262 ! cassava Counting:cassava green mite incidence first evaluation_method
 relationship: scale_of CO_334:0010263 ! cassava Counting:cassava green mite incidence second evaluation_method
-relationship: scale_of CO_334:0010268 ! cassava Counting:Cassava Mealy Bug Incidence_method
+relationship: scale_of CO_334:0010268 ! cassava Counting:cassava Mealy Bug Incidence_method
 relationship: scale_of CO_334:0010275 ! cassava Counting:cassava brown streak disease leaf incidence 1-month evaluation_method
 relationship: scale_of CO_334:0010276 ! cassava Counting:cassava brown streak disease leaf incidence 3-month evaluation_method
 relationship: scale_of CO_334:0010277 ! cassava Counting:cassava brown streak disease leaf incidence 6-month evaluation_method
@@ -7495,8 +7288,8 @@ relationship: scale_of CO_334:0010452 ! cassava Estimation :gari starch_method
 [Term]
 id: CO_334:0100586
 name: cassava g/kg scale
-relationship: scale_of CO_334:0010315 ! cassava Measurement :Gari Content_method
-relationship: scale_of CO_334:0010380 ! cassava Estimation :Fufu Content_method
+relationship: scale_of CO_334:0010315 ! cassava Measurement :gari Content_method
+relationship: scale_of CO_334:0010380 ! cassava Estimation :fufu Content_method
 relationship: scale_of CO_334:0010381 ! cassava Estimation :Lafun Content_method
 
 [Term]
@@ -7753,75 +7546,67 @@ relationship: scale_of CO_334:0010471 ! cassava Visual Observation:stipule margi
 
 [Term]
 id: CO_334:0002041
-name: Cassava rust disease severity
+name: cassava rust disease severity
 def: "Severity of symptom caused by Uromyces manihots in leaves" [CO:curators]
 synonym: "crds" EXACT []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_334:0002042
-name: Cassava rust disease incidence
+name: cassava rust disease incidence
 def: "Proportion of plants in a plot with symptom of Uromyces manihots" [CO:curators]
 synonym: "crdi" EXACT []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_334:0002110
-name: Cassava white leaf spot disease severity
+name: cassava white leaf spot disease severity
 def: "Severity of white leaf spot caused by Passalora maninhotis" [CO:curators]
 synonym: "cwlsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
 is_a: TO:0001145 ! Ascomycete fungal disease
 
 
 [Term]
 id: CO_334:0002111
-name: Cassava white leaf spot disease incidence
+name: cassava white leaf spot disease incidence
 def: "Proportion of plants showing symptoms of disease casued by Passalora maninhotis." [CO:curators]
 synonym: "cwlsdi" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
 is_a: TO:0001145 ! Ascomycete fungal disease
 
 
 [Term]
 id: CO_334:0002112
-name: Cassava brown leaf spot disease severity
+name: cassava brown leaf spot disease severity
 def: "Severity of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
 synonym: "cblsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
 is_a: TO:0001145 ! Ascomycete fungal disease
 
 [Term]
 id: CO_334:0002113
-name: Cassava brown leaf spot disease incidence
+name: cassava brown leaf spot disease incidence
 def: "Proportion of symptom of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
 is_a: TO:0001145 ! Ascomycete fungal disease
 
 [Term]
 id: CO_334:0002114
-name: Cassava blight leaf spot disease severity
+name: cassava blight leaf spot disease severity
 def: "Severity of blight leaf spot disease caused by Passalora vicosae." [CO:curators]
 synonym: "cbllsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
 is_a: TO:0001145 ! Ascomycete fungal disease
 
 [Term]
 id: CO_334:0002115
-name: Cassava blight leaf spot disease incidence
+name: cassava blight leaf spot disease incidence
 def: "Proportion of symptoms caused by blight spot disease." [CO:curators]
 synonym: "cbllsdi" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
 is_a: TO:0001145 ! Ascomycete fungal disease
 
 [Typedef]
