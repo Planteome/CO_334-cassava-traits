@@ -3372,7 +3372,7 @@ is_a: TO:0000986 ! staminate flower number trait
 [Term]
 id: CO_334:0000404
 name: cassava male sterile trait
-def: "cassava plants that do no produce viable pollen." [CO:curators]
+def: "Cassava plants that do no produce viable pollen." [CO:curators]
 synonym: "ms" EXACT []
 is_a: TO:0000437 ! male sterility
 
@@ -3745,7 +3745,7 @@ is_a: TO:0000573 ! sepal color
 [Term]
 id: CO_334:0000463
 name: cassava sooty mould trait
-def: "Balck mould" [CO:curators]
+def: "Black mould" [CO:curators]
 synonym: "sooty" EXACT []
 is_a: TO:0000439 ! fungal disease response trait
 
@@ -4343,7 +4343,7 @@ id: CO_334:0002060
 name: cassava fibrous root weight trait
 synonym: "firtwt" RELATED []
 xref: CO:curators
-is_a: TO:0003009 tuberous root tuber weight
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_334:0002061
@@ -5382,25 +5382,25 @@ relationship: method_of CO_334:0000035 ! cassava mosaic disease severity trait
 
 [Term]
 id: CO_334:0010236
-name: cassava Counting:cassava mosaic disease incidence 1-month evaluation_method
+name: cassava counting:cassava mosaic disease incidence 1-month evaluation_method
 def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at one to six weeks after planting" [CO:curators]
 relationship: method_of CO_334:0000039 ! cassava mosaic disease incidence trait
 
 [Term]
 id: CO_334:0010237
-name: cassava Counting:cassava mosaic disease incidence 3-month evaluation_method
+name: cassava counting:cassava mosaic disease incidence 3-month evaluation_method
 def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at two to three months after planting" [CO:curators]
 relationship: method_of CO_334:0000039 ! cassava mosaic disease incidence trait
 
 [Term]
 id: CO_334:0010238
-name: cassava Counting:cassava mosaic disease incidence 6-month evaluation_method
+name: cassava counting:cassava mosaic disease incidence 6-month evaluation_method
 def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at four to six months after planting" [CO:curators]
 relationship: method_of CO_334:0000039 ! cassava mosaic disease incidence trait
 
 [Term]
 id: CO_334:0010239
-name: cassava Counting:cassava mosaic disease incidence 9-month evaluation_method
+name: cassava counting:cassava mosaic disease incidence 9-month evaluation_method
 def: "The ratio of plants showing symptoms of cassava mosaic disease as a proportion of the total plant stands scored at seven to nine months after planting" [CO:curators]
 relationship: method_of CO_334:0000039 ! cassava mosaic disease incidence trait
 
@@ -7568,7 +7568,6 @@ synonym: "cwlsds" RELATED []
 xref: CO:curators
 is_a: TO:0001145 ! Ascomycete fungal disease
 
-
 [Term]
 id: CO_334:0002111
 name: cassava white leaf spot disease incidence
@@ -7576,7 +7575,6 @@ def: "Proportion of plants showing symptoms of disease casued by Passalora manin
 synonym: "cwlsdi" RELATED []
 xref: CO:curators
 is_a: TO:0001145 ! Ascomycete fungal disease
-
 
 [Term]
 id: CO_334:0002112
@@ -7624,4 +7622,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
