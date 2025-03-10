@@ -6196,7 +6196,7 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001068 ! Number of Aleurotrachelus socialis nymphs
 relationship: variable_of CO_334:0001070 ! Counting: Aleurotrachelus socialis nymphs_method
 relationship: variable_of CO_334:0100614 ! nymphs
-creation_date: Feb-07-2024
+creation_date: 2024-02-07T17:00:04Z
 
 [Term]
 id: CO_334:0001070
@@ -6215,7 +6215,7 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001068 ! Number of Aleurotrachelus socialis nymphs
 relationship: variable_of CO_334:0001070 ! Counting: Aleurotrachelus socialis nymphs_method
 relationship: variable_of CO_334:0100614 ! nymphs
-creation_date: Feb-07-2024
+creation_date: 2024-02-07T17:00:04Z
 
 [Term]
 id: CO_334:0001072
@@ -6242,7 +6242,7 @@ relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0004016 ! Measurement: pH meter method
 relationship: variable_of CO_334:0004017 ! -log (H30+)
 created_by: Naama Menda
-creation_date: 2024-13-02
+creation_date: 2024-02-13T17:00:04Z
 
 [Term]
 id: CO_334:0001075
@@ -6254,7 +6254,7 @@ relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001076 ! Measurement:  acidity titer method
 relationship: variable_of CO_334:0100583 ! pct (%)
 created_by: Naama Menda
-creation_date: 2024-13-02
+creation_date: 2024-02-13T17:00:04Z
 
 [Term]
 id: CO_334:0001076
@@ -6287,7 +6287,7 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001078 ! Hardness/softness of raw cassava roots
 relationship: variable_of CO_334:0001080 ! Calculation: hardness of raw root_method
 relationship: variable_of CO_334:0001081 ! kg/cm^3
-creation_date: 02-13-2024
+creation_date: 2024-02-13T17:00:04Z
 
 [Term]
 id: CO_334:0001080
@@ -6456,7 +6456,7 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001099 ! Calculation: fufu turbidity percentage method
 relationship: variable_of CO_334:0100583 ! pct (%)
-creation_date: 02-13-2024
+creation_date: 2024-02-13T17:00:04Z
 
 [Term]
 id: CO_334:0001099
@@ -6473,7 +6473,7 @@ namespace: cassava_trait
 def: "Fufu peel weight reltive to fresh root weight." [CO:curators]
 xref: CO:curators
 is_a: CO_334:0001073 ! Fufu quality
-creation_date: 02-27-2024
+creation_date: 2024-02-27T17:00:04Z
 
 [Term]
 id: CO_334:0001102
@@ -6495,7 +6495,7 @@ relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001104 ! Calculation: fufu resilience ratio method
 relationship: variable_of CO_334:0100582 ! ratio
-creation_date: 02-27-2024
+creation_date: 2024-02-27T17:00:04Z
 
 [Term]
 id: CO_334:0001104
@@ -6515,7 +6515,7 @@ relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001106 ! Calculation: fufu cohesiveness ratio method
 relationship: variable_of CO_334:0100582 ! ratio
-creation_date: 02-27-2024
+creation_date: 2024-02-27T17:00:04Z
 
 [Term]
 id: CO_334:0001106
@@ -6555,7 +6555,7 @@ relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001110 ! newton per second
-creation_date: 02-27-2024
+creation_date: 2024-02-27T17:00:04Z
 
 [Term]
 id: CO_334:0001110
@@ -6572,7 +6572,7 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001112 ! Fufu water clarity 1-5 scale
 relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
-creation_date: 02-27-2024
+creation_date: 2024-02-27T17:00:04Z
 
 [Term]
 id: CO_334:0001112
@@ -6598,7 +6598,7 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001113 ! Visual Observation: Cassava fufu water clarity evaluation method
 relationship: variable_of CO_334:0001115 ! Fufu foaming ability 1-5 scale
-creation_date: 02-27-2024
+creation_date: 2024-02-27T17:00:04Z
 
 [Term]
 id: CO_334:0001115
