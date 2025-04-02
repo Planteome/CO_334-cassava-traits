@@ -6698,6 +6698,78 @@ is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0001124 ! Measurement: Pulse Amplitude Modulation (PAM) technique for measuring electron transport rate
 
 [Term]
+id: CO_334:0001126
+name: Textural profile analysis by double compression of fufu textural characteristic distance to max force at first compression
+namespace: cassava_trait
+def: "Textural parameter used to calculate chewiness and springness measured by TPA double compression." [CO:curators]
+synonym: "Dist1_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100697 ! mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001127
+name: Textural profile analysis by double compression of fufu textural characteristic distance to max force at second compression
+namespace: cassava_trait
+def: "Textural parameter used to calculate chewiness and springness measured by TPA double compression.\nThe distance between the beginning of the second TPA compression and the highest peak force of the second TPA compression." [CO:curators]
+synonym: "Dist2_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100697 ! mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001128
+name: Textural profile analysis by double compression of fufu textural characteristic area under curve at first compression
+namespace: cassava_trait
+def: "Textural parameter used to calculate cohesiveness and resilience measured by TPA double compression\nThe area underneath the curve between beginning of first compression and highest peak force of first compression." [CO:curators]
+synonym: "Area_a_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100698 ! g/mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001129
+name: Textural profile analysis by double compression of fufu textural characteristic  area under curve at first withdrawal
+namespace: cassava_trait
+def: "Textural parameter used to calculate cohesiveness and resilience. The area underneath the curve between highest peak force of first compression and end of first withdrawal" [CO:curators]
+synonym: "Area_b_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100698 ! g/mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001130
+name: Textural profile analysis by double compression of fufu textural characteristic area under curve at second compression
+namespace: cassava_trait
+def: "Textural parameter used to calculate cohesiveness. The area underneath the curve between highest peak force of second compression and end of second withdrawal." [CO:curators]
+synonym: "Area_d_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100698 ! g/mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001131
+name: Textural profile analysis by double compression of fufu textural characteristic area under curve at second withdrawal
+namespace: cassava_trait
+def: "Textural parameter used to calculate cohesiveness. The area underneath the curve between highest peak force of second compression and end of second withdrawal." [CO:curators]
+synonym: "Area_e_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100698 ! g/mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
