@@ -6336,6 +6336,7 @@ name: Fufu chewiness measured in Newtons
 namespace: cassava_trait
 def: "A measure of fufu easiness to chew in newtons obtained by Texture Profile Analysis probe." [CO:curators]
 is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0100695 ! newton
@@ -6492,6 +6493,7 @@ namespace: cassava_trait
 def: "Textural profile analysis by double compression of fufu resilience. The area under curve after peak force is reached divided by the area under curve before peak force is reached as  computed from TPA measurements." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001104 ! Calculation: fufu resilience ratio method
 relationship: variable_of CO_334:0100582 ! ratio
@@ -6512,6 +6514,7 @@ namespace: cassava_trait
 def: "Textural profile analysis by double compression of fufu cohesiveness. The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001106 ! Calculation: fufu cohesiveness ratio method
 relationship: variable_of CO_334:0100582 ! ratio
@@ -6533,6 +6536,7 @@ def: "Textural profile analysis by double compression. A measure of elasticity i
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001108 ! Calculation: Fufu springiness in percentage
 relationship: variable_of CO_334:0100583 ! pct (%)
@@ -6683,7 +6687,7 @@ name: Measurement: Pulse Amplitude Modulation (PAM) technique for measuring elec
 namespace: CassavaMethod
 def: "the method to measure ETR is based on the pulse amplitude modulation (PAM) technique.\nIt  consists of emitting blue light pulse (over a leaf area of about 1 square cm) which will cause chlorophyll fluorescence (ChlF);\nChlF information is used to estimate the quantum efficiency of photosystem II, and subsequently ETR as a proxy of photosynthesis." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0001123 ! Maximum electron transport rate measured in mmol electrons using pulse amplitude modulation (PAM)
+relationship: method_of CO_334:0001123 ! Maximum electron transport rate (ETRmax) measured in mmol electrons using pulse amplitude modulation (PAM)-based methods
 
 [Term]
 id: CO_334:0001125
@@ -15782,3 +15786,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
