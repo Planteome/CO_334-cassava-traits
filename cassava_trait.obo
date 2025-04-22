@@ -877,7 +877,7 @@ relationship: variable_of CO_334:0100540 ! 3pt scale
 id: CO_334:0000077
 name: post-harvest physiological deterioration variable 0-10 scale measured 12 months after planting.
 namespace: cassava_trait
-def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration" [CO:curators]
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption. A number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration" [CO:curators]
 is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
@@ -1095,7 +1095,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 id: CO_334:0000095
 name: beta carotene content ug/g
 namespace: cassava_trait
-def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight. \n\nFresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Concentrations are expressed in ug/g wet basis." [CO:curators]
+def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight. Fresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Concentrations are expressed in ug/g wet basis." [CO:curators]
 synonym: "bcret" EXACT []
 synonym: "BetaCarotCt_HPLC_ugg" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -2397,7 +2397,7 @@ relationship: variable_of CO_334:0100582 ! ratio
 id: CO_334:0000203
 name: cassava brown streak disease leaf severity 1-month evaluation
 namespace: cassava_trait
-def: "Visual rating of leaf symptoms caused by cassava brown streak virus evaluated between one and six weeks after planting, in the family Potyviridae and genus Ipomovirus. Symptoms rated from 1 = (clean, no infection), 2 = mild/slight vein yellowing or chlorotic blotches on leaves, no brown streaks/lesions on green stem portions\n, 3 = mild/slight vein yellowing or chlorotic blotches on leaves mild brown streaks/lesions on green stem portions, 4 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions no defoliation, stem dieback or stunting, 4 =  to 5 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions defoliation, stem dieback or stunting." [CO:curators]
+def: "Visual rating of leaf symptoms caused by cassava brown streak virus evaluated between one and six weeks after planting, in the family Potyviridae and genus Ipomovirus. Symptoms rated from 1 = (clean, no infection), 2 = mild/slight vein yellowing or chlorotic blotches on leaves, no brown streaks/lesions on green stem portions, 3 = mild/slight vein yellowing or chlorotic blotches on leaves mild brown streaks/lesions on green stem portions, 4 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions no defoliation, stem dieback or stunting, 4 =  to 5 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions defoliation, stem dieback or stunting." [CO:curators]
 synonym: "CBSDisLfSev_Scg_1to5_T1m" EXACT []
 synonym: "cbsdl1s" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -2409,7 +2409,7 @@ relationship: variable_of CO_334:0100476 ! 5 pt scale
 id: CO_334:0000204
 name: cassava brown streak disease leaf severity 3-month evaluation
 namespace: cassava_trait
-def: "Visual rating of leaf symptoms caused by cassava brown streak virus evaluated between two and three months after planting, in the family Potyviridae and genus Ipomovirus. Symptoms rated from 1 = (clean, no infection), 2 = mild/slight vein yellowing or chlorotic blotches on leaves, no brown streaks/lesions on green stem portions\n, 3 = mild/slight vein yellowing or chlorotic blotches on leaves mild brown streaks/lesions on green stem portions, 4 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions no defoliation, stem dieback or stunting, 4 =  to 5 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions defoliation, stem dieback or stunting." [CO:curators]
+def: "Visual rating of leaf symptoms caused by cassava brown streak virus evaluated between two and three months after planting, in the family Potyviridae and genus Ipomovirus. Symptoms rated from 1 = (clean, no infection), 2 = mild/slight vein yellowing or chlorotic blotches on leaves, no brown streaks/lesions on green stem portions, 3 = mild/slight vein yellowing or chlorotic blotches on leaves mild brown streaks/lesions on green stem portions, 4 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions no defoliation, stem dieback or stunting, 4 =  to 5 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions defoliation, stem dieback or stunting." [CO:curators]
 synonym: "CBSDisLfSev_Scg_1to5_T3m" EXACT []
 synonym: "cbsdl3s" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -2421,7 +2421,7 @@ relationship: variable_of CO_334:0100477 ! 5 pt scale
 id: CO_334:0000205
 name: cassava brown streak disease leaf severity 6-month evaluation
 namespace: cassava_trait
-def: "Visual rating of leaf symptoms caused by cassava brown streak virus between four and months after planting, in the family Potyviridae and genus Ipomovirus.Symptoms rated from 1 = (clean, no infection), 2 = mild/slight vein yellowing or chlorotic blotches on leaves, no brown streaks/lesions on green stem portions\n, 3 = mild/slight vein yellowing or chlorotic blotches on leaves mild brown streaks/lesions on green stem portions, 4 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions no defoliation, stem dieback or stunting, 4 =  to 5 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions defoliation, stem dieback or stunting." [CO:curators]
+def: "Visual rating of leaf symptoms caused by cassava brown streak virus between four and months after planting, in the family Potyviridae and genus Ipomovirus.Symptoms rated from 1 = (clean, no infection), 2 = mild/slight vein yellowing or chlorotic blotches on leaves, no brown streaks/lesions on green stem portions, 3 = mild/slight vein yellowing or chlorotic blotches on leaves mild brown streaks/lesions on green stem portions, 4 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions no defoliation, stem dieback or stunting, 4 =  to 5 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions defoliation, stem dieback or stunting." [CO:curators]
 synonym: "CBSDisLfSev_Scg_1to5_6m" EXACT []
 synonym: "cbsdl6s" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -2433,7 +2433,7 @@ relationship: variable_of CO_334:0100478 ! 5 pt scale
 id: CO_334:0000206
 name: cassava brown streak disease leaf severity 9-month evaluation
 namespace: cassava_trait
-def: "Visual rating of leaf symptoms caused by cassava brown streak virus between seven and nine months after planting, in the family Potyviridae and genus Ipomovirus.Symptoms rated from 1 = (clean, no infection), 2 = mild/slight vein yellowing or chlorotic blotches on leaves, no brown streaks/lesions on green stem portions\n, 3 = mild/slight vein yellowing or chlorotic blotches on leaves mild brown streaks/lesions on green stem portions, 4 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions no defoliation, stem dieback or stunting, 4 =  to 5 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions defoliation, stem dieback or stunting." [CO:curators]
+def: "Visual rating of leaf symptoms caused by cassava brown streak virus between seven and nine months after planting, in the family Potyviridae and genus Ipomovirus.Symptoms rated from 1 = (clean, no infection), 2 = mild/slight vein yellowing or chlorotic blotches on leaves, no brown streaks/lesions on green stem portions, 3 = mild/slight vein yellowing or chlorotic blotches on leaves mild brown streaks/lesions on green stem portions, 4 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions no defoliation, stem dieback or stunting, 4 =  to 5 = severe/extensive vein yellowing or chlorotic blotches on leaves severe brown streaks/lesions on green stem portions defoliation, stem dieback or stunting." [CO:curators]
 synonym: "CBSDisLfSev_Scg_1to5_9m" EXACT []
 synonym: "cbsdl9s" EXACT []
 is_a: CO_334:0001000 ! Variables
@@ -3898,7 +3898,7 @@ creation_date: 2017-06-22T11:44:36Z
 id: CO_334:0000343
 name: average number of nodes per plot counting
 namespace: cassava_trait
-def: "Average number of nodes per branch level.\nCounting all nodes per branch at each level. If more than one branch, select one branch and count nodes up to the apical shoot. Value averaged per plot." [CO:curators]
+def: "Average number of nodes per branch level. Counting all nodes per branch at each level. If more than one branch, select one branch and count nodes up to the apical shoot. Value averaged per plot." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000342 ! Node number
 relationship: variable_of CO_334:0010520 ! Counting: Number of node_method
@@ -5925,7 +5925,7 @@ is_a: CO_334:0001026 ! Farmer preference trait
 id: CO_334:0001028
 name: textural characteristic end force to max force ratio extrusion percentage
 namespace: cassava_trait
-def: "The ratio of the end force measured at 20mm divided by the maximum force recorded during the texture-extrusion profile of a piece of cassava root boiled for a set time, and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long.\n\nDerived trait calculated as percentage \n(CO_334:0002075/CO_334:0002073) * 100" [CO:curators]
+def: "The ratio of the end force measured at 20mm divided by the maximum force recorded during the texture-extrusion profile of a piece of cassava root boiled for a set time, and pushed through a 5-blade grid. The shape of the piece is a half-cylinder, approx. 5.5 cm diameter and 6 cm long. Derived trait calculated as percentage (CO_334:0002075/CO_334:0002073) * 100" [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0002071 ! Textural characteristic
 relationship: variable_of CO_334:0010525 ! Measurement: Textural characteristic
@@ -5935,7 +5935,7 @@ relationship: variable_of CO_334:0100583 ! pct (%)
 id: CO_334:0001029
 name: farmer preference at harvest observation 1-5 scale
 namespace: cassava_trait
-def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5.\nThe score represents the farmer perception of a good cassava root at harvest." [CO:curators]
+def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5.The score represents the farmer perception of a good cassava root at harvest." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001027 ! farmer preference trait at harvest
 relationship: variable_of CO_334:0012000 ! Observation: Farmer trait preference_method
@@ -5945,7 +5945,7 @@ relationship: variable_of CO_334:0100436 ! 5 point scales
 id: CO_334:0001030
 name: farmer preference post harvest observation 1-5 scale
 namespace: cassava_trait
-def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5.\nThe score represents the farmer perception of a good cassava root post harvest." [CO:curators]
+def: "Farmers were given three(3) varieties each and they give their opinion on each, rank and as well score on an ordinal scale of 1-5. The score represents the farmer perception of a good cassava root post harvest." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0012000 ! Observation: Farmer trait preference_method
@@ -5975,7 +5975,7 @@ relationship: variable_of CO_334:0100558 ! cm
 id: CO_334:0001037
 name: post-harvest physiological deterioration variable 0-10 scale measured 8 months after planting.
 namespace: cassava_trait
-def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 8 moths after planting." [CO:curators]
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption. A number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 8 moths after planting." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
@@ -5986,7 +5986,7 @@ relationship: variable_of CO_334:0100680 ! 11pt scale
 id: CO_334:0001038
 name: post-harvest physiological deterioration variable 0-10 month 10
 namespace: cassava_trait
-def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 10 moths after planting." [CO:curators]
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption. A number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 10 moths after planting." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
@@ -5997,7 +5997,7 @@ relationship: variable_of CO_334:0100680 ! 11pt scale
 id: CO_334:0001039
 name: post-harvest physiological deterioration variable 0-10 scale measured 11 months after planting.
 namespace: cassava_trait
-def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption.\nA number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 11 moths after planting." [CO:curators]
+def: "Internal root discoloration or vascular streaking that renders cassava roots unfit for human or animal consumption. A number of root samples are cut into 7 slices  and each slice is scored on a 0-10 scale. 0 = No symptom of root discoloration, 1 = 10% of the root surface has root discoloration, 2 = 30% of the root surface has root discoloration, 3 = 30% of the root surface has root discoloration, 4 = 40% of the root surface has root discoloration, 5 = 50% of the root surface has root discoloration, 6 = 60% of the root surface has root discoloration, 7 = 70% of the root surface has root discoloration, 8 = 80% of the root surface has root discoloration, 9 = 90% of the root surface has root discoloration, 100 = 100% of the root surface has root discoloration. Measured 11 moths after planting." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
@@ -6138,7 +6138,7 @@ relationship: method_of CO_334:0000291 ! Beta carotene
 id: CO_334:0001055
 name: hydrogen cyanide ug/g wet basis
 namespace: cassava_trait
-def: "The cyanogenic potential of extracts from cassava roots (or other cassava-based products), evaluated by reaction with linamarase followed by colorimetric determination of cyanide concentration and expressed in ug/g of sample wet basis. \n\nSample is ground into a mash and cyanogenic compounds extracted using a buffer of orthophosphoric acid. The extracts are incubated with linamarase to release CN ions, which are quantified by spectrophotometry at 605 nm (in presence of chloramin T and isonicotinic/1,3 dimethyl-barbituric reagent)." [CO:curators]
+def: "The cyanogenic potential of extracts from cassava roots (or other cassava-based products), evaluated by reaction with linamarase followed by colorimetric determination of cyanide concentration and expressed in ug/g of sample wet basis.  Sample is ground into a mash and cyanogenic compounds extracted using a buffer of orthophosphoric acid. The extracts are incubated with linamarase to release CN ions, which are quantified by spectrophotometry at 605 nm (in presence of chloramin T and isonicotinic/1,3 dimethyl-barbituric reagent)." [CO:curators]
 synonym: "HCN linamarase (ug/g wb)" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000502 ! Storage root cyanide content
@@ -6248,7 +6248,7 @@ creation_date: 2024-02-13T17:00:04Z
 id: CO_334:0001075
 name: Total titratable acidity of fufu in percentage
 namespace: cassava_trait
-def: "A measure of the percentage amount of acid or acids present in a food sample. \n10ml of fufu liquor was measured into a conical flask and 3 drops of phenolpthalein indicator added. It was titrated against 0.1N NaOH solution in a burette till a colour change was observed. Th initial and final vol. of the NaOH solution was noted. The procedure was replicatd for each sample. %TTA = ((concentration of base * titre value)/volume of sample used))*100" [CO:curators]
+def: "A measure of the percentage amount of acid or acids present in a food sample. 10ml of fufu liquor was measured into a conical flask and 3 drops of phenolpthalein indicator added. It was titrated against 0.1N NaOH solution in a burette till a colour change was observed. Th initial and final vol. of the NaOH solution was noted. The procedure was replicatd for each sample. %TTA = ((concentration of base * titre value)/volume of sample used))*100" [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001076 ! Measurement:  acidity titer method
@@ -6282,7 +6282,7 @@ is_a: CO_334:0001077 ! Root quality traits
 id: CO_334:0001079
 name: Hardness/softness of raw cassava roots in kilograms per cubic centimeter kg/cm^3
 namespace: cassava_trait
-def: "A measure of the hardness or softness of cassava or its penetrability.\nPenetrometer measurement in kg/cm^3." [CO:curators]
+def: "A measure of the hardness or softness of cassava or its penetrability. Penetrometer measurement in kg/cm^3." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001078 ! Hardness/softness of raw cassava roots
 relationship: variable_of CO_334:0001080 ! Calculation: hardness of raw root_method
@@ -6315,7 +6315,8 @@ is_a: CO_334:0002071 ! Textural characteristic
 id: CO_334:0001083
 name: Fufu gumminess measured in Newtons
 namespace: cassava_trait
-def: "A measure of fufu stickiness in newtons obtained by Texture Profile Analysis probe." [CO:curators]
+def: "A measure of fufu stickiness in newtons obtained by Texture Profile Analysis probe. Textural profile analysis by double compression of fufu textural characteristic  gumminess." [CO:curators]
+synonym: "FufGumm_TPA" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
@@ -6334,8 +6335,10 @@ relationship: method_of CO_334:0001082 ! Texture profile analysis trait
 id: CO_334:0001085
 name: Fufu chewiness measured in Newtons
 namespace: cassava_trait
-def: "A measure of fufu easiness to chew in newtons obtained by Texture Profile Analysis probe." [CO:curators]
+def: "A measure of fufu easiness to chew in newtons obtained by Texture Profile Analysis probe. The mechanical textural attribute related to the amount of work required to masticate a solid measured by TPA double compression." [CO:curators]
+synonym: "FufChew_TPA" EXACT []
 is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0100695 ! newton
@@ -6344,7 +6347,8 @@ relationship: variable_of CO_334:0100695 ! newton
 id: CO_334:0001086
 name: Fufu hardness measured in Newtons
 namespace: cassava_trait
-def: "Fufu hardness is measure of the easiness of pressing a sample with the texture profile analyzer." [CO:curators]
+def: "Fufu hardness is measure of the easiness of pressing a sample with the texture profile analyzer. The amount of force required to deform or to overcome resistance to puncture of the food material measured by TPA." [CO:curators]
+synonym: "FufHard_TPA" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
@@ -6489,9 +6493,11 @@ relationship: variable_of CO_334:0100583 ! pct (%)
 id: CO_334:0001103
 name: fufu resilience ratio
 namespace: cassava_trait
-def: "Textural profile analysis by double compression of fufu resilience. The area under curve after peak force is reached divided by the area under curve before peak force is reached as  computed from TPA measurements." [CO:curators]
+def: "Textural profile analysis by double compression of fufu resilience. The area under curve after peak force is reached divided by the area under curve before peak force is reached as  computed from TPA measurements. The mechanical textural attribute relating to the rapidity of recovery from a deforming force or the degree to which a deformed material returns to its original condition after the deforming force is removed measured by TPA double compression." [CO:curators]
+synonym: "FufRes_TPA" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001104 ! Calculation: fufu resilience ratio method
 relationship: variable_of CO_334:0100582 ! ratio
@@ -6501,7 +6507,7 @@ creation_date: 2024-02-27T17:00:04Z
 id: CO_334:0001104
 name: Calculation: fufu resilience ratio method
 namespace: CassavaMethod
-def: "The area under curve after peak force is reached divided by the area under curve before peak force is reached.\nFufu sample of uniform dimension 4.0 cm height x 4.7 cm diameter and temperature of 45°C was placed at the center of the platform of a Stable Microsystems TA. XTplus equipped with a standard compression cylindrical plate of 100 mm diameter. Double compression of the samples was done automatically with a 10g trigger load and 10 seconds interval between each compression." [CO:curators]
+def: "The area under curve after peak force is reached divided by the area under curve before peak force is reached.Fufu sample of uniform dimension 4.0 cm height x 4.7 cm diameter and temperature of 45°C was placed at the center of the platform of a Stable Microsystems TA. XTplus equipped with a standard compression cylindrical plate of 100 mm diameter. Double compression of the samples was done automatically with a 10g trigger load and 10 seconds interval between each compression." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001103 ! fufu resilience ratio
 
@@ -6509,9 +6515,11 @@ relationship: method_of CO_334:0001103 ! fufu resilience ratio
 id: CO_334:0001105
 name: fufu cohesiveness ratio
 namespace: cassava_trait
-def: "Textural profile analysis by double compression of fufu cohesiveness. The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements." [CO:curators]
+def: "Textural profile analysis by double compression of fufu cohesiveness. The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements. The work required to overcome the internal bonds of a material measured by TPA double compression" [CO:curators]
+synonym: "FufCoh_TPA" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001106 ! Calculation: fufu cohesiveness ratio method
 relationship: variable_of CO_334:0100582 ! ratio
@@ -6521,7 +6529,7 @@ creation_date: 2024-02-27T17:00:04Z
 id: CO_334:0001106
 name: Calculation: fufu cohesiveness ratio method
 namespace: CassavaMethod
-def: "The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements.\nFufu sample of uniform dimension 4.0 cm height x 4.7 cm diameter and temperature of 45°C was placed at the center of the platform of a Stable Microsystems TA. XTplus equipped with a standard compression cylindrical plate of 100 mm diameter. Double compression of the samples was done automatically with a 10g trigger load and 10 seconds interval between each compression." [CO:curators]
+def: "The area underneath the second compression and withdrawal curves divided by the area underneath the first compression and withdrawal curves as computed from TPA measurements. Fufu sample of uniform dimension 4.0 cm height x 4.7 cm diameter and temperature of 45°C was placed at the center of the platform of a Stable Microsystems TA. XTplus equipped with a standard compression cylindrical plate of 100 mm diameter. Double compression of the samples was done automatically with a 10g trigger load and 10 seconds interval between each compression." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0001105 ! fufu cohesiveness ratio
 
@@ -6529,10 +6537,12 @@ relationship: method_of CO_334:0001105 ! fufu cohesiveness ratio
 id: CO_334:0001107
 name: fufu springiness percentage
 namespace: cassava_trait
-def: "Textural profile analysis by double compression. A measure of elasticity in percentage. A product’s recovery to its original height ((Distance 2)/(Distance 1)*100 or (Time 2/Time 1)*100)." [CO:curators]
+def: "Textural profile analysis by double compression. A measure of elasticity in percentage. A product’s recovery to its original height ((Distance 2)/(Distance 1)*100 or (Time 2/Time 1)*100).  The degree to which food can recover between the end of the first bite and the beginning of the second bite in the mouth measured by TPA double compression." [CO:curators]
+synonym: "FufSpr_TPA" EXACT []
 xref: CO:curators
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
 relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
 relationship: variable_of CO_334:0001108 ! Calculation: Fufu springiness in percentage
 relationship: variable_of CO_334:0100583 ! pct (%)
@@ -6549,7 +6559,8 @@ relationship: method_of CO_334:0001107 ! fufu springiness percentage
 id: CO_334:0001109
 name: Fufu adhesiveness measured in Newton per second N/s
 namespace: cassava_trait
-def: "Textural profile analysis by double compression of fufu adhesiveness. A measure of the quality of fufu stickiness measured in newton per second N/s." [CO:curators]
+def: "Textural profile analysis by double compression of fufu adhesiveness. A measure of the quality of fufu stickiness measured in newton per second N/s. The work required in overcoming the attractive force between a product and the contact surface measured by TPA double compression." [CO:curators]
+synonym: "FufAdh_TPA" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001073 ! Fufu quality
 relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
@@ -6681,9 +6692,9 @@ relationship: variable_of CO_334:0001125 ! millimol electrons
 id: CO_334:0001124
 name: Measurement: Pulse Amplitude Modulation (PAM) technique for measuring electron transport rate
 namespace: CassavaMethod
-def: "the method to measure ETR is based on the pulse amplitude modulation (PAM) technique.\nIt  consists of emitting blue light pulse (over a leaf area of about 1 square cm) which will cause chlorophyll fluorescence (ChlF);\nChlF information is used to estimate the quantum efficiency of photosystem II, and subsequently ETR as a proxy of photosynthesis." [CO:curators]
+def: "the method to measure ETR is based on the pulse amplitude modulation (PAM) technique. It consists of emitting blue light pulse (over a leaf area of about 1 square cm) which will cause chlorophyll fluorescence (ChlF); ChlF information is used to estimate the quantum efficiency of photosystem II, and subsequently ETR as a proxy of photosynthesis." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0001123 ! Maximum electron transport rate measured in mmol electrons using pulse amplitude modulation (PAM)
+relationship: method_of CO_334:0001123 ! Maximum electron transport rate (ETRmax) measured in mmol electrons using pulse amplitude modulation (PAM)-based methods
 
 [Term]
 id: CO_334:0001125
@@ -6692,6 +6703,78 @@ namespace: CassavaScale
 synonym: "mmol electrons" EXACT []
 is_a: CO_334:0001001 ! Scales
 relationship: scale_of CO_334:0001124 ! Measurement: Pulse Amplitude Modulation (PAM) technique for measuring electron transport rate
+
+[Term]
+id: CO_334:0001126
+name: Textural profile analysis by double compression of fufu textural characteristic distance to max force at first compression
+namespace: cassava_trait
+def: "Textural parameter used to calculate chewiness and springness measured by TPA double compression." [CO:curators]
+synonym: "Dist1_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100697 ! mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001127
+name: Textural profile analysis by double compression of fufu textural characteristic distance to max force at second compression
+namespace: cassava_trait
+def: "Textural parameter used to calculate chewiness and springness measured by TPA double compression. The distance between the beginning of the second TPA compression and the highest peak force of the second TPA compression." [CO:curators]
+synonym: "Dist2_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100697 ! mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001128
+name: Textural profile analysis by double compression of fufu textural characteristic area under curve at first compression
+namespace: cassava_trait
+def: "Textural parameter used to calculate cohesiveness and resilience measured by TPA double compression. The area underneath the curve between beginning of first compression and highest peak force of first compression." [CO:curators]
+synonym: "Area_a_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100698 ! g/mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001129
+name: Textural profile analysis by double compression of fufu textural characteristic  area under curve at first withdrawal
+namespace: cassava_trait
+def: "Textural parameter used to calculate cohesiveness and resilience. The area underneath the curve between highest peak force of first compression and end of first withdrawal" [CO:curators]
+synonym: "Area_b_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100698 ! g/mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001130
+name: Textural profile analysis by double compression of fufu textural characteristic area under curve at second compression
+namespace: cassava_trait
+def: "Textural parameter used to calculate cohesiveness. The area underneath the curve between highest peak force of second compression and end of second withdrawal." [CO:curators]
+synonym: "Area_d_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100698 ! g/mm
+creation_date: 2025-04-02T17:00:04Z
+
+[Term]
+id: CO_334:0001131
+name: Textural profile analysis by double compression of fufu textural characteristic area under curve at second withdrawal
+namespace: cassava_trait
+def: "Textural parameter used to calculate cohesiveness. The area underneath the curve between highest peak force of second compression and end of second withdrawal." [CO:curators]
+synonym: "Area_e_TPA" EXACT []
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001082 ! Texture profile analysis trait
+relationship: variable_of CO_334:0001084 ! Measurement: Texture Profile Analysys with TPA platform and probe
+relationship: variable_of CO_334:0100698 ! g/mm
+creation_date: 2025-04-02T17:00:04Z
 
 [Term]
 id: CO_334:0002001
@@ -11922,7 +12005,7 @@ relationship: method_of CO_334:0000297 ! Carotenoid content
 id: CO_334:0010369
 name: Estimation: Beta carotene_method
 namespace: CassavaMethod
-def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight.\n\nFresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Concentrations are expressed in ug/g wet basis." [CO:curators]
+def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight.  Fresh cassava roots are ground into a mash and carotenoids are extracted with acetone and petroleum ether. The extracts are analyzed by HPLC with mobile phases (methanol + ammonium acetate) followed by methy-ter-butyl-ether. The resulting peaks are identified and quantified using calibration standards and calibration curve. Concentrations are expressed in ug/g wet basis." [CO:curators]
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0000291 ! Beta carotene
 
