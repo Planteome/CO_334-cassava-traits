@@ -3515,7 +3515,7 @@ creation_date: 2016-12-22T16:15:30Z
 
 [Term]
 id: CO_334:0000304
-name: fresh storage root weight per plant
+name: fresh storage root weight per plant in kg
 namespace: cassava_trait
 def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:Curators]
 is_a: CO_334:0001000 ! Variables
@@ -10357,6 +10357,7 @@ is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000302 ! Storage root weight by plot
 relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
 relationship: variable_of CO_334:0100493 ! kg
+is_obsolete: true
 
 [Term]
 id: CO_334:0004006
