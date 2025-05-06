@@ -7129,7 +7129,7 @@ relationship: variable_of CO_334:0100681 ! m3
 
 [Term]
 id: CO_334:0002033
-name: plant height per plot in m
+name: plant height remote sensing in meters (m)
 namespace: cassava_trait
 def: "UAV-based plant height calculated as the 0.95 quantile of CSM elevation values within the area of interest for each plant. This
  quantile represents the height below which 95% of all measurements fall, capturing the upper canopy structure while reducing the infl
