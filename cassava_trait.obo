@@ -6627,9 +6627,9 @@ is_a: CO_334:0000001 ! Agronomic trait
 
 [Term]
 id: CO_334:0001117
-name: relative growth rate measured from an unmanned aerial vehicle (UAV) in cubic meters per day m^3/day
+name: relative growth rate in cubic meters per day (m^3/day).
 namespace: cassava_trait
-def: "the speed of the crop growth in terms of volume per unit of time (a day) m3/day." [CO:curators]
+def: "Represents the speed of crop growth, expressed as the change in UAV-based plot volume per day as unit of time (m^3/day)." [CO:curators]
 synonym: "RGR_vol" EXACT []
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0001116 ! Relative growth rate trait
@@ -6650,7 +6650,7 @@ name: Measurement: Relative Growth Rate Remote sensing from unmanned aerial vehi
 namespace: CassavaMethod
 def: "Measurement using a Remote sensing, from unmanned aerial vehicles (UAV)." [CO:curators]
 is_a: CO_334:0001002 ! Methods
-relationship: method_of CO_334:0001117 ! relative growth rate measured from an unmanned aerial vehicle (UAV) in cubic meters per day m^3/day
+relationship: method_of CO_334:0001117 ! relative growth rate in cubic meters per day (m^3/day).
 
 [Term]
 id: CO_334:0001120
