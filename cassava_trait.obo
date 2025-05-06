@@ -7108,11 +7108,12 @@ is_a: CO_334:0002029 ! Remote sensing trait
 
 [Term]
 id: CO_334:0002031
-name: Plant height per plot
+name: obsolete Plant height per plot
 namespace: cassava_trait
 def: "Plant height calculated from result of drone image analysis." [CO:curators]
 xref: CO:curator
 is_a: CO_334:0002029 ! Remote sensing trait
+is_obsolete: true
 
 [Term]
 id: CO_334:0002032
@@ -7130,11 +7131,14 @@ relationship: variable_of CO_334:0100681 ! m3
 id: CO_334:0002033
 name: plant height per plot in m
 namespace: cassava_trait
-def: "Plant height calculated from the mean of the 5% highest point in a plot point cloud (top 95 percentile)." [CO:curators]
+def: "UAV-based plant height calculated as the 0.95 quantile of CSM elevation values within the area of interest for each plant. This
+ quantile represents the height below which 95% of all measurements fall, capturing the upper canopy structure while reducing the infl
+uence of outlier" [CO:curators]
 synonym: "plantht" RELATED []
 xref: CO:curator
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0002031 ! Plant height per plot
+relationship: variable_of CO_334:0000432 ! Plant height
+relationship: variable_of CO_334:0002029 ! Remote sensing trait
 relationship: variable_of CO_334:0010303 ! Measurement: Plant height_method
 relationship: variable_of CO_334:0100679 ! m
 
@@ -13027,12 +13031,13 @@ relationship: method_of CO_334:0002030 ! Plot volume
 
 [Term]
 id: CO_334:0010495
-name: Calculation: Plant height per plot_method
+name: obsolete Calculation: Plant height per plot_method
 namespace: CassavaMethod
 def: "Height of plant calculated from the mean of the 5% highest points in a plot point cloud." [CO:curators]
 xref: CO:curator
 is_a: CO_334:0001002 ! Methods
 relationship: method_of CO_334:0002031 ! Plant height per plot
+is_obsolete: true
 
 [Term]
 id: CO_334:0010496
