@@ -3726,21 +3726,18 @@ creation_date: 2017-04-10T12:26:09Z
 
 [Term]
 id: CO_334:0000325
-name: total fresh weight by plot
+name: obsolete total fresh weight by plot
 namespace: cassava_trait
-def: "The sum of fresh root weight + fresh shoot weight by plot in kg." [CO:curators]
+def: "Replaced by CO_334:0000326. The sum of fresh root weight + fresh shoot weight by plot in kg." [CO:curators]
 is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000324 ! Total fresh weight
-relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
-relationship: variable_of CO_334:0100493 ! kg
 created_by: naama
 creation_date: 2017-04-10T12:26:56Z
 
 [Term]
 id: CO_334:0000326
-name: total fresh weight by plant
+name: total fresh weight in kg.
 namespace: cassava_trait
-def: "The sum of fresh root weight + fresh shoot weight by plant in kg." [CO:curators]
+def: "The sum of fresh root weight + fresh shoot weight in kg." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000324 ! Total fresh weight
 relationship: variable_of CO_334:0010514 ! Measurement: Storage root weight per plant_method
