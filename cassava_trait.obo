@@ -3729,9 +3729,9 @@ id: CO_334:0000325
 name: obsolete total fresh weight by plot
 namespace: cassava_trait
 def: "Replaced by CO_334:0000326. The sum of fresh root weight + fresh shoot weight by plot in kg." [CO:curators]
-is_a: CO_334:0001000 ! Variables
 created_by: naama
 creation_date: 2017-04-10T12:26:56Z
+is_obsolete: true
 
 [Term]
 id: CO_334:0000326
@@ -7109,7 +7109,6 @@ name: obsolete Plant height per plot
 namespace: cassava_trait
 def: "Plant height calculated from result of drone image analysis." [CO:curators]
 xref: CO:curator
-is_a: CO_334:0002029 ! Remote sensing trait
 is_obsolete: true
 
 [Term]
@@ -10352,10 +10351,6 @@ namespace: cassava_trait
 def: "Total fresh weight of storage roots harvested per plant measured in kilogram (kg)." [CO:curators]
 synonym: "rtwt" EXACT []
 synonym: "RtWt_Wgh_kg" EXACT []
-is_a: CO_334:0001000 ! Variables
-relationship: variable_of CO_334:0000302 ! Storage root weight by plot
-relationship: variable_of CO_334:0010286 ! Measurement: Fresh weight of storage root_method
-relationship: variable_of CO_334:0100493 ! kg
 is_obsolete: true
 
 [Term]
@@ -15866,4 +15861,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
