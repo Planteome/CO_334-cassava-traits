@@ -3732,6 +3732,7 @@ def: "Replaced by CO_334:0000326. The sum of fresh root weight + fresh shoot wei
 is_a: CO_334:0001000 ! Variables
 created_by: naama
 creation_date: 2017-04-10T12:26:56Z
+is_obsolete: true
 
 [Term]
 id: CO_334:0000326
@@ -15866,4 +15867,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
