@@ -5,6 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001132> \"CO_334:0002116\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001133> \"CO_334:0002110\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001134> \"CO_334:0000077\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -3729,9 +3730,9 @@ id: CO_334:0000325
 name: obsolete total fresh weight by plot
 namespace: cassava_trait
 def: "Replaced by CO_334:0000326. The sum of fresh root weight + fresh shoot weight by plot in kg." [CO:curators]
+is_obsolete: true
 created_by: naama
 creation_date: 2017-04-10T12:26:56Z
-is_obsolete: true
 
 [Term]
 id: CO_334:0000326
@@ -6774,6 +6775,33 @@ relationship: variable_of CO_334:0100698 ! g/mm
 creation_date: 2025-04-02T17:00:04Z
 
 [Term]
+id: CO_334:0001132
+name: cassava generic leaf spot disease severity by visual rating 0-5
+namespace: cassava_trait
+def: "Visual rating of symptoms in response to leaf spot disease severity caused by Passalora genus: \nPassalora henningsii (Brown spot), Passalora vicosae (Blight leaf spot - D.BlLS), and Passalora manihotis (White leaf spot of cassava), using the following scale: 0 = No symptoms; 1 = Mild symptoms on the lower third leaves; 2 = Leaf spots on lower leaves and yellowing on a few affected leaves; 3 = Leaf spots on lower and middle leaves, with yellowing on most affected leaves; 4 = Leaf spots across the entire plant, with lower leaf shedding; 5 = Complete plant defoliation." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0001133 ! Cassava leaf spot disease severity
+relationship: variable_of CO_334:0100705 ! 5 pt scale
+
+[Term]
+id: CO_334:0001133
+name: Cassava leaf spot disease severity
+namespace: cassava_trait
+def: "Severity of leaf spot caused by Phaeoramularia genus (previosly named Passalora)" [CO:curators]
+xref: CO:curators
+is_a: CO_334:0000029 ! fungal disease
+
+[Term]
+id: CO_334:0001134
+name: Post-Harvest Physiological Deterioration percentage after harvest
+namespace: cassava_trait
+def: "Internal root discoloration or vascular streaking that makes cassava roots unsuitable for human or animal consumption. Root pieces are cut and evaluated for PPD severity in percentage using specialized software such as ImageJ." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+is_a: CO_334:0001025 ! farmer preference trait post-harvest
+relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
+relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
 id: CO_334:0002001
 name: number of plants with rotten roots counting
 namespace: cassava_trait
@@ -7834,7 +7862,7 @@ namespace: cassava_trait
 def: "Severity of white leaf spot caused by Phaeoramularia manihotis (previosly named Passalora manihotis)" [CO:curators]
 synonym: "cwlsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: CO_334:0001133 ! Cassava leaf spot disease severity
 
 [Term]
 id: CO_334:0002111
@@ -7852,7 +7880,7 @@ namespace: cassava_trait
 def: "Severity of brown leaf spot disease caused by Passalora henningsii." [CO:curators]
 synonym: "cblsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: CO_334:0001133 ! Cassava leaf spot disease severity
 
 [Term]
 id: CO_334:0002113
@@ -7869,7 +7897,7 @@ namespace: cassava_trait
 def: "Severity of blight leaf spot disease caused by Passalora vicosae." [CO:curators]
 synonym: "cbllsds" RELATED []
 xref: CO:curators
-is_a: CO_334:0000029 ! fungal disease
+is_a: CO_334:0001133 ! Cassava leaf spot disease severity
 
 [Term]
 id: CO_334:0002115
@@ -7882,7 +7910,7 @@ is_a: CO_334:0000029 ! fungal disease
 
 [Term]
 id: CO_334:0002116
-name: cassava white leaf spot disease severity by visual rating 1-5
+name: cassava white leaf spot disease severity by visual rating 0-5
 namespace: cassava_trait
 def: "Visual rating of symptoms in response to the white leaf spot disease caused by Passalora maninhotis. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = > 50% of affected leaves at the lower third of the plant, 3 = Affected leaves on the middle and upper third of the plant, 4 = low incidence distributed all over the plant, 5 = Middle incidence distributed all over the plant with yellowed leaves and/or defoliation of the lower third part of the plant, 6 = Plant fully defoliated." [CO:curators]
 synonym: "cwlsds" RELATED []
@@ -7903,7 +7931,7 @@ relationship: variable_of CO_334:0100617 ! proportion
 
 [Term]
 id: CO_334:0002118
-name: cassava brown leaf spot disease severity by visual rating 1-5
+name: cassava brown leaf spot disease severity by visual rating 0-5
 namespace: cassava_trait
 def: "Visual rating of symptoms in response to the brown leaf spot disease caused by Passalora henningsii. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = Low incidence at the lower third part of the plant, 3 = middle incidence distributed at the lower and middle parts of the plant with yellowed leaves and/or defoliation, 4 = high incidence distributed all over the plant with yellowed leaves and/or defoliation, 5 = Plant fully defoliated." [CO:curators]
 synonym: "cblsds" RELATED []
@@ -7925,7 +7953,7 @@ relationship: variable_of CO_334:0100617 ! proportion
 
 [Term]
 id: CO_334:0002120
-name: cassava blight leaf spot disease severity by visual rating 1-5
+name: cassava blight leaf spot disease severity by visual rating 0-5
 namespace: cassava_trait
 def: "Visual rating of symptoms in response to the blight leaf spot disease caused by Passalora vicosae. Symptoms rated from: 0 = clean, no infection, 1 = Few leaves affected from the lower third part of the plant, 2 = Low incidence at the lower third part of the plant, 3 = middle incidence distributed at the lower and middle parts of the plant with yellowed leaves and/or defoliation, 4 = high incidence distributed all over the plant with yellowed leaves and/or defoliation, 5 = Plant fully defoliated." [CO:curators]
 synonym: "cbllsds" RELATED []
@@ -15861,3 +15889,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
