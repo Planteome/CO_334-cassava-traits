@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001132> \"CO_334:0002116\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001133> \"CO_334:0002110\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001134> \"CO_334:0000077\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001132> \"CO_334:0002116\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001133> \"CO_334:0002110\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001134> \"CO_334:0000077\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001135> \"CO_334:0002116\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6800,6 +6800,15 @@ is_a: CO_334:0001000 ! Variables
 is_a: CO_334:0001025 ! farmer preference trait post-harvest
 relationship: variable_of CO_334:0000266 ! Post-harvest physiological deterioration
 relationship: variable_of CO_334:0100583 ! pct (%)
+
+[Term]
+id: CO_334:0001135
+name: cassava superelongation severity 1-5 Scale
+namespace: cassava_trait
+def: "Visual rating of symptoms in response to the fungus Elsinoe brasiliensis (also known as Sphaerulina manihoticola). \nCassava superelongation severity scored as follows: 1 = No visible symptoms; 2 = Some leaf or petiole wart-like lesions; 3 = Wart-like lesions on petioles and stems, with severe leaf deformation; 4 = Stem elongation, wart-like lesions on leaves, petioles, and stems, with severe leaf deformation and leaf scorch; 5 = Plant death following severe superelongation." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0000029 ! fungal disease
+relationship: variable_of CO_334:0100705 ! 5 pt scale
 
 [Term]
 id: CO_334:0002001
