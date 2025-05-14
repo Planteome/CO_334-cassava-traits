@@ -5,7 +5,7 @@ auto-generated-by: OBO-Edit 2.3.1
 default-namespace: CassavaTraitOntology
 namespace-id-rule: * CO_334:$sequence(7,0100000,0999999)$
 ontology: co_334
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001132> \"CO_334:0002116\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001133> \"CO_334:0002110\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001134> \"CO_334:0000077\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001135> \"CO_334:0002116\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001136> \"CO_334:0002116\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001132> \"CO_334:0002116\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001133> \"CO_334:0002110\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001134> \"CO_334:0000077\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001135> \"CO_334:0002116\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001136> \"CO_334:0002116\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001137> \"CO_334:0003172\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/co_334.owl#CO_334:0001138> \"CO_334:0003173\"^^xsd:string)\n)
 
 [Term]
 id: CO_334:0000000
@@ -6817,6 +6817,22 @@ namespace: cassava_trait
 def: "Identification of the clone as waxy or non-waxy:; 0 = Normal starch (non-waxy); 1 = Waxy starch\nThe waxy phenotype is associated with a low amylose content (<5%) among the starch components." [CO:curators]
 is_a: CO_334:0001000 ! Variables
 relationship: variable_of CO_334:0000317 ! Starch properties
+
+[Term]
+id: CO_334:0001137
+name: Root productiviy evaluation 1-3 scale
+namespace: cassava_trait
+def: "Evaluation of root productivity, using the following scale: 1 = No roots; 2 = Few roots; 3 = Many roots." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003231 ! Root formation
+
+[Term]
+id: CO_334:0001138
+name: Root rot severity 1-3 scale
+namespace: cassava_trait
+def: "Severity assessment of root rot in the plot, scored as follows: 1 = Up to 20% of roots affected; 2 = 21-50% of roots affected; 3 = More than 50% of roots affected." [CO:curators]
+is_a: CO_334:0001000 ! Variables
+relationship: variable_of CO_334:0003232 ! Root rot presence
 
 [Term]
 id: CO_334:0002001
